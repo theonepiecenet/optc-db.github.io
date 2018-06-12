@@ -22,7 +22,7 @@ angular.module('optc').config(function($stateProvider, $urlRouterProvider) {
             params: { previous: [ ] },
             views: {
                 'popup@': {
-                    templateUrl: 'views/details.html',
+                    templateUrl: 'views/details.kr.html',
                     controller: 'DetailsCtrl',
                 }
             },
