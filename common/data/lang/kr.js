@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 var GA_ID = "UA-120726319-1";
 
-=======
->>>>>>> 01299a1116f76eb77b104d397a302d2032d26e67
 function typeConvert(type)
 {
   var temp = "";
