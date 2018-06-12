@@ -1,3 +1,10 @@
+#theonepiece.net
+optc-db의 내용을 한글로 변환 작업하고 있습니다. 
+
+Pull Request 및 댓글(준비 중)을 통해 한글 정보 추가를 부탁드립니다. 
+
+아래는 optc-db의 README내용입니다.
+
 # optc-db.github.io
 
 The Continuation of the highly loved and apreciated OPTC Database.
