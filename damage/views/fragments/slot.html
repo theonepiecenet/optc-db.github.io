@@ -4,11 +4,11 @@
     uib-popover-template="'views/fragments/popover.html'" popover-append-to-body="'true'">
 
     <span class="unitPlaceholder" ng-hide="data.team[slot].unit"
-        ng-if="slot == 0">Click to add (friend)</span>
+        ng-if="slot == 0">조력자<br>추가</span>
     <span class="unitPlaceholder" ng-hide="data.team[slot].unit"
-        ng-if="slot == 1">Click to add (captain)</span>
+        ng-if="slot == 1">선장 추가</span>
     <span class="unitPlaceholder" ng-hide="data.team[slot].unit"
-        ng-if="slot > 1">Click to add</span>
+        ng-if="slot > 1">추가</span>
 
     <level-label ng-if="data.team[slot].unit">Lv. {{ data.team[slot].level }}</level-label>
 
@@ -26,8 +26,8 @@
     
 
     <div class="ribbon-container" ng-if="slot < 2">
-        <div class="corner-ribbon orange" ng-if="slot < 1">Friend</div>
-        <div class="corner-ribbon red" ng-if="slot == 1">Captain</div>
+        <div class="corner-ribbon orange" ng-if="slot < 1">조력자</div>
+        <div class="corner-ribbon red" ng-if="slot == 1">선장</div>
     </div>
 
 </div>
