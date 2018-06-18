@@ -1,56 +1,58 @@
-<div id="clear-button" class="filter-header" ng-click="clearFilters()">Clear filters</div>
+<div id="clear-button" class="filter-header" ng-click="clearFilters()">필터 초기화</div>
 
 <div class="filter-container">
-    <span class="filter-header">Type filters </span>
-    <span ng-model="filters.type" ng-repeat="(n,type) in [ '힘']" class="filter width-4 type STR" ng-class="{ active: filters.type == type }"
-        ng-click="onFilterClick($event,'STR')">{{type}}</span><span ng-model="filters.type" ng-repeat="(n,type) in [ '속도']" class="filter width-4 type QCK" ng-class="{ active: filters.type == type }"
-        ng-click="onFilterClick($event,'QCK')">{{type}}</span><span ng-model="filters.type" ng-repeat="(n,type) in [ '기술']" class="filter width-4 type DEX" ng-class="{ active: filters.type == type }"
-        ng-click="onFilterClick($event,'DEX')">{{type}}</span><span ng-model="filters.type" ng-repeat="(n,type) in [ '마음']" class="filter width-6 type PSY" ng-class="{ active: filters.type == type }"
-        ng-click="onFilterClick($event,'PSY')">{{type}}</span><span ng-model="filters.type" ng-repeat="(n,type) in [ '지능']" class="filter width-6 type INT" ng-class="{ active: filters.type == type }"
-        ng-click="onFilterClick($event,'INT')">{{type}}</span>
+    <span class="filter-header">속성 </span>
+    <span ng-model="filters.type" ng-repeat="(n,type) in [ 'STR']" class="filter width-4 type STR" ng-class="{ active: filters.type == type }"
+        ng-click="onFilterClick($event,'STR')">힘</span><span ng-model="filters.type" ng-repeat="(n,type) in [ 'QCK']" class="filter width-4 type QCK" ng-class="{ active: filters.type == type }"
+        ng-click="onFilterClick($event,'QCK')">속도</span><span ng-model="filters.type" ng-repeat="(n,type) in [ 'DEX']" class="filter width-4 type DEX" ng-class="{ active: filters.type == type }"
+        ng-click="onFilterClick($event,'DEX')">기술</span><span ng-model="filters.type" ng-repeat="(n,type) in [ 'PSY']" class="filter width-6 type PSY" ng-class="{ active: filters.type == type }"
+        ng-click="onFilterClick($event,'PSY')">마음</span><span ng-model="filters.type" ng-repeat="(n,type) in [ 'INT']" class="filter width-6 type INT" ng-class="{ active: filters.type == type }"
+        ng-click="onFilterClick($event,'INT')">지능</span>
 
 </div>
 <div class="filter-container">
-    <span class="filter-header">Class filters</span>
+    <span class="filter-header">타입</span>
     <span 
-	ng-repeat="(n,class) in [ '격투']"class="filter width-6 class" ng-click="onClassClick($event,'Fighter')"ng-class="{ active: filters.classes.indexOf(class) > -1 }">{{class}}</span><span 
-	ng-repeat="(n,class) in [ '사격']"class="filter width-6 class" ng-click="onClassClick($event,'Shooter')"ng-class="{ active: filters.classes.indexOf(class) > -1 }">{{class}}</span><span 
-	ng-repeat="(n,class) in [ '참격']"class="filter width-6 class" ng-click="onClassClick($event,'Slasher')"ng-class="{ active: filters.classes.indexOf(class) > -1 }">{{class}}</span><span 
-	ng-repeat="(n,class) in [ '타격']"class="filter width-6 class" ng-click="onClassClick($event,'Striker')"ng-class="{ active: filters.classes.indexOf(class) > -1 }">{{class}}</span><span 
-	ng-repeat="(n,class) in [ '자유']"class="filter width-6 class" ng-click="onClassClick($event,'Free Spirit')"ng-class="{ active: filters.classes.indexOf(class) > -1 }">{{class}}</span><span 
-	ng-repeat="(n,class) in [ '박식']"class="filter width-6 class" ng-click="onClassClick($event,'Cerebral')"ng-class="{ active: filters.classes.indexOf(class) > -1 }">{{class}}</span><span 
-	ng-repeat="(n,class) in [ '강인']"class="filter width-6 class" ng-click="onClassClick($event,'Powerhouse')"ng-class="{ active: filters.classes.indexOf(class) > -1 }">{{class}}</span><span 
-	ng-repeat="(n,class) in [ '야심']"class="filter width-6 class" ng-click="onClassClick($event,'Driven')"ng-class="{ active: filters.classes.indexOf(class) > -1 }">{{class}}</span><span 
-	ng-repeat="(n,class) in [ '진화용']"class="filter width-6 class" ng-click="onClassClick($event,'Evolver')"ng-class="{ active: filters.classes.indexOf(class) > -1 }">{{class}}</span><span 
-	ng-repeat="(n,class) in [ '강화용']"class="filter width-6 class" ng-click="onClassClick($event,'Booster')"ng-class="{ active: filters.classes.indexOf(class) > -1 }">{{class}}</span>
+	ng-repeat="(n,class) in [ 'Fighter']"class="filter width-6 class" ng-click="onClassClick($event,'Fighter')"ng-class="{ active: filters.classes.indexOf(class) > -1 }">격투</span><span 
+	ng-repeat="(n,class) in [ 'Shooter']"class="filter width-6 class" ng-click="onClassClick($event,'Shooter')"ng-class="{ active: filters.classes.indexOf(class) > -1 }">사격</span><span 
+	ng-repeat="(n,class) in [ 'Slasher']"class="filter width-6 class" ng-click="onClassClick($event,'Slasher')"ng-class="{ active: filters.classes.indexOf(class) > -1 }">참격</span><span 
+	ng-repeat="(n,class) in [ 'Striker']"class="filter width-6 class" ng-click="onClassClick($event,'Striker')"ng-class="{ active: filters.classes.indexOf(class) > -1 }">타격</span><span 
+	ng-repeat="(n,class) in [ 'Free Spirit']"class="filter width-6 class" ng-click="onClassClick($event,'Free Spirit')"ng-class="{ active: filters.classes.indexOf(class) > -1 }">자유</span><span 
+	ng-repeat="(n,class) in [ 'Cerebral']"class="filter width-6 class" ng-click="onClassClick($event,'Cerebral')"ng-class="{ active: filters.classes.indexOf(class) > -1 }">박식</span><span 
+	ng-repeat="(n,class) in [ 'Powerhouse']"class="filter width-6 class" ng-click="onClassClick($event,'Powerhouse')"ng-class="{ active: filters.classes.indexOf(class) > -1 }">강인</span><span 
+	ng-repeat="(n,class) in [ 'Driven']"class="filter width-6 class" ng-click="onClassClick($event,'Driven')"ng-class="{ active: filters.classes.indexOf(class) > -1 }">야심</span><span 
+	ng-repeat="(n,class) in [ 'Evolover']"class="filter width-6 class" ng-click="onClassClick($event,'Evolver')"ng-class="{ active: filters.classes.indexOf(class) > -1 }">진화용</span><span 
+	ng-repeat="(n,class) in [ 'Booster']"class="filter width-6 class" ng-click="onClassClick($event,'Booster')"ng-class="{ active: filters.classes.indexOf(class) > -1 }">강화용</span>
 
 </div>
 
 
 <div class="filter-container">
-    <span class="filter-header">Rarity filters</span>
-    <span ng-repeat="(n,stars) in [ 1, 2, 3, 4, 5, 6 ]" class="filter stars width-4 stars-{{stars}}"
+    <span class="filter-header">등급</span>
+    <span ng-repeat="(n,stars) in [ 1, 2, 3, 4, 5, 6 ]" class="filter width-4 stars-{{stars}}"
         ng-click="onStarsClick($event,stars)" ng-class="{ active: filters.stars.indexOf(stars) > -1 }"></span>
-    <span ng-repeat="(n,stars) in [ 5, 6 ]" class="filter stars width-4 stars-{{stars}}+"
+    <span ng-repeat="(n,stars) in [ 5, 6 ]" class="filter width-4 stars-{{stars}}+"
         ng-click="onStarsClick($event,stars + '+')" ng-class="{ active: filters.stars.indexOf(stars + '+') > -1 }"></span>
 </div>
 
 <div class="filter-container expandable" id="cost-container"
         ng-class="{ expanded: filters.costEnabled }">
     <span class="filter-header" ng-click="filters.costEnabled = !filters.costEnabled">
-        Cost filter
+        코스트
         <i class="pull-right fa fa-{{costExpanded ? 'chevron-up' : 'chevron-down'}}"></i>
     </span>
     <input type="text" id="cost-slider" name="cost-slider" value="" cost-slider></input>
 </div>
 
 <div class="filter-container">
-    <span class="filter-header">Drop filters
+    <span class="filter-header">드롭 필터
     </span>
-    <span ng-repeat="type in [ 'Farmable', 'Non-farmable' ]" class="filter width-6 drop" ng-model="filters.drop"
-        ng-class="{ active: filters.drop == type }" ng-click="onFilterClick($event,type)">{{type}}</span>
-    <span ng-repeat="type in [ 'Global units', 'Japan exclusives' ]" class="filter width-6 drop" ng-model="filters.server"
-        ng-class="{ active: filters.server == type }" ng-click="onFilterClick($event,type)">{{type}}</span>
+    <span ng-repeat="type in [ 'Farmable']" class="filter width-6 drop" ng-model="filters.drop"
+        ng-class="{ active: filters.drop == type }" ng-click="onFilterClick($event,type)">파밍 가능</span><span ng-repeat="type in [ 'Non-farmable' ]" class="filter width-6 drop" ng-model="filters.drop"
+        ng-class="{ active: filters.drop == type }" ng-click="onFilterClick($event,type)">파밍 불가</span>
+    <span ng-repeat="type in [ 'Global units']" class="filter width-6 drop" ng-model="filters.server"
+        ng-class="{ active: filters.server == type }" ng-click="onFilterClick($event,type)">글로벌 캐릭터</span><span ng-repeat="type in [ 'Japan exclusives' ]" class="filter width-6 drop" ng-model="filters.server"
+        ng-class="{ active: filters.server == type }" ng-click="onFilterClick($event,type)">일본 한정 캐릭터</span>
     <span ng-repeat="type in [ 'In RR pool', 'Not in RR pool' ]" class="filter width-6 drop" ng-model="filters.rr"
         ng-class="{ active: filters.rr == type }" ng-click="onFilterClick($event,type)">{{type}}</span>
     <span ng-repeat="type in [ 'Farmable Sockets', 'No Farmable Sockets' ]" class="filter width-6 drop" ng-model="filters.socket"
@@ -58,93 +60,93 @@
 </div>
 
 <div class="filter-container conditional" ng-show="filters.drop == 'Farmable'">
-    <span class="filter-header">Farmable filters</span>
+    <span class="filter-header">파밍 가능한 장소</span>
     <span class="filter width-6 drop" ng-class="{ active: filters.farmable.story }"
-        ng-model="filters.farmable.story" ng-click="onDropFilterClick($event,true)">Story-only</span><!--
+        ng-model="filters.farmable.story" ng-click="onDropFilterClick($event,true)">스토리</span><!--
  --><span class="filter width-6 exc" ng-class="{ active: filters.farmable.story === false }"
-        ng-model="filters.farmable.story" ng-click="onDropFilterClick($event,false)">Hide story-only</span>
+        ng-model="filters.farmable.story" ng-click="onDropFilterClick($event,false)">스토리 숨김</span>
     <span class="filter width-6 drop" ng-class="{ active: filters.farmable.fortnight }"
-        ng-model="filters.farmable.fortnight" ng-click="onDropFilterClick($event,true)">Fortnight-only</span><!--
+        ng-model="filters.farmable.fortnight" ng-click="onDropFilterClick($event,true)">스페셜 던전</span><!--
  --><span class="filter width-6 exc" ng-class="{ active: filters.farmable.fortnight === false }"
-        ng-model="filters.farmable.fortnight" ng-click="onDropFilterClick($event,false)">Hide fortnight-only</span>
+        ng-model="filters.farmable.fortnight" ng-click="onDropFilterClick($event,false)">스페셜 던전 숨김</span>
     <span class="filter width-6 drop" ng-class="{ active: filters.farmable.raid }"
-        ng-model="filters.farmable.raid" ng-click="onDropFilterClick($event,true)">Raid-only</span><!--
+        ng-model="filters.farmable.raid" ng-click="onDropFilterClick($event,true)">강림</span><!--
  --><span class="filter width-6 exc"  ng-class="{ active: filters.farmable.raid === false }"
-        ng-model="filters.farmable.raid" ng-click="onDropFilterClick($event,false)">Hide raid-only</span>
+        ng-model="filters.farmable.raid" ng-click="onDropFilterClick($event,false)">강림 숨김</span>
     <span class="filter width-6 drop" ng-class="{ active: filters.farmable.Coliseum }"
-        ng-model="filters.farmable.Coliseum" ng-click="onDropFilterClick($event,true)">Coliseum-only</span><!--
+        ng-model="filters.farmable.Coliseum" ng-click="onDropFilterClick($event,true)">콜로세움</span><!--
  --><span class="filter width-6 exc"  ng-class="{ active: filters.farmable.Coliseum === false }"
-        ng-model="filters.farmable.Coliseum" ng-click="onDropFilterClick($event,false)">Hide Clssm-only</span>
+        ng-model="filters.farmable.Coliseum" ng-click="onDropFilterClick($event,false)">콜로세움 숨김</span>
     <span class="filter width-6 drop" ng-class="{ active: filters.farmable.Treasure }"
-        ng-model="filters.farmable.Treasure" ng-click="onDropFilterClick($event,true)">Treasure Map-only</span><!--
+        ng-model="filters.farmable.Treasure" ng-click="onDropFilterClick($event,true)">보물지도</span><!--
  --><span class="filter width-6 exc"  ng-class="{ active: filters.farmable.Treasure === false }"
-        ng-model="filters.farmable.Treasure" ng-click="onDropFilterClick($event,false)">Hide TreasMap-only</span>
+        ng-model="filters.farmable.Treasure" ng-click="onDropFilterClick($event,false)">보물지도 숨김</span>
 </div>
 
 <div class="filter-container conditional" ng-show="filters.drop == 'Non-farmable'">
-    <span class="filter-header">Non-farmable filters</span>
+    <span class="filter-header">파밍 불가</span>
     <span class="filter width-6 drop" ng-class="{ active: filters.nonFarmable.lrr }"
-        ng-model="filters.nonFarmable.lrr" ng-click="onDropFilterClick($event,true)">Limited RR-only</span><!--
+        ng-model="filters.nonFarmable.lrr" ng-click="onDropFilterClick($event,true)">시크릿 스고</span><!--
  --><span class="filter width-6 drop" ng-class="{ active: filters.nonFarmable.lrr === false }"
-        ng-model="filters.nonFarmable.lrr" ng-click="onDropFilterClick($event,false)">Hide lim. RR-only</span>
+        ng-model="filters.nonFarmable.lrr" ng-click="onDropFilterClick($event,false)">시크릿 스고 숨김</span>
     <span class="filter width-6 drop" ng-class="{ active: filters.nonFarmable.tmlrr }"
         ng-model="filters.nonFarmable.tmlrr" ng-click="onDropFilterClick($event,true)">TM Limited RR-only</span><!--
  --><span class="filter width-6 drop" ng-class="{ active: filters.nonFarmable.tmlrr === false }"
         ng-model="filters.nonFarmable.tmlrr" ng-click="onDropFilterClick($event,false)">Hide TM lim. RR-only</span>
     <span class="filter width-6 drop" ng-class="{ active: filters.nonFarmable.promo }"
-        ng-model="filters.nonFarmable.promo" ng-click="onDropFilterClick($event,true)">Promo-only</span><!--
+        ng-model="filters.nonFarmable.promo" ng-click="onDropFilterClick($event,true)">프로모션</span><!--
  --><span class="filter width-6 drop" ng-class="{ active: filters.nonFarmable.promo === false }"
-        ng-model="filters.nonFarmable.promo" ng-click="onDropFilterClick($event,false)">Hide promo-only</span>
+        ng-model="filters.nonFarmable.promo" ng-click="onDropFilterClick($event,false)">프로모션 숨김</span>
     <span class="filter width-6 drop" ng-class="{ active: filters.nonFarmable.special }"
-        ng-model="filters.nonFarmable.special" ng-click="onDropFilterClick($event,true)">Special-only</span><!--
+        ng-model="filters.nonFarmable.special" ng-click="onDropFilterClick($event,true)">스페셜</span><!--
  --><span class="filter width-6 drop" ng-class="{ active: filters.nonFarmable.special === false }"
-        ng-model="filters.nonFarmable.special" ng-click="onDropFilterClick($event,false)">Hide special-only</span>
+        ng-model="filters.nonFarmable.special" ng-click="onDropFilterClick($event,false)">스페셜 숨김</span>
     <span class="filter width-6 drop" ng-class="{ active: filters.nonFarmable.shop }"
-        ng-model="filters.nonFarmable.shop" ng-click="onDropFilterClick($event,true)">Ray Shop Unit</span><!--
+        ng-model="filters.nonFarmable.shop" ng-click="onDropFilterClick($event,true)">레이샵</span><!--
  --><span class="filter width-6 drop" ng-class="{ active: filters.nonFarmable.shop === false }"
-        ng-model="filters.nonFarmable.shop" ng-click="onDropFilterClick($event,false)">Hide Ray Shop Unit</span>
+        ng-model="filters.nonFarmable.shop" ng-click="onDropFilterClick($event,false)">레이샵 숨김</span>
 </div>
 
 <div class="filter-container">
-    <span class="filter-header">Exclusion filters</span>
+    <span class="filter-header">필터 제외</span>
     <span class="filter width-6 exc" ng-model="filters.noBase" ng-class="{ active: filters.noBase }"
-        ng-click="filters.noBase = !filters.noBase">Hide base forms</span><!--
+        ng-click="filters.noBase = !filters.noBase">기본 숨김</span><!--
  --><span class="filter width-6 exc" ng-model="filters.noFodder" ng-class="{ active: filters.noFodder }"
-        ng-click="filters.noFodder = !filters.noFodder">Hide fodder</span>
+        ng-click="filters.noFodder = !filters.noFodder">재료 숨김</span>
     <span class="filter width-12 exc" ng-model="filters.noEvos" ng-class="{ active: filters.noEvos }"
-        ng-click="filters.noEvos = !filters.noEvos">Hide Boosters and Evolvers</span>
+        ng-click="filters.noEvos = !filters.noEvos">강화/진화 숨김</span>
 </div>
 
 <div class="filter-container">
-    <span class="filter-header">Captain ability filters</span>
+    <span class="filter-header">선장 능력</span>
     <span class="filter width-12 custom" ng-repeat="(n,filter) in filterData" ng-if="filter.target == 'captain'"
         ng-model="filters.custom[n]" ng-class="{ active: filters.custom[n] }" add-captain-options
         ng-click="filters.custom[n] = !filters.custom[n]">{{filter.name}}</span>
 </div>
 
 <div class="filter-container">
-    <span class="filter-header">Special filters</span>
+    <span class="filter-header">필살기 능력</span>
     <span class="filter width-12 custom" ng-repeat="(n,filter) in filterData" ng-if="filter.target.indexOf('special') == 0"
         ng-model="filters.custom[n]" ng-class="{ active: filters.custom[n] }" add-orb-options add-special-options
         ng-click="filters.custom[n] = !filters.custom[n]">{{filter.name}}</span>
 </div>
 
 <div class="filter-container">
-    <span class="filter-header">Sailor ability filters</span>
+    <span class="filter-header">선원 능력</span>
     <span class="filter width-12 custom" ng-repeat="(n,filter) in filterData" ng-if="filter.target.indexOf('sailor') == 0"
         ng-model="filters.custom[n]" ng-class="{ active: filters.custom[n] }" add-sailor-options
         ng-click="filters.custom[n] = !filters.custom[n]">{{filter.name}}</span>
 </div>
 
 <div class="filter-container">
-    <span class="filter-header">Limit Break filters</span>
+    <span class="filter-header">한계</span>
     <span class="filter width-12 custom" ng-repeat="(n,filter) in filterData" ng-if="filter.target.indexOf('limit') == 0"
         ng-model="filters.custom[n]" ng-class="{ active: filters.custom[n] }"
         ng-click="filters.custom[n] = !filters.custom[n]">{{filter.name}}</span>
 </div>
 
 <div class="filter-container" ng-if="showLogFilters">
-    <span class="filter-header">Character Log filters</span>
+    <span class="filter-header">캐릭터 로그</span>
     <span class="filter width-12 custom" ng-model="filters.noLog" ng-class="{ active: filters.noLog }"
         ng-click="filters.noLog = !filters.noLog">Hide units in Character Log</span>
     <span class="filter width-12 custom" ng-model="filters.noMissing" ng-class="{ active: filters.noMissing }"

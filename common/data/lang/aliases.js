@@ -14,7 +14,7 @@ window.aliases = {
   "4": [
     "モンキー・D・ルフィ ギア２",
     "몽키 D. 루피 기어 2",
-    "Monkey D. Luffy",
+    "Monkey D. 루피",
     " G2"
   ],
   "5": [
@@ -899,7 +899,7 @@ window.aliases = {
   "219": [
     "ロロノア・ゾロ_獅子歌歌（ししソンソン）",
     "롤로노아 조로 사자의 노래",
-    "LS Zoro"
+    "LS 조로"
   ],
   "220": [
     "ナミ（ファイン=テンポ）",
@@ -1539,12 +1539,12 @@ window.aliases = {
   "358": [
     "スクラッチメン・アプー",
     "스크래치멘 아푸",
-    "Supernova Apoo"
+    "Supernova 아푸"
   ],
   "359": [
     "海鳴り スクラッチメン・アプー",
     "바다천둥 스크래치멘 아푸",
-    "Supernova Apoo"
+    "Supernova 아푸"
   ],
   "360": [
     "X・ドレーク",
@@ -1830,22 +1830,22 @@ window.aliases = {
   "419": [
     "サンジ 整形ショット(パラージュショット)　“嵐”",
     "상디 파라즈 쇼트 “폭풍”",
-    "Kimono 상디"
+    "기모노 상디"
   ],
   "420": [
     "モンキー・D・ルフィ ゴムゴムのバズーカ“覇”",
     "몽키 D. 루피 고무고무 바주카“패”",
-    "Kimono Luffy"
+    "기모노 루피"
   ],
   "421": [
     "ロロノア・ゾロ 三・千・世・界“斬”",
     "롤로노아조로 삼 천 세 계“참”",
-    "Kimono Zoro"
+    "기모노 조로"
   ],
   "422": [
     "ナミ 蜃気楼＝テンポ“天”",
     "나미 신기루＝텐포“천”",
-    "Kimono 나미"
+    "기모노 나미"
   ],
   "423": [
     "ブルック",
@@ -2291,14 +2291,14 @@ window.aliases = {
   "519": [
     "モンキー・Ｄ・ルフィ メルヴィユの冒険者",
     "몽키 D. 루피, 메르비유의 모험자",
-    "Strong World Luffy",
-    "SW Luffy"
+    "Strong World 루피",
+    "SW 루피"
   ],
   "520": [
     "モンキー・Ｄ・ルフィ 特攻の麦わらの一味",
     "몽키 D. 루피, 특공의 밀짚모자 일당",
-    "Strong World Luffy",
-    "SW Luffy"
+    "Strong World 루피",
+    "SW 루피"
   ],
   "521": [
     "サンジ メルヴィユの冒険者",
@@ -2444,12 +2444,12 @@ window.aliases = {
   "547": [
     "モンキー・D・ルフィ コルボ山の悪ガキ３兄弟",
     "몽키 D. 루피 코르보산 악동 3형제",
-    "Kid Luffy"
+    "Kid 루피"
   ],
   "548": [
     "モンキー・D・ルフィ コルボ山の悪ガキ３兄弟“兄弟盃”",
     "몽키 D. 루피 코르보산 악동 3형제 \"형제술잔\"",
-    "Kid Luffy"
+    "Kid 루피"
   ],
   "549": [
     "サディちゃん",
@@ -2470,14 +2470,14 @@ window.aliases = {
   "553": [
     "ロロノア・ゾロ メルヴィユの冒険者",
     "롤로노아 조로 메리비유의 모험자",
-    "Strong World Zoro",
-    "SW Zoro"
+    "Strong World 조로",
+    "SW 조로"
   ],
   "554": [
     "ロロノア・ゾロ 特攻の麦わらの一味",
     "롤로노아 조로 특공의 밀짚모자 일당",
-    "Strong World Zoro",
-    "SW Zoro"
+    "Strong World 조로",
+    "SW 조로"
   ],
   "555": [
     "ウソップ メルヴィユの冒険者",
@@ -2506,14 +2506,14 @@ window.aliases = {
   "559": [
     "フランキー メルヴィユの冒険者",
     "프랑키 메리비유의 모험자",
-    "Strong World Franky",
-    "SW Franky"
+    "Strong World 프랭키",
+    "SW 프랭키"
   ],
   "560": [
     "フランキー 特攻の麦わらの一味",
     "프랑키 특공의 밀짚모자 일당",
-    "Strong World Franky",
-    "SW Franky"
+    "Strong World 프랭키",
+    "SW 프랭키"
   ],
   "561": [
     "ポートガス・D・エース 黒衣の火拳",
@@ -2561,13 +2561,13 @@ window.aliases = {
   "570": [
     "モンキー・Ｄ・ルフィ デービーバックファイト・アフロ",
     "몽키 D. 루피 데비백 파이트 아푸로",
-    "Afro Luffy",
+    "Afro 루피",
     "Afroluffy"
   ],
   "571": [
     "モンキー・Ｄ・ルフィ デービーバックファイト・コンバット",
     "몽키 D. 루피 데비백 파이트 전투",
-    "Afro Luffy",
+    "Afro 루피",
     "Afroluffy"
   ],
   "572": [
@@ -2581,14 +2581,14 @@ window.aliases = {
   "574": [
     "青キジ",
     "아오키지",
-    "Raid Kuzan",
-    "Raid Aokiji"
+    "Raid 쿠잔",
+    "Raid 아오키지"
   ],
   "575": [
     "青キジ　氷結人間",
-    "아오키지　빙결인간",
-    "Raid Kuzan",
-    "Raid Aokiji"
+    "아오키지 빙결인간",
+    "Raid 쿠잔",
+    "Raid 아오키지"
   ],
   "576": [
     "ナミのティータイム",
@@ -2597,31 +2597,31 @@ window.aliases = {
   "577": [
     "モンキー・D・ルフィ 航海の記録・麦わらの一味",
     "몽키 D. 루피 항해의 기록 밀짚모자일당",
-    "Log Luffy",
+    "Log 루피",
     "Logfy",
     "LL",
-    "Legend Luffy",
+    "Legend 루피",
     "Legend LL"
   ],
   "578": [
     "モンキー・D・ルフィ 航海の夢「海賊王」",
     "몽키 D. 루피 항해의꿈「해적왕」",
-    "Log Luffy",
+    "Log 루피",
     "Logfy",
     "LL",
-    "Legend Luffy",
+    "Legend 루피",
     "Legend LL"
   ],
   "579": [
     "ロロノア・ゾロ 航海の記録・麦わらの一味",
     "롤로노아 조로 항해의 기록 밀짚모자일당",
-    "Log Zoro",
+    "Log 조로",
     "롤로노아 조로, Wakes of the Endless Dream, Straw Hat Crew"
   ],
   "580": [
     "ロロノア・ゾロ 航海の夢「大剣豪」",
     "롤로노아 조로 항해의꿈「대검호」",
-    "Log Zoro",
+    "Log 조로",
     "롤로노아 조로, A Vow in the Great Age of Pirates - Master Swordsman"
   ],
   "581": [
@@ -2906,12 +2906,12 @@ window.aliases = {
   "642": [
     "スクアード",
     "스쿼드",
-    "Squardo"
+    "스쿼드"
   ],
   "643": [
     "大渦蜘蛛スクアード",
     "대와거미 스쿼드",
-    "Maelstrom Spider Squardo"
+    "Maelstrom Spider 스쿼드"
   ],
   "644": [
     "ホワイティベイ",
@@ -2993,8 +2993,8 @@ window.aliases = {
   "659": [
     "モンキー・D・ルフィ うきわ",
     "몽키 D. 루피 튜브",
-    "Summertime Luffy",
-    "Swimsuit Luffy"
+    "Summertime 루피",
+    "Swimsuit 루피"
   ],
   "660": [
     "ウソップ 航海の記録・麦わらの一味",
@@ -3231,14 +3231,14 @@ window.aliases = {
   "710": [
     "フランキー 航海の記録・麦わらの一味",
     "프랑키 항해의 기록: 밀짚모자 일당",
-    "Log Franky",
-    "Franky, Wakes of the Endless Dream, Straw Hat Crew"
+    "Log 프랭키",
+    "프랭키, Wakes of the Endless Dream, Straw Hat Crew"
   ],
   "711": [
     "フランキー 航海の夢「海の果てを旅する船」",
     "프랑키 항해의 꿈: 바다의 끝을 여행한 배",
-    "Log Franky",
-    "Franky, A Vow in the Great Age of Pirates - Ship of the Seven Seas"
+    "Log 프랭키",
+    "프랭키, A Vow in the Great Age of Pirates - Ship of the Seven Seas"
   ],
   "712": [
     "ガン・フォール",
@@ -3486,7 +3486,7 @@ window.aliases = {
   "761": [
     "モンキー・D・ルフィ ハロウィンモンスター",
     "몽키 D. 루피 할로윈 몬스터",
-    "Halloween Luffy"
+    "Halloween 루피"
   ],
   "762": [
     "ウソップ うそつき狼",
@@ -3496,7 +3496,7 @@ window.aliases = {
   "763": [
     "フランキー フランケンシュタイン",
     "프랑키 프랑켄슈타인",
-    "Halloween Franky"
+    "Halloween 프랭키"
   ],
   "764": [
     "ナミ かぼちゃランタン",
@@ -3511,7 +3511,7 @@ window.aliases = {
   "766": [
     "ロロノア・ゾロ ジャック・ザ・リッパ―",
     "롤로노아 조로 잭 더 리퍼",
-    "Halloween Zoro"
+    "Halloween 조로"
   ],
   "767": [
     "ニコ・ロビン セクシーデビル",
@@ -3562,44 +3562,44 @@ window.aliases = {
   "776": [
     "ラッキー・ルウ",
     "럭키 루",
-    "Coliseum Lucky Roo"
+    "콜로세움' Lucky Roo"
   ],
   "777": [
     "ラッキー・ルウ 赤髪海賊団",
     "럭키 루 빨강 머리 해적단",
-    "Coliseum Lucky Roo"
+    "콜로세움' Lucky Roo"
   ],
   "778": [
     "レベッカ 囚人剣闘士",
     "레베카 수인 검투사",
-    "Coliseum Rebecca"
+    "콜로세움' Rebecca"
   ],
   "779": [
     "レベッカ コロシアム専属剣闘士",
     "레베카 콜로세움 전속 검투사",
-    "Coliseum Rebecca"
+    "콜로세움' Rebecca"
   ],
   "780": [
     "ウルージ 破戒僧海賊団船長",
     "우루지 파계승 해적단 선장",
     "Supernova Urouge",
-    "Coliseum Urouge"
+    "콜로세움' Urouge"
   ],
   "781": [
     "怪僧ウルージ 破戒僧海賊団船長",
     "괴승 우루지 파계승 해적단 선장",
     "Supernova Urouge",
-    "Coliseum Urouge"
+    "콜로세움' Urouge"
   ],
   "782": [
     "たしぎ 正義の華",
     "타시기: 정의의 꽃",
-    "Kimono Tashigi"
+    "기모노 Tashigi"
   ],
   "783": [
     "たしぎ 海軍本部少尉・正義の華",
     "타시기 해군본부 소위: 정의의 꽃",
-    "Kimono Tashigi"
+    "기모노 Tashigi"
   ],
   "784": [
     "ゲンさん",
@@ -3654,14 +3654,14 @@ window.aliases = {
   "794": [
     "モンキー・D・ルフィ 希望の星",
     "몽키 D. 루피 희망의 별",
-    "Raid NM Luffy",
-    "Raid Luffy"
+    "Raid NM 루피",
+    "Raid 루피"
   ],
   "795": [
     "ナイトメア・ルフィ 希望の戦士",
     "나이트메어 루피 희망의 별",
-    "Raid NM Luffy",
-    "Raid Luffy"
+    "Raid NM 루피",
+    "Raid 루피"
   ],
   "796": [
     "ブリード",
@@ -3703,22 +3703,22 @@ window.aliases = {
   "803": [
     "ヒナ 海軍本部大佐",
     "히나 해군본부 대령",
-    "Coliseum Hina"
+    "콜로세움' Hina"
   ],
   "804": [
     "黒檻のヒナ 海軍本部大佐",
     "검은 감옥 히나 해군본부 대령",
-    "Coliseum Hina"
+    "콜로세움' Hina"
   ],
   "805": [
     "スモーカー 海軍本部大佐",
     "스모커 해군본부 대령",
-    "Coliseum Smoker"
+    "콜로세움' Smoker"
   ],
   "806": [
     "白猟のスモーカー 海軍本部大佐",
     "하얀 사냥꾼 스모커 해군본부 대령",
-    "Coliseum Smoker"
+    "콜로세움' Smoker"
   ],
   "807": [
     "純白の天使ナミ ウエディング",
@@ -3825,34 +3825,34 @@ window.aliases = {
     "バジル・ホーキンス ホーキンス海賊団船長",
     "바질 호킨스 호킨스 해적단 선장",
     "Supernova Hawkins",
-    "Coliseum Hawkins",
-    "Coliseum Basil Hawkins"
+    "콜로세움' Hawkins",
+    "콜로세움' Basil Hawkins"
   ],
   "831": [
     "魔術師バジル・ホーキンス ホーキンス海賊団船長",
     "마술사 바질 호킨스 호킨스 해적단 선장",
     "Supernova Hawkins",
-    "Coliseum Hawkins",
-    "Coliseum Basil Hawkins"
+    "콜로세움' Hawkins",
+    "콜로세움' Basil Hawkins"
   ],
   "832": [
     "ワイパー シャンディアの戦士",
     "와이퍼 샨디아의 전사",
     "Wiper, Warrior of Shandia",
-    "Coliseum Wyper"
+    "콜로세움' Wyper"
   ],
   "833": [
     "戦鬼ワイパー シャンディアの戦士",
     "전쟁귀신 와이퍼 샨디아의 전사",
     "Berserker Wiper, Warrior of Shandia",
-    "Coliseum Wyper"
+    "콜로세움' Wyper"
   ],
   "834": [
     "Mr.7 & ﾐｽ･ﾌｧｰｻﾞｰｽﾞﾃﾞｰ",
     "Mr. 7 & 미스 파더즈 데이",
     "Mr 7 and Miss Fathers Day",
-    "Coliseum Mr 7",
-    "Coliseum Miss Fathers Day"
+    "콜로세움' Mr 7",
+    "콜로세움' Miss Fathers Day"
   ],
   "835": [
     "暴君バーソロミュー・くま",
@@ -3915,8 +3915,8 @@ window.aliases = {
   "849": [
     "カティ・フラム トムズ　ワーカーズ",
     "커티 프람 톰즈 워커스",
-    "Franky, Tom's Workers",
-    "Young Franky"
+    "프랭키, Tom's Workers",
+    "Young 프랭키"
   ],
   "850": [
     "アイスバーグ トムズ　ワーカーズ",
@@ -3968,22 +3968,22 @@ window.aliases = {
   "859": [
     "コビー 海軍本部曹長",
     "코비 해군본부 상사",
-    "Coliseum 코비"
+    "콜로세움' 코비"
   ],
   "860": [
     "戦火の勇士コビー 海軍本部曹長",
     "전화의 용사 코비 해군본부 상사",
-    "Coliseum 코비"
+    "콜로세움' 코비"
   ],
   "861": [
     "レディー・アルビダ うるわしき美女",
     "레이디 알비다 아름다운 미녀",
-    "Coliseum 알비다"
+    "콜로세움' 알비다"
   ],
   "862": [
     "レディー・アルビダ 絶世の美女",
     "레이디 알비다 절세의 미녀",
-    "Coliseum 알비다"
+    "콜로세움' 알비다"
   ],
   "863": [
     "銀世界のナミ",
@@ -4003,17 +4003,17 @@ window.aliases = {
   "866": [
     "ニコ・ロビン 百花繚乱 ウイング“華”",
     "니코 로빈 백화요란 윙: 화사",
-    "Kimono Robin"
+    "기모노 Robin"
   ],
   "867": [
     "ウソップ タバスコ星“撃”",
     "우솝 타바스코 성: 사격",
-    "Kimono 우솝"
+    "기모노 우솝"
   ],
   "868": [
     "トニートニー・チョッパー 重量ゴング“獣”",
     "토니토니 쵸파 헤비 공: 짐승",
-    "Kimono Chopper"
+    "기모노 Chopper"
   ],
   "869": [
     "ドンキホーテ・ドフラミンゴ ドンキホーテ海賊団",
@@ -4082,43 +4082,43 @@ window.aliases = {
   "881": [
     "スクラッチメン・アプー オンエア海賊団船長",
     "스크래치맨 아푸 온에어 해적단",
-    "Supernova Apoo",
-    "Coliseum Apoo"
+    "Supernova 아푸",
+    "콜로세움' 아푸"
   ],
   "882": [
     "海鳴りスクラッチメン・アプー オンエア海賊団船長",
     "바닷천둥 스크래치맨 아푸 온에어 해적단",
-    "Supernova Apoo",
-    "Coliseum Apoo"
+    "Supernova 아푸",
+    "콜로세움' 아푸"
   ],
   "883": [
     "ドリー 巨兵海賊団",
     "도리 거병 해적단",
-    "Coliseum Dorry"
+    "콜로세움' Dorry"
   ],
   "884": [
     "青鬼のドリー",
     "푸른 귀신 도리",
-    "Coliseum Dorry"
+    "콜로세움' Dorry"
   ],
   "885": [
     "ジンベエ 鮫の武人",
     "징베 상어의 무인",
-    "Kimono Jinbe",
-    "Kimono Jimbei",
-    "Kimono Jinbei"
+    "기모노 Jinbe",
+    "기모노 Jimbei",
+    "기모노 Jinbei"
   ],
   "886": [
     "Mr.1 西の海の剣客",
     "Mr. 1 이스트 블루의 검객",
-    "Kimono Mr. 1",
-    "Kimono Mr 1",
+    "기모노 Mr. 1",
+    "기모노 Mr 1",
     "Daz Bones"
   ],
   "887": [
     "バギー 陽気なかぶき者",
     "버기, 화끈한 가부키",
-    "Kimono Buggy",
+    "기모노 Buggy",
     "Baggy"
   ],
   "888": [
@@ -4161,59 +4161,59 @@ window.aliases = {
   "897": [
     "サー・クロコダイル 砂の武将",
     "Sir 크로커다일 모래의 무장",
-    "Kimono Crocodile"
+    "기모노 Crocodile"
   ],
   "898": [
     "Mr.3 姑息な楽士",
     "Mr. 3 고식한 악사",
-    "Kimono Mr. 3",
-    "Kimono Galdino",
-    "Kimono Mr 3"
+    "기모노 Mr. 3",
+    "기모노 Galdino",
+    "기모노 Mr 3"
   ],
   "899": [
     "Mr.2・ボン・クレー あやふやな侍",
     "Mr. 2 봉쿠레 애매모호한 사무라이",
-    "Kimono Mr. 2",
-    "Kimono Bonclay",
-    "Kimono Bon Clay",
-    "Kimono Mr 2"
+    "기모노 Mr. 2",
+    "기모노 Bonclay",
+    "기모노 Bon Clay",
+    "기모노 Mr 2"
   ],
   "900": [
     "フレッシュ・フランキー 健康第一",
     "프레쉬 프랑키 건강제일",
-    "Coliseum Franky"
+    "콜로세움' 프랭키"
   ],
   "901": [
     "鉄人（サイボーグ）フランキー",
     "철인 프랑키",
-    "Coliseum Franky"
+    "콜로세움' 프랭키"
   ],
   "902": [
     "ブロギー 巨兵海賊団",
     "브로기 거병 해적단",
-    "Coliseum Broggy"
+    "콜로세움' Broggy"
   ],
   "903": [
     "赤鬼のブロギー",
     "붉은 귀신 브로기",
-    "Coliseum Broggy"
+    "콜로세움' Broggy"
   ],
   "904": [
     "ヨコヅナ",
     "요코즈나",
-    "Coliseum Yokozuna"
+    "콜로세움' Yokozuna"
   ],
   "905": [
     "ロロノア・ゾロ クライガナ島をさすらう剣士",
     "롤로노아 조로 어두우르가나 섬을 떠도는 검사",
-    "3D2Y Zoro",
-    "Timeskip Zoro"
+    "3D2Y 조로",
+    "Timeskip 조로"
   ],
   "906": [
     "ロロノア・ゾロ 世界最強剣士の門弟",
     "롤로노아 조로 세계 최강의 검사의 제자",
-    "3D2Y Zoro",
-    "Timeskip Zoro"
+    "3D2Y 조로",
+    "Timeskip 조로"
   ],
   "907": [
     "ニコ・ロビン テキーラウルフの収監者",
@@ -4304,31 +4304,31 @@ window.aliases = {
   "923": [
     "南の海のキャプテン・キッド",
     "사우스 블루의 캡틴 키드",
-    "Coliseum Kid",
-    "Coliseum Kidd"
+    "콜로세움' Kid",
+    "콜로세움' Kidd"
   ],
   "924": [
     "キャプテン・キッド キッド海賊団船長",
     "캡틴 키드 키드 해적단 선장",
-    "Coliseum Kid",
-    "Coliseum Kidd"
+    "콜로세움' Kid",
+    "콜로세움' Kidd"
   ],
   "925": [
     "獄卒長サディちゃん",
     "옥졸장 사디짱",
-    "Coliseum Sadie",
+    "콜로세움' Sadie",
     "Secuurity Chief Sadie-chan"
   ],
   "926": [
     "獄卒長サディちゃん 獄卒獣の指揮官",
     "옥졸장 사디짱 옥졸수의 지휘관",
-    "Coliseum Sadie",
+    "콜로세움' Sadie",
     "Secuurity Chief Sadie-chan"
   ],
   "927": [
     "ドーベルマン 海軍本部中将",
     "도베르만 해군본부 중장",
-    "Coliseum Doberman"
+    "콜로세움' Doberman"
   ],
   "928": [
     "ハンニャバル",
@@ -4386,14 +4386,14 @@ window.aliases = {
   "936": [
     "モンキー・Ｄ・ルフィ 頂上戦争の生還者",
     "몽키 D. 루피 정상전쟁의 생환자",
-    "Timeskip Luffy",
-    "3D2Y Luffy"
+    "Timeskip 루피",
+    "3D2Y 루피"
   ],
   "937": [
     "モンキー・Ｄ・ルフィ 仲間との誓い『３Ｄ２Ｙ』",
     "몽키 D. 루피 동료와 맹세『３Ｄ２Ｙ』",
-    "Timeskip Luffy",
-    "3D2Y Luffy"
+    "Timeskip 루피",
+    "3D2Y 루피"
   ],
   "938": [
     "ナミ 天候の科学の探求者",
@@ -4422,14 +4422,14 @@ window.aliases = {
   "942": [
     "フランキー メカアニマルと戦う改造人間",
     "프랑키, 메카 애니멀과 싸우는 사이보그",
-    "Timeskip Franky",
-    "3D2Y Franky"
+    "Timeskip 프랭키",
+    "3D2Y 프랭키"
   ],
   "943": [
     "鉄人（サイボーグ）フランキー バルジモアの霊獣",
     "철인(사이보그)프랑키 발지모어의 영수",
-    "Timeskip Franky",
-    "3D2Y Franky"
+    "Timeskip 프랭키",
+    "3D2Y 프랭키"
   ],
   "944": [
     "？？？",
@@ -4460,24 +4460,24 @@ window.aliases = {
   "950": [
     "火拳のエース",
     "화권의 에이스",
-    "Coliseum Ace"
+    "콜로세움' Ace"
   ],
   "951": [
     "火拳のエース 白ひげ海賊団２番隊隊長",
     "화권의 에이스 흰수염 해적단 2번대 대장",
-    "Coliseum Ace"
+    "콜로세움' Ace"
   ],
   "952": [
     "ベン・ベックマン",
     "벤 베크만",
-    "Coliseum Ben Beckman",
-    "Coliseum Benn Beckman"
+    "콜로세움' 벤 베크만",
+    "콜로세움' Benn Beckman"
   ],
   "953": [
     "ベン・ベックマン 赤髪海賊団",
     "벤 베크만 빨강 머리 해적단",
-    "Coliseum Ben Beckman",
-    "Coliseum Benn Beckman"
+    "콜로세움' 벤 베크만",
+    "콜로세움' Benn Beckman"
   ],
   "954": [
     "ギャロ",
@@ -4580,14 +4580,14 @@ window.aliases = {
   "977": [
     "黄猿",
     "키자루",
-    "Raid Borsalino",
-    "Raid Kizaru"
+    "Raid 볼사리노",
+    "Raid 키자루"
   ],
   "978": [
     "黄猿　光人間",
     "키자루, 번쩍번쩍열매",
-    "Raid Borsalino",
-    "Raid Kizaru"
+    "Raid 볼사리노",
+    "Raid 키자루"
   ],
   "979": [
     "イゾウ 白ひげ海賊団１６番隊隊長",
@@ -4604,17 +4604,17 @@ window.aliases = {
   "982": [
     "ビスタ 白ひげ海賊団５番隊隊長",
     "비스타, 흰수염 5번대 대장",
-    "Coliseum Vista"
+    "콜로세움' Vista"
   ],
   "983": [
     "花剣のビスタ 白ひげ海賊団５番隊隊長",
     "화검의 비스타, 흰수염 5번대 대장",
-    "Coliseum Vista"
+    "콜로세움' Vista"
   ],
   "984": [
     "パウリー ガレーラカンパニー１番ドック職長",
     "파울리 갈리라컴퍼니 1번 도크장",
-    "Coliseum Paulie"
+    "콜로세움' Paulie"
   ],
   "985": [
     "デマロ・ブラック＆ショコラ ニセ麦わらの一味",
@@ -4745,7 +4745,7 @@ window.aliases = {
   "1009": [
     "キズナBOOOOSTルフィ",
     "인연 BOOST 루피",
-    "Afro Luffy",
+    "Afro 루피",
     "Afroluffy"
   ],
   "1010": [
@@ -4771,27 +4771,27 @@ window.aliases = {
   "1015": [
     "カポネ・ベッジ ファイアタンク海賊団船長",
     "카포네 뱃지 파이어탱크 해적단 선장",
-    "Coliseum Capone Bege"
+    "콜로세움' Capone Bege"
   ],
   "1016": [
     "カポネ・“ギャング”ベッジ ファイアタンク海賊団船長",
     "카포네 ”갱”뱃지 파이어탱크 해적단 선장",
-    "Coliseum Capone Bege"
+    "콜로세움' Capone Bege"
   ],
   "1017": [
     "茶ひげ",
     "갈색수염",
-    "Coliseum Brownbeard"
+    "콜로세움' Brownbeard"
   ],
   "1018": [
     "茶ひげ ワニのケンタウロス",
     "갈색수염 악어캔타우르스",
-    "Coliseum Brownbeard"
+    "콜로세움' Brownbeard"
   ],
   "1019": [
     "ピープリー・ルル ガレーラカンパニー１番ドック職長",
     "피플 루루 갈레라 컴퍼니 1번도크 직장",
-    "Coliseum Lulu"
+    "콜로세움' Lulu"
   ],
   "1020": [
     "シュガー　実桜",
@@ -4806,7 +4806,7 @@ window.aliases = {
   "1022": [
     "モンキー・D・ルフィ 海賊王への軌跡",
     "몽키 D. 루피 해적왕의 궤적",
-    "Anniversary Luffy"
+    "Anniversary 루피"
   ],
   "1023": [
     "ポートガス・D・エース 海賊王に馳せた夢",
@@ -4883,23 +4883,23 @@ window.aliases = {
   "1040": [
     "ジョズ 白ひげ海賊団３番隊隊長",
     "조즈 흰수염 해적단 3번대 대장",
-    "Coliseum Jozu"
+    "콜로세움' Jozu"
   ],
   "1041": [
     "“ダイヤモンド”・ジョズ 白ひげ海賊団３番隊隊長",
     "다이아몬드 조즈 흰수염 해적단 3번대 대장",
-    "Coliseum Jozu"
+    "콜로세움' Jozu"
   ],
   "1042": [
     "キラー キッド海賊団",
     "킬러 키드 해적단",
-    "Coliseum Killer",
+    "콜로세움' Killer",
     "Supernova Killer"
   ],
   "1043": [
     "“殺戮武人”キラー キッド海賊団",
     "\"살인무인\"킬러 키드 해적단",
-    "Coliseum Killer",
+    "콜로세움' Killer",
     "Supernova Killer"
   ],
   "1044": [
@@ -5097,35 +5097,35 @@ window.aliases = {
   "1086": [
     "ムッシュール",
     "므슈르",
-    "Coliseum Musshuru"
+    "콜로세움' Musshuru"
   ],
   "1087": [
     "ムッシュール 毒胞子人間",
     "므슈르, 포자포자 열매",
-    "Coliseum Musshuru"
+    "콜로세움' Musshuru"
   ],
   "1088": [
     "サガ",
     "사가",
-    "Coliseum Saga"
+    "콜로세움' Saga"
   ],
   "1089": [
     "サガ 呪われた聖剣",
     "사가, 저주받은 요검",
-    "Coliseum Saga"
+    "콜로세움' Saga"
   ],
   "1090": [
     "X・ドレーク ドレーク海賊団",
     "X 드레이크, 드레이크 해적단 선장",
-    "Coliseum Drake",
-    "Coliseum X Drake",
+    "콜로세움' Drake",
+    "콜로세움' X Drake",
     "Supernova Drake",
     "Supernova X Drake"
   ],
   "1091": [
     "赤旗 X・ドレーク ドレーク海賊団",
     "붉은깃발 X 드레이크, 드레이크 해적단 선장",
-    "Coliseum X Drake",
+    "콜로세움' X Drake",
     "Supernova Drake",
     "Supernova X Drake"
   ],
@@ -5170,32 +5170,32 @@ window.aliases = {
   "1101": [
     "黒腕のゼファー",
     "검은 팔 제파",
-    "Coliseum Zephyr"
+    "콜로세움' Zephyr"
   ],
   "1102": [
     "黒腕のゼファー 元海軍本部大将",
     "검은 팔 제파, 전 해군 대장",
-    "Coliseum Zephyr"
+    "콜로세움' Zephyr"
   ],
   "1103": [
     "アイン ＮＥＯ海軍",
     "아인 네오해군",
-    "Coliseum Ain"
+    "콜로세움' Ain"
   ],
   "1104": [
     "アイン ゼファー最後の教え子",
     "아인 제파의 마지막 제자",
-    "Coliseum Ain"
+    "콜로세움' Ain"
   ],
   "1105": [
     "ビンズ ＮＥＯ海軍",
     "빈즈 네오해군",
-    "Coliseum Binz"
+    "콜로세움' Binz"
   ],
   "1106": [
     "ビンズ ゼファー最後の教え子",
     "빈즈 제파의 마지막 제자",
-    "Coliseum Binz"
+    "콜로세움' Binz"
   ],
   "1107": [
     "金獅子のシキ",
@@ -5230,12 +5230,12 @@ window.aliases = {
   "1114": [
     "モンキー・D・ルフィ 夢を追い求める冒険者",
     "몽키 D. 루피, 꿈을 좇는 모험가",
-    "SW Luffy"
+    "SW 루피"
   ],
   "1115": [
     "モンキー・D・ルフィ 信念に生きる麦わらの一味",
     "몽키 D. 루피, 신념에 사는 밀집모자 일당",
-    "SW Luffy"
+    "SW 루피"
   ],
   "1116": [
     "サンジ 夢を追い求める冒険者",
@@ -5260,19 +5260,19 @@ window.aliases = {
   "1120": [
     "モンキー・D・ルフィ 終わらぬ夢の航跡・麦わらの一味",
     "몽키 D. 루피, 끝나지 않는 꿈의 항적 밀집모자 일당",
-    "Log Luffy",
+    "Log 루피",
     "Logfy",
     "LL",
-    "Legend Luffy",
+    "Legend 루피",
     "Legend LL"
   ],
   "1121": [
     "モンキー・D・ルフィ 大海賊時代への誓い「海賊王」",
     "몽키 D. 루피, 대해적시대의 맹세: \"해적왕\"",
-    "Log Luffy",
+    "Log 루피",
     "Logfy",
     "LL",
-    "Legend Luffy",
+    "Legend 루피",
     "Legend LL"
   ],
   "1122": [
@@ -5363,34 +5363,34 @@ window.aliases = {
   "1140": [
     "ゲッコー・モリア 魔の三角地帯の主",
     "겟코 모리아, 마의 삼각지대의 주인",
-    "Coliseum Gekko Moriah"
+    "콜로세움' Gekko Moriah"
   ],
   "1141": [
     "ゲッコー・モリア 魔の三角地帯の支配者",
     "겟코 모리아, 마의 삼각지대의 지배자",
-    "Coliseum Gekko Moriah"
+    "콜로세움' Gekko Moriah"
   ],
   "1142": [
     "フォクシー ドーナツレースの邪魔者",
     "폭시, 도너츠 레이스의 방해꾼",
-    "Coliseum Foxy",
+    "콜로세움' Foxy",
     "Dying Foxy"
   ],
   "1143": [
     "フォクシー コンバットの卑怯者",
     "폭시, 컴뱃 비겁자",
-    "Coliseum Foxy",
+    "콜로세움' Foxy",
     "Nurse Foxy"
   ],
   "1144": [
     "ポルチェ お花チアリーダーズ",
     "포르체, 꽃의 치어리더",
-    "Coliseum Porche"
+    "콜로세움' Porche"
   ],
   "1145": [
     "ポルチェ キューティバトンの使い手",
     "포르체, 큐티 바톤의 사용자",
-    "Coliseum Porche"
+    "콜로세움' Porche"
   ],
   "1146": [
     "制圧の制服看守",
@@ -5519,14 +5519,14 @@ window.aliases = {
   "1174": [
     "ロロノア・ゾロ 夢を追い求める冒険者",
     "조로, 꿈을 좇는 모험가",
-    "New Strong World Zoro",
-    "SW Zoro"
+    "New Strong World 조로",
+    "SW 조로"
   ],
   "1175": [
     "ロロノア・ゾロ 信念に生きる麦わらの一味",
     "조로, 신념에 사는 밀집모자 일당",
-    "New Strong World Zoro",
-    "SW Zoro"
+    "New Strong World 조로",
+    "SW 조로"
   ],
   "1176": [
     "チョッパー 夢を追い求める冒険者",
@@ -5603,16 +5603,16 @@ window.aliases = {
   "1191": [
     "青キジ 海軍本部最高戦力",
     "아오키지, 해군 본부 최고 전력",
-    "Kuzan",
-    "Legend Kuzan",
-    "Legend Aokiji"
+    "쿠잔",
+    "Legend 쿠잔",
+    "Legend 아오키지"
   ],
   "1192": [
     "クザン",
     "쿠잔",
-    "Aokiji",
-    "Legend Kuzan",
-    "Legend Aokiji"
+    "아오키지",
+    "Legend 쿠잔",
+    "Legend 아오키지"
   ],
   "1193": [
     "ボア・ハンコック 渚にたたずむ女帝",
@@ -5629,21 +5629,21 @@ window.aliases = {
   "1195": [
     "ガン・フォール 先代“神”",
     "간 폴, 선대 \"신\"",
-    "Coliseum Gan Fall",
-    "Coliseum Ganfor",
+    "콜로세움' Gan Fall",
+    "콜로세움' Ganfor",
     "Ganfall"
   ],
   "1196": [
     "ガン・フォール スカイピアの神",
     "간 폴, 스카이피아의 신",
-    "Coliseum Gan Fall",
-    "Coliseum Ganfor",
+    "콜로세움' Gan Fall",
+    "콜로세움' Ganfor",
     "Ganfall"
   ],
   "1197": [
     "スカイブリーダー・オーム",
     "스카이브리더 오움r",
-    "Coliseum Ohm"
+    "콜로세움' Ohm"
   ],
   "1198": [
     "ジュエリー・ボニー 弾けるサファイア",
@@ -5716,14 +5716,14 @@ window.aliases = {
   "1211": [
     "フランキー 夢を追い求める冒険者",
     "프랑키, 꿈을 좇는 모험가",
-    "New Strong World Franky",
-    "SW Franky"
+    "New Strong World 프랭키",
+    "SW 프랭키"
   ],
   "1212": [
     "フランキー 信念に生きる麦わらの一味",
     "프랑키, 신념에 사는 밀집모자 일당",
-    "New Strong World Franky",
-    "SW Franky"
+    "New Strong World 프랭키",
+    "SW 프랭키"
   ],
   "1213": [
     "ベビー５ ドルフィンフロート",
@@ -5760,24 +5760,24 @@ window.aliases = {
   "1219": [
     "バーンディ・ワールド",
     "반디 월드",
-    "Coliseum World",
-    "Coliseum Byrnndi World"
+    "콜로세움' World",
+    "콜로세움' Byrnndi World"
   ],
   "1220": [
     "バーンディ・ワールド ワールド海賊団船長",
     "반디 월드, 월드 해적단 선장",
-    "Coliseum World",
-    "Coliseum Byrnndi World"
+    "콜로세움' World",
+    "콜로세움' Byrnndi World"
   ],
   "1221": [
     "リトルオーズJr. 白ひげ海賊団傘下",
     "오즈 Jr.",
-    "Coliseum Oars Jr."
+    "콜로세움' Oars Jr."
   ],
   "1222": [
     "猛攻のリトルオーズJr. 白ひげ海賊団傘下",
     "오즈 Jr. 흰수염 해적단 산하",
-    "Coliseum Oars Jr."
+    "콜로세움' Oars Jr."
   ],
   "1223": [
     "バスティーユ",
@@ -5862,16 +5862,16 @@ window.aliases = {
   "1239": [
     "黄猿 海軍本部最高戦力",
     "키자루, 해군 본부 최고 전력",
-    "Borsalino",
-    "Legend Kizaru",
-    "Legend Borsalino"
+    "볼사리노",
+    "Legend 키자루",
+    "Legend 볼사리노"
   ],
   "1240": [
     "ボルサリーノ",
-    "보르살리노",
-    "Kizaru",
-    "Legend Kizaru",
-    "Legend Borsalino"
+    "볼사리노",
+    "키자루",
+    "Legend 키자루",
+    "Legend 볼사리노"
   ],
   "1241": [
     "コアラ 魚人空手師範代",
@@ -5896,8 +5896,8 @@ window.aliases = {
   "1245": [
     "モンキー・D・ルフィ マリンフォードに舞う“麦わら”",
     "몽키 D. 루피, 마린포드에서 날뛰는 '밀집모자'",
-    "Log Luffy",
-    "Marineford Luffy"
+    "Log 루피",
+    "Marineford 루피"
   ],
   "1246": [
     "ポートガス・D・エース 処刑台の“火拳”",
@@ -5912,37 +5912,37 @@ window.aliases = {
   "1248": [
     "マルコ 秋風にはためく襟元",
     "마르코, 가을바람에 펄럭이는 옷깃",
-    "Kimono Marco"
+    "기모노 Marco"
   ],
   "1249": [
     "マルコ ほろ酔いの着崩れ",
     "마르코, 취기에 흐트러진 옷차림",
-    "Kimono Marco"
+    "기모노 Marco"
   ],
   "1250": [
     "マルコ 白ひげ海賊団",
     "마르코, 흰수염 해적단",
-    "Coliseum Marco"
+    "콜로세움' Marco"
   ],
   "1251": [
     "マルコ　復活の炎 白ひげ海賊団",
     "마르코, 부활의 불꽃 흰수염 해적단",
-    "Coliseum Marco"
+    "콜로세움' Marco"
   ],
   "1252": [
     "遊騎士ドーマ 白ひげ海賊団傘下",
     "유검사 도마, 흰수염 해적단 산하",
-    "Coliseum Doma"
+    "콜로세움' Doma"
   ],
   "1253": [
     "スカイライダー・シュラ",
     "스카이라이더 슈라",
-    "Coliseum Shura"
+    "콜로세움' Shura"
   ],
   "1254": [
     "大渦蜘蛛スクアード 白ひげ海賊団傘下",
     "거대 소용돌이 거미 스쿼드, 흰수염 해적단 산하",
-    "Squardo"
+    "스쿼드"
   ],
   "1255": [
     "絆のディカルバン兄弟 白ひげ海賊団傘下",
@@ -6013,12 +6013,12 @@ window.aliases = {
   "1265": [
     "エース 黄昏の道草",
     "에이스, Wasting Time Until Twilight",
-    "Kimono Ace"
+    "기모노 Ace"
   ],
   "1266": [
     "エース 月下の艶肌",
     "에이스, Face Glowing in the Moonlight",
-    "Kimono Ace"
+    "기모노 Ace"
   ],
   "1267": [
     "マーシャル・D・ティーチ 黒ひげ海賊団船長",
@@ -6101,7 +6101,7 @@ window.aliases = {
   "1280": [
     "青キジ 海軍本部大将",
     "아오키지, 해군 본부 대장",
-    "Kuzan"
+    "쿠잔"
   ],
   "1281": [
     "ガープ 海軍本部中将",
@@ -6121,12 +6121,12 @@ window.aliases = {
   "1284": [
     "モンキー・D・ルフィ 野生の海賊",
     "몽키 D. 루피, 야생의 해적",
-    "Wild Luffy"
+    "Wild 루피"
   ],
   "1285": [
     "モンキー・D・ルフィ 大地の開拓者",
     "몽키 D. 루피, 대지의 개척자",
-    "Wild Luffy"
+    "Wild 루피"
   ],
   "1286": [
     "ベビー５ スパイダーマイルズの少女",
@@ -6158,24 +6158,24 @@ window.aliases = {
   "1291": [
     "ラオＧ 地翁拳の使い手",
     "라오G,지옹권 고수",
-    "Coliseum Lao G"
+    "콜로세움' Lao G"
   ],
   "1292": [
     "ラオＧ ディアマンテ軍幹部",
     "라오G, 디아만테군 간부",
-    "Coliseum Lao G"
+    "콜로세움' Lao G"
   ],
   "1293": [
     "ボア・サンダーソニア 九蛇の戦士",
     "보아 샌더소니아, 쿠자의 전사",
-    "Coliseum Sandersonia",
-    "Coliseum Boa Sandersonia"
+    "콜로세움' Sandersonia",
+    "콜로세움' Boa Sandersonia"
   ],
   "1294": [
     "ボア・サンダーソニア ゴルゴン三姉妹・次女",
     "보아 샌더소니아, 고르곤 세 자매의 차녀",
-    "Coliseum Sandersonia",
-    "Coliseum Boa Sandersonia"
+    "콜로세움' Sandersonia",
+    "콜로세움' Boa Sandersonia"
   ],
   "1295": [
     "カリファ　グラマラスミイラ",
@@ -6254,26 +6254,26 @@ window.aliases = {
   "1309": [
     "錦えもん",
     "킨에몬",
-    "Coliseum Kinemon",
-    "Coliseum Kin'emon"
+    "콜로세움' Kinemon",
+    "콜로세움' Kin'emon"
   ],
   "1310": [
     "狐火の錦えもん",
     "여우불의 킨에몬",
-    "Coliseum Kinemon",
-    "Coliseum Kin'emon"
+    "콜로세움' Kinemon",
+    "콜로세움' Kin'emon"
   ],
   "1311": [
     "ボア・マリーゴールド 九蛇の戦士",
     "보아 마리골드, 쿠자의 전사",
-    "Coliseum Marigold",
-    "Coliseum Boa Marigold"
+    "콜로세움' Marigold",
+    "콜로세움' Boa Marigold"
   ],
   "1312": [
     "ボア・マリーゴールド ゴルゴン三姉妹・三女",
     "보아 마리골드, 고르곤 세 자매의 삼녀",
-    "Coliseum Marigold",
-    "Coliseum Boa Marigold"
+    "콜로세움' Marigold",
+    "콜로세움' Boa Marigold"
   ],
   "1313": [
     "赤犬 海軍本部最高戦力",
@@ -6402,28 +6402,28 @@ window.aliases = {
   "1337": [
     "カン十郎",
     "칸주로",
-    "Coliseum Kanjuro"
+    "콜로세움' Kanjuro"
   ],
   "1338": [
     "夕立ち　カン十郎",
     "소나기 칸주로",
-    "Coliseum Kanjuro"
+    "콜로세움' Kanjuro"
   ],
   "1339": [
     "トニートニー・チョッパー 飛力強化（ジャンピングポイント）",
     "토니토니 쵸파 점프력 강화(점핑 포인트)",
-    "Coliseum Chopper",
-    "Coliseum 토니토니 쵸파"
+    "콜로세움' Chopper",
+    "콜로세움' 토니토니 쵸파"
   ],
   "1340": [
     "ゲダツ スカイピア神官",
     "게다츠, 스카이피아 신관",
-    "Coliseum Gedatsu"
+    "콜로세움' Gedatsu"
   ],
   "1341": [
     "空番長　ゲダツ スカイピア神官",
     "'하늘 반장' 게다츠, 스카이피아 신관",
-    "Coliseum Gedatsu"
+    "콜로세움' Gedatsu"
   ],
   "1342": [
     "カーリー・ダダン",
@@ -6522,39 +6522,39 @@ window.aliases = {
   "1360": [
     "ルフィの冬島冒険",
     "루피의 겨울섬모험",
-    "Winter Luffy"
+    "Winter 루피"
   ],
   "1361": [
     "ロロノア・ゾロ 集結の麦わらの一味",
     "롤로노아 조로, 집결하는 밀짚모자 일당",
-    "New World Zoro",
-    "Timeskip Zoro",
-    "TS Zoro",
-    "Legend Zoro",
+    "New World 조로",
+    "Timeskip 조로",
+    "TS 조로",
+    "Legend 조로",
     "Legend 롤로노아 조로"
   ],
   "1362": [
     "ロロノア・ゾロ 新生・麦わらの一味",
     "롤로노아 조로, 신생 밀짚모자 일당",
-    "New World Zoro",
-    "Timeskip Zoro",
-    "TS Zoro",
-    "Legend Zoro",
+    "New World 조로",
+    "Timeskip 조로",
+    "TS 조로",
+    "Legend 조로",
     "Legend 롤로노아 조로"
   ],
   "1363": [
     "フランキー 集結の麦わらの一味",
     "프랑키, 집결하는 밀짚모자 일당",
-    "New World Franky",
-    "Timeskip Franky",
-    "TS Franky"
+    "New World 프랭키",
+    "Timeskip 프랭키",
+    "TS 프랭키"
   ],
   "1364": [
     "フランキー 新生・麦わらの一味",
     "프랑키, 신생 밀짚모자 일당",
-    "New World Franky",
-    "Timeskip Franky",
-    "TS Franky"
+    "New World 프랭키",
+    "Timeskip 프랭키",
+    "TS 프랭키"
   ],
   "1365": [
     "ナミ 集結の麦わらの一味",
@@ -6601,12 +6601,12 @@ window.aliases = {
   "1371": [
     "ロロノア・ゾロ 野生の海賊",
     "롤로노아 조로, 야생의 해적",
-    "Wild Zoro"
+    "Wild 조로"
   ],
   "1372": [
     "ロロノア・ゾロ 大地の開拓者",
     "롤로노아 조로, 대지의 개척자",
-    "Wild Zoro"
+    "Wild 조로"
   ],
   "1373": [
     "マゼラン",
@@ -6621,22 +6621,22 @@ window.aliases = {
   "1375": [
     "デリンジャー 闘魚の血を引く半魚人",
     "델린저, 투어의 혈통을 이끄는 반어인",
-    "Coliseum Dellinger"
+    "콜로세움' Dellinger"
   ],
   "1376": [
     "デリンジャー ディアマンテ軍戦闘員",
     "델린저, 디아만테군 전투원",
-    "Coliseum Dellinger"
+    "콜로세움' Dellinger"
   ],
   "1377": [
     "マーガレット アマゾン・リリーの弓兵",
     "마가렛, 아마존 릴리의 궁수",
-    "Coliseum Marguerite"
+    "콜로세움' Marguerite"
   ],
   "1378": [
     "マーガレット 九蛇の覇気使い",
     "마가렛, 쿠자 해적단의 야망",
-    "Coliseum Marguerite"
+    "콜로세움' Marguerite"
   ],
   "1379": [
     "シャンクス 赤髪海賊団大頭",
@@ -6685,14 +6685,14 @@ window.aliases = {
   "1387": [
     "モンキー・D・ルフィ ゴムゴムの象銃（エレファント・ガン）",
     "몽키 D. 루피, 고무고무 엘리펀트 건",
-    "Mega Luffy",
-    "Super Luffy"
+    "Mega 루피",
+    "Super 루피"
   ],
   "1388": [
     "ロロノア・ゾロ 厄港鳥（ヤッコウドリ）",
     "롤로노아 조로, 액홍조: 얏코우도리",
-    "Mega Zoro",
-    "Super Zoro"
+    "Mega 조로",
+    "Super 조로"
   ],
   "1389": [
     "ナミ サンダーブリード＝テンポ",
@@ -6729,12 +6729,12 @@ window.aliases = {
   "1394": [
     "ベビー５ 神前の晴れ着",
     "베이비 5, 신의 앞에서 나들이 옷",
-    "Kimono Baby 5"
+    "기모노 Baby 5"
   ],
   "1395": [
     "ベビー５ ぎこちない振袖",
     "베이비 5, 어색한 기모노",
-    "Kimono Baby 5"
+    "기모노 Baby 5"
   ],
   "1396": [
     "たしぎ シャンブルズ",
@@ -6759,37 +6759,37 @@ window.aliases = {
   "1400": [
     "グラディウス 破裂人間",
     "글라디우스, 파열 인간",
-    "Coliseum Gladius"
+    "콜로세움' Gladius"
   ],
   "1401": [
     "グラディウス ピーカ軍幹部",
     "글라디우스, 피카군 간부",
-    "Coliseum Gladius"
+    "콜로세움' Gladius"
   ],
   "1402": [
     "ドルトン ドラム島民間護衛団団長",
     "도르돈, 드럼섬 민간 호위 단장",
-    "Coliseum Dalton"
+    "콜로세움' Dalton"
   ],
   "1403": [
     "モンキー・D・ルフィ 集結の麦わらの一味",
     "몽키 D. 루피, 집결하는 밀짚모자 일당",
-    "New World Luffy",
-    "Timeskip Luffy",
-    "TS Luffy",
+    "New World 루피",
+    "Timeskip 루피",
+    "TS 루피",
     "TSL",
-    "Legend Luffy",
+    "Legend 루피",
     "Legend TSL",
     "Legend 몽키 D. 루피"
   ],
   "1404": [
     "モンキー・D・ルフィ 新生・麦わらの一味",
     "몽키 D. 루피, 신생 밀짚모자 일당",
-    "New World Luffy",
-    "Timeskip Luffy",
-    "TS Luffy",
+    "New World 루피",
+    "Timeskip 루피",
+    "TS 루피",
     "TSL",
-    "Legend Luffy",
+    "Legend 루피",
     "Legend TSL",
     "Legend 몽키 D. 루피"
   ],
@@ -6892,36 +6892,36 @@ window.aliases = {
   "1419": [
     "ロブ・ルッチ 紋付袴の手招き",
     "로브 루치, 몬츠키하카마의 손짓",
-    "Kimono Lucci"
+    "기모노 Lucci"
   ],
   "1420": [
     "ロブ・ルッチ 羽二重のほころび",
     "로브 루치, 하부타에의 타짐",
-    "Kimono Lucci"
+    "기모노 Lucci"
   ],
   "1421": [
     "ディアマンテ はためく旗（フラッグ）人間",
     "디아만테, 펄럭이는 깃발 인간",
-    "Coliseum Diamante"
+    "콜로세움' Diamante"
   ],
   "1422": [
     "ディアマンテ ドンキホーテファミリー最高幹部",
     "디아만테, 돈키호테 패밀리 간부",
-    "Coliseum Diamante"
+    "콜로세움' Diamante"
   ],
   "1423": [
     "Tボーン 海軍本部大佐",
     "T-본, 해군본부 대령",
-    "Coliseum T-Bone",
+    "콜로세움' T-Bone",
     "TBone",
-    "Coliseum TBone",
+    "콜로세움' TBone",
     "T Bone",
-    "Coliseum T Bone"
+    "콜로세움' T Bone"
   ],
   "1424": [
     "ギン 海賊艦隊　戦闘“総隊長”",
     "깅, 해적 함대 전투 '총대장'",
-    "Coliseum Gin"
+    "콜로세움' Gin"
   ],
   "1425": [
     "サイ 八宝水軍",
@@ -6956,14 +6956,14 @@ window.aliases = {
   "1431": [
     "フランキー将軍",
     "프랑키 장군",
-    "General Franky",
-    "Raid Franky"
+    "General 프랭키",
+    "Raid 프랭키"
   ],
   "1432": [
     "フランキー将軍 鉄の海賊（アイアンパイレーツ）",
     "프랑키 장군, 철의 해적(아이언 파이레츠)",
-    "Shogun Franky",
-    "Raid Franky"
+    "Shogun 프랭키",
+    "Raid 프랭키"
   ],
   "1433": [
     "ホーディ・ジョーンズ 新魚人海賊団船長",
@@ -7084,47 +7084,47 @@ window.aliases = {
   "1455": [
     "首領・チンジャオ 八宝水軍",
     "수령 칭자오, 팔보수군",
-    "Coliseum Don Chinjao"
+    "콜로세움' Don Chinjao"
   ],
   "1456": [
     "首領・チンジャオ 元八宝水軍第１２代棟梁",
     "수령 칭자오, 전 팔보수군의 12대 두목",
-    "Coliseum Don Chinjao"
+    "콜로세움' Don Chinjao"
   ],
   "1457": [
     "クラハドール 執事",
     "클래하들 집사",
-    "Coliseum Kuro"
+    "콜로세움' Kuro"
   ],
   "1458": [
     "百計のクロ 海賊",
     "백계의 크로 해적",
-    "Coliseum Kuro"
+    "콜로세움' Kuro"
   ],
   "1459": [
     "ミス・バレンタイン キロキロの実の能力者",
     "미스 발렌타인, 킬로킬로 열매의 능력자",
-    "Coliseum Miss Valentine"
+    "콜로세움' Miss Valentine"
   ],
   "1460": [
     "ミス・バレンタイン Ｂ・Ｗオフィサーエージェント",
     "미스 발렌타인, 바로크 워크스 오피서 에이전트",
-    "Coliseum Miss Valentine"
+    "콜로세움' Miss Valentine"
   ],
   "1461": [
     "ゾロの寒稽古",
     "조로, 혹한 훈련",
-    "Winter Zoro"
+    "Winter 조로"
   ],
   "1462": [
     "ルフィのブレイクタイム",
     "루피의 브레이크 타임",
-    "White Day Luffy"
+    "White Day 루피"
   ],
   "1463": [
     "ルフィのティーパーティ",
     "루피의 티 파티",
-    "White Day Luffy"
+    "White Day 루피"
   ],
   "1464": [
     "チョッパーのブレイクタイム",
@@ -7205,7 +7205,7 @@ window.aliases = {
   ],
   "1479": [
     "濡れ髪のカリブー カリブー海賊団船長",
-    "적은 머리 카리브, 카리브 해적단 선장",
+    "젖은 머리 카리브, 카리브 해적단 선장",
     ""
   ],
   "1480": [
@@ -7243,33 +7243,33 @@ window.aliases = {
   "1486": [
     "イデオ ＸＸＸ級ボクサー",
     "이데오, XXX급 복서",
-    "Coliseum Ideo"
+    "콜로세움' Ideo"
   ],
   "1487": [
     "破壊砲　イデオ ＸＸＸ級ボクサー",
     "파괴포 이데오, XXX급 복서",
-    "Coliseum Ideo"
+    "콜로세움' Ideo"
   ],
   "1488": [
     "首領・クリーク 海賊艦隊「提督」",
     "수령 클리크, 클리크 해적 함대 '제독'",
-    "Coliseum Don Krieg"
+    "콜로세움' Don Krieg"
   ],
   "1489": [
     "首領・クリーク 東の海の覇者",
     "수령 클리크, 이스트 블루의 패자",
-    "Coliseum Don Krieg"
+    "콜로세움' Don Krieg"
   ],
   "1490": [
     "Mr.5 爆弾人間",
     "Mr. 5, 폭탄 인간",
-    "Coliseum Mr. 5",
+    "콜로세움' Mr. 5",
     "Mr 5"
   ],
   "1491": [
     "Mr.5 Ｂ・Ｗオフィサーエージェント",
     "Mr. 5, 바로크 워크스 오피서 에이전트",
-    "Coliseum Mr. 5",
+    "콜로세움' Mr. 5",
     "Mr 5"
   ],
   "1492": [
@@ -7447,22 +7447,22 @@ window.aliases = {
   "1525": [
     "首はねスレイマン ディアス海戦Ａ級戦犯",
     "참수가 슐레이만, 해전 A급 전범",
-    "Coliseum Suleiman"
+    "콜로세움' Suleiman"
   ],
   "1526": [
     "アーロン アーロン一味船長",
     "아론, 아론 해적단 선장",
-    "Coliseum Arlong"
+    "콜로세움' Arlong"
   ],
   "1527": [
     "ノコギリのアーロン アーロン一味船長",
     "톱날의 아론, 아론 해적단 선장",
-    "Coliseum Arlong"
+    "콜로세움' Arlong"
   ],
   "1528": [
     "ブレンハイム 白ひげ海賊団９番隊隊長",
     "블렌하임, 흰수염 해적단 9번대 대장",
-    "Coliseum Blenheim"
+    "콜로세움' Blenheim"
   ],
   "1529": [
     "キャベンディッシュ 美しき海賊団船長",
@@ -7590,8 +7590,8 @@ window.aliases = {
   "1550": [
     "フランキー フランキ～～～ロケットランチャ――",
     "프랑키, 프랑키~~~ 로켓 런처~~~~",
-    "Mega Franky",
-    "Super Franky"
+    "Mega 프랭키",
+    "Super 프랭키"
   ],
   "1551": [
     "ブルック 掠り唄　吹雪斬り",
@@ -7602,22 +7602,22 @@ window.aliases = {
   "1552": [
     "ハイルディン 「エルバフ」“新時代”の戦士",
     "하이루딘, '새 시대'의 엘바프 전사",
-    "Coliseum Hajrudin"
+    "콜로세움' Hajrudin"
   ],
   "1553": [
     "海賊傭兵　ハイルディン 「エルバフ」“新時代”の戦士",
     "해적 용병 하이루딘, '새 시대'의 엘바프 전사",
-    "Coliseum Hajrudin"
+    "콜로세움' Hajrudin"
   ],
   "1554": [
     "リューマ 侍の将軍ゾンビ",
     "류마, 사무라이 장군 좀비",
-    "Coliseum Ryuma"
+    "콜로세움' Ryuma"
   ],
   "1555": [
     "剣豪リューマ 侍の将軍ゾンビ",
     "검호 류마, 사무라이 장군 좀비",
-    "Coliseum Ryuma"
+    "콜로세움' Ryuma"
   ],
   "1556": [
     "ワダツミ",
@@ -7769,22 +7769,22 @@ window.aliases = {
   "1583": [
     "オオロンブス ヨンタマリア大船団提督",
     "올럼버스, 욘타마리아 대선단 제독",
-    "Coliseum Orlumbus"
+    "콜로세움' Orlumbus"
   ],
   "1584": [
     "殺戮支配者オオロンブス ヨンタマリア大船団提督",
     "살육지배자 올럼버스, 욘타마리아 대선단 제독",
-    "Coliseum Orlumbus"
+    "콜로세움' Orlumbus"
   ],
   "1585": [
     "ヘルメッポ 海軍本部軍曹",
     "헤르메포, 해군 중사",
-    "Coliseum Helmeppo"
+    "콜로세움' Helmeppo"
   ],
   "1586": [
     "勇士の戦友ヘルメッポ 海軍本部軍曹",
     "용사의 전우 헤르메포, 해군 중사",
-    "Coliseum Helmeppo"
+    "콜로세움' Helmeppo"
   ],
   "1587": [
     "サンジ ヴィンスモーク家　三男",
@@ -7827,14 +7827,14 @@ window.aliases = {
   "1593": [
     "モンキー・D・ルフィ ギア“４”　「弾む男（バウンドマン）」",
     "몽키 D. 루피, 기어 4 - 바운드맨",
-    "Gear 4 Luffy",
+    "Gear 4 루피",
     "G4",
-    "G4 Luffy",
-    "Mega Luffy",
-    "Super Luffy",
-    "Legend Luffy",
-    "Legend Gear 4 Luffy",
-    "Legend G4 Luffy"
+    "G4 루피",
+    "Mega 루피",
+    "Super 루피",
+    "Legend 루피",
+    "Legend Gear 4 루피",
+    "Legend G4 루피"
   ],
   "1594": [
     "藤虎 海軍本部最高戦力",
@@ -7871,22 +7871,22 @@ window.aliases = {
   "1600": [
     "モンキー・D・ルフィ 麦わらの一味・ハートの海賊団海賊同盟",
     "몽키 D. 루피, 밀짚모자 • 하트 해적단 동맹",
-    "Anniversary Luffy"
+    "Anniversary 루피"
   ],
   "1601": [
     "シリュウ 黒ひげ海賊団",
     "시류, 검은 수염 해적단",
-    "Coliseum Shiryu"
+    "콜로세움' Shiryu"
   ],
   "1602": [
     "雨のシリュウ 黒ひげ海賊団",
     "비의 시류, 검은 수염 해적단",
-    "Coliseum Shiryu"
+    "콜로세움' Shiryu"
   ],
   "1603": [
     "雷卿マクガイ",
     "뇌경 맥가이",
-    "Coliseum McGuy",
+    "콜로세움' McGuy",
     "Lightning McGuy"
   ],
   "1604": [
@@ -8040,24 +8040,24 @@ window.aliases = {
   "1627": [
     "マッハ・バイス 超体重人間",
     "마하바이스, 초체중인간",
-    "Coliseum Mach Vise",
-    "Coliseum Machvise"
+    "콜로세움' Mach Vise",
+    "콜로세움' Machvise"
   ],
   "1628": [
     "マッハ・バイス ディアマンテ軍幹部",
     "마하바이스, 디아만테군 간부",
-    "Coliseum Mach Vise",
-    "Coliseum Machvise"
+    "콜로세움' Mach Vise",
+    "콜로세움' Machvise"
   ],
   "1629": [
     "イカロス・ムッヒ 深海の魚人海賊",
     "이카로스 뭇히, 심해의 어인해적",
-    "Coliseum Ikaros Much"
+    "콜로세움' Ikaros Much"
   ],
   "1630": [
     "イカロス・ムッヒ 反逆の魚人海賊",
     "이카로스 뭇히, 반역의 어인해적",
-    "Coliseum Ikaros Much"
+    "콜로세움' Ikaros Much"
   ],
   "1631": [
     "フィッシャー・タイガー",
@@ -8242,44 +8242,44 @@ window.aliases = {
   "1664": [
     "青キジ “一騎討ち”の相手",
     "아오키지, \"일기토\"의 상대",
-    "Secret Aokiji",
-    "Secret Kuzan"
+    "Secret 아오키지",
+    "Secret 쿠잔"
   ],
   "1665": [
     "青キジ “一騎討ち”の勝者",
     "아오키지, \"일기토\"의 승자",
-    "Secret Aokiji",
-    "Secret Kuzan"
+    "Secret 아오키지",
+    "Secret 쿠잔"
   ],
   "1666": [
     "キュロス 無敗の剣闘士",
     "퀴로스, 무패의 검투사",
-    "Coliseum Kyros"
+    "콜로세움' Kyros"
   ],
   "1667": [
     "キュロス リク王軍軍隊長",
     "퀴로스, 리쿠왕군 군대장",
-    "Coliseum Kyros"
+    "콜로세움' Kyros"
   ],
   "1668": [
     "青キジ「改」",
     "아오키지 [개]",
-    "Kai Aokiji",
-    "Kai Kuzan",
-    "Raid Aokiji",
-    "Raid Kuzan",
-    "개 Aokiji",
-    "Neo Kuzan"
+    "Kai 아오키지",
+    "Kai 쿠잔",
+    "Raid 아오키지",
+    "Raid 쿠잔",
+    "개 아오키지",
+    "Neo 쿠잔"
   ],
   "1669": [
     "青キジ　氷結人間「改」",
     "아오키지 [개], 빙결인간",
-    "Kai Aokiji",
-    "Kai Kuzan",
-    "Raid Aokiji",
-    "Raid Kuzan",
-    "개 Aokiji",
-    "Neo Kuzan"
+    "Kai 아오키지",
+    "Kai 쿠잔",
+    "Raid 아오키지",
+    "Raid 쿠잔",
+    "개 아오키지",
+    "Neo 쿠잔"
   ],
   "1670": [
     "マダム・シャーリー マーメイドカフェ　店長",
@@ -8311,12 +8311,12 @@ window.aliases = {
   "1675": [
     "ロロノア・ゾロ からかさ剣士",
     "롤로노아 조로, 종이우산 검사",
-    "Kimono Zoro"
+    "기모노 조로"
   ],
   "1676": [
     "ロロノア・ゾロ 雨濡れ剣客",
     "롤로노아 조로, 비에 젖은 검사",
-    "Kimono Zoro"
+    "기모노 조로"
   ],
   "1677": [
     "トラファルガー・ロー 終わらぬ夢の航跡・ハートの海賊団",
@@ -8348,12 +8348,12 @@ window.aliases = {
   "1681": [
     "モンキー・D・ルフィ Celebrate 20th Anniversary Cruise",
     "몽키 D. 루피, Celebrate 20th Anniversary Cruise",
-    "20th Anniversary Luffy"
+    "20th Anniversary 루피"
   ],
   "1682": [
     "モンキー・D・ルフィ 20th Anniversary Memorial Treasure",
     "몽키 D. 루피, 20th Anniversary Memorial Treasure",
-    "20th Anniversary Luffy"
+    "20th Anniversary 루피"
   ],
   "1683": [
     "ニコ・ロビン Celebrate 20th Anniversary Cruise",
@@ -8378,12 +8378,12 @@ window.aliases = {
   "1687": [
     "フランキー Celebrate 20th Anniversary Cruise",
     "프랑키, Celebrate 20th Anniversary Cruise",
-    "20th Anniversary Franky"
+    "20th Anniversary 프랭키"
   ],
   "1688": [
     "フランキー 20th Anniversary Memorial Treasure",
     "프랑키, 20th Anniversary Memorial Treasure",
-    "20th Anniversary Franky"
+    "20th Anniversary 프랭키"
   ],
   "1689": [
     "ユースタス・キッド “南の海”出身の超新星",
@@ -8408,7 +8408,7 @@ window.aliases = {
   "1693": [
     "イヌアラシ モコモ公国",
     "이누아라시, 모코모공국",
-    "Coliseum Inuarashi",
+    "콜로세움' Inuarashi",
     "Dog Storm",
     "Dogstorm",
     "Doggo"
@@ -8416,7 +8416,7 @@ window.aliases = {
   "1694": [
     "“昼の王”イヌアラシ モコモ公国",
     "'낮의 왕' 이누아라시, 모코모공국",
-    "Coliseum Inuarashi",
+    "콜로세움' Inuarashi",
     "Dog Storm",
     "Dogstorm",
     "Doggo"
@@ -8649,14 +8649,14 @@ window.aliases = {
     "ネコマムシ くじらの森の守護神",
     "네코마무시, 고래의 숲의 수호자",
     "Nekopara",
-    "Coliseum Nekomamushi",
+    "콜로세움' Nekomamushi",
     "Cat Viper"
   ],
   "1733": [
     "“夜の王”ネコマムシ くじらの森の守護神",
     "'밤의 왕' 네코마무시, 고래의 숲의 수호자",
     "Nekopara",
-    "Coliseum Nekomamushi",
+    "콜로세움' Nekomamushi",
     "Cat Viper"
   ],
   "1734": [
@@ -8772,12 +8772,12 @@ window.aliases = {
   "1752": [
     "ロロノア・ゾロ Celebrate 20th Anniversary Cruise",
     "롤로노아 조로, Celebrate 20th Anniversary Cruise",
-    "20th Anniversary Zoro"
+    "20th Anniversary 조로"
   ],
   "1753": [
     "ロロノア・ゾロ 20th Anniversary Memorial Treasure",
     "롤로노아 조로, 20th Anniversary Memorial Treasure",
-    "20th Anniversary Zoro"
+    "20th Anniversary 조로"
   ],
   "1754": [
     "サンジ Celebrate 20th Anniversary Cruise",
@@ -8840,12 +8840,12 @@ window.aliases = {
   "1764": [
     "クザン 元海軍本部最高戦力",
     "쿠잔, 전 해군본부 최고전력",
-    "Super Aokiji",
-    "Mega Aokiji",
-    "Super Kuzan",
-    "Mega Kuzan",
-    "Legend Aokiji",
-    "Legend Kuzan"
+    "Super 아오키지",
+    "Mega 아오키지",
+    "Super 쿠잔",
+    "Mega 쿠잔",
+    "Legend 아오키지",
+    "Legend 쿠잔"
   ],
   "1765": [
     "足長族　ブルーギリー",
@@ -8871,13 +8871,13 @@ window.aliases = {
     "ベン・ベックマン 赤髪海賊団副船長",
     "벤 베크만, 빨강 머리 해적단 부선장",
     "Secret Benn Beckman",
-    "Secret Ben Beckman"
+    "Secret 벤 베크만"
   ],
   "1770": [
     "ベン・ベックマン “四皇”赤髪の右腕",
     "벤 베크만, '사황' 빨강 머리의 오른팔",
     "Secret Benn Beckman",
-    "Secret Ben Beckman"
+    "Secret 벤 베크만"
   ],
   "1771": [
     "暴君バーソロミュー・くま「改」",
@@ -8922,34 +8922,34 @@ window.aliases = {
   "1777": [
     "黄猿 聖地からの使者",
     "키자루, 성지로부터의 사자",
-    "Secret Kizaru",
-    "Secret Borsalino"
+    "Secret 키자루",
+    "Secret 볼사리노"
   ],
   "1778": [
     "黄猿 聖地からの光臨",
     "키자루, 성지로부터의 광림",
-    "Secret Kizaru",
-    "Secret Borsalino"
+    "Secret 키자루",
+    "Secret 볼사리노"
   ],
   "1779": [
     "黄猿「改」",
     "키자루 [개]",
-    "개 Kizaru",
-    "Neo Borsalino",
-    "Kai Kizaru",
-    "Kai Borsalino",
-    "Raid Kizaru",
-    "Raid Borsalino"
+    "개 키자루",
+    "Neo 볼사리노",
+    "Kai 키자루",
+    "Kai 볼사리노",
+    "Raid 키자루",
+    "Raid 볼사리노"
   ],
   "1780": [
     "黄猿「改」　光人間",
     "키자루 [개], 빛의 인간",
-    "개 Kizaru",
-    "Neo Borsalino",
-    "Kai Kizaru",
-    "Kai Borsalino",
-    "Raid Kizaru",
-    "Raid Borsalino"
+    "개 키자루",
+    "Neo 볼사리노",
+    "Kai 키자루",
+    "Kai 볼사리노",
+    "Raid 키자루",
+    "Raid 볼사리노"
   ],
   "1781": [
     "闘魚",
@@ -9004,16 +9004,16 @@ window.aliases = {
   "1791": [
     "ルーシー コリーダコロシアムＣブロックの謎の剣闘士",
     "루시, 코리다 콜로세움 C블록의 미스터리 검투사",
-    "Luffy",
-    "Coliseum Luffy",
-    "Coliseum Lucy"
+    "루피",
+    "콜로세움' 루피",
+    "콜로세움' Lucy"
   ],
   "1792": [
     "ルーシー コリーダコロシアムＣブロックの風雲児",
     "루시, 코리다 콜로세움 C블록의 풍운아",
-    "Luffy",
-    "Coliseum Luffy",
-    "Coliseum Lucy"
+    "루피",
+    "콜로세움' 루피",
+    "콜로세움' Lucy"
   ],
   "1793": [
     "ルーシー コリーダコロシアム決勝戦の風雲児",
@@ -9274,33 +9274,33 @@ window.aliases = {
   ],
   "1841": [
     "カリブー 次世代の超新星",
-    null,
+    "카리브, 다음 세대의 초신성",
     ""
   ],
   "1842": [
     "濡れ髪のカリブー 次世代の超新星",
-    null,
+    "젖은 머리 카리브, 다음 세대의 초신성",
     ""
   ],
   "1843": [
     "コリブー 次世代の超新星",
-    null,
+    "코리브, 다음 세대의 초신성",
     ""
   ],
   "1844": [
     "返り血のコリブー 次世代の超新星",
-    null,
+    "피범벅 코리브, 다음 세대의 초신",
     ""
   ],
   "1845": [
     "モンキー・D・ガープ 海軍の英雄",
-    null,
+    "가프, 해군 영웅",
     "Invasion Garp",
     "Ambush Garp"
   ],
   "1846": [
     "ゲンコツのガープ 海軍の英雄",
-    null,
+    "철권 가프, 해군 영웅",
     "Invasion Garp",
     "Ambush Garp"
   ],
@@ -9311,45 +9311,45 @@ window.aliases = {
   ],
   "1848": [
     "赤犬 震慄の災禍",
-    null,
+    "아카이누, 전율하게 만드는 재해",
     "사카즈키"
   ],
   "1849": [
     "サカズキ 震慄の災禍",
-    null,
+    "사카즈키, 전율하게 만드는 재해",
     "아카이누"
   ],
   "1850": [
     "スクアード 裏切りの“息子”",
-    null,
-    "Squardo"
+    "스쿼드, 배신의 \"아들\"",
+    "스쿼드"
   ],
   "1851": [
     "大渦蜘蛛スクアード 裏切りの“息子”",
-    null,
-    "Squardo"
+    "거대 소용돌이 거미 스쿼드, 배신의 \"아들\"",
+    "스쿼드"
   ],
   "1852": [
     "エドワード・ニューゲート 白ひげ海賊団船長",
-    null,
+    "에드워드 뉴게이트",
     "Adventure Whitebeard",
     "WB"
   ],
   "1853": [
     "白ひげ 白ひげ海賊団船長",
-    null,
+    "흰 수염",
     "Adventure Whitebeard",
     "Edward Newgate",
     "WB"
   ],
   "1854": [
     "スクラッチメン・アプー 超新星",
-    null,
+    "스크래치멘, 아푸 초신성",
     ""
   ],
   "1855": [
     "“海鳴り”スクラッチメン・アプー 超新星",
-    null,
+    "'바다 천둥' 스크레치멘, 아푸 초신성",
     ""
   ],
   "1856": [
@@ -9375,12 +9375,12 @@ window.aliases = {
   "1860": [
     "雷ぞう ワノ国の忍者",
     null,
-    "Coliseum Raizo"
+    "콜로세움' Raizo"
   ],
   "1861": [
     "霧の雷ぞう ワノ国の忍者",
     null,
-    "Coliseum Raizo"
+    "콜로세움' Raizo"
   ],
   "1862": [
     "錦えもん「改」",
@@ -9573,16 +9573,16 @@ window.aliases = {
   "1896": [
     "エネル スカイピア唯一神",
     null,
-    "Coliseum Enel",
-    "Coliseum Eneru",
-    "Coliseum Kami Enel"
+    "콜로세움' Enel",
+    "콜로세움' Eneru",
+    "콜로세움' Kami Enel"
   ],
   "1897": [
     "ゴッド・エネル スカイピア唯一神",
     null,
-    "Coliseum Enel",
-    "Coliseum Eneru",
-    "Coliseum Kami Enel"
+    "콜로세움' Enel",
+    "콜로세움' Eneru",
+    "콜로세움' Kami Enel"
   ],
   "1898": [
     "キラー「改」 キッド海賊団",
@@ -9662,22 +9662,22 @@ window.aliases = {
   "1911": [
     "ウルージ 打壊す煩悩",
     null,
-    "Kimono Urouge"
+    "기모노 Urouge"
   ],
   "1912": [
     "ウルージ 百八の慈愛",
     null,
-    "Kimono Urouge"
+    "기모노 Urouge"
   ],
   "1913": [
     "ネフェルタリ・ビビ 麗しの振袖姿",
     null,
-    "Kimono Vivi"
+    "기모노 Vivi"
   ],
   "1914": [
     "ネフェルタリ・ビビ 寛雅な晴れ姿",
     null,
-    "Kimono Vivi"
+    "기모노 Vivi"
   ],
   "1915": [
     "モンキー・D・ルフィ 神の天敵",
@@ -9712,8 +9712,8 @@ window.aliases = {
   "1921": [
     "海賊狩りのゾロ 新生・麦わらの一味",
     null,
-    "Super Zoro",
-    "Mega Zoro"
+    "Super 조로",
+    "Mega 조로"
   ],
   "1922": [
     "トラファルガー・ロー Dの一族",
@@ -10016,12 +10016,12 @@ window.aliases = {
   "1977": [
     "シルバーズ・レイリー “覇気”の師",
     null,
-    "Coliseum Rayleigh"
+    "콜로세움' Rayleigh"
   ],
   "1978": [
     "冥王レイリー “覇気”の師",
     null,
-    "Coliseum Rayleigh"
+    "콜로세움' Rayleigh"
   ],
   "1979": [
     "超新星 カポネ・ベッジ",
@@ -10051,34 +10051,34 @@ window.aliases = {
   "1984": [
     "ルフィ＆エース 戦火の再会",
     null,
-    "Luffy&Ace",
-    "Luffy and Ace"
+    "루피&Ace",
+    "루피 and Ace"
   ],
   "1985": [
     "ルフィ＆エース 海賊の高み",
     null,
-    "Luffy&Ace",
-    "Luffy and Ace"
+    "루피&Ace",
+    "루피 and Ace"
   ],
   "1986": [
     "マルコ “意志”の守り手",
     null,
-    "Coliseum Marco"
+    "콜로세움' Marco"
   ],
   "1987": [
     "不死鳥マルコ “意志”の守り手",
     null,
-    "Coliseum Marco"
+    "콜로세움' Marco"
   ],
   "1988": [
     "リトルオーズJr. 突破口の先駆者",
     null,
-    "Coliseum Oars"
+    "콜로세움' Oars"
   ],
   "1989": [
     "猛攻のリトルオーズJr. 突破口の先駆者",
     null,
-    "Coliseum Oars"
+    "콜로세움' Oars"
   ],
   "1990": [
     "モンキー・D・ガープ 信念の中将",
@@ -10128,19 +10128,18 @@ window.aliases = {
   "1999": [
     "麦わらの一味の双璧 ロロンア・ソロ",
     null,
-    "TM Zoro"
+    "TM 조로"
   ],
   "2000": [
     "麦わらの一味の双璧 サンジ&ソロ",
-    "실버즈 레일리",
-    "상디&Zoro",
-    "상디 and Zoro",
-    "상디 Zoro",
-    "상디Zoro",
-    "Zoro&상디",
-    "Zoro and 상디",
-    "Zoro 상디",
-    "Zoro상디"
+    "상디&조로",
+    "상디 and 조로",
+    "상디 조로",
+    "상디조로",
+    "조로&상디",
+    "조로 and 상디",
+    "조로 상디",
+    "조로상디"
   ],
   "2001": [
     "トラファルガー・ロー 元王下七武海",
@@ -10269,12 +10268,12 @@ window.aliases = {
   "2024": [
     "クザン 天下分け目の死闘",
     "",
-    "V2 Aokiji"
+    "V2 아오키지"
   ],
   "2025": [
     "クサン 天下分け目の死闘",
     "",
-    "V2 Aokiji"
+    "V2 아오키지"
   ],
   "2026": [
     "ヒナ 炎救出を妨げる牢獄",
@@ -10311,24 +10310,24 @@ window.aliases = {
     "",
     "Tankman",
     "Raid Tankman",
-    "Raid Luffy"
+    "Raid 루피"
   ],
   "2033": [
     "モンキー・D・ルフィ ギア４　「タンクマン」",
     "",
     "Tankman",
     "Raid Tankman",
-    "Raid Luffy"
+    "Raid 루피"
   ],
   "2034": [
     "ボルサリーノ 海軍本部最高戦力",
     "",
-    "Super Borsalino",
-    "Mega Borsalino",
-    "Borsalino V1",
-    "Super Kizaru",
-    "Kizaru",
-    "Mega Kizaru"
+    "Super 볼사리노",
+    "Mega 볼사리노",
+    "볼사리노 V1",
+    "Super 키자루",
+    "키자루",
+    "Mega 키자루"
   ],
   "2035": [
     "千両道化のバギー",
@@ -10355,42 +10354,42 @@ window.aliases = {
     "ボア・ハンコック 華の蛇姫",
     "",
     "Limited Boa Hancock",
-    "Kimono Boa"
+    "기모노 Boa"
   ],
   "2039": [
     "”女帝”　ボア・ハンコック 華の蛇姫",
     "",
     "Limited Boa Hancock",
-    "Kimono Boa"
+    "기모노 Boa"
   ],
   "2040": [
     "エドワード・ニューゲート 大海賊時代前夜の記憶",
     "",
     "Whitebeard",
     "Limited Whitebeard",
-    "Kimono Whitebeard"
+    "기모노 Whitebeard"
   ],
   "2041": [
     "\"白ひげ\" エドワード・ニューゲート 大海賊時代前夜の記憶",
     "",
     " Whitebeard",
     "Limited Whitebeard",
-    "Kimono Whitebeard"
+    "기모노 Whitebeard"
   ],
   "2042": [
     "黄猿 束の間の平穏と大将たち",
     "",
-    "Borsalino"
+    "볼사리노"
   ],
   "2043": [
     "ボルサリーノ　束の間の平穏と大将たち",
     "",
-    "Kizaru"
+    "키자루"
   ],
   "2044": [
     "ベン・ベックマン 港村の海賊",
     "",
-    "Ben Beckman"
+    "벤 베크만"
   ],
   "2045": [
     "ラッキー・ルウ 港村の海賊",
@@ -10454,12 +10453,12 @@ window.aliases = {
   "2056": [
     "ヴィンスモーク・イチジ ジェルマの復活計画　最高傑作",
     "",
-    "Kid Ichiji"
+    "Kid 이치디"
   ],
   "2057": [
     "ヴィンスモーク・ニジ ジェルマの復活計画　最高傑作",
     "",
-    "Kid Niji"
+    "Kid 니디"
   ],
   "2058": [
     "ヴィンスモーク・ヨンジ ジェルマの復活計画　最高傑作",
@@ -10469,36 +10468,36 @@ window.aliases = {
   "2059": [
     "ベン・ベックマン 光を止める銃口",
     "",
-    "Limited Ben Beckman",
-    "Secret Ben Beckman"
+    "Limited 벤 베크만",
+    "Secret 벤 베크만"
   ],
   "2060": [
     "ベン・ベックマン 光を脅かす銃口",
     "",
-    "Limited Ben Beckman",
-    "Secret Ben Beckman"
+    "Limited 벤 베크만",
+    "Secret 벤 베크만"
   ],
   "2061": [
     "スクラッチメン・アプー 光を震わす爆音",
     "",
-    "Limted Apoo",
-    "Secret Apoo"
+    "Limted 아푸",
+    "Secret 아푸"
   ],
   "2062": [
     "“海鳴り”スクラッチメン・アプー 光を震わす爆音",
     "",
-    "Limted Apoo",
-    "Secret Apoo"
+    "Limted 아푸",
+    "Secret 아푸"
   ],
   "2063": [
     "黄猿 急追する一閃",
     "",
-    "TM Kizaru"
+    "TM 키자루"
   ],
   "2064": [
     "黄猿 怒涛の閃々",
     "",
-    "TM Kizaru"
+    "TM 키자루"
   ],
   "2065": [
     "シャーロット・プリン",
@@ -10567,10 +10566,10 @@ window.aliases = {
     "G4",
     "Gear 4 Tankman",
     "Gear 4 Boundman",
-    "V4 Luffy",
+    "V4 루피",
     "Second Mistake",
-    "Gear Change Luffy",
-    "Gear Shift Luffy"
+    "Gear Change 루피",
+    "Gear Shift 루피"
   ],
   "2074": [
     "麦わらのルフィ ゴムゴムの力の可能性",
@@ -10578,10 +10577,10 @@ window.aliases = {
     "G4",
     "Gear 4 Tankman",
     "Gear 4 Boundman",
-    "V4 Luffy",
+    "V4 루피",
     "Second Mistake",
-    "Gear Change Luffy",
-    "Gear Shift Luffy"
+    "Gear Change 루피",
+    "Gear Shift 루피"
   ],
   "2075": [
     "ナミ 世界地図を記す航海士",
@@ -10646,7 +10645,7 @@ window.aliases = {
   "2087": [
     "モンキー・D・ルフィ Let’s go for PIRATE FESTIVAL",
     "",
-    "Pizza Luffy"
+    "Pizza 루피"
   ],
   "2088": [
     "サンジ Let’s go for PIRATE FESTIVAL",
@@ -10661,7 +10660,7 @@ window.aliases = {
   "2090": [
     "フランキー Let’s go for PIRATE FESTIVAL",
     "",
-    "Pizza Franky"
+    "Pizza 프랭키"
   ],
   "2091": [
     "ウソップ Let’s go for PIRATE FESTIVAL",
@@ -10671,7 +10670,7 @@ window.aliases = {
   "2092": [
     "ロロノア・ゾロ Let’s go for PIRATE FESTIVAL",
     "",
-    "Pizza Zoro"
+    "Pizza 조로"
   ],
   "2093": [
     "トニートニー・チョッパー Let’s go for PIRATE FESTIVAL",
@@ -10691,12 +10690,12 @@ window.aliases = {
   "2096": [
     "ロロノア・ゾロ 新世界を切り開く剣士",
     "",
-    "Raid Zoro"
+    "Raid 조로"
   ],
   "2097": [
     "ロロノア・ゾロ 新世界を斬り伏せる剣豪　",
     "",
-    "Raid Zoro"
+    "Raid 조로"
   ],
   "2098": [
     "\"黄金帝\" ギルド・テゾーロ",
@@ -10763,14 +10762,14 @@ window.aliases = {
   "2110": [
     "ユースタス・キッド \"四皇\" を狙う最悪の世代",
     "",
-    "Coliseum Kid",
+    "콜로세움' Kid",
     "Timeskip Captain Kid",
     "Timeskip Kid"
   ],
   "2111": [
     "ユースタス・キッド \"赤髪\" を狙う最悪の世代",
     "",
-    "Coliseum Kid",
+    "콜로세움' Kid",
     "Timeskip Captain Kid",
     "Timeskip Kid"
   ],
@@ -10827,12 +10826,12 @@ window.aliases = {
   "2122": [
     "ネプチューン 海の大騎士",
     "",
-    "Coliseum Neptune"
+    "콜로세움 `'넵튠'"
   ],
   "2123": [
     "海神ネプチューン 海の大騎士",
     "",
-    "Coliseum Neptune"
+    "콜로세움 '넵튠'"
   ],
   "2124": [
     "",

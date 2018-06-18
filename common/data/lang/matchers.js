@@ -3,13 +3,13 @@ window.matchers = [
     /* * * * * Captain abilities * * * * */
 
     {
-        name: 'Type-boosting captains',
+        name: '속성 강화',
         target: 'captain',
         matcher: /Boosts (ATK|HP|RCV|ATK and HP|ATK and RCV|HP and RCV|ATK, HP and RCV) of[^,]+(STR|DEX|QCK|PSY|INT)\b/i
     },
 
     {
-        name: 'Class-boosting captains',
+        name: '타입 강화',
         target: 'captain',
         matcher: /Boosts (ATK|HP|RCV|ATK and HP|ATK and RCV|HP and RCV|ATK, HP and RCV) of[^,]+(Slasher|Striker|Fighter|Shooter|Free Spirit|Cerebral|Powerhouse|Driven)/i
     },
@@ -21,37 +21,37 @@ window.matchers = [
     },
 
     {
-        name: 'ATK boosting captains',
+        name: '공격력 강화',
         target: 'captain',
         matcher: /Boosts ATK/i
     },
 
     {
-        name: 'HP boosting captains',
+        name: '체력 강화',
         target: 'captain',
         matcher: /Boosts (HP|ATK and HP|ATK, HP)|Boosts.+and their HP/i
     },
 
     {
-        name: 'RCV boosting captains',
+        name: '회복력 강화',
         target: 'captain',
         matcher: /Boosts (RCV|ATK and RCV|HP and RCV|ATK, HP and RCV)|Boosts.+and their RCV/i
     },
 
     {
-        name: 'Special boosting captains',
+        name: '필살기 강화',
         target: 'captain',
         matcher: /Boosts damage.+specials/i
     },
 
     {
-        name: '2x ATK and HP captains',
+        name: '공격력과 체력 2배 강화',
         target: 'captain',
         matcher: /Boosts (ATK and HP|ATK, HP).+by 2x/i
     },
 
     {
-        name: '2x ATK and RCV captains',
+        name: '공격력과 회복력 2배 강화',
         target: 'captain',
         matcher: /Boosts ATK and RCV.+by 2x/i
     },
@@ -75,7 +75,7 @@ window.matchers = [
     },*/
 
     {
-        name: '2x ATK captains',
+        name: '공격력 2배 강화',
         target: 'captain',
         matcher: /Boosts (their )?ATK\D*by 2x/i
     },
@@ -87,50 +87,50 @@ window.matchers = [
     },*/
 
     {
-        name: '2.5x ATK captains',
+        name: '공격력 2.5배 강화',
         target: 'captain',
         matcher: /Boosts (their )?ATK\D*by 2.5x/i
     },
 
     {
-        name: '2.75x ATK captains',
+        name: '공격력 2.75배 강화',
         target: 'captain',
         matcher: /Boosts (their )?ATK\D*by 2.75x/i,
         include: [ 529, 530, 668, 669 ]
     },
 
     {
-        name: '3x ATK captains',
+        name: '공격력 3배 강화',
         target: 'captain',
         matcher: /Boosts (their )?ATK\D*by 3x/i
     },
 
     {
-        name: '3.25x ATK captains',
+        name: '공격력 3.25배 강화',
         target: 'captain',
         matcher: /Boosts (their )?ATK\D*by 3.25x/i
     },
 
     {
-        name: '3.5x ATK captains',
+        name: '공격력 3.5배 강화',
         target: 'captain',
         matcher: /Boosts (their )?ATK\D*by 3.5x/i
     },
 
     {
-        name: '3.75x ATK captains',
+        name: '공격력 3.75배 강화',
         target: 'captain',
         matcher: /Boosts (their )?ATK\D*by 3.75x/i
     },
 
     {
-        name: '4x ATK captains',
+        name: '공격력 4배 강화',
         target: 'captain',
         matcher: /Boosts (their )?ATK\D*by 4x/i
     },
 
     {
-        name: '4.25x ATK captains',
+        name: '공격력 4.25배 강화',
         target: 'captain',
         matcher: /Boosts (their )?ATK\D*by 4.25x/i
     },
@@ -155,43 +155,43 @@ window.matchers = [
     },
 
     {
-        name: 'Chain multipliers',
+        name: '체인 계수',
         target: 'captain',
         matcher: /Boosts.+chain multiplier/i
     },
     
     {
-        name: 'Combo Boost Captains',
+        name: '콤보 강화',
         target: 'captain',
         matcher: /Boosts.+hit in the chain/i
     },
 
     {
-        name: 'Cooldown reducers',
+        name: '쿨타운 감소',
         target: 'captain',
         matcher: /Reduces cooldown.+by/i
     },
 
     {
-        name: 'Damage reducers',
+        name: '데미지 감소',
         target: 'captain',
         matcher: /Reduces (any )?damage received/i
     },
 
     {
-        name: 'Healers',
+        name: '회복',
         target: 'captain',
         matcher: /Recovers/i
     },
 
     {
-        name: 'Tankers',
+        name: '탱커',
         target: 'captain',
         matcher: /Reduces (any )?damage.+if HP.+99/i
     },
 
     {
-        name: 'Zombies',
+        name: '좀비',
         target: 'captain',
         matcher: /Protects from defeat/i
     },
@@ -209,13 +209,13 @@ window.matchers = [
     },
     
     {
-        name: 'EXP Boosters',
+        name: '경험치 강화',
         target: 'captain',
         matcher: /boosts.+EXP/i
     },
     
     {
-        name: 'Drop Doublers',
+        name: '두 배 드롭',
         target: 'captain',
         matcher: /duplicating a drop/i
     },
@@ -223,19 +223,19 @@ window.matchers = [
     /* * * * * Specials * * * * */
 
     {
-        name: 'Type-boosting specials',
+        name: '속성 강화',
         target: 'special',
         matcher: /Boosts (ATK|HP|RCV|ATK and HP|ATK and RCV|HP and RCV|ATK, HP and RCV) of[^,]+(STR|DEX|QCK|PSY|INT)\b/i
     },
 
     {
-        name: 'Class-boosting specials',
+        name: '타입 강화',
         target: 'special',
         matcher: /Boosts (ATK|HP|RCV|ATK and HP|ATK and RCV|HP and RCV|ATK, HP and RCV) of[^,]+(Slasher|Striker|Fighter|Shooter|Free Spirit|Cerebral|Powerhouse|Driven)/i
     },
     
     {
-        name: 'Multiple Stage specials',
+        name: '스테이지',
         target: 'special',
         matcher: /description/i
     },
@@ -253,25 +253,25 @@ window.matchers = [
     },*/
     
     {
-        name: '1.5x ATK specials',
+        name: '공격력 1.5배 강화',
         target: 'special',
         matcher: /Boosts ATK\D*by 1.5x/i
     },
 
     {
-        name: '1.75x ATK specials',
+        name: '공격력 1.75배 강화',
         target: 'special',
         matcher: /Boosts ATK\D*by 1.75x/i
     },
 
     {
-        name: '2x ATK specials',
+        name: '공격력 2배 강화',
         target: 'special',
         matcher: /Boosts ATK\D*by 2x/i
     },
     
     {
-        name: '2.25x ATK specials',
+        name: '공격력 2.25배 강화',
         target: 'special',
         matcher: /Boosts ATK\D*by 2.25x/i
     },
@@ -295,13 +295,13 @@ window.matchers = [
     },
     
     {
-        name: 'Combo Boost Specials',
+        name: '콤보 강화',
         target: 'special',
         matcher: /Boost.+hit in the chain/i
     },
     
     {
-        name: 'RCV boosters',
+        name: '회복력 강화',
         target: 'special',
         matcher: /Boosts.+RCV/i
     },

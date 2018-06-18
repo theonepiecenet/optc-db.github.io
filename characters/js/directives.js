@@ -369,10 +369,10 @@ directives.addNames = function($stateParams, $rootScope) {
 
                 var currentAliases = name[id];
                 if(currentAliases[0]!=''){
-                element.append($('<tr><td>Japanese</td><td><div>'+ currentAliases[0] +'</div></td></tr>'));
+                element.append($('<tr><td>일본어</td><td><div>'+ currentAliases[0] +'</div></td></tr>'));
                 }
                 if(currentAliases[1]!=''){
-                    element.append($('<tr><td>French</td><td><div>'+ currentAliases[1] +'</div></td></tr>'));
+                    element.append($('<tr><td>한글</td><td><div>'+ currentAliases[1] +'</div></td></tr>'));
                 }
                 if(currentAliases[2]){
                     var otherAliases = currentAliases.toString().replace(/(.*?),(.*?),/,"");

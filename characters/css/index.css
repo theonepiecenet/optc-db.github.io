@@ -308,6 +308,17 @@ input[type="text"] {
 .custom.filter.active:hover, .class.filter.active:hover, .drop.filter.active:hover, .exc.filter.active:hover {
     background-color: darkred !important;
 }
+.stars-1.active,
+.stars-2.active,
+.stars-3.active,
+.stars-4.active,
+.stars-5.active,
+.stars-6.active,
+*[class~="stars-5+"].active,
+*[class~="stars-6+"].active
+{
+    background-color:green !important;
+}
 
 .width-12 { width: 100%; }
 .width-7 { width: 58.33%; }
