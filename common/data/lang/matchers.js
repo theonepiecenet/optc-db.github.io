@@ -167,7 +167,7 @@ window.matchers = [
     },
 
     {
-        name: '쿨타운 감소',
+        name: '쿨다운 감소',
         target: 'captain',
         matcher: /Reduces cooldown.+by/i
     },

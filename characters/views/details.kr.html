@@ -145,13 +145,13 @@
                     </uib-tabset>
                     <!-- Abilities (non-comparison) -->
 
-                    <h3 class="page-header" ng-hide="hidden.abilities">능력</h3>
+                    <h3 class="page-header" ng-hide="hidden.abilities">효과</h3>
 
                     <div class="panel panel-default" ng-hide="hidden.abilities">
                         <table class="table table-striped-column abilities">
                             <tbody>
                                 <tr>
-                                    <td>선장 능력</td>
+                                    <td>선장 효과</td>
                                     <td>
                                         <!-- same captain ability -->
                                         <div ng-if="!isCaptainHybrid" ng-bind-html="details.captain | decorate"></div>
@@ -186,7 +186,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>선원 능력</td>
+                                    <td>선원 효과</td>
                                     <td>
                                         <!-- same sailor ability -->
                                         <div ng-if="!isSailorHybrid" ng-bind-html="details.sailor | decorate"></div>
@@ -311,7 +311,7 @@
                         <table class="table table-striped-column abilities">
                             <tbody>
                                 <tr>
-                                    <td>선장 능력</td>
+                                    <td>선장 효과</td>
                                     <td>
                                         <!-- same captain ability -->
                                         <div ng-if="!isCompareCaptainHybrid" ng-bind-html="compareDetails.captain | decorate"></div>
@@ -451,7 +451,7 @@
 
                     <!-- Tandems -->
 
-                    <h3 class="page-header" ng-if="tandems.length > 0">Tandems</h3>
+                    <h3 class="page-header" ng-if="tandems.length > 0">연계</h3>
 
                     <table class="table table-striped table-centered table-bordered" ng-if="tandems.length > 0">
                         <tbody>

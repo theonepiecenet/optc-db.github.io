@@ -3,19 +3,19 @@ window.details = {
         special: "적 1명에게 캐릭터의 공격력x5배의 STR 데미지",
 		specialName: "빙글빙글 고무 펀치"
     },
-    2: {
-        special: "적 1명에게 캐릭터의 공격력x7배의 STR 데미지",
-		specialName: "고무고무 피스톨",
-		captain: "STR 캐릭터의 공격력이 1.5배가 된다."
+    2: { // modified
+        special: "적 1명에게 캐릭터의 공격x7배의 [STR] 데미지",
+		specialName: "고무고무 총",
+		captain: "일당의 공격력이 1.5배가 된다."
     },
-    3: {
-        special: "적 1명에게 캐릭터의 공격력x15배의 STR 데미지",
+    3: { // modified
+        special: "적 1명에게 캐릭터의 공격력x15배의 [STR] 데미지",
 		specialName: "고무고무 바주카",
-		captain: "STR 캐릭터의 공격력이 1.5배가 된다."
+		captain: "일당의 공격력이 1.5배가 된다."
     },
-    4: {
-        captain: "STR 캐릭터의 공격력을 2배, 다른 속성 캐릭터의 공격력을 1.5배로 만든다.",
-        special: "적 1명에게 캐릭터 공격력x25배 STR 데미지",
+    4: { // modified
+        captain: "[STR] 캐릭터의 공격력이 2배가 되고, 다른 속성 캐릭터의 공격력이 1.5배가 된다",
+        special: "적 1명에게 캐릭터 공격x25배의 [STR] 데미지",
         specialName: "고무고무 트윈 JET총",
         limit: [
             { "description": "필살기 턴 단축 : 1턴" },
@@ -31,7 +31,7 @@ window.details = {
             { "description": "체력 상승 : 50" },
             { "description": "필살기 턴 단축 : 1턴" },
             { "description": "필살기 턴 단축 : 1턴" },
-            { "description": "선원효과 추가 2: [QCK] 슬롯도 이로운 슬롯으로 만든다." },
+            { "description": "선원효과 추가 2: [QCK] 슬롯도 [유리] 슬롯으로 만든다." },
             { "description": "잠재능력 습득 2: 회복 무효 상태 회복" },
         ],
         potential: [
@@ -58,10 +58,10 @@ window.details = {
         ],
         potentialNotes: "격분은 선원이 이전 턴에 적으로부터 공격을 받을 경우 활성화 된다."
     },
-	5: {
-		special: "적 1명에게 캐릭터 공격력 7배의 DEX 데미지",
+	5: { // modified
+		special: "적 1명에게 캐릭터 공격x7배의 [DEX] 데미지",
 		specialName: "도깨비 참수",
-		captain: "DEX 캐릭터의 공격력이 1.5배가 된다."
+		captain: "[DEX] 캐릭터의 공격력이 1.5배가 된다"
 	},
     6: {
     special: "적 전체에게 캐릭터 공격력 10배의 DEX 데미지",
@@ -189,7 +189,7 @@ window.details = {
 		specialName: "미끌미끌 슈플",
 		captain: "STR 캐릭터가 주는 데미지를 50％ 감소시킨다"
 	},
-	31: {
+	31: { // modified
 		captain: "턴 종료 후에 캐릭터의 회복×2배의 체력이 회복한다"
 	},
 	32: {
@@ -442,7 +442,7 @@ window.details = {
 		special: "적 1명에게 공격×10배의 캐릭터 속성 데미지",
 		specialName: "하이퍼 슬래쉬"
 	},
-	127: {
+	127: {// modified
 		special: "적 전체의 방어력을 1턴 동안 반으로 줄인다",
 		specialName: "실드 크래셔"
 	},
@@ -498,7 +498,7 @@ window.details = {
 		special: "적 전체에 공격×5배의 캐릭터 속성 데미지",
 		specialName: "하이퍼 샷"
 	},
-	141: {
+	141: { // modified
 		special: "받는 데미지를 1턴 동안 20％ 감소시킨다",
 		specialName: "아이언 실드"
 	},
@@ -795,8 +795,8 @@ window.details = {
 		specialName: "고무고무 풍선",
 		captain: "받는 데미지를 20% 감소시킨다"
 	},
-	217: {
-		special: "적 전체에 캐릭터의 공격×15배의 STR 데미지",
+	217: { // modified
+		special: "적 전체에 캐릭터의 공격×15배의 [STR] 데미지",
 		specialName: "고무고무 거인의 라이플",
 		captain: "3연속 PERFECT 시 이후의 캐릭터 공격력이 3.5배"
 	},
@@ -859,7 +859,7 @@ window.details = {
             { "description": "공격력 상승 : 20" },
             { "description": "공격력 상승 : 30" },
             { "description": "공격력 상승 : 40" },
-            { "description": "선원효과 추가 1: [RCV],[TND]도 이로운 슬롯으로 만든다." },
+            { "description": "선원효과 추가 1: [RCV],[TND]도 [유리] 슬롯으로 만든다." },
             { "description": "체력 상승 : 40" },
             { "description": "회복력 상승 : 20" },
             { "description": "회복력 상승 : 30" },
@@ -871,11 +871,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [ 
-                    "Level 1: Perfect 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: Perfect 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: Perfect 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: Perfect 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: Perfect 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
+                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 5: PERFECT 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
                 ]
             },
             {
@@ -1051,11 +1051,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [ 
-                    "Level 1: Perfect 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: Perfect 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: Perfect 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: Perfect 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: Perfect 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
+                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 5: PERFECT 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
                 ]
             },
             {
@@ -1367,12 +1367,12 @@ window.details = {
 	},
 	326: {
 		special: "모든 슬롯을 비우고, 적 1명에게 캐릭터 공격력에 25배의 [STR] 데미지.",
-		specialName: "우걱우걱 '벨로 대포'",
+		specialName: "우걱우걱 ‘벨로 대포’",
 		captain: "턴 종료 후 캐릭터 회복력에 10배의 체력을 회복시킨다."
 	},
 	327: {
 		special: "모든 슬롯을 비우고, 적 1명에게 캐릭터 공격력에 25배의 [STR] 데미지.",
-		specialName: "우걱우걱 '벨로 대포'",
+		specialName: "우걱우걱 ‘벨로 대포’",
 		captain: "턴 종료 후 캐릭터 회복력에 10배의 체력을 회복시킨다."
 	},
 	328: {
@@ -1483,11 +1483,11 @@ window.details = {
         ],
     },
     354: {
-		special: "'봉인'과 '선장 효과 무효' 상태를 3턴 줄인다.",
+		special: "‘봉인’과 ‘선장 효과 무효’ 상태를 3턴 줄인다.",
 		specialName: "쌍검 난무"
 	},
 	355: {
-		special: "'봉인'과 '선장 효과 무효' 상태를 3턴 줄인다.",
+		special: "‘봉인’과 ‘선장 효과 무효’ 상태를 3턴 줄인다.",
 		specialName: "쌍검 난무"
 	},
 	356: {
@@ -1536,11 +1536,11 @@ window.details = {
             {
                 "Name": "Pinch Healing",
                 "description": [ 
-                    "Level 1: 전투 시작 시 체력이 10% 미만이면, 턴 종료시 Perfect 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
-                    "Level 2: 전투 시작 시 체력이 15% 미만이면, 턴 종료시 Perfect 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
-                    "Level 3: 전투 시작 시 체력이 20% 미만이면, 턴 종료시 Perfect 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
-                    "Level 4: 전투 시작 시 체력이 30% 미만이면, 턴 종료시 Perfect 적중 할때마다 캐릭터 회복력의 1배 만큼 체력을 회복한다.",
-                    "Level 5: 전투 시작 시 체력이 50% 미만이면, 턴 종료시 Perfect 적중 할때마다 캐릭터 회복력의 1배 만큼 체력을 회복한다."
+                    "Level 1: 전투 시작 시 체력이 10% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
+                    "Level 2: 전투 시작 시 체력이 15% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
+                    "Level 3: 전투 시작 시 체력이 20% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
+                    "Level 4: 전투 시작 시 체력이 30% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 1배 만큼 체력을 회복한다.",
+                    "Level 5: 전투 시작 시 체력이 50% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 1배 만큼 체력을 회복한다."
                 ]
             },
             {
@@ -1650,11 +1650,11 @@ window.details = {
 		captain: "모든 캐릭터의 회복력을 1.5배로 만든다."
 	},
 	379: {
-		special: "'중독'상태를 제거한다.",
+		special: "‘중독’ 상태를 제거한다.",
 		specialName: "회복의 듀공 쿵푸 주먹"
 	},
 	380: {
-		special: "'중독'상태를 제거한다.",
+		special: "‘중독’ 상태를 제거한다.",
 		specialName: "회복의 듀공 쿵푸 주먹",
 		captain: "[STR] 캐릭터의 회복력과 공격력을 1.5배로 만든다."
 	},
@@ -1726,7 +1726,7 @@ window.details = {
 	},
 	394: {
 		special: "모든 적에게 500의 고정 데미지",
-		specialName: "'사랑'이라 불리는 토네이도"
+		specialName: "‘사랑’이라 불리는 토네이도"
 	},
 	395: {
 		special: "주위 캐릭터의 슬롯을 비우고, 1턴 동안 슬롯의 영향을 1.25배 증폭시킨다.",
@@ -1992,11 +1992,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [ 
-                    "Level 1: Perfect 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: Perfect 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: Perfect 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: Perfect 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: Perfect 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
+                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 5: PERFECT 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
                 ]
             },
             {
@@ -2057,13 +2057,13 @@ window.details = {
 		special: "중간 줄 슬롯을 [STR] 이나 [DEX] 으로 바꾸고, 아랫 줄 슬롯을 [PSY] 이나 [INT] 으로 바꾼다, 이후 슬롯을 1회 변경 할수있다.",
 		specialName: "더블 캐논",
 		captain: "사격 타입 캐릭터의 공격력을 2배로 만들고 회복력을 1.5배로 만든다",
-        sailor: "[PSY] 슬롯도 이로운 슬롯으로 만든다."
+        sailor: "[PSY] 슬롯도 [유리] 슬롯으로 만든다."
 	},
 	457: {
 		special: "중간 줄 슬롯을 [STR] 이나 [DEX] 으로 바꾸고, 아랫 줄 슬롯을 [PSY] 이나 [INT] 으로 바꾼다, 이후 슬롯을 1회 변경 할수있다.",
 		specialName: "더블 캐논",
 		captain: "사격 타입 캐릭터의 공격력을 2배로 만들고 회복력을 1.5배로 만든다",
-        sailor: "[PSY] 슬롯도 이로운 슬롯으로 만든다."
+        sailor: "[PSY] 슬롯도 [유리] 슬롯으로 만든다."
 	},
 	458: {
 		special: "적 전체에게 랜덤의 [PSY] 데미지를 입히고, 1턴 동안 모든 캐릭터의 공격력을 1.5배로 만든다.",
@@ -2074,21 +2074,21 @@ window.details = {
 	
 		special: "적 전체에게 랜덤의 [PSY] 데미지를 입히고, 1턴 동안 모든 캐릭터의 공격력을 1.5배로 만든다.",
 		specialName: "부처의 충격파",
-		captain: "전투가 시작될때 필살기를 2턴 줄이고, 코스트가 20이하인 캐릭터와 '부처님 센코쿠'의 공격력을 3배로 만든다."
+		captain: "전투가 시작될때 필살기를 2턴 줄이고, 코스트가 20이하인 캐릭터와 ‘부처님 센코쿠’의 공격력을 3배로 만든다."
 	},
     460: {
         special: "턴 종료 후 체력을 조금 회복하고 적 전체 공격을 1 턴 지연",
-        specialName: "'대형 촛불 서비스 세트'",
+        specialName: "‘대형 촛불 서비스 세트’",
         captain: "받는 대미지를 10% 감소"
     },
     461: {
         special: "자신의 슬롯을 [DEX]으로 바꾸고 다른 캐릭터의 슬롯을 무작위로 변경한다.  2 턴 동안 격투 타입 캐릭터 공격력을 1.25 배 상승시킨다.",
-        specialName: "탈주 춤 '백조 아라베스크'",
+        specialName: "탈주 춤 ‘백조 아라베스크’",
         captain: "격투 타입 캐릭터의 공격력이 2 배가 된다"
     },
     462: {
         special: "자신의 슬롯을 [DEX]으로 바꾸고 다른 캐릭터의 슬롯을 무작위로 변경한다.  2 턴 동안 격투 타입 캐릭터 공격력을 1.25 배 상승시킨다.",
-        specialName: "탈주 춤 '백조 아라베스크'",
+        specialName: "탈주 춤 ‘백조 아라베스크’",
         captain: "격투 타입 캐릭터의 공격력이 2 배가 된다"
     },
     463: {
@@ -2142,7 +2142,7 @@ window.details = {
         specialName: "밀키 속도 액스"
     },
     474: {
-        special: "적 전체에 캐릭터 공격력 × 5 배의 캐릭터의 DEX타격을 주고, '봉인'상태를 1 턴 회복",
+        special: "적 전체에 캐릭터 공격력 × 5 배의 캐릭터의 DEX타격을 주고, ‘봉인’상태를 1 턴 회복",
         specialName: "밀키 기술 액스"
     },
     475: {
@@ -2293,13 +2293,13 @@ window.details = {
         specialName: "날으는 발톱",
         captain: "체력이 적어도 일정 이상인 경우, 공격을 받아도 쓰러지지 않는다",
     },
-    507: {
-        special: "적 1 기에 캐릭터 공격력 × 25 배의 STR 대미지",
+    507: { // modified
+        special: "적 1명에게 캐릭터의 공격력x25배의 [STR]데미지를 준다",
         specialName: "울부짖는 이빨",
-        captain: "STR 캐릭터의 공격력과 체력이 1.2 배가 된다"
+        captain: "[STR] 캐릭터의 공격력과 체력이 1.2배가 된다"
     },
     508: {
-        special: "적 1 기에 캐릭터 공격력 × 25 배의 STR 대미지",
+        special: "적 1명에게 캐릭터의 공격력x25배의 [STR]데미지를 준다",
         specialName: "울부짖는 이빨",
         captain: "STR 캐릭터의 공격력과 체력이 1.5 배가 된다"
     },
@@ -2379,13 +2379,13 @@ window.details = {
         special: "슬롯을 랜덤으로 교체, 1 턴 동안 체력이 일정 이상일 때 공격을 받아도 쓰러지지 않는다",
         specialName: "빌리 방전 ‘비리비리비리!’",
         captain: "타격 타입 캐릭터의 공격력과 회복력이 1.5 배가 된다",
-        sailor: "[DEX]슬롯도 이로운 슬롯으로 취급한다."
+        sailor: "[DEX]슬롯도 [유리] 슬롯으로 취급한다."
     },
     524: {
         special: "슬롯을 랜덤으로 교체, 1 턴 동안 체력이 일정 이상일 때 공격을 받아도 쓰러지지 않는다",
         specialName: "빌리 방전 ‘비리비리비리!’",
         captain: "타격 타입 캐릭터의 공격력이 2배가 되고 회복력이 1.5 배가 된다",
-        sailor: "[DEX]슬롯도 이로운 슬롯으로 취급한다."
+        sailor: "[DEX]슬롯도 [유리] 슬롯으로 취급한다."
     },
     525: {
         special: "적 전체에 무작위의 PSY의 타격을 주고, 랜덤으로 슬롯을 교체",
@@ -2512,12 +2512,12 @@ window.details = {
     549: {
         special: "Boosts ATK against enemies with reduced defense by 1.3x for 3 턴",
         specialName: "Arousal Manifesto - Red Demon Whip",
-        captain: "Boosts ATK by 2x after scoring 3 Perfects in a row"
+        captain: "Boosts ATK by 2x after scoring 3 PERFECTs in a row"
     },
     550: {
         special: "Boosts ATK against enemies with reduced defense by 1.3x for 3 턴",
         specialName: "Arousal Manifesto - Red Demon Whip",
-        captain: "Boosts ATK by 2.5x after scoring 3 Perfects in a row"
+        captain: "Boosts ATK by 2.5x after scoring 3 PERFECTs in a row"
     },
     551: {
         special: "Reduces damage received by 50% for 1 턴, deals 15x character's ATK in STR damage to one enemy",
@@ -2571,11 +2571,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [ 
-                    "Level 1: Perfect 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: Perfect 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: Perfect 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: Perfect 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: Perfect 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
+                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 5: PERFECT 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
                 ]
             },
             {
@@ -2693,12 +2693,12 @@ window.details = {
     577: {
         special: "Deals random typeless damage to all enemies, changes own orb into [STR]",
         specialName: "Gum-Gum Jet Gatling",
-        captain: "Boosts ATK by 4x following a chain of Good > Great > Perfect hits"
+        captain: "Boosts ATK by 4x following a chain of Good > Great > PERFECT hits"
     },
     578: {
         special: "Deals random typeless damage to all enemies, changes own orb into [STR]",
         specialName: "Gum-Gum Jet Gatling",
-        captain: "Boosts ATK by 4x following a chain of Good > Great > Perfect hits"
+        captain: "Boosts ATK by 4x following a chain of Good > Great > PERFECT hits"
     },
     579: {
         special: "Randomly changes [BLOCK] orbs into either [QCK] or [DEX] orbs, deals 15x character's ATK in QCK damage to all enemies",
@@ -2740,10 +2740,10 @@ window.details = {
         specialName: "The Bond Bellmere Left Us",
         captain: "Boosts HP and RCV of PSY characters by 1.5x"
     },
-    587: {
-        special: "Removes Poison, reduces Bind and Despair duration by 2 턴",
-        specialName: "Merciful Painkiller",
-        captain: "Recovers 3x character's RCV in HP at the end of each 턴"
+    587: { // modified
+        special: "모든 독 상태를 회복하고, 봉쇄·선장효과 무효 상태를 2턴 회복한다",
+        specialName: "위로의 진정제",
+        captain: "턴 종료 후에 캐릭터의 회복력x3배의 체력을 회복한다"
     },
     588: {
         special: "Removes Poison, reduces Bind and Despair duration by 2 턴",
@@ -3090,7 +3090,7 @@ window.details = {
     659: {
         special: "Reduces Bind and Despair duration by 2 턴, reduces damage received by 50% for 2 턴",
         specialName: "Gum-Gum Balloon Swim",
-        captain: "Boosts ATK by 2.5x after scoring 3 Perfects in a row"
+        captain: "Boosts ATK by 2.5x after scoring 3 PERFECTs in a row"
     },
     660: {
         special: "Delays all enemies for 2 턴, reduces the defense of all enemies by 50% for 2 턴",
@@ -3136,13 +3136,13 @@ window.details = {
         captain: "Reduces damage received by 10%, boosts ATK of all characters by 1.5x"
     },
     668: {
-        special: "Boosts ATK of Free Spirit characters by 1.5x for 1 턴. If during that 턴 every unit scores a Perfect hit, boosts ATK of Free Spirit characters by 2x in the following 턴.",
+        special: "Boosts ATK of Free Spirit characters by 1.5x for 1 턴. If during that 턴 every unit scores a PERFECT hit, boosts ATK of Free Spirit characters by 2x in the following 턴.",
         specialName: "Dragon's Claw",
         captain: "Boosts HP and RCV of all characters by 1.2x, boosts ATK of Free Spirit characters proportionally to the crew's current HP",
         captainNotes: "#{captainProportional : higher : 2 + 0.75 * (remaining HP) / (total HP) : 2.75 : 2}"
     },
     669: {
-        special: "Boosts ATK of Free Spirit characters by 1.5x for 1 턴. If during that 턴 every unit scores a Perfect hit, boosts ATK of Free Spirit characters by 2x in the following 턴.",
+        special: "Boosts ATK of Free Spirit characters by 1.5x for 1 턴. If during that 턴 every unit scores a PERFECT hit, boosts ATK of Free Spirit characters by 2x in the following 턴.",
         specialName: "Dragon's Claw",
         captain: "Boosts HP and RCV of all characters by 1.2x, boosts ATK of Free Spirit characters proportionally to the crew's current HP",
         captainNotes: "#{captainProportional : higher : 2 + 0.75 * (remaining HP) / (total HP) : 2.75 : 2}"
@@ -3382,14 +3382,14 @@ window.details = {
         specialNotes: "The special only includes the damage inflicted through normal attacks.",
         specialName: "Black Sword - Lightning Slash",
         captain: "Boosts ATK of Slasher characters by a variable factor between 2x and 2.75x based on the timing of the attack of the previous unit in the chain",
-        captainNotes: "A hit below Good or a Miss will boost the ATK of the next unit by 2x, a Good hit by 2.25x, a Great hit by 2.5x and a Perfect hit by 2.75x. This bonus is applied only to Slasher characters."
+        captainNotes: "A hit below Good or a Miss will boost the ATK of the next unit by 2x, a Good hit by 2.25x, a Great hit by 2.5x and a PERFECT hit by 2.75x. This bonus is applied only to Slasher characters."
     },
     718: {
         special: "Deals 50% of the damage dealt in the previous 턴 as typeless damage to all enemies",
         specialNotes: "The special only includes the damage inflicted through normal attacks.",
         specialName: "Black Sword - Lightning Slash",
         captain: "Boosts ATK of Slasher characters by a variable factor between 2x and 2.75x based on the timing of the attack of the previous unit in the chain",
-        captainNotes: "A hit below Good or a Miss will boost the ATK of the next unit by 2x, a Good hit by 2.25x, a Great hit by 2.5x and a Perfect hit by 2.75x. This bonus is applied only to Slasher characters."
+        captainNotes: "A hit below Good or a Miss will boost the ATK of the next unit by 2x, a Good hit by 2.25x, a Great hit by 2.5x and a PERFECT hit by 2.75x. This bonus is applied only to Slasher characters."
     },
     719: {
         special: "Boosts ATK of Cerebral characters by 2x if HP is below 30% when the special is activated, otherwise boosts ATK of Cerebral characters by 1.5x, deals 20x character's ATK in DEX damage to all enemies",
@@ -3750,17 +3750,17 @@ window.details = {
 		special: "자신을 10턴 봉인하고, 적 전체 공격을 1턴 지연시키고, 4턴동안 받는 데미지를 반감",
 		specialName: "결사의 각오!「오픈 마인드」"
 	},
-	787: {
-		special: "자신을 10턴 봉인하고, 적 전체 공격을 1턴 지연시키고, 4턴동안 받는 데미지를 반감",
-		specialName: "결사의 각오!「오픈 마인드」",
-		captain: "받는 데미지를 반감하지만, 턴 종료시 일당의 체력을 10%감소한다."
+	787: { // modified
+		special: "자신을 10턴 동안 봉쇄 상태로 만들고, 적 전체를 1턴 지연시키며, 4턴 동안 받는 데미지를 반으로 줄인다",
+		specialName: "결사의 각오! ‘오픈 마인드’",
+		captain: "받는 데미지가 반으로 줄지만, 턴 종료 시에 일당의 체력이 10% 감소한다"
 	},
-	788: {
-		special: "필살기 발동 턴에 일당 전원 Perfect 공격 성공시 다음턴에 참격 타입의 공격이 1.75배 상승",
+	788: { // modified
+		special: "필살기 발동 턴 내에 일당 전원이 PERFECT 공에 성공하면 다음 턴에 참격형 캐릭터의 공격력이 1.75배가 된다",
 		specialName: "소녀검사의 진검승부"
 	},
 	789: {
-		special: "필살기 발동 턴에 일당 전원 Perfect 공격 성공시 다음턴에 참격 타입의 공격이 1.75배 상승",
+		special: "필살기 발동 턴 에 일당 전원 PERFECT 공격 성공시 다음턴에 참격 타입의 공격이 1.75배 상승",
 		specialName: "소녀검사의 진검승부",
 		captain: "참격 타입 캐릭터의 공격이 1.5배가 된다."
 	},
@@ -3805,9 +3805,9 @@ window.details = {
 		captain: "박식 타입 캐릭터와 강인 타입 캐릭터의 공격이 2배가 된다."
 	},
 	798: {
-		special: "독, 맹독 상태를 회복하고, 이 턴에 일당 전원 Perfect 공격이 성공하면 다음 턴에 격투 타입 캐릭터의 공격이 1.75배 상승",
+		special: "독, 맹독 상태를 회복하고, 이 턴에 일당 전원 PERFECT 공격이 성공하면 다음 턴에 격투 타입 캐릭터의 공격이 1.75배 상승",
 		specialName: "듀공 오의! 흑 지느러미 권",
-		captain: "3연속 Perfect 이후 일당의 공격력이 2.5배가 된다."
+		captain: "3연속 PERFECT 이후 일당의 공격력이 2.5배가 된다."
 	},
 	799: {
 		special: "슬롯을 랜덤으로 교체하고, 캐릭터의 회복 X9배 체력을 회복",
@@ -4019,12 +4019,12 @@ window.details = {
 	843: {
 		captain: "참격, 타격 타입 캐릭터의 공격이 1.5배가 된다.",
 		specialName: "무기변모 「미사일 소녀」",
-		special: "적 전체에 캐릭터의 공격 X15배 STR 데미지를 주고, 1턴간 사격 타입 캐릭터의 공격을 1.5배 상승. 필살기 사용 턴에 일당 전원 Perfect 공격 성공시 다음턴에 사격, 참격, 타격 타입 캐릭터의 공격을 1.5배 상승"
+		special: "적 전체에 캐릭터의 공격 X15배 STR 데미지를 주고, 1턴간 사격 타입 캐릭터의 공격을 1.5배 상승. 필살기 사용 턴에 일당 전원 PERFECT 공격 성공시 다음턴에 사격, 참격, 타격 타입 캐릭터의 공격을 1.5배 상승"
 	},
 	844: {
 		captain: "참격, 타격 타입 캐릭터의 공격이 2배가 된다.",
 		specialName: "무기변모 「미사일 소녀」",
-		special: "적 전체에 캐릭터의 공격 X15배 STR 데미지를 주고, 1턴간 사격 타입 캐릭터의 공격을 1.5배 상승. 필살기 사용 턴에 일당 전원 Perfect 공격 성공시 다음턴에 사격, 참격, 타격 타입 캐릭터의 공격을 1.5배 상승"
+		special: "적 전체에 캐릭터의 공격 X15배 STR 데미지를 주고, 1턴간 사격 타입 캐릭터의 공격을 1.5배 상승. 필살기 사용 턴에 일당 전원 PERFECT 공격 성공시 다음턴에 사격, 참격, 타격 타입 캐릭터의 공격을 1.5배 상승"
 	},
 	845: {
 		captain: "콤보수가 11이상 시점에서 1.5배, 22이상 시점에서 2.5배 공격력이 상승한다.",
@@ -4056,11 +4056,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [ 
-                    "Level 1: Perfect 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: Perfect 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: Perfect 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: Perfect 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: Perfect 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
+                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 5: PERFECT 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
                 ]
             },
             {
@@ -4107,7 +4107,7 @@ window.details = {
 	},
 	853: {
 		specialName: "롭슨 『진심모드』",
-		special: "필살기 발동 턴에 일당 전원 Perfect 공격 성공시 다음턴에 3턴동안 강인 타입, 격투 타입 캐릭터의 공격을 1.2배 상승한다."
+		special: "필살기 발동 턴에 일당 전원 PERFECT 공격 성공시 다음턴에 3턴동안 강인 타입, 격투 타입 캐릭터의 공격을 1.2배 상승한다."
 	},
 	854: {
 		captain: "DEX 캐릭터의 공격이 1.5배가 되고, 받는 데미지가 10% 감소된다.",
@@ -4185,20 +4185,20 @@ window.details = {
 		special: "적 1체에 캐릭터의 공격 X15배 STR 데미지를 주고, 봉인 상태를 3턴 회복"
 	},
 	869: {
-		captain: "Perfect 이외의 공격을 할때까지 야심 타입 캐릭터의 공격이 3배가 된다.",
+		captain: "PERFECT 이외의 공격을 할때까지 야심 타입 캐릭터의 공격이 3배가 된다.",
 		specialName: "블랙 나이트",
 		special: "인접한 캐릭터의 슬롯을 자슬롯으로 변환하고, 1턴간 슬롯 영향을 2배 확대",
 	},
 	870: {
-		captain: "Perfect 이외의 공격을 할때까지 야심 타입 캐릭터의 공격이 3배가 된다.",
+		captain: "PERFECT 이외의 공격을 할때까지 야심 타입 캐릭터의 공격이 3배가 된다.",
 		specialName: "블랙 나이트",
 		special: "인접한 캐릭터의 슬롯을 자슬롯으로 변환하고, 1턴간 슬롯 영향을 2배 확대",
 	},
-	871: {
-		captain: "QCK 캐릭터의 공격과 회복이 1.5배가 된다.",
+	871: { // modified
+		captain: "[QCK] 속성 캐릭터의 공격력과 회복력이 1.5배가 된다",
 		specialName: "하비하비 열매",
-		special: "체력이 20%이하 인 적 전체를 전투불능으로 만든다.",
-		specialNotes: "이 능력은 적의 방어력을 무시하고, 적 체력을 0으로 만든다."
+		special: "체력이 적게 남은 적을 모두 전투 불능 상태가 된다",
+//		specialNotes: "이 능력은 적의 방어력을 무시하고, 적 체력을 0으로 만든다."
 	},
 	872: {
 		captain: "QCK 캐릭터의 공격과 회복이 2배가 된다.",
@@ -4226,19 +4226,19 @@ window.details = {
 			}
 		],
 	},
-	874: {
-		captain: "체력이 30% 이하일때 격투 타입 캐릭터의 공격이 3배가 된다.",
-		specialName: "냥냥 수윔(Swim)",
+	874: { // modified
+		captain: "남은 체력이 적을 때 격투형 캐릭터의 공격력이 3배가 되지만, 나 어린애는 사양이라고",
+		specialName: "냥냥 헤엄",
 		special: [
 			{
-				"description": "자신의 슬롯을 [PSY]으로 변환하고, 1턴간 슬롯 영향을 1.5배 확대",
+				"description": "자신의 슬롯을 [PSY]으로 바꾸고, 1턴 동안 일당의 슬롯의 영향을 증폭시킨다",
 				"cooldown": [
 					13,
 					8
 				]
 			},
 			{
-				"description": "자신의 슬롯을 [PSY]으로 변환하고, 1턴간 슬롯 영향을 1.75배 확대",
+				"description": "자신의 슬롯을 [PSY]으로 바꾸고, 1턴 동안 일당의 슬롯의 영향을 상당히 증폭시킨다",
 				"cooldown": [
 					19,
 					14
@@ -4280,12 +4280,12 @@ window.details = {
 		special: "[BLOCK] 슬롯 포함한 모든슬롯을 [G]슬롯으로 변환하고, 적 전체에 랜덤 무속성 큰 데미지를 준다.",
 	},
 	881: {
-		captain: "Good > Great > Perfect 순서로 공격이후 사격과 자유 타입 캐릭터의 공격이 2배가 된다.",
+		captain: "Good > Great > PERFECT 순서로 공격이후 사격과 자유 타입 캐릭터의 공격이 2배가 된다.",
 		specialName: "싸우는 음악『투쟁의 체킷아웃(check it out)』",
 		special: "2턴간 받는 데미지가 2배, 회복력이 90%감소 되지만, 사격과 자유 타입 캐릭터의 공격력이 1턴간 1.75배 상승한다."
 	},
 	882: {
-		captain: "Good > Great > Perfect 순서로 공격이후 사격과 자유 타입 캐릭터의 공격이 3배가 된다.",
+		captain: "Good > Great > PERFECT 순서로 공격이후 사격과 자유 타입 캐릭터의 공격이 3배가 된다.",
 		specialName: "싸우는 음악『투쟁의 체킷아웃(check it out)』",
 		special: "2턴간 받는 데미지가 2배, 회복력이 90%감소 되지만, 사격과 자유 타입 캐릭터의 공격력이 1턴간 1.75배 상승한다."
 	},
@@ -4340,12 +4340,12 @@ window.details = {
 		special: "슬롯을 3회 자유롭게 이동"
 	},
 	893: {
-		captain: "3연속 Perfect 이후 강인 타입 캐릭터의 공격이 3배가 된다.",
+		captain: "3연속 PERFECT 이후 강인 타입 캐릭터의 공격이 3배가 된다.",
 		specialName: "오즈 볼",
 		special: "1턴동안 받는 데미지를 50% 감소하고, 적 전체에 캐릭터의 공격 X30배 STR 데미지를 준다."
 	},
 	894: {
-		captain: "Good > Great > Perfect 순서로 공격이후 야심 타입 캐릭터의 공격이 3배가 된다.",
+		captain: "Good > Great > PERFECT 순서로 공격이후 야심 타입 캐릭터의 공격이 3배가 된다.",
 		specialName: "브릭 배트 『그림자 상자』",
 		special: "일당 전원의 [INT] 슬롯을 소비하고, 적 1체에 소비한 슬롯 갯수에 따라서 INT 데미지를 준다.",
 		specialNotes: "[INT] 슬롯 데미지 계산: 슬롯 1개 X10배, 2개 X15배, 3개 X20배, 4개 X50배, 5개 X100배, 6개 X200배 만큼 데미지를 준다."
@@ -4613,22 +4613,22 @@ window.details = {
     934: {
         captain: "Boosts ATK of Fighter characters by 2x, and their HP by 1.5x. If HP is above 70% or below 30%, boosts ATK of Fighter characters by 2.75 instead",
         specialName: "Fishman Karate!! Shark Fist Tile Breaker",
-        special: "Makes Perfects harder to hit for 1 턴. Deals 20x character's ATK in [INT] damage to all enemies. Changes all Fighter Character orbs into Matching",
+        special: "Makes PERFECTs harder to hit for 1 턴. Deals 20x character's ATK in [INT] damage to all enemies. Changes all Fighter Character orbs into Matching",
     },
     935: {
         captain: "Boosts ATK of Fighter characters by 2x, and their HP by 1.5x. If HP is above 70% or below 30%, boosts ATK of Fighter characters by 2.75 instead",
         specialName: "Fishman Karate!! Shark Fist Tile Breaker",
-        special: "Makes Perfects harder to hit for 1 턴. Deals 20x character's ATK in [INT] damage to all enemies. Changes all Fighter Character orbs into matching",
+        special: "Makes PERFECTs harder to hit for 1 턴. Deals 20x character's ATK in [INT] damage to all enemies. Changes all Fighter Character orbs into matching",
     },
     936: {
         captain: "Boosts Chain Multiplier by 3x",
         specialName: "Gum-Gum Giant Jet Shell",
-        special: "Deals 20x ATK as [QCK] damage, and makes Perfects easier to hit for 3 턴",
+        special: "Deals 20x ATK as [QCK] damage, and makes PERFECTs easier to hit for 3 턴",
     },
     937: {
         captain: "Boosts Chain Multiplier by 3.5x and boosts HP by 1.25x",
         specialName: "Gum-Gum Giant Jet Shell",
-        special: "Deals 20x ATK as [QCK] damage, and makes Perfects easier to hit for 3 턴",
+        special: "Deals 20x ATK as [QCK] damage, and makes PERFECTs easier to hit for 3 턴",
     },
     938: {
         captain: "Reduces cooldown of all specials by 2 턴 at the start of the fight, boosts ATK of Cerebral characters by 1.5x",
@@ -4691,12 +4691,12 @@ window.details = {
         special: "Reduces Silence duration by 3 턴, and recovers 4,000 HP",
     },
     950: {
-        captain: "Boosts ATK of Fighter and Free Spirit characters by 2.5x after scoring 3 Perfects in a row",
+        captain: "Boosts ATK of Fighter and Free Spirit characters by 2.5x after scoring 3 PERFECTs in a row",
         specialName: "Flame Commandment: Fire Pillar",
         special: "Reduces Special Cooldown of Fighter and Free Spirit characters by 1 턴. Reduces damage received by 50% for 1 턴.",
     },
     951: {
-        captain: "Boosts ATK of Fighter and Free Spirit characters by 2.75x after scoring 3 Perfects in a row",
+        captain: "Boosts ATK of Fighter and Free Spirit characters by 2.75x after scoring 3 PERFECTs in a row",
         specialName: "Flame Commandment: Fire Pillar",
         special: "Reduces Special Cooldown of Fighter and Free Spirit characters by 1 턴. Reduces damage received by 50% for 1 턴.",
     },
@@ -4864,11 +4864,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [ 
-                    "Level 1: Perfect 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: Perfect 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: Perfect 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: Perfect 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: Perfect 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
+                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 5: PERFECT 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
                 ]
             },
             {
@@ -4970,11 +4970,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [ 
-                    "Level 1: Perfect 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: Perfect 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: Perfect 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: Perfect 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: Perfect 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
+                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 5: PERFECT 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
                 ]
             },
             {
@@ -5131,18 +5131,18 @@ window.details = {
         special: "Boosts ATK against delayed enemies by 1.2x for 1 턴"
     },
     1014: {
-        special: "Binds himself for 1 턴 and makes Perfects easier to hit for 2 턴",
+        special: "Binds himself for 1 턴 and makes PERFECTs easier to hit for 2 턴",
         specialName: "Scapegoat Substitute",
         captain: "Boosts ATK of Powerhouse characters by 2x, and Recovers 2x character's RCV in HP at the end of each 턴"
     },
     1015: {
         captain: "Boosts ATK of [INT] characters by 2.75x if they have a matching orb",
-        special: "Randomizes all orbs. Boosts ATK of [INT] characters by 1.5x for 1 턴. If during that 턴 every unit scores a Perfect hit, boosts ATK of [INT] characters by 1.5x for the next 2 턴",
+        special: "Randomizes all orbs. Boosts ATK of [INT] characters by 1.5x for 1 턴. If during that 턴 every unit scores a PERFECT hit, boosts ATK of [INT] characters by 1.5x for the next 2 턴",
         specialName: "Hollow Eye Killing Shot"
     },
     1016: {
         captain: "Boosts ATK of [INT] characters by 3x if they have a matching orb, by 1.5x otherwise",
-        special: "Randomizes all orbs. Boosts ATK of [INT] characters by 1.5x for 1 턴. If during that 턴 every unit scores a Perfect hit, boosts ATK of [INT] characters by 1.5x for the next 2 턴",
+        special: "Randomizes all orbs. Boosts ATK of [INT] characters by 1.5x for 1 턴. If during that 턴 every unit scores a PERFECT hit, boosts ATK of [INT] characters by 1.5x for the next 2 턴",
         specialName: "Hollow Eye Killing Shot"
     },
     1017: {
@@ -5210,11 +5210,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [ 
-                    "Level 1: Perfect 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: Perfect 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: Perfect 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: Perfect 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: Perfect 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
+                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 5: PERFECT 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
                 ]
             },
             {
@@ -5299,11 +5299,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [ 
-                    "Level 1: Perfect 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 2: If you hit a perfect with this character, there is a 25% chance to deal 5% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 50% chance to deal 7% of this character's attack in extra damage"
+                    "Level 1: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 2: If you hit a PERFECT with this character, there is a 25% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 50% chance to deal 7% of this character's attack in extra damage"
                 ]
             },
         ],
@@ -5323,12 +5323,12 @@ window.details = {
        		limit: "한계돌파 추가예정",
     },
     1036: {
-        captain: "Boosts ATK of Free Spirit characters by 2x after scoring 3 Perfects in a row",
+        captain: "Boosts ATK of Free Spirit characters by 2x after scoring 3 PERFECTs in a row",
         special: "Deals 13x ATK in QCK Damage to one Enemy, Changes Orbs depending on the current HP",
         specialName: "Kenpo: Kick Thrust Drop",
     },
     1037: {
-        captain: "Boosts ATK of Free Spirit characters by 2.5x after scoring 3 Perfects in a row",
+        captain: "Boosts ATK of Free Spirit characters by 2.5x after scoring 3 PERFECTs in a row",
         special: "Deals 13x ATK in QCK Damage to one Enemy, Changes Orbs depending on the current HP",
         specialName: "Kenpo: Kick Thrust Drop",
     },
@@ -5363,7 +5363,7 @@ window.details = {
         specialName: "Hitting Size"
     },
     1044: {
-        captain: "Boosts ATK of Slasher and Free Spirit characters by 2x at the start of the chain, by 3x after the 3rd Perfect in a row and by 4x after the 5th Perfect in a row.",
+        captain: "Boosts ATK of Slasher and Free Spirit characters by 2x at the start of the chain, by 3x after the 3rd PERFECT in a row and by 4x after the 5th PERFECT in a row.",
         specialName: "Gamma Knife",
         special: [
             {
@@ -5377,7 +5377,7 @@ window.details = {
         ],
     },
     1045: {
-        captain: "Boosts ATK of Slasher and Free Spirit characters by 2x at the start of the chain, by 3x after the 3rd Perfect in a row and by 4x after the 5th Perfect in a row.",
+        captain: "Boosts ATK of Slasher and Free Spirit characters by 2x at the start of the chain, by 3x after the 3rd PERFECT in a row and by 4x after the 5th PERFECT in a row.",
         specialName: "Gamma Knife",
         special: [
             {
@@ -5391,12 +5391,12 @@ window.details = {
         ],
     },
     1046: {
-        captain: "Boosts ATK of Free Spirit characters by 2.75x following a chain of Good > Great > Perfect hits",
+        captain: "Boosts ATK of Free Spirit characters by 2.75x following a chain of Good > Great > PERFECT hits",
         specialName: "Dragon Claw Fist: Dragon's Breath",
         special: "Deals random typeless damage to all enemies. Adds 55x character's ATK as Additional Typeless Damage for 2 턴",
     },
     1047: {
-        captain: "Boosts ATK of Free Spirit characters by 3.5x following a chain of Good > Great > Perfect hits",
+        captain: "Boosts ATK of Free Spirit characters by 3.5x following a chain of Good > Great > PERFECT hits",
         specialName: "Dragon Claw Fist: Dragon's Breath",
         special: "Deals random typeless damage to all enemies. Adds 55x character's ATK as Additional Typeless Damage for 2 턴",
     },
@@ -5586,11 +5586,11 @@ window.details = {
             {
                 "Name": "Pinch Healing",
                 "description": [ 
-                    "Level 1: 전투 시작 시 체력이 10% 미만이면, 턴 종료시 Perfect 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
-                    "Level 2: 전투 시작 시 체력이 15% 미만이면, 턴 종료시 Perfect 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
-                    "Level 3: 전투 시작 시 체력이 20% 미만이면, 턴 종료시 Perfect 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
-                    "Level 4: 전투 시작 시 체력이 30% 미만이면, 턴 종료시 Perfect 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
-                    "Level 5: 전투 시작 시 체력이 30% 미만이면, 턴 종료시 Perfect 적중 할때마다 캐릭터 회복력의 1배 만큼 체력을 회복한다."
+                    "Level 1: 전투 시작 시 체력이 10% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
+                    "Level 2: 전투 시작 시 체력이 15% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
+                    "Level 3: 전투 시작 시 체력이 20% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
+                    "Level 4: 전투 시작 시 체력이 30% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
+                    "Level 5: 전투 시작 시 체력이 30% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 1배 만큼 체력을 회복한다."
                 ]
             },
             {
@@ -5605,23 +5605,23 @@ window.details = {
             },
         ]
     },
-    1078: {
-        captain: "Recovers 3x character's RCV in HP at the end of each 턴",
+    1078: { // modified 
+        captain: "턴 종료 후 캐릭터의 회복력x3배의 체력을 회복한다",
         special: [
             {
-                "description": "Recovers 6x character's RCV in HP. Reduces Paralysis duration by 3 턴",
+                "description": "마비 상태를 3턴 회복하고, 캐릭터의 회복력x6배의 체력을 회복한다",
                 "cooldown": [ 14, 8 ]
             },
             {
-                "description": "Recovers 15x character's RCV in HP. Removes Paralysis, Poison, RCV Down, and Blindness",
+                "description": "모든 독·마비·회복력 감소·의성어 은폐 상태를 회복하고, 캐릭터의 회복력x15배의 체력을 회복한다",
                 "cooldown": [ 19, 13 ]
             },
             {
-                "description": "Recovers 50x character's RCV in HP. Removes Paralysis, Poison, RCV Down, and Blindness",
+                "description": "모든 독·마비·회복력 감소·의성어 은폐 상태를 회복하고, 캐릭터의 회복력x50배의 체력을 회복한다",
                 "cooldown": [ 24, 18 ]
             },
         ],
-        specialName: "Chiyupopo"
+        specialName: "치유들레"
     },
     1079: {
         captain: "Recovers 4x character's RCV in HP at the end of each 턴",
@@ -5658,7 +5658,7 @@ window.details = {
         specialName: "Drill Dragon: Drill Nail"
     },
     1083: {
-        captain: "Boosts ATK of Striker and Fighter characters by 1.5x at the start of the chain, and by 3x after the 3rd Perfect in a row",
+        captain: "Boosts ATK of Striker and Fighter characters by 1.5x at the start of the chain, and by 3x after the 3rd PERFECT in a row",
         special: "Deals 20x ATK in [STR] damage to all enemies. For 2 턴, boosts ATK of Striker and Fighter characters by a variable amount depending on the current HP at the time the special was activated.",
         specialName: "Drill Dragon: Drill Nail",
         limit: [
@@ -5682,11 +5682,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [ 
-                    "Level 1: If you hit a perfect with this character, there is a 5% chance to deal 5% of this character's attack in extra damage",
-                    "Level 2: If you hit a perfect with this character, there is a 5% chance to deal 7% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a 5% chance to deal 10% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a 10% chance to deal 10% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 15% chance to deal 15% of this character's attack in extra damage"
+                    "Level 1: If you hit a PERFECT with this character, there is a 5% chance to deal 5% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 5% chance to deal 7% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 5% chance to deal 10% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 10% chance to deal 10% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 15% chance to deal 15% of this character's attack in extra damage"
                 ]
             },
             {
@@ -5756,11 +5756,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [ 
-                    "Level 1: Perfect 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 2: If you hit a perfect with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 50% chance to deal 10% of this character's attack in extra damage"
+                    "Level 1: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 2: If you hit a PERFECT with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 50% chance to deal 10% of this character's attack in extra damage"
                 ]
             },
             {
@@ -5826,12 +5826,12 @@ window.details = {
         specialName: "Mass Juggling"
     },
     1096: {
-        captain: "Boosts ATK of Powerhouse characters by 3x after the 5th Perfect in a row.",
+        captain: "Boosts ATK of Powerhouse characters by 3x after the 5th PERFECT in a row.",
         special: "Deals [INT] damage to one enemy. Boosts own ATK by 1.75x for 1 턴.",
         specialName: "Crash Drumming"
     },
     1097: {
-        captain: "Boosts ATK of Powerhouse characters by 3.5x after the 5th Perfect in a row.",
+        captain: "Boosts ATK of Powerhouse characters by 3.5x after the 5th PERFECT in a row.",
         special: "Deals [INT] damage to one enemy. Boosts own ATK by 1.75x for 1 턴.",
         specialName: "Crash Drumming"
     },
@@ -5972,26 +5972,26 @@ window.details = {
         specialName: "1만 캐럿의 미소",
         specialNotes: "#{zombie}",
         captain: "타격 캐릭터의 공격력과 회복력을 1.5배 상승시킨다.",
-        sailor: "DEX 슬롯을 이로운 슬롯으로 만든다."
+        sailor: "DEX 슬롯을 [유리] 슬롯으로 만든다."
     },
     1119: {
         special: "슬롯을 랜덤으로 교체한다, 1턴 동안 체력이 일정 이상(50%)일 때 공격을 받아도 쓰러지지 않는다.",
         specialName: "1만 캐럿의 미소",
         specialNotes: "#{zombie}",
         captain: "타격 캐릭터의 공격력을 2배 상승시키고, 회복력을 1.5배 상승시킨다.",
-        sailor: "DEX 슬롯을 이로운 슬롯으로 만든다."
+        sailor: "DEX 슬롯을 [유리] 슬롯으로 만든다."
     },
     1120: {
         special: "적 전체에게 무 속성의 랜덤 데미지를 주고, 자신의 슬롯을 STR으로 변환한다.",
         specialName: "고무고무 JET 개틀링",
         specialNotes: "랜덤 데미지 : 70,00 ~ 200,000",
-        captain: "Good > Great > Perfect 순으로 공격 이후 캐릭터의 공격력이 4배 상승한다."
+        captain: "Good > Great > PERFECT 순으로 공격 이후 캐릭터의 공격력이 4배 상승한다."
     },
     1121: {
         special: "적 전체에게 무 속성의 랜덤 데미지를 주고, 자신의 슬롯을 STR으로 변환한다.",
         specialName: "고무고무 JET 개틀링",
         specialNotes: "랜덤 데미지 : 70,00 ~ 200,000",
-        captain: "Good > Great > Perfect 순으로 공격 이후 캐릭터의 공격력이 4배 상승한다."
+        captain: "Good > Great > PERFECT 순으로 공격 이후 캐릭터의 공격력이 4배 상승한다."
     },
     1122: {
         captain: "STR,DEX,QCK 캐릭터의 공격력을 2.5배, 자신의 공격력을 3배로 만든다.",
@@ -6541,11 +6541,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [ 
-                    "Level 1: Perfect 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: Perfect 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: Perfect 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: Perfect 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: Perfect 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
+                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 5: PERFECT 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
                 ]
             },
             {
@@ -6604,7 +6604,7 @@ window.details = {
         specialName: "Catepillar Soul Shot",
     },
     1218: {//Hancock
-        captain: "Boosts ATK by 2.5x after scoring 3 Perfects in a row",
+        captain: "Boosts ATK by 2.5x after scoring 3 PERFECTs in a row",
         special: "Locks all orbs for 1 턴. If HP is below 30%, changes own orb and the captain's orb into matching. ",
         specialName: "Everybody Confusing Fragrance",
     },
@@ -6828,20 +6828,20 @@ window.details = {
         specialName: "Shark Cutter - Flash",
         sailor: "Makes [QCK] orbs \"beneficial\" for this unit"
     },
-    1239: {//6* Kizaru
-        captain: "Reduces cooldown of all specials by 1 턴 at the start of the fight, boosts ATK of all characters by 2x, and boosts RCV of all characters by 1.3x. If you use \"Yasakani no Magatama\" boosts ATK of all characters by 3x instead.",
-        specialName: "Yasakani no Magatama",
+    1239: {//6* Kizaru :: modified
+        captain: "모험 시작 시 필살기 턴을 1턴 단축하고, 일당의 공격력이 2배, 회복력이 1.3배가 된다. ‘팔척경곡옥’을 사용한 턴은 일당의 공격력이 3배가 된다",
+        specialName: "팔척경곡옥",
         special: [
             {
-                "description": "For Shooter and Slasher characters, randomizes all non-matching orbs. Deals 10 hits of small random typeless damage to random enemies.",
+                "description": "사격형과 참격형의 슬롯을 속성 일치 슬롯 이외는 랜덤으로 바꾸고, 무작위의 적에게 무 속성의 낮은 랜덤 데미지를 10회 준다",
                 "cooldown": [ 6, 3 ],
             },
             {
-                "description": "For Shooter and Slasher characters, randomizes all non-matching orbs. Recovers 5x character's RCV in HP. Deals 10 hits of random typeless damage to random enemies.",
+                "description": "사격형과 참격형의 슬롯을 속성 일치 슬롯 이외는 랜덤으로 바꾸고, 체력을 소량 회복하며, 무작위의 적에게 무 속성의 랜덤 데미지를 10회 준다",
                 "cooldown": [ 12, 9 ],
             },
             {
-                "description": "Changes all orbs on Shooter and Slasher characters into Matching orbs. Recovers 10x character's RCV in HP. Deals 10 hits of large random typeless damage to random enemies.",
+                "description": "사격형과 참격형의 슬롯을 속성 일치 슬롯으로 바꾸고, 체력을 중량 회복하며, 무작위의 적에게 무 속성의 큰 랜덤 데미지를 10회 준다",
                 "cooldown": [ 20, 17 ], 
             },
         ],    
@@ -6961,18 +6961,18 @@ window.details = {
     },
     1253: {// Coliseum Shura
         captain: "Boosts ATK of [DEX] characters by 2.25x if HP is above 99% at the start of the 턴",
-        special: "Makes Perfects harder to hit for 1 턴. If during that 턴 every unit scores a Perfect hit, boosts ATK of [DEX] characters by 1.75x in the following 턴.",
+        special: "Makes PERFECTs harder to hit for 1 턴. If during that 턴 every unit scores a PERFECT hit, boosts ATK of [DEX] characters by 1.75x in the following 턴.",
         specialName: "Angry Instigator",
     },
     1254: {//FN Squard
-        captain: "Boosts ATK of Striker characters by 2.5x until the first hit other than Perfect. Reduce crew's current HP by 5% at the end of each 턴.",
+        captain: "Boosts ATK of Striker characters by 2.5x until the first hit other than PERFECT. Reduce crew's current HP by 5% at the end of each 턴.",
         special: "Deals 10x character's ATK in fixed damage to one enemy, reduces crews current HP by 30% and reduces enemies defense by 80% for one 턴",
         specialName: "Sword Attack Without Hesitation",
         sailor: "Reduces his own Numbness by 1 턴"
     },
     1255: {//FN DeCalvan
         captain: "Boosts ATK of all characters by 1.5x after the 11th hit in the chain, by 2x after the 16th hit, by 2.5x after the 22nd hit",
-        special: "For 1 턴, makes Perfects slightly easier to hit and amplifies the effect of orbs by 1.5x",
+        special: "For 1 턴, makes PERFECTs slightly easier to hit and amplifies the effect of orbs by 1.5x",
         sailor: "When HP is below 30% at the start of the 턴, boost base ATK of Fighter characters by 40",
         specialName: "Large Fleet Commander",
     },
@@ -7033,13 +7033,13 @@ window.details = {
         specialName: "Five Color Strings (Goshikito)",
     },
     1261: {//Young Senor Pink
-        captain: "Boosts ATK of Free Spirit characters by 1.5x. Heals for .75x his RCV at the end of the 턴 each time you hit a Perfect.",
+        captain: "Boosts ATK of Free Spirit characters by 1.5x. Heals for .75x his RCV at the end of the 턴 each time you hit a PERFECT.",
         special: "Randomizes all orbs. Boosts the Color Affinity of Free Spirit and Shooter characters by 1.5x for 1 턴",
         specialNotes: "#{colorAffinity : 1.5}",
         specialName: "Blood and Gunpowder of the Underground Family",
     },
     1262: {//Young Senor Pink
-        captain: "Boosts ATK of Free Spirit characters by 1.75x. Heals for .75x his RCV at the end of the 턴 each time you hit a Perfect.",
+        captain: "Boosts ATK of Free Spirit characters by 1.75x. Heals for .75x his RCV at the end of the 턴 each time you hit a PERFECT.",
         special: "Randomizes all orbs. Boosts the Color Affinity of Free Spirit and Shooter characters by 1.5x for 1 턴",
         specialNotes: "#{colorAffinity : 1.5}",
         specialName: "Blood and Gunpowder of the Underground Family",
@@ -7124,11 +7124,11 @@ window.details = {
             {
                 "Name": "Pinch Healing",
                 "description": [ 
-                    "Level 1: 전투 시작 시 체력이 10% 미만이면, 턴 종료시 Perfect 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
-                    "Level 2: 전투 시작 시 체력이 15% 미만이면, 턴 종료시 Perfect 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
-                    "Level 3: 전투 시작 시 체력이 20% 미만이면, 턴 종료시 Perfect 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
-                    "Level 4: 전투 시작 시 체력이 30% 미만이면, 턴 종료시 Perfect 적중 할때마다 캐릭터 회복력의 1배 만큼 체력을 회복한다.",
-                    "Level 5: 전투 시작 시 체력이 50% 미만이면, 턴 종료시 Perfect 적중 할때마다 캐릭터 회복력의 1배 만큼 체력을 회복한다."
+                    "Level 1: 전투 시작 시 체력이 10% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
+                    "Level 2: 전투 시작 시 체력이 15% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
+                    "Level 3: 전투 시작 시 체력이 20% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
+                    "Level 4: 전투 시작 시 체력이 30% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 1배 만큼 체력을 회복한다.",
+                    "Level 5: 전투 시작 시 체력이 50% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 1배 만큼 체력을 회복한다."
                 ]
             },
             {
@@ -7221,7 +7221,7 @@ window.details = {
         specialName: "Wild Hunt",
     },
     1285: {//Wild Luffy Evolved
-        captain: "Boosts ATK of Striker characters by 1.5x and their HP by 1.25x. Boosts ATK of Striker characters by 3.375x after scoring 3 Perfects in a row.",
+        captain: "Boosts ATK of Striker characters by 1.5x and their HP by 1.25x. Boosts ATK of Striker characters by 3.375x after scoring 3 PERFECTs in a row.",
         special: "Reduces Bind and Silence duration by 3 턴. Randomizes non-matching orbs including [BLOCK] orbs",
         specialNotes: "#{silence}",
         sailor: "Reduces Silence duration against this character by 3 턴",
@@ -7241,13 +7241,13 @@ window.details = {
     1288: {//Kid Law
         captain: "Boosts ATK of Driven characters by 2.5x, reduces crew's current HP by 10% at the end of each 턴, reduces his own ATK multiplier by 0.1x at the end of each 턴",
         captainNotes: "His ATK multiplier will be 2.5x on the first 턴, 2.4x on the second, 2.3x on the third and so on. The reduction stops once the multiplier is 1.0x. The multiplier affects all Driven characters. You will not die to the HP reduction",
-        special: "Reduces Special Cooldown of Driven specials by 1 턴. If during that 턴 every unit scores a Perfect hit, reduces Special Cooldown of Driven specials by 1 턴.",
+        special: "Reduces Special Cooldown of Driven specials by 1 턴. If during that 턴 every unit scores a PERFECT hit, reduces Special Cooldown of Driven specials by 1 턴.",
         specialName: "Outcome of Sparta",
     },
     1289: {//Kid Law
         captain: "Boosts ATK of Driven characters by 2.75x, reduces crew's current HP by 10% at the end of each 턴, reduces his own ATK multiplier by 0.1x at the end of each 턴",
         captainNotes: "His ATK multiplier will be 2.75x on the first 턴, 2.65x on the second, 2.55x on the third and so on. The reduction stops once the multiplier is 1.0x. The multiplier affects all Driven characters. You will not die to the HP reduction",
-        special: "Reduces Special Cooldown of Driven specials by 1 턴. If during that 턴 every unit scores a Perfect hit, reduces Special Cooldown of Driven specials by 1 턴.",
+        special: "Reduces Special Cooldown of Driven specials by 1 턴. If during that 턴 every unit scores a PERFECT hit, reduces Special Cooldown of Driven specials by 1 턴.",
         specialName: "Outcome of Sparta",
     },
     1290: {//Kid Buffalo
@@ -7257,12 +7257,12 @@ window.details = {
     },
     1291: {//Lao G, Coliseum
         captain: "Boosts ATK of Driven characters by 1.75x",
-        special: "Changes [PSY], [INT], [RCV], and [TND] orbs into [G] orbs. Locks orbs for 1 턴. If during that 턴 every unit scores a Perfect hit, changes [G] orbs into Matching Orbs",
+        special: "Changes [PSY], [INT], [RCV], and [TND] orbs into [G] orbs. Locks orbs for 1 턴. If during that 턴 every unit scores a PERFECT hit, changes [G] orbs into Matching Orbs",
         specialName: "Lower Back Pain Stance - The Eyes of Blight Impact",
     },
     1292: {//Lao G, Coliseum
         captain: "Boosts ATK of Driven characters by 2.5x if they have a matching orb, by 2x otherwise",
-        special: "Changes [PSY], [INT], [RCV], and [TND] orbs into [G] orbs. Locks orbs for 1 턴. If during that 턴 every unit scores a Perfect hit, changes [G] orbs into Matching Orbs",
+        special: "Changes [PSY], [INT], [RCV], and [TND] orbs into [G] orbs. Locks orbs for 1 턴. If during that 턴 every unit scores a PERFECT hit, changes [G] orbs into Matching Orbs",
         specialName: "Lower Back Pain Stance - The Eyes of Blight Impact",
     },
     1293: {//Coliseum Sandersonia
@@ -7360,12 +7360,12 @@ window.details = {
     },
     1307: {//Halloween Bartolomeo
         captain: "Boosts ATK of Driven characters by 1.75x. If you don't attack with Bartolomeo, reduces damage received by 10% for that 턴.",
-        special: "Reduces damage received by 50% for 1 턴. If during that 턴 every unit scores a Perfect hit, reduces damage received by 80% in the following 턴",
+        special: "Reduces damage received by 50% for 1 턴. If during that 턴 every unit scores a PERFECT hit, reduces damage received by 80% in the following 턴",
         specialName: "Vulgar Provocation",
     },
     1308: {//Halloween Bartolomeo
         captain: "Boosts ATK of Driven characters by 2x. If you don't attack with Bartolomeo, reduces damage received by 20% for that 턴.",
-        special: "Reduces damage received by 50% for 1 턴. If during that 턴 every unit scores a Perfect hit, reduces damage received by 80% in the following 턴",
+        special: "Reduces damage received by 50% for 1 턴. If during that 턴 every unit scores a PERFECT hit, reduces damage received by 80% in the following 턴",
         specialName: "Vulgar Provocation",
     },
     1309: {//Coliseum Kinemon
@@ -7465,7 +7465,7 @@ window.details = {
         ],
     },
     1315: {//Coby
-        captain: "Boosts ATK of all characters by 2x after the 2nd Perfect in a row and by 3x after the 5th Perfect in a row.",
+        captain: "Boosts ATK of all characters by 2x after the 2nd PERFECT in a row and by 3x after the 5th PERFECT in a row.",
         special: [
             {
                 "description": "If HP is below 3,000 when the special is activated, reduces No Healing debuff by 1 턴. Recovers 3x character's RCV in HP",
@@ -7485,7 +7485,7 @@ window.details = {
         specialName: "Echoing Cry of the Soul",
     },
     1316: {//Coby
-        captain: "Boosts ATK of all characters by 2.5x after the 2nd Perfect in a row and by 3.5x after the 5th Perfect in a row.",
+        captain: "Boosts ATK of all characters by 2.5x after the 2nd PERFECT in a row and by 3.5x after the 5th PERFECT in a row.",
         special: [
             {
                 "description": "If HP is below 3,000 when the special is activated, reduces No Healing debuff by 1 턴. Recovers 3x character's RCV in HP",
@@ -7519,14 +7519,14 @@ window.details = {
         specialName: "Super Large Iron Ball",
     },
     1319: {//Lady Tsuru
-        captain: "Heals for 1x her RCV at the end of the 턴 each time you hit a Good. Heals for .1x her RCV at the end of the 턴 each time you hit a Perfect",
+        captain: "Heals for 1x her RCV at the end of the 턴 each time you hit a Good. Heals for .1x her RCV at the end of the 턴 each time you hit a PERFECT",
         special: "Deals 10 hits of random [QCK] damage to random enemies. Boosts ATK of all characters by 1.5x for 1 턴",
         specialNotes: "#{randomHits : 10}<br>#{random : 1,000 : 32,000 : for each hit}",
         sailor: "Reduces Paralysis duration by 1 턴",
         specialName: "A Decree of the Veteran",
     },
     1320: {//Lady Tsuru
-        captain: "Heals for 1.5x her RCV at the end of the 턴 each time you hit a Good. Heals for .1x her RCV at the end of the 턴 each time you hit a Perfect",
+        captain: "Heals for 1.5x her RCV at the end of the 턴 each time you hit a Good. Heals for .1x her RCV at the end of the 턴 each time you hit a PERFECT",
         special: "Deals 10 hits of random [QCK] damage to random enemies. Boosts ATK of all characters by 1.5x for 1 턴",
         specialNotes: "#{randomHits : 10}<br>#{random : 1,000 : 32,000 : for each hit}",
         sailor: "Reduces Paralysis duration by 1 턴",
@@ -7543,7 +7543,7 @@ window.details = {
             { "description": "체력 상승 : 80" },
             { "description": "공격력 상승 : 60" },
             { "description": "선원효과 추가 1: Reduces Blindness duration by 3 턴" },
-            { "description": "새로운 선장 효과 습득: Boosts ATK of all characters by 1.2x, heals for 1.5x her RCV at the end of the 턴 each time you hit a Good. Heals for .3x her RCV at the end of the 턴 each time you hit a Perfect" },
+            { "description": "새로운 선장 효과 습득: Boosts ATK of all characters by 1.2x, heals for 1.5x her RCV at the end of the 턴 each time you hit a Good. Heals for .3x her RCV at the end of the 턴 each time you hit a PERFECT" },
             { "description": "필살기 턴 단축 : 2턴" },
             { "description": "소켓 슬롯 1개 추가" },
             { "description": "잠재능력 습득 2: Reduce No Healing duration" },
@@ -7552,11 +7552,11 @@ window.details = {
             {
                 "Name": "Pinch Healing",
                 "description": [ 
-                    "Level 1: 전투 시작 시 체력이 10% 미만이면, 턴 종료시 Perfect 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
-                    "Level 2: 전투 시작 시 체력이 15% 미만이면, 턴 종료시 Perfect 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
-                    "Level 3: 전투 시작 시 체력이 20% 미만이면, 턴 종료시 Perfect 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
-                    "Level 4: 전투 시작 시 체력이 30% 미만이면, 턴 종료시 Perfect 적중 할때마다 캐릭터 회복력의 1배 만큼 체력을 회복한다.",
-                    "Level 5: 전투 시작 시 체력이 50% 미만이면, 턴 종료시 Perfect 적중 할때마다 캐릭터 회복력의 1배 만큼 체력을 회복한다."
+                    "Level 1: 전투 시작 시 체력이 10% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
+                    "Level 2: 전투 시작 시 체력이 15% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
+                    "Level 3: 전투 시작 시 체력이 20% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
+                    "Level 4: 전투 시작 시 체력이 30% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 1배 만큼 체력을 회복한다.",
+                    "Level 5: 전투 시작 시 체력이 50% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 1배 만큼 체력을 회복한다."
                 ]
             },
             {
@@ -7803,8 +7803,8 @@ window.details = {
         specialName: "Covering Fire",
     },
     1352: {//Ivankov
-        captain: "Boosts ATK of Fighter characters by 2x at the start of the chain, boosts Atk of Fighter characters by 3.5x after the 5th Perfect in a row",
-        special: "Following the activation of the special, if every unit scores a Perfect hit, reduces damage received by 90% in the following 턴",
+        captain: "Boosts ATK of Fighter characters by 2x at the start of the chain, boosts Atk of Fighter characters by 3.5x after the 5th PERFECT in a row",
+        special: "Following the activation of the special, if every unit scores a PERFECT hit, reduces damage received by 90% in the following 턴",
         specialName: "Rolling Beauty",
     },
     1353: {//Rayleigh
@@ -7826,15 +7826,15 @@ window.details = {
     },
     1356: {//Pekoms
         captain: "Boosts ATK of Powerhouse characters by 1.5x",
-        special: "Changes [RCV] and [EMPTY] orbs into Matching orbs on Fighter characters. Makes Perfects easier to hit for 1 턴.",
+        special: "Changes [RCV] and [EMPTY] orbs into Matching orbs on Fighter characters. Makes PERFECTs easier to hit for 1 턴.",
         specialName: "Serious Threat",
-        specialNotes: "Increases timing window to hit a Perfect. (Animation remains the same)"
+        specialNotes: "Increases timing window to hit a PERFECT. (Animation remains the same)"
     },
     1357: {//Pekoms
         captain: "Boosts ATK, HP and RCV of Powerhouse characters by 1.5x",
-        special: "Changes [RCV] and [EMPTY] orbs into Matching orbs on Fighter characters. Makes Perfects easier to hit for 1 턴.",
+        special: "Changes [RCV] and [EMPTY] orbs into Matching orbs on Fighter characters. Makes PERFECTs easier to hit for 1 턴.",
         specialName: "Serious Threat",
-        specialNotes: "Increases timing window to hit a Perfect. (Animation remains the same)"
+        specialNotes: "Increases timing window to hit a PERFECT. (Animation remains the same)"
     },
     1358: {//Tamago
         captain: "Boosts ATK of Cerebral characters by 1.5x and the HP of Striker characters by 1.5x",
@@ -7863,12 +7863,12 @@ window.details = {
         special: "Deals 60x character's ATK as typeless damage to all enemies. If Zoro is your Captain or Friend/Guest Captain, boosts ATK of Slasher characters by 2x for 1 턴. If he is a Sailor, boosts ATK of Slasher characters by 1.75x for 1 턴 instead",
         specialName: "Three Blade Style Secret Skill: Crossroad of Six Paths",
     },
-    1363: {//Timeskip Franky
-        captain: "Boosts ATK of [PSY] characters by 2x, reduces damage received by 10%",
-        special: "Deals 25x character's ATK in [PSY] damage to all enemies, amplifies the effect of orbs for [PSY] characters by 2x for 1 턴",
+    1363: {//Timeskip Franky :: modified
+        captain: "[PSY] 캐릭터의 공격력이 2배가 되고, 받는 데미지를 10% 줄인다",
+        special: "적 전체에게 공격력x25배의 [PSY] 데미지를 주고, 1턴 동안 [PSY] 캐릭터의 슬롯의 영향이 2배가 된다",
         specialNotes: "#{orb : 2x}",
-        sailor: "Boosts base HP of [PSY] characters by 100",
-        specialName: "Franky Fireball",
+        sailor: "[PSY] 캐릭터의 기본 체력이 100 상승한다",
+        specialName: "프랑키~~ 파이어볼",
     },
     1364: {//Timeskip Franky
         captain: "Boosts ATK of [PSY] characters by 2.5x, reduces damage received by 10%",
@@ -7919,21 +7919,21 @@ window.details = {
         specialNotes: "#{silence}",
         specialName: "Black Ball - Thundercloud Rod",
     },
-    1367: {//Timeskip Sanji
-        captain: "Boosts ATK of [STR] characters by 2x",
+    1367: {//Timeskip Sanji :: modified
+        captain: "[STR] 캐릭터의 공격력이 2배가 된다",
         special: [
             {
-                "description": "Reduces damage received by 50% and amplifies the effect of orbs by 1.5x for 1 턴.",
+                "description": "1턴 동안 받는 데미지를 50% 줄이고, 슬롯의 영향을 증폭시킨다",
                 "cooldown": [ 11, 6 ],
             },
             {
-                "description": "Reduces damage received by 70% and amplifies the effect of orbs by 1.75x for 1 턴.",
+                "description": "1턴 동안 받는 데미지를 70% 줄이고, 슬롯의 영향을 상당히 증폭시킨다",
                 "cooldown": [ 20, 15 ],
             },
         ],
         specialNotes: "#{orb : 1.75x}<br>#{stages}",
-        sailor: "Boosts base ATK, HP and RCV of all characters by 50",
-        specialName: "Sky Walk",
+        sailor: "일당의 기본 능력치가 50 상승한다",
+        specialName: "스카이 워크",
     },
     1368: {//Timeskip Sanji
         captain: "Boosts ATK of [STR] characters by 2.5x, by 3x 전투 시작 시 체력이 30% 미만이면",
@@ -7964,14 +7964,14 @@ window.details = {
         specialName: "Kakuho: Elf",
     },
     1371: {//Wild Zoro
-        captain: "Boosts ATK of Slasher and Powerhouse characters by 2x at the start of the chain, by 2.25x after the 2nd Perfect in a row and by 2.5x after the 4th Perfect in a row.",
+        captain: "Boosts ATK of Slasher and Powerhouse characters by 2x at the start of the chain, by 2.25x after the 2nd PERFECT in a row and by 2.5x after the 4th PERFECT in a row.",
         special: "Reduces Despair duration by 3 턴. Reduces Special Cooldown of Slasher and Powerhouse characters by 2 턴",
         sailor: "Restores his own special by 2 턴 when it is rewinded",
         sailorNotes: "#{rewind : 2}",
         specialName: "Wild Plan",
     },
     1372: {//Wild Zoro
-        captain: "Boosts ATK of Slasher and Powerhouse characters by 2x at the start of the chain, by 2.5x after the 2nd Perfect in a row and by 3x after the 4th Perfect in a row.",
+        captain: "Boosts ATK of Slasher and Powerhouse characters by 2x at the start of the chain, by 2.5x after the 2nd PERFECT in a row and by 3x after the 4th PERFECT in a row.",
         special: "Reduces Despair duration by 3 턴. Reduces Special Cooldown of Slasher and Powerhouse characters by 2 턴",
         sailor: "Restores his own special by 2 턴 when it is rewinded",
         sailorNotes: "#{rewind : 2}",
@@ -8097,7 +8097,7 @@ window.details = {
             { "description": "체력강화 : 50" },
             { "description": "필살기 턴 단축 : 1턴" },
             { "description": "필살기 턴 단축 : 1턴" },
-            { "description": "선원효과 추가 2: [QCK] 슬롯도 이로운 슬롯으로 만든다." },
+            { "description": "선원효과 추가 2: [QCK] 슬롯도 [유리] 슬롯으로 만든다." },
             { "description": "잠재능력 습득 2: 회복 무효 상태 회복" },
         ],
         potential: [
@@ -8150,7 +8150,7 @@ window.details = {
     1392: {//Sentomaru
         captain: "Boosts ATK of Striker characters by 2x and boosts the HP of [PSY] characters by 1.25x",
         captainNotes: "A character with both classes will get both boosts",
-        special: "Deals 25x character's ATK in [PSY] damage to all enemies. If during that 턴 every unit scores a Perfect hit, boosts ATK of [PSY] characters by 1.75x in the following 턴.",
+        special: "Deals 25x character's ATK in [PSY] damage to all enemies. If during that 턴 every unit scores a PERFECT hit, boosts ATK of [PSY] characters by 1.75x in the following 턴.",
         specialName: "Large Cutting Axe",
     },
     1393: {//Demaro Black
@@ -8354,14 +8354,14 @@ window.details = {
         special: "Reduce enemies Damage Reduction and Increased Defense duration by 3 턴 and deals 60x character's ATK in typeless damage to all enemies",
         specialNotes: "This does not affect threshold damage reduction. Damage Reduction is the rainbow shield buff enemies have, and Increased Defense is the blue shiled buff enemies have",
         specialName: "Carving Hoof Palm: Coconut",
-        sailor: "If Chopper has a [STR] orb and you hit a Perfect with him, keep his [STR] orb for the next 턴",
+        sailor: "If Chopper has a [STR] orb and you hit a PERFECT with him, keep his [STR] orb for the next 턴",
     },
     1412: {//Timeskip Chopper Again
         captain: "Boosts ATK of Powerhouse characters by 2.75x, reduces crew's RCV to 0",
         special: "Reduce enemies Damage Reduction and Increased Defense duration by 3 턴 and deals 60x character's ATK in typeless damage to all enemies",
         specialNotes: "This does not affect threshold damage reduction. Damage Reduction is the rainbow shield buff enemies have, and Increased Defense is the blue shield buff enemies have",
         specialName: "Carving Hoof Palm: Coconut",
-        sailor: "If Chopper has a [STR] orb and you hit a Perfect with him, keep his [STR] orb for the next 턴",
+        sailor: "If Chopper has a [STR] orb and you hit a PERFECT with him, keep his [STR] orb for the next 턴",
     },
     1413: {//6+ Whitebeard
         captain: "Boosts ATK of all characters by 3x 전투 시작 시 체력이 30% 미만이면, 1.75x otherwise and boosts the HP of all characters by 1.2x",
@@ -8501,16 +8501,16 @@ window.details = {
     },
     1435: {//Hyouzou
         captain: "Boosts ATK of Slasher characters by 2x and HP of Powerhouse characters by 1.2x",
-        special: "Makes Perfects harder to hit for 1 턴, changes [STR], [QCK], [DEX], [PSY] and [INT] orbs into Matching orbs for Powerhouse characters, delays all enemies for 1 턴, recovers 20% of crew's MAX HP.",
+        special: "Makes PERFECTs harder to hit for 1 턴, changes [STR], [QCK], [DEX], [PSY] and [INT] orbs into Matching orbs for Powerhouse characters, delays all enemies for 1 턴, recovers 20% of crew's MAX HP.",
         specialName: "Staggering Slash",
-        specialNotes: "Decreases timing window to hit a Perfect. (Animation remains the same)",
+        specialNotes: "Decreases timing window to hit a PERFECT. (Animation remains the same)",
         sailor: "Boosts base ATK of all characters by 150 if there are 6 Powerhouse characters in your crew",
     },
     1436: {//Hyouzou
         captain: "Boosts ATK of Slasher characters by 2.5x and HP of Powerhouse characters by 1.25x",
-        special: "Makes Perfects harder to hit for 1 턴, changes [STR], [QCK], [DEX], [PSY] and [INT] orbs into Matching orbs for Powerhouse characters, delays all enemies for 1 턴, recovers 20% of crew's MAX HP.",
+        special: "Makes PERFECTs harder to hit for 1 턴, changes [STR], [QCK], [DEX], [PSY] and [INT] orbs into Matching orbs for Powerhouse characters, delays all enemies for 1 턴, recovers 20% of crew's MAX HP.",
         specialName: "Staggering Slash",
-        specialNotes: "Decreases timing window to hit a Perfect. (Animation remains the same)",
+        specialNotes: "Decreases timing window to hit a PERFECT. (Animation remains the same)",
         sailor: "Boosts base ATK of all characters by 150 if there are 6 Powerhouse characters in your crew",
     },
     1437: {//Ikaros Much
@@ -8545,26 +8545,26 @@ window.details = {
     },
     1441: {//Zeo
         captain: "Boosts ATK of [INT] characters by 1.5x, and reduces damage received by 10%",
-        special: "Makes Perfects easier to hit, locks all orbs, and locks the chain multiplier at 2.5x for 1 턴",
-        specialNotes: "Increases timing window to hit a Perfect. (Animation remains the same)",
+        special: "Makes PERFECTs easier to hit, locks all orbs, and locks the chain multiplier at 2.5x for 1 턴",
+        specialNotes: "Increases timing window to hit a PERFECT. (Animation remains the same)",
         specialName: "Flail Hidden From God",
         sailor: "Completely resists Blindness if your Captain is a Powerhouse character",
     },
     1442: {//Zeo
         captain: "Boosts ATK of [INT] characters by 2.25x and reduces damage received by 20%",
-        special: "Makes Perfects easier to hit, locks all orbs, and locks the chain multiplier at 2.5x for 1 턴",
-        specialNotes: "Increases timing window to hit a Perfect. (Animation remains the same)",
+        special: "Makes PERFECTs easier to hit, locks all orbs, and locks the chain multiplier at 2.5x for 1 턴",
+        specialNotes: "Increases timing window to hit a PERFECT. (Animation remains the same)",
         specialName: "Flail Hidden From God",
         sailor: "Completely resists Blindness if your Captain is a Powerhouse character",
     },
     1443: {//Dosun
-        captain: "Boosts ATK of Powerhouse characters by 2.75x following a chain of Good > Great > Perfect hits",
+        captain: "Boosts ATK of Powerhouse characters by 2.75x following a chain of Good > Great > PERFECT hits",
         special: "Changes [RCV], [TND], [EMPTY], [BLOCK] and [BOMB] orbs into [STR], [QCK], [DEX], [PSY] or [INT] orbs, boosts ATK of Powerhouse characters by 1.5x and amplifies the effect of orbs by 1.5x for 1 턴",
         specialName: "Papara Hammer",
         sailor: "Boost HP of all characters by 150 and also ATK of all characters by 50 if there are 6 Powerhouse characters in your crew",
     },
     1444: {//Dosun
-        captain: "Boosts ATK of Powerhouse characters by 3.25x following a chain of Good > Great > Perfect hits",
+        captain: "Boosts ATK of Powerhouse characters by 3.25x following a chain of Good > Great > PERFECT hits",
         special: "Changes [RCV], [TND], [EMPTY], [BLOCK] and [BOMB] orbs into [STR], [QCK], [DEX], [PSY] or [INT] orbs, boosts ATK of Powerhouse characters by 1.5x and amplifies the effect of orbs by 1.5x for 1 턴",
         specialName: "Papara Hammer",
         sailor: "Boost HP of all characters by 150 and also ATK of all characters by 50 if there are 6 Powerhouse characters in your crew",
@@ -8634,7 +8634,7 @@ window.details = {
         specialName: "Doki Doki Heart",
     },
     1455: {//Coliseum Don Chinjao
-        captain: "Boosts ATK of Driven characters by 2.5x until the first hit other than Perfect and recovers 120 HP at end of each 턴",
+        captain: "Boosts ATK of Driven characters by 2.5x until the first hit other than PERFECT and recovers 120 HP at end of each 턴",
         special: [
             {
                 "description": "Cuts the current HP of one enemy by 20%, reduces damage received by 50% for 1 턴",
@@ -8649,7 +8649,7 @@ window.details = {
         specialName: "Legend told to the Grandchild",
     },
     1456: {//Coliseum Don Chinjao
-        captain: "Boosts ATK of Powerhouse characters by 2.75x until the first hit other than Perfect and recovers 120 HP at end of each 턴",
+        captain: "Boosts ATK of Powerhouse characters by 2.75x until the first hit other than PERFECT and recovers 120 HP at end of each 턴",
         special: [
             {
                 "description": "Cuts the current HP of one enemy by 20%, reduces damage received by 50% for 1 턴",
@@ -8674,17 +8674,17 @@ window.details = {
         specialName: "Pussyfoot Maneuver",
     },
     1459: {//Coliseum Miss Valentine
-        captain: "Boosts ATK by 1.75x following a chain of Good > Good > Great > Perfect hits",
+        captain: "Boosts ATK by 1.75x following a chain of Good > Good > Great > PERFECT hits",
         special: "Binds self for 2 턴, makes [BOMB] orbs \"beneficial\" and boosts ATK against enemies with reduced defense by 1.5x for 1 턴.",
         specialName: "Crescendo Stone",
     },
     1460: {//Coliseum Miss Valentine
-        captain: "Boosts ATK by 2.14x following a chain of Good > Good > Great > Perfect hits",
+        captain: "Boosts ATK by 2.14x following a chain of Good > Good > Great > PERFECT hits",
         special: "Binds self for 2 턴, makes [BOMB] orbs \"beneficial\" and boosts ATK against enemies with reduced defense by 1.5x for 1 턴.",
         specialName: "Crescendo Stone",
     },
     1461: {//Snow Zoro
-        captain: "Boosts ATK of [QCK] characters by 2x at the start of the chain, by 2.6x after the 3rd Perfect in a row.",
+        captain: "Boosts ATK of [QCK] characters by 2x at the start of the chain, by 2.6x after the 3rd PERFECT in a row.",
         special: "Deals 11x character's ATK in [QCK] damage to one enemy, boosts ATK of [QCK] characters by 1.5x for 1 턴",
         specialName: "Demoltion: Ice Crush",
     },
@@ -8783,13 +8783,13 @@ window.details = {
     1474: {//King Neptune
         captain: "일당의 공격력을 2.25배로 만들고, 획득하는 해적 EXP가 1.4배가 된다.(획득 해적 EXP증가 효과는 뫃머 도중 선장이 된 경우에는 발휘 되지 않음)",
         special: "일당의 슬롯을 1턴 고정하며, 최대 HP가 가장 높은 적의 HP가 50% 이상일 때는 적 전체의 HP를 20% 줄이고, HP가 50% 미만일 때는 적 전체에 공격력x139배의 무 속성 데미지를 준다.",
-        sailor: "PSY,INT과 TND도 이로운 슬롯으로 취급한다..",
+        sailor: "PSY,INT과 TND도 [유리] 슬롯으로 취급한다..",
         specialName: "머맨 컴배트 울트라 마린",
     },
     1475: {//King Neptune
         captain: "일당의 공격력을 2.25배로 만들고, 획득하는 해적 EXP가 1.5배가 된다.(획득 해적 EXP증가 효과는 뫃머 도중 선장이 된 경우에는 발휘 되지 않음)",
         special: "일당의 슬롯을 1턴 고정하며, 최대 HP가 가장 높은 적의 HP가 50% 이상일 때는 적 전체의 HP를 20% 줄이고, HP가 50% 미만일 때는 적 전체에 공격력x140배의 무 속성 데미지를 준다.",
-        sailor: "PSY,INT과 TND도 이로운 슬롯으로 취급한다..",
+        sailor: "PSY,INT과 TND도 [유리] 슬롯으로 취급한다..",
         specialName: "머맨 컴배트 울트라 마린",
     },
     1476: {//Fukaboshi
@@ -8860,7 +8860,7 @@ window.details = {
         potentialNotes: "Enrage is activated when your crew took damage from your enemies in the previous 턴"
     },
     1480: {//Vander Decken IX
-        captain: "Boosts ATK by 2.5x after scoring 2 Perfects in a row",
+        captain: "Boosts ATK by 2.5x after scoring 2 PERFECTs in a row",
         special: "Deals 200,000 fixed damage to one enemy that will ignore damage negating abilities and barriers, reduces Bind and Silence duration by 2 턴",
         specialNotes: "#{ignoreBarrier}<br>#{silence}",
         sailor: "Restores his own special by 1 턴 when it is rewinded and reduces Silence for 3 턴 for himself",
@@ -8868,7 +8868,7 @@ window.details = {
         specialName: "Stalking Rose Axe",
     },
     1481: {//Vander Decken IX
-        captain: "Boosts ATK by 2.5x after the 2nd Perfect in a row and by 3.5x after the 5th Perfect in a row.",
+        captain: "Boosts ATK by 2.5x after the 2nd PERFECT in a row and by 3.5x after the 5th PERFECT in a row.",
         special: "Deals 200,000 fixed damage to one enemy that will ignore damage negating abilities and barriers, reduces Bind and Silence duration by 2 턴",
         specialNotes: "#{ignoreBarrier}<br>#{silence}",
         sailor: "Restores his own special by 1 턴 when it is rewinded and reduces Silence for 3 턴 for himself",
@@ -8888,13 +8888,13 @@ window.details = {
         specialName: "Foretold Catastrophe",
     },
     1484: {//Wild Sanji
-        captain: "Boosts ATK by 2.5x after scoring 3 Perfects in a row",
+        captain: "Boosts ATK by 2.5x after scoring 3 PERFECTs in a row",
         special: "Locks the chain multiplier at 2.5x for 1 턴, reduces Bind duration by 5 턴",
         sailor: "Changes all orbs into [RCV] orbs at the start of the fight.",
         specialName: "Wild Shot",
     },
     1485: {//Wild Sanji
-        captain: "Boosts HP and RCV of all characters by 1.2x and boosts ATK by 3.25x after scoring 3 Perfects in a row",
+        captain: "Boosts HP and RCV of all characters by 1.2x and boosts ATK by 3.25x after scoring 3 PERFECTs in a row",
         special: "Locks the chain multiplier at 2.5x for 1 턴, reduces Bind duration by 5 턴",
         sailor: "Changes all orbs into [RCV] orbs at the start of the fight.",
         specialName: "Wild Shot",
@@ -8936,11 +8936,11 @@ window.details = {
         captainNotes: "HP and RCV boost are not known yet, but are assumed to be for anyone and is a 1.2x boost for both in the calculator.",
         special: [
             {
-                "description": "Boosts ATK of Free Spirit characters by 1.5x for 1 턴. If during that 턴 you score 5 Perfect hits, boosts ATK of Free Spirit characters by 2x in the following 턴.",
+                "description": "Boosts ATK of Free Spirit characters by 1.5x for 1 턴. If during that 턴 you score 5 PERFECT hits, boosts ATK of Free Spirit characters by 2x in the following 턴.",
                 "cooldown": [ 18, 12 ],
             },
             {
-                "description": "Boosts ATK of Free Spirit characters by 1.75x for 1 턴. If during that 턴 you score 4 Perfect hits, boosts ATK of Free Spirit characters by 2x in the following 턴.",
+                "description": "Boosts ATK of Free Spirit characters by 1.75x for 1 턴. If during that 턴 you score 4 PERFECT hits, boosts ATK of Free Spirit characters by 2x in the following 턴.",
                 "cooldown": [ 23, 17 ],
             },
         ],
@@ -9006,18 +9006,18 @@ window.details = {
         specialName: "Absurd Invitation",
     },
     1504: {//Vander Decken IX
-        captain: "Boosts ATK of Driven characters by 2x. After scoring 3 Perfects in a row, boosts ATK of Driven characters by 2.4x instead.",
+        captain: "Boosts ATK of Driven characters by 2x. After scoring 3 PERFECTs in a row, boosts ATK of Driven characters by 2.4x instead.",
         special: "Changes the orbs in the middle row into [EMPTY] orbs and deals 20x character's ATK as [DEX] damage to all enemies at the end of the 턴 for 2 턴",
         specialName: "Inescapable Pursuit",
     },
     1505: {//Hody Jones
         captain: "Reduces cooldown of all specials by 1 턴 at the start of the fight, boosts ATK of Powerhouse characters by 2.25x 전투 시작 시 체력이 30% 미만이면",
-        special: "Deals 15x character's ATK in [STR] damage to all enemies that will ignore damage negating abilities and barriers, makes Perfects harder to hit for 1 턴, reduces crew's current HP by 90%, boosts own ATK by 2.25x for 1 턴.",
+        special: "Deals 15x character's ATK in [STR] damage to all enemies that will ignore damage negating abilities and barriers, makes PERFECTs harder to hit for 1 턴, reduces crew's current HP by 90%, boosts own ATK by 2.25x for 1 턴.",
         specialName: "Shark Arrows",
     },
     1506: {//Hody Jones
         captain: "Reduces cooldown of all specials by 1 턴 at the start of the fight, boosts ATK of Powerhouse characters by 2.5x 전투 시작 시 체력이 30% 미만이면, 2.25x otherwise",
-        special: "Deals 15x character's ATK in [STR] damage to all enemies that will ignore damage negating abilities and barriers, makes Perfects harder to hit for 1 턴, reduces crew's current HP by 90%, boosts own ATK by 2.25x for 1 턴.",
+        special: "Deals 15x character's ATK in [STR] damage to all enemies that will ignore damage negating abilities and barriers, makes PERFECTs harder to hit for 1 턴, reduces crew's current HP by 90%, boosts own ATK by 2.25x for 1 턴.",
         specialName: "Shark Arrows",
     },
     1507: {//White Day Sanji
@@ -9263,11 +9263,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [ 
-                    "Level 1: Perfect 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 2: If you hit a perfect with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 50% chance to deal 10% of this character's attack in extra damage"
+                    "Level 1: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 2: If you hit a PERFECT with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 50% chance to deal 10% of this character's attack in extra damage"
                 ]
             },
             {
@@ -9283,13 +9283,13 @@ window.details = {
         ]
     },
     1533: {//Rayleigh
-        captain: "Boosts ATK of [QCK] characters by 2x and their HP by 1.2x at the start of the chain, by 2.5x after the 4th Perfect in a row.",
+        captain: "Boosts ATK of [QCK] characters by 2x and their HP by 1.2x at the start of the chain, by 2.5x after the 4th PERFECT in a row.",
         special: "Changes all orbs, including [BLOCK] orbs, to [QCK] orbs",
         sailor: "Makes [STR], [INT], and [DEX] orbs \"beneficial\" for this unit",
         specialName: "The Teacher's Final Ordeal",
     },
     1534: {//Rayleigh
-        captain: "Boosts ATK of [QCK] characters by 2.5x and their HP by 1.2x at the start of the chain, by 3x after the 4th Perfect in a row.",
+        captain: "Boosts ATK of [QCK] characters by 2.5x and their HP by 1.2x at the start of the chain, by 3x after the 4th PERFECT in a row.",
         special: "Changes all orbs, including [BLOCK] orbs, to [QCK] orbs",
         sailor: "Makes [STR], [INT], and [DEX] orbs \"beneficial\" for this unit",
         specialName: "The Teacher's Final Ordeal",
@@ -9396,11 +9396,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [ 
-                    "Level 1: Perfect 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 2: If you hit a perfect with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 50% chance to deal 10% of this character's attack in extra damage"
+                    "Level 1: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 2: If you hit a PERFECT with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 50% chance to deal 10% of this character's attack in extra damage"
                 ]
             },
             {
@@ -9416,12 +9416,12 @@ window.details = {
         ]
     },
     1544: {//Sakura Koala
-        captain: "Boosts ATK of Fighter characters by 1.75x and heals for .3x her RCV at the end of the 턴 each time you hit a Perfect",
+        captain: "Boosts ATK of Fighter characters by 1.75x and heals for .3x her RCV at the end of the 턴 each time you hit a PERFECT",
         special: "Changes Captain orb into matching and boosts ATK of Fighter characters by 1.5x for 1 턴",
         specialName: "Bean Paste under the Petal Snow",
     },
     1545: {//Sakura Koala
-        captain: "Boosts ATK of Fighter characters by 2.25x and heals for .5x her RCV at the end of the 턴 each time you hit a Perfect",
+        captain: "Boosts ATK of Fighter characters by 2.25x and heals for .5x her RCV at the end of the 턴 each time you hit a PERFECT",
         special: "Changes Captain orb into matching and boosts ATK of Fighter characters by 1.5x for 1 턴",
         specialName: "Bean Paste under the Petal Snow",
     },
@@ -9512,7 +9512,7 @@ window.details = {
         specialName: "Drugs From Heaven",
     },
     1563: {//Elizabello
-        captain: "Boosts ATK of Fighter and Powerhouse characters by 1.75x at the start of the chain and by 2.1875x after the 5th Perfect in a row",
+        captain: "Boosts ATK of Fighter and Powerhouse characters by 1.75x at the start of the chain and by 2.1875x after the 5th PERFECT in a row",
         special: [
             {
                 "description": "Changes own orb into [STR], deals 10 hits of 3x character's ATK in typeless damage to random enemies",
@@ -9528,7 +9528,7 @@ window.details = {
         sailor: "Boosts own base ATK by 350 if this character is the last in the chain to attack",
     },
     1564: {//Elizabello
-        captain: "Boosts ATK of Fighter and Powerhouse characters by 2x at the start of the chain and by 3x after the 5th Perfect in a row",
+        captain: "Boosts ATK of Fighter and Powerhouse characters by 2x at the start of the chain and by 3x after the 5th PERFECT in a row",
         special: [
             {
                 "description": "Changes own orb into [STR], deals 10 hits of 3x character's ATK in typeless damage to random enemies",
@@ -9605,14 +9605,14 @@ window.details = {
         specialName: "Dash - Dive - Destroy",
     },
     1576: {//Kin'emon
-        captain: "Boosts ATK by 2.5x following a chain of Good > Great > Perfect hits",
+        captain: "Boosts ATK by 2.5x following a chain of Good > Great > PERFECT hits",
         special: "Deals 60x character's ATK in typeless damage to all enemies, and changes all orbs on all characters into Kinemon's orb.",
         specialNotes: "Upon activating the special, all orbs will be changed to the orb Kinemon has, including [RAINBOW] and [BLOCK] orbs. This will not override other [BLOCK] orbs.",
         sailor: "Makes [STR] and [QCK] orbs \"beneficial\" for this unit",
         specialName: "Flaming Flash",
     },
     1577: {//Kin'emon
-        captain: "Recovers 3x character's RCV in HP at the end of each 턴. Boosts ATK by 3.5x following a chain of Good > Great > Perfect hits",
+        captain: "Recovers 3x character's RCV in HP at the end of each 턴. Boosts ATK by 3.5x following a chain of Good > Great > PERFECT hits",
         special: "Deals 60x character's ATK in typeless damage to all enemies, and changes all orbs on all characters into Kinemon's orb.",
         specialNotes: "Upon activating the special, all orbs will be changed to the orb Kinemon has, including [RAINBOW] and [BLOCK] orbs. This will not override other [BLOCK] orbs.",
         sailor: "Makes [STR] and [QCK] orbs \"beneficial\" for this unit",
@@ -9732,11 +9732,11 @@ window.details = {
         captain: "격투 캐릭터의 공격력을 2.5배로 상승시키고, 만약 \"킹콩 건\"을 사용하면, 3턴 동안 선장효과인 격투 캐릭터의 공격력 증가가 4배로 상승하며, 3턴 동안 받는 데미지가 56% 감소한다.",
         special: [
             {
-                "description": "적 1기에 캐릭터 공격력 100배의 무속성 데미지를 주고, 1턴 동안 격투 캐릭터의 [STR], [DEX], [PSY], [INT], [TND], [RCV] 슬롯을 이로운 슬롯으로 취급한다. 3턴 후 7턴 동안 캐릭터 봉쇄, 선장효과 무효가 발생한다.",
+                "description": "적 1기에 캐릭터 공격력 100배의 무속성 데미지를 주고, 1턴 동안 격투 캐릭터의 [STR], [DEX], [PSY], [INT], [TND], [RCV] 슬롯을 [유리] 슬롯으로 취급한다. 3턴 후 7턴 동안 캐릭터 봉쇄, 선장효과 무효가 발생한다.",
                 "cooldown": [ 13, 8 ],
             },
             {
-                "description": "적 1기에 캐릭터 공격력 200배의 무속성 데미지를 주고, 3턴 동안 격투,자유 캐릭터의 [STR], [DEX], [PSY], [INT], [TND], [RCV] 슬롯을 이로운 슬롯으로 취급한다. 3턴 후 7턴 동안 캐릭터 봉쇄, 선장효과 무효가 발생한다.",
+                "description": "적 1기에 캐릭터 공격력 200배의 무속성 데미지를 주고, 3턴 동안 격투,자유 캐릭터의 [STR], [DEX], [PSY], [INT], [TND], [RCV] 슬롯을 [유리] 슬롯으로 취급한다. 3턴 후 7턴 동안 캐릭터 봉쇄, 선장효과 무효가 발생한다.",
                 "cooldown": [ 18, 13 ],
             },
         ],
@@ -9787,7 +9787,7 @@ window.details = {
         sailor: "Boosts own base ATK by 100 if this character is the last in the chain to attack",
     },
     1602: {//Power Creep Shiryu
-        captain: "Boosts ATK of Slasher characters by 2x at the start of the chain, by 3x after the 3rd Perfect in a row",
+        captain: "Boosts ATK of Slasher characters by 2x at the start of the chain, by 3x after the 3rd PERFECT in a row",
         special: "Instantly defeats all enemies with HP equal to or below 75x character's ATK, removes Poison and reduces damage received by 50% for 3 턴,",
         specialName: "Blood Stained 'Iron Wall'",
         sailor: "Boosts own base ATK by 100 if this character is the last in the chain to attack",
@@ -9823,15 +9823,15 @@ window.details = {
         specialNotes: "#{instantKill : <1%}",
         specialName: "Vile Fruit",
     },
-    1609: {//Legend Enel
-        captain: "Reduces HP of all characters by 20%, boosts chances of getting [RCV] orbs, makes [RCV] orbs \"beneficial\" to all characters, boosts ATK of all characters proportionally to the amount healed in the last 턴.",
+    1609: {//Legend Enel :: modified
+        captain: "일당의 최대 체력이 20% 줄어드는 대신 [RCV] 슬롯 출현율이 상승, 일당의 [RCV] 슬롯을 [유리](\"beneficial\") 슬롯으로 취급하고, 이전 턴의 회복량에 따라 일당의 공격력이 2배~3.25배가 된다",
         captainNotes: "The range of ATK boost is from 2x to 3.25x. The exact boost is calculated as 2 + <HP recovered in the previous 턴> * 0.000125 and maxes at 10k HP healed. This ignores your max HP, so it doesn't stop counting if you over-heal.",
-        special: "Deals typeless damage to all enemies equal to 10x how much excess healing done before the special is activated.",
+        special: "필살기 발동 시까지 최대 체력을 넘어 회복한 값x10배의 무 속성 데미지를 적 전체에게 준다(최대 2,000,000 데미지)",
         specialNotes: "The excess healing is counted from the last time the special is used and accumulates when you heal more than your maximum HP. For example, if you are at max HP, and you heal 1,000 HP, you will add 10k damage to the special. The amount of damage possible caps at 2,000,000 damage.",
-        specialName: "Heavy Thunder",
+        specialName: "만 개의 번개",
     },
     1610: {//Legend Enel
-        captain: "Reduces HP of all characters by 20%, boosts chances of getting [RCV] orbs, makes [RCV] orbs \"beneficial\" to all characters, boosts ATK of all characters proportionally to the amount healed in the last 턴.",
+        captain: "일당의 최대 체력이 20% 줄어드는 대신 [RCV] 슬롯 출현율이 상승, 일당의 [RCV] 슬롯을 [유리](\"beneficial\") 슬롯으로 취급하고, 이전 턴의 회복량에 따라 일당의 공격력이 2배~3.25배가 된다",
         captainNotes: "The range of ATK boost is from 2x to 3.25x. The exact boost is calculated as 2 + <HP recovered in the previous 턴> * 0.000125 and maxes at 10k HP healed. This ignores your max HP, so it doesn't stop counting if you over-heal.",
         special: "Deals typeless damage to all enemies equal to 10x how much excess healing done before the special is activated.",
         specialNotes: "The excess healing is counted from the last time the special is used and accumulates when you heal more than your maximum HP. For example, if you are at max HP, and you heal 1,000 HP, you will add 10k damage to the special. The amount of damage possible caps at 2,000,000 damage.",
@@ -9842,14 +9842,14 @@ window.details = {
         special: "Reduces the duration of Bind and Despair by 7 턴.  Recovers 20% of crew's MAX HP, and has low chance to eliminate all enemies",
         specialNotes: "#{instantKill : 10%}",
         specialName: "Paw Paw Fruit: Scatter and Fly Away",
-        sailor: "If Kuma has a [PSY] orb, and you hit a Perfect with him, keep his [PSY] orb for the next 턴",
+        sailor: "If Kuma has a [PSY] orb, and you hit a PERFECT with him, keep his [PSY] orb for the next 턴",
     },
     1612: {//Kuma
         captain: "Boosts ATK of Shooter characters by 2.5x and their HP by 1.2x",
         special: "Reduces the duration of Bind and Despair by 7 턴.  Recovers 20% of crew's MAX HP, and has low chance to eliminate all enemies",
         specialNotes: "#{instantKill : 10%}",
         specialName: "Paw Paw Fruit: Scatter and Fly Away",
-        sailor: "If Kuma has a [PSY] orb, and you hit a Perfect with him, keep his [PSY] orb for the next 턴",
+        sailor: "If Kuma has a [PSY] orb, and you hit a PERFECT with him, keep his [PSY] orb for the next 턴",
     },
     1613: {//Rob Lucci
         captain: "Boosts ATK of Fighter characters by 2.25x",
@@ -9893,7 +9893,7 @@ window.details = {
     },
     1619: {//6+ Raybae/Rayleigh
         captain: "Boosts chain multiplier by 4x and boosts HP and RCV of all characters by 1.2x",
-        special: "Reduces Bind, Despair, and Paralysis duration by 7 턴, delays all enemies for 1 턴, and makes Perfects easier to hit for 1 턴",
+        special: "Reduces Bind, Despair, and Paralysis duration by 7 턴, delays all enemies for 1 턴, and makes PERFECTs easier to hit for 1 턴",
         specialName: "Netherworld Conqueror",
     },
     1620: {//Log Kid
@@ -9968,7 +9968,7 @@ window.details = {
         specialName: "Arching Fangs",
     },
     1626: {//Dosun
-        captain: "Boosts ATK of Powerhouse characters by 2.5x following a chain of Good > Great > Perfect hits",
+        captain: "Boosts ATK of Powerhouse characters by 2.5x following a chain of Good > Great > PERFECT hits",
         special: "Deals 20x character's ATK in [PSY] damage to one enemy, boosts ATK of [PSY] characters by 1.5x for 1 턴",
         specialName: "The Calm Before The Storm",
     },
@@ -10166,12 +10166,12 @@ window.details = {
         specialNotes: "#{stages}"
     },
     1648: {//Giolla
-        captain: "Boosts ATK of all characters by 1.2x. Boosts ATK by 2.4x after scoring 4 Perfects in a row",
+        captain: "Boosts ATK of all characters by 1.2x. Boosts ATK by 2.4x after scoring 4 PERFECTs in a row",
         special: "Reduces damage received by 90% for 1 턴 and randomly changes all orbs, including [BLOCK] orbs, into either [STR], [DEX] or [QCK] orbs",
         specialName: "Sprouting with Beautiful Passion",
     },
     1649: {//Giolla
-        captain: "Boosts ATK of all characters by 1.2x. Boosts ATK by 3x after scoring 4 Perfects in a row",
+        captain: "Boosts ATK of all characters by 1.2x. Boosts ATK by 3x after scoring 4 PERFECTs in a row",
         special: "Reduces damage received by 90% for 1 턴 and randomly changes all orbs, including [BLOCK] orbs, into either [STR], [DEX] or [QCK] orbs",
         specialName: "Sprouting with Beautiful Passion",
     },
@@ -10394,7 +10394,7 @@ window.details = {
         specialName: "ROOM: Kikoku",
     },
     1678: {//Log Law
-        captain: "Boosts ATK of Slasher characters by 2.5x at the start of the chain, by 3.25x after the 3rd Perfect in a row",
+        captain: "Boosts ATK of Slasher characters by 2.5x at the start of the chain, by 3.25x after the 3rd PERFECT in a row",
         special: "Boosts the Color Affinity of Slasher by 1.5x for 1 턴, changes middle row orbs into matching orbs and switches orbs between slots three times",
         specialName: "ROOM: Kikoku",
         limit: [
@@ -10418,11 +10418,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [ 
-                    "Level 1: Perfect 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: Perfect 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: Perfect 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: Perfect 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: Perfect 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
+                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 5: PERFECT 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
                 ]
             },
             {
@@ -10454,7 +10454,7 @@ window.details = {
         sailor: "Boosts base HP and ATK of all characters by 56",
     },
     1682: {//20th Anni Luffy
-        captain: "Boosts HP of characters with cost 30 or less by 1.3x and boosts ATK of characters with cost 30 or less by 2.5x at the start of the chain, 3.5x after the 3rd Perfect in a row",
+        captain: "Boosts HP of characters with cost 30 or less by 1.3x and boosts ATK of characters with cost 30 or less by 2.5x at the start of the chain, 3.5x after the 3rd PERFECT in a row",
         special: "Cuts the current HP of each enemy by 20%, if Luffy is your Captain or Friend/Guest Captain, changes left column into Matching orbs, otherwise, adds .5x to Chain multiplier for 1 턴.",
         specialName: "Gomu Gomu no Tako Stamp",
         sailor: "Boosts base HP and ATK of all characters by 56",
@@ -10474,14 +10474,14 @@ window.details = {
         sailor: "Makes [TND] orbs \"beneficial\" for all characters if your Captain is a Fighter character",
     },
     1685: {//20th Anni Usopp
-        captain: "Boosts ATK of Shooter characters by 2.75x following a chain of Good > Great > Perfect hits",
+        captain: "Boosts ATK of Shooter characters by 2.75x following a chain of Good > Great > PERFECT hits",
         special: "Changes [EMPTY] orbs into Matching orbs, changes Badly Matching orbs into [RCV] orbs and delays all enemies for 1 턴",
         specialName: "Green Star: Bamboo Javelin-Grove",
         sailor: "Reduces Silence duration on this character by 4 턴",
         sailorNotes: "#{silence}",
     },
     1686: {//20th Anni Usopp
-        captain: "Boosts ATK of Shooter characters by 3.25x following a chain of Good > Great > Perfect hits",
+        captain: "Boosts ATK of Shooter characters by 3.25x following a chain of Good > Great > PERFECT hits",
         special: "Changes [EMPTY] orbs into Matching orbs, changes Badly Matching orbs into [RCV] orbs and delays all enemies for 1 턴",
         specialName: "Green Star: Bamboo Javelin-Grove",
         sailor: "Reduces Silence duration on this character by 4 턴",
@@ -10593,11 +10593,11 @@ window.details = {
             {
                 "Name": "Pinch Healing",
                 "description": [ 
-                    "Level 1: 전투 시작 시 체력이 10% 미만이면, heals for 2x this character's RCV at the end of the 턴 each time you hit a Perfect",
-                    "Level 2: 전투 시작 시 체력이 15% 미만이면, heals for 2x this character's RCV at the end of the 턴 each time you hit a Perfect",
-                    "Level 3: 전투 시작 시 체력이 20% 미만이면, heals for 2x this character's RCV at the end of the 턴 each time you hit a Perfect",
-                    "Level 4: 전투 시작 시 체력이 30% 미만이면, heals for 2x this character's RCV at the end of the 턴 each time you hit a Perfect",
-                    "Level 5: 전투 시작 시 체력이 30% 미만이면, heals for 3x this character's RCV at the end of the 턴 each time you hit a Perfect"
+                    "Level 1: 전투 시작 시 체력이 10% 미만이면, heals for 2x this character's RCV at the end of the 턴 each time you hit a PERFECT",
+                    "Level 2: 전투 시작 시 체력이 15% 미만이면, heals for 2x this character's RCV at the end of the 턴 each time you hit a PERFECT",
+                    "Level 3: 전투 시작 시 체력이 20% 미만이면, heals for 2x this character's RCV at the end of the 턴 each time you hit a PERFECT",
+                    "Level 4: 전투 시작 시 체력이 30% 미만이면, heals for 2x this character's RCV at the end of the 턴 each time you hit a PERFECT",
+                    "Level 5: 전투 시작 시 체력이 30% 미만이면, heals for 3x this character's RCV at the end of the 턴 each time you hit a PERFECT"
                 ]
             },
             {
@@ -10654,11 +10654,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [ 
-                    "Level 1: Perfect 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: Perfect 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: Perfect 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: Perfect 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: Perfect 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
+                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 5: PERFECT 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
                 ]
             },
             {
@@ -10673,19 +10673,19 @@ window.details = {
             },
         ],
     },
-    1701: {//Ivankov
-        captain: "자유 캐릭터의 공격력을 2배 증가시킨다.",
+    1701: {//Ivankov :: modified
+        captain: "자유형 캐릭터의 공격력을 2배로 만든다.",
         special: [
             {
-                "description": "모든 슬롯을 랜덤으로 변환",
+                "description": "일당의 슬롯을 랜덤으로 바꾼다",
                 "cooldown": [ 9, 4 ]
             },
             {
-                "description": "[BLOCK]슬롯을 자속성 슬롯으로 변환",
+                "description": "일당의 [BLOCK]슬롯을 속성 일치 슬롯으로 바꾼다",
                 "cooldown": [ 12, 7 ]
             },
             {
-                "description": "[BLOCK]슬롯을 포함한 불리한 슬롯을 자속성 슬롯으로 변환",
+                "description": "일당의 [불리][BLOCK] 슬롯을 속성 일치 슬롯으로 바꾼다",
                 "cooldown": [ 15, 10 ]
             }
         ],
@@ -10731,11 +10731,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [ 
-                    "Level 1: Perfect 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: Perfect 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: Perfect 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: Perfect 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: Perfect 적중 시, 30% 확률로 공격력의 7% 추가 데미지를 입힌다."
+                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
+                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 5: PERFECT 적중 시, 30% 확률로 공격력의 7% 추가 데미지를 입힌다."
                 ]
             },
             {
@@ -10754,13 +10754,13 @@ window.details = {
         captain: "INT캐릭터의 공격력이 2배 증가한다.",
         special: "2턴 동안 받는 대미지를 50% 감소시키고, 2턴 동안 독에 중독된 적에게 주는 대미지가 1.75배가 된다.",
         specialName: "초열지옥차",
-        sailor: "선장이 타격 캐릭터면 [STR][QCK][DEX][PSY][INT]슬롯도 이로운 슬롯으로 취급한다.",
+        sailor: "선장이 타격 캐릭터면 [STR][QCK][DEX][PSY][INT]슬롯도 [유리] 슬롯으로 취급한다.",
     },
     1704: {//Hannyabal
         captain: "INT캐릭터의 공격력이 2.5배 증가하고 턴 종료 시 캐릭터 회복력 2배의 체력을 회복한다.",
         special: "2턴 동안 받는 대미지를 50% 감소시키고, 2턴 동안 독에 중독된 적에게 주는 대미지가 1.75배가 된다.",
         specialName: "초열지옥차",
-        sailor: "선장이 타격 캐릭터면 [STR][QCK][DEX][PSY][INT]슬롯도 이로운 슬롯으로 취급한다.",
+        sailor: "선장이 타격 캐릭터면 [STR][QCK][DEX][PSY][INT]슬롯도 [유리] 슬롯으로 취급한다.",
         limit: [
             { "description": "체력 상승 : 20" },
             { "description": "체력 상승 : 30" },
@@ -10773,7 +10773,7 @@ window.details = {
             { "description": "공격력 상승 : 20" },
             { "description": "회복력 상승 : 20" },
             { "description": "공격력 상승 : 30" },
-            { "description": "선원효과 추가 1: 선장이 야심 캐릭터면 [RCV],[TND]도 이로운 슬롯으로 만든다. " },
+            { "description": "선원효과 추가 1: 선장이 야심 캐릭터면 [RCV],[TND]도 [유리] 슬롯으로 만든다. " },
             { "description": "체력 상승 : 200" },
             { "description": "소켓 슬롯 1개 추가" },
             { "description": "잠재능력 습득 2: Enrage" },
@@ -10782,11 +10782,11 @@ window.details = {
             {
                 "Name": "Pinch Healing",
                 "description": [ 
-                    "Level 1: 전투 시작 시 체력이 5% 미만이면, 턴 종료시 Perfect 적중 할때마다 캐릭터 회복력의 1배 만큼 체력을 회복한다.",
-                    "Level 2: 전투 시작 시 체력이 5% 미만이면, 턴 종료시 Perfect 적중 할때마다 캐릭터 회복력의 1.25배 만큼 체력을 회복한다",
-                    "Level 3: 전투 시작 시 체력이 5% 미만이면, 턴 종료시 Perfect 적중 할때마다 캐릭터 회복력의 1.5배 만큼 체력을 회복한다",
-                    "Level 4: 전투 시작 시 체력이 10% 미만이면, 턴 종료시 Perfect 적중 할때마다 캐릭터 회복력의 1.5배 만큼 체력을 회복한다",
-                    "Level 5: 전투 시작 시 체력이 20% 미만이면, 턴 종료시 Perfect 적중 할때마다 캐릭터 회복력의 1.5배 만큼 체력을 회복한다"
+                    "Level 1: 전투 시작 시 체력이 5% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 1배 만큼 체력을 회복한다.",
+                    "Level 2: 전투 시작 시 체력이 5% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 1.25배 만큼 체력을 회복한다",
+                    "Level 3: 전투 시작 시 체력이 5% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 1.5배 만큼 체력을 회복한다",
+                    "Level 4: 전투 시작 시 체력이 10% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 1.5배 만큼 체력을 회복한다",
+                    "Level 5: 전투 시작 시 체력이 20% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 1.5배 만큼 체력을 회복한다"
                 ]
             },
             {
@@ -10808,7 +10808,7 @@ window.details = {
         sailor: "캐릭터의 기본 공격력, 체력, 회복력을 +50",
     },
     1706: {//Bon Clay
-        captain: "STR캐릭터의 공격력이 2.5배 증가하고, Perfect 3회 적중 시 STR캐릭터의 공격력이 3.125배가 된다.",
+        captain: "STR캐릭터의 공격력이 2.5배 증가하고, PERFECT 3회 적중 시 STR캐릭터의 공격력이 3.125배가 된다.",
         special: "일당에 걸려있는 모든 유리한 효과를 제거한다. 필살기 발동 시 체력이 50% 이상이면 1턴 동안 공격을 받아도 쓰러지지 않는다.",
         specialName: "지옥에 남기는 말",
         sailor: "캐릭터의 기본 공격력, 체력, 회복력을 +50",
@@ -10833,11 +10833,11 @@ window.details = {
             {
                 "Name": "Pinch Healing",
                 "description": [ 
-                    "Level 1: 전투 시작 시 체력이 10% 미만이면, 턴 종료시 Perfect 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
-                    "Level 2: 전투 시작 시 체력이 15% 미만이면, 턴 종료시 Perfect 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
-                    "Level 3: 전투 시작 시 체력이 20% 미만이면, 턴 종료시 Perfect 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
-                    "Level 4: 전투 시작 시 체력이 30% 미만이면, 턴 종료시 Perfect 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
-                    "Level 5: 전투 시작 시 체력이 50% 미만이면, 턴 종료시 Perfect 적중 할때마다 캐릭터 회복력의 1배 만큼 체력을 회복한다."
+                    "Level 1: 전투 시작 시 체력이 10% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
+                    "Level 2: 전투 시작 시 체력이 15% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
+                    "Level 3: 전투 시작 시 체력이 20% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
+                    "Level 4: 전투 시작 시 체력이 30% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
+                    "Level 5: 전투 시작 시 체력이 50% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 1배 만큼 체력을 회복한다."
                 ]
             },
             {
@@ -10861,13 +10861,13 @@ window.details = {
         captain: "턴 종료 시 캐릭터 회복력 3배의 체력을 회복한다",
         special: "타격, 박식 캐릭터의 필살기 턴이 1턴 감소하고 마비 상태가 2턴 회복된다. 자속성 슬롯 이외의 슬롯을 랜덤으로 변환한다.",
         specialName: "도둑고양이의 아이컨택",
-        sailor: "[TND]슬롯도 이로운 슬롯으로 취급한다.",
+        sailor: "[TND]슬롯도 [유리] 슬롯으로 취급한다.",
     },
     1709: {//Summer Nami
         captain: "모든 캐릭터의 공격력이 1.5배 증가하고 턴 종료 시 캐릭터 회복력 4배의 체력을 회복한다",
         special: "타격, 박식 캐릭터의 필살기 턴이 1턴 감소하고 마비 상태가 2턴 회복된다. 자속성 슬롯 이외의 슬롯을 랜덤으로 변환한다.",
         specialName: "도둑고양이의 아이컨택",
-        sailor: "[TND]슬롯도 이로운 슬롯으로 취급한다.",
+        sailor: "[TND]슬롯도 [유리] 슬롯으로 취급한다.",
     },
     1710: {//Summer Robin
         captain: "박식 캐릭터의 공격력, 회복력이 1.2배 증가한다.",
@@ -10956,7 +10956,7 @@ window.details = {
         specialName: "소용돌이 치는 선회",
     },
     1719: {//Baby 5
-        captain: "[PSY]캐릭터 공격력이 2배 증가한다. 만약 슬롯 일치시 PSY캐릭터는 INT슬롯도 이로운 슬롯으로 취급한다.",
+        captain: "[PSY]캐릭터 공격력이 2배 증가한다. 만약 슬롯 일치시 PSY캐릭터는 INT슬롯도 [유리] 슬롯으로 취급한다.",
         special: "인접한 슬롯이 [G]슬롯으로 변환",
         specialName: "환영 같은 \"무기변이\"",
     },
@@ -10983,7 +10983,7 @@ window.details = {
             { "description": "소켓 슬롯 1개 추가" },
             { "description": "체력 상승 : 80" },
             { "description": "회복력 상승 : 30" },
-            { "description": "선원효과 추가 1: [STR][DEX]슬롯을 이로운 슬롯으로 취급한다." },
+            { "description": "선원효과 추가 1: [STR][DEX]슬롯을 [유리] 슬롯으로 취급한다." },
             { "description": "잠재능력 습득 2: Slot Bind Self-reduction" },
         ],
         potential: [
@@ -11031,12 +11031,12 @@ window.details = {
         specialName: "태양의 희망"
     },
     1726: {//Sabo
-        captain: "Good > Great > Perfect 순으로 적중시 자유 캐릭터의 공격력이 2.75배 증가한다.",
+        captain: "Good > Great > PERFECT 순으로 적중시 자유 캐릭터의 공격력이 2.75배 증가한다.",
         specialName: "용조권: 용의 숨결 [Neo]",
         special: "적 전체에게 무속성 랜덤 대미지를 주고 2턴 동안 캐릭터의 공격력 55배의 무속성 추가 데미지를 준다.",
     },
     1727: {//Sabo
-        captain: "Good > Great > Perfect 순으로 적중시 자유 캐릭터의 공격력이 3.5배 증가한다.",
+        captain: "Good > Great > PERFECT 순으로 적중시 자유 캐릭터의 공격력이 3.5배 증가한다.",
         specialName: "용조권: 용의 숨결 [Neo]",
         special: "적 전체에게 무속성 랜덤 대미지를 주고 2턴 동안 캐릭터의 공격력 55배의 무속성 추가 데미지를 준다.",
     },
@@ -11096,24 +11096,24 @@ window.details = {
     },
     1738: {//Raid Bellamy
         captain: "야심 캐릭터의 공격력을 2배 증가시킨다.",
-        special: "적 1기의 체력을 10% 감소하고 1턴 동안 [PSY][INT]슬롯도 이로운 슬롯으로 취급, 슬롯 영향력을 1.75배 증가시킨다. ",
+        special: "적 1기의 체력을 10% 감소하고 1턴 동안 [PSY][INT]슬롯도 [유리] 슬롯으로 취급, 슬롯 영향력을 1.75배 증가시킨다. ",
         specialName: "스프링 호퍼 - 흉탄 [Neo]",
     },
     1739: {//Raid Bellamy
         captain: "야심 캐릭터의 공격력을 2.5배 증가시킨다.",
-        special: "적 1기의 체력을 10% 감소하고 1턴 동안 [PSY][INT]슬롯도 이로운 슬롯으로 취급, 슬롯 영향력을 1.75배 증가시킨다. ",
+        special: "적 1기의 체력을 10% 감소하고 1턴 동안 [PSY][INT]슬롯도 [유리] 슬롯으로 취급, 슬롯 영향력을 1.75배 증가시킨다. ",
         specialName: "스프링 호퍼 - 흉탄 [Neo]",
     },
     1740: {//Sandersonia
         captain: "타격, 강인캐릭터의 공격력이 2배, DEX캐릭터의 체력이 1.1배 증가한다.",
         special: "모든 슬롯을 DEX슬롯으로 변환하고 2턴 동안 적 전체의 방어력을 격감, 2턴 동안 타격과 강인캐릭터의 공격력이 1.75배가 된다",
-        sailor: "[STR}슬롯도 이로운 슬롯으로 취급한다.",
+        sailor: "[STR}슬롯도 [유리] 슬롯으로 취급한다.",
         specialName: "뱀머리를 한 팔두사",
     },
     1741: {//Sandersonia
         captain: "타격, 강인캐릭터의 공격력이 2.5배, DEX캐릭터의 체력이 1.3배 증가한다.",
         special: "모든 슬롯을 DEX슬롯으로 변환하고 2턴 동안 적 전체의 방어력을 격감, 2턴 동안 타격과 강인캐릭터의 공격력이 1.75배가 된다",
-        sailor: "[STR}슬롯도 이로운 슬롯으로 취급한다.",
+        sailor: "[STR}슬롯도 [유리] 슬롯으로 취급한다.",
         specialName: "뱀머리를 한 팔두사",
         limit: [
             { "description": "공격력 상승 : 20" },
@@ -11155,16 +11155,16 @@ window.details = {
             },
         ],
     },
-    1742: {//Marigold
-        captain: "타격, 강인 캐릭터의 공격력이 2배, [STR]캐릭터의 체력이 1.1배 증가한다.",
-        special: "DEX, QCK 슬롯을 자속성 슬롯으로 변환하고 2턴 동안 방어력이 다운된 적에게 주는 대미지가 1.75배가 되며, 1턴 동안 받는 대미지가 60% 감소한다",
-        sailor: "DEX슬롯도 이로운 슬롯으로 취급한다.",
-        specialName: "뱀 머리를 한 살라맨더",
+    1742: {//Marigold :: modified
+        captain: "타격형과 강인형 캐릭터의 공격력을 2배, [STR]의 체력을 1.1배로 만든다",
+        special: "[DEX], [QCK] 슬롯을 속성 일치 슬롯으로 바꾸고, 2턴 동안 방어력 감소 중인 적에게 주는 데미지가 1.75배가 되며, 1턴 동안 받는 데미지를 60% 줄인다",
+        sailor: "DEX슬롯도 [유리] 슬롯으로 취급한다.",
+        specialName: "뱀머리칼 강림 샐러맨더",
     },
     1743: {//Marigold
         captain: "타격, 강인 캐릭터의 공격력이 2.5배, [STR]캐릭터의 체력이 1.3배 증가한다.",
         special: "DEX, QCK 슬롯을 자속성 슬롯으로 변환하고 2턴 동안 방어력이 다운된 적에게 주는 대미지가 1.75배가 되며, 1턴 동안 받는 대미지가 60% 감소한다",
-        sailor: "DEX슬롯도 이로운 슬롯으로 취급한다.",
+        sailor: "DEX슬롯도 [유리] 슬롯으로 취급한다.",
         specialName: "뱀 머리를 한 살라맨더",
         limit: [
             { "description": "공격력 상승 : 20" },
@@ -11258,13 +11258,13 @@ window.details = {
         ]
     },
     1746: {//Boa Hancock
-        captain: "앞 캐릭터의 공격 타이밍에 따라 이후의 사격형 캐릭터의 공격력이 최소 2.5배, 최대 3.25배가 되며, RCV 슬롯과 TND의 출현율이 대폭 감소하지만, 턴 종료 시 체력을 999 회복한다.",
-        special: "무작위의 적에게 고정 데미지 20,000을 6회 주고, 공격을 1턴 지연시키며, 1턴 동안 사격 캐릭터의 모든 속성슬롯을 이로운 슬롯으로 취급한다.",
+        captain: "앞 캐릭터의 공격 타이밍에 따라 이후의 사격형 캐릭터의 공격력이 최소 2.5배, 최대 3.25배가 되며, [RCV][연] 슬롯의 출현율이 대폭 감소하지만, 턴 종료 시 체력을 1000 회복한다",
+        special: "무작위의 적에게 고정 데미지 20,000을 6회 주고, 공격을 1턴 지연시키며, 2턴 동안 사격 캐릭터의 모든 속성 슬롯을 [유리] 슬롯으로 취급한다.",
         specialName: "총 키스",
     },
-    1747: {//Boa Hancock
-        captain: "앞 캐릭터의 공격 타이밍에 따라 이후의 사격형 캐릭터의 공격력이 최소 2.5배, 최대 3.25배가 되며, RCV 슬롯과 TND의 출현율이 대폭 감소하지만, 턴 종료 시 체력을 1,000 회복한다.",
-        special: "무작위의 적에게 고정 데미지 20,000을 6회 주고, 공격을 1턴 지연시키며, 2턴 동안 사격 캐릭터의 모든 속성슬롯을 이로운 슬롯으로 취급한다.",
+    1747: {//Boa Hancock :: modified
+        captain: "앞 캐릭터의 공격 타이밍에 따라 이후의 사격형 캐릭터의 공격력이 최소 2.5배, 최대 3.25배가 되며, [RCV][연] 슬롯의 출현율이 대폭 감소하지만, 턴 종료 시 체력을 1000 회복한다",
+        special: "무작위의 적에게 고정 데미지 20,000을 6회 주고, 공격을 1턴 지연시키며, 2턴 동안 사격 캐릭터의 모든 속성 슬롯을 [유리] 슬롯으로 취급한다.",
         specialName: "총 키스",
         limit: [
             { "description": "회복력 상승 : 10" },
@@ -11277,7 +11277,7 @@ window.details = {
             { "description": "회복력 상승 : 10" },
             { "description": "체력 상승 : 50" },
             { "description": "공격력 상승 : 20" },
-            { "description": "선원효과 개방 1: 선장이 자유 캐릭터라면, 이 유닛의 모든 슬롯이 이로운 슬롯으로 취급된다." },	    
+            { "description": "선원효과 개방 1: 선장이 자유 캐릭터라면, 이 유닛의 모든 슬롯이 [유리] 슬롯으로 취급된다." },	    
             { "description": "회복력 상승 : 15" },
             { "description": "체력 상승 : 50" },
             { "description": "공격력 상승 : 25" },
@@ -11352,7 +11352,7 @@ window.details = {
             { "description": "공격력 상승 : 30" },
             { "description": "체력 상승 : 30" },
             { "description": "공격력 상승 : 50" },
-            { "description": "선원효과 추가 1: [DEX]슬롯도 이로운 슬롯으로 취급한다." },
+            { "description": "선원효과 추가 1: [DEX]슬롯도 [유리] 슬롯으로 취급한다." },
             { "description": "회복력 상승 : 30" },
             { "description": "체력 상승 : 60" },
             { "description": "체력 상승 : 90" },
@@ -11363,11 +11363,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [ 
-                    "Level 1: Perfect 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: Perfect 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: Perfect 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: Perfect 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: Perfect 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
+                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 5: PERFECT 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
                 ]
             },
             {
@@ -11437,7 +11437,7 @@ window.details = {
             { "description": "체력 상승 : 70" },
             { "description": "회복력 상승 : 20" },
             { "description": "회복력 상승 : 30" },
-            { "description": "선원효과 개방 2: RCV슬롯과 TND슬롯도 이로운 슬롯으로 취급한다." },
+            { "description": "선원효과 개방 2: RCV슬롯과 TND슬롯도 [유리] 슬롯으로 취급한다." },
             { "description": "체력 상승 : 90" },
             { "description": "잠재능력 개방 3: Barrier Penetration" },
         ],
@@ -11501,25 +11501,25 @@ window.details = {
     1756: {//20th Anni Nami
         captain: "턴 종료 후 캐릭터 회복력 2배의 체력을 회복한다.",
         special: "1턴 동안 받은 데미지를 80% 감소시키고, 적의 일정 이상 데미지 격감과 공격력 증가 상태를 3턴 감소시킨다.",
-        sailor: "[DEX]슬롯도 이로운 슬롯으로 취급한다.",
+        sailor: "[DEX]슬롯도 [유리] 슬롯으로 취급한다.",
         specialName: "돌풍 소드",
     },
     1757: {//20th Anni Nami
         captain: "턴 종료 후 캐릭터 회복력 5배의 체력을 회복한다.",
         special: "1턴 동안 받은 데미지를 80% 감소시키고, 적의 일정 이상 데미지 격감과 공격력 증가 상태를 3턴 감소시킨다.",
-        sailor: "[DEX]슬롯도 이로운 슬롯으로 취급한다.",
+        sailor: "[DEX]슬롯도 [유리] 슬롯으로 취급한다.",
         specialName: "돌풍 소드",
     },
     1758: {//20th Anni Brook
         captain: "자유 캐릭터의 공격력을 2배, 체력을 1.1배 증가시킨다.",
         special: "적 전체의 공격을 1턴 지연시키고, 봉인 · 선장효과 무효와 저림 상태를 1턴 회복한다.",
-        sailor: "[RCV]슬롯도 이로운 슬롯으로 취급한다.",
+        sailor: "[RCV]슬롯도 [유리] 슬롯으로 취급한다.",
         specialName: "파티 음악: 퀸트 티어스 판타지아",
     },
     1759: {//20th Anni Brook
         ccaptain: "자유 캐릭터의 공격력을 2.5배, 체력을 1.2배 증가시킨다.",
         special: "적 전체의 공격을 1턴 지연시키고, 봉인 · 선장효과 무효와 저림 상태를 1턴 회복한다.",
-        sailor: "[RCV]슬롯도 이로운 슬롯으로 취급한다.",
+        sailor: "[RCV]슬롯도 [유리] 슬롯으로 취급한다.",
         specialName: "파티 음악: 퀸트 티어스 판타지아",
     },
     1760: {//20th Anni Chopper
@@ -11535,9 +11535,9 @@ window.details = {
         specialName: "지혜의 괴물",
     },
     1762: {//Rob Lucci
-        captain: "강인 타입 캐릭터의 공격력이 2.5배, 체력이 1.2배, 회복력이 반감되고 같은 턴에 퍼펙트를 연속으로 성공하면 같은 타입 캐릭터의 공격력이 1.1배씩 상승한다 (최대 4.026배)",
-        special: "2턴 동안 적 전체의 방어력을 격감, 적 전체에 무속성 특대 대미지를 입히고 강인 타입 캐릭터의 모든 슬롯을 자속성 슬롯으로 변환, 최대 체력의 20%의 체력을 회복한다",
-        specialName: "지건: 「화발」",
+        captain: "회복력을 50% 감소시키는 대신 강인형 캐릭터의 공격력을 2.5배, 체력을 1.2배로 만들며, 턴 내 PERFECT를 연속으로 달성할수록 강인형 캐릭터의 공격력이 1.1배씩 상승한다(최대 약 4.026배)",
+        special: "2턴 동안 적 전체의 방어력을 대폭 감소시키고, 적 전체에 무 속성 특대 데미지를 준 후, 강인형 캐릭터의 모든 슬롯을 속성 일치 슬롯으로 바꾸고, 체력을 최대 체력의 20% 회복한다",
+        specialName: "지건 「화발」",
     },
     1763: {//Rob Lucci
         captain: "강인 타입 캐릭터의 공격력이 2.5배, 체력이 1.2배, 회복력이 반감되고 같은 턴에 퍼펙트를 연속으로 성공하면 같은 타입 캐릭터의 공격력이 1.1배씩 상승한다 (최대 4.026배)",
@@ -11571,7 +11571,7 @@ window.details = {
             { "description": "체력 상승 : 70" },
             { "description": "회복력 상승 : 20" },
             { "description": "회복력 상승 : 30" },
-            { "description": "선원효과 추가 2: [RCV],[TND]도 이로운 슬롯으로 만든다." },
+            { "description": "선원효과 추가 2: [RCV],[TND]도 [유리] 슬롯으로 만든다." },
             { "description": "체력 상승 : 90" },
             { "description": "잠재능력 습득 3: Slot Bind Self-reduction" },
         ],
@@ -11579,11 +11579,11 @@ window.details = {
             {
                 "Name": "Pinch Healing",
                 "description": [ 
-                    "Level 1: 전투 시작 시 체력이 10% 미만이면, heals for 2x this character's RCV at the end of the 턴 each time you hit a Perfect",
-                    "Level 2: 전투 시작 시 체력이 15% 미만이면, heals for 2x this character's RCV at the end of the 턴 each time you hit a Perfect",
-                    "Level 3: 전투 시작 시 체력이 20% 미만이면, heals for 2x this character's RCV at the end of the 턴 each time you hit a Perfect",
-                    "Level 4: 전투 시작 시 체력이 30% 미만이면, heals for 2x this character's RCV at the end of the 턴 each time you hit a Perfect",
-                    "Level 5: 전투 시작 시 체력이 50% 미만이면, heals for 2x this character's RCV at the end of the 턴 each time you hit a Perfect"
+                    "Level 1: 전투 시작 시 체력이 10% 미만이면, heals for 2x this character's RCV at the end of the 턴 each time you hit a PERFECT",
+                    "Level 2: 전투 시작 시 체력이 15% 미만이면, heals for 2x this character's RCV at the end of the 턴 each time you hit a PERFECT",
+                    "Level 3: 전투 시작 시 체력이 20% 미만이면, heals for 2x this character's RCV at the end of the 턴 each time you hit a PERFECT",
+                    "Level 4: 전투 시작 시 체력이 30% 미만이면, heals for 2x this character's RCV at the end of the 턴 each time you hit a PERFECT",
+                    "Level 5: 전투 시작 시 체력이 50% 미만이면, heals for 2x this character's RCV at the end of the 턴 each time you hit a PERFECT"
                 ]
             },
             {
@@ -11639,7 +11639,7 @@ window.details = {
         specialName: "억제의 총구",
     },
     1770: {//Ben Beckman
-        captain: "박식 타입 캐릭터의 공격력이 2.5배, 체력이 1.2배가 되며, Good > Great > Perfect  판정 이후 같은 타입 캐릭터의 공격력이 3.25배가 된다",
+        captain: "박식 타입 캐릭터의 공격력이 2.5배, 체력이 1.2배가 되며, Good > Great > PERFECT  판정 이후 같은 타입 캐릭터의 공격력이 3.25배가 된다",
         special: "적 전체의 공격을 1턴 지연시키고 선장이 박식 타입일 경우 1턴 동안 지연 중의 적에게 주는 대미지가 1.5배가 되며, 인접 슬롯이 자속성 슬롯을 변환한다",
         specialName: "억제의 총구",
         limit: [
@@ -11663,11 +11663,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [ 
-                    "Level 1: Perfect 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: Perfect 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: Perfect 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: Perfect 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: Perfect 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
+                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 5: PERFECT 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
                 ]
             },
             {
@@ -11732,7 +11732,7 @@ window.details = {
             { "description": "체력 상승 : 40" },
             { "description": "공격력 상승 : 30" },
             { "description": "회복력 상승 : 30" },
-            { "description": "선원효과 추가 1: [DEX]슬롯도 이로운 슬롯으로 취급" },
+            { "description": "선원효과 추가 1: [DEX]슬롯도 [유리] 슬롯으로 취급" },
             { "description": "체력 상승 : 50" },
             { "description": "소켓 슬롯 1개 추가" },
             { "description": "체력 상승 : 60" },
@@ -11744,11 +11744,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [ 
-                    "Level 1: Perfect 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: Perfect 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: Perfect 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: Perfect 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: Perfect 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
+                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 5: PERFECT 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
                 ]
             },
             {
@@ -11868,11 +11868,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [ 
-                    "Level 1: 이 캐릭터가 Perfect 적중 시, 20% 확률로 캐릭터 대미지의 3%만큼 추가데미지를 입힌다.",
-                    "Level 2: 이 캐릭터가 Perfect 적중 시, 30% 확률로 캐릭터 대미지의 5%만큼 추가데미지를 입힌다.",
-                    "Level 3: 이 캐릭터가 Perfect 적중 시, 30% 확률로 캐릭터 대미지의 5%만큼 추가데미지를 입힌다.",
-                    "Level 4: 이 캐릭터가 Perfect 적중 시, 50% 확률로 캐릭터 대미지의 5%만큼 추가데미지를 입힌다.",
-                    "Level 5: 이 캐릭터가 Perfect 적중 시, 50% 확률로 캐릭터 대미지의 7%만큼 추가데미지를 입힌다."
+                    "Level 1: 이 캐릭터가 PERFECT 적중 시, 20% 확률로 캐릭터 대미지의 3%만큼 추가데미지를 입힌다.",
+                    "Level 2: 이 캐릭터가 PERFECT 적중 시, 30% 확률로 캐릭터 대미지의 5%만큼 추가데미지를 입힌다.",
+                    "Level 3: 이 캐릭터가 PERFECT 적중 시, 30% 확률로 캐릭터 대미지의 5%만큼 추가데미지를 입힌다.",
+                    "Level 4: 이 캐릭터가 PERFECT 적중 시, 50% 확률로 캐릭터 대미지의 5%만큼 추가데미지를 입힌다.",
+                    "Level 5: 이 캐릭터가 PERFECT 적중 시, 50% 확률로 캐릭터 대미지의 7%만큼 추가데미지를 입힌다."
                 ]
             },
             {
@@ -11889,12 +11889,12 @@ window.details = {
     },
     1793:{//Lucy Sabo
         captain: " 일당에 [STR][DEX][QCK]이 있을 때 [STR][DEX][QCK]은 공격력이 2.75배, 체력이 1.3배, [DEX][QCK]슬롯도 유리한 슬롯 취급, [STR]슬롯 출현률 격감, 일당에 [PSY][INT]이 없을 때는 [STR][DEX][QCK]의 공격력이 1.35배 증가 (공격력이 2.75 배가되는 효과와 중복 가능)",
-        special: "1 턴 동안 [STR][DEX][QCK]의 공격력이 1.75 배가 된다. 같은 턴에 Perfect 공격 4 회 성공으로 다음 턴에[STR][DEX][QCK]의 공격력이 2배가된다.",
+        special: "1 턴 동안 [STR][DEX][QCK]의 공격력이 1.75 배가 된다. 같은 턴에 PERFECT 공격 4 회 성공으로 다음 턴에[STR][DEX][QCK]의 공격력이 2배가된다.",
         specialName: "용의 발톱 : 파동 상쇄",
     },
     1794:{//Lucy Sabo
         captain: " 일당에 [STR][DEX][QCK]이 있을 때 [STR][DEX][QCK]은 공격력이 2.75배, 체력이 1.3배, [DEX][QCK]슬롯도 유리한 슬롯 취급, [STR]슬롯 출현률 격감, 일당에 [PSY][INT]이 없을 때는 [STR][DEX][QCK]의 공격력이 1.35배 증가 (공격력이 2.75 배가되는 효과와 중복 가능)",
-        special: "1 턴 동안 [STR][DEX][QCK]의 공격력이 1.75 배가 된다. 같은 턴에 Perfect 공격 4 회 성공으로 다음 턴에[STR][DEX][QCK]의 공격력이 2배가된다.",
+        special: "1 턴 동안 [STR][DEX][QCK]의 공격력이 1.75 배가 된다. 같은 턴에 PERFECT 공격 4 회 성공으로 다음 턴에[STR][DEX][QCK]의 공격력이 2배가된다.",
         specialName: "용의 발톱 : 파동 상쇄",
         limit: [
             { "description": "공격력 상승 : 10" },
@@ -11932,11 +11932,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [ 
-                    "Level 1: 이 캐릭터가 Perfect 적중 시, 20% 확률로 캐릭터 대미지의 3%만큼 추가데미지를 입힌다.",
-                    "Level 2: 이 캐릭터가 Perfect 적중 시, 30% 확률로 캐릭터 대미지의 5%만큼 추가데미지를 입힌다.",
-                    "Level 3: 이 캐릭터가 Perfect 적중 시, 30% 확률로 캐릭터 대미지의 5%만큼 추가데미지를 입힌다.",
-                    "Level 4: 이 캐릭터가 Perfect 적중 시, 50% 확률로 캐릭터 대미지의 5%만큼 추가데미지를 입힌다.",
-                    "Level 5: 이 캐릭터가 Perfect 적중 시, 50% 확률로 캐릭터 대미지의 10%만큼 추가데미지를 입힌다."
+                    "Level 1: 이 캐릭터가 PERFECT 적중 시, 20% 확률로 캐릭터 대미지의 3%만큼 추가데미지를 입힌다.",
+                    "Level 2: 이 캐릭터가 PERFECT 적중 시, 30% 확률로 캐릭터 대미지의 5%만큼 추가데미지를 입힌다.",
+                    "Level 3: 이 캐릭터가 PERFECT 적중 시, 30% 확률로 캐릭터 대미지의 5%만큼 추가데미지를 입힌다.",
+                    "Level 4: 이 캐릭터가 PERFECT 적중 시, 50% 확률로 캐릭터 대미지의 5%만큼 추가데미지를 입힌다.",
+                    "Level 5: 이 캐릭터가 PERFECT 적중 시, 50% 확률로 캐릭터 대미지의 10%만큼 추가데미지를 입힌다."
                 ]
             },
             {
@@ -12070,11 +12070,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [ 
-                    "Level 1: Perfect 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: Perfect 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: Perfect 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: Perfect 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: Perfect 적중 시, 40% 확률로 공격력의 7% 추가 데미지를 입힌다."
+                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
+                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 5: PERFECT 적중 시, 40% 확률로 공격력의 7% 추가 데미지를 입힌다."
                 ]
             },
             {
@@ -12250,7 +12250,7 @@ window.details = {
             { "description": "새로운 선장효과 개방: " },
             { "description": "기본 공격력 +35" },
             { "description": "기본 체력 +70" },
-            { "description": "선원효과 개방 2: [QCK]슬롯도 이로운 슬롯으로 취급" },
+            { "description": "선원효과 개방 2: [QCK]슬롯도 [유리] 슬롯으로 취급" },
             { "description": "기본 공격력 +40" },
             { "description": "기본 체력 +75" },
             { "description": "기본 회복력 +30" },
@@ -12266,11 +12266,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [ 
-                    "Level 1: 만약 이 캐릭터가 Perfect를 적중하면 10% 확률로 캐릭터 공격력의 3%의 추가 데미지를 입힌다.",
-                    "Level 2: 만약 이 캐릭터가 Perfect를 적중하면 15% 확률로 캐릭터 공격력의 5%의 추가 데미지를 입힌다.",
-                    "Level 3: 만약 이 캐릭터가 Perfect를 적중하면 20% 확률로 캐릭터 공격력의 5%의 추가 데미지를 입힌다.",
-                    "Level 4: 만약 이 캐릭터가 Perfect를 적중하면 25% 확률로 캐릭터 공격력의 5%의 추가 데미지를 입힌다.",
-                    "Level 5: 만약 이 캐릭터가 Perfect를 적중하면 50% 확률로 캐릭터 공격력의 7%의 추가 데미지를 입힌다."
+                    "Level 1: 만약 이 캐릭터가 PERFECT를 적중하면 10% 확률로 캐릭터 공격력의 3%의 추가 데미지를 입힌다.",
+                    "Level 2: 만약 이 캐릭터가 PERFECT를 적중하면 15% 확률로 캐릭터 공격력의 5%의 추가 데미지를 입힌다.",
+                    "Level 3: 만약 이 캐릭터가 PERFECT를 적중하면 20% 확률로 캐릭터 공격력의 5%의 추가 데미지를 입힌다.",
+                    "Level 4: 만약 이 캐릭터가 PERFECT를 적중하면 25% 확률로 캐릭터 공격력의 5%의 추가 데미지를 입힌다.",
+                    "Level 5: 만약 이 캐릭터가 PERFECT를 적중하면 50% 확률로 캐릭터 공격력의 7%의 추가 데미지를 입힌다."
                 ]
             },
             {
@@ -12286,14 +12286,14 @@ window.details = {
         ],
     },
     1809: {//Wanda
-        captain: "2연속 Perfect 판정을 받은 후 공격력이 2.25배로 상승한다.",
-        special: "봉쇄/저림 효과가 2턴 감소하고, 선장이 참격 캐릭터라면 1턴 동안 Perfect 적중이 쉬워진다.",
+        captain: "2연속 PERFECT 판정을 받은 후 공격력이 2.25배로 상승한다.",
+        special: "봉쇄/저림 효과가 2턴 감소하고, 선장이 참격 캐릭터라면 1턴 동안 PERFECT 적중이 쉬워진다.",
         sailor: "저림 효과가 1턴 감소한다.",
         specialName: "초특급 짐승이 다니는 길",
     },
     1810: {//Wanda
-        captain: "2연속 Perfect 판정을 받은 후 공격력이 2.25배로 상승한다.",
-        special: "봉쇄/저림 효과가 2턴 감소하고, 선장이 참격 캐릭터라면 1턴 동안 Perfect 적중이 쉬워진다.",
+        captain: "2연속 PERFECT 판정을 받은 후 공격력이 2.25배로 상승한다.",
+        special: "봉쇄/저림 효과가 2턴 감소하고, 선장이 참격 캐릭터라면 1턴 동안 PERFECT 적중이 쉬워진다.",
         sailor: "저림 효과가 1턴 감소한다.",
         specialName: "초특급 짐승이 다니는 길",
     },
@@ -12313,12 +12313,12 @@ window.details = {
         specialName: "혁명군의 분노",
     },
     1814: {//Raid Sanji
-        captain: "Perfect 이외의 공격을 할때까지 강인 타입 캐릭터의 공격력이 2.5배, 턴 종료시 체력을 300 회복한다",
+        captain: "PERFECT 이외의 공격을 할때까지 강인 타입 캐릭터의 공격력이 2.5배, 턴 종료시 체력을 300 회복한다",
         specialName: "볼살 슛",
         special: "적 1기에 공격력 150배의 무속성 대미지를 주고 1턴 동안 강입 타입 캐릭터의 공격력이 2배가 된다",
     },
     1815: {//Raid Sanji
-        captain: "Perfect 이외의 공격을 할때까지 강인 타입 캐릭터의 공격력이 2.75배, 턴 종료시 체력을 300 회복한다",
+        captain: "PERFECT 이외의 공격을 할때까지 강인 타입 캐릭터의 공격력이 2.75배, 턴 종료시 체력을 300 회복한다",
         specialName: "볼살 슛",
         special: "적 1기에 공격력 150배의 무속성 대미지를 주고 1턴 동안 강입 타입 캐릭터의 공격력이 2배가 된다",
         limit: [
@@ -12401,7 +12401,7 @@ window.details = {
             },
         ],
         specialName: "스위트 데코레이션",
-        sailor: "[RCV]슬롯도 이로운 슬롯으로 취급한다.",
+        sailor: "[RCV]슬롯도 [유리] 슬롯으로 취급한다.",
     },
     1822: {//Sanji
         captain: "모든 캐릭터의 공격력이 2배 상승하고, 턴 종료시 캐릭터 회복력의 x2배 만큼 체력을 보충한다.",
@@ -12416,10 +12416,10 @@ window.details = {
             },
         ],
         specialName: "스위트 데코레이션",
-        sailor: "[RCV]슬롯도 이로운 슬롯으로 취급한다.",
+        sailor: "[RCV]슬롯도 [유리] 슬롯으로 취급한다.",
     },
 	 1823: {//World
-        captain: "사격 캐릭터의 공격력이 2.2배 상승하고 Perfect를 연속으로 터치할수록 사격 캐릭터읙 오격력이 1.1배씩 상승한다.(최대 약 3.543배)",
+        captain: "사격 캐릭터의 공격력이 2.2배 상승하고 PERFECT를 연속으로 터치할수록 사격 캐릭터읙 오격력이 1.1배씩 상승한다.(최대 약 3.543배)",
         special: [
             {
                 "description": "적 1기에 100,000의 고정데미지, 일당에게 걸려있는 공격다운 상태 해제",
@@ -12437,7 +12437,7 @@ window.details = {
         specialName: "모아 모아: 100배 포",
     },
     1824: {//World
-        captain: "사격 캐릭터의 공격력이 2.2배 상승하고 Perfect를 연속으로 터치할수록 사격 캐릭터읙 오격력이 1.1배씩 상승한다.(최대 약 3.543배)",
+        captain: "사격 캐릭터의 공격력이 2.2배 상승하고 PERFECT를 연속으로 터치할수록 사격 캐릭터읙 오격력이 1.1배씩 상승한다.(최대 약 3.543배)",
         special: [
             {
                 "description": "적 1기에 100,000의 고정데미지, 일당에게 걸려있는 공격다운 상태 해제",
@@ -12492,46 +12492,46 @@ window.details = {
         captain: "[INT]캐릭터의 공격력이 1.75배 증가, 강인 캐릭터의 공격력이 1.2배 증가하고 회복력이 1.1배 증가한다.(효과 중복가능)",
         special: "선장이 INT 또는 PSY 캐릭터인 경우 체력을 7,000회복, 중독 제거, 마비, 선장 효과 무효, 필살기 봉인상태를 3턴 회복한다. 선장이 강인 캐릭터면 2턴간 받는 대미지를 80% 감소시킨다.",
         specialName: "위험한 회복",
-        sailor: "PSY슬롯도 이로운 슬롯으로 취급한다.",
+        sailor: "PSY슬롯도 [유리] 슬롯으로 취급한다.",
     },
     1834: {//Reiju
         captain: "[INT]캐릭터의 공격력이 2.25배 증가, 강인 캐릭터의 공격력이 1.3배 증가하고 회복력이 1.2배 증가한다.(효과 중복가능)",
         special: "선장이 INT 또는 PSY 캐릭터인 경우 체력을 7,000회복, 중독 제거, 마비, 선장 효과 무효, 필살기 봉인상태를 3턴 회복한다. 선장이 강인 캐릭터면 2턴간 받는 대미지를 80% 감소시킨다.",
         specialName: "위험한 회복",
-        sailor: "PSY슬롯도 이로운 슬롯으로 취급한다.",
+        sailor: "PSY슬롯도 [유리] 슬롯으로 취급한다.",
         limit: "한계돌파 추가예정",
     },
     1835: {//Ichiji
         captain: "[STR]캐릭터의 공격력이 1.75배 증가, 강인 캐릭터의 공격력이 1.2배 증가하고 체력이 1.2배 증가한다.(효과 중복가능)",
         special: "선장이 STR 또는 PSY 캐릭터인 경우, 2턴 동안 체인 계수를 2.5배로 고정하고 선장이 강인 캐릭터인 경우 2턴 동안 적의 공격을 지연 시킨다.",
         specialName: "마제스틱 임팩트",
-        sailor: "PSY슬롯도 이로운 슬롯으로 취급한다.",
+        sailor: "PSY슬롯도 [유리] 슬롯으로 취급한다.",
     },
     1836: {//Ichiji
         captain: "[STR]캐릭터의 공격력이 2.25배 증가, 강인 캐릭터의 공격력이 1.3배 증가하고 체력이 1.2배 증가한다.(효과 중복가능)",
         special: "선장이 STR 또는 PSY 캐릭터인 경우, 2턴 동안 체인 계수를 2.5배로 고정하고 선장이 강인 캐릭터인 경우 2턴 동안 적의 공격을 지연 시킨다.",
         specialName: "마제스틱 임팩트",
-        sailor: "PSY슬롯도 이로운 슬롯으로 취급한다.",
+        sailor: "PSY슬롯도 [유리] 슬롯으로 취급한다.",
         limit: "한계돌파 추가예정",
     },
     1837: {//Niji
         captain: "[QCK]캐릭터의 공격력이 1.75배 증가, 강인 캐릭터의 공격력이 1.2배 증가하고 체력이 1.2배 증가한다.(효과 중복가능)",
         special: "선장이 QCK 또는 PSY 캐릭터인 경우, 2턴 동안 모든 캐릭터의 공격력이 1.75배로 증가, 선장이 강인 캐릭터인 경우 1턴 동안 모든 슬롯을 고정한다.",
         specialName: "블리츠 니들",
-        sailor: "PSY슬롯도 이로운 슬롯으로 취급한다.",
+        sailor: "PSY슬롯도 [유리] 슬롯으로 취급한다.",
     },
     1838: {//Niji
         captain: "[QCK]캐릭터의 공격력이 2.25배 증가, 강인 캐릭터의 공격력이 1.3배 증가하고 체력이 1.2배 증가한다.(효과 중복가능)",
         special: "선장이 QCK 또는 PSY 캐릭터인 경우, 2턴 동안 모든 캐릭터의 공격력이 1.75배로 증가, 선장이 강인 캐릭터인 경우 1턴 동안 모든 슬롯을 고정한다.",
         specialName: "블리츠 니들",
-        sailor: "PSY슬롯도 이로운 슬롯으로 취급한다.",
+        sailor: "PSY슬롯도 [유리] 슬롯으로 취급한다.",
         limit: "한계돌파 추가예정",
     },
     1839: {//Yonji
         captain: "[DEX]캐릭터의 공격력이 1.75배 증가, 강인 캐릭터의 공격력이 1.2배 증가하고 체력이 1.2배 증가한다.(효과 중복가능)",
         special: "선장이 DEX 또는 PSY 캐릭터인 경우 1턴 동안 지연 중인 적에게 공격력 1.75배로 증가, 선장이 강인 캐릭터인 경우 2턴 동안 캐릭터 공격력 40배의 무속성 대미지를 추가한다.",
         specialName: "버스트 엔드 킥",
-        sailor: "PSY슬롯도 이로운 슬롯으로 취급한다.",
+        sailor: "PSY슬롯도 [유리] 슬롯으로 취급한다.",
     },
     1840: {//Yonji
         captain: "[DEX]캐릭터의 공격력이 2.25배 증가, 강인 캐릭터의 공격력이 1.3배 증가하고 체력이 1.2배 증가한다.(효과 중복가능)",
@@ -12802,11 +12802,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [
-                    "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
-                    "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a 20% chance to deal 5% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 30% chance to deal 9% of this character's attack in extra damage"
+                    "Level 1: If you hit a PERFECT with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 20% chance to deal 5% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 30% chance to deal 9% of this character's attack in extra damage"
                 ]
             },
             {
@@ -12924,11 +12924,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [
-                    "Level 1: If you hit a perfect with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
-                    "Level 2: If you hit a perfect with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a 70% chance to deal 6% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a 80% chance to deal 8% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 90% chance to deal 10% of this character's attack in extra damage"
+                    "Level 1: If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 70% chance to deal 6% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 90% chance to deal 10% of this character's attack in extra damage"
                 ]
             },
         ],
@@ -13036,11 +13036,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [
-                    "Level 1: If you hit a perfect with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
-                    "Level 2: If you hit a perfect with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
+                    "Level 1: If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
                 ]
             },
         ],
@@ -13093,11 +13093,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [
-                    "Level 1: If you hit a perfect with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
-                    "Level 2: If you hit a perfect with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
+                    "Level 1: If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
                 ]
             },
         ]
@@ -13149,11 +13149,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [
-                    "Level 1: If you hit a perfect with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
-                    "Level 2: If you hit a perfect with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
+                    "Level 1: If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
                 ]
             },
         ]
@@ -13296,11 +13296,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [
-                    "Level 1: If you hit a perfect with this character, there is a 20% chance to deal 3% of this character's attack in extra damage",
-                    "Level 2: If you hit a perfect with this character, there is a 30% chance to deal 3% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 50% chance to deal 10% of this character's attack in extra damage"
+                    "Level 1: If you hit a PERFECT with this character, there is a 20% chance to deal 3% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 30% chance to deal 3% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 50% chance to deal 10% of this character's attack in extra damage"
                 ]
             },
             {
@@ -13391,11 +13391,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [
-                    "Level 1: If you hit a perfect with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
-                    "Level 2: If you hit a perfect with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a 70% chance to deal 6% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a 80% chance to deal 8% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 90% chance to deal 10% of this character's attack in extra damage"
+                    "Level 1: If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 70% chance to deal 6% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 90% chance to deal 10% of this character's attack in extra damage"
                 ]
             },
         ]
@@ -13463,11 +13463,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [
-                    "Level 1: If you hit a perfect with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
-                    "Level 2: If you hit a perfect with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
+                    "Level 1: If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
                 ]
             },
             {
@@ -13997,11 +13997,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [
-                    "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
-                    "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a 20% chance to deal 5% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 40% chance to deal 7% of this character's attack in extra damage"
+                    "Level 1: If you hit a PERFECT with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 20% chance to deal 5% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 40% chance to deal 7% of this character's attack in extra damage"
                 ]
             },
             {
@@ -14434,11 +14434,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [
-                    "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
-                    "Level 2: If you hit a perfect with this character, there is a 20% chance to deal 5% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 50% chance to deal 7% of this character's attack in extra damage"
+                    "Level 1: If you hit a PERFECT with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 20% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 50% chance to deal 7% of this character's attack in extra damage"
                 ]
             },
             {
@@ -14956,11 +14956,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [
-                    "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
-                    "Level 2: If you hit a perfect with this character, there is a 20% chance to deal 5% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a 30% chance to deal 3% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 50% chance to deal 7% of this character's attack in extra damage"
+                    "Level 1: If you hit a PERFECT with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 20% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 30% chance to deal 3% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 50% chance to deal 7% of this character's attack in extra damage"
                 ]
             },
             {
@@ -15768,11 +15768,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [
-                    "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
-                    "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a 20% chance to deal 5% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 40% chance to deal 7% of this character's attack in extra damage"
+                    "Level 1: If you hit a PERFECT with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 20% chance to deal 5% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 40% chance to deal 7% of this character's attack in extra damage"
                 ]
             },
         ],
@@ -15814,11 +15814,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [
-                    "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
-                    "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a 20% chance to deal 5% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 40% chance to deal 7% of this character's attack in extra damage"
+                    "Level 1: If you hit a PERFECT with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 20% chance to deal 5% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 40% chance to deal 7% of this character's attack in extra damage"
                 ]
             },
             {
@@ -15993,11 +15993,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [
-                    "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
-                    "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a 20% chance to deal 5% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 40% chance to deal 7% of this character's attack in extra damage"
+                    "Level 1: If you hit a PERFECT with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 20% chance to deal 5% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 40% chance to deal 7% of this character's attack in extra damage"
                 ]
             },
             {
@@ -16078,11 +16078,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [
-                    "Level 1: If you hit a perfect with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
-                    "Level 2: If you hit a perfect with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a 70% chance to deal 6% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a 80% chance to deal 8% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 90% chance to deal 10% of this character's attack in extra damage"
+                    "Level 1: If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 70% chance to deal 6% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 90% chance to deal 10% of this character's attack in extra damage"
                 ]
             },
         ]
@@ -16632,11 +16632,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [
-                    "Level 1: If you hit a perfect with this character, there is a 20% chance to deal 3% of this character's attack in extra damage",
-                    "Level 2: If you hit a perfect with this character, there is a 25% chance to deal 4% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a 35% chance to deal 6% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 40% chance to deal 7% of this character's attack in extra damage"
+                    "Level 1: If you hit a PERFECT with this character, there is a 20% chance to deal 3% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 25% chance to deal 4% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 35% chance to deal 6% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 40% chance to deal 7% of this character's attack in extra damage"
                 ]
             },
             {
@@ -16698,11 +16698,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [
-                    "Level 1: If you hit a perfect with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
-                    "Level 2: If you hit a perfect with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
+                    "Level 1: If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
                 ]
             },
         ],
@@ -16912,11 +16912,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [
-                    "Level 1: If you hit a perfect with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
-                    "Level 2: If you hit a perfect with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
+                    "Level 1: If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
                 ]
             },
          ],
@@ -17182,11 +17182,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [
-                    "Level 1: If you hit a perfect with this character, there is a 30% chance to deal 2% of this character's attack in extra damage",
-                    "Level 2: If you hit a perfect with this character, there is a 40% chance to deal 3% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a 50% chance to deal 4% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a 60% chance to deal 5% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 70% chance to deal 6% of this character's attack in extra damage"
+                    "Level 1: If you hit a PERFECT with this character, there is a 30% chance to deal 2% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 40% chance to deal 3% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 50% chance to deal 4% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 60% chance to deal 5% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 70% chance to deal 6% of this character's attack in extra damage"
                 ]
             },
             {
@@ -17268,14 +17268,14 @@ window.details = {
     },
     2073: {//V4 Luffy
         captain: "<b>Always Active: </b>Boosts HP of all characters by 1.25x, boosts chances of getting [STR], [QCK], [PSY] orbs.<br><b>Gear 2 Captain: </b>Boosts ATK of all characters by 3x, slightly boosts chances of getting [RCV] orbs and makes [QCK] orbs \"beneficial\" to all characters<br><b>Gear 3 Captain: </b>Boosts ATK of all characters by 3.5x after 2 consecutive PERFECTs, boosts chances of getting [RCV] orbs and makes [STR] orbs \"beneficial\" to all characters<br><b>Gear 4 - Boundman Captain: </b>Boosts ATK of all characters by 4x, reduce damage received by 20%, boosts chances of getting [RCV] orbs and makes [STR], [QCK] and [PSY] orbs \"beneficial\" to all characters<br><b>Gear 4 - Tankman Captain: </b>Boosts own ATK by 4.25x, boosts ATK of all other characters by 4x, reduce damage received by 50% and makes [STR], [QCK] and [PSY] orbs \"beneficial\" to all characters<br><b>Action: </b>Based on how full Gear Power Gauge is, transforms Luffy. If Gear Power is above 50%, change between Gear 2 and Gear 3. If Gear Power is full, change into Gear 4 - Boundman. This can be used an unlimited amount of times per turn.",
-        captainnotes: "In order to increase Gear Power Gauge level, you must hit a PERFECT with Luffy or consume [RCV] orbs. MAX Gear Power Gauge level is 8. Hitting a perfect with Luffy and consuming a [RCV] orb increases Gauge level by 1. If Luffy gets swapped out in battle, Gear Gauge Power will go to 0. While in Gear 4, Luffy will stay in that form until Gauge Power goes to 0. Attacking with any character while in Gear 4 reduces Gear Power Gauge by 3.",
+        captainnotes: "In order to increase Gear Power Gauge level, you must hit a PERFECT with Luffy or consume [RCV] orbs. MAX Gear Power Gauge level is 8. Hitting a PERFECT with Luffy and consuming a [RCV] orb increases Gauge level by 1. If Luffy gets swapped out in battle, Gear Gauge Power will go to 0. While in Gear 4, Luffy will stay in that form until Gauge Power goes to 0. Attacking with any character while in Gear 4 reduces Gear Power Gauge by 3.",
         special: "Deals 150x character's ATK in Typeless damage to all enemies, boosts ATK of all characters by 2x for 1 turn, makes [RCV] and [TND] orbs \"beneficial\" for all characters for 3 turns. If Luffy is Captain or Friend/Guest Captain, transform into Gear 4",
         specialNotes: "If you use this special after consuming 10 [RCV] orbs since the start of the fight, transform into Tankman, otherwise transform into Boundman",
         specialName: "Gomu Gomu no Kong Organ",
     },
     2074: {//V4 Luffy
         captain: "<b>Always Active: </b>Boosts HP of all characters by 1.25x, boosts chances of getting [STR], [QCK], [PSY] orbs.<br><b>Gear 2 Captain: </b>Boosts ATK of all characters by 3x, slightly boosts chances of getting [RCV] orbs and makes [QCK] orbs \"beneficial\" to all characters<br><b>Gear 3 Captain: </b>Boosts ATK of all characters by 3.5x after 2 consecutive PERFECTs, boosts chances of getting [RCV] orbs and makes [STR] orbs \"beneficial\" to all characters<br><b>Gear 4 - Boundman Captain: </b>Boosts ATK of all characters by 4x, reduce damage received by 20%, boosts chances of getting [RCV] orbs and makes [STR], [QCK] and [PSY] orbs \"beneficial\" to all characters<br><b>Gear 4 - Tankman Captain: </b>Boosts own ATK by 4.25x, boosts ATK of all other characters by 4x, reduce damage received by 50% and makes [STR], [QCK] and [PSY] orbs \"beneficial\" to all characters<br><b>Action: </b>Based on how full Gear Power Gauge is, transforms Luffy. If Gear Power is above 50%, change between Gear 2 and Gear 3. If Gear Power is full, change into Gear 4 - Boundman. This can be used an unlimited amount of times per turn.",
-        captainnotes: "In order to increase Gear Power Gauge level, you must hit a PERFECT with Luffy or consume [RCV] orbs. MAX Gear Power Gauge level is 8. Hitting a perfect with Luffy and consuming a [RCV] orb increases Gauge level by 1. If Luffy gets swapped out in battle, Gear Gauge Power will go to 0. While in Gear 4, Luffy will stay in that form until Gauge Power goes to 0. Attacking with any character while in Gear 4 reduces Gear Power Gauge by 3.",
+        captainnotes: "In order to increase Gear Power Gauge level, you must hit a PERFECT with Luffy or consume [RCV] orbs. MAX Gear Power Gauge level is 8. Hitting a PERFECT with Luffy and consuming a [RCV] orb increases Gauge level by 1. If Luffy gets swapped out in battle, Gear Gauge Power will go to 0. While in Gear 4, Luffy will stay in that form until Gauge Power goes to 0. Attacking with any character while in Gear 4 reduces Gear Power Gauge by 3.",
         special: "Deals 150x character's ATK in Typeless damage to all enemies, boosts ATK of all characters by 2x for 1 turn, makes [RCV] and [TND] orbs \"beneficial\" for all characters for 3 turns. If Luffy is Captain or Friend/Guest Captain, transform into Gear 4",
         specialNotes: "If you use this special after consuming 10 [RCV] orbs since the start of the fight, transform into Tankman, otherwise transform into Boundman",
         specialName: "Gomu Gomu no Kong Organ",
@@ -17340,11 +17340,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [
-                    "Level 1: If you hit a perfect with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
-                    "Level 2: If you hit a perfect with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a 70% chance to deal 6% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a 80% chance to deal 8% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 90% chance to deal 10% of this character's attack in extra damage"
+                    "Level 1: If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 70% chance to deal 6% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 90% chance to deal 10% of this character's attack in extra damage"
                 ]
             },
         ]
@@ -17474,11 +17474,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [
-                    "Level 1: If you hit a perfect with this character, there is a 30% chance to deal 3% of this character's attack in extra damage",
-                    "Level 2: If you hit a perfect with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a 50% chance to deal 7% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
+                    "Level 1: If you hit a PERFECT with this character, there is a 30% chance to deal 3% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 50% chance to deal 7% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
                 ]
             },
         ]
@@ -17529,11 +17529,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [
-                    "Level 1: If you hit a perfect with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
-                    "Level 2: If you hit a perfect with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
+                    "Level 1: If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
                 ]
             },
         ],
@@ -17585,11 +17585,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [
-                    "Level 1: If you hit a perfect with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
-                    "Level 2: If you hit a perfect with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
+                    "Level 1: If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
                 ]
             },
         ]
@@ -17718,13 +17718,13 @@ window.details = {
     },
     2098: {//Tesoro
         captain: "If you have a Striker, Shooter, Fighter, Slasher, Free Spirit, Cerebral, Powerhouse and Driven character on your crew, boosts ATK of all characters by 3.75x, their HP by 1.35x and boosts chances of getting Matching orbs. Boosts ATK of all characters by 4.5 after scoring 4 GREATs in a row. Scoring a PERFECT reduces ATK boost for the next attack by 30%.",
-        captainNotes: "Scoring a Perfect will reduce the ATK boost for the next character in the chain, not for the rest of the battle.",
+        captainNotes: "Scoring a PERFECT will reduce the ATK boost for the next character in the chain, not for the rest of the battle.",
         special: "Deals 200,000 fixed damage to all enemies, changes top and bottom row orbs into matching orbs and locks the chain multiplier at 3.25x for 1 turn.",
         specialName: "Gon Inferno",
     },
     2099: {//Tesoro
         captain: "If you have a Striker, Shooter, Fighter, Slasher, Free Spirit, Cerebral, Powerhouse and Driven character on your crew, boosts ATK of all characters by 3.75x, their HP by 1.35x and boosts chances of getting Matching orbs. Boosts ATK of all characters by 4.5 after scoring 4 GREATs in a row. Scoring a PERFECT reduces ATK boost for the next attack by 30%.",
-        captainNotes: "Scoring a Perfect will reduce the ATK boost for the next character in the chain, not for the rest of the battle.",
+        captainNotes: "Scoring a PERFECT will reduce the ATK boost for the next character in the chain, not for the rest of the battle.",
         special: "Deals 200,000 fixed damage to all enemies, changes top and bottom row orbs into matching orbs and locks the chain multiplier at 3.25x for 1 turn.",
         specialName: "Gon Inferno",
         sailor: {
@@ -17789,11 +17789,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [
-                    "Level 1: If you hit a perfect with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
-                    "Level 2: If you hit a perfect with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a 60% chance to deal 6% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 80% chance to deal 8% of this character's attack in extra damage"
+                    "Level 1: If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 60% chance to deal 6% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage"
                 ]
             },
         ]
@@ -18238,11 +18238,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [
-                    "Level 1: If you hit a perfect with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
-                    "Level 2: If you hit a perfect with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a 70% chance to deal 6% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a 80% chance to deal 8% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 90% chance to deal 10% of this character's attack in extra damage"
+                    "Level 1: If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 70% chance to deal 6% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 90% chance to deal 10% of this character's attack in extra damage"
                 ]
             },
         ]
