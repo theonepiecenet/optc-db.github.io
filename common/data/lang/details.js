@@ -64,14 +64,14 @@ window.details = {
 		captain: "[DEX] 캐릭터의 공격력이 1.5배가 된다"
 	},
     6: {
-    special: "적 전체에게 캐릭터 공격력 10배의 DEX 데미지",
-		specialName: "삼천세계",
-		captain: "DEX 캐릭터의 공격력이 1.5배가 된다."
+    special: "적 전체에게 캐릭터의 공격x10배의 [DEX] 데미지",
+		specialName: "삼도류 오의 삼천세계",
+		captain: "[DEX] 캐릭터의 공격력이 1.5배가 된다."
     },
     7: {
-    special: "적 전체에게 캐릭터 공격격 10배의 DEX 데미지",
-		specialName: "108 번뇌봉",
-		captain: "DEX 캐릭터의 공격력이 1.5배가 된다."
+    special: "적 전체에 캐릭터 공격x10배의 [DEX] 데미지",
+		specialName: "삼도류 백팔번뇌봉",
+		captain: "[DEX] 캐릭터의 공격력이 1.5배가 된다."
     },
     8: {
 		special: "적 전체에게 캐릭터 공격력 15배의 DEX 데미지",
@@ -236,9 +236,9 @@ window.details = {
 		captain: "사격형 캐릭터가 주는 데미지를 30％ 감소시킨다"
 	},
 	41: {
-		special: "RCV 슬롯을 INT슬롯으로 바꾼다",
+		special: "[RCV] 슬롯을 [INT] 슬롯으로 바꾼다",
 		specialName: "오리발 작전",
-		captain: "INT 캐릭터의 회복력이 1.2배가 된다"
+		captain: "[INT] 캐릭터의 회복력이 1.2배가 된다"
 	},
 	42: {
 		special: "적 전체에 캐릭터의 공격×3배의 STR 데미지",
@@ -1589,8 +1589,8 @@ window.details = {
 		captain: "[QCK] 캐릭터의 공격력과 회복을 2배로 만든다.",
         sailor: "모든 캐릭터의 회복력을 10 상승시킨다."
     },
-    366: {
-        special: "적 전체에 공격x20배의 INT 데미지, 봉쇄 상태를 5턴 회복",
+    366: { // modified
+        special: "적 전체에 캐릭터 공격력x20배의 [INT] 데미지, 봉쇄 상태를 5턴 회복",
         specialName: "명왕의 패기",
         captain: "체인 계수 증가량 4배로 상승"
     },
@@ -3135,10 +3135,10 @@ window.details = {
         specialNotes: "#{zombie}",
         captain: "Reduces damage received by 10%, boosts ATK of all characters by 1.5x"
     },
-    668: {
-        special: "Boosts ATK of Free Spirit characters by 1.5x for 1 턴. If during that 턴 every unit scores a PERFECT hit, boosts ATK of Free Spirit characters by 2x in the following 턴.",
-        specialName: "Dragon's Claw",
-        captain: "Boosts HP and RCV of all characters by 1.2x, boosts ATK of Free Spirit characters proportionally to the crew's current HP",
+    668: { // modified
+        special: "1턴 동안 자유형 캐릭터의 공격력이 1.5배가 되고, 그 턴 내에 일당 전원이 PERFECT 공격에 성공하면 다음 턴에 자유형 캐릭터의 공격력이 2배가 된다",
+        specialName: "용의 발톱",
+        captain: "일당의 체력과 회복력을 조금 올리고, 공격 개시 전에 체력이 많을수록 자유형 캐릭터의 공격력이 상승한다",
         captainNotes: "#{captainProportional : higher : 2 + 0.75 * (remaining HP) / (total HP) : 2.75 : 2}"
     },
     669: {
@@ -3377,11 +3377,11 @@ window.details = {
         specialName: "Angel's Harp - Healing",
         captain: "Boosts RCV of all characters by 5x 전투 시작 시 체력이 30% 미만이면"
     },
-    717: {
-        special: "Deals 50% of the damage dealt in the previous 턴 as typeless damage to all enemies",
+    717: { // modified
+        special: "이전 턴에 적에게 준 일반 공격에 의한 총 데미지의 50%를 무 속성 데미지로 적 전체에게 준다(추가 데미지 등으로 적을 전멸시키고 다음 배틀로 이동할 시, 이전 턴에 일반 공격으로 준 총 데미지 합계치는 0으로 계산)",
         specialNotes: "The special only includes the damage inflicted through normal attacks.",
-        specialName: "Black Sword - Lightning Slash",
-        captain: "Boosts ATK of Slasher characters by a variable factor between 2x and 2.75x based on the timing of the attack of the previous unit in the chain",
+        specialName: "흑도·자전일섬",
+        captain: "앞 캐릭터의 공격 타이밍에 따라 이후 참격형 캐릭터의 공격이 최소 2배, 최대 2.75배가 된다",
         captainNotes: "A hit below Good or a Miss will boost the ATK of the next unit by 2x, a Good hit by 2.25x, a Great hit by 2.5x and a PERFECT hit by 2.75x. This bonus is applied only to Slasher characters."
     },
     718: {
@@ -4006,10 +4006,10 @@ window.details = {
 		specialName: "귀죽 (귀신대나무)",
 		special: "자신의 슬롯을 [INT]으로 변환하고, 1턴간 자신의 공격을 2배 상승하고, 적 1체에 캐릭터의 공격 X15배의 INT 데미지"
 	},
-	841: {
-		captain: "턴 종료시 체력을 캐릭터의 회복 X3배 회복하고, 전 전체에 캐릭터의 공격 X3배의 PSY 데미지를 준다.",
-		specialName: "눈 토끼",
-		special: "적 전체 공격을 1턴간 지연시키고, 2턴간 공격 지연중인 적에게 주는 데미지가 1.25배 증가"
+	841: { // modified
+		captain: "턴 종료 시 체력을 회복력x3배 회복하고, 전 전체에 공격력x3배의 PSY 데미지를 준다",
+		specialName: "눈토끼",
+		special: "적 전체 공격을 1턴 지연시키고, 2턴 동안 지연된 적에게 주는 데미지가 1.25배가 된다"
 	},
 	842: {
 		captain: "턴 종료시 체력을 캐릭터의 회복 X5배 회복하고, 전 전체에 캐릭터의 공격 X53배의 PSY 데미지를 준다.",
@@ -4620,15 +4620,15 @@ window.details = {
         specialName: "Fishman Karate!! Shark Fist Tile Breaker",
         special: "Makes PERFECTs harder to hit for 1 턴. Deals 20x character's ATK in [INT] damage to all enemies. Changes all Fighter Character orbs into matching",
     },
-    936: {
-        captain: "Boosts Chain Multiplier by 3x",
-        specialName: "Gum-Gum Giant Jet Shell",
-        special: "Deals 20x ATK as [QCK] damage, and makes PERFECTs easier to hit for 3 턴",
+    936: { // modified
+        captain: "체인 계수 증가량이 3배가 된다",
+        specialName: "고무고무 거인의 JET 포탄",
+        special: "적 1명에게 캐릭터의 공격력x20배의 [QCK] 데미지를 주고, 3턴 동안 PERFECT 타이밍이 매우 쉬워진다",
     },
     937: {
         captain: "Boosts Chain Multiplier by 3.5x and boosts HP by 1.25x",
-        specialName: "Gum-Gum Giant Jet Shell",
-        special: "Deals 20x ATK as [QCK] damage, and makes PERFECTs easier to hit for 3 턴",
+        specialName: "고무고무 거인의 JET 포탄",
+        special: "적 1명에게 캐릭터의 공격력x20배의 [QCK] 데미지를 주고, 3턴 동안 PERFECT 타이밍이 매우 쉬워진다",
     },
     938: {
         captain: "Reduces cooldown of all specials by 2 턴 at the start of the fight, boosts ATK of Cerebral characters by 1.5x",
@@ -5993,14 +5993,14 @@ window.details = {
         specialNotes: "랜덤 데미지 : 70,00 ~ 200,000",
         captain: "Good > Great > PERFECT 순으로 공격 이후 캐릭터의 공격력이 4배 상승한다."
     },
-    1122: {
-        captain: "STR,DEX,QCK 캐릭터의 공격력을 2.5배, 자신의 공격력을 3배로 만든다.",
-        special: "적 전체에 무 속성x15배의 큰 데미지를 주고 일당에게 걸려있는 유리한 효과를 모두 없애며, 2턴 동안 자신에게만 여러 가지 유리한 효과가 발동된다.<br>*유리한 효과 : 자기 자신 특성 슬롯 + 자기 자신 슬롯 고정, 자신 공격력 강화 2.25배, 자신 슬롯 강화 1.4배",
+    1122: { // modified
+        captain: "[STR] [DEX] [QCK] 속성 캐릭터의 공격력을 2.5배, 자신의 공격력을 4배로 만든다.",
+        special: "적 전체에 무 속성의 큰 데미지를 주고 일당에게 걸려있는 유리한 효과를 모두 없애며, 2턴 동안 자신에게만 여러 가지 유리한 효과가 발동된다",
         specialName: "휘몰아치는 롬멜의 칼바람"
     },
     1123: {
-        captain: "STR,DEX,QCK 캐릭터의 공격력을 2.5배, 자신의 공격력을 4배로 만든다.",
-        special: "적 전체에 무 속성x15배의 큰 데미지를 주고 일당에게 걸려있는 유리한 효과를 모두 없애며, 2턴 동안 자신에게만 여러 가지 유리한 효과가 발동된다.<br>*유리한 효과 : 자기 자신 특성 슬롯 + 자기 자신 슬롯 고정, 자신 공격력 강화 2.25배, 자신 슬롯 강화 1.5배",
+        captain: "[STR] [DEX] [QCK] 속성 캐릭터의 공격력을 2.5배, 자신의 공격력을 4배로 만든다.",
+        special: "적 전체에 무 속성의 큰 데미지를 주고 일당에게 걸려있는 유리한 효과를 모두 없애며, 2턴 동안 자신에게만 여러 가지 유리한 효과가 발동된다",
         specialName: "휘몰아치는 롬멜의 칼바람"
     },
     1124: {
@@ -6354,19 +6354,19 @@ window.details = {
         specialName: "Brass Knuckle Destruction",
         sailor: "If HP is above 99% at the start of the 턴, boosts ATK of [PSY] characters by 75"
     },
-    1185: {
-        captain: "Boosts ATK of Slasher and Cerebral characters by 1.75x. Gives chance of duplicating a drop upon completion of the island.",
+    1185: { // modified
+        captain: "참격형과 박식형의 공격력을 1.75배로 만들고 일정 확률로 모험에서 획득한 보물이 한 개 추가된다(보물 추가 효과는 모험 도중에 선장이 되면 발동되지 않습니다)",
         special: [
             {
-                "description": "Deals 4x character's ATK in [INT] damage to all enemies. Changes own orb into [INT].",
+                "description": "적 전체에 공격력x4배의 [INT] 데미지를 주고, 자신의 슬롯을 [INT]로 바꾼다",
                 "cooldown": [ 8, 3 ],
             },
             {
-                "description": "Deals 15x character's ATK in [INT] damage to all enemies. Changes own orb into [INT]. Reduces Special Cooldown of Slasher and Cerebral characters by 1 턴",
+                "description": "적 전체에 공격력x15배의 [INT] 데미지를 주고, 자신의 슬롯을 [INT]로 바꾸며 참격형과 박식형의 필살기 턴을 1턴 단축한다",
                 "cooldown": [ 17, 12 ],
             }
         ],
-        specialName: "Extreme Speed - One Sword Style, Ten Slashes",
+        specialName: "신속한 일검류 십자베기",
         sailor: "Restores his own special by 1 턴 when it is rewinded",
     },
     1186: {
@@ -7390,9 +7390,9 @@ window.details = {
         specialNotes: "Damage Threshold is the buff enemies gain that grealy reduces damage received over a certain amount",
         specialName: "King Cobra Machetes",
     },
-    1313: {//Akainu
-        captain: "일당의 공격력을 2.25배로 만들고, STR슬롯이 나온 캐릭터의 공격력은 1.75배 더 상승하며, STR슬롯 출현율이 상승한다.",
-        special: "적 전체에 무 속성(x125배) 초월데미지를 주고, STR슬롯 외의 다른 슬롯을 랜덤으로 바꾸며, 코스트 50이상인 캐릭터의 공격력을 2턴동안 1.75배로 만든다.",
+    1313: {//Akainu :: modified
+        captain: "일당의 공격력을 2.25배로 만들고, [STR] 슬롯이 나온 캐릭터의 공격력은 1.75배 더 상승하며, [STR] 슬롯 출현율이 상승한다",
+        special: "적 전체에 무 속성 초월 데미지를 주고, [STR] 슬롯 외의 다른 슬롯을 랜덤으로 바꾸며 코스트 50 이상인 캐릭터의 공격력을 2턴동안 1.75배로 만든다",
         specialName: "유성화산",
     },
     1314: {//Akainu
@@ -7898,26 +7898,26 @@ window.details = {
         specialNotes: "#{silence}<br>#{stages}",
         specialName: "Black Ball - Thundercloud Rod",
     },
-    1366: {//Timeskip Nami
-        captain: "Boosts RCV of Cerebral characters by 1.5x and their ATK by 2.75x if they have a matching orb, by 1.5x otherwise",
+    1366: {//Timeskip Nami :: modified
+        captain: "박식형 캐릭터의 공격력과 회복력이 1.5배가 되고, 슬롯 일치 시엔 공격력이 2.75배가 된다",
         special: [
             {
-                "description": "Reduces Paralysis and Silence duration by 1 턴. Delays all enemies for 1 턴",
+                "description": "마비, 필살기 봉쇄 상태를 1턴 회복하고 적 전체를 1턴 지연시킨다",
                 "cooldown": [ 13, 8 ],
             },
             {
-                "description": "Reduces Paralysis and Silence duration by 2 턴. Delays all enemies for 1 턴",
+                "description": "마비, 필살기 봉쇄 상태를 2턴 회복하고 적 전체를 1턴 지연시킨다",
                 "cooldown": [ 15, 10 ],
             },
             {
-                "description": "Reduces Paralysis and Silence duration by 5 턴. Delays all enemies for 2 턴",
+                "description": "마비, 필살기 봉쇄 상태를 5턴 회복하고 적 전체를 2턴 지연시킨다",
                 "cooldown": [ 18, 13 ],
             },
         ],
         sailorNotes: "#{silence}<br>#{stages}",
-        sailor: "Completely resists Silence on this character",
+        sailor: "자신은 필살기 봉쇄 상태를 완전히 회피한다",
         specialNotes: "#{silence}",
-        specialName: "Black Ball - Thundercloud Rod",
+        specialName: "뇌운 로드",
     },
     1367: {//Timeskip Sanji :: modified
         captain: "[STR] 캐릭터의 공격력이 2배가 된다",
@@ -8748,37 +8748,37 @@ window.details = {
         special: "Reduces crew's HP by 90%, deals 1x the removed HP as damage to all enemies.",
         specialName: "Deep Claw Stab",
     },
-    1472: {//Shirahoshi
-        captain: "Boosts ATK of all characters by 2.25x, but boosts her OWN attack by 1.125x, recovers 5x character's RCV in HP at the end of each 턴 and if you don't attack with her, reduces damage received by 10% for that 턴.",
+    1472: {//Shirahoshi :: modified
+        captain: "턴 종료 시에 회복력x5배의 체력을 회복하고, 자신 이외의 공격력을 2.25배, 자신의 공격력은 약간 상승, 자신이 공격하지 않았던 턴은 받는 데미지가 10% 감소한다",
         special: [
             {
-                "description": "Changes adjacent orbs, including [BLOCK] orbs, into [RAINBOW] orbs, recovers 9x character's RCV in HP.",
+                "description": "[BLOCK] 슬롯을 포함해 인정한 슬롯을 무지개 슬롯(공격력을 2배로 만드는 슬롯이며, 적과 아군 모두 무지개 슬롯을 변환 대상으로 할 수 없음)으로 바꾸며, 캐릭터의 회복력x9배의 체력을 회복한다",
                 "cooldown": [ 13, 9 ],
             },
             {
-                "description": "Changes all orbs, including [BLOCK] orbs, into [RAINBOW] orbs, recovers 100x character's RCV in HP.",
+                "description": "[BLOCK] 슬롯을 포함해 모든 슬롯을 무지개 슬롯(공격력을 2배로 만드는 슬롯이며, 적과 아군 모두 무지개 슬롯을 변환 대상으로 할 수 없음)으로 바꾸며, 캐릭터의 회복력x100배의 체력을 회복한다",
                 "cooldown": [ 22, 18 ],
             },
         ],
         specialNotes: "Rainbow orbs are the beneficial form of [BLOCK] orbs. They can not be shuffled by you or your opponent. They count as beneficial orbs to any character. They do not count as STR orbs for Sakazuki but do act like Matching orbs for Black Clad Ace or Fujitora captain abilities.<br>#{stages}",
         sailor: "Changes all orbs into [RAINBOW] orbs at the start of the fight.",
-        specialName: "Tears of Courage",
+        specialName: "울보의 용기",
     },
-    1473: {//Shirahoshi
-        captain: "Boosts ATK of all characters by 2.25x, but boosts her OWN attack by 1.125x, recovers 5x character's RCV in HP at the end of each 턴 and if you don't attack with her, reduces damage received by 10% for that 턴.",
+    1473: {//Shirahoshi :: modified
+        captain: "턴 종료 시에 회복력x5배의 체력을 회복하고, 자신 이외의 공격력을 2.25배, 자신의 공격력은 약간 상승, 자신이 공격하지 않았던 턴은 받는 데미지가 10% 감소한다",        
         special: [
             {
-                "description": "Changes adjacent orbs, including [BLOCK] orbs into [RAINBOW] orbs, recovers 9x character's RCV in HP.",
+                "description": "[BLOCK] 슬롯을 포함해 인정한 슬롯을 무지개 슬롯(공격력을 2배로 만드는 슬롯이며, 적과 아군 모두 무지개 슬롯을 변환 대상으로 할 수 없음)으로 바꾸며, 캐릭터의 회복력x9배의 체력을 회복한다",                
                 "cooldown": [ 13, 9 ],
             },
             {
-                "description": "Changes all orbs, including [BLOCK] orbs into [RAINBOW] orbs, recovers 100x character's RCV in HP.",
+                "description": "[BLOCK] 슬롯을 포함해 모든 슬롯을 무지개 슬롯(공격력을 2배로 만드는 슬롯이며, 적과 아군 모두 무지개 슬롯을 변환 대상으로 할 수 없음)으로 바꾸며, 캐릭터의 회복력x100배의 체력을 회복한다",
                 "cooldown": [ 22, 18 ],
             },
         ],
         specialNotes: "Rainbow orbs are the benefittial form of [BLOCK] orbs. They can not be shuffled or swapped by you or your opponent. They count as benefittial orbs to any character. They do not count as STR orbs for Sakazuki but do act like Matching orbs for Black Clad Ace or Fujitora captain abilities.<br>#{stages}",
-        sailor: "Changes all orbs into [RAINBOW] orbs at the start of the fight.",
-        specialName: "Tears of Courage",
+        sailor: "모험 시작 시 모든 슬롯을 무지개 슬롯으로 바꾼다(같은 효과 중복 시엔 하나만 효과 발동)",
+        specialName: "울보의 용기",
     },
     1474: {//King Neptune
         captain: "일당의 공격력을 2.25배로 만들고, 획득하는 해적 EXP가 1.4배가 된다.(획득 해적 EXP증가 효과는 뫃머 도중 선장이 된 경우에는 발휘 되지 않음)",
@@ -8931,21 +8931,21 @@ window.details = {
         special: "Changes orbs on the top row to [BOMB], reduces Bind duration by 2 턴, and reduces the defense of all enemies by 50% for one 턴.",
         specialName: "Explosion Blocking Escape",
     },
-    1492: {//6+ Sabo
-        captain: "Boosts HP and RCV of all characters by 1.2x, boosts ATK of Free Spirit characters by 2.75x",
+    1492: {//6+ Sabo :: modified
+        captain: "자유형 캐릭터의 공격력이 2.75배가 되고, 체력과 회복력이 조금 상승한다",
         captainNotes: "HP and RCV boost are not known yet, but are assumed to be for anyone and is a 1.2x boost for both in the calculator.",
         special: [
             {
-                "description": "Boosts ATK of Free Spirit characters by 1.5x for 1 턴. If during that 턴 you score 5 PERFECT hits, boosts ATK of Free Spirit characters by 2x in the following 턴.",
+                "description": "1턴 동안 자유형 캐릭터의 공격력을 1.5배, 그 턴 내에 PERFECT 공격 5번 이상 성공 시, 다음 턴의 자유형 공격력이 2배가 된다",
                 "cooldown": [ 18, 12 ],
             },
             {
-                "description": "Boosts ATK of Free Spirit characters by 1.75x for 1 턴. If during that 턴 you score 4 PERFECT hits, boosts ATK of Free Spirit characters by 2x in the following 턴.",
+                "description": "1턴 동안 자유형 캐릭터의 공격력을 1.75배, 그 턴 내에 PERFECT 공격 4번 이상 성공 시, 다음 턴의 자유형 공격력이 2배가 된다",
                 "cooldown": [ 23, 17 ],
             },
         ],
         specialNotes: "#{stages}",
-        specialName: "Reborn - Fire",
+        specialName: "되살아난 「불주먹」",
     },
     1493: {//STR Fishman Outlaw
         captain: "Boosts ATK of [STR] characters by 1.5x",
@@ -9896,10 +9896,10 @@ window.details = {
         special: "Reduces Bind, Despair, and Paralysis duration by 7 턴, delays all enemies for 1 턴, and makes PERFECTs easier to hit for 1 턴",
         specialName: "Netherworld Conqueror",
     },
-    1620: {//Log Kid
-        captain: "Boosts ATK of Strikers characters by 2.5x 전투 시작 시 체력이 30% 미만이면",
-        special: "Reduces crew's current HP by 80%, boosts ATK of Striker characters by 2x for 1 턴",
-        specialName: "Double Steel Magnetic Arm",
+    1620: {//Log Kid :: modified
+        captain: "남은 체력이 적을 때 타격형 캐릭터의 공격력을 2.5배로 만든다",
+        special: "일당의 체력이 대폭 감소하는 대신 1턴 동안 타격형 캐릭터의 공격력이 2배가 된다",
+        specialName: "강철 자성체의 양팔",
     },
     1621: {//Log Kid
         captain: "Boosts ATK of Striker characters by 3x 전투 시작 시 체력이 30% 미만이면, by 2.5x otherwise and boosts HP of Striker characters by 1.2x",
@@ -10021,16 +10021,16 @@ window.details = {
         specialName: "The Spear that Penetrated the Undersea Mountain",
     },
     1631: {//Fisher Tiger
-        captain: "Boosts ATK of Powerhouse characters by 2.25x",
-        special: "Boosts ATK of Powerhouse characters by 1.75x for 3 턴",
-        specialName: "Rebellion against the \"Prohibition\" - Taboo",
-        sailor: "When any other Powerhouse character uses a special, reduces own cooldown by 1 턴",
+        captain: "강인형 캐릭터의 공격력이 2.25배가 된다",
+        special: "3턴 동안 강인형 캐릭터의 공격력을 1.75배로 만든다",
+        specialName: "「금지 사항」에 대한 반역",
+        sailor: "자신 이외의 강인형 캐릭터가 필살기 사용 시 자신의 필살기 턴이 1턴 단축된다",
     },
-    1632: {//Fisher Tiger
-        captain: "Boosts ATK of Powerhouse characters by 2.75x",
-        special: "Boosts ATK of Powerhouse characters by 1.75x for 3 턴",
-        specialName: "Rebellion against the \"Prohibition\" - Taboo",
-        sailor: "When any other Powerhouse character uses a special, reduces own cooldown by 1 턴",
+    1632: {//Fisher Tiger :: modified
+        captain: "강인형 캐릭터의 공격력이 2.75배가 된다",
+        special: "3턴 동안 강인형 캐릭터의 공격력을 1.75배로 만든다",
+        specialName: "「금지 사항」에 대한 반역",
+        sailor: "자신 이외의 강인형 캐릭터가 필살기 사용 시 자신의 필살기 턴이 1턴 단축된다",
         limit: [
             { "description": "체력 상승 : 30" },
             { "description": "공격력 상승 : 10" },
@@ -10197,11 +10197,11 @@ window.details = {
         sailor: "Makes INT orbs \"beneficial\" for Slasher and Cerebral characters",
         specialName: "Charge Drive",
     },
-    1654: {//Pedro
-        captain: "Reduces cooldown of all specials by 2 턴 at the start of the fight, boosts ATK of [INT] characters by 2.5x",
-        special: "Reduces crew's HP to 1, deals 7x the amount of HP subtracted in typeless damage to all enemies, amplifies the effect of orbs by 1.75x for 1 턴",
-        sailor: "Makes INT orbs \"beneficial\" for Slasher and Cerebral characters",
-        specialName: "Charge Drive",
+    1654: {//Pedro :: modified
+        captain: "모험 시작 시 필살기 턴을 2턴 단축하고 [INT]의 공격력을 2.5배로 만든다",
+        special: "일당의 체력을 1까지 줄이고, 적 전체에게 감소치x7배의 무 속성 데미지를 주며, 1턴 동안 슬롯의 영향을 상당히 증폭시킨다",
+        sailor: "참격형과 박식형 캐릭터의 [INT] 슬롯을 [유리(\"beneficial\") 슬롯으로 취급한다",
+        specialName: "차지 드라이브",
     },
     1655: {//Carrot
         captain: "Boosts ATK and RCV of [QCK] characters by 1.5x",
@@ -10547,9 +10547,9 @@ window.details = {
     },
     1697: {//Magellan
         captain: "Boosts ATK of all characters by 2.25x and their HP by 1.5x if there's a [STR], [DEX], [QCK], [PSY], and [INT] character in your crew. Cuts the current HP of each enemy by 15% at the end of each 턴",
-        special: "Inflicts Toxic to all enemies, recovers 13x character's RCV in HP at the end of each 턴 for 3 턴",
+        special: "적 전체를 서서히 데미지 양이 늘어나는 독 상태로 만들고(최소 캐릭터의 공격력x50배부터 최대 2,000,000 데미지), 3턴 동안 턴 종료 시 캐릭터의 회복력x13배의 체력을 회복한다",
         specialNotes: "Toxic starts at 50x character's attack and increases by 2x at the end of every 턴 until 2,000,000 damage per 턴.",
-        specialName: "Venom Cloud",
+        specialName: "독구름",
        		limit: "한계돌파 추가예정",
     },
     1698: {//Magellan
@@ -11534,15 +11534,15 @@ window.details = {
         sailor: "자신의 필살기 봉인 상태와 필살기 턴 되감기를 2 턴 회복",
         specialName: "지혜의 괴물",
     },
-    1762: {//Rob Lucci
+    1762: {//Rob Lucci :: modified
         captain: "회복력을 50% 감소시키는 대신 강인형 캐릭터의 공격력을 2.5배, 체력을 1.2배로 만들며, 턴 내 PERFECT를 연속으로 달성할수록 강인형 캐릭터의 공격력이 1.1배씩 상승한다(최대 약 4.026배)",
         special: "2턴 동안 적 전체의 방어력을 대폭 감소시키고, 적 전체에 무 속성 특대 데미지를 준 후, 강인형 캐릭터의 모든 슬롯을 속성 일치 슬롯으로 바꾸고, 체력을 최대 체력의 20% 회복한다",
         specialName: "지건 「화발」",
     },
-    1763: {//Rob Lucci
-        captain: "강인 타입 캐릭터의 공격력이 2.5배, 체력이 1.2배, 회복력이 반감되고 같은 턴에 퍼펙트를 연속으로 성공하면 같은 타입 캐릭터의 공격력이 1.1배씩 상승한다 (최대 4.026배)",
-        special: "2턴 동안 적 전체의 방어력을 격감, 적 전체에 무속성 특대 대미지를 입히고 강인 타입 캐릭터의 모든 슬롯을 자속성 슬롯으로 변환, 최대 체력의 20%의 체력을 회복한다",
-        specialName: "지건: 「화발」",
+    1763: {//Human Beast Lucci :: modified
+        captain: "회복력을 50% 감소시키는 대신 강인형 캐릭터의 공격력을 2.5배, 체력을 1.2배로 만들며, 턴 내 PERFECT를 연속으로 달성할수록 강인형 캐릭터의 공격력이 1.1배씩 상승한다(최대 약 4.026배)",        
+        special: "2턴 동안 적 전체의 방어력을 대폭 감소시키고, 적 전체에 무 속성 특대 데미지를 준 후, 강인형 캐릭터의 모든 슬롯을 속성 일치 슬롯으로 바꾸고, 체력을 최대 체력의 20% 회복한다",
+        specialName: "지건 「화발」",
         limit: [
             { "description": "공격력 상승 : 10" },
             { "description": "공격력 상승 : 20" },
@@ -11714,9 +11714,9 @@ window.details = {
         special: "1턴 동안 받는 대미지를 50% 감소시키고 일당의 슬롯을 2회 자유 이동한다",
         specialName: "용이 머무는 아이",
     },
-    1777:{//Kizaru
-        captain: "자유 타입 캐릭터의 공격력이 2.5배가 된다",
-        special: "모든 방어 효과를 무시하고 적 1기에 캐릭터 공격력 50배의 무속성 대미지를 주며, 자유 타입 캐릭터의 [BLOCK], STR, INT슬롯을 자속성 슬롯으로 변환, 3턴 동안 체인 계수가 +0.2",
+    1777:{//Kizaru :: modified
+        captain: "자유형 캐릭터의 공격력이 2.5배가 된다",
+        special: "모든 방어 효과를 무시하고, 적 1명에게 캐릭터의 공격력x50배의 무 속성 대미지를 주며, 자유형 캐릭터의 [BLOCK] [STR] [INT] 슬롯을 속성 일치 슬롯으로 바꾸고, 3턴 동안 체인 계수가 +0.2 된다",
         specialName: "파마의 빛 화살",
     },
     1778:{//Kizaru
@@ -12490,14 +12490,14 @@ window.details = {
     },
     1833: {//Reiju
         captain: "[INT]캐릭터의 공격력이 1.75배 증가, 강인 캐릭터의 공격력이 1.2배 증가하고 회복력이 1.1배 증가한다.(효과 중복가능)",
-        special: "선장이 INT 또는 PSY 캐릭터인 경우 체력을 7,000회복, 중독 제거, 마비, 선장 효과 무효, 필살기 봉인상태를 3턴 회복한다. 선장이 강인 캐릭터면 2턴간 받는 대미지를 80% 감소시킨다.",
-        specialName: "위험한 회복",
+        special: "선장이 [INT] 혹은 [PSY] 일 때 체력을 7,000회복, 일당의 모든 독 상태를 회복하며, 마비, 선장효과 무효, 필살기 봉쇄 상태를 3턴 회복하고, 선장이 강인형일 때 2턴 동안 받는 데미지가 70% 감소한다",
+        specialName: "데인저러스 힐링",
         sailor: "PSY슬롯도 [유리] 슬롯으로 취급한다.",
     },
-    1834: {//Reiju
-        captain: "[INT]캐릭터의 공격력이 2.25배 증가, 강인 캐릭터의 공격력이 1.3배 증가하고 회복력이 1.2배 증가한다.(효과 중복가능)",
-        special: "선장이 INT 또는 PSY 캐릭터인 경우 체력을 7,000회복, 중독 제거, 마비, 선장 효과 무효, 필살기 봉인상태를 3턴 회복한다. 선장이 강인 캐릭터면 2턴간 받는 대미지를 80% 감소시킨다.",
-        specialName: "위험한 회복",
+    1834: {//Reiju :: modified
+        captain: "[INT]과강인형 캐릭터의 공격력을 각각 2.25배, 1.3배로 만들고, 강인형 캐릭터의 회복력을 1.2배로 만든다",
+        special: "선장이 [INT] 혹은 [PSY] 일 때 체력을 7,000회복, 일당의 모든 독 상태를 회복하며, 마비, 선장효과 무효, 필살기 봉쇄 상태를 3턴 회복하고, 선장이 강인형일 때 2턴 동안 받는 데미지가 70% 감소한다",
+        specialName: "데인저러스 힐링",
         sailor: "PSY슬롯도 [유리] 슬롯으로 취급한다.",
         limit: "한계돌파 추가예정",
     },
@@ -12539,9 +12539,10 @@ window.details = {
         specialName: "버스트 엔드 킥",
         limit: "한계돌파 추가예정",
     },  
-	 1847: {//Goku+
-        captain: "모험 시작 시 필살기 턴이 2턴 감소, 29코스트 이하 캐릭터의 공격력이 3.25배, 체력이 1.2배 증가하고 54코스트 캐릭터의 공격력이 3배로 증가한다.",
-        special: "적 전체에게 INT의 랜덤 대미지를 주고, 1턴 동안 공격력이 1.5배 증가한다. 29코스트 이하 캐릭터의 슬롯을 자속성 슬롯으로 변환.",
+	 1847: {//Goku+ :: modified
+        captain: "모험 시작 시 필살기 턴을 2턴 단축시키고, 코스트 29 이하 캐릭터의 공격력이 3.25배, 체력을 1.2배, 코스트 54인 캐릭터의 공격력을 3배로 만든다",
+        special: "적 전체에게 [INT]의 랜덤 대미지를 주고, 1턴 동안 일당의 공격력을 1.5배로 만들며, 코스트 29 이하 캐릭터의 슬롯을 속성 일치 슬롯으로 바꾼다",
+        specialName: "진혼의 충격파"
     },
     1848: {//Treasure Map Akainu
         captain: "[강인] 캐릭터의 공격력이 2배가 된다",
@@ -12996,14 +12997,11 @@ window.details = {
         sailor: "Adds 2x character's ATK as Additional Typeless Damage",
         sailorNotes: "#{additionalDamage : 2x}",
     },
-    1873: {//Kyros
-        captain: "Boosts ATK of Slasher and Striker characters by 2.5x and their HP by 1.25x",
-        special: "Deals 30x character's ATK in [STR] damage to one enemy, reduces Bind and Despair duration by 2 turns and boosts ATK of Slasher characters by 1.75x for 3 turns",
-        specialName: "The Forefront Reclaiming His Country",
-        sailor: {
-            "base": "Adds 2x character's ATK as Additional Typeless Damage",
-            "level1": "Boosts base ATK and HP of Slasher characters by 50",
-        },
+    1873: {//Kyros :: modified
+        captain: "참격형과 타격형의 캐릭터의 공격력을 2.5배로 만들고, 체력을 1.25배로 만든다",
+        special: "적 1명에게 캐릭터의 공격력x30배의 [STR] 데미지를 주고, 봉쇄 및 선장효과 무효 상태를 2턴 회복하고, 3턴 동안 참격형 캐릭터의 공격력을 1.75배로 만든다",
+        specialName: "선수 친 국가 탈환",
+        sailor:  "GOOD, GREAT, PERCECT 타이밍 보너스에 캐릭터의 공격력x2배의 데미지가 가산된다",
         sailorNotes: "#{additionalDamage : 2x}",
         limit: [
             { "description": "Boosts base HP by 20" },
