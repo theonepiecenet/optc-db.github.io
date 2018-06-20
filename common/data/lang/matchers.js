@@ -23,7 +23,7 @@ window.matchers = [
     {
         name: '공격력 강화',
         target: 'captain',
-        matcher: /Boosts ATK/i
+        matcher: /(Boosts ATK|공격력이)/i
     },
 
     {
