@@ -79,10 +79,10 @@ window.details = {
 		captain: "DEX 캐릭터의 공격력이 2배가 된다.",
        		limit: "한계돌파 추가예정",
     },
-    9: {
+    9: { // modified
 		special: "체력을 1000 회복한다",
 		specialName: "도둑 고양이",
-		captain: "INT 캐릭터가 주는 데미지를 20% 감소시킨다."
+		captain: "[INT] 캐릭터가 주는 데미지를 20% 감소시킨다"
     },
 	10: {
 		special: "적 1명에게 캐릭터 공격력 15배의 INT 데미지",
@@ -3384,11 +3384,11 @@ window.details = {
         captain: "앞 캐릭터의 공격 타이밍에 따라 이후 참격형 캐릭터의 공격이 최소 2배, 최대 2.75배가 된다",
         captainNotes: "A hit below Good or a Miss will boost the ATK of the next unit by 2x, a Good hit by 2.25x, a Great hit by 2.5x and a PERFECT hit by 2.75x. This bonus is applied only to Slasher characters."
     },
-    718: {
-        special: "Deals 50% of the damage dealt in the previous 턴 as typeless damage to all enemies",
+    718: { // modified
+        special: "이전 턴에 적에게 준 일반 공격에 의한 총 데미지의 50%를 무 속성 데미지로 적 전체에게 준다(추가 데미지 등으로 적을 전멸시키고 다음 배틀로 이동할 시, 이전 턴에 일반 공격으로 준 총 데미지 합계치는 0으로 계산)",
         specialNotes: "The special only includes the damage inflicted through normal attacks.",
-        specialName: "Black Sword - Lightning Slash",
-        captain: "Boosts ATK of Slasher characters by a variable factor between 2x and 2.75x based on the timing of the attack of the previous unit in the chain",
+        specialName: "흑도·자전일섬",
+        captain: "앞 캐릭터의 공격 타이밍에 따라 이후 참격형 캐릭터의 공격이 최소 2배, 최대 2.75배가 된다",
         captainNotes: "A hit below Good or a Miss will boost the ATK of the next unit by 2x, a Good hit by 2.25x, a Great hit by 2.5x and a PERFECT hit by 2.75x. This bonus is applied only to Slasher characters."
     },
     719: {
@@ -5259,10 +5259,10 @@ window.details = {
         specialName: "Hero's Gungnir",
         special: "Reduces crew's HP to 1, deals 10x the removed HP as damage to one enemy. Boosts own ATK by 2.25x for 1 턴."
     },
-    1032: {
-        captain: "Boosts ATK of Striker and Slasher characters by 1.5x and reduces cooldown of Slasher and Striker characters by 1 턴 at the start of the fight",
-        special: "Reduces Special Cooldown of Slasher and Striker specials by 1 턴. For Slasher and Striker characters, changes Badly Matching orbs into [RCV] orbs.",
-        specialName: "Surprise Pincer Attack"
+    1032: { // modified
+        captain: "모험 시작 시 타격형과 참격형의 필살 턴을 1턴 단축하고, 같은 타입의 공격력을 1.5배로 만든다",
+        special: "타격형과 참격형의 필살 턴을 1턴 단축하고, 같은 타입의 [불리] 슬롯을 [RCV]로 바꾼다",
+        specialName: "불의의 협공"
     },
     1033: {
         captain: "Boosts ATK of Striker and Slasher characters by 2.25x and reduces cooldown of Slasher and Striker characters by 2 턴 at the start of the fight",
@@ -5998,8 +5998,8 @@ window.details = {
         special: "적 전체에 무 속성의 큰 데미지를 주고 일당에게 걸려있는 유리한 효과를 모두 없애며, 2턴 동안 자신에게만 여러 가지 유리한 효과가 발동된다",
         specialName: "휘몰아치는 롬멜의 칼바람"
     },
-    1123: {
-        captain: "[STR] [DEX] [QCK] 속성 캐릭터의 공격력을 2.5배, 자신의 공격력을 4배로 만든다.",
+    1123: { // modified
+        captain: "[STR][DEX][QCK] 속성 캐릭터의 공격력을 2.5배, 자신의 공격력을 4배로 만든다",
         special: "적 전체에 무 속성의 큰 데미지를 주고 일당에게 걸려있는 유리한 효과를 모두 없애며, 2턴 동안 자신에게만 여러 가지 유리한 효과가 발동된다",
         specialName: "휘몰아치는 롬멜의 칼바람"
     },
@@ -8780,10 +8780,10 @@ window.details = {
         sailor: "모험 시작 시 모든 슬롯을 무지개 슬롯으로 바꾼다(같은 효과 중복 시엔 하나만 효과 발동)",
         specialName: "울보의 용기",
     },
-    1474: {//King Neptune
-        captain: "일당의 공격력을 2.25배로 만들고, 획득하는 해적 EXP가 1.4배가 된다.(획득 해적 EXP증가 효과는 뫃머 도중 선장이 된 경우에는 발휘 되지 않음)",
-        special: "일당의 슬롯을 1턴 고정하며, 최대 HP가 가장 높은 적의 HP가 50% 이상일 때는 적 전체의 HP를 20% 줄이고, HP가 50% 미만일 때는 적 전체에 공격력x139배의 무 속성 데미지를 준다.",
-        sailor: "PSY,INT과 TND도 [유리] 슬롯으로 취급한다..",
+    1474: {//King Neptune :: modified
+        captain: "일당의 공격력을 1.5배로 만들고, 획득하는 해적 EXP가 1.5배가 된다(획득 해적 EXP 증가 효과는 모험 도중 선장이 된 경우에는 발휘 되지 않음)",
+        special: "일당의 슬롯을 1턴 고정하여, 최대 HP가 가장 높은 적의 HP가 50% 이상일 때는 적 전체의 HP를 20% 줄이고, HP가 50% 미만일 때는 적 전체에 공격력x140배의 무 속성 데미지를 준다",
+        sailor: "PSY,INT과 TND도 [유리] 슬롯으로 취급한다",
         specialName: "머맨 컴배트 울트라 마린",
     },
     1475: {//King Neptune
@@ -9701,12 +9701,12 @@ window.details = {
         sailor: "Makes [RCV] orbs \"beneficial\" for all characters",
         specialName: "Hell Memories",
     },
-    1588: {//Legend Sanji
-        captain: "Boosts ATK of all characters by 2.5x and their HP by 1.3x <br> <b>Action:</b> Sanji Sky Walks into the air for 1 턴, preventing all debuffs to himself. This does not remove the his own Captain boost while he is unable to attack. (Including, but not limited to, Bind, Despair, and Silence) Next 턴, boosts own ATK by 6.25x instead",
+    1588: {//Legend Sanji :: modified
+        captain: " 일당의 공격력을 2.5배, 체력을 1.3배로 만든다[선장 액션:스카이 워크] 스카이 워크 발동 직후에 공격할 수 없지만, 자신을 대상으로 하는 일부 효과를 막을 수 있으며, 다음 턴에 자신의 공격력이 2.5배(일당 중에 공격하는 캐릭터가 없을 때는 발동 불가) 더 상승한다",
         captainNotes: "Multiple Sanjis can Sky Walk at the same time. Even while Sky Walking, will still boost all characters by 2.5x. Sky Walk is not a type boost, and will stack with other boosts",
-        special: "Deals 100,000 fixed damage to all enemies. Changes [BLOCK], [TND], adjacent orbs, and own orb into Matching orbs. Boosts own attack by 2x for 1 턴",
-        sailor: "Makes [RCV] orbs \"beneficial\" for all characters",
-        specialName: "Hell Memories",
+        special: "적 전체에게 고정 데미지 100,000을 주고, 일당의 [BLOCK][TND] 슬롯, 자신의 슬롯 및 자신과 인접한 슬롯을 속성 일치 슬롯으로 변환하며, 1턴 동안 자신의 공격력을 2배로 만든다",
+        sailor: "일당은 [RCV] 슬롯도 [유리](\"beneficial\") 슬롯으로 취급한다",
+        specialName: "헬 메모리즈",
     },
     1589: {//Anniversary Shanks
         captain: "Boosts Chain Multiplier by 3x",
@@ -10221,11 +10221,11 @@ window.details = {
         sailor: "선장이 타격 타입이라면, 자신의 [DEX]슬롯이 유리 슬롯 취급",
         specialName: "용오름",
     },
-    1658: {//Kanjuro
-        captain: "타격, 자유 캐릭터의 공격력이 2.5배가 된다",
-        special: "봉인과 선장효과 무효 상태를 5턴 회복하고 선장이 타격 타입이라면 1턴 동안 체인 계수가 2.75배로 고정된다.",
-        sailor: "선장이 타격 타입이라면, 자신의 [DEX]슬롯이 유리 슬롯 취급",
-        specialName: "용오름",
+    1658: {//Kanjuro :: modified
+        captain: "타격형과 자유형 캐릭터의 공격력이 2.5배가 된다",
+        special: "봉쇄·선장효과 무효 상태를 5턴 회복하고, 선장이 타격형이면 1턴 동안 체인 계수가 2.75배로 고정된다",
+        sailor: "선장이 타격형일 경우 타격형 캐릭터의 [DEX] 슬롯을 [유리] 슬롯으로 취급한다",
+        specialName: "승룡",
     },
     1659: {//Raizo
         captain: "Boosts ATK of Shooter characters by 2x",
@@ -10368,13 +10368,13 @@ window.details = {
         sailorNotes: "#{silence}",
         specialName: "Romantic Princess",
     },
-    1674: {//Swinsuit Perona
-        captain: "Boosts ATK of all characters by 2.25x and boosts EXP gained by 1.5x",
-        special: "Reduces damage received by 70% for 1 턴, reduces the defense of all enemies by 90% for 1 턴 and reduces Silence duration by 2 턴.",
+    1674: {//Swinsuit Perona :: modified
+        captain: "일당의 공격력을 2.25배로 만들고, 획득하는 해적 EXP가 1.5배가 된다(획득 해적 EXP 증가 효과는 모험 도중에 선장이 된 경우에는 발휘되지 않습니다)",
+        special: "1턴 동안 적 전체의 방어력을 초대폭 감소시키고, 1턴 동안 받는 데미지를 70% 줄이며, 일당의 필살기 봉쇄 상태를 2턴 회복한다",
         specialNotes: "#{silence}",
-        sailor: "Completely resists Silence on this character",
+        sailor: "자신은 필살기 봉쇄 상태를 완전히 회피한다",
         sailorNotes: "#{silence}",
-        specialName: "Romantic Princess",
+        specialName: "로맨티스트 프린세스",
     },
     1675: {//Kimono Zoro
         captain: "Boosts chain multiplier by 2x",
@@ -11474,11 +11474,11 @@ window.details = {
             },
         ]
     },
-    1752: {//20th Anni Zoro
-        captain: "30코스트 이하의 캐릭터의 공격력을 2.5배로 증가시킨다.",
-        special: "적 1기에게 INT의 큰 데미지를 주고, 1턴 동안 코스트 30 이하 캐릭터의 공격력이 1.75배, 자신이 선장, 친구 선장, 조력자 선장일 때, 이 턴에서 PERFECT를 4회 성공하면 다음 턴에 코스트 30 이하 캐릭터의 공격력이 2배가 된다.",
-        sailor: "참격 캐릭터의 기본 공격력을 +50",
-        specialName: "삼도류: 극 호랑이 사냥",
+    1752: {//20th Anni Zoro :: modified
+        captain: "코스트 30 이하 캐릭터의 공격력을 2.5배로 만든다",
+        special: "적 1명에게 [INT] 큰 데미지를 주고, 1턴 동안 코스트 30 이하 캐릭터의 공격력을 1.75배로 만들며, 자신이 선장 또는 친구 선장 또는 조력자 선장일 때, 필살기를 쓴 턴 내에 PERFECT 공격을 4번 이상 성공하면 다음 턴에 코스트 30 이하 캐릭터의 공격력을 2배로 만든다",
+        sailor: "참격형 캐릭터의 기본 공격력이 50 상승한다",
+        specialName: "삼검류 극 호랑이 사냥",
     },
     1753: {//20th Anni Zoro
         captain: "B코스트 30 이하의 캐릭터의 공격력을 2.5배, 체력을 1.3배, PERFECT 3회 연속 이후 일당의 공격력이 추가로 1.4배 증가한다.",
@@ -11892,10 +11892,10 @@ window.details = {
         special: "1 턴 동안 [STR][DEX][QCK]의 공격력이 1.75 배가 된다. 같은 턴에 PERFECT 공격 4 회 성공으로 다음 턴에[STR][DEX][QCK]의 공격력이 2배가된다.",
         specialName: "용의 발톱 : 파동 상쇄",
     },
-    1794:{//Lucy Sabo
-        captain: " 일당에 [STR][DEX][QCK]이 있을 때 [STR][DEX][QCK]은 공격력이 2.75배, 체력이 1.3배, [DEX][QCK]슬롯도 유리한 슬롯 취급, [STR]슬롯 출현률 격감, 일당에 [PSY][INT]이 없을 때는 [STR][DEX][QCK]의 공격력이 1.35배 증가 (공격력이 2.75 배가되는 효과와 중복 가능)",
-        special: "1 턴 동안 [STR][DEX][QCK]의 공격력이 1.75 배가 된다. 같은 턴에 PERFECT 공격 4 회 성공으로 다음 턴에[STR][DEX][QCK]의 공격력이 2배가된다.",
-        specialName: "용의 발톱 : 파동 상쇄",
+    1794:{//Lucy Sabo :: modified
+        captain: " 일당에게 [STR][DEX][QCK]이 있을 때, [STR][DEX][QCK]은 공격력이 2.75배, 체력이 1.3배, [DEX][QCK]슬롯도 유리한 슬롯 취급, [STR]슬롯 출현률 격감, 일당에 [PSY][INT]이 없을 때는 [STR][DEX][QCK]의 공격력이 1.35배 증가 (공격력이 2.75 배가되는 효과와 중복 가능)",
+        special: "1턴 동안 [STR][DEX][QCK]의 공격력이 1.75배, 그 턴 동안 PERFECT 공격 4번 이상 성공하면 다음 턴에 [STR][DEX][QCK]의 공격력이 2배가 된다",
+        specialName: "용의 발톱·파동 상쇄",
         limit: [
             { "description": "공격력 상승 : 10" },
             { "description": "체력 상승 : 30" },
@@ -14014,12 +14014,12 @@ window.details = {
             },
         ]
     },
-    1909:{//V2 Doflamingo
-        captain: "If there are 6 Driven characters in your crew, boosts ATK of Driven characters by 3.9x if they have a matching orb, by 3.25x otherwise and their HP by 1.2x. Lowers chances of getting [STR] orbs and makes [DEX] and [QCK] orbs \"beneficial\" to Driven characters",
+    1909:{//V2 Doflamingo :: modified
+        captain: "일당에 이상형 캐릭터가 6명일 때, 이상형 캐릭터의 체력을 1.2배, 평상시에 공격력을 3.25배, 슬롯 일치 시엔 공격력을 3.9배로 만들고, [DEX][QCK] 술롯도 [유리] 슬롯으로 취급하며, [STR] 슬롯 출현율을 대폭 감소시킨다",
         captainNotes: "#{beneficial}",
-        special: "Deals 200% of the damage dealt in Overkill Damage in the previous turn as typeless damage to all enemies.",
+        special: "이전 턴에 일반 공격으로 적의 HP를 초과해서 준 데미지 합계치의 2배의 무 속성 데미지를 적 전체에게 준다(추가 데미지 등으로 적을 전멸시키고 다음 배틀로 이동할 시, 일반 공격으로 적의 HP를 초과해서 준 데미지 합계치는 0으로 계산)",
         specialNotes: "Overkill Damage is damage dealt over the enemy's current HP with normal attacks that killed them. For example, dealing 2,100,000 damage to an enemy with 1,000,000 HP will count as 1,100,000 Overkill Damage. This stacks for each enemy killed in the previous turn. If the enemy dies by End-Of-Turn damage, your Overkill Damage dealt last turn will be 0.",
-        specialName: "Thousand Arrows: Flap Thread",
+        specialName: "천 발의 화살 플랩 스레드",
     },
     1910:{//V2 Doflamingo
         captain: "If there are 6 Driven characters in your crew, boosts ATK of Driven characters by 3.9x if they have a matching orb, by 3.25x otherwise and their HP by 1.2x. Lowers chances of getting [STR] orbs and makes [DEX] and [QCK] orbs \"beneficial\" to Driven characters",
