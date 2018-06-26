@@ -5083,6 +5083,7 @@ window.aliases = {
   "1084": [
     "藤虎",
     "후지토라",
+    "잇쇼",
     "Issho",
     "Legend Issho",
     "Legend Fujitora"
@@ -5090,6 +5091,7 @@ window.aliases = {
   "1085": [
     "イッショウ",
     "후지토라 해군 제독",
+    "잇쇼",
     "Fujitora",
     "Legend Issho",
     "Legend Fujitora"
