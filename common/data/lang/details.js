@@ -5916,7 +5916,51 @@ window.details = {
     1108: {
         captain: "야심 캐릭터의 공격력과 체력이 2배가 된다.",
         special: "적 전체에 캐릭터 공격력x30배 무속성 데미지를 주고, 야심 타입의 [BLOCK],[G],[BOMB] 슬롯을 각자 특성 슬롯으로 변환시켜준다. 1턴간 야심 캐릭터의 공격력이 1.75배가 된다.",
-        specialName: "사자 떨어트리기 궁궐의 회오리"
+        specialName: "사자 떨어트리기 궁궐의 회오리",
+        sailor: {
+            "base": "None",
+            "level1": "Boosts base ATK of Driven characters by 50",
+        },
+        limit: [
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Boosts base RCV by 20" },
+            { "description": "Acquire Potential 1: Enrage" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Boosts base RCV by 20" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base HP by 60" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Boosts base HP by 60" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base HP by 80" },
+            { "description": "Acquire Sailor Ability 1: Boosts base ATK of Driven characters by 50" },
+            { "description": "Acquire Potential 2: Slot Bind Self-reduction" },
+        ],
+        potential: [
+            {
+                "Name": "Enrage",
+                "description": [
+                    "Level 1: Boosts base ATK by 20",
+                    "Level 2: Boosts base ATK by 40",
+                    "Level 3: Boosts base ATK by 60",
+                    "Level 4: Boosts base ATK by 80",
+                    "Level 5: Boosts base ATK by 120"
+                ]
+            },
+            {
+                "Name": "Slot Bind Self-reduction",
+                "description": [
+                    "Level 1: Reduces Slot Bind duration by 1 turn on this character",
+                    "Level 2: Reduces Slot Bind duration by 2 turns on this character",
+                    "Level 3: Reduces Slot Bind duration by 3 turns on this character",
+                    "Level 4: Reduces Slot Bind duration by 5 turns on this character",
+                    "Level 5: Reduces Slot Bind duration by 7 turns on this character"
+                ]
+            },
+        ],
+        potentialNotes: "#{enrage}"
     },
     1109: {
         captain: "획득 베리가 1.5배가 된다.",
