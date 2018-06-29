@@ -77,7 +77,6 @@ window.details = {
 		special: "적 전체에게 캐릭터 공격력 15배의 DEX 데미지",
 		specialName: "아수라 일무은",
 		captain: "DEX 캐릭터의 공격력이 2배가 된다.",
-       		limit: "한계돌파 추가예정",
     },
     9: { // modified
 		special: "체력을 1000 회복한다",
@@ -824,7 +823,6 @@ window.details = {
 		special: "1턴간 PSY의 공격이 1.5배가 된다",
 		specialName: "우솝 해머",
 		captain: "PSY 캐릭터의 공격을 1.2배로 만든다",
-       		limit: "한계돌파 추가예정",
 	},
 	223: {
 		special: "1턴간 PSY의 공격이 2배가 된다",
@@ -1079,7 +1077,6 @@ window.details = {
 		special: "DEX, QCK 슬롯이STR 슬롯으로 바뀐다.",
 		specialName: "포켓 대망치",
 		captain: "STR 캐릭터의 공격력과 회복력이 2배가 된다",
-       		limit: "한계돌파 추가예정",
 	},
 	260: {
 		special: "적 전체의 HP를 30% 줄인다",
@@ -1090,7 +1087,6 @@ window.details = {
 		special: "적 전체의 HP를 30% 줄인다",
 		specialName: "해진",
 		captain: "체력이 얼마 남지 않게 되면, 일당의 공격력이 3배가 된다",
-       		limit: "한계돌파 추가예정",
 	},
 	262: {
 		captain: "턴 종료 후 캐릭터의 회복력 x2배의 체력을 회복 시킨다."
@@ -1281,7 +1277,6 @@ window.details = {
 		special: "적 전체의 HP를 10% 줄이고, 방어력을 반으로 줄인다 (3턴)",
 		specialName: "항마의 상",
 		captain: "일당의 회복력을 큰 폭으로 낮추고(90%감소), 받는 피해를 40% 줄인다.",
-       		limit: "한계돌파 추가예정",
 	},
 	311: {
 		special: "HP가 1이 되는 대신 적 1명에게 슈퍼 데미지 (공격력 x100)",
@@ -1304,7 +1299,6 @@ window.details = {
 		special: "타격형 캐릭터의 공격이1.5배 (1턴), 1명에게 PSY 데미지(25배) ",
 		specialName: "인과응보",
 		captain: "타격 타입 캐릭터의 공격력을 2배, 체력을 1.5배로 만든다.",
-       		limit: "한계돌파 추가예정",
 	},
 	315: {
 		special: "슬롯 [PSY],[INT] 을 [STR] 으로, [DEX],[QCK]을 [EMPTY]으로 변환",
@@ -1501,7 +1495,6 @@ window.details = {
 		specialNotes: "인게임 설명이 잘못되어있음, 이 필살기는 7배의 데미지가 아님.",
 		specialName: "강철 자성체의 팔",
 		captain: "타격 타입 캐릭터의 공격력을 2.5배로 만든다.",
-       		limit: "한계돌파 추가예정",
 	},
 	358: {
 		special: "[TND],[RCV]슬롯을 [DEX]슬롯으로 변환 적 전체에 랜덤의 [DEX]데미지.",
@@ -1678,10 +1671,10 @@ window.details = {
 		specialName: "독침",
 		captain: "받는 데미지를 10% 감소 시키고 [INT] 캐릭터의 공격력을 2배로 만든다."
 	},
-	385: {
-		special: "1턴 동안 받는 데미지를 50% 감소 시키고, 타격 타입 캐릭터의 공격력을 1.25배로 만든다.",
-		specialName: "좀비 인형 수술",
-		captain: "[INT] 캐릭터의 공격을 2배로 만든다."
+	385: { // modified
+		special: "받는 데미지 반감+격투형 캐릭터의 공격력이 1.25배가 된다 (1턴)",
+		specialName: "광기의 마리오 수술",
+		captain: "[INT] 캐릭터의 공격력이 2배가 된다"
 	},
 	386: {
 		special: "1턴 동안 받는 데미지를 50% 감소 시키고, 타격 타입 캐릭터의 공격력을 1.25배로 만든다.",
@@ -1689,16 +1682,16 @@ window.details = {
 		captain: "[INT] 캐릭터의 공격을 2배로 만든다."
 	},
 	387: {
-		special: "모든 슬롯을 [PSY] 혹은 [INT]로 변환시킨다., 모든 적에게 랜덤으로 [INT] 데미지.",
-		specialName: "사각 접시 칼",
+		special: "모든 슬롯이 [PSY][INT]로 바뀌며 적 전체에 랜덤으로 [PSY] 데미지를 준다",
+		specialName: "사각접시도",
 		specialNotes: "랜덤 데미지 1~10,000",
-		captain: "[PSY] 캐릭터의 공격력을 1.5배로 만든다."
+		captain: "[PSY] 캐릭터의 회복력이 1.5배가 된다"
 	},
 	388: {
-		special: "모든 슬롯을 [PSY] 혹은 [INT]로 변환시킨다., 모든 적에게 랜덤으로 [INT] 데미지.",
-		specialName: "사각 접시 칼",
+		special: "모든 슬롯이 [PSY][INT]로 바뀌며 적 전체에 랜덤으로 [PSY] 데미지를 준다",
+		specialName: "사각접시도",
 		specialNotes: "랜덤 데미지 1~10,000",
-		captain: "[PSY] 캐릭터의 공격력을 1.5배로 만든다."
+		captain: "[PSY] 캐릭터의 회복력이 1.5배가 된다"
 	},
 	389: {
 		special: "자신의 슬롯을 [QCK] 으로 바꾸고 다른 슬롯을 [RCV], [STR], [DEX] 또는 [QCK] 슬롯으로 변환 시킨다.",
@@ -2683,7 +2676,6 @@ window.details = {
         special: "Boosts ATK of Striker characters by 1.75x for 2 턴, locks all orbs for 2 턴",
         specialName: "Ice Block - Pheasant Beak",
         captain: "Boosts ATK and HP of Striker characters by 2x",
-       		limit: "한계돌파 추가예정",
     },
     576: {
         special: "Changes [PSY] orbs into [INT] orbs, boosts RCV of all characters by 1.5x for 1 턴",
@@ -3000,7 +2992,6 @@ window.details = {
         specialName: "Raging Greatsword",
         captain: "Boosts ATK of PSY characters by 3x 전투 시작 시 체력이 30% 미만이면",
         sailor: "Recovers 2 턴 of Paralysis on self",
-       		limit: "한계돌파 추가예정",
     },
     644: {
         special: "Reduces Bind and Despair duration by 2 턴, boosts ATK against delayed enemies by 1.2x for 3 턴",
@@ -3317,9 +3308,9 @@ window.details = {
         specialName: "Companion's Guilt"
     },
     705: {
-        special: "Randomly changes [PSY], [INT], [TND], [RCV] and [EMPTY] orbs into [STR], [DEX] or [QCK] orbs",
-        specialName: "Guilty Verdict - \"Slow Death Penalty\"",
-        captain: "Boosts ATK and HP of STR characters, DEX characters and QCK characters by 1.25x"
+        special: "[PSY][INT][TND][RCV][EMPTY] 슬롯을 [STR][DEX][QCK]으로 바꾼다",
+        specialName: "유죄판결 「절충해서 사형」",
+        captain: "[STR][DEX][QCK] 속성 캐릭터의 공격력과 체력이 1.25배가 된다"
     },
     706: {
         special: "Changes own orb and the captain's orb into [STR]",
@@ -5060,7 +5051,6 @@ window.details = {
         captain: "Boosts ATK of Driven characters by 2.25x and reduces cooldown of all specials by 2 턴 at the start of the fight",
         specialName: "Hira Release: Death Enjambre",
         special: "Delays all enemies for 2 턴, deals 50x character's ATK as typeless damage to all enemies at the end of the 턴 for 5 턴",
-       		limit: "한계돌파 추가예정",
     },
     1000: {
         captain: "Boosts ATK of all characters proportionally to the crew's current HP. Heals for 1.5x his RCV at the end of the 턴 each time you hit a Good. Heals for .5x his RCV at the end of the 턴 each time you hit a Great",
@@ -5320,7 +5310,6 @@ window.details = {
         captainNotes: "공격력 상승은 타격형 캐릭터가 1명일때 1.25배, 2명일때 1.5배, 3명일때 1.75배, 4명일때 2배, 5명일때 2.5배, 6명일때 2.75배 상승한다.",
         special: "적 1명에게 남은 체력이 적을수록 큰 무속성 데미지를 주고, 1턴 동안 공격을 받아도 쓰러지지 않는다. (쓰러지지 않는 효과는 여러 번 발동하지 않음)",
         specialName: "오마주 신권 배리어배리어 총",
-       		limit: "한계돌파 추가예정",
     },
     1036: {
         captain: "Boosts ATK of Free Spirit characters by 2x after scoring 3 PERFECTs in a row",
@@ -5640,7 +5629,6 @@ window.details = {
             },
         ],
         specialName: "Chiyupopo",
-       		limit: "한계돌파 추가예정",
     },
     1080: {
         captain: "Boosts ATK of characters with cost 20 or less by 2.5x",
@@ -6167,7 +6155,6 @@ window.details = {
         captain: "받는 데미지가 25% 감소한다.",
         special: "받는 데미지가 60% 감소하고, 1턴 동안 강인, 격투 캐릭터의 공격력이 1.3배 상승한다.",
         specialName: "철괴 : 고리야습",
-       		limit: "한계돌파 추가예정",
     },
     1139: {
         captain: "타격 캐릭터의 공격력과 회복력을 1.5배 상승시킨다.",
@@ -6451,7 +6438,6 @@ window.details = {
         special: "Reduces enemy Barrier duration by 1 턴",
         specialName: "Break Bullet",
         sailor: "Boosts base ATK of [QCK] characters by 40",
-       		limit: "한계돌파 추가예정",
     },
     1191: { // modified
         captain: "일당의 공격력을 2배, 체력을 조금 상승시키며, 전 턴에 적을 1명이라도 격파했다면 공격력 배율이 단계적으로 상승한다(최대 8단계이며, 최대 공격력 3.5배)",
@@ -6482,7 +6468,6 @@ window.details = {
         captain: "Boosts ATK of Striker characters by 2x. Recovers 5x character's RCV in HP at the end of each 턴",
         special: "Reduces crew's current HP by 60%, deals 8x the amount of HP subtracted in typeless damage to all enemies. Boosts ATK of Striker characters by 1.75x for 1 턴",
         specialName: "Split Air Hole",
-       		limit: "한계돌파 추가예정",
     },
     1197: {
         captain: "Boosts ATK of Cerebral and Powerhouse characters by 2.5x if they have a matching orb, by 1x otherwise, reduces crew's RCV to 0",
@@ -7228,7 +7213,6 @@ window.details = {
         special: "Reduces crew's current HP by 10%. Changes [BLOCK], [TND], and [RCV] orbs on Slasher and Striker characters into Matching Orbs.",
         sailor: "Boosts amount healed from [RCV] orbs by 150 each",
         specialName: "Reaping of Desperate Lives",
-       		limit: "한계돌파 추가예정",
     },
     1279: {//John Giant
         captain: "Boosts ATK and HP of Slasher characters by 1.5x",
@@ -8101,11 +8085,11 @@ window.details = {
         specialName: "Strawberry Smile",
         specialNotes: "#{silence}",
     },
-    1383: {//Soldier-San
-        captain: "Boosts ATK of Striker characters by 2x. Increases damage received by 1.5x",
-        special: "Reduces Paralysis, Bind, Despair, and Silence duration by 1 턴. Randomizes all Badly Matching, [BLOCK], or [EMPTY] orbs",
+    1383: {//Soldier-San :: modified
+        captain: "타격형 캐릭터의 공격력이 2배가 되지만, 데미지를 2배로 받는다",
+        special: "일당의 [BLOCK][불리][EMPTY] 슬롯을 랜덤으로 바꾸고, 마비·봉쇄·선장효과 무효·필살기 봉쇄 상태를 1턴 회복한다",
         specialNotes: "#{silence}",
-        specialName: "Angry Extermination of Bugs",
+        specialName: "분노의 악충 박멸",
     },
     1384: {//Soldier-San
         captain: "Boosts ATK of Striker characters by 2.5x. Increases damage received by 1.5x",
@@ -8171,7 +8155,6 @@ window.details = {
         captain: "Boosts ATK of [DEX] characters by 2.5x",
         special: "Cuts the current HP of each enemy by 10%. Reduces special cooldown of [DEX] specials by 1 턴.",
         specialName: "Ittoriyu: Unfortunate Port Bird",
-       		limit: "한계돌파 추가예정",
     },
     1389: {//Nami 5+
         captain: "Reduces cooldown of all specials by 1 턴 at the start of the fight, Boosts ATK of [INT] characters by 2x and their RCV by 1.5x.",
@@ -8416,7 +8399,6 @@ window.details = {
         captain: "Boosts ATK of Powerhouse characters by 2.5x",
         special: "Changes own orb into [INT] and reduces Special Cooldown of Powerhouse characters by 1 턴.",
         specialName: "Are you ready?",
-       		limit: "한계돌파 추가예정",
     },
     1415: {//Fortnight Sengoku
         captain: "Boosts ATK of characters with cost 30 or less by 1.5x",
@@ -9726,7 +9708,6 @@ window.details = {
         captain: "Boosts ATK of Striker characters by 3x 전투 시작 시 체력이 30% 미만이면, by 2.5x otherwise",
         special: "Locks all orbs for 1 턴. If there are 4 enemies or more on the stage, amplifies the effect of orbs for Striker characters by 2x for 1 턴, otherwise amplifies the effect of orbs for Striker characters by 1.5x for 1 턴",
         specialName: "Admiral Hug",
-       		limit: "한계돌파 추가예정",
     },
     1585: {//Coliseum Helmeppo
         captain: "Boosts ATK and RCV of Slasher and Driven characters by 1.5x",
@@ -10233,7 +10214,6 @@ window.details = {
         captain: "타격 타입 캐릭터의 체력이 1.25 배, [STR], [QCK], [DEX], [INT], [PSY] 슬롯과 [RAINBOW] 슬롯일 경우 타격 타입 캐릭터의 공격력이 3.75 배가된다.",
         special: "적 1기에게 [PSY] 속성 데미지를 주고 1턴 동안 타격 타입 캐릭터의 [STR], [QCK], [DEX], [INT], [PSY] 슬롯이 유리한 슬롯으로 취급된다.",
         specialName: "새벽의 왕의 창",
-       		limit: "한계돌파 추가예정",
     },
     1653: {//Pedro
         captain: "Boosts ATK of [INT] characters by 2x",
@@ -10594,7 +10574,6 @@ window.details = {
         special: "적 전체를 서서히 데미지 양이 늘어나는 독 상태로 만들고(최소 캐릭터의 공격력x50배부터 최대 2,000,000 데미지), 3턴 동안 턴 종료 시 캐릭터의 회복력x13배의 체력을 회복한다",
         specialNotes: "Toxic starts at 50x character's attack and increases by 2x at the end of every 턴 until 2,000,000 damage per 턴.",
         specialName: "독구름",
-       		limit: "한계돌파 추가예정",
     },
     1698: {//Magellan
         captain: "Boosts ATK of all characters by 2.25x and their HP by 1.5x if there's a [STR], [DEX], [QCK], [PSY], and [INT] character in your crew. Cuts the current HP of each enemy by 15% at the end of each 턴",
@@ -11882,7 +11861,7 @@ window.details = {
     },
     1791:{//Lucy Luffy
         captain: "Pefect 3회 연속 적중 시 [STR][DEX][QCK]의 공격력이 2.5배가 된다.",
-        special: "모든 방어 효과를 무시하고 적 1 기의 HP를 20 % 줄이고 상단 슬롯을 [STR] , 중단을 [QCK] 하단을 [DEX] 로 변환, 1 턴 동안 슬롯의 영향이 1.75배 증가",
+        special: "모든 방어 효과를 무시하고 적 1 기의 HP를 20 % 줄이고 상단 슬롯을 [STR], 중단 슬롯을 [QCK], 하단 슬롯을 [DEX]로 변환, 1 턴 동안 슬롯의 영향이 1.75배 증가",
         sailor: "선장이 [STR]이라면, 자신이 [STR] 속성에 미치는 통상 공격에 의한 데미지가 1.5배가 된다",
         specialName: "고무고무 호크 라이플",
     },
@@ -12497,7 +12476,6 @@ window.details = {
             }
         ],
         specialName: "모아 모아: 100배 포",
-        limit: "한계돌파 추가예정",
     },
 	1825: {//Akainu
         captain: "[INT] > [INT] > [INT]캐릭터가 연속 체인으로 Good 판정 이상 받으면 공격력이 2.5배 상승한다. ",
@@ -12519,7 +12497,6 @@ window.details = {
         captain: "박식, 야심 캐릭터의 공격력이 2.5배 증가한다.",
         special: "적 전체에게 공격력 45배의 무속성 데미지를 주고, 2턴 동안 박식, 야심 캐릭터의 슬롯 영향을 1.75배 증가시킨다. 적 전체를 중독시킨다.",
         spcialName: "인화성 : 미옥 가스",
-        limit: "한계돌파 추가예정",
     },
     1831: {//6* Judge :: modified
         captain: "[PSY] 슬롯 출현율이 상승하며, 받는 데미지가 15% 감소하고, 일당의 체력이 1.25배가 된다. 일당에게 모든 속성이 있을 때 일당의 공격력이 1.75배가 된다(공격력이 2.25배가 되는 효과와 중복 가능)",
@@ -12530,7 +12507,6 @@ window.details = {
         captain: "PSY슬롯 출연율이 상승하고 받는 데미지가 15% 감소한다, 모든 캐릭터의 체력이 1.25배 증가하고 만약 일당에 [STR][DEX][QCK][PSY][INT]이 모두 있다면 모든 캐릭터의 공격력이 2.25배 증가한다. 슬롯 일치 시 3.9배로 증가한다.",
         special: "봉인상태가 7턴회복, 1턴 동안 일당의 슬롯 영향 2배 증가, 선장(친구포함)의 경우 1턴 동안 [PSY]슬롯 출현확률이 약간 상승하고 [BLOCK]슬롯을 포함 모든 슬롯을 랜덤으로 변환한다.",
         specialName: "뎅기 크랙",
-        limit: "한계돌파 추가예정",
     },
     1833: {//Reiju
         captain: "[INT]캐릭터의 공격력이 1.75배 증가, 강인 캐릭터의 공격력이 1.2배 증가하고 회복력이 1.1배 증가한다.(효과 중복가능)",
@@ -12543,7 +12519,6 @@ window.details = {
         special: "선장이 [INT] 혹은 [PSY] 일 때 체력을 7,000회복, 일당의 모든 독 상태를 회복하며, 마비, 선장효과 무효, 필살기 봉쇄 상태를 3턴 회복하고, 선장이 강인형일 때 2턴 동안 받는 데미지가 70% 감소한다",
         specialName: "데인저러스 힐링",
         sailor: "PSY슬롯도 [유리] 슬롯으로 취급한다.",
-        limit: "한계돌파 추가예정",
     },
     1835: {//Ichiji
         captain: "[STR]캐릭터의 공격력이 1.75배 증가, 강인 캐릭터의 공격력이 1.2배 증가하고 체력이 1.2배 증가한다.(효과 중복가능)",
@@ -12556,7 +12531,6 @@ window.details = {
         special: "선장이 STR 또는 PSY 캐릭터인 경우, 2턴 동안 체인 계수를 2.5배로 고정하고 선장이 강인 캐릭터인 경우 2턴 동안 적의 공격을 지연 시킨다.",
         specialName: "마제스틱 임팩트",
         sailor: "PSY슬롯도 [유리] 슬롯으로 취급한다.",
-        limit: "한계돌파 추가예정",
     },
     1837: {//Niji
         captain: "[QCK]캐릭터의 공격력이 1.75배 증가, 강인 캐릭터의 공격력이 1.2배 증가하고 체력이 1.2배 증가한다.(효과 중복가능)",
@@ -12569,7 +12543,6 @@ window.details = {
         special: "선장이 QCK 또는 PSY 캐릭터인 경우, 2턴 동안 모든 캐릭터의 공격력이 1.75배로 증가, 선장이 강인 캐릭터인 경우 1턴 동안 모든 슬롯을 고정한다.",
         specialName: "블리츠 니들",
         sailor: "PSY슬롯도 [유리] 슬롯으로 취급한다.",
-        limit: "한계돌파 추가예정",
     },
     1839: {//Yonji
         captain: "[DEX]캐릭터의 공격력이 1.75배 증가, 강인 캐릭터의 공격력이 1.2배 증가하고 체력이 1.2배 증가한다.(효과 중복가능)",
@@ -12581,7 +12554,6 @@ window.details = {
         captain: "[DEX]캐릭터의 공격력이 2.25배 증가, 강인 캐릭터의 공격력이 1.3배 증가하고 체력이 1.2배 증가한다.(효과 중복가능)",
         special: "선장이 DEX 또는 PSY 캐릭터인 경우 1턴 동안 지연 중인 적에게 공격력 1.75배로 증가, 선장이 강인 캐릭터인 경우 2턴 동안 캐릭터 공격력 40배의 무속성 데미지를 추가한다.",
         specialName: "버스트 엔드 킥",
-        limit: "한계돌파 추가예정",
     },  
 	 1847: {//Goku+ :: modified
         captain: "모험 시작 시 필살기 턴을 2턴 단축시키고, 코스트 29 이하 캐릭터의 공격력이 3.25배, 체력을 1.2배, 코스트 54인 캐릭터의 공격력을 3배로 만든다",
