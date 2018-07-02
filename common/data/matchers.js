@@ -810,5 +810,10 @@ window.matchers = [
         target: 'limit',
         matcher: /Cooldown Reduction/i
     },
+    {
+        name: 'Additional Socket Slot Ability',
+        target: 'limit',
+        matcher: /Additional Socket Slot/i
+    },
 
 ];
