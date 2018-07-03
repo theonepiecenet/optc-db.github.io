@@ -4155,10 +4155,10 @@ window.details = {
 		specialName: "슬레이브 에로우",
 		special: "2턴간 체인계수를 2.5배로 고정시키고, 적 전체 공격을 1턴간 지연시킨다."
 	},
-	865: {
-		captain: "자유 타입 캐릭터의 공격과 체력이 2배가 된다.",
+	865: { // modified
+		captain: "자유형 캐릭터의 공격력과 체력이 2배가 된다",
 		specialName: "슬레이브 에로우",
-		special: "2턴간 체인계수를 2.5배로 고정시키고, 적 전체 공격을 1턴간 지연시킨다."
+		special: "2턴 동안 체인 계수가 2.5배로 고정, 적 전체의 공격을 1턴 지연시킨다"
 	},
 	866: {
 		captain: "박식 타입 캐릭터의 공격이 2배가 된다.",
@@ -5365,16 +5365,16 @@ window.details = {
             }
         ],
     },
-    1045: {
-        captain: "Boosts ATK of Slasher and Free Spirit characters by 2x at the start of the chain, by 3x after the 3rd PERFECT in a row and by 4x after the 5th PERFECT in a row.",
-        specialName: "Gamma Knife",
+    1045: { // modified
+        captain: "참격형과 자유형의 공격력을 2배로 만들고 PERFECT를 3연속, 5연속 달성 시, 이후 같은 타입의 공격력이 3배, 4배로 상승한다",
+        specialName: "감마 나이프",
         special: [
             {
-                "description": "Makes Damage and Health Cutting Specials of Slasher and Free Spirit characters bypass all defensive Buffs, deals 20x character's ATK in fixed PSY damage to one enemy.",
+                "description": "1턴 동안 참격형과 자유형의 필살기 데미지·적 HP 감소 필살기가 모든 방어 효과를 무시하고, 1명에게 [PSY] 데미지를 준다",
                 "cooldown": [ 18, 13 ]
             },
             {
-                "description": "Makes Damage and Health Cutting Specials of all characters bypass all defensive Buffs, deals 50x character's ATK in fixed PSY damage to one enemy.",
+                "description": "1턴 동안 필살기 데미지·적 HP 감소 필살기가 모든 방어 효과를 무시하고, 1명에게 [PSY] 특대 데미지를 준다",
                 "cooldown": [ 25, 20 ]
             }
         ],
@@ -7512,25 +7512,25 @@ window.details = {
         sailor: "Reduces Blindness duration by 5 턴",
         specialName: "Echoing Cry of the Soul",
     },
-    1316: {//Coby
-        captain: "Boosts ATK of all characters by 2.5x after the 2nd PERFECT in a row and by 3.5x after the 5th PERFECT in a row.",
+    1316: {//Coby :: modified
+        captain: "PERFECT 타이밍을 2연속, 5연속 성공 시에 이후 캐릭터의 공격력이 각각 2.5배, 3.5배가 된다",
         special: [
             {
-                "description": "If HP is below 3,000 when the special is activated, reduces No Healing debuff by 1 턴. Recovers 3x character's RCV in HP",
+                "description": "남은 체력이 3,000 이하인 경우, 회복 무효 상태를 1턴 줄이고, 회복력x3배의 체력을 회복한다",
                 "cooldown": [ 15, 9 ],
             },
             {
-                "description": "If HP is below 3,000 when the special is activated, reduces No Healing debuff by 3 턴. Recovers 6x character's RCV in HP",
+                "description": "남은 체력이 3,000 이하인 경우, 회복 무효 상태를 3턴 줄이고, 회복력x6배의 체력을 회복한다",
                 "cooldown": [ 20, 14 ],
             },
             {
-                "description": "If HP is below 3,000 when the special is activated, removes No Healing debuff. Recovers 13x character's RCV in HP",
+                "description": "남은 체력이 3,000 이하인 경우, 회복 무효 상태를 해제하고 회복력x13배의 체력을 회복한다",
                 "cooldown": [ 24, 18 ],
             },
         ],
         specialNotes: "No Healing debuff completely stops healing abilities. This is the debuff used in Akainu raid<br>#{stages}",
-        sailor: "Reduces Blindness duration by 5 턴",
-        specialName: "Echoing Cry of the Soul",
+        sailor: "의성어 은폐 상태를 5턴 회복한다",
+        specialName: "메아리치는 영혼의 외침",
     },
     1317: {//Garp :: modified
         captain: "[STR] 캐릭터와 [PSY] 캐릭터의 공격력이 2배가 된다",
@@ -7749,10 +7749,10 @@ window.details = {
         special: "타격, 자유 캐릭터의 STR,QCK,DEX,PSY,INT을 자신의 속성 슬롯으로 만들고, 그 외 [RCV],[TND], [EMPTY], [G], [BOMB] 슬롯은 불리한 속성 슬롯으로 변환한다.",
         specialName: "가부키의 필치",
     },
-    1338: {//Kanjuro
-        captain: "타격, 자유 캐릭터의 공격력이 2.25배가 되고 받는 데미지가 10% 감소한다.",
-        special: "타격, 자유 캐릭터의 STR,QCK,DEX,PSY,INT을 자신의 속성 슬롯으로 만들고, 그 외 [RCV],[TND], [EMPTY], [G], [BOMB] 슬롯은 불리한 속성 슬롯으로 변환한다.",
-        specialName: "가부키의 필치",
+    1338: {//Kanjuro :: modified
+        captain: "타격형과 자유형의 공격력을 2.25배로 만들고, 받는 데미지를 10% 감소시킨다",
+        special: "타격형과 자유형의 모든 속성 슬롯을 속성 일치 슬롯으로, 다른 슬롯을 [불리] 슬롯으로 바꾼다",
+        specialName: "가부키 사무라이의 필치",
     },
     1339: {//Chopper Jump Point
         captain: "Boosts ATK of [DEX] characters by 2.25x",
@@ -7898,12 +7898,12 @@ window.details = {
         sailor: "[PSY] 캐릭터의 기본 체력이 100 상승한다",
         specialName: "프랑키~~ 파이어볼",
     },
-    1364: {//Timeskip Franky
-        captain: "Boosts ATK of [PSY] characters by 2.5x, reduces damage received by 10%",
-        special: "Deals 25x character's ATK in [PSY] damage to all enemies, amplifies the effect of orbs for [PSY] characters by 2x for 1 턴",
+    1364: {//Timeskip Franky :: modified
+        captain: "[PSY] 캐릭터의 공격력이 2.5배가 되고, 받는 데미지를 10% 줄인다",
+        special: "적 전체에게 공격력x25배의 [PSY] 데미지를 주고, 1턴 동안 [PSY] 캐릭터의 슬롯의 영향이 2배가 된다",
         specialNotes: "#{orb : 2x}",
-        sailor: "Boosts base HP of [PSY] characters by 100",
-        specialName: "Franky Fireball",
+        sailor: "[PSY] 캐릭터의 기본 체력이 100 상승한다",
+        specialName: "프랑키~~ 파이어볼",
     },
     1365: {//Timeskip Nami
         captain: "Boosts ATK and RCV of Cerebral characters by 1.5x",
@@ -8483,10 +8483,10 @@ window.details = {
         special: "Reduces Bind, Despair, and Paralysis duration by 3 턴 and recovers 2000 HP at the end of each 턴 for 3 턴",
         specialName: "Boy's Unknown Taste of Hard Work",
     },
-    1431: {//Raid Franky
-        captain: "Boosts ATK of all characters by 2x if there's a [STR], [DEX], [QCK], [PSY], and [INT] character in your crew, and boosts their HP by 1.2x if there's a Fighter, Slasher, Shooter, Driven, Free Spirit, and Powerhouse character in your crew",
-        special: "Deals 100x character's ATK in typeless damage to all enemies, remove enemies' ATK Up, Enrage, End of 턴 Damage/Percent Cut, and End of 턴 Heal Buffs, and boosts ATK of all characters by 1.5x for 1 턴",
-        specialName: "General Cannon",
+    1431: {//Raid Franky :: modified
+        captain: "일당에 5속성 캐릭터가 모두 있으면 일당의 공격력이 2.5배가 되고, 일당에 격투형, 참격형, 사격형, 야심형, 자유형, 강인형이 모두 있으면 일당의 체력이 1.5배가 된다",
+        special: "적 전체에게 무 속성 슈퍼 데미지를 주고, 적에게 걸려 있는 ATK Up, Enrage, End of turn Damage/Percent Cut, and End of turn Heal Buffs을(를) 완전히 해제, 1턴 동안 일당의 공격력이 1.5배가 된다",
+        specialName: "장군포",
     },
     1432: {//Raid Franky
         captain: "Boosts ATK of all characters by 2.5x if there's a [STR], [DEX], [QCK], [PSY], and [INT] character in your crew, and boosts their HP by 1.5x if there's a Fighter, Slasher, Shooter, Driven, Free Spirit, and Powerhouse character in your crew",
@@ -9589,10 +9589,10 @@ window.details = {
         special: "Recovers 13x character's RCV in HP, amplifies the effect of orbs by 1.5x for 3 턴",
         specialName: "The Princess' Principle",
     },
-    1569: {//Anniversary Law
-        captain: "Boosts ATK of all characters by 2.25x and boosts EXP and amount of Beli recieved by 1.2x",
-        special: "Randomizes all non-matching orbs, including [BLOCK] orbs and switches orbs between slots three times",
-        specialName: "ROOM Shambles・Junction",
+    1569: {//Anniversary Law :: modified
+        captain: "일당의 공격력을 2.25배로 만들고, 획득하는 베리와 해적의 EXP가 1.2배가 된다(획득하는 베리와 해적 EXP의 증가 효과는 모험 도중에 선장이 되었을 때는 발동되지 않습니다)",
+        special: "속성 일치 슬롯 이외의 슬롯을 랜덤으로 바꾸고([BLOCK]도 변환 가능) 슬롯을 3번 자유롭게 움직인다",
+        specialName: "ROOM 샘블즈·정크션",
     },
     1570: {//Inuarashi
         captain: "전투 시작 시 체력이 30% 미만이면 박식 캐릭터의 공격력이 2.75배, 체인 계수가 1.5배가 되고, 박식 캐릭터의 공격력이 2.5배가 된다.",
@@ -9774,11 +9774,11 @@ window.details = {
         specialNotes: "#{ignoreBarrier}",
         specialName: "Gravity Blade: Fierce Tiger",
     },
-    1595: {//Fujitora
-        captain: "Boosts ATK of Powerhouse characters by 2.25x, and their HP by 1.2x, cuts the current HP of each enemy by 10% at the end of each 턴",
-        special: "Deals 50x character's ATK in [PSY] damage to all enemies that will ignore damage negating abilities and barriers, changes adjacent orbs into Matching Orbs, amplifies the effect of orbs for Powerhouse characters by 2x for 1 턴",
+    1595: {//Fujitora :: modified
+        captain: "강인형 캐릭터의 공격력을 2.25배, 체력을 1.2배로 만들고, 턴 종료 시 적 전체의 HP를 10% 감소시킨다",
+        special: "적 전체에 모든 방어 효과를 무시하고 공격력x50배의 [PSY] 데미지를 주며, 인접한 슬롯을 속성 일치 슬롯으로 바꾸고, 1턴 동안 강인형 캐릭터의 슬롯의 영향을 2배로 증폭시킨다",
         specialNotes: "#{ignoreBarrier}",
-        specialName: "Gravity Blade: Fierce Tiger",
+        specialName: "중력도 맹호",
     },
     1596: {//Shirahoshi
         captain: "Boosts ATK and RCV of [INT] characters by 1.5x",
@@ -10553,11 +10553,11 @@ window.details = {
         specialNotes: "Boosted ATK and Orb Effectivess only works for the character who uses their own Special.",
         specialName: "King's Lightning Burial",
     },
-    1694: {//Inuarashi
-        captain: "Boosts ATK of [PSY] characters by 2.75x",
-        special: "Reduces crew's current HP by 50%, deals 50000 Fixed damage to one enemy, boosts own ATK by 1.75x for 1 턴, amplifies the effect of own orb by 1.75x for 1 턴 and changes own orb to [PSY].",
+    1694: {//Inuarashi :: modified
+        captain: "[PSY]의 공격력을 2.75배로 만든다",
+        special: "일당의 체력이 50% 줄지만 적 1명에게 고정 데미지 50,000을 주고, 자신의 슬롯을 [PSY]으로 바꾸며, 1턴 동안 자신의 공격력과 슬롯의 영향이 1.75배가 된다",
         specialNotes: "Boosted ATK and Orb Effectivess only works for the character who uses their own Special.",
-        specialName: "King's Lightning Burial",
+        specialName: "비장의 수단 뇌장",
     },
     1695: {//Vergo
         captain: "Boosts ATK of Striker characters by 2x",
@@ -10875,10 +10875,10 @@ window.details = {
             },
         ],
     },
-    1707: {//Shanks 6+
-        captain: "PSY캐릭터의 공격력을 2.75배, 체력을 1.3배 증가시킨다. 일당의 체력이 많을 수록 PSY슬롯 출현율이 상승한다.",
-        special: "1턴 동안 적 전체의 방어력을 0으로 만들고 적 1기에 캐릭터 공격력 75배의 무속성 데미지를 준다. 모든 슬롯을 PSY슬롯으로 변환한다.",
-        specialName: "하늘을 가르는 외팔의 남자",
+    1707: {//Shanks 6+ :: modified
+        captain: "[PSY]의 공격력을 2.75배, 체력을 1.3배로 만들고, 체력이 많을수록 [PSY] 슬롯 출현율이 크게 상승한다",
+        special: "1턴 동안 적 전체의 방어력을 0으로 만들고, 적 1명에게 캐릭터 공격력x75배의 무 속성 데미지를 준 후, 일당의 모든 슬롯을 [PSY]으로 바꾼다",
+        specialName: "하늘을 가르는 외팔",
     },
     1708: {//Summer Nami
         captain: "턴 종료 시 캐릭터 회복력 3배의 체력을 회복한다",
@@ -11515,11 +11515,11 @@ window.details = {
         sailor: "모든 캐릭터의 기본 공격력, 체력, 회복력을 +40",
         specialName: "디아블 잠브: 목살 스트라이크",
     },
-    1755: {//20th Anni Sanji
-        captain: "격투, 참격 캐릭터의 공격력이 2.5배 체력이 1.2배 증가한다.",
-        special: "적 1기의 체력을 15% 감소시키고 모든 독 상태를 회복, 1턴 동안 일당의 슬롯 영향을 상당히 확대한다.",
-        sailor: "모든 캐릭터의 기본 공격력, 체력, 회복력을 +40",
-        specialName: "디아블 잠브: 목살 스트라이크",
+    1755: {//20th Anni Sanji :: modified
+        captain: "격투형과 강인형 캐릭터의 공격력을 2.5배, 체력을 1.2배로 만든다",
+        special: "적 1명의 HP를 15% 줄이고, 모든 독 상태를 회복하며, 1턴 동안 일당의 슬롯 영향을 상당히 증폭시킨다",
+        sailor: "일당의 기본 능력치가 40 상승한다",
+        specialName: "디아블 잠브 목살 스트라이크",
     },
     1756: {//20th Anni Nami
         captain: "턴 종료 후 캐릭터 회복력 2배의 체력을 회복한다.",
@@ -12697,10 +12697,10 @@ window.details = {
         special: "Cuts the current HP of each enemy by 7%. Boosts the Color Affinity of Powerhouse characters by 1.25x",
         specialName: "Intervening A Fierce Battle",
     },
-    1857: {//X Drake
-        captain: "Boosts ATK of Powerhouse characters by 2.5 and recovers 200 HP at end of each turn",
-        special: "Cuts the current HP of each enemy by 7%. Boosts the Color Affinity of Powerhouse characters by 1.25x",
-        specialName: "Intervening A Fierce Battle",
+    1857: {//X Drake :: modified
+        captain: "강인형 캐릭터의 공격력을 2.5배로 만들고, 턴 종료 시 체력을 200 회복한다",
+        special: "적 전체의 HP를 7% 줄이고, 1턴 동안 강인형 캐릭터의 일반 공격에 의한 속성 상성의 영향을 조금 증폭시킨다",
+        specialName: "격전 중재",
     },
     1858: {//Leo
         captain: "Boosts ATK of Striker characters by 2x at the start of the chain. Boosts ATK of Striker characters by 2.4x after scoring 3 PERFECTs in a row.",
@@ -12843,10 +12843,10 @@ window.details = {
         special: "Reduces Special Cooldown of Slasher and Free Spirit characters by 1 turn and changes adjacent orbs into Matching Orbs",
         specialName: "Poof [Neo]",
     },
-    1863: {//Neo Coliseum Kinemon
-        captain: "Boosts ATK of Free Spirit characters by 2.5x, recovers 2x character's RCV in HP at the end of each turn",
-        special: "Reduces Special Cooldown of Slasher and Free Spirit characters by 1 turn and changes adjacent orbs into Matching Orbs",
-        specialName: "Poof [Neo]",
+    1863: {//Neo Coliseum Kinemon :: modified
+        captain: "자유형 캐릭터의 공격력을 2.5배로 만들고, 턴 종료 시 회복력x2배의 체력을 회복한다",
+        special: "참격형과 자유형의 필살기 턴을 1턴 단축하고, 인접한 슬롯을 속성 일치 슬롯으로 바꾼다",
+        specialName: "도롱 「개」",
     },
     1864: {//Urouge FN
         captain: "Protects from defeat as long as HP is above 50%",
@@ -12957,12 +12957,12 @@ window.details = {
         specialName: "Spring Death Knock",
         sailor: "Boosts this character's attack against [INT] characters by 1.1x"
     },
-    1871: {//Bellamy
-        captain: "Boosts ATK of Driven characters by 2.75x",
-        special: "Reduces crew's current HP by 50%, deals 10x the amount of HP subtracted in typeless damage to one enemy, reduces enemy's Threshold Damage Reduction, Increased Defense and ATK UP duration by 3 turns and changes own orb into [PSY]",
-        specialName: "Spring Death Knock",
+    1871: {//Bellamy :: modified
+        captain: "야심형 캐릭터의 공격력을 2.75배로 만든다",
+        special: "일당의 체력을 50% 감소시키고, 적 1명에게 감소치x10배의 무 속성 데미지를 주고, 적에게 걸려있는 Threshold Damage Reduction, 방어력 상승 상태, ATK UP를 3턴 줄이고, 자신의 슬롯을 [PSY] 슬롯으로 바꾼다",
+        specialName: "스프링 데스 녹",
         sailor: {
-            "base": "Boosts this character's attack against [INT] characters by 1.1x",
+            "base": "자신이 [INT]에게 주는 일반 공격에 의한 데미지가 1.1배가 된다",
             "level1": "If this character has a [PSY] orb and you hit a PERFECT with him, keep his [PSY] orb for the next turn",
         },
         limit: [
@@ -13186,22 +13186,22 @@ window.details = {
             },
         ],
     },
-    1879: {//Bartolomeo
-        captain: "Boosts ATK of all characters by 2.25x and their HP by 1.35x and reduces damage received by 10%. If you use \"Barrier Crash\" boosts ATK of all characters by 2.75x instead.",
-        specialName: "Barrier Crash",
+    1879: {//Bartolomeo :: modified
+        captain: "일당의 공격력을 2.25배, 체력을 1.35배로 만들고, 받는 데미지를 10% 줄이며, ‘배리어 크래시’를 사용한 턴은 일당의 공격력이 약 2.75배가 된다",
+        specialName: "배리어 크래시",
         special: [
             {
-                "description": "Reduces any damage received above 5,000 HP by 97% for 2 turns, recovers 20% of crew's MAX HP, reduces enemies' ATK Up and Enrage Buffs by 5 turns.",
+                "description": "2턴 동안 적 각각에 대해 5,000이 넘는 부분의 데미지를 초대폭 감소시키고, 최대 체력의 20%를 회복하며, 적의 ATK Up,  Enrage Buff를 5턴 줄인다",
                 "cooldown": [ 28, 13 ],
             },
             {
-                "description": "Reduces any damage received above 3,000 HP by 97% for 2 turns, recovers 50% of crew's MAX HP, reduces enemies' ATK Up, Enrage, End of Turn Damage/Percent Cut and Resilience Buffs by 5 turns.",
+                "description": "2턴 동안 적 각각에 대해 3,000이 넘는 부분의 데미지를 초대폭 감소시키고, 최대 체력의 50%를 회복하며, 적의 ATK Up, Enrage, End of Turn Damage/Percent Cut&남은 체력 1로 버티는 효과를 5턴 줄인다",
                 "cooldown": [ 33, 18 ],
             },
         ],
         sailor: {
             "base": "None",
-            "level1": "Boosts base HP of all characters by 150",
+            "level1": "일당의 기본 체력이 150 상승한다",
         },
         limit: [
             { "description": "Boosts base HP by 10" },
@@ -14132,7 +14132,7 @@ window.details = {
     1914:{//Kimono Vivi
         captain: "Boosts ATK of Free Spirit and Cerebral characters by 1.75x and their HP by 1.5x. Boosts Beli gained by 2.5x",
         special: "Randomizes all non-matching orbs, recovers 2,018 HP and amplifies the effects of orbs for Cerebral and Free Spirit characters by 1.75x for 1 turn",
-        specialName: "Blossoming a New Year Celebration",
+        specialName: "꽃 피는 신년의 축사",
     },
     1915: {//G4 Luffy
         captain: "Boosts ATK of Powerhouse and Free Spirit characters by 2x after scoring 3 PERFECTs in a row",

@@ -203,7 +203,7 @@ window.matchers = [
     },
     
     {
-        name: 'Beli Boosters',
+        name: '베리 획득',
         target: 'captain',
         matcher: /boosts.+Beli/i
     },
@@ -810,5 +810,9 @@ window.matchers = [
         target: 'limit',
         matcher: /Cooldown Reduction/i
     },
-
+    {
+        name: '슬롯 추가',
+        target: 'limit',
+        matcher: /Additional Socket Slot/i
+    },
 ];
