@@ -1432,10 +1432,14 @@ window.details = {
 		specialName: "스매쉬 버스터",
 		captain: "사격 타입 캐릭터의 공격력을 2배로 만든다."
 	},
-	353: {
-		special: "2턴 동안 사격 타입의 캐릭터 공격력을 1.75배로 만든다.",
+	353: {// modified
+		special: "2턴 동안 사격형 캐릭터의 공격력이 1.75배가 된다",
 		specialName: "스매쉬 버스터",
-		captain: "사격 타입 캐릭터의 공격력을 2.5배로 만든다.",
+		captain: "사격형 캐릭터의 공격력이 2.5배, 체력이 1.2배, 턴 종료 시 체력을 300 회복한다",
+        sailor: {
+            "base": "None",
+            "level1": "사격형 캐릭터의 기본 능력치가 20 상승한다",
+        },
         limit: [
             { "description": "공격력 상승 : 10" },
             { "description": "소켓 슬롯 1개 추가" },
@@ -2669,13 +2673,13 @@ window.details = {
     },
     574: {
         special: "Boosts ATK of Striker characters by 1.75x for 2 턴, locks all orbs for 2 턴",
-        specialName: "Ice Block - Pheasant Beak",
+        specialName: "아이스 블록 페즌트 펙",
         captain: "Boosts ATK of Striker characters by 2x"
     },
-    575: {
-        special: "Boosts ATK of Striker characters by 1.75x for 2 턴, locks all orbs for 2 턴",
-        specialName: "Ice Block - Pheasant Beak",
-        captain: "Boosts ATK and HP of Striker characters by 2x",
+    575: { // modified
+        special: "2턴 동안 일당 슬롯을 고정, 타격형 캐릭터의 공격력이 1.75배가 된다",
+        specialName: "아이스 블록 페즌트 펙",
+        captain: "타격형 캐릭터의 공격력과 체력이 2배가 된다",
     },
     576: {
         special: "Changes [PSY] orbs into [INT] orbs, boosts RCV of all characters by 1.5x for 1 턴",
@@ -4265,10 +4269,10 @@ window.details = {
 		specialName: "전투보권 만귀해소(戦闘保拳 満鬼解焼)",
 		special: "[BLOCK] 슬롯 포함한 모든슬롯을 [G]슬롯으로 변환하고, 적 전체에 랜덤 무속성 큰 데미지를 준다.",
 	},
-	880: {
-		captain: "모험을 시작할때 필살턴을 3턴 단축하고, 격투 타입 캐릭터의 공격이 2배가 된다.",
+	880: { // modified
+		captain: "모험을 시작할 때 필살 턴을 3턴 단축하고, 격투형 캐릭터의 공격력이 2배가 된다",
 		specialName: "전투보권 만귀해소(戦闘保拳 満鬼解焼)",
-		special: "[BLOCK] 슬롯 포함한 모든슬롯을 [G]슬롯으로 변환하고, 적 전체에 랜덤 무속성 큰 데미지를 준다.",
+		special: "[BLOCK] 슬롯을 포함하여 모든 슬롯을 [G] 슬롯을 바꾸고, 적 전체에게 랜덤 무 속성 큰 데미지",
 	},
 	881: {
 		captain: "Good > Great > PERFECT 순서로 공격이후 사격과 자유 타입 캐릭터의 공격이 2배가 된다.",
@@ -5389,10 +5393,10 @@ window.details = {
         specialName: "Dragon Claw Fist: Dragon's Breath",
         special: "Deals random typeless damage to all enemies. Adds 55x character's ATK as Additional Typeless Damage for 2 턴",
     },
-    1047: {
-        captain: "Boosts ATK of Free Spirit characters by 3.5x following a chain of Good > Great > PERFECT hits",
-        specialName: "Dragon Claw Fist: Dragon's Breath",
-        special: "Deals random typeless damage to all enemies. Adds 55x character's ATK as Additional Typeless Damage for 2 턴",
+    1047: { // modified
+        captain: "GOOD→GREAT→PERFECT 순으로 공격 성공한 후부터 자유형의 공격력이 3.5배가 된다",
+        specialName: "「용조권」 용의 숨결",
+        special: "적 전체에 무 속성 랜덤 데미지를 주고, 2턴 동안 GOOD, GREAT, PERFECT 공격 시 필살기를 사용한 캐릭터의 공격력×55배의 무 속성 데미지를 가산한다",
     },
     1048: {
         captain: "Boosts ATK and RCV of [PSY] characters by 1.2x",
@@ -5546,19 +5550,19 @@ window.details = {
         ],
         specialName: "Haute Couture: Patchwork"
     },
-    1077:{
-        captain: "Boosts ATK of Striker and Free Spirit characters by 2.25x and their RCV by 1.5x",
+    1077:{ // modified
+        captain: "타격형과 자유형의 공격력을 2.25배, 회복력을 1.5배로 만든다",
         special: [
             {
-                "description": "Delays all enemies for 1 턴. Locks all orbs for 1 턴. Cuts the current HP of all enemies by 10%",
+                "description": "일당의 슬롯을 1턴 고정하고, 적 전체의 공격을 1턴 지연, 적 전체의 HP를 10% 줄인다",
                 "cooldown": [ 16, 12 ]
             },
             {
-                "description": "Delays all enemies for 1 턴. Locks all orbs for 1 턴. Cuts the current HP of all enemies by 20%",
+                "description": "일당의 슬롯을 1턴 고정하고, 적 전체의 공격을 1턴 지연, 적 전체의 HP를 20% 줄인다",
                 "cooldown": [ 20, 16 ]
             }
         ],
-        specialName: "Haute Couture: Patchwork",
+        specialName: "오트 쿠튀르 패치★워크",
         limit: [
             { "description": "회복력 상승 : 20" },
             { "description": "체력 상승 : 30" },
@@ -5906,9 +5910,9 @@ window.details = {
         special: "적 전체에 캐릭터 공격력x30배 무속성 데미지를 주고, 야심 타입의 [BLOCK],[G],[BOMB] 슬롯을 각자 특성 슬롯으로 변환시켜준다. 1턴간 야심 캐릭터의 공격력이 1.75배가 된다.",
         specialName: "사자 떨어트리기 궁궐의 회오리"
     },
-    1108: {
-        captain: "야심 캐릭터의 공격력과 체력이 2배가 된다.",
-        special: "적 전체에 캐릭터 공격력x30배 무속성 데미지를 주고, 야심 타입의 [BLOCK],[G],[BOMB] 슬롯을 각자 특성 슬롯으로 변환시켜준다. 1턴간 야심 캐릭터의 공격력이 1.75배가 된다.",
+    1108: { // modified
+        captain: "야심형의 공격력과 체력이 2배가 된다",
+        special: "적 전체에게 무 속성의 큰 데미지를 주고, 야심형의 [BLOCK][G][BOMB] 슬롯을 속성이 일치하는 슬롯으로 변환, 1턴 동안 야심형의 공격력이 1.75배가 된다",
         specialName: "사자 떨어트리기 궁궐의 회오리",
         sailor: {
             "base": "None",
@@ -5986,11 +5990,11 @@ window.details = {
         specialNotes: "#{fixed}",
         captain: "STR 캐릭터의 공격력이 2배가 된다."
     },
-    1115: {
-        special: "일당의 남은 체력을 99% 감소시켜 적 전체에 공격력의 x25배의 고정 데미지를 주고, 1턴 동안 STR의 공격력을 2배 증가시킨다.",
+    1115: { // modified
+        special: "체력을 큰 폭으로 줄이고 적 전체에게 고정 데미지 + 1턴 동안 [STR] 캐릭터의 공격력이 2배가 된다",
         specialName: "고무고무 거인의 도끼",
         specialNotes: "#{fixed}",
-        captain: "STR 캐릭터의 공격력이 2.5배가 된다."
+        captain: "[STR] 캐릭터의 공격력이 2.5배가 된다"
     },
     1116: {
         special: "적 전체에 파티의 체력이 적을수록 큰 INT 데미지를 준다.",
@@ -6022,7 +6026,7 @@ window.details = {
         special: "적 전체에 무속성의 랜덤 데미지(대)를 주고, 자기 슬롯을 [STR]으로 바꾼다",
         specialName: "고무고무 JET 총난타",
         specialNotes: "랜덤 데미지 : 70,00 ~ 200,000",
-        captain: "Good→Great→PERFECT 순으로 공격하면 이후 캐릭터의 공격력이 4배"
+        captain: "GOOD→GREAT→PERFECT 순으로 공격하면 이후 캐릭터의 공격력이 4배"
     },
     1121: { // modified
         special: "적 전체에게 무속성의 데미지(대)를 주고, 자기 슬롯을 [STR]으로 바꾼다",
@@ -6338,11 +6342,11 @@ window.details = {
         captain: "Boosts ATK of DEX characters by 2.75x 전투 시작 시 체력이 30% 미만이면",
         sailor: "Boosts base ATK of Slasher characters by 20"
     },
-    1175: {
-        special: "Changes adjacent orbs into [DEX], deals 1,000 fixed damage to all enemies",
-        specialName: "Ashura Ugui",
-        captain: "Boosts ATK of DEX characters by 3x 전투 시작 시 체력이 30% 미만이면",
-        sailor: "Boosts base ATK of Slasher characters by 20"
+    1175: { // modified
+        special: "남은 체력이 적을 때 [DEX] 캐릭터의 공격력이 3배가 된다",
+        specialName: "아수라 마구섬",
+        captain: "인접한 슬롯을 [DEX]로 바꾸고, 적 전체에게 고정 데미지 1,000을 준다",
+        sailor: "참격형 캐릭터의 기본 공격력이 20 상승한다"
     },
     1176: {
         special: "Removes Poison, recovers 15x character's RCV in HP",
@@ -6469,10 +6473,10 @@ window.details = {
         special: "Reduces crew's current HP by 60%, deals 8x the amount of HP subtracted in typeless damage to all enemies. Boosts ATK of Striker characters by 1.75x for 1 턴",
         specialName: "Split Air Hole",
     },
-    1196: {
-        captain: "Boosts ATK of Striker characters by 2x. Recovers 5x character's RCV in HP at the end of each 턴",
-        special: "Reduces crew's current HP by 60%, deals 8x the amount of HP subtracted in typeless damage to all enemies. Boosts ATK of Striker characters by 1.75x for 1 턴",
-        specialName: "Split Air Hole",
+    1196: { // modified
+        captain: "타격형 캐릭터의 공격력을 2.5배로 만들고, 받는 데미지를 10% 감소시킨다",
+        special: "적 1명에게 공격력x50배의 [DEX] 데미지를 주고, 1턴 동안 타격형 캐릭터의 슬롯의 영향을 상당히 크게 증폭시키고, 1턴 동안 받는 데미지를 50% 감소시킨다",
+        specialName: "순흑의 도깨비",
     },
     1197: {
         captain: "Boosts ATK of Cerebral and Powerhouse characters by 2.5x if they have a matching orb, by 1x otherwise, reduces crew's RCV to 0",
@@ -6601,12 +6605,12 @@ window.details = {
         captain: "Boosts ATK of STR characters by 2x, deals 2x character's ATK in STR damage to all enemies at the end of each 턴",
         sailor: "Boosts base ATK of Shooter characters by 20"
     },
-    1212: {
-        special: "Changes own orb into [STR], amplifies the effect of orbs by 1.5x for 2 턴",
+    1212: { // modified
+        special: "자신의 슬롯을 [STR]으로 바꾸고, 일당 모두의 슬롯의 영향을 증폭시킨다 (2턴)",
         specialNotes: "#{orb : 1.5x}",
-        specialName: "Roar! Zarley Davison",
-        captain: "Boosts ATK of STR characters by 2.25x, deals 2x character's ATK in STR damage to all enemies at the end of each 턴",
-        sailor: "Boosts base ATK of Shooter characters by 20"
+        specialName: "변태의 자존심 「수퍼 스크류 댄스!!」",
+        captain: "[STR] 캐릭터의 공격력이 2.25배가 되고, 턴 종료 시 공격력 x 2배의 추가 데미지",
+        sailor: "사격형 캐릭터의 기본 공격력이 20 상승한다"
     },
     1213: {
         captain: "Boosts ATK of Slasher characters by 1.5x, the HP of Striker characters by 1.2x, and the RCV of Shooter characters by 1.2x",
@@ -7132,11 +7136,11 @@ window.details = {
         sailor: "의성어 은폐 상태를 5턴 회복한다",
         specialName: "저편의 운명",
     },
-    1272: {//Van Augur
-        captain: "Reduces cooldown of Shooter specials by 1 턴 at the start of the fight. Boosts ATK of Shooter characters by 2.5x.",
-        special: "Changes orbs in the top row into Matching orbs. For Shooter characters, amplifies the effect of orbs by 1.75x for 1 턴",
-        sailor: "Reduces Blindness duration by 5 턴",
-        specialName: "Other Side of Fate",
+    1272: {//Van Augur :: modified
+        captain: "모험 시작 시 사격형 캐릭터의 필살기 턴을 1턴 단축하고, 사격형의 공격력이 2.5배가 된다",
+        special: "상단의 슬롯을 속성 일치 슬롯으로 바꾸고, 1턴 동안 사격형 캐릭터의 슬롯의 영향을 상당히 증폭시킨다",
+        sailor: "의성어 은폐 상태를 5턴 회복한다",
+        specialName: "저편의 운명",
         limit: [
             { "description": "공격력 상승 : 20" },
             { "description": "공격력 상승 : 30" },
@@ -7406,10 +7410,10 @@ window.details = {
         special: "Reduces Special Cooldown of Slasher and Free Spirit characters by 1 턴 and if HP is above 70%, changes adjacent orbs into Matching Orbs",
         specialName: "Poof",
     },
-    1310: {//Coliseum Kinemon
-        captain: "Boosts ATK of Free Spirit characters by 2.5x, recovers 2x character's RCV in HP at the end of each 턴",
-        special: "Reduces Special Cooldown of Slasher and Free Spirit characters by 1 턴 and if HP is above 70%, changes adjacent orbs into Matching Orbs",
-        specialName: "Poof",
+    1310: {//Coliseum Kinemon :: modified
+        captain: "자유형 캐릭터의 공격력을 2.5배로 만들고, 턴 종료 시 회복력x2배의 체력을 회복한다",
+        special: "참격형과 자유형의 필살기 턴을 1턴 단축하고, 남은 체력이 70% 이상일 때 인접한 슬롯을 속성 일치 슬롯으로 바꾼다",
+        specialName: "도롱",
     },
     1311: {//Coliseum Marigold
         captain: "Boosts ATK and HP of Powerhouse characters by 1.5x",
@@ -7968,21 +7972,21 @@ window.details = {
         sailor: "일당의 기본 능력치가 50 상승한다",
         specialName: "스카이 워크",
     },
-    1368: {//Timeskip Sanji
-        captain: "Boosts ATK of [STR] characters by 2.5x, by 3x 전투 시작 시 체력이 30% 미만이면",
+    1368: {//Timeskip Sanji :: modified
+        captain: "[STR] 캐릭터의 공격력이 2.25배가 되고, 남은 체력이 적을 때는 3배가 된다",
         special: [
             {
-                "description": "Reduces damage received by 50% and amplifies the effect of orbs by 1.5x for 1 턴.",
+                "description": "1턴 동안 받는 데미지를 50% 줄이고, 슬롯의 영향을 증폭시킨다",
                 "cooldown": [ 11, 6 ],
             },
             {
-                "description": "Reduces damage received by 70% and amplifies the effect of orbs by 1.75x for 1 턴.",
+                "description": "1턴 동안 받는 데미지를 70% 줄이고, 슬롯의 영향을 상당히 증폭시킨다",
                 "cooldown": [ 20, 15 ],
             },
         ],
         specialNotes: "#{orb : 1.75x}<br>#{stages}",
-        sailor: "Boosts base ATK, HP and RCV of all characters by 50",
-        specialName: "Sky Walk",
+        sailor: "일당의 기본 능력치가 50 상승한다",
+        specialName: "스카이 워크",
     },
     1369: {//Timeskip Chopper
         captain: "Boosts ATK of [QCK] characters by 1.5x and their HP and RCV by 1.2x",
@@ -8066,14 +8070,14 @@ window.details = {
     },
     1379: {//Shanks
         captain: "Boosts chances of getting Matching orbs, boosts ATK of Cerebral characters by 2x",
-        special: "Reduces Paralysis duration by 3 턴. For Cerebral and Free Spirit characters, amplifies the effects of orbs by 2x for 1 턴. Makes [RCV] and [TND] orbs \"beneficial\" to Cerebral and Free Spirit characters for 1 턴.",
-        specialName: "A Decision Made over Sake",
+        special: "마비 상태를 3턴 회복하고, 1턴 동안 박식형과 자유형 슬롯의 영향이 2배로 증폭되며, 같은 타입의 [RCV][TND] 슬롯을 [유리] 슬롯으로 취급한다",
+        specialName: "결렬의 이별주",
         specialNotes: "#{orb : 2x}",
     },
-    1380: {//Shanks
-        captain: "Boosts chances of getting Matching orbs, boosts ATK of Cerebral characters by 2.5x",
-        special: "Reduces Paralysis duration by 3 턴. For Cerebral and Free Spirit characters, amplifies the effects of orbs by 2x for 1 턴. Makes [RCV] and [TND] orbs \"beneficial\" to Cerebral and Free Spirit characters for 1 턴.",
-        specialName: "A Decision Made over Sake",
+    1380: {//Shanks :: modified
+        captain: "박식형 캐릭터의 공격력을 2.5배로 만들고, 박식형 캐릭터는 속성 일치 슬롯의 출현율이 상승한다",
+        special: "마비 상태를 3턴 회복하고, 1턴 동안 박식형과 자유형 슬롯의 영향이 2배로 증폭되며, 같은 타입의 [RCV][TND] 슬롯을 [유리] 슬롯으로 취급한다",
+        specialName: "결렬의 이별주",
         specialNotes: "#{orb : 2x}",
     },
     1381: {//Christmas Tashigi
@@ -8156,10 +8160,10 @@ window.details = {
             },
         ],
     },
-    1388: {//Zoro 5+
-        captain: "Boosts ATK of [DEX] characters by 2.5x",
-        special: "Cuts the current HP of each enemy by 10%. Reduces special cooldown of [DEX] specials by 1 턴.",
-        specialName: "Ittoriyu: Unfortunate Port Bird",
+    1388: {//Zoro 5+ :: modified
+        captain: "[DEX] 캐릭터의 공격력을 2.5배로 만든다",
+        special: "적 전체의 HP를 10% 줄이고 [DEX] 캐릭터의 필살기 턴을 1턴 단축한다",
+        specialName: "일검류 액항조",
     },
     1389: {//Nami 5+
         captain: "Reduces cooldown of all specials by 1 턴 at the start of the fight, Boosts ATK of [INT] characters by 2x and their RCV by 1.5x.",
@@ -8173,11 +8177,11 @@ window.details = {
         special: "Randomizes all orbs. Boosts ATK of characters with cost 40 or less by 1.75x for 2 턴",
         specialName: "Chop-Chop Clown Car",
     },
-    1391: {//Buggy Legend
-        captain: "Boosts ATK of characters with cost 40 or less by 1.5x and reduces the HP and ATK of characters with cost 41 and greater by 0.5x. Guarantees duplicating a drop upon completion of the island.",
+    1391: {//Buggy Legend :: modified
+        captain: "코스트 40 이하인 캐릭터의 공격력을 1.5배, 코스트 41 이상인 캐릭터의 공격력과 체력을 50% 감소시키고, 모험에서 획득한 보물이 한 가지 추가된다",
         captainNotes: "Does not work if he was not your captain upon starting the island. Stacks with other addional drop captains, giving you two chances of getting an extra drop.",
-        special: "Randomizes all orbs. Boosts ATK of characters with cost 40 or less by 1.75x for 2 턴",
-        specialName: "Chop-Chop Clown Car",
+        special: "슬롯을 랜덤으로 바꾸고, 2턴 동안 코스트 40 이하인 캐릭터의 공격력이 1.75배가 된다.",
+        specialName: "동강동강 카",
     },
     1392: {//Sentomaru
         captain: "Boosts ATK of Striker characters by 2x and boosts the HP of [PSY] characters by 1.25x",
@@ -8374,12 +8378,12 @@ window.details = {
         specialName: "Soul's Murder Soul: Soul Solid",
         sailor: "Completely resists Paralysis on this character",
     },
-    1410: {//Timeskip Brook
-        captain: "Boosts chain multiplier by 2.5x. Protects from defeat as long as HP is above 50%",
+    1410: {//Timeskip Brook :: modified
+        captain: "체인 계수 증가량이 2.5배가 되고 체력이 일정 비율 이상인 경우, 공격을 받아도 쓰러지지 않는다",
         captainNotes: "#{zombie}",
-        special: "Delays all enemies by 1 턴, and boosts ATK of Slasher and Free Spirit characters by 1.75x for 1 턴",
-        specialName: "Soul's Murder Soul: Soul Solid",
-        sailor: "Completely resists Paralysis on this character",
+        special: "적 전체의 공격을 1턴 지연시키고, 참격형과 자유형 캐릭터의 공격력을 1턴 동안 1.75배로 만든다",
+        specialName: "소울 솔리드",
+        sailor: "자신은 마비 상태를 완전히 회피한다",
     },
     1411: {//Timeskip Chopper Again
         captain: "Boosts ATK of Powerhouse characters by 2.25x, reduces crew's RCV to 0",
@@ -8440,10 +8444,10 @@ window.details = {
         special: "Deals 20x Character's ATK in [INT] damage to all enemies. If HP is full at the time the special was activated, boosts ATK of Driven characters by 2x for 1 턴, 1.5x otherwise",
         specialName: "Half Moon Glaive",
     },
-    1422: {//Coliseum Diamante
-        captain: "Boosts ATK of Driven characters by 2.25x and boosts HP of Striker and Slasher characters by 1.5x",
-        special: "Deals 20x Character's ATK in [INT] damage to all enemies. If HP is full at the time the special was activated, boosts ATK of Driven characters by 2x for 1 턴, 1.5x otherwise",
-        specialName: "Half Moon Glaive",
+    1422: {//Coliseum Diamante :: modified
+        captain: "야심형 캐릭터의 공격력을 2.25배, 참격형과 타격형 캐릭터의 체력을 1.5배로 만든다",
+        special: "적 전체에 [INT] 큰 데미지를 주고, 1턴 동안 야심형 캐릭터의 공격력이 1.5배, 필살기 발동 시 체력이 가득 차 있으면 2배가 된다",
+        specialName: "반…월~ 글레이브",
     },
     1423: {//Coliseum T-Bone
         captain: "Boosts ATK of the whole crew by 1.75x and recovers 918 HP at end of each 턴,",
@@ -8490,13 +8494,13 @@ window.details = {
     },
     1431: {//Raid Franky :: modified
         captain: "일당에 5속성 캐릭터가 모두 있으면 일당의 공격력이 2.5배가 되고, 일당에 격투형, 참격형, 사격형, 야심형, 자유형, 강인형이 모두 있으면 일당의 체력이 1.5배가 된다",
-        special: "적 전체에게 무 속성 슈퍼 데미지를 주고, 적에게 걸려 있는 ATK Up, Enrage, End of turn Damage/Percent Cut, and End of turn Heal Buffs을(를) 완전히 해제, 1턴 동안 일당의 공격력이 1.5배가 된다",
+        special: "적 전체에게 무 속성 슈퍼 데미지를 주고, 적에게 걸려 있는 [ATK UP], [ENRAGE], [DAMAGE CUT], [RCV]을(를) 완전히 해제, 1턴 동안 일당의 공격력이 1.5배가 된다",
         specialName: "장군포",
     },
-    1432: {//Raid Franky
-        captain: "Boosts ATK of all characters by 2.5x if there's a [STR], [DEX], [QCK], [PSY], and [INT] character in your crew, and boosts their HP by 1.5x if there's a Fighter, Slasher, Shooter, Driven, Free Spirit, and Powerhouse character in your crew",
-        special: "Deals 100x character's ATK in typeless damage to all enemies, remove enemies' ATK Up, Enrage, End of 턴 Damage/Percent Cut, and End of 턴 Heal Buffs, and boosts ATK of all characters by 1.5x for 1 턴",
-        specialName: "General Cannon",
+    1432: {//Raid Franky :: modified
+        captain: "일당에 5속성 캐릭터가 모두 있으면 일당의 공격력이 2.5배가 되고, 일당에 격투형, 참격형, 사격형, 야심형, 자유형, 강인형이 모두 있으면 일당의 체력이 1.5배가 된다",
+        special: "적 전체에게 무 속성 슈퍼 데미지를 주고, 적에게 걸려 있는 [ATK UP], [ENRAGE], [DAMAGE CUT], [RCV]을(를) 완전히 해제, 1턴 동안 일당의 공격력이 1.5배가 된다",
+        specialName: "장군포",
     },
     1433: {//Hody Jones
         captain: "Reduces cooldown of Powerhouse specials by 1 턴 at the start of the fight, reduces crew's current HP by 10% at the end of each 턴, and boosts ATK of Powerhouse characters by 3x if there are 6 Powerhouse characters in your crew and boosts HP of Powerhouse characters by up to 2x depending on how many Powerhouse characters are in your crew.",
@@ -8566,12 +8570,12 @@ window.details = {
         sailor: "Completely resists Silence on this character",
         sailorNotes: "#{silence}",
     },
-    1440: {//Daruma
-        captain: "Reduces cooldown of all specials by 4 턴 at the start of the fight, boosts ATK of Powerhouse and Fighter characters by 1.5x",
-        special: "Reduces Paralysis and Silence duration by 2 턴, cuts the current HP of one enemy by 10%, boosts ATK of Powerhouse characters by 1.75x for 1 턴",
+    1440: {//Daruma :: modified
+        captain: "모험 시작 시 필살기 턴을 4턴 단축하고, 격투형과 강인형의 공격력을 1.5배로 ㅁ나든다",
+        special: "마비·필살기 봉쇄 상태를 2턴 회복, 적 1명의 HP를 10% 줄이고 강인형 캐릭터의 공격력을 1턴 동안 1.75배로 만든다",
         specialNotes: "#{silence}",
-        specialName: "Fire Daruma Cutter",
-        sailor: "Completely resists Silence on this character",
+        specialName: "불덩어리 커터",
+        sailor: "자신은 필살기 봉쇄 상태를 완전히 회피한다",
         sailorNotes: "#{silence}",
     },
     1441: {//Zeo
@@ -8611,20 +8615,20 @@ window.details = {
         special: "Deals random PSY damage to all enemies and delays enemies by 3 턴.",
         specialName: "Green Star: Platanus Shuriken",
     },
-    1447: {//Sanji 5+
-        captain: "Boosts ATK of Powerhouse characters by 2.5x and reduces damage take by 10%.",
+    1447: {//Sanji 5+ :: modified
+        captain: "강인형 캐릭터의 공격력을 2.5배로 만들고, 받는 데미지를 10% 줄인다",
         special: [
             {
-                "description": "Deals 5,000 fixed damage to all enemies and boosts own ATK by 1.2x for 1 턴.",
+                "description": "적 전체에 고정 데미지 5,000을 주고, 자신의 공격력이 1턴 동안 1.2배가 된다",
                 "cooldown": [ 15, 10 ],
             },
             {
-                "description": "Deals 50,000 fixed damage to all enemies and boosts own ATK by 1.5x for 1 턴.",
+                "description": "적 전체에 고정 데미지 50,000을 주고, 자신의 공격력이 1턴 동안 1.5배가 된다",
                 "cooldown": [ 20, 15 ],
             },
         ],
         specialNotes: "#{stages}",
-        specialName: "Grill Shot",
+        specialName: "그릴 샷",
     },
     1448: {//Chopper 5+
         captain: "Boosts ATK of Fighter characters by 2.5x.",
@@ -8936,11 +8940,11 @@ window.details = {
         specialNotes: "#{orb : 2x}",
         specialName: "Destruction Cannon: Hidden Bullet",
     },
-    1487: {//Coliseum Ideo
-        captain: "Reduces cooldown of all specials by 2 턴 at the start of the fight, boosts ATK of Fighter characters by 3x if they have a matching orb.",
-        special: "Increases damage received by 2x for 2 턴, deals 15x character's ATK in [DEX] damage to one enemy, amplifies the effect of orbs for Fighter characters by 2x for 1 턴",
+    1487: {//Coliseum Ideo :: modified
+        captain: "모험 시작 시 필살기 턴을 2턴 단축하고, 격투형 캐릭터의 공격력을 슬롯 일치 시 3배로 만든다",
+        special: "2턴 동안 받는 데미지가 2배가 되지만, 적 1명에게 [DEX] 데미지를 주고 1턴 동안 격투형 캐릭터의 슬롯의 영향을 2배로 증폭시킨다",
         specialNotes: "#{orb : 2x}",
-        specialName: "Destruction Cannon: Hidden Bullet",
+        specialName: "「파괴포」의 숨겨진 탄",
     },
     1488: {//Coliseum Don Krieg
         captain: "Boosts ATK of Driven characters by 1.5x, reduces damage received by 20%",
@@ -9319,11 +9323,11 @@ window.details = {
         sailor: "Makes [STR], [INT], and [DEX] orbs \"beneficial\" for this unit",
         specialName: "The Teacher's Final Ordeal",
     },
-    1534: {//Rayleigh
-        captain: "Boosts ATK of [QCK] characters by 2.5x and their HP by 1.2x at the start of the chain, by 3x after the 4th PERFECT in a row.",
-        special: "Changes all orbs, including [BLOCK] orbs, to [QCK] orbs",
-        sailor: "Makes [STR], [INT], and [DEX] orbs \"beneficial\" for this unit",
-        specialName: "The Teacher's Final Ordeal",
+    1534: {//Rayleigh :: modified
+        captain: "[QCK]의 공격력을 2.5배, 체력을 1.2배, 4연속 PERFECT 이후 같은 속성의 공격력이 3배가 된다",
+        special: "[BLOCK] 슬롯을 포함한 모든 슬롯을 [QCK] 슬롯으로 바꾼다",
+        sailor: "자신은 [STR][INT][DEX] 슬롯도 [유리] 슬롯으로 취급한다",
+        specialName: "사부로부터의 최종 시련",
     },
     1535: {//Duval
         captain: "Reduces cooldown of all specials by 1 턴 at the start of the fight, boosts ATK of [PSY] characters by 2.5x if they have matching orbs",
@@ -9492,10 +9496,10 @@ window.details = {
         special: "Deals 300,000 Fixed damage to one enemy, boosts ATK of characters with 40 cost by 1.75x, reduces enemy Barrier duration by 1 턴",
         specialName: "Thunder Giant",
     },
-    1553: {//Coliseum Hajrudin
-        captain: "Boosts ATK of characters with 40 cost by 2.75x",
-        special: "Deals 300,000 Fixed damage to one enemy, boosts ATK of characters with 40 cost by 1.75x, reduces enemy Barrier duration by 1 턴",
-        specialName: "Thunder Giant",
+    1553: {//Coliseum Hajrudin :: modified
+        captain: "코스트 40인 캐릭터의 공격력을 2.75배로 만든다",
+        special: "적 1명에게 고정 데미지 300,000을 주고, 적 전체의 HP 바에 걸려 있는 모든 배리어를 1턴 줄이고, 1턴 동안 코스트 40인 캐릭터의 공격력을 1.75배로 만든다",
+        specialName: "거인의 천둥",
     },
     1554: {//Coliseum Ryuma
         captain: "Boosts ATK of [DEX] characters by 2x",
@@ -9642,12 +9646,12 @@ window.details = {
         sailor: "Makes [STR] and [QCK] orbs \"beneficial\" for this unit",
         specialName: "Flaming Flash",
     },
-    1577: {//Kin'emon
-        captain: "Recovers 3x character's RCV in HP at the end of each 턴. Boosts ATK by 3.5x following a chain of Good > Great > PERFECT hits",
-        special: "Deals 60x character's ATK in typeless damage to all enemies, and changes all orbs on all characters into Kinemon's orb.",
+    1577: {//Kin'emon :: modified
+        captain: "턴 종료 시에 캐릭터의 회복력x3배의 체력을 회복하고, GOOD→GREAT→PERFECT 순으로 공격한 이후부터 캐릭터의 공격력이 3.5배가 된다",
+        special: "적 전체에게 무 속성 특대 데미지를 주고, 모든 슬롯을 자신과 같은 슬롯으로 바꾼다",
         specialNotes: "Upon activating the special, all orbs will be changed to the orb Kinemon has, including [RAINBOW] and [BLOCK] orbs. This will not override other [BLOCK] orbs.",
-        sailor: "Makes [STR] and [QCK] orbs \"beneficial\" for this unit",
-        specialName: "Flaming Flash",
+        sailor: "자신은 [STR][QCK] 슬롯도 [유리] 슬롯으로 취급한다",
+        specialName: "화류일섬",
     },
     1578: {//Momonosuke :: modified
         captain: "체력이 일정 비율 이상일 떄, 공격을 받아도 쓰러지지 않는다",
@@ -10167,7 +10171,7 @@ window.details = {
     },
     1646: {//Reborn Pica
         captain: "Boosts ATK of Powerhouse characters by 1.5x, and their HP by 1.5x",
-        specialName: "Rock Domination Wall [Neo]",
+        specialName: "Rock Domination Wall 「개」",
         special: [
             {
                 "description": "For Driven and Powerhouse characters, changes [EMPTY] and Badly Matching orbs into Matching orbs. Cuts the current HP of all enemies by 10%",
@@ -10182,7 +10186,7 @@ window.details = {
         },
     1647: {//Reborn Pica
         captain: "Boosts ATK of Powerhouse characters by 2.25x, and their HP by 1.5x",
-        specialName: "Rock Domination Wall [Neo]",
+        specialName: "Rock Domination Wall 「개」",
         special: [
             {
                 "description": "For Driven and Powerhouse characters, changes [EMPTY] and Badly Matching orbs into Matching orbs. Cuts the current HP of all enemies by 10%",
@@ -10366,13 +10370,13 @@ window.details = {
     },
     1668: {//Reborn Aokiji
         special: "Boosts ATK of Striker characters by 1.75x for 2 턴, locks all orbs for 2 턴",
-        specialName: "Ice Block - Pheasant Beak [Neo]",
+        specialName: "Ice Block - Pheasant Beak 「개」",
         captain: "Boosts ATK of Striker characters by 2x"
     },
-    1669: {//Reborn Aokiji
-        special: "Boosts ATK of Striker characters by 1.75x for 2 턴, locks all orbs for 2 턴",
-        specialName: "Ice Block - Pheasant Beak [Neo]",
-        captain: "Boosts ATK and HP of Striker characters by 2x"
+    1669: {//Reborn Aokiji :: modified
+        special: "2턴 동안 일당 슬롯을 고정, 타격형 캐릭터의 공격력이 1.75배가 된다",
+        specialName: "아이스 블록 페즌트 펙 「개」",
+        captain: "타격형 캐릭터의 공격력과 체력이 2배가 된다"
     },
     1670: {//Shyarly
         captain: "Boosts ATK of [DEX] characters by 1.75x and their RCV by 1.2x",
@@ -10468,12 +10472,12 @@ window.details = {
     },
     1679: {//Kai Mihawk
         special: "Cuts the current HP of each enemy by 30%",
-        specialName: "Black Blade Ship Cutter [Neo]",
+        specialName: "Black Blade Ship Cutter 「개」",
         captain: "Boosts ATK of Slasher characters by 2x"
     },
     1680: {//Kai Mihawk
         special: "Cuts the current HP of each enemy by 30%",
-        specialName: "Black Blade Ship Cutter [Neo]",
+        specialName: "Black Blade Ship Cutter 「개」",
         captain: "Boosts ATK of Slasher characters by 2.5x"
     },
     1681: {//20th Anni Luffy
@@ -11060,12 +11064,12 @@ window.details = {
     },
     1726: {//Sabo
         captain: "Good > Great > PERFECT 순으로 적중시 자유 캐릭터의 공격력이 2.75배 증가한다.",
-        specialName: "용조권: 용의 숨결 [Neo]",
+        specialName: "용조권: 용의 숨결 「개」",
         special: "적 전체에게 무속성 랜덤 데미지를 주고 2턴 동안 캐릭터의 공격력 55배의 무속성 추가 데미지를 준다.",
     },
     1727: {//Sabo
         captain: "Good > Great > PERFECT 순으로 적중시 자유 캐릭터의 공격력이 3.5배 증가한다.",
-        specialName: "용조권: 용의 숨결 [Neo]",
+        specialName: "용조권: 용의 숨결 「개」",
         special: "적 전체에게 무속성 랜덤 데미지를 주고 2턴 동안 캐릭터의 공격력 55배의 무속성 추가 데미지를 준다.",
     },
     1728: {//Tashigi
@@ -11097,10 +11101,10 @@ window.details = {
         special: "적 1기에 캐릭터 공격력 50배의 베리어 무시효과 무속성 데미지를 주고 적이 상태 이상 무효일 때 방해 슬롯을 포함한 전체 슬롯이 자속성 슬롯으로 변환하고 1턴 동안 타격, 강인 캐릭터의 공격력이 1.75배가 된다.",
         specialName: "맹공의 수호신",
     },
-    1733: {//Nekomamushi
-        captain: "STR캐릭터 공격력이 2.5배, 타격, 강인 캐릭터의 체력이 1.25배 증가한다.",
-        special: "적 1기에 캐릭터 공격력 50배의 베리어 무시효과 무속성 데미지를 주고 적이 상태 이상 무효일 때 방해 슬롯을 포함한 전체 슬롯이 자속성 슬롯으로 변환하고 1턴 동안 타격, 강인 캐릭터의 공격력이 1.75배가 된다.",
-        specialName: "맹공의 수호신",
+    1733: {//Nekomamushi :: modified
+        captain: "[STR]의 공격력을 2.5배, 타격형과 강인형 캐릭터의 체력을 1.25배로 만든다",
+        special: "적 1명에게 모든 방어 효과를 무시하고 캐릭터의 공격력x50배의 무 속성 데미지를 주며, 적이 지연 무효, 상태 이상 무효일 때 [BLOCK]를 포함한 모든 슬롯을 속성 일치 슬롯으로 바꾸고, 1턴 동안 타격형과 강인형 캐릭터의 공격력이 1.75배가 된다",
+        specialName: "맹공의 수호자",
     },
     1734: {//Sugar
         captain: "박식, 격투 캐릭터의 공격력이 1.5배 증가하고 턴 종료 후 캐릭터 회복력 3배의 체력을 회복한다.",
@@ -11125,12 +11129,12 @@ window.details = {
     1738: {//Raid Bellamy
         captain: "야심 캐릭터의 공격력을 2배 증가시킨다.",
         special: "적 1기의 체력을 10% 감소하고 1턴 동안 [PSY][INT]슬롯도 [유리] 슬롯으로 취급, 슬롯 영향력을 1.75배 증가시킨다. ",
-        specialName: "스프링 호퍼 - 흉탄 [Neo]",
+        specialName: "스프링 호퍼 - 흉탄 「개」",
     },
     1739: {//Raid Bellamy
         captain: "야심 캐릭터의 공격력을 2.5배 증가시킨다.",
         special: "적 1기의 체력을 10% 감소하고 1턴 동안 [PSY][INT]슬롯도 [유리] 슬롯으로 취급, 슬롯 영향력을 1.75배 증가시킨다. ",
-        specialName: "스프링 호퍼 - 흉탄 [Neo]",
+        specialName: "스프링 호퍼 - 흉탄 「개」",
     },
     1740: {//Sandersonia
         captain: "타격, 강인캐릭터의 공격력이 2배, DEX캐릭터의 체력이 1.1배 증가한다.",
@@ -11189,11 +11193,11 @@ window.details = {
         sailor: "DEX슬롯도 [유리] 슬롯으로 취급한다.",
         specialName: "뱀머리칼 강림 샐러맨더",
     },
-    1743: {//Marigold
-        captain: "타격, 강인 캐릭터의 공격력이 2.5배, [STR]캐릭터의 체력이 1.3배 증가한다.",
-        special: "DEX, QCK 슬롯을 자속성 슬롯으로 변환하고 2턴 동안 방어력이 다운된 적에게 주는 데미지가 1.75배가 되며, 1턴 동안 받는 데미지가 60% 감소한다",
-        sailor: "DEX슬롯도 [유리] 슬롯으로 취급한다.",
-        specialName: "뱀 머리를 한 살라맨더",
+    1743: {//Marigold :: modified
+        captain: "타격형과 강인형 캐릭터의 공격력을 2.5배, [STR]의 체력을 1.3배로 만든다",
+        special: "[DEX][QCK] 슬롯을 속성 일치 슬롯으로 바꾸고, 2턴 동안 방어력 감소 중인 적에게 주는 데미지가 1.75배가 되며, 1턴 동안 받는 데미지를 60% 줄인다",
+        sailor: "자신은 [DEX] 슬롯도 [유리] 슬롯으로 취급한다",
+        specialName: "뱀머리칼 강림 샐러맨더",
         limit: [
             { "description": "공격력 상승 : 20" },
             { "description": "체력 상승 : 30" },
@@ -11712,12 +11716,12 @@ window.details = {
     },
     1771: {//Kuma
         captain: "박식 타입 캐릭터의 공격력과 체력이 2 배가 된다",
-        specialName: "밀쳐내기 압력포 [Neo]",
+        specialName: "밀쳐내기 압력포 「개」",
         special: "[RCV][TND][EMPTY][BLOCK][BOMB]슬롯을 자속성 슬롯으로 변환하고, 1 턴 동안 슬롯의 영향이 1.75배가 된다",
     },
     1772: {//Kuma
         captain: "박식 타입 캐릭터의 공격력과 체력이 2 배가 되고 적으로부터받은 INT데미지의 5 배를 턴 종료시 적 전체에 준다",
-        specialName: "밀쳐내기 압력포 [Neo]",
+        specialName: "밀쳐내기 압력포 「개」",
         special: "[RCV][TND][EMPTY][BLOCK][BOMB]슬롯을 자속성 슬롯으로 변환하고, 1 턴 동안 슬롯의 영향이 1.75배가 된다",
     },
     1773: {//Kinemon
@@ -11805,16 +11809,16 @@ window.details = {
               }
           ],
     },
-    1780:{//Kizaru
-        captain: "사격 타입 캐릭터의 필살기 턴을 2 단축, 사격 타입 캐릭터의 공격력이 2.25 배, 체력이 1.5 배가 된다",
-        specialName: "팔치경「Neo」",
+    1780:{//Kizaru :: modified
+        captain: "사격형 캐릭터의 필살기 턴을 2턴 단축하고 공격력 2.25배, 체력 1.5배로 만든다",
+        specialName: "팔지경 「개」",
         special: [
             {
-                "description": "자신의 슬롯을 [DEX]으로 변환한다. 사격과 격투 타입 캐릭터의 필살턴을 1턴 단축한다",
+                "description": "자신의 슬롯을 [DEX]로 바꾸고 사격형과 격투형의 필살기 턴을 1턴 단축한다",
                 "cooldown": [ 14, 5 ]
             },
             {
-                "description": "자신의 슬롯을 [DEX]으로 변환한다. 사격과 격투 타입 캐릭터의 필살턴을 1턴 단축한다. 2 턴 동안 체인 계수가 +0.5된다",
+                "description": "자신의 슬롯을 [DEX]로 바꾸고, 사격형과 격투형의 필살기 턴을 1턴 단축, 2턴 동안 체인 계수가 +0.5 된다",
                 "cooldown": [ 20, 11 ]
             }
         ],
@@ -12506,12 +12510,65 @@ window.details = {
 	1825: {//Akainu
         captain: "[INT] > [INT] > [INT]캐릭터가 연속 체인으로 Good 판정 이상 받으면 공격력이 2.5배 상승한다. ",
         special: "적 전체에 캐릭터 공격력 50배의 [INT]데미지를 주고, [INT]캐릭터의 슬롯을 [INT]으로 변경한다,1턴 동안 [INT]캐릭터의 슬롯 영향을 1.75배 증가시킨다.",
-        specialName: "거대한 분출[Neo]",
+        specialName: "거대한 분출「개」",
     },
-    1826: {//Akainu
-        captain: "[INT] > [INT] > [INT]캐릭터가 연속 체인으로 Good 판정 이상 받으면 공격력이 3배 상승한다. ",
-        special: "적 전체에 캐릭터 공격력 50배의 [INT]데미지를 주고, [INT]캐릭터의 슬롯을 [INT]으로 변경한다,1턴 동안 [INT]캐릭터의 슬롯 영향을 1.75배 증가시킨다.",
-        specialName: "거대한 분출[Neo]",
+    1826: {//Akainu :: modified
+        captain: "속성 [INT]→[INT]→[INT] 캐릭터 순으로 GOOD 이상 공격 시 이후 캐릭터의 공격력이 3배가 된다",
+        special: "적 전체에게 공격력x50배의 [INT] 데미지를 주고, [INT] 캐릭터의 슬롯을 [INT]로 바꾸고, 1턴 동안 [INT]의 일반 공격에 의한 속성 상성의 영향을 상당히 증폭시킨다",
+        specialName: "거대한 분출「개」",
+    },
+    1827: {//Sicilian Colo
+        captain: "Boosts ATK of [INT] characters by 2x",
+        special: "Reduces crew's current HP by 50%, Boosts ATK of [INT] characters by 2x for 1 turn and randomize non-matching orbs, including [BLOCK] orbs",
+        specialName: "Explosive Spirit",
+    },
+    1828: {//Sicilian Colo :: modified
+        captain: "[INT]의 공격력을 2.5배로 만들고, 남은 체력이 적을 때는 3배가 된다",
+        special: "일당의 체력이 50% 감소하는 대신 1턴 동안 [INT]의 공격력이 2배, 속성 일치 슬롯 이외의 슬롯을 랜덤으로 바꾼다([BLOCK] 슬롯 변환 가능)",
+        specialName: "스트라이크 스트럭처",
+        sailor: {
+            "base": "None",
+            "level1": "Boosts base ATK of Slasher characters by 40",
+        },
+        limit: [
+            { "description": "Boosts base HP by 30" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Acquire Sailor Ability 1: Boosts base ATK of Slasher characters by 40" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base HP by 40" },
+            { "description": "Boosts base RCV by 20" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Acquire Potential 1: [PSY] Damage Reduction" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base RCV by 30" },
+            { "description": "Boosts base ATK by 25" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Acquire Potential 2: Critical Hit" },
+        ],
+        potential: [
+            {
+                "Name": "[PSY] Damage Reduction",
+                "description": [
+                    "Level 1: Reduces Damage received from [PSY] enemies by 1%",
+                    "Level 2: Reduces Damage received from [PSY] enemies by 2%",
+                    "Level 3: Reduces Damage received from [PSY] enemies by 3%",
+                    "Level 4: Reduces Damage received from [PSY] enemies by 4%",
+                    "Level 5: Reduces Damage received from [PSY] enemies by 5%"
+                ]
+            },
+            {
+                "Name": "Critical Hit",
+                "description": [
+                    "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
+                    "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a perfect with this character, there is a 15% chance to deal 5% of this character's attack in extra damage",
+                    "Level 4: If you hit a perfect with this character, there is a 20% chance to deal 5% of this character's attack in extra damage",
+                    "Level 5: If you hit a perfect with this character, there is a 20% chance to deal 10% of this character's attack in extra damage"
+                ]
+            },
+        ]
     },
 	
     1829: {//Raid Caesar
@@ -12587,11 +12644,11 @@ window.details = {
         specialName: "Fathomless Infinite Hell",
         sailor: "When any other character uses a special, reduces own cooldown by 5 turns",
     },
-    1842: {//Caribou
+    1842: {//Caribou :: modified
         captain: "Boosts ATK of Driven characters by 1.5x, deals 4x character's ATK in [DEX] damage to all enemies at the end of each turn",
-        special: "Boosts ATK of Driven characters by 1.5x for 1 turn, reduces enemy's Threshold Damage Reduction by 2 turns and ATK Up duration by 3 turns",
-        specialName: "Fathomless Infinite Hell",
-        sailor: "When any other character uses a special, reduces own cooldown by 5 turns",
+        special: "1턴 동안 야심형 캐릭터의 공격력을 1.5배, 적의 [DAMAGE REDUCTION] 상태를 2턴 줄이고, 적의 [ATK UP] 상태를 3턴 줄인다",
+        specialName: "끝이 없는 무한지옥",
+        sailor: "자신 이외의 캐릭터가 필살기 사용 시, 자신의 필살기 턴이 5턴 단축된다",
     },
     1843: {//Coribou
         captain: "Boosts ATK of Driven and Striker characters by 1.5x",
@@ -12888,7 +12945,7 @@ window.details = {
     1862: {//Neo Coliseum Kinemon
         captain: "Boosts ATK of Free Spirit characters by 2x, recovers 1x character's RCV in HP at the end of each turn",
         special: "Reduces Special Cooldown of Slasher and Free Spirit characters by 1 turn and changes adjacent orbs into Matching Orbs",
-        specialName: "Poof [Neo]",
+        specialName: "Poof 「개」",
     },
     1863: {//Neo Coliseum Kinemon :: modified
         captain: "자유형 캐릭터의 공격력을 2.5배로 만들고, 턴 종료 시 회복력x2배의 체력을 회복한다",
@@ -13840,12 +13897,12 @@ window.details = {
     1898: {//Neo Killer
         captain: "Boosts ATK of Striker and Slasher characters by 2x, reduces crew's RCV to 0.",
         special: "Changes [STR], [DEX] and [QCK] orbs on Striker and Slasher characters into matching orbs, cuts the current HP of one enemy by 8%",
-        specialName: "Hitting Size [Neo]"
+        specialName: "Hitting Size 「개」"
     },
     1899: {//Neo Killer
         captain: "Boosts ATK of Striker and Slasher characters by 2.75x if they have a Matching orb, by 2x otherwise, reduces crew's RCV to 0.",
         special: "Changes [STR], [DEX] and [QCK] orbs on Striker and Slasher characters into matching orbs, cuts the current HP of one enemy by 8%",
-        specialName: "Hitting Size [Neo]",
+        specialName: "Hitting Size 「개」",
     },
     1900: {//EXP Zoro :: modified
         captain: "일당의 공격력을 2.25배로 만들고, 획득하는 베리와 해적 EXP가 1.2배가 된다(획득하는 베리와 해적 EXP의 증가 효과는 모험 도중에 선장이 되었을 때는 발동되지 않습니다)",
@@ -13859,14 +13916,14 @@ window.details = {
         specialName: "단단한 비장의 카드",
         sailor: "자신은 날아가지 않는다",
     },
-    1902:{//Pica
-        captain: "Boosts ATK of Driven characters by 1.75x and their HP by 2.25x",
-        special: "Cuts the current HP of one enemy by 20%, reduces Bind and Despair duration by 4 turns, changes all orbs including [BLOCK] orbs on Driven characters into [G] orbs",
+    1902:{//Pica :: modified
+        captain: "야심형 캐릭터의 공격력을 1.75배, 체력을 2.25배로 만든다",
+        special: "적 1명의 HP를 20% 줄이고, 봉쇄, 선장효과 무효 상태를 4턴 회복, 야심형 캐릭터의 [BLOCK] 슬롯을 포함한 모든 슬롯을 [G] 슬롯으로 바꾼다",
         specialNotes: "#{gOrbs}",
-        specialName: "The Toughest Trump Card",
+        specialName: "단단한 비장의 카드",
         sailor: {
-            "base": "Cannot be Blown Away",
-            "level1": "Makes [INT] orbs \"beneficial\" for Driven characters",
+            "base": "자신은 날아가지 않는다",
+            "level1": "야심형 캐릭터는 [INT] 슬롯도 [유리] 슬롯으로 취급한다",
         },
         sailorNotes: "#{beneficial}",
         limit: [
@@ -13916,14 +13973,11 @@ window.details = {
         sailor: "Makes [DEX] orbs \"beneficial\" for this unit",
         sailorNotes: "#{beneficial}",
     },
-    1904:{//Senor Pink
-        captain: "Boosts ATK of Free Spirit characters by 2.75x",
-        special: "Reduces enemy Barrier duration by 1 turn, Reduces enemies Damage Nullification duration by 1 turn and deals 30x character's ATK in [QCK] damage to all enemies",
-        specialName: "Diaper Bomb",
-        sailor: {
-            "base": "Makes [DEX] orbs \"beneficial\" for this unit",
-            "level1": "Boosts base ATK, HP and RCV of Free Spirit characters by 50",
-        },
+    1904:{//Senor Pink :: modified
+        captain: "자유형 캐릭터의 공격력을 2.75배로 만든다",
+        special: "적 전체에게 캐릭터의 공격력x30배의 [QCK] 데미지를 주고, 적의 HP 바에 걸려있는 모든 배리어와 데미지 무효 상태를 1턴 줄인다",
+        specialName: "기저귀 폭탄",
+        sailor: "자신은 [DEX] 슬롯도 [유리] 슬롯으로 취급한다",
         sailorNotes: "#{beneficial}",
         limit: [
             { "description": "Boosts base ATK by 30" },
@@ -14027,15 +14081,12 @@ window.details = {
         specialName: "Beta Betton Meteora",
         sailor: "Boosts base ATK of the characters in the top row by 100",
     },
-    1908:{//Trebol
-        captain: "Boosts ATK of Driven characters by 3.5x, reduces crew's current HP by 10% at the end of each turn, reduces his own ATK multiplier by 4% at the end of each turn",
+    1908:{//Trebol :: modified
+        captain: "야심형 캐릭터의 공격력을 3.5배로 만들고, 턴이 경과할 때마다 공격력과 체력이 감소한다",
         captainNotes: "His ATK multiplier will be 3.5x on the first turn, 3.?x on the second, 3.?x on the third and so on. The reduction stops once the multiplier is ???x. The multiplier affects all Driven characters. You will not die to the HP reduction",
-        special: "Reduces enemies Threshold Damage Reduction, Percent Damage Reduction and Increased Defense duration by 4 turns. If there are 6 Driven characters in your crew, Boosts ATK of Driven characters by 2x for 1 turn and reduces Special Cooldown of your top row by 1 turn.",
-        specialName: "Beta Betton Meteora",
-        sailor: {
-            "base": "Boosts base ATK of the characters in the top row by 100",
-            "level1": "Makes [TND] orbs \"beneficial\" for Driven characters",
-        },
+        special: "적 전체에 걸려 있는 방어력 상승, 데미지 감소, ATK UP 상태를 4턴 줄이고, 일당에 야심형 캐릭터가 6명 있을 때, 1턴 동안 야심형 캐릭터의 공격력을 2배로 만들고, 상단 캐릭터의 필살기 턴을 1턴 단축한다",
+        specialName: "찐득 지휘봉 유성",
+        sailor: "상단 캐릭터의 기본 공격력이 100 상승한다",
         sailorNotes: "#{beneficial}",
         limit: [
             { "description": "Boosts base HP by 20" },
@@ -14377,10 +14428,10 @@ window.details = {
         special: "Randomizes all non-matching orbs, boosts ATK of all characters by 1.75x for 1 turn",
         specialName: "Maelstrom at Sea",
     },
-    1924: {//Rayleigh
-        captain: "Boosts ATK of Slasher and Cerebral characters by 2.5x, recovers 2x character's RCV in HP at the end of each turn",
-        special: "Randomizes all non-matching orbs, boosts ATK of all characters by 1.75x for 1 turn",
-        specialName: "Maelstrom at Sea",
+    1924: {//Rayleigh :: modified
+        captain: "박식형과 참격형 캐릭터의 공격력이 2.5배가 되고, 턴 종료 시에 캐릭터의 회복력x2배의 체력을 회복한다",
+        special: "일당의 속성 일치 슬롯 이외의 슬롯을 랜덤으로 바꾸고, 1턴 동안 일당의 공격력을 1.75배로 만든다",
+        specialName: "격동의 대해전",
         limit: "This character has a Limit Break Tree"
     },
     1925: {//Coby
@@ -14593,13 +14644,13 @@ window.details = {
     },
     1929: {//Enel Neo
         special: "Reduces crew's current HP by 90%, deals 20,000 fixed damage to all enemies, boosts ATK of [DEX] characters by 2x for 1 turn",
-        specialName: "200,000,000 Volt Amaru [Neo]",
+        specialName: "200,000,000 Volt Amaru 「개」",
         specialNotes: "#{fixed}",
         captain: "Boosts ATK of [DEX] characters by 2x",
     },
     1930: {//Enel Neo
         special: "Reduces crew's current HP by 90%, deals 20,000 fixed damage to all enemies, boosts ATK of [DEX] characters by 2x for 1 turn",
-        specialName: "200,000,000 Volt Amaru [Neo]",
+        specialName: "200,000,000 Volt Amaru 「개」",
         specialNotes: "#{fixed}",
         captain: "Boosts ATK of [DEX] characters by 2.25x, recovers 5x character's RCV in HP at the end of each turn",
     },
@@ -15511,13 +15562,13 @@ window.details = {
     1975: {//X Drake
         captain: "Boosts ATK of all characters by 2x if HP is below 30% at the start of the turn",
         special: "Deals 50x character's ATK in [QCK] damage to one enemy, changes own orb into [QCK] and locks all orbs for 1 turn. If HP above 70% then changes [RCV], [TND], [EMPTY], [BOMB] and [BLOCK] orbs into matching orbs and if HP below 30% then changes adjacent orbs into matching orbs",
-        specialName: "Double Edge of Revolt [Neo]",
+        specialName: "Double Edge of Revolt 「개」",
         sailor: "When HP is below 30% at the start of the turn, boosts base ATK of all characters by 40",
     },
     1976: {//X Drake
         captain: "Boosts ATK of all characters by 2.5x if HP is below 30% at the start of the turn",
         special: "Deals 50x character's ATK in [QCK] damage to one enemy, changes own orb into [QCK] and locks all orbs for 1 turn. If HP above 70% then changes [RCV], [TND], [EMPTY], [BOMB] and [BLOCK] orbs into matching orbs and if HP below 30% then changes adjacent orbs into matching orbs",
-        specialName: "Double Edge of Revolt [Neo]",
+        specialName: "Double Edge of Revolt 「개」",
         sailor: "When HP is below 30% at the start of the turn, boosts base ATK of all characters by 40",
     },
     1977: {//Rayleigh
@@ -16407,12 +16458,12 @@ window.details = {
     2016: {//Coliseum Diamante
         captain: "Boosts ATK of Driven characters by 2x",
         special: "Deals 20x Character's ATK in [PSY] damage to all enemies and changes [BLOCK] orbs into Matching orbs. If HP is above 50% at the time the special is activated, boosts ATK of Driven characters by 2x for 1 turn, 1.5x otherwise",
-        specialName: "Half Moon Glaive [Neo]",
+        specialName: "Half Moon Glaive 「개」",
     },
     2017: {//Coliseum Diamante
         captain: "Boosts ATK of Driven characters by 2.25x and boosts HP of Striker and Slasher characters by 1.5x",
         special: "Deals 20x Character's ATK in [PSY] damage to all enemies and changes [BLOCK] orbs into Matching orbs. If HP is above 50% at the time the special is activated, boosts ATK of Driven characters by 2x for 1 turn, 1.5x otherwise",
-        specialName: "Half Moon Glaive [Neo]",
+        specialName: "Half Moon Glaive 「개」",
     },
     2018: {//FN Shanks
         captain: "Boosts ATK of Free Spirit characters by 1.75x",
@@ -17264,12 +17315,12 @@ window.details = {
     },
     2069: {//Neo Boa
         captain: "Boosts ATK of Free Spirit characters by 2x",
-        specialName: "Slave Arrow [Neo]",
+        specialName: "Slave Arrow 「개」",
         special: "Locks the chain multiplier at 2.5x for 3 turns, delays all enemies for 1 turn and changes own orb and the captain's orb into matching"
     },
     2070: {//Neo Boa
         captain: "Boosts ATK and HP of Free Spirit characters by 2x",
-        specialName: "Slave Arrow [Neo]",
+        specialName: "Slave Arrow 「개」",
         special: "Locks the chain multiplier at 2.5x for 3 turns, delays all enemies for 1 turn and changes own orb and the captain's orb into matching"
     },
     2071: {//Anni Chopper
