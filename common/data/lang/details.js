@@ -1057,7 +1057,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [ 
                     "Level 1: 회복 무효 상태 회복 : 1 턴",
                     "Level 2: 회복 무효 상태 회복 : 1 턴",
@@ -1469,7 +1469,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [ 
                     "Level 1: 일당의 체력이 가득 차 있을시, 이 캐릭터의 공격은 베리어를 무시한다.",
                     "Level 2: 일당의 체력이 가득 차 있을시, 이 캐릭터의 공격은 베리어를 무시한다.",
@@ -1531,7 +1531,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Pinch Healing",
+                "Name": "긴급 회복",
                 "description": [ 
                     "Level 1: 전투 시작 시 체력이 10% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
                     "Level 2: 전투 시작 시 체력이 15% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
@@ -1541,7 +1541,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [ 
                     "Level 1: 일당의 체력이 가득 차 있을시, 이 캐릭터의 공격은 베리어를 무시한다.",
                     "Level 2: 일당의 체력이 가득 차 있을시, 이 캐릭터의 공격은 베리어를 무시한다.",
@@ -1997,7 +1997,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [ 
                     "Level 1: 일당의 체력이 가득 차 있을시, 이 캐릭터의 공격은 베리어를 무시한다.",
                     "Level 2: 일당의 체력이 가득 차 있을시, 이 캐릭터의 공격은 베리어를 무시한다.",
@@ -2576,7 +2576,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [ 
                     "Level 1: If there are 6 Shooter characters in your crew, 회복 무효 상태 회복 : 1 턴",
                     "Level 2: If there are 5 Shooter characters in your crew, 회복 무효 상태 회복 : 1 턴",
@@ -4872,7 +4872,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [ 
                     "Level 1: 일당의 체력이 가득 차 있을시, 이 캐릭터의 공격은 베리어를 무시한다.",
                     "Level 2: 일당의 체력이 가득 차 있을시, 이 캐릭터의 공격은 베리어를 무시한다.",
@@ -4978,7 +4978,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [ 
                     "Level 1: 일당의 체력이 가득 차 있을시, 이 캐릭터의 공격은 베리어를 무시한다.",
                     "Level 2: 일당의 체력이 가득 차 있을시, 이 캐릭터의 공격은 베리어를 무시한다.",
@@ -5582,7 +5582,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Pinch Healing",
+                "Name": "긴급 회복",
                 "description": [ 
                     "Level 1: 전투 시작 시 체력이 10% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
                     "Level 2: 전투 시작 시 체력이 15% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
@@ -6587,7 +6587,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [ 
                     "Level 1: If there are 6 Shooter characters in your crew, 회복 무효 상태 회복 : 1 턴",
                     "Level 2: If there are 5 Shooter characters in your crew, 회복 무효 상태 회복 : 1 턴",
@@ -6714,7 +6714,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [ 
                     "Level 1: 일당의 체력이 가득 차 있을시, 이 캐릭터의 공격은 베리어를 무시한다.",
                     "Level 2: 일당의 체력이 가득 차 있을시, 이 캐릭터의 공격은 베리어를 무시한다.",
@@ -7160,7 +7160,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Pinch Healing",
+                "Name": "긴급 회복",
                 "description": [ 
                     "Level 1: 전투 시작 시 체력이 10% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
                     "Level 2: 전투 시작 시 체력이 15% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
@@ -7170,7 +7170,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [ 
                     "Level 1: 일당의 체력이 가득 차 있을시, 이 캐릭터의 공격은 베리어를 무시한다.",
                     "Level 2: 일당의 체력이 가득 차 있을시, 이 캐릭터의 공격은 베리어를 무시한다.",
@@ -7587,7 +7587,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Pinch Healing",
+                "Name": "긴급 회복",
                 "description": [ 
                     "Level 1: 전투 시작 시 체력이 10% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
                     "Level 2: 전투 시작 시 체력이 15% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
@@ -7597,7 +7597,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [ 
                     "Level 1: 회복 무효 상태 회복 : 1 턴",
                     "Level 2: 회복 무효 상태 회복 : 1 턴",
@@ -8286,7 +8286,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [ 
                     "Level 1: 일당의 체력이 가득 차 있을시, 이 캐릭터의 공격은 베리어를 무시한다.",
                     "Level 2: 일당의 체력이 가득 차 있을시, 이 캐릭터의 공격은 베리어를 무시한다.",
@@ -8882,7 +8882,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [ 
                     "Level 1: 일당의 체력이 가득 차 있을시, 이 캐릭터의 공격은 베리어를 무시한다.",
                     "Level 2: 일당의 체력이 가득 차 있을시, 이 캐릭터의 공격은 베리어를 무시한다.",
@@ -9286,7 +9286,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [ 
                     "Level 1: 회복 무효 상태 회복 : 1 턴",
                     "Level 2: 회복 무효 상태 회복 : 1 턴",
@@ -9306,7 +9306,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [ 
                     "Level 1: 일당의 체력이 가득 차 있을시, 이 캐릭터의 공격은 베리어를 무시한다.",
                     "Level 2: This character's attack will ignore barriers if HP is above 90%",
@@ -9419,7 +9419,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [ 
                     "Level 1: 회복 무효 상태 회복 : 1 턴",
                     "Level 2: 회복 무효 상태 회복 : 1 턴",
@@ -9439,7 +9439,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [ 
                     "Level 1: 일당의 체력이 가득 차 있을시, 이 캐릭터의 공격은 베리어를 무시한다.",
                     "Level 2: This character's attack will ignore barriers if HP is above 90%",
@@ -10337,7 +10337,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [ 
                     "Level 1: If there are 6 Shooter characters in your crew, 회복 무효 상태 회복 : 1 턴",
                     "Level 2: If there are 6 Shooter characters in your crew, 회복 무효 상태 회복 : 1 턴",
@@ -10347,7 +10347,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [ 
                     "Level 1: 일당의 체력이 가득 차 있을시, 이 캐릭터의 공격은 베리어를 무시한다.",
                     "Level 2: 일당의 체력이 가득 차 있을시, 이 캐릭터의 공격은 베리어를 무시한다.",
@@ -10459,7 +10459,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [ 
                     "Level 1: 일당의 체력이 가득 차 있을시, 이 캐릭터의 공격은 베리어를 무시한다.",
                     "Level 2: 일당의 체력이 가득 차 있을시, 이 캐릭터의 공격은 베리어를 무시한다.",
@@ -10623,7 +10623,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Pinch Healing",
+                "Name": "긴급 회복",
                 "description": [ 
                     "Level 1: 전투 시작 시 체력이 10% 미만이면, heals for 2x this character's RCV at the end of the 턴 each time you hit a PERFECT",
                     "Level 2: 전투 시작 시 체력이 15% 미만이면, heals for 2x this character's RCV at the end of the 턴 each time you hit a PERFECT",
@@ -10633,7 +10633,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [ 
                     "Level 1: 일당의 체력이 가득 차 있을시, 이 캐릭터의 공격은 베리어를 무시한다.",
                     "Level 2: This character's attack will ignore barriers if HP is above 90%",
@@ -10643,7 +10643,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [ 
                     "Level 1: 회복 무효 상태 회복 : 1 턴",
                     "Level 2: 회복 무효 상태 회복 : 2 턴",
@@ -10771,7 +10771,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [ 
                     "Level 1: 회복 무효 상태 회복 : 1 턴",
                     "Level 2: 회복 무효 상태 회복 : 1 턴",
@@ -10812,7 +10812,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Pinch Healing",
+                "Name": "긴급 회복",
                 "description": [ 
                     "Level 1: 전투 시작 시 체력이 5% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 1배 만큼 체력을 회복한다.",
                     "Level 2: 전투 시작 시 체력이 5% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 1.25배 만큼 체력을 회복한다",
@@ -10863,7 +10863,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Pinch Healing",
+                "Name": "긴급 회복",
                 "description": [ 
                     "Level 1: 전투 시작 시 체력이 10% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
                     "Level 2: 전투 시작 시 체력이 15% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 0.5배 만큼 체력을 회복한다.",
@@ -11176,7 +11176,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [ 
                     "Level 1: 회복 무효 상태 회복 : 1 턴",
                     "Level 2: 회복 무효 상태 회복 : 1 턴",
@@ -11227,7 +11227,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [ 
                     "Level 1: 회복 무효 상태 회복 : 1 턴",
                     "Level 2: 회복 무효 상태 회복 : 1 턴",
@@ -11268,7 +11268,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [ 
                     "Level 1: 만약 일당 중 6명이 사격 캐릭터면, 회복 무효 상태 회복 : 1 턴",
                     "Level 2: 만약 일당 중 5명이 사격 캐릭터면, 회복 무효 상태 회복 : 1 턴",
@@ -11278,7 +11278,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [ 
                     "Level 1: 일당의 체력이 가득 차 있을시, 이 캐릭터의 공격은 베리어를 무시한다.",
                     "Level 2: 일당의 체력이 가득 차 있을시, 이 캐릭터의 공격은 베리어를 무시한다.",
@@ -11332,7 +11332,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Pinch Healing",
+                "Name": "긴급 회복",
                 "description": [ 
                     "Level 1: 턴 시작시 체력이 10% 미만이면, PERFECT 적중으로 턴을 종료 할때 캐릭터 회복력의 2배 만큼 회복한다.",
                     "Level 2: 턴 시작시 체력이 15% 미만이면, PERFECT 적중으로 턴을 종료 할때 캐릭터 회복력의 2배 만큼 회복한다.",
@@ -11342,7 +11342,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [ 
                     "Level 1: 남은 체력이 99%이상이면, 이 캐릭터의 공격은 베리어를 무시한다.",
                     "Level 2: 남은 체력이 99%이상이면, 이 캐릭터의 공격은 베리어를 무시한다.",
@@ -11352,7 +11352,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [ 
                     "Level 1: 회복 무효 상태 회복 : 1 턴",
                     "Level 2: 회복 무효 상태 회복 : 2 턴",
@@ -11475,7 +11475,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Pinch Healing",
+                "Name": "긴급 회복",
                 "description": [ 
                     "Level 1: 턴 시작시 체력이 10% 미만이면, PERFECT 적중으로 턴을 종료 할때 캐릭터 회복력의 2배 만큼 회복한다.",
                     "Level 2: 턴 시작시 체력이 15% 미만이면, PERFECT 적중으로 턴을 종료 할때 캐릭터 회복력의 2배 만큼 회복한다.",
@@ -11485,7 +11485,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [ 
                     "Level 1: 회복 무효 상태 회복 : 1 턴",
                     "Level 2: 회복 무효 상태 회복 : 2 턴",
@@ -11495,7 +11495,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [ 
                     "Level 1: 남은 체력이 99%이상이면, 이 캐릭터의 공격은 베리어를 무시한다.",
                     "Level 2: 남은 체력이 80%이상이면, 이 캐릭터의 공격은 베리어를 무시한다.",
@@ -11609,7 +11609,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Pinch Healing",
+                "Name": "긴급 회복",
                 "description": [ 
                     "Level 1: 전투 시작 시 체력이 10% 미만이면, heals for 2x this character's RCV at the end of the 턴 each time you hit a PERFECT",
                     "Level 2: 전투 시작 시 체력이 15% 미만이면, heals for 2x this character's RCV at the end of the 턴 each time you hit a PERFECT",
@@ -12035,7 +12035,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [ 
                     "Level 1: 일당의 체력이 가득 차 있을시, 이 캐릭터의 공격은 베리어를 무시한다.",
                     "Level 2: 일당의 체력이 가득 차 있을시, 이 캐릭터의 공격은 베리어를 무시한다.",
@@ -12166,7 +12166,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [ 
                     "Level 1: 회복 무효 상태 회복 : 1 턴",
                     "Level 2: 회복 무효 상태 회복 : 1 턴",
@@ -12217,7 +12217,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [ 
                     "Level 1: 회복 무효 상태 회복 : 1 턴",
                     "Level 2: 회복 무효 상태 회복 : 1 턴",
@@ -12549,7 +12549,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[PSY] Damage Reduction",
+                "Name": "[PSY]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduces Damage received from [PSY] enemies by 1%",
                     "Level 2: Reduces Damage received from [PSY] enemies by 2%",
@@ -12764,7 +12764,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[PSY] Damage Reduction",
+                "Name": "[PSY]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
@@ -12931,7 +12931,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 99%",
@@ -13033,7 +13033,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Pinch Healing",
+                "Name": "긴급 회복",
                 "description": [
                     "Level 1: If HP is below 10% at the start of the turn, heals for 2x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
                     "Level 2: If HP is below 15% at the start of the turn, heals for 2x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
@@ -13199,7 +13199,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Pinch Healing",
+                "Name": "긴급 회복",
                 "description": [
                     "Level 1: If HP is below 5% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
                     "Level 2: If HP is below 5% at the start of the turn, heals for 1.25x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
@@ -13255,7 +13255,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Pinch Healing",
+                "Name": "긴급 회복",
                 "description": [
                     "Level 1: If HP is below 5% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
                     "Level 2: If HP is below 5% at the start of the turn, heals for 1.25x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
@@ -13326,7 +13326,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[PSY] Damage Reduction",
+                "Name": "[PSY]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
@@ -13336,7 +13336,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "[INT] Damage Reduction",
+                "Name": "[INT]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
@@ -13402,7 +13402,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[PSY] Damage Reduction",
+                "Name": "[PSY]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
@@ -13422,7 +13422,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -13497,7 +13497,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "[PSY] Damage Reduction",
+                "Name": "[PSY]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
@@ -13569,7 +13569,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[QCK] Damage Reduction",
+                "Name": "[QCK]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [QCK] characters by 1%",
                     "Level 2: Reduce damage taken from [QCK] characters by 2%",
@@ -13589,7 +13589,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -13689,7 +13689,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[INT] Damage Reduction",
+                "Name": "[INT]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
@@ -13699,7 +13699,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Pinch Healing",
+                "Name": "긴급 회복",
                 "description": [
                     "Level 1: If HP is below 5% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
                     "Level 2: If HP is below 10% at the start of the turn, heals for 1.25x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
@@ -13797,7 +13797,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[STR] Damage Reduction",
+                "Name": "[STR]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
@@ -13807,7 +13807,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Pinch Healing",
+                "Name": "긴급 회복",
                 "description": [
                     "Level 1: If HP is below 5% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
                     "Level 2: If HP is below 5% at the start of the turn, heals for 1.25x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
@@ -13873,7 +13873,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[DEX] Damage Reduction",
+                "Name": "[DEX]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [DEX] characters by 1%",
                     "Level 2: Reduce damage taken from [DEX] characters by 2%",
@@ -13883,7 +13883,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Pinch Healing",
+                "Name": "긴급 회복",
                 "description": [
                     "Level 1: If HP is below 5% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
                     "Level 2: If HP is below 5% at the start of the turn, heals for 1.25x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
@@ -13945,7 +13945,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[PSY] Damage Reduction",
+                "Name": "[PSY]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
@@ -13998,7 +13998,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[STR] Damage Reduction",
+                "Name": "[STR]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
@@ -14008,7 +14008,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Pinch Healing",
+                "Name": "긴급 회복",
                 "description": [
                     "Level 1: If HP is below 10% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
                     "Level 2: If HP is below 15% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
@@ -14053,7 +14053,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[INT] Damage Reduction",
+                "Name": "[INT]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
@@ -14181,7 +14181,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[QCK] Damage Reduction",
+                "Name": "[QCK]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [QCK] characters by 1%",
                     "Level 2: Reduce damage taken from [QCK] characters by 2%",
@@ -14191,7 +14191,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -14298,7 +14298,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[STR] Damage Reduction",
+                "Name": "[STR]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
@@ -14392,7 +14392,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Pinch Healing",
+                "Name": "긴급 회복",
                 "description": [
                     "Level 1: If HP is below 10% at the start of the turn, heals for 2x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
                     "Level 2: If HP is below 15% at the start of the turn, heals for 2x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
@@ -14402,7 +14402,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 1 turn",
@@ -14412,7 +14412,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 80%",
@@ -14468,7 +14468,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Pinch Healing",
+                "Name": "긴급 회복",
                 "description": [
                     "Level 1: If HP is below 10% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
                     "Level 2: If HP is below 15% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
@@ -14534,7 +14534,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[QCK] Damage Reduction",
+                "Name": "[QCK]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [QCK] characters by 1%",
                     "Level 2: Reduce damage taken from [QCK] characters by 2%",
@@ -14610,7 +14610,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[DEX] Damage Reduction",
+                "Name": "[DEX]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [DEX] characters by 2%",
                     "Level 2: Reduce damage taken from [DEX] characters by 3%",
@@ -14630,7 +14630,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -14727,7 +14727,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[STR] Damage Reduction",
+                "Name": "[STR]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
@@ -14737,7 +14737,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -14747,7 +14747,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 90%",
@@ -14849,7 +14849,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[DEX] Damage Reduction",
+                "Name": "[DEX]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [DEX] characters by 1%",
                     "Level 2: Reduce damage taken from [DEX] characters by 2%",
@@ -14903,7 +14903,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[DEX] Damage Reduction",
+                "Name": "[DEX]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [DEX] characters by 1%",
                     "Level 2: Reduce damage taken from [DEX] characters by 2%",
@@ -14913,7 +14913,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Pinch Healing",
+                "Name": "긴급 회복",
                 "description": [
                     "Level 1: If HP is below 5% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
                     "Level 2: If HP is below 5% at the start of the turn, heals for 1.25x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
@@ -15056,7 +15056,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[INT] Damage Reduction",
+                "Name": "[INT]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
@@ -15121,7 +15121,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[PSY] Damage Reduction",
+                "Name": "[PSY]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
@@ -15176,7 +15176,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[STR] Damage Reduction",
+                "Name": "[STR]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
@@ -15233,7 +15233,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[DEX] Damage Reduction",
+                "Name": "[DEX]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [DEX] characters by 1%",
                     "Level 2: Reduce damage taken from [DEX] characters by 2%",
@@ -15243,7 +15243,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -15289,7 +15289,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[QCK] Damage Reduction",
+                "Name": "[QCK]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [QCK] characters by 1%",
                     "Level 2: Reduce damage taken from [QCK] characters by 2%",
@@ -15452,7 +15452,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -15537,7 +15537,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -15618,7 +15618,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "[QCK] Damage Reduction",
+                "Name": "[QCK]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [QCK] characters by 1%",
                     "Level 2: Reduce damage taken from [QCK] characters by 2%",
@@ -15731,7 +15731,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[STR] Damage Reduction",
+                "Name": "[STR]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
@@ -15741,7 +15741,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "[DEX] Damage Reduction",
+                "Name": "[DEX]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [DEX] characters by 1%",
                     "Level 2: Reduce damage taken from [DEX] characters by 2%",
@@ -15751,7 +15751,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Pinch Healing",
+                "Name": "긴급 회복",
                 "description": [
                     "Level 1: If HP is below 10% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
                     "Level 2: If HP is below 15% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
@@ -15814,7 +15814,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -15824,7 +15824,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Pinch Healing",
+                "Name": "긴급 회복",
                 "description": [
                     "Level 1: If HP is below 10% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
                     "Level 2: If HP is below 15% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
@@ -15868,7 +15868,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[INT] Damage Reduction",
+                "Name": "[INT]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
@@ -15934,7 +15934,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Pinch Healing",
+                "Name": "긴급 회복",
                 "description": [
                     "Level 1: If HP is below 10% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
                     "Level 2: If HP is below 15% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
@@ -15997,7 +15997,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[STR] Damage Reduction",
+                "Name": "[STR]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
@@ -16007,7 +16007,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Pinch Healing",
+                "Name": "긴급 회복",
                 "description": [
                     "Level 1: If HP is below 10% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
                     "Level 2: If HP is below 15% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
@@ -16113,7 +16113,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Pinch Healing",
+                "Name": "긴급 회복",
                 "description": [
                     "Level 1: If HP is below 20% at the start of the turn, heals for 0.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
                     "Level 2: If HP is below 25% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
@@ -16168,7 +16168,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[INT] Damage Reduction",
+                "Name": "[INT]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
@@ -16178,7 +16178,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 99%",
@@ -16280,7 +16280,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "[PSY] Damage Reduction",
+                "Name": "[PSY]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
@@ -16290,7 +16290,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Pinch Healing",
+                "Name": "긴급 회복",
                 "description": [
                     "Level 1: If HP is below 10% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
                     "Level 2: If HP is below 20% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
@@ -16380,7 +16380,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -16390,7 +16390,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Pinch Healing",
+                "Name": "긴급 회복",
                 "description": [
                     "Level 1: If HP is below 10% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
                     "Level 2: If HP is below 15% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
@@ -16434,7 +16434,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[INT] Damage Reduction",
+                "Name": "[INT]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
@@ -16444,7 +16444,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 90%",
@@ -16536,7 +16536,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[PSY] Damage Reduction",
+                "Name": "[PSY]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
@@ -16556,7 +16556,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 90%",
@@ -16618,7 +16618,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[INT] Damage Reduction",
+                "Name": "[INT]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
@@ -16638,7 +16638,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 90%",
@@ -16684,7 +16684,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[INT] Damage Reduction",
+                "Name": "[INT]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
@@ -16694,7 +16694,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -16896,7 +16896,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -17226,7 +17226,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -17236,7 +17236,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Pinch Healing",
+                "Name": "긴급 회복",
                 "description": [
                     "Level 1: If HP is below 20% at the start of the turn, heals for .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
                     "Level 2: If HP is below 25% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
@@ -17357,7 +17357,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -17440,7 +17440,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Pinch Healing",
+                "Name": "긴급 회복",
                 "description": [
                     "Level 1: If HP is below 10% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
                     "Level 2: If HP is below 15% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
@@ -17510,7 +17510,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[QCK] Damage Reduction",
+                "Name": "[QCK]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [QCK] characters by 2%",
                     "Level 2: Reduce damage taken from [QCK] characters by 3%",
@@ -17530,7 +17530,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -17574,7 +17574,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[STR] Damage Reduction",
+                "Name": "[STR]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
@@ -17685,7 +17685,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[STR] Damage Reduction",
+                "Name": "[STR]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
@@ -17889,7 +17889,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "[STR] Damage Reduction",
+                "Name": "[STR]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [STR] characters by 2%",
                     "Level 2: Reduce damage taken from [STR] characters by 3%",
@@ -18013,7 +18013,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turn",
@@ -18067,7 +18067,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 99%",
@@ -18121,7 +18121,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "[INT] Damage Reduction",
+                "Name": "[INT]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [INT] characters by 2%",
                     "Level 2: Reduce damage taken from [INT] characters by 3%",
@@ -18209,7 +18209,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -18328,7 +18328,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[DEX] Damage Reduction",
+                "Name": "[DEX]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [DEX] characters by 1%",
                     "Level 2: Reduce damage taken from [DEX] characters by 2%",
@@ -18338,7 +18338,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -18414,7 +18414,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[INT] Damage Reduction",
+                "Name": "[INT]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
@@ -18488,7 +18488,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[PSY] Damage Reduction",
+                "Name": "[PSY]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
@@ -18544,7 +18544,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[STR] Damage Reduction",
+                "Name": "[STR]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
@@ -18554,7 +18554,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -18600,7 +18600,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[QCK] Damage Reduction",
+                "Name": "[QCK]데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [QCK] characters by 1%",
                     "Level 2: Reduce damage taken from [QCK] characters by 2%",
@@ -18610,7 +18610,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
                     "Level 1: This character's attack will ignore barriers if HP is above 99%",
                     "Level 2: This character's attack will ignore barriers if HP is above 99%",
@@ -18656,7 +18656,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by ? turn",
                     "Level 2: Reduces No Healing duration by ? turns",
@@ -18666,7 +18666,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Pinch Healing",
+                "Name": "긴급 회복",
                 "description": [
                     "Level 1: If HP is below ?% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
                     "Level 2: If HP is below ?% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
