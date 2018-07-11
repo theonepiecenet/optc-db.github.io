@@ -867,7 +867,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [ 
                     "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
                     "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
@@ -877,7 +877,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [ 
                     "Level 1: 캐릭터의 봉인상태를 1턴 감소시킨다.",
                     "Level 2: 캐릭터의 봉인상태를 2턴 감소시킨다.",
@@ -1047,7 +1047,7 @@ window.details = {
         limitnotes: "선장효과는 중첩됩니다. 그래서 [DEX] 사격 캐릭터는 공격력이 2.4배가 됩니다.",
         potential: [
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [ 
                     "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
                     "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
@@ -1459,7 +1459,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [ 
                     "Level 1: 공격력 상승 : 20",
                     "Level 2: 공격력 상승 : 30",
@@ -1987,7 +1987,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [ 
                     "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
                     "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
@@ -2566,7 +2566,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [ 
                     "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
                     "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
@@ -4049,7 +4049,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [ 
                     "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
                     "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
@@ -4059,7 +4059,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [ 
                     "Level 1: 캐릭터의 봉인상태를 1턴 감소시킨다.",
                     "Level 2: 캐릭터의 봉인상태를 2턴 감소시킨다.",
@@ -4862,7 +4862,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [ 
                     "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
                     "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
@@ -4968,7 +4968,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [ 
                     "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
                     "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
@@ -5207,7 +5207,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [ 
                     "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
                     "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
@@ -5217,7 +5217,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [ 
                     "Level 1: 공격력 상승 : 30",
                     "Level 2: 공격력 상승 : 60",
@@ -5286,7 +5286,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [ 
                     "Level 1: 공격력 상승 : 20",
                     "Level 2: 공격력 상승 : 40",
@@ -5296,7 +5296,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [ 
                     "Level 1: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
                     "Level 2: If you hit a PERFECT with this character, there is a 25% chance to deal 5% of this character's attack in extra damage",
@@ -5592,7 +5592,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [ 
                     "Level 1: 캐릭터의 봉인상태를 1턴 감소시킨다.",
                     "Level 2: 캐릭터의 봉인상태를 2턴 감소시킨다.",
@@ -5677,7 +5677,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [ 
                     "Level 1: If you hit a PERFECT with this character, there is a 5% chance to deal 5% of this character's attack in extra damage",
                     "Level 2: If you hit a PERFECT with this character, there is a 5% chance to deal 7% of this character's attack in extra damage",
@@ -5687,7 +5687,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [ 
                     "Level 1: 공격력 상승 : 30",
                     "Level 2: 공격력 상승 : 60",
@@ -5741,7 +5741,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [ 
                     "Level 1: 공격력 상승 : 20",
                     "Level 2: 공격력 상승 : 40",
@@ -5751,7 +5751,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [ 
                     "Level 1: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
                     "Level 2: If you hit a PERFECT with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
@@ -5761,7 +5761,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [ 
                     "Level 1: Reduces Slot Bind duration by 3 턴 on this character",
                     "Level 2: 캐릭터의 봉인상태를 5턴 감소시킨다.",
@@ -5937,7 +5937,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by 40",
@@ -5947,7 +5947,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
@@ -6577,7 +6577,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [ 
                     "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
                     "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
@@ -6704,7 +6704,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [ 
                     "Level 1: 공격력 상승 : 20",
                     "Level 2: 공격력 상승 : 30",
@@ -7470,7 +7470,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [ 
                     "Level 1: 만약 PERFECT를 적중하면, 20% 확률로 캐릭터 공격력의 5%에 해당하는 추가데미지를 입힌다.",
                     "Level 2: 만약 PERFECT를 적중하면, 30% 확률로 캐릭터 공격력의 5%에 해당하는 추가데미지를 입힌다.",
@@ -7480,7 +7480,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [ 
                     "Level 1: 공격력 상승 : 20",
                     "Level 2: 공격력 상승 : 40",
@@ -7490,7 +7490,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [ 
                     "Level 1: 캐릭터의 봉인상태를 3턴 감소시킨다.",
                     "Level 2: 캐릭터의 봉인상태를 5턴 감소시킨다.",
@@ -8276,7 +8276,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [ 
                     "Level 1: 공격력 상승 : 20",
                     "Level 2: 공격력 상승 : 30",
@@ -8872,7 +8872,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [ 
                     "Level 1: 공격력 상승 : 20",
                     "Level 2: 공격력 상승 : 40",
@@ -9296,7 +9296,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [ 
                     "Level 1: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
                     "Level 2: If you hit a PERFECT with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
@@ -9429,7 +9429,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [ 
                     "Level 1: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
                     "Level 2: If you hit a PERFECT with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
@@ -9958,7 +9958,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [ 
                     "Level 1: 공격력 상승 : 20",
                     "Level 2: 공격력 상승 : 30",
@@ -9968,7 +9968,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [ 
                     "Level 1: 캐릭터의 봉인상태를 1턴 감소시킨다.",
                     "Level 2: 캐릭터의 봉인상태를 2턴 감소시킨다.",
@@ -10084,7 +10084,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [ 
                     "Level 1: 공격력 상승 : 20",
                     "Level 2: 공격력 상승 : 30",
@@ -10094,7 +10094,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [ 
                     "Level 1: 캐릭터의 봉인상태를 1턴 감소시킨다.",
                     "Level 2: 캐릭터의 봉인상태를 2턴 감소시킨다.",
@@ -10449,7 +10449,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [ 
                     "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
                     "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
@@ -10684,7 +10684,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [ 
                     "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
                     "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
@@ -10694,7 +10694,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [ 
                     "Level 1: 공격력 상승 : 30",
                     "Level 2: 공격력 상승 : 60",
@@ -10761,7 +10761,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [ 
                     "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
                     "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
@@ -10822,7 +10822,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [ 
                     "Level 1: 공격력 상승 : 30",
                     "Level 2: 공격력 상승 : 60",
@@ -10873,7 +10873,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [ 
                     "Level 1: 공격력 상승 : 30",
                     "Level 2: 공격력 상승 : 60",
@@ -10941,7 +10941,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [ 
                     "Level 1: 공격력 상승 : 20",
                     "Level 2: 공격력 상승 : 30",
@@ -10951,7 +10951,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [ 
                     "Level 1: 캐릭터의 봉인상태를 1턴 감소시킨다.",
                     "Level 2: 캐릭터의 봉인상태를 2턴 감소시킨다.",
@@ -11020,7 +11020,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [ 
                     "Level 1: 공격력 상승 : 20",
                     "Level 2: 공격력 상승 : 30",
@@ -11030,7 +11030,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [ 
                     "Level 1: 캐릭터의 봉인상태를 1턴 감소시킨다.",
                     "Level 2: 캐릭터의 봉인상태를 2턴 감소시킨다.",
@@ -11166,7 +11166,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [ 
                     "Level 1: 공격력 상승 : 20",
                     "Level 2: 공격력 상승 : 40",
@@ -11217,7 +11217,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [ 
                     "Level 1: 공격력 상승 : 20",
                     "Level 2: 공격력 상승 : 40",
@@ -11393,7 +11393,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [ 
                     "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
                     "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
@@ -11403,7 +11403,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [ 
                     "Level 1: 캐릭터의 봉인상태를 1턴 감소시킨다.",
                     "Level 2: 캐릭터의 봉인상태를 2턴 감소시킨다.",
@@ -11619,7 +11619,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [ 
                     "Level 1: 공격력 상승 : 30",
                     "Level 2: 공격력 상승 : 60",
@@ -11629,7 +11629,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [ 
                     "Level 1: 캐릭터의 봉인상태를 3턴 감소시킨다.",
                     "Level 2: 캐릭터의 봉인상태를 5턴 감소시킨다.",
@@ -11693,7 +11693,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [ 
                     "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
                     "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
@@ -11703,7 +11703,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [ 
                     "Level 1: 공격력 상승 : 30",
                     "Level 2: 공격력 상승 : 50",
@@ -11774,7 +11774,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [ 
                     "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
                     "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
@@ -11784,7 +11784,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [ 
                     "Level 1: 캐릭터의 봉인상태를 1턴 감소시킨다.",
                     "Level 2: 캐릭터의 봉인상태를 2턴 감소시킨다.",
@@ -11901,7 +11901,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [ 
                     "Level 1: 이 캐릭터가 PERFECT 적중 시, 20% 확률로 캐릭터 데미지의 3%만큼 추가데미지를 입힌다.",
                     "Level 2: 이 캐릭터가 PERFECT 적중 시, 30% 확률로 캐릭터 데미지의 5%만큼 추가데미지를 입힌다.",
@@ -11911,7 +11911,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [ 
                     "Level 1: 공격력 상승 : 30",
                     "Level 2: 공격력 상승 : 60",
@@ -11971,33 +11971,33 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [ 
-                    "Level 1: 이 캐릭터가 PERFECT 적중 시, 20% 확률로 캐릭터 데미지의 3%만큼 추가데미지를 입힌다.",
-                    "Level 2: 이 캐릭터가 PERFECT 적중 시, 30% 확률로 캐릭터 데미지의 5%만큼 추가데미지를 입힌다.",
-                    "Level 3: 이 캐릭터가 PERFECT 적중 시, 30% 확률로 캐릭터 데미지의 5%만큼 추가데미지를 입힌다.",
-                    "Level 4: 이 캐릭터가 PERFECT 적중 시, 50% 확률로 캐릭터 데미지의 5%만큼 추가데미지를 입힌다.",
-                    "Level 5: 이 캐릭터가 PERFECT 적중 시, 50% 확률로 캐릭터 데미지의 10%만큼 추가데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 시의 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 시의 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 시의 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 시의 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 시의 데미지에 10%의 추가 데미지가 가산된다"
                 ]
             },
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [ 
-                    "Level 1: 공격력 상승 : 60",
-                    "Level 2: 공격력 상승 : 90",
-                    "Level 3: 공격력 상승 : 120",
-                    "Level 4: 공격력 상승 : 150",
-                    "Level 5: 공격력 상승 : 200"
+                    "Level 1: 데미지를 받으면 다음 턴에 자신의 기본 공격력이 60 상승한다",
+                    "Level 2: 데미지를 받으면 다음 턴에 자신의 기본 공격력이 90 상승한다",
+                    "Level 3: 데미지를 받으면 다음 턴에 자신의 기본 공격력이 120 상승한다",
+                    "Level 4: 데미지를 받으면 다음 턴에 자신의 기본 공격력이 150 상승한다",
+                    "Level 5: 데미지를 받으면 다음 턴에 자신의 기본 공격력이 200 상승한다",
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [ 
-                    "Level 1: 캐릭터의 봉인상태를 3턴 감소시킨다",
-                    "Level 2: 캐릭터의 봉인상태를 5턴 감소시킨다.",
-                    "Level 3: 캐릭터의 봉인상태를 7턴 감소시킨다",
-                    "Level 4: 캐릭터의 봉인상태를 10턴 감소시킨다",
-                    "Level 5: 캐릭터의 봉인상태를 무효화 시킨다"
+                    "Level 1: 자신의 슬롯 봉쇄 상태를 3턴 회복한다",
+                    "Level 2: 자신의 슬롯 봉쇄 상태를 5턴 회복한다",
+                    "Level 3: 자신의 슬롯 봉쇄 상태를 7턴 회복한다",
+                    "Level 4: 자신의 슬롯 봉쇄 상태를 10턴 회복한다",
+                    "Level 5: 자신의 슬롯 봉쇄 상태를 완전히 회복한다",
                 ]
             },
         ],
@@ -12045,7 +12045,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [ 
                     "Level 1: 캐릭터의 봉인상태를 1턴 감소시킨다.",
                     "Level 2: 캐릭터의 봉인상태를 2턴 감소시킨다.",
@@ -12112,7 +12112,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [ 
                     "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
                     "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
@@ -12122,7 +12122,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [ 
                     "Level 1: 공격력 상승 : 30",
                     "Level 2: 공격력 상승 : 50",
@@ -12176,7 +12176,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [ 
                     "Level 1: 캐릭터의 봉인상태를 1턴 감소시킨다.",
                     "Level 2: 캐릭터의 봉인상태를 2턴 감소시킨다.",
@@ -12227,7 +12227,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [ 
                     "Level 1: 캐릭터의 봉인상태를 1턴 감소시킨다.",
                     "Level 2: 캐릭터의 봉인상태를 2턴 감소시킨다.",
@@ -12284,7 +12284,7 @@ window.details = {
             { "description": "기본 공격력 +15" },
             { "description": "기본 체력 +40" },
             { "description": "기본 회복력 +10" },
-            { "description": "새로운 현장효과 개방: 참격 캐릭터의 공격력이 1.4배, 체력이 1.1배 증가한다. 만약 필살기 흑도·극한의 일도을 사용하면 1턴간 참격 캐릭터의 공격력이 1.89배 증가한다." },
+            { "description": "새로운 선장효과 개방: 참격 캐릭터의 공격력이 1.4배, 체력이 1.1배 증가한다. 만약 필살기 흑도·극한의 일도을 사용하면 1턴간 참격 캐릭터의 공격력이 1.89배 증가한다." },
             { "description": "소켓슬롯 1 추가" },
             { "description": "필살기 턴 감소 1 턴" },
             { "description": "기본 공격력 +20" },
@@ -12317,7 +12317,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [ 
                     "Level 1: 만약 이 캐릭터가 PERFECT를 적중하면 10% 확률로 캐릭터 공격력의 3%의 추가 데미지를 입힌다.",
                     "Level 2: 만약 이 캐릭터가 PERFECT를 적중하면 15% 확률로 캐릭터 공격력의 5%의 추가 데미지를 입힌다.",
@@ -12327,7 +12327,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [ 
                     "Level 1: 캐릭터 봉쇄 상태가 1턴 회복된다.",
                     "Level 2: 캐릭터 봉쇄 상태가 2턴 회복된다.",
@@ -12393,7 +12393,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [ 
                     "Level 1: 공격력 상승 : 20",
                     "Level 2: 공격력 상승 : 30",
@@ -12403,7 +12403,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [ 
                     "Level 1: 캐릭터의 봉인상태를 1턴 감소시킨다.",
                     "Level 2: 캐릭터의 봉인상태를 2턴 감소시킨다.",
@@ -12559,7 +12559,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [
                     "Level 1: If you hit a perfect with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a perfect with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
@@ -12774,7 +12774,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by 60",
@@ -12838,7 +12838,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by 40",
@@ -12848,7 +12848,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
@@ -12921,7 +12921,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [
                     "Level 1: If you hit a PERFECT with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a PERFECT with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
@@ -13023,7 +13023,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by 60",
@@ -13043,7 +13043,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [
                     "Level 1: If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
@@ -13088,7 +13088,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by 60",
@@ -13098,7 +13098,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
@@ -13142,7 +13142,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by 60",
@@ -13152,7 +13152,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [
                     "Level 1: If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
@@ -13209,7 +13209,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [
                     "Level 1: If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
@@ -13265,7 +13265,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [
                     "Level 1: If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
@@ -13412,7 +13412,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [
                     "Level 1: If you hit a PERFECT with this character, there is a 20% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a PERFECT with this character, there is a 30% chance to deal 3% of this character's attack in extra damage",
@@ -13487,7 +13487,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by 40",
@@ -13507,7 +13507,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [
                     "Level 1: If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
@@ -13579,7 +13579,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [
                     "Level 1: If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
@@ -13955,7 +13955,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
@@ -14063,7 +14063,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
@@ -14107,7 +14107,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [
                     "Level 1: If you hit a PERFECT with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a PERFECT with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
@@ -14117,7 +14117,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
@@ -14201,7 +14201,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 3 turns on this character",
                     "Level 2: Reduces Slot Bind duration by 4 turns on this character",
@@ -14308,7 +14308,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by 60",
@@ -14478,7 +14478,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
@@ -14544,7 +14544,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [
                     "Level 1: If you hit a PERFECT with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a PERFECT with this character, there is a 20% chance to deal 5% of this character's attack in extra damage",
@@ -14554,7 +14554,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [
                     "Level 1: Boosts base ATK by 75",
                     "Level 2: Boosts base ATK by 100",
@@ -14620,7 +14620,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by 60",
@@ -14859,7 +14859,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 3 turns on this character",
@@ -14961,7 +14961,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
@@ -14971,7 +14971,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [
                     "Level 1: Boosts base ATK by 50",
                     "Level 2: Boosts base ATK by 75",
@@ -15066,7 +15066,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [
                     "Level 1: If you hit a PERFECT with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a PERFECT with this character, there is a 20% chance to deal 5% of this character's attack in extra damage",
@@ -15076,7 +15076,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [
                     "Level 1: Boosts base ATK by 150",
                     "Level 2: Boosts base ATK by 200",
@@ -15186,7 +15186,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [
                     "Level 1: Boosts base ATK by 50",
                     "Level 2: Boosts base ATK by 75",
@@ -15299,7 +15299,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [
                     "Level 1: Boosts base ATK by 50",
                     "Level 2: Boosts base ATK by 75",
@@ -15462,7 +15462,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [
                     "Level 1: Boosts base ATK by 100",
                     "Level 2: Boosts base ATK by 150",
@@ -15547,7 +15547,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [
                     "Level 1: Boosts base ATK by 20",
                     "Level 2: Boosts base ATK by 40",
@@ -15608,7 +15608,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
@@ -15878,7 +15878,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [
                     "Level 1: If you hit a PERFECT with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a PERFECT with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
@@ -15924,7 +15924,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [
                     "Level 1: If you hit a PERFECT with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a PERFECT with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
@@ -16103,7 +16103,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [
                     "Level 1: If you hit a PERFECT with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a PERFECT with this character, there is a 10% chance to deal 5% of this character's attack in extra damage",
@@ -16188,7 +16188,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [
                     "Level 1: If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
@@ -16270,7 +16270,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [
                     "Level 1: Boosts base ATK by 60",
                     "Level 2: Boosts base ATK by 90",
@@ -16546,7 +16546,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 3 turns on this character",
@@ -16628,7 +16628,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 3 turns on this character",
@@ -16742,7 +16742,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [
                     "Level 1: If you hit a PERFECT with this character, there is a 20% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a PERFECT with this character, there is a 25% chance to deal 4% of this character's attack in extra damage",
@@ -16752,7 +16752,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
@@ -16798,7 +16798,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by 60",
@@ -16808,7 +16808,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [
                     "Level 1: If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
@@ -16886,7 +16886,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Enrage",
+                "Name": "피격 시 공격력 상승",
                 "description": [
                     "Level 1: Boosts base ATK by 50",
                     "Level 2: Boosts base ATK by 75",
@@ -17012,7 +17012,7 @@ window.details = {
         ],
         potential: [
             {
-               "Name": "Enrage",
+               "Name": "피격 시 공격력 상승",
                 "description": [
                     "Level 1: Boosts base ATK by 50",
                     "Level 2: Boosts base ATK by 75",
@@ -17022,7 +17022,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [
                     "Level 1: If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
@@ -17069,7 +17069,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
@@ -17292,7 +17292,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [
                     "Level 1: If you hit a PERFECT with this character, there is a 30% chance to deal 2% of this character's attack in extra damage",
                     "Level 2: If you hit a PERFECT with this character, there is a 40% chance to deal 3% of this character's attack in extra damage",
@@ -17430,7 +17430,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
@@ -17450,7 +17450,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [
                     "Level 1: If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
@@ -17520,7 +17520,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 3 turns on this character",
                     "Level 2: Reduces Slot Bind duration by 4 turns on this character",
@@ -17584,7 +17584,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [
                     "Level 1: If you hit a PERFECT with this character, there is a 30% chance to deal 3% of this character's attack in extra damage",
                     "Level 2: If you hit a PERFECT with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
@@ -17629,7 +17629,7 @@ window.details = {
         ],
         potential: [
             {
-               "Name": "Enrage",
+               "Name": "피격 시 공격력 상승",
                 "description": [
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by 60",
@@ -17639,7 +17639,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [
                     "Level 1: If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
@@ -17695,7 +17695,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [
                     "Level 1: If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
@@ -17806,7 +17806,7 @@ window.details = {
         ],
         potential: [
             {
-               "Name": "Enrage",
+               "Name": "피격 시 공격력 상승",
                 "description": [
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by 60",
@@ -17816,7 +17816,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
@@ -17879,7 +17879,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
@@ -17899,7 +17899,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [
                     "Level 1: If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
@@ -17945,7 +17945,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
@@ -17955,7 +17955,7 @@ window.details = {
                 ]
             },
             {
-               "Name": "Enrage",
+               "Name": "피격 시 공격력 상승",
                 "description": [
                     "Level 1: Boosts base ATK by 50",
                     "Level 2: Boosts base ATK by 75",
@@ -18003,7 +18003,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
@@ -18057,7 +18057,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
@@ -18111,7 +18111,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
@@ -18199,7 +18199,7 @@ window.details = {
         ],
         potential: [
             {
-               "Name": "Enrage",
+               "Name": "피격 시 공격력 상승",
                 "description": [
                     "Level 1: Boosts base ATK by 50",
                     "Level 2: Boosts base ATK by 75",
@@ -18256,7 +18256,7 @@ window.details = {
         ],
         potential: [
             {
-               "Name": "Enrage",
+               "Name": "피격 시 공격력 상승",
                 "description": [
                     "Level 1: Boosts base ATK by 50",
                     "Level 2: Boosts base ATK by 75",
@@ -18348,7 +18348,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Critical Hit",
+                "Name": "크리티컬 공격",
                 "description": [
                     "Level 1: If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
                     "Level 2: If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
@@ -18424,7 +18424,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Slot Bind Self-reduction",
+                "Name": "슬롯 봉쇄 내성",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
@@ -18498,7 +18498,7 @@ window.details = {
                 ]
             },
             {
-               "Name": "Enrage",
+               "Name": "피격 시 공격력 상승",
                 "description": [
                     "Level 1: Boosts base ATK by 50",
                     "Level 2: Boosts base ATK by 75",
