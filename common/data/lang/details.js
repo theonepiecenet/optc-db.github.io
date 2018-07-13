@@ -12719,7 +12719,11 @@ window.details = {
         special: "자신의 슬롯을 [INT]로 바꾼 후, 적 전체에게 모든 방어 효과를 무시하고 캐릭터의 공격력x100배의 무 속성 데미지를 주고, 적이 지연 무효, 상태이상 무효일 때는 1턴 동안 일당의 슬롯 영향을 2배로 증폭시키고, 적이 배리어를 치고 있을 때는 1턴 동안 자신의 공격력이 2.25배가 된다",
         specialNotes: "#{ignoreBarrier}",
         specialName: "진원의 창",
-        sailor: "일당의 기본 체력이 100 상승한다", // 원본과 다름
+        sailor: {
+            "base": "None",
+            "level1": "일당의 기본 체력이 100 상승한다",
+            "level2": "일당의 기본 공격력이 50 상승한다",
+        },
         limit: [
             { "description": "Acquire 1 additional Socket slot" },
             { "description": "Boosts base ATK by 10" },
