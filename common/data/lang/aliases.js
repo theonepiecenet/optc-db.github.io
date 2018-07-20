@@ -10145,7 +10145,7 @@ window.aliases = {
   ],
   "2001": [
     "トラファルガー・ロー 元王下七武海",
-    "실버즈 레일리, 로저 해적단의 오른팔",
+//    "실버즈 레일리, 로저 해적단의 오른팔",
     "Super Law",
     "Mega Law",
     "V1 Law"
@@ -10926,13 +10926,15 @@ window.aliases = {
     "",
     "",
     "V2 Raid Doffy",
-    "V2 Raid Doflamingo"
+    "V2 Raid Doflamingo",
+    "도플라밍고"
   ],
   "2201": [
     "",
     "",
     "V2 Raid Doffy",
-    "V2 Raid Doflamingo"
+    "V2 Raid Doflamingo",
+    "도플라밍고"
   ]
 };
 
