@@ -824,10 +824,10 @@ window.details = {
 		specialName: "우솝 해머",
 		captain: "PSY 캐릭터의 공격을 1.2배로 만든다",
 	},
-	223: {
-		special: "1턴간 PSY의 공격이 2배가 된다",
+	223: { // modified
+		special: "1턴간 [PSY]의 공격이 2배가 된다",
 		specialName: "임팩트",
-		captain: "PSY 캐릭터의 공격력이 1.5배가 된다"
+		captain: "[PSY] 캐릭터의 공격을 1.5배로 만든다"
 	},
 	224: {
 		special: "적 1명에게 캐릭터의 공격×15배의 QCK 데미지",
@@ -3827,10 +3827,10 @@ window.details = {
 		specialName: "흑창의 진「총 공격!」",
 		captain: "DEX 캐릭터의 공격과 회복이 1.2배가 된다."
 	},
-	804: {
-		special: "적 전체의 임의의 대상에 8회 DEX 랜덤 데미지를 주고, 3턴간 일당의 공격이 1.1배 상승",
-		specialName: "흑창의 진「총 공격!」",
-		captain: "DEX 캐릭터의 공격과 회복이 1.5배가 되고, 턴 종료시 캐릭터 공격 X1배의 DEX 데미지를 추가로 준다."
+	804: { // modified
+		special: "무작위의 적에게 랜덤 데미지를 8회 주고, 3턴 동안 일당의 공격력을 조금 상승시킨다",
+		specialName: "「흑창의 진」총공격!",
+		captain: "[DEX] 캐릭터의 공격력과 회복력이 1.5배가 되고, 턴 종료시에 공격력x1배의 추가 데미지를 준다"
 	},
 	805: {
 		special: "체력을 20% 줄이고, 감소 값의 X10배의 INT 데미지를 주고, 1턴동안 슬롯 영향을 1.75배 확대",
@@ -4021,10 +4021,10 @@ window.details = {
 		specialName: "무기변모 「미사일 소녀」",
 		special: "적 전체에 캐릭터의 공격 X15배 STR 데미지를 주고, 1턴간 사격 타입 캐릭터의 공격을 1.5배 상승. 필살기 사용 턴에 일당 전원 PERFECT 공격 성공시 다음턴에 사격, 참격, 타격 타입 캐릭터의 공격을 1.5배 상승"
 	},
-	845: {
-		captain: "콤보수가 11이상 시점에서 1.5배, 22이상 시점에서 2.5배 공격력이 상승한다.",
-		specialName: "돌풍 「마타사부로 (又三郎)」",
-		special: "자신의 슬롯을 [QCK] 으로 변환하고, 다른 슬롯을 랜덤으로 변환"
+	845: { // modified
+		captain: "해당 턴 내에 콤보 수가 11 이상이면 공격력이 약 1.5배, 22 이상이면 약 2.5배가 된다",
+		specialName: "돌풍 마타사부로",
+		special: "자신의 슬롯을 [QCK]으로 바꾸고, 다른 슬롯을 랜덤으로 바꾼다"
 	},
 	846: {
 		captain: "콤보수가 11이상 시점에서 1.5배, 22이상 시점에서 2.5배, 30이상 시점에서 2.75배, 40이상 시점에서 3.5배 공격력이 상승한다.",
@@ -7562,12 +7562,12 @@ window.details = {
         sailor: "Reduces Paralysis duration by 1 턴",
         specialName: "A Decree of the Veteran",
     },
-    1320: {//Lady Tsuru
-        captain: "Heals for 1.5x her RCV at the end of the 턴 each time you hit a Good. Heals for .1x her RCV at the end of the 턴 each time you hit a PERFECT",
-        special: "Deals 10 hits of random [QCK] damage to random enemies. Boosts ATK of all characters by 1.5x for 1 턴",
+    1320: {//Lady Tsuru :: modified
+        captain: "턴 종료 시에 PERFECT 1회마다 캐릭터의 회복력x0.1배, GOOD 1회마다 캐릭터의 회복력x1.5배의 체력을 회복한다",
+        special: "무작위의 적에게 [QCK] 큰 데미지를 10회 주고, 1턴 동안 일당의 공격력이 1.5배가 된다",
         specialNotes: "#{randomHits : 10}<br>#{random : 1,000 : 32,000 : for each hit}",
-        sailor: "Reduces Paralysis duration by 1 턴",
-        specialName: "A Decree of the Veteran",
+        sailor: "일당의 마비 상태를 1턴 회복한다",
+        specialName: "노장의 큰 호령",
         limit: [
             { "description": "회복력 상승 : 10" },
             { "description": "공격력 상승 : 30" },
@@ -8044,11 +8044,11 @@ window.details = {
         specialName: "히드라",
         specialNotes: "Toxic starts at 0.5x character's attack and increases by 3x at the end of every 턴 until 1,500,000 damage per 턴.<br>#{stages}",
     },
-    1375: {//Dellinger
-        captain: "Boosts ATK of Powerhouse characters by 2.5x, reduces crew's HP by 50%, Increases damage received by 2x",
-        special: "Deals 20x character's ATK in [QCK] damage to one enemy, Boosts Dellinger's ATK by 1.5x for 1 턴, amplifies the effect of Dellinger's orb by 1.5x for 1 턴, and changes own orb to [QCK].",
+    1375: {//Dellinger :: modified
+        captain: "강인형 캐릭터의 공격력을 2.5배로 만들지만, 일당의 체력을 50% 감소시키고, 받는 데미지가 2배가 된다",
+        special: "적 1명에게 공격력x20배의 [QCK] 데미지를 주고, 1턴 동안 자신의 공격력과 슬롯의 영향을 1.5배로 만들며, 자신의 슬롯을 [QCK]으로 바꾼다",
         specialNotes: "Boosted ATK and Orb Effectivess only works for the Dellinger who uses his Special.",
-        specialName: "Deadly Fangs of Rage",
+        specialName: "맹위의 데들리 팡",
     },
     1376: {//Dellinger
         captain: "Boosts ATK of Powerhouse characters by 2.75x, reduces crew's HP by 20%, Increases damage received by 2x",
@@ -9475,10 +9475,10 @@ window.details = {
         special: "Delays all enemies for 1 턴. Adds .2x to Chain multiplier for 1 턴",
         specialName: "Former Thief's Box Office",
     },
-    1549: {//5+ Robin
-        captain: "Boosts ATK of [PSY] characters by 2.25x and recovers 3x character's RCV in HP at the end of each 턴",
-        special: "Reduces Bind, Despair and Silence duration by 3 턴, and reduces Special Cooldown of all characters by 1 턴",
-        specialName: "Mil Fluer: Campo de Flores",
+    1549: {//5+ Robin :: modified
+        captain: "[PSY]의 공격력을 2.25배로 만들고, 턴 종료 시에 캐릭터의 회복력x3배의 체력을 회복한다",
+        special: "봉쇄, 선장효과 무효, 필살기 봉쇄 상태를 3턴 회복하고, 일당의 필살기 턴을 턴 단축한다",
+        specialName: "밀 플루르 캄포 데 프로레스",
         specialNotes: "#{silence}",
     },
     1550: {//5+ Franky :: modified
@@ -9991,10 +9991,10 @@ window.details = {
         specialName: "오버 히트 「개」",
         captain: "참격형 캐릭터의 공격력과 체력이 2배가 된다"
     },
-    1624: {//Hyouzou
-        captain: "Boosts ATK of Slasher characters by 1.5x and boosts HP of Powerhouse characters by 1.25x",
-        special: "Randomizes all orbs, cuts the current HP of all enemies by 10%, and Poisons all enemies.",
-        specialName: "Flexible Six Swords",
+    1624: {//Hyouzou :: modified
+        captain: "참격형 캐릭터의 공격력을 1.5배, 강인형 캐릭터의 체력을 1.25배로 만든다",
+        special: "적 전체의 HP를 10% 줄이고, 독 상태로 만들며, 일당의 슬롯을 랜덤으로 바꾼다",
+        specialName: "낭창낭창한 육도",
     },
     1625: {//Daruma
         captain: "Boosts ATK of Powerhouse and Fighter characters by 1.75x",
@@ -12425,11 +12425,11 @@ window.details = {
         specialName: "신의 검",
         sailor: "필살기 턴 되감기를 1턴 회복한다.",
     },
-    1818: {// Riku
-        captain: "모든 캐릭터의 공격력이 1.5배 상승하고, 체력이 1.2배 상승한다. 3연속 Great 판정을 받으면 공격력이 2.5배 상승한다.",
-        special: "적 1기의 체력을 7% 감소시키고 1턴 동안 선원들의 공격력이 1.2배 증가한다(선장 제외).",
-        specialName: "신의 검",
-        sailor: "필살기 턴 되감기를 1턴 회복한다.",
+    1818: {// Riku :: modified
+        captain: "일당의 공격력을 1.5배, 체력을 1.2배로 만들고, GREAT 이상 3연속 달성 시 이후 일당의 공격력이 약 2.5배가 된다",
+        special: "적 1명의 HP를 7% 줄이고, 1턴 동안 선원의 공격력을 1.2배, 필살기 턴을 1턴 단축한다",
+        specialName: "신성한 검",
+        sailor: "자신의 필살기 턴 되돌리기를 1턴 회복한다",
     },
     1819: {//Tank
         captain: "강인, 타격 캐릭터의 공격력이 1.75배 상승한다.",
@@ -12973,10 +12973,10 @@ window.details = {
         special: "Cuts the current HP of each enemy by 10%. At the end of the turn, cuts the current HP of each enemy by 10% for 3 turns. Reduces damage received by 40% for 3 turns.",
         specialName: "Fortune-Telling from the Shadow of Death"
     },
-    1867: {//Hawkins FN
-        captain: "Boosts ATK of Cerebral characters by 2x, boosts chain multiplier by 1.5x",
-        special: "Cuts the current HP of each enemy by 10%. At the end of the turn, cuts the current HP of each enemy by 10% for 3 turns. Reduces damage received by 40% for 3 turns.",
-        specialName: "Fortune-Telling from the Shadow of Death"
+    1867: {//Hawkins FN :: modified
+        captain: "박식형 캐릭터의 공격력을 2배로 만들고, 일당의 체인 계수 증가량을 1.5배로 만든다",
+        special: "적 전체의 HP를 10% 줄이고, 3턴 동안 턴 ㅈ오료 시에 적 전체의 HP를 10% 줄이고, 받는 데미지를 40% 줄인다",
+        specialName: "죽음을 고하는 점술"
     },
     1868: {//Fujitora :: modified
         captain: "데미지를 조금 더 받는 대신, 참격형 캐릭터의 공격력이 3.25배, 체력이 1.2배, GOOD→GREAT→PERFECT 순으로 공격하면 참격형 캐릭터의 공격력이 추가로 1.3배가 된다",
