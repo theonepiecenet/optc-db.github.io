@@ -748,7 +748,7 @@ window.details = {
 		specialName: "컬러즈 트랩 온화함의 초록",
 		captain: "DEX 캐릭터의 체력과 회복력이 1.2배가 된다"
 	},
-	207: { ㅡ/ modified
+	207: { // modified
 		captain: "[PSY] 캐릭터가 주는 데미지를 10％ 감소시킨다"
 	},
 	208: { // modified
