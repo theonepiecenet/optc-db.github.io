@@ -349,7 +349,7 @@ window.details = {
 		specialName: "샤크 온 다트",
 		captain: "참격형 캐릭터의 공격력이 2배가 된다"
 	},
-	66: {
+	66: { // modified
 		special: "적 1명에게 캐릭터의 공격×15배의 [STR] 데미지",
 		specialName: "샤크 온 톱니바퀴",
 		captain: "참격형 캐릭터의 공격력이 2배가 된다"
@@ -413,7 +413,7 @@ window.details = {
 		special: "적 1명에게 공격×10배의 캐릭터 속성 데미지",
 		specialName: "하이퍼 슬래쉬"
 	},
-	120: {
+	120: { // modified
 		special: "적 전체에 공격×5배의 캐릭터 속성 데미지",
 		specialName: "하이퍼 샷"
 	},
@@ -724,10 +724,10 @@ window.details = {
 		specialName: "브리즈 브레스 봄",
 		captain: "[STR] 캐릭터의 공격력이 2배가 된다"
 	},
-	201: {
+	201: {// modified 
 		captain: "격투형 캐릭터의 체력이 1.5배가 된다"
 	},
-	202: {
+	202: { // modified
 		special: "[RCV]슬롯을 [QCK]슬롯으로 바꾼다",
 		specialName: "1만 킬로 길로틴",
 		captain: "격투형 캐릭터의 체력이 2배가 된다"
@@ -774,15 +774,15 @@ window.details = {
 		specialName: "열혈 배트",
 		captain: "타격형 캐릭터의 공격력이 1.5배가 된다."
 	},
-	213: {
+	213: { // modified
 		special: "적 전체에 캐릭터의 공격×20배의 [STR] 데미지",
 		specialName: "탄식의 박치기",
-		captain: "체력이 일정수준(50%) 이상이면 공격을 받아도 쓰러지지 않는다."
+		captain: "체력이 일정수준 이상이면 공격을 받아도 쓰러지지 않는다"
 	},
-	214: {
+	214: { // modified
 		special: "적 전체에 캐릭터의 공격×20배의 [STR] 데미지",
 		specialName: "탄식의 박치기",
-		captain: "체력이 일정수준(50%) 이상이면 공격을 받아도 쓰러지지 않는다."
+		captain: "체력이 일정수준 이상이면 공격을 받아도 쓰러지지 않는다."
 	},
 	215: { // modified
 		special: "적 전체를 중독시킨다",
@@ -913,8 +913,8 @@ window.details = {
 		specialName: "겹날개 감옥",
 		captain: "[QCK] 캐릭터의 공격력이 2배가 된다"
 	},
-	233: {
-		captain: "[PSY] 캐릭터의 체력을 1.5배로 만든다."
+	233: { // modified
+		captain: "[PSY] 캐릭터의 체력을 1.5배가 된다"
 	},
 	234: {
 		special: "모든 적에게 캐릭터 공격력에 5배의 [PSY] 데미지",
@@ -991,10 +991,10 @@ window.details = {
 		specialName: "전생의 창염",
 		captain: "공격 시작 전에 체력이 가득 차 있으면 [PSY] 캐릭터의 공격력이 3배가 된다."
 	},
-	251: {
+	251: { // modified
 		special: "체력을 모두 회복한다",
 		specialName: "전생의 창염",
-		captain: "격 시작 전에 체력이 가득 차 있으면 PSY 캐릭터의 공격력이 3배가 된다."
+		captain: "공격 시작 전에 체력이 가득 차 있으면 [PSY] 캐릭터의 공격력이 3배가 된다."
 	},
 	252: { // modified
 		special: "[DEX]의 공격이 무효가 된다 (1턴)",
@@ -1068,22 +1068,22 @@ window.details = {
             },
         ]
     },
-    258: {
-		special: "DEX, QCK 슬롯이STR 슬롯으로 바뀐다.",
+    258: { // modified
+		special: "[DEX],[QCK] 슬롯이 [STR] 슬롯으로 바뀐다",
 		specialName: "포켓 대망치",
-		captain: "STR 캐릭터의 공격력과 회복력이 2배가 된다"
+		captain: "[STR] 캐릭터의 공격력과 회복력이 2배가 된다"
 	},
-	259: {
-		special: "DEX, QCK 슬롯이STR 슬롯으로 바뀐다.",
+	259: { // modified
+		special: "[DEX],[QCK] 슬롯이 [STR] 슬롯으로 바뀐다",
 		specialName: "포켓 대망치",
-		captain: "STR 캐릭터의 공격력과 회복력이 2배가 된다",
+		captain: "[STR] 캐릭터의 공격력과 회복력이 2배가 된다"
 	},
-	260: {
+	260: { // modified
 		special: "적 전체의 HP를 30% 줄인다",
 		specialName: "해진",
-		captain: "체력이 얼마 남지 않게 되면(30%이하), 일당의 공격력이 3배가 된다"
+		captain: "체력이 얼마 남지 않게 되면, 일당의 공격력이 3배가 된다"
 	},
-	261: {
+	261: { // modified
 		special: "적 전체의 HP를 30% 줄인다",
 		specialName: "해진",
 		captain: "체력이 얼마 남지 않게 되면, 일당의 공격력이 3배가 된다",
@@ -1208,10 +1208,10 @@ window.details = {
 		specialName: "고기 슬롯 스톰",
 		captain: "[INT] 캐릭터에게 받는 데미지를 50% 감소한다."
 	},
-	292: {
-		special: "가까이 있는 캐릭터의 슬롯을 [RCV]로 바꾼다.",
-		specialName: "고기 슬롯 스톰",
-		captain: "[PSY] 캐릭터에게 받는 데미지를 50% 감소한다."
+	292: { // modified
+		special: "가까이 있는 캐릭터의 슬롯을 [RCV]로 바꾼다",
+		specialName: "[RCV] 슬롯 스톰",
+		captain: "[PSY] 캐릭터가 주는 데미지 50% 감소"
 	},
 	293: { // modified
 		special: "받는 데미지를 1턴 동안 20％ 감소시킨다",
@@ -1223,10 +1223,10 @@ window.details = {
 		specialName: "하이퍼 스트레이트",
 		captain: "[STR] 캐릭터의 체력이 2배가 된다"
 	},
-	295: {
+	295: { // modified
 		special: "적 전체의 방어력을 1턴 동안 반으로 줄인다",
 		specialName: "실드 크래셔",
-		captain: "[DEX] 캐릭터의 체력을 2배로 만든다."
+		captain: "[DEX] 캐릭터의 체력이 2배가 된다"
 	},
 	296: { // modified
 		special: "체력을 2,000 회복하고 랜덤으로 슬롯이 바뀐다",
@@ -1248,15 +1248,15 @@ window.details = {
 		specialName: "팔도류 오니구모",
 		captain: "[DEX] 캐릭터의 공격력이 2배가 된다"
 	},
-	305: {
-		special: "모든 슬롯을 [PSY] 혹은 [RCV]로 변환시킨다.",
-		specialName: "주먹 유성우",
-		captain: "[PSY] 캐릭터의 체력과 공격력이 1.5배가 된다."
+	305: { // modified
+		special: "[공백] 이외의 슬롯이 [PSY][RCV]로 바뀐다",
+		specialName: "주먹 유성군",
+		captain: "[PSY] 캐릭터의 공격력과 체력이 1.5배가 된다"
 	},
-	306: {
-		special: "모든 슬롯을 [PSY] 혹은 [RCV]로 변환시킨다.",
-		specialName: "주먹 유성우",
-		captain: "[PSY] 캐릭터의 체력과 공격력이 2배가 된다."
+	306: { // modified
+		special: "[공백] 이외의 슬롯이 [PSY][RCV]로 바뀐다",
+		specialName: "주먹 유성군",
+		captain: "[PSY] 캐릭터의 공격력과 체력이 2배가 된다"
 	},
 	307: {
 		special: "[DEX] 이외의 슬롯을 [DEX], [RCV],[TND] 으로 변환한다.",
@@ -1278,11 +1278,11 @@ window.details = {
 		specialName: "항마의 상",
 		captain: "일당의 회복력을 큰 폭으로 낮추고(90%감소), 받는 피해를 40% 줄인다.",
 	},
-	311: {
-		special: "HP가 1이 되는 대신 적 1명에게 슈퍼 데미지 (공격력 x100)",
+	311: { // modified
+		special: "일당의 남은 체력이 1이 되는 대신 적 1명에게 캐릭터의 공격력x100배의 고정 데미지를 준다",
 		specialName: "살육무인",
 		captain: "3연속으로 GOOD 이전 판정을 받으면 이후 캐릭터의 공격력이 3.5배",
-		sailor: "When HP is below x%, boosts ATK of Cerebral Characters by 50"
+		sailor: "남은 체력이 적을 때 박식형 캐릭터의 기본 공격력이 50 상승한다"
 	},
 	312: {
 		special: "HP가 1이 되는 대신 적 1명에게 슈퍼 데미지 (공격력 x100)",
@@ -1335,39 +1335,39 @@ window.details = {
 		specialName: "벌칙, 외줄낚시",
 		captain: "타격형 캐릭터의 공격력이 2배가 된다."
 	},
-	321: {
-		special: "적 1명에게 캐릭터 공격력에 25배의 [QCK] 데미지.",
-		specialName: "과묵한 연격",
+	321: { // modified
+		special: "적 1명에게 캐릭터 공격력x25배의 [QCK] 데미지를 준다.",
+		specialName: "과묵한 연속공격",
 		captain: "[QCK] 캐릭터의 공격력이 2배가 된다."
 	},
-	322: {
-		special: "적 1명에게 캐릭터 공격력에 25배의 [QCK] 데미지.",
-		specialName: "과묵한 연격",
+	322: { // modified
+		special: "적 1명에게 캐릭터 공격력x25배의 [QCK] 데미지를 준다.",
+		specialName: "과묵한 연속공격",
 		captain: "[QCK] 캐릭터의 공격력이 2배가 된다."
 	},
-	323: {
-		special: "2턴동안 슬롯의 영향을 1.5배 증폭시킨다.",
-		specialName: "산 바람",
-		captain: "[QCK] 캐릭터의 체력과 회복력을 1.5배로 만든다."
+	323: { // modified
+		special: "일당 모두의 슬롯 영향을 증폭시킨다 (2턴)",
+		specialName: "산바람",
+		captain: "[QCK] 캐릭터의 공격력과 회복력이 1.5배가 된다"
 	},
-	324: {
-		special: "2턴동안 슬롯의 영향을 1.5배 증폭시킨다.",
-		specialName: "산 바람",
-		captain: "[QCK] 캐릭터의 체력과 회복력을 1.5배로 만든다."
+	324: { // modified
+		special: "일당 모두의 슬롯 영향을 증폭시킨다 (2턴)",
+		specialName: "산바람",
+		captain: "[QCK] 캐릭터의 공격력과 회복력이 1.5배가 된다"
 	},
 	325: {
 		special: "[TND] 슬롯을 [RCV] 슬롯으로, [RCV] 슬롯을 [QCK] 슬롯으로 변환",
 		specialName: "작열하는 장인 정신"
 	},
 	326: {
-		special: "모든 슬롯을 비우고, 적 1명에게 캐릭터 공격력에 25배의 [STR] 데미지.",
-		specialName: "우걱우걱 ‘벨로 대포’",
-		captain: "턴 종료 후 캐릭터 회복력에 10배의 체력을 회복시킨다."
+		special: "모든 슬롯을 공백으로 바꾸고, 적 1명에게 [STR] 큰 데미지",
+		specialName: "우걱우걱 쇼크 혓바닥 캐논",
+		captain: "턴 종료 후 캐릭터 회복력x10배의 체력을 회복"
 	},
-	327: {
-		special: "모든 슬롯을 비우고, 적 1명에게 캐릭터 공격력에 25배의 [STR] 데미지.",
-		specialName: "우걱우걱 ‘벨로 대포’",
-		captain: "턴 종료 후 캐릭터 회복력에 10배의 체력을 회복시킨다."
+	327: { // modified
+		special: "모든 슬롯을 공백으로 바꾸고, 적 1명에게 [STR] 큰 데미지",
+		specialName: "우걱우걱 쇼크 혓바닥 캐논",
+		captain: "턴 종료 후 캐릭터 회복력x10배의 체력을 회복"
 	},
 	328: {
 		special: "적 전체에게 캐릭터 공격력에 20배의 [QCK] 데미지.",
