@@ -20194,13 +20194,13 @@ window.details = {
     },
     2502: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
-        special: "캐릭터의 공격력x120배의 무 속성 데미지를 주고, 인접한 슬롯을 속성 일치 슬롯으로 바꾸며, 2턴 동안 일당의 공격력을 1.75배로 마늗ㄹ고, 적 각각에 대하여 5,656을 넘는 부분의 데미지를 초대폭 줄이며, PERFECT 타이밍이 상당히 쉬워진다",
+        special: "캐릭터의 공격력x120배의 무 속성 데미지를 주고, 인접한 슬롯을 속성 일치 슬롯으로 바꾸며, 2턴 동안 일당의 공격력을 1.75배로 만들고, 적 각각에 대하여 5,656을 넘는 부분의 데미지를 초대폭 줄이며, PERFECT 타이밍이 상당히 쉬워진다",
         sailor: "Adds 3x character's ATK as Additional Typeless Damage",
         specialName: "고무고무 거인의 라이플: 쿵후",
     },
     2503: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
-         special: "캐릭터의 공격력x120배의 무 속성 데미지를 주고, 인접한 슬롯을 속성 일치 슬롯으로 바꾸며, 2턴 동안 일당의 공격력을 1.75배로 마늗ㄹ고, 적 각각에 대하여 5,656을 넘는 부분의 데미지를 초대폭 줄이며, PERFECT 타이밍이 상당히 쉬워진다",
+         special: "캐릭터의 공격력x120배의 무 속성 데미지를 주고, 인접한 슬롯을 속성 일치 슬롯으로 바꾸며, 2턴 동안 일당의 공격력을 1.75배로 만들고, 적 각각에 대하여 5,656을 넘는 부분의 데미지를 초대폭 줄이며, PERFECT 타이밍이 상당히 쉬워진다",
         sailor: "Adds 3x character's ATK as Additional Typeless Damage",
         specialName: "고무고무 거인의 라이플: 쿵후",
         potential: [
