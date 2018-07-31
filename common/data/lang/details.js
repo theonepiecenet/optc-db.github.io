@@ -3774,7 +3774,7 @@ window.details = {
 	},
 	793: { // modified
 		special: "슬롯을 랜덤 속성 슬롯으로 바꾸고, 슬롯을 2번 자유롭게 움직이며 1턴 동안 고정한다",
-		specialName: "뛰어난 장인을 통솔하는 열의"
+		specialName: "뛰어난 장인을 통솔하는 열의",
 		captain: "박식형 캐릭터의 공격력과 회복력이 1.5배가 된다"
 	},
 	794: { // modified
