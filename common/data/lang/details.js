@@ -20365,88 +20365,16 @@ window.details = {
         sailor: "Makes [STR] orbs \"beneficial\" for Free Spirit characters",
         sailorNotes: "#{beneficial}",
     },
-    5007: {//Luffy&Ace
-        captain: "Boosts HP of Free Spirit characters by 1.2x and boosts ATK of Free Spirit characters by 3.5x if they have a matching orb, by 2.25x otherwise",
-        special: "Deals 75x character's ATK in typeless damage to all enemies, changes [STR], [DEX], [QCK], [INT], and [PSY] orbs on Free Spirit characters into Matching orbs, amplifies the effect of orbs by 2x for 1 turn and becomes Luffy & Ace for 3 turns",
-        specialNotes: "Change Action: When Change is activated, this character removes all Despair, Paralysis, and Slot Bind on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb",
-        specialName: "Brotherly Bond",
-        sailor: {
-            "base": "Makes [STR] orbs \"beneficial\" for Free Spirit characters",
-            "level1": "Makes [TND] and [RCV] orbs \"beneficial\" for Free Spirit characters"
-        },
-        sailorNotes: "#{beneficial}",
-        limit: [
-            { "description": "Boosts base ATK by 10" },
-            { "description": "Boosts base ATK by 10" },
-            { "description": "Boosts base ATK by 10" },
-            { "description": "Acquire Potential 1: [STR] Damage Reduction" },
-            { "description": "Boosts base HP by 20" },
-            { "description": "Boosts base HP by 30" },
-            { "description": "Boosts base ATK by 25" },
-            { "description": "Boosts base HP by 30" },
-            { "description": "Boosts base HP by 25" },
-            { "description": "Boosts base ATK by 20" },
-            { "description": "Boosts base ATK by 20" },
-            { "description": "Boosts base HP by 40" },
-            { "description": "Boosts base HP by 30" },
-            { "description": "Boosts base HP by 45" },
-            { "description": "Acquire Potential 2: [DEX] Damage Reduction" },
-            { "description": "Boosts base HP by 45" },
-            { "description": "Boosts base RCV by 20" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Boosts base HP by 20" },
-            { "description": "Boosts base ATK by 35" },
-            { "description": "Boosts base RCV by 20" },
-            { "description": "Boosts base HP by 50" },
-            { "description": "Reduce base Special Cooldown by 1 turn" },
-            { "description": "Boosts base HP by 65" },
-            { "description": "Boosts base RCV by 20" },
-            { "description": "Boosts base HP by 65" },
-            { "description": "Acquire Sailor Ability 1: Makes [TND] and [RCV] orbs \"beneficial\" for Free Spirit characters" },
-            { "description": "Boosts base HP by 85" },
-            { "description": "Boosts base ATK by 40" },
-            { "description": "Acquire Potential 3: Pinch Healing" },
-        ],
-        potential: [
-            {
-                "Name": "[STR] Damage Reduction",
-                "description": [
-                    "Level 1: Reduce damage taken from [STR] characters by 1%",
-                    "Level 2: Reduce damage taken from [STR] characters by 2%",
-                    "Level 3: Reduce damage taken from [STR] characters by 3%",
-                    "Level 4: Reduce damage taken from [STR] characters by 5%",
-                    "Level 5: Reduce damage taken from [STR] characters by 7%"
-                ]
-            },
-            {
-                "Name": "[DEX] Damage Reduction",
-                "description": [
-                    "Level 1: Reduce damage taken from [DEX] characters by 1%",
-                    "Level 2: Reduce damage taken from [DEX] characters by 2%",
-                    "Level 3: Reduce damage taken from [DEX] characters by 3%",
-                    "Level 4: Reduce damage taken from [DEX] characters by 5%",
-                    "Level 5: Reduce damage taken from [DEX] characters by 7%"
-                ]
-            },
-            {
-                "Name": "Pinch Healing",
-                "description": [
-                    "Level 1: If HP is below 10% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below 15% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below 20% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below 30% at the start of the turn, heals for 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below 50% at the start of the turn, heals for 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
-                ]
-            },
-        ],
+    
+    5007: { // modified
+	    specialName: "발굽 로제오 미첼리",
+	    special: "적 1명에게 캐릭터의 공격력x20배의 [STR] 데미지를 주고, 방어력을 3턴 동안 반으로 줄인다",
+	    captain: "[STR] 캐릭터의 공격력을 1.5배로 만들고, 턴 종료 시 체력을 500 회복한다"
     },
-    5008: {//Luffy&Ace
-        captain: "Boosts HP of Free Spirit characters by 1.2x and boosts ATK of Free Spirit characters by 4.25x if they have a matching orb, by 3x otherwise and reduce damage received by 20%",
-        special: "Deals 75x character's ATK in typeless damage to all enemies, changes [STR], [DEX], [QCK], [INT], and [PSY] orbs on Free Spirit characters into Matching orbs, amplifies the effect of orbs by 2x for 1 turn and becomes Luffy & Ace for 3 turns",
-        specialNotes: "Change Action: When Change is activated, this character removes all Despair, Paralysis, and Slot Bind on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb",
-        specialName: "Brotherly Bond",
-        sailor: "Boosts base ATK, HP and RCV of Free Spirit characters by 150",
-        sailorNotes: "#{beneficial}",
+    5008: { // modified
+	    specialName: "발굽 로제오 미첼리",
+	    special: "적 1명에게 캐릭터의 공격력x20배의 [STR] 데미지를 주고, 방어력을 3턴 동안 반으로 줄인다",
+	    captain: "[STR] 캐릭터의 공격력을 1.75배로 만들고, 턴 종료 시 체력을 750 회복한다"
     },
     5009: {//Luffy&Ace
         captain: "Boosts HP of Free Spirit characters by 1.2x and boosts ATK of Free Spirit characters by 4.25x if they have a matching orb, by 3x otherwise and reduce damage received by 20%",
