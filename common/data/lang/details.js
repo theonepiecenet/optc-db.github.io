@@ -20182,6 +20182,7 @@ window.details = {
         special: "일당의 속성 일치 슬롯 이외의 슬롯을 랜덤으로 바꾸고([BLOCK] 슬롯도 포함), 슬롯을 1턴 고정시키며, 선장이 박식형 또는 야심형일 경우, 필살기 발동 시 일당에 걸려 있는 공격력 상승 및 슬롯 영향 증폭 효과를 2턴 연장한다",
         specialName: "애슬리트",
     },
+    /*
     2502: {//Kung Fu Luffy
         captain: "일당의 체력을 약간 상승시키고, PERFECT를 2연속, 5연속 달성 시 이후 캐릭터의 공격력이 3.5배, 약 4배로 상승한다",
         special: "캐릭터의 공격력x120배의 무 속성 데미지를 주고, 인접한 슬롯을 속성 일치 슬롯으로 바꾸며, 2턴 동안 일당의 공격력을 1.75배로 만들고, 적 각각에 대하여 5,656을 넘는 부분의 데미지를 초대폭 줄이며, PERFECT 타이밍이 상당히 쉬워진다",
@@ -20226,6 +20227,7 @@ window.details = {
             },
         ]
     },
+    */
     2504: {//Crocodile&Daz
         captain: {
             "character1": "Boosts ATK of [STR] and [DEX] characters by 2.75x if they have a matching orb, by 2x otherwise and makes [TND] and [DEX] orbs \"beneficial\" to [STR] and [DEX] characters",
