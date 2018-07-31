@@ -3765,7 +3765,7 @@ window.details = {
 	},
 	791: { // modified
 		special: "적 1명에게 캐릭터의 공격력x3배 [QCK] 데미지를 주고, 3턴 동안 [STR]·[DEX]·[QCK] 속성 캐릭터의 공격력이 1.2배가 된다",
-		specialName: "출동!! 우솝 해적단"
+		specialName: "출동!! 우솝 해적단",
 		captain: "[STR]·[DEX]·[QCK] 속성 캐릭터의 능력치가 1.25배가 된다"
 	},
 	792: { // modified
