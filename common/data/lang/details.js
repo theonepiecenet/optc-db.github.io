@@ -1663,17 +1663,17 @@ window.details = {
 		special: "적 전체의 방어력을 1턴 동안 반으로 줄인다",
 		specialName: "실드 크래셔"
 	},
-	383: {
-		special: "적 1명을 강력하게 중독시킨다.",
+	383: { // modified
+		special: "적 1명을 중독(맹독)시킨다",
 		specialNotes: "맹독은 턴 종료시 캐릭터 공격력에 5배의 고정데미지를 입힌다.",
 		specialName: "독침",
-		captain: "받는 데미지를 10% 감소 시키고 [INT] 캐릭터의 공격력이 2배가 된다."
+		captain: "받는 데미지 10% 감소, [INT] 캐릭터의 공격력이 2배가 된다."
 	},
-	384: {
-		special: "적 1명을 강력하게 중독시킨다.",
+	384: { // modified
+		special: "적 1명을 중독(맹독)시킨다",
 		specialNotes: "맹독은 턴 종료시 캐릭터 공격력에 5배의 고정데미지를 입힌다.",
 		specialName: "독침",
-		captain: "받는 데미지를 10% 감소 시키고 [INT] 캐릭터의 공격력이 2배가 된다."
+		captain: "받는 데미지 20% 감소, [INT] 캐릭터의 공격력이 2배가 된다."
 	},
 	385: { // modified
 		special: "받는 데미지 반감+격투형 캐릭터의 공격력이 1.25배가 된다 (1턴)",
@@ -1788,10 +1788,10 @@ window.details = {
 		special: "랜덤으로 모든 슬롯을 바꾸고, 전 전체에게 캐릭터 공격력에 7배의 [DEX]데미지",
 		specialName: "좀비류 36번뇌봉"
 	},
-	408: {
-		special: "자신의 슬롯을 [INT]슬롯으로 변환 하고 나머지 캐릭터의 슬롯을 랜덤으로 바꾼다.,적 전체에게 캐릭터 공격력에 15배의 [INT]데미지",
-		specialName: "그라운드 데스",
-		captain: "받는 데미지를 20%줄이고, 참격형 캐릭터의 공격력이 2배가 된다."
+	408: { // modified
+		special: "자기 슬롯이 [INT], 그 외의 슬롯이 랜덤으로 바뀌고, 적 전체에 캐릭터의 공격x15배의 [INT] 데미지",
+		specialName: "침식 윤회",
+		captain: "받는 데미지를 20% 줄이고, 참격형 캐릭터의 공격력이 2배가 된다."
 	},
 	409: {
 		special: "자신의 슬롯을 [QCK]슬롯으로 변환하고 적 한명에게 캐릭터 공격력에 13배의 [QCK]데미지.",
@@ -3326,15 +3326,15 @@ window.details = {
         specialName: "Air Door",
         captain: "Boosts ATK and HP of STR characters by 1.5x"
     },
-    708: {
-        special: "Reduces Bind and Despair duration by 3 턴",
-        specialName: "Cien Fleur - Wing",
-        captain: "Boosts ATK and RCV of PSY characters by 1.2x"
+    708: { // modified
+        special: "‘봉쇄’·선장효과 무효 상태가 3턴 회복된다",
+        specialName: "시엔 플루르 윙",
+        captain: "[PSY] 캐릭터의 공격력과 회복력이 1.2배가 된다"
     },
-    709: {
-        special: "Reduces Bind and Despair duration by 3 턴",
-        specialName: "Cien Fleur - Wing",
-        captain: "Boosts ATK and RCV of PSY characters by 1.5x"
+    709: { // modified
+        special: "‘봉쇄’·선장효과 무효 상태가 3턴 회복된다",
+        specialName: "시엔 플루르 윙",
+        captain: "[PSY] 캐릭터의 공격력과 회복력이 1.5배가 된다"
     },
     710: {
         special: "Empties all slots with [BLOCK] orbs, boosts ATK of Shooter characters by 1.25x for 3 턴, deals 15x character's ATK in PSY damage to all enemies",
@@ -3428,10 +3428,10 @@ window.details = {
         specialName: "Peacock String Slasher",
         captain: "Recovers 2,000 HP at the end of each 턴"
     },
-    727: {
-        special: "Deals 10x character's ATK in DEX damage to all enemies, reduces the defense of all enemies by 50% for 1 턴",
-        specialName: "Gum-Gum Gatling",
-        captain: "Reduces cooldown of all specials by 2 턴 at the start of the fight, boosts ATK of Free Spirit and Fighter characters by 1.75x"
+    727: { // modified
+        special: "적 전체에 캐릭터 공격x10배의 [DEX] 데미지를 주고, 방어력을 1턴 동안 반으로 줄인다",
+        specialName: "고무고무 총난타",
+        captain: "모험을 시작할 때 필살 턴을 단축하고 (2턴), 자유형과 격투형 캐릭터의 공격력이 1.75배가 된다."
     },
     728: {
         special: "Randomizes all orbs, recovers 6x character's RCV in HP at the end of each 턴 for 3 턴",
@@ -3544,11 +3544,11 @@ window.details = {
         specialName: "Rokuougan",
         captain: "Boosts ATK of Powerhouse characters by 3x if they have a matching orb, by 2.5x otherwise, reduces crew's RCV to 0"
     },
-    749: {
-        special: "Deals random DEX damage to all enemies, randomizes all orbs",
-        specialName: "Tempest Kick: Sky Slicer",
+    749: { // modified
+        special: "적 전체에 랜덤 [DEX] 데미지를 주고, 랜덤으로 슬롯을 바꾼다",
+        specialName: "‘람각’ 주단",
         specialNotes: "#{random : 10,000 : 90,000}",
-        captain: "Boosts ATK of DEX characters by 1.5x, boosts damage of DEX specials by 1.5x",
+        captain: "[DEX] 캐릭터의 공격력이 1.5배가 되고, 필살기로 주는 [DEX] 데미지가 1.5배가 된다",
         captainNotes: "#{noFixedPerc}"
     },
     750: {
@@ -3558,10 +3558,10 @@ window.details = {
         captain: "Boosts ATK of DEX characters by 2x, boosts damage of DEX specials by 2x",
         captainNotes: "#{noFixedPerc}"
     },
-    751: {
-        special: "Reduces damage received in the next 턴 by 50% if the special is activated with more than 50% health remaining, by 80% if activated with less than 50% but more than 10% health remaining, by 100% if activated with less than 10% health remaining",
-        specialName: "Sheep Cloud Tidal Wave",
-        captain: "Boosts ATK and RCV of Cerebral characters by 1.5x"
+    751: { // modified
+        special: "1턴 동안, 필살기 발동 시의 체력이 50% 이상이면 데미지를 반으로 줄이고, 50% 미만에서 10% 이상 사이이면 데미지 80% 감소, 10% 미만이면 무효로 만든다",
+        specialName: "비누 양 양떼구름 대해일",
+        captain: "박식형과 캐릭터의 공격력과 회복력이 1.5배가 된다"
     },
     752: { // modified
         special: "1턴 동안, 필살기 발동 시의 체력이 50% 이상이면 데미지를 반으로 줄이고, 50% 미만에서 10% 이상 사이이면 데미지 80% 감소, 10% 미만이면 무효로 만든다",
@@ -3669,10 +3669,10 @@ window.details = {
 		specialName: "공중보법 「월보」",
 		captain: "박식형 캐릭터의 공격이 2.5배가 된다."
 	},
-	772: {
-		special: "적 전체의 체력을 10% 줄이고, [PSY],[INT] 슬롯을 [DEX] 으로 변환",
-		specialName: "8도류「맹장연격」",
-		captain: "참격형 캐릭터의 공격을 2배로 하고, QCK 캐릭터로 부터 받는 데미지를 20% 감소한다."
+	772: { // modified
+		special: "적 전체의 HP를 10% 줄이고, [PSY][INT] 슬롯을 [DEX]로 바꾼다",
+		specialName: "팔도류의 연속 맹공격",
+		captain: "참격형 캐릭터의 공격력이 2배가 되고, [QCK] 캐릭터에게 받는 데미지 20% 감소"
 	},
 	773: {
 		special: "1턴간 3,000을 넘는 데미지를 80% 감소시킨다.",
@@ -3690,10 +3690,10 @@ window.details = {
 		specialName: "분노의 박치기",
 		captain: "박식형 캐릭터의 공격과 체력을 1.5배가 된다."
 	},
-	776: {
-		specialName: "활기넘치는 럭키샷!!",
-		special: "체력을 5,000 회복하고, 적 1체에 캐릭터의 공격 X15배 PSY 데미지를 주고, 자신은 3턴간 봉인",
-		captain: "PSY 캐릭터의 공격과 회복이 1.25배가 된다."
+	776: { // modified
+		specialName: "호유의 럭키 샷!!",
+		special: "체력을 5,000 회복하고, 적 1명에게 공격력x15배 [PSY] 데미지를 주며, 자신이 3턴 동안 봉쇄 상태가 된다",
+		captain: "[PSY] 캐릭터의 공격력과 회복력이 1.25배가 된다"
 	},
 	777: {
 		special: "체력을 5,000 회복하고, 적 1체에 캐릭터의 공격 X15배 PSY 데미지를 주고, 자신은 3턴간 봉인",
@@ -3732,18 +3732,18 @@ window.details = {
 		specialName: "화조풍월 미소",
 		captain: "참격형 캐릭터의 공격이 2배, 회복이 1.5배가 된다."
 	},
-	784: {
-		special: "선장 효과 무효화 상태를 2턴 회복, 블라인드를 완전히 회복",
-		specialName: "칠칠맞은 딸을 꾸짖다"
+	784: { // modified
+		special: "선장효과 무효 상태를 2턴 줄이고, 의성어 은폐 상태를 완전히 회복한다",
+		specialName: "단정치 못한 딸에게 쓴소리"
 	},
 	785: {
 		special: "선장 효과 무효화 상태를 2턴 회복, 블라인드를 완전히 회복",
 		specialName: "칠칠맞은 딸을 꾸짖다",
 		captain: "받는 데미지를 20% 감소한다."
 	},
-	786: {
-		special: "자신을 10턴 봉인하고, 적 전체 공격을 1턴 지연시키고, 4턴동안 받는 데미지를 반감",
-		specialName: "결사의 각오!「오픈 마인드」"
+	786: { // modified
+		special: "자신을 10턴 동안 봉쇄 상태로 만들고, 적 전체를 1턴 지연시키며, 4턴 동안 받는 데미지를 반으로 줄인다",
+		specialName: "결사적 각오! ‘오픈 마인드’"
 	},
 	787: { // modified
 		special: "자신을 10턴 동안 봉쇄 상태로 만들고, 적 전체를 1턴 지연시키며, 4턴 동안 받는 데미지를 반으로 줄인다",
@@ -3754,33 +3754,33 @@ window.details = {
 		special: "필살기 발동 턴 내에 일당 전원이 PERFECT 공에 성공하면 다음 턴에 참격형 캐릭터의 공격력이 1.75배가 된다",
 		specialName: "소녀검사의 진검승부"
 	},
-	789: {
+	789: { // modified
 		special: "필살기 발동 턴 에 일당 전원 PERFECT 공격 성공시 다음턴에 참격 타입의 공격이 1.75배 상승",
 		specialName: "소녀검사의 진검승부",
 		captain: "참격형 캐릭터의 공격이 1.5배가 된다."
 	},
-	790: {
-		special: "적 1체에 캐릭터의 공격 X3배 QCK 데미지를 주고, 3턴간 STR, DEX, QCK 캐릭터의 공격을 1.2배 상승",
+	790: { // modified
+		special: "적 1명에게 캐릭터의 공격력x3배 [QCK] 데미지를 주고, 3턴 동안 [STR]·[DEX]·[QCK] 속성 캐릭터의 공격력이 1.2배가 된다",
 		specialName: "출동!! 우솝 해적단"
 	},
-	791: {
-		special: "적 1체에 캐릭터의 공격 X3배 QCK 데미지를 주고, 3턴간 STR, DEX, QCK 캐릭터의 공격을 1.2배 상승",
-		specialName: "출동!! 우솝 해적단",
-		captain: "STR, DEX, QCK 캐릭터의 체력,공격,회복이 1.25배가 된다."
+	791: { // modified
+		special: "적 1명에게 캐릭터의 공격력x3배 [QCK] 데미지를 주고, 3턴 동안 [STR]·[DEX]·[QCK] 속성 캐릭터의 공격력이 1.2배가 된다",
+		specialName: "출동!! 우솝 해적단"
+		captain: "[STR]·[DEX]·[QCK] 속성 캐릭터의 능력치가 1.25배가 된다"
 	},
-	792: {
-		special: "랜덤으로 [STR], [QCK], [DEX], [PSY], [INT]으로 변환하고, 2회 슬롯을 자유롭게 이동하고, 1턴 슬롯 고정",
-		specialName: "솜씨좋은 장인을 통솔하는 열정"
+	792: { // modified
+		special: "슬롯을 랜덤 속성 슬롯으로 바꾸고, 슬롯을 2번 자유롭게 움직이며 1턴 동안 고정한다",
+		specialName: "뛰어난 장인을 통솔하는 열의"
 	},
-	793: {
-		special: "랜덤으로 [STR], [QCK], [DEX], [PSY], [INT]으로 변환하고, 2회 슬롯을 자유롭게 이동하고, 1턴 슬롯 고정",
-		specialName: "솜씨좋은 장인을 통솔하는 열정",
-		captain: "박식형 캐릭터의 공격과 회복이 1.5배가 된다."
+	793: { // modified
+		special: "슬롯을 랜덤 속성 슬롯으로 바꾸고, 슬롯을 2번 자유롭게 움직이며 1턴 동안 고정한다",
+		specialName: "뛰어난 장인을 통솔하는 열의"
+		captain: "박식형 캐릭터의 공격력과 회복력이 1.5배가 된다"
 	},
-	794: {
-		special: "적 전체의 임의의 대상에 10회 무작위INT 데미지를 주고, 적 공격을 1턴 지연",
+	794: { // modified
+		special: "무작위의 적에게 [INT] 큰 랜덤 데미지를 10회 주고, 적 전체를 1턴 지연시킨다",
 		specialName: "고무고무 폭풍우",
-		captain: "강인형 캐릭터의 공격을 3배가 되지만 턴 경과마다 체력이 10% 감소, 공격이 0.1배 감소한다.",
+		captain: "강인형 캐릭터의 공격력이 3배가 되고, 턴 경과시마다 공격력과 체력이 감소된다",
 		captainNotes: "처음 던전 입장시 3배, 첫턴 경과시 2.9배, 두번째턴 2.8배 최소 1배까지 감소."
 	},
 	795: { // modified
@@ -3789,10 +3789,10 @@ window.details = {
 		captain: "강인형 캐릭터의 공격력이 3.5배가 되고, 턴 경과 시마다 공격력과 체력이 감소된다",
 		captainNotes: "처음 던전 입장시 3배, 첫턴 경과시 2.9배, 두번째턴 2.8배 최소 1배까지 감소."
 	},
-	796: {
-		special: "3턴간 자슬롯 출현율이 약간 상승하고 자신의 공격력이 1턴간 1.75배 상승",
-		specialName: "페토페토 열매, 최강의 힘",
-		captain: "박식형 캐릭터의 공격이 2배가 된다."
+	796: { // modified
+		special: "3턴 동안 속성 일치 슬롯 출현율이 조금 상승하고, 자신이 공격력이 1턴 동안 1.75배가 된다",
+		specialName: "페트페트 열매 최강의 힘",
+		captain: "박식형 캐릭터의 공격력이 2배가 된다"
 	},
 	797: { // modified
 		special: "3턴 동안 속성 일치 슬롯 출현율이 조금 상승하고, 자신의 공격력이 1턴 동안 1.75배가 된다",
@@ -3804,12 +3804,12 @@ window.details = {
 		specialName: "듀공 비기! 검정 지느러미 정권",
 		captain: "3연속 PERFECT 시 이후의 캐릭터 공격력이 2.5배가 된다"
 	},
-	799: {
-		special: "슬롯을 랜덤으로 교체하고, 캐릭터의 회복 X9배 체력을 회복",
+	799: { //GOOD, GREAT, PERFECT 타이밍 보너스에 캐릭터의 공격력 x3배의 데미지가 가산된다. modified
+		special: "슬롯이 랜덤으로 바뀌고, 체력을 캐릭터의 회복력X9배 회복한다",
 		specialName: "해수 힐링"
 	},
-	800: {
-		special: "모든 슬롯을 [STR], [DEX], [QCK] 으로 변환",
+	800: { // modified
+		special: "모든 슬롯을 [STR][DEX][QCK]으로 바꾼다",
 		specialName: "옥토퍼스 텐타클 블로"
 	},
 	801: {
@@ -6980,10 +6980,10 @@ window.details = {
         specialName:"Gomu Gomu no Stamp Gatling",
         specialNotes: "Firefly Light, Fiery Doll is Event Ace's special ability.",
     },
-    1246: {// Event Ace
-        captain: "Boosts ATK of Fighter characters by 1.2x",
-        special: "Reduces crew's current HP by 90%, deals 55x character's ATK in typeless damage to all enemies, and boosts ATK of Fighter characters by 1.3x for 1 턴. If \"Gomu Gomu no Stamp Gatling\" is used again in the same 턴 the special is activated in, boosts ATK of Fighter characters by 2x instead.",
-        specialName:"Firefly Light, Fiery Doll",
+    1246: {// Event Ace // modified	
+        captain: "격투형 캐릭터의 공격력을 1.2배로 만든다",
+        special: "체력을 대폭 줄이고 적 전체에 무 속성 큰 데미지를 주고, 1턴 동안 격투형 공격력을 1.3배로 만들며, 같은 턴 안에 이미 「고무고무 스탬프 난타」를 사용했다면 2배가 된다",
+        specialName:"반디 불덩이",
     },
     1247: {// Event Ace
         captain: "Boosts HP of Fighter characters by 1.2x and their ATK by 2.75x if they have a matching orb, by 2x otherwise",
@@ -16236,11 +16236,11 @@ window.details = {
             },
         ]
     },
-    2002: {//Story Senor Pink
-        captain: "Increases damage received by 1.2x. Reduces cooldown of all specials by 2 turns at the start of the fight and boosts ATK of all characters by 2.5x.",
-        special: "Reduces Bind, Despair and Paralysis duration by 3 turns and deals several times character's ATK in Typeless damage to all enemies",
+    2002: {//Story Senor Pink // modified
+        captain: "모험 시작 시 필살기 턴을 2턴 단축하고, 일당의 공격력을 2.5배, 받는 데미지를 1.2배로 만든다",
+        special: "봉쇄, 선장효과 무효, 마비 상태를 3턴 회복하고, 적 전체에게 일당의 체력이 적을수록 더욱 강해지는 무 속성 데미지를 준다",
         specialNotes: "#{specialProportional : lower : ??? * ( 1 - (remaining HP) / (total HP) )}",
-        specialName: "The Man Standing Tall",
+        specialName: "가로 막아서는 신의",
     },
     2003: {//Story Doflamingo // modified
         captain: "참격형 캐릭터의 공격력을 2.25배, 체력을 1.5배로 만든다",
@@ -20193,15 +20193,15 @@ window.details = {
         specialName: "애슬리트",
     },
     2502: {//Kung Fu Luffy
-        captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
+        captain: "일당의 체력을 약간 상승시키고, PERFECT를 2연속, 5연속 달성 시 이후 캐릭터의 공격력이 3.5배, 약 4배로 상승한다",
         special: "캐릭터의 공격력x120배의 무 속성 데미지를 주고, 인접한 슬롯을 속성 일치 슬롯으로 바꾸며, 2턴 동안 일당의 공격력을 1.75배로 만들고, 적 각각에 대하여 5,656을 넘는 부분의 데미지를 초대폭 줄이며, PERFECT 타이밍이 상당히 쉬워진다",
-        sailor: "Adds 3x character's ATK as Additional Typeless Damage",
+        sailor: "GOOD, GREAT, PERFECT 타이밍 보너스에 캐릭터의 공격력 x3배의 데미지가 가산된다",
         specialName: "고무고무 거인의 라이플: 쿵후",
     },
     2503: {//Kung Fu Luffy
-        captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
-         special: "캐릭터의 공격력x120배의 무 속성 데미지를 주고, 인접한 슬롯을 속성 일치 슬롯으로 바꾸며, 2턴 동안 일당의 공격력을 1.75배로 만들고, 적 각각에 대하여 5,656을 넘는 부분의 데미지를 초대폭 줄이며, PERFECT 타이밍이 상당히 쉬워진다",
-        sailor: "Adds 3x character's ATK as Additional Typeless Damage",
+        captain: "일당의 체력을 약간 상승시키고, PERFECT를 2연속, 5연속 달성 시 이후 캐릭터의 공격력이 3.5배, 약 4배로 상승한다",
+        special: "캐릭터의 공격력x120배의 무 속성 데미지를 주고, 인접한 슬롯을 속성 일치 슬롯으로 바꾸며, 2턴 동안 일당의 공격력을 1.75배로 만들고, 적 각각에 대하여 5,656을 넘는 부분의 데미지를 초대폭 줄이며, PERFECT 타이밍이 상당히 쉬워진다",
+        sailor: "GOOD, GREAT, PERFECT 타이밍 보너스에 캐릭터의 공격력 x3배의 데미지가 가산된다",
         specialName: "고무고무 거인의 라이플: 쿵후",
         potential: [
             {
