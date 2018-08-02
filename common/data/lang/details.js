@@ -5129,10 +5129,10 @@ window.details = {
         special: "슬롯을 랜덤으로 바꾸고, 1턴 동안 [INT] 캐릭터의 공격력을 1.5배로 만들며 그 턴 내에 일당 전원이 PERFECT 공격에 성공하면 추가로 2턴 동안 공격력이 1.5배가 된다",
         specialName: "허안의 킬링샷"
     },
-    1016: {
-        captain: "Boosts ATK of [INT] characters by 3x if they have a matching orb, by 1.5x otherwise",
-        special: "Randomizes all orbs. Boosts ATK of [INT] characters by 1.5x for 1 턴. If during that 턴 every unit scores a PERFECT hit, boosts ATK of [INT] characters by 1.5x for the next 2 턴",
-        specialName: "Hollow Eye Killing Shot"
+    1016: { // modified	
+        captain: "[INT] 캐릭터의 공격력을 슬롯 일치 시 3배, 평상시 1.5배로 만든다",
+        special: "슬롯을 랜덤으로 바꾸고, 1턴 동안 [INT] 캐릭터의 공격력을 1.5배로 만들며 그 턴 내에 일당 전원이 PERFECT 공격에 성공하면 추가로 2턴 동안 공격력이 1.5배가 된다",
+        specialName: "허안의 킬링샷"
     },
     1017: {
         captain: "Boosts HP of Slasher characters by 1.5x",
@@ -9214,20 +9214,20 @@ window.details = {
         specialNotes: "#{stages}",
         specialName: "평범한 「물놀이」",
     },
-    1527: {//Arlong
-        captain: "Reduces cooldown of all specials by 1 턴 at the start of the fight. Boosts ATK of [INT] characters by 2x",
+    1527: {//Arlong // modified
+        captain: "[INT]의 공격력을 2배로 만든다",
         special: [
             {
-                "description": "Reduces Special Cooldown of your top row by 1 턴, boosts ATK of the characters in the top row by 1.5x for 1 턴",
+                "description": "1턴 동안 상단 캐릭터의 공격력을 1.5배로 만들고, 필살기 턴을 1턴 단축한다",
                 "cooldown": [ 16, 7 ],
             },
             {
-                "description": "Reduces Special Cooldown of your top row by 1 턴, boosts ATK of the characters in the top row by 1.75x for 1 턴",
+                "description": "1턴 동안 상단 캐릭터의 공격력을 1.75배로 만들고, 필살기 턴을 1턴 단축한다",
                 "cooldown": [ 21, 12 ],
             },
         ],
         specialNotes: "#{stages}",
-        specialName: "Just 'Water Play'",
+        specialName: "평범한 「물놀이」",
     },
     1528: {//Blenheim
         captain: "Boosts ATK of Powerhouse characters by 2.25x",
@@ -11130,10 +11130,10 @@ window.details = {
         sailor: "자신의 필살기 턴 되감기를 3턴 회복한다.",
         specialName: "내리쬐는 오아시스",
     },
-    1732: {//Nekomamushi
-        captain: "STR캐릭터 공격력이 2배, 타격, 강인 캐릭터의 체력이 1.1배 증가한다.",
-        special: "적 1기에 캐릭터 공격력 50배의 베리어 무시효과 무속성 데미지를 주고 적이 상태 이상 무효일 때 방해 슬롯을 포함한 전체 슬롯이 자속성 슬롯으로 변환하고 1턴 동안 타격, 강인 캐릭터의 공격력이 1.75배가 된다.",
-        specialName: "맹공의 수호신",
+    1732: {//Nekomamushi // modified
+        captain: "[STR]의 공격력을 2배, 타격형과 강인형 캐릭터의 체력을 1.1배로 만든다",
+        special: "적 1명에게 모든 방어 효과를 무시하고 캐릭터의 공격력x50배의 무 속성 데미지를 주며, 적이 지연 무효, 상태 이상 무효일 때 [방해]를 포함한 모든 슬롯을 속성 일치 슬롯으로 바꾸고, 1턴 동안 타격형과 강인형 캐릭터의 공격력이 1.75배가 된다",
+        specialName: "맹공의 수호자",
     },
     1733: {//Nekomamushi :: modified
         captain: "[STR]의 공격력을 2.5배, 타격형과 강인형 캐릭터의 체력을 1.25배로 만든다",
@@ -13017,10 +13017,10 @@ window.details = {
         special: "무작위의 적에게 캐릭터의 공격력x20배의 무 속성 데미지를 10회 주고, 적 전체의 공격을 1턴 지연시키고, 자신이 선장, 친구 선장, 조력자 선장인 경우 모든 슬롯을 속성 일치 슬롯으로 바꾼다",
         specialName: "종전의 비"
     },
-    1869: {//Fujitora
-        captain: "Increases damage received by 1.2x, Boosts ATK of Slasher characters by 3.25x at the start of the chain and their HP by 1.2x and boosts ATK of Slasher characters by 4.225x following a chain of GOOD→GREAT→PERFECT hits",
-        special: "Deals 10 hits of 20x character's ATK in typeless damage to random enemies and delays all enemies for 1 turn. If this character is your Captain or Friend/Guest Captain, Changes all orbs on Slasher characters into Matching orbs.",
-        specialName: "The Rain of War's End",
+    1869: {//Fujitora // modified
+        captain: "데미지를 조금 더 받는 대신, 참격형 캐릭터의 공격력이 3.25배, 체력이 1.2배, GOOD→GREAT→PERFECT 순으로 공격하면 참격형 캐릭터의 공격력이 추가로 1.3배가 된다",
+        special: "무작위의 적에게 캐릭터의 공격력x20배의 무 속성 데미지를 10회 주고, 적 전체의 공격을 1턴 지연시키고, 자신이 선장, 친구 선장, 조력자 선장인 경우 모든 슬롯을 속성 일치 슬롯으로 바꾼다",
+        specialName: "종전의 비",
         sailor: {
             "base": "None",
             "level1": "Boosts base ATK, HP and RCV of Slasher characters by 40",
@@ -13856,24 +13856,24 @@ window.details = {
             },
         ]
     },
-    1896: {//Enel
-        captain: "Boosts ATK of Driven characters proportionally to the crew's current HP, by 2.25x at max",
+    1896: {//Enel // modified
+        captain: "야심형 캐릭터의 공격력을 1.25배로 만들고, 공격 개시 전 남은 체력이 많을수록 야심형 캐릭터의 공격력이 더욱 상승한다(최대 체력일 때 공격력 2.25배)",
         captainNotes: "#{captainProportional : higher : 1.25 + 1 * ((remaining HP) / (total HP)) : 2.25 : 1.25}",
         special: [
             {
-                "description": "Changes own orb into [STR], reduces crew's ATK DOWN, Chain Multiplier Limit and Paralysis duration by 2 turns. If your Captain is a Driven character, adds .3x to Chain multiplier for 1 turn",
+                "description": "자신의 슬롯을 [STR]으로 바꾸고, 공격력 감소 & 체인 계수 상한 고정 & 마비 상태를 2턴 회복하며, 선장이 야심형일 경우 1턴 동안 체인 계수가 +0.3이 된다",
                 "cooldown": [ 23, 9 ],
             },
             {
-                "description": "Changes own orb into [STR], reduces crew's ATK DOWN, Chain Multiplier Limit and Paralysis duration by 5 turns. If your Captain is a Driven character, adds .7x to Chain multiplier for 1 turn",
+                "description": "자신의 슬롯을 [STR]으로 바꾸고, 공격력 감소 & 체인 계수 상한 고정 & 마비 상태를 5턴 회복하며, 선장이 야심형일 경우 1턴 동안 체인 계수가 +0.7 된다",
                 "cooldown": [ 28, 14 ],
             },
         ],
-        specialName: "30,000,000 Volt: Hino",
+        specialName: "3,000만 볼트 뇌조",
         specialNotes: "#{stages}",
     },
     1897: {//Enel :: modified
-        captain: "Boosts ATK of Driven characters proportionally to the crew's current HP, by 2.75x at max and their RCV by 1.3x",
+        captain: "야심형 캐릭터의 공격력을 1.25배로 만들고, 공격 개시 전 남은 체력이 많을수록 야심형 캐릭터의 공격력이 더욱 상승한다(최대 체력일 때 공격력 2.25배, 회복력 1.3배)",
         captainNotes: "#{captainProportional : higher : 1.5 + 1.25 * ((remaining HP) / (total HP)) : 2.75 : 1.5}",
         special: [
             {
@@ -17280,10 +17280,10 @@ window.details = {
         special: "Changes Badly Matching orbs into Matching orbs, randomizes non-matching orbs and recovers 2,000 HP",
         specialName: "Complex Feelings",
     },
-    2066: {//6+ Jinbe
-        captain: "Boosts ATK of Fighter characters by 3x, their HP by 1.5x and reduces damage received by 7%",
-        specialName: "Shark Fist Tile Breaker: Great Earth Wave",
-        special: "Deals 60x character's ATK in [INT] damage to all enemies, changes all orbs on Fighter characters into matching orbs and reduces enemy's Percent Damage Reduction and Increased Defense duration by 5 turns.",
+    2066: {//6+ Jinbe // modified
+        captain: "격투형 캐릭터의 공격력을 3배, 체력을 1.5배로 만들며, 받는 데미지를 7% 감소시킨다",
+        specialName: "상어 기와 정권 「대지의 물결」",
+        special: "적 전체에게 [INT] 특대 데미지를 주고, 격투형 캐릭터의 슬롯을 속성 일치 슬롯으로 바꾸고, 적 전체에게 걸려 있는 방어력 상승 및 데미지 감소 상태([DAMAGE CUT]는 제외)를 5턴 줄인다",
     },
     2067: {//Tashigi
         captain: "Boosts ATK of Slasher characters by 2x at the start of the chain, by 2.5x after scoring 3 PERFECTs in a row and recovers 1.25x character's RCV in HP at the end of each turn",
