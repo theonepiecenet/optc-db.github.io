@@ -2063,7 +2063,7 @@ window.units = [ ["몽키 D. 루피","STR","Fighter",2,1,5,0,5,163,42,15,8,134,6
 [ "키자루, Flashy Pursuit", "DEX", [ "Fighter", "Free Spirit" ], 4, 30, 6, 1, 50, 130703, 348, 122, 29, 1069, 368, 117, 1 ],
 [ "키자루, Raging Waves of Light", "DEX", [ "Fighter", "Free Spirit" ], 5, 60, 4, 1, 99, 5000000, 830, 290, 94, 2612, 1362, 268, 1 ],
 [ "Charlotte Pudding", "PSY", [ "Shooter", "Striker" ], 4, 15, 5, 4, 99, 1000000, 201, 109, 18, 2018, 1110, 264, 1 ],
-[ "Knight of the Sea 징베, Strawhat 루피’s Accomplice", "INT", [ "Fighter", "Powerhouse" ], '6+', 65, 4, 5, 99, 5000000, 1820, 752, 182, 3980, 1484, 352, 1 ],
+[ "바다의 협객 징베, 밀짚모자 루피의 공범자", "INT", [ "Fighter", "Powerhouse" ], '6+', 65, 4, 5, 99, 5000000, 1820, 752, 182, 3980, 1484, 352, 1 ],
 [ "타시기, Smoker’s Right Arm", "PSY", [ "Slasher", "Cerebral" ], 4, 20, 6, 4, 70, 1066998, 243, 180, 51, 918, 669, 228, 1 ],
 [ "타시기, Ambitions of a Female Swordsman", "PSY", [ "Slasher", "Cerebral" ], 5, 30, 4, 5, 99, 4000000, 833, 610, 176, 1921, 1341, 411, 1 ],
 [ "보아 행콕 「개」, Kuja Pirates Captain", "INT", [ "Shooter", "Free Spirit" ], 4, 30, 4, 4, 70, 1066998, 149, 144, 58, 1011, 639, 202, 1 ],

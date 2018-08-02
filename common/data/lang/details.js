@@ -5929,11 +5929,11 @@ window.details = {
             {
                 "Name": "피격 시 공격력 상승",
                 "description": [
-                    "Level 1: Boosts base ATK by 20",
-                    "Level 2: Boosts base ATK by 40",
-                    "Level 3: Boosts base ATK by 60",
-                    "Level 4: Boosts base ATK by 80",
-                    "Level 5: Boosts base ATK by 120"
+                    "Level 1: 공격력 상승 : 20",
+                    "Level 2: 공격력 상승 : 40",
+                    "Level 3: 공격력 상승 : 60",
+                    "Level 4: 공격력 상승 : 80",
+                    "Level 5: 공격력 상승 : 120"
                 ]
             },
             {
@@ -12814,11 +12814,11 @@ window.details = {
             {
                 "Name": "피격 시 공격력 상승",
                 "description": [
-                    "Level 1: Boosts base ATK by 30",
-                    "Level 2: Boosts base ATK by 60",
-                    "Level 3: Boosts base ATK by 90",
-                    "Level 4: Boosts base ATK by 120",
-                    "Level 5: Boosts base ATK by 200"
+                    "Level 1: 공격력 상승 : 30",
+                    "Level 2: 공격력 상승 : 60",
+                    "Level 3: 공격력 상승 : 90",
+                    "Level 4: 공격력 상승 : 120",
+                    "Level 5: 공격력 상승 : 200"
                 ]
             },
         ],
@@ -12878,11 +12878,11 @@ window.details = {
             {
                 "Name": "피격 시 공격력 상승",
                 "description": [
-                    "Level 1: Boosts base ATK by 20",
-                    "Level 2: Boosts base ATK by 40",
-                    "Level 3: Boosts base ATK by 60",
-                    "Level 4: Boosts base ATK by 80",
-                    "Level 5: Boosts base ATK by 100"
+                    "Level 1: 공격력 상승 : 20",
+                    "Level 2: 공격력 상승 : 40",
+                    "Level 3: 공격력 상승 : 60",
+                    "Level 4: 공격력 상승 : 80",
+                    "Level 5: 공격력 상승 : 100"
                 ]
             },
             {
@@ -13063,11 +13063,11 @@ window.details = {
             {
                 "Name": "피격 시 공격력 상승",
                 "description": [
-                    "Level 1: Boosts base ATK by 30",
-                    "Level 2: Boosts base ATK by 60",
-                    "Level 3: Boosts base ATK by 90",
-                    "Level 4: Boosts base ATK by 100",
-                    "Level 5: Boosts base ATK by 150"
+                    "Level 1: 공격력 상승 : 30",
+                    "Level 2: 공격력 상승 : 60",
+                    "Level 3: 공격력 상승 : 90",
+                    "Level 4: 공격력 상승 : 100",
+                    "Level 5: 공격력 상승 : 150"
                 ]
             },
             {
@@ -13128,11 +13128,11 @@ window.details = {
             {
                 "Name": "피격 시 공격력 상승",
                 "description": [
-                    "Level 1: Boosts base ATK by 30",
-                    "Level 2: Boosts base ATK by 60",
-                    "Level 3: Boosts base ATK by 90",
-                    "Level 4: Boosts base ATK by 100",
-                    "Level 5: Boosts base ATK by 150"
+                    "Level 1: 공격력 상승 : 30",
+                    "Level 2: 공격력 상승 : 60",
+                    "Level 3: 공격력 상승 : 90",
+                    "Level 4: 공격력 상승 : 100",
+                    "Level 5: 공격력 상승 : 150"
                 ]
             },
             {
@@ -13182,11 +13182,11 @@ window.details = {
             {
                 "Name": "피격 시 공격력 상승",
                 "description": [
-                    "Level 1: Boosts base ATK by 30",
-                    "Level 2: Boosts base ATK by 60",
-                    "Level 3: Boosts base ATK by 90",
-                    "Level 4: Boosts base ATK by 100",
-                    "Level 5: Boosts base ATK by 150"
+                    "Level 1: 공격력 상승 : 30",
+                    "Level 2: 공격력 상승 : 60",
+                    "Level 3: 공격력 상승 : 90",
+                    "Level 4: 공격력 상승 : 100",
+                    "Level 5: 공격력 상승 : 150"
                 ]
             },
             {
@@ -13527,11 +13527,11 @@ window.details = {
             {
                 "Name": "피격 시 공격력 상승",
                 "description": [
-                    "Level 1: Boosts base ATK by 20",
-                    "Level 2: Boosts base ATK by 40",
-                    "Level 3: Boosts base ATK by 60",
-                    "Level 4: Boosts base ATK by 80",
-                    "Level 5: Boosts base ATK by 120"
+                    "Level 1: 공격력 상승 : 20",
+                    "Level 2: 공격력 상승 : 40",
+                    "Level 3: 공격력 상승 : 60",
+                    "Level 4: 공격력 상승 : 80",
+                    "Level 5: 공격력 상승 : 120"
                 ]
             },
             {
@@ -14337,11 +14337,11 @@ window.details = {
             {
                 "Name": "피격 시 공격력 상승",
                 "description": [
-                    "Level 1: Boosts base ATK by 30",
-                    "Level 2: Boosts base ATK by 60",
-                    "Level 3: Boosts base ATK by 90",
-                    "Level 4: Boosts base ATK by 100",
-                    "Level 5: Boosts base ATK by 150"
+                    "Level 1: 공격력 상승 : 30",
+                    "Level 2: 공격력 상승 : 60",
+                    "Level 3: 공격력 상승 : 90",
+                    "Level 4: 공격력 상승 : 100",
+                    "Level 5: 공격력 상승 : 150"
                 ]
             },
         ]
@@ -14583,11 +14583,11 @@ window.details = {
             {
                 "Name": "피격 시 공격력 상승",
                 "description": [
-                    "Level 1: Boosts base ATK by 75",
-                    "Level 2: Boosts base ATK by 100",
-                    "Level 3: Boosts base ATK by 200",
-                    "Level 4: Boosts base ATK by 250",
-                    "Level 5: Boosts base ATK by 300"
+                    "Level 1: 공격력 상승 : 75",
+                    "Level 2: 공격력 상승 : 100",
+                    "Level 3: 공격력 상승 : 200",
+                    "Level 4: 공격력 상승 : 250",
+                    "Level 5: 공격력 상승 : 300"
                 ]
             },
         ],
@@ -14649,11 +14649,11 @@ window.details = {
             {
                 "Name": "피격 시 공격력 상승",
                 "description": [
-                    "Level 1: Boosts base ATK by 30",
-                    "Level 2: Boosts base ATK by 60",
-                    "Level 3: Boosts base ATK by 90",
-                    "Level 4: Boosts base ATK by 120",
-                    "Level 5: Boosts base ATK by 150"
+                    "Level 1: 공격력 상승 : 30",
+                    "Level 2: 공격력 상승 : 60",
+                    "Level 3: 공격력 상승 : 90",
+                    "Level 4: 공격력 상승 : 120",
+                    "Level 5: 공격력 상승 : 150"
                 ]
             },
             {
@@ -15000,11 +15000,11 @@ window.details = {
             {
                 "Name": "피격 시 공격력 상승",
                 "description": [
-                    "Level 1: Boosts base ATK by 50",
-                    "Level 2: Boosts base ATK by 75",
-                    "Level 3: Boosts base ATK by 100",
-                    "Level 4: Boosts base ATK by 150",
-                    "Level 5: Boosts base ATK by 200"
+                    "Level 1: 공격력 상승 : 50",
+                    "Level 2: 공격력 상승 : 75",
+                    "Level 3: 공격력 상승 : 100",
+                    "Level 4: 공격력 상승 : 150",
+                    "Level 5: 공격력 상승 : 200"
                 ]
             },
         ],
@@ -15105,11 +15105,11 @@ window.details = {
             {
                 "Name": "피격 시 공격력 상승",
                 "description": [
-                    "Level 1: Boosts base ATK by 150",
-                    "Level 2: Boosts base ATK by 200",
-                    "Level 3: Boosts base ATK by 250",
-                    "Level 4: Boosts base ATK by 300",
-                    "Level 5: Boosts base ATK by 400"
+                    "Level 1: 공격력 상승 : 150",
+                    "Level 2: 공격력 상승 : 200",
+                    "Level 3: 공격력 상승 : 250",
+                    "Level 4: 공격력 상승 : 300",
+                    "Level 5: 공격력 상승 : 400"
                 ]
             },
         ],
@@ -15215,11 +15215,11 @@ window.details = {
             {
                 "Name": "피격 시 공격력 상승",
                 "description": [
-                    "Level 1: Boosts base ATK by 50",
-                    "Level 2: Boosts base ATK by 75",
-                    "Level 3: Boosts base ATK by 100",
-                    "Level 4: Boosts base ATK by 150",
-                    "Level 5: Boosts base ATK by 200"
+                    "Level 1: 공격력 상승 : 50",
+                    "Level 2: 공격력 상승 : 75",
+                    "Level 3: 공격력 상승 : 100",
+                    "Level 4: 공격력 상승 : 150",
+                    "Level 5: 공격력 상승 : 200"
                 ]
             },
         ],
@@ -15328,11 +15328,11 @@ window.details = {
             {
                 "Name": "피격 시 공격력 상승",
                 "description": [
-                    "Level 1: Boosts base ATK by 50",
-                    "Level 2: Boosts base ATK by 75",
-                    "Level 3: Boosts base ATK by 100",
-                    "Level 4: Boosts base ATK by 150",
-                    "Level 5: Boosts base ATK by 200"
+                    "Level 1: 공격력 상승 : 50",
+                    "Level 2: 공격력 상승 : 75",
+                    "Level 3: 공격력 상승 : 100",
+                    "Level 4: 공격력 상승 : 150",
+                    "Level 5: 공격력 상승 : 200"
                 ]
             },
         ],
@@ -15491,11 +15491,11 @@ window.details = {
             {
                 "Name": "피격 시 공격력 상승",
                 "description": [
-                    "Level 1: Boosts base ATK by 100",
-                    "Level 2: Boosts base ATK by 150",
-                    "Level 3: Boosts base ATK by 200",
-                    "Level 4: Boosts base ATK by 250",
-                    "Level 5: Boosts base ATK by 300"
+                    "Level 1: 공격력 상승 : 100",
+                    "Level 2: 공격력 상승 : 150",
+                    "Level 3: 공격력 상승 : 200",
+                    "Level 4: 공격력 상승 : 250",
+                    "Level 5: 공격력 상승 : 300"
                 ]
             },
         ],
@@ -15576,11 +15576,11 @@ window.details = {
             {
                 "Name": "피격 시 공격력 상승",
                 "description": [
-                    "Level 1: Boosts base ATK by 20",
-                    "Level 2: Boosts base ATK by 40",
-                    "Level 3: Boosts base ATK by 60",
-                    "Level 4: Boosts base ATK by 80",
-                    "Level 5: Boosts base ATK by 120"
+                    "Level 1: 공격력 상승 : 20",
+                    "Level 2: 공격력 상승 : 40",
+                    "Level 3: 공격력 상승 : 60",
+                    "Level 4: 공격력 상승 : 80",
+                    "Level 5: 공격력 상승 : 120"
                 ]
             },
         ],
@@ -16299,11 +16299,11 @@ window.details = {
             {
                 "Name": "피격 시 공격력 상승",
                 "description": [
-                    "Level 1: Boosts base ATK by 60",
-                    "Level 2: Boosts base ATK by 90",
-                    "Level 3: Boosts base ATK by 120",
-                    "Level 4: Boosts base ATK by 150",
-                    "Level 5: Boosts base ATK by 200"
+                    "Level 1: 공격력 상승 : 60",
+                    "Level 2: 공격력 상승 : 90",
+                    "Level 3: 공격력 상승 : 120",
+                    "Level 4: 공격력 상승 : 150",
+                    "Level 5: 공격력 상승 : 200"
                 ]
             },
             {
@@ -16827,11 +16827,11 @@ window.details = {
             {
                 "Name": "피격 시 공격력 상승",
                 "description": [
-                    "Level 1: Boosts base ATK by 30",
-                    "Level 2: Boosts base ATK by 60",
-                    "Level 3: Boosts base ATK by 90",
-                    "Level 4: Boosts base ATK by 100",
-                    "Level 5: Boosts base ATK by 150"
+                    "Level 1: 공격력 상승 : 30",
+                    "Level 2: 공격력 상승 : 60",
+                    "Level 3: 공격력 상승 : 90",
+                    "Level 4: 공격력 상승 : 100",
+                    "Level 5: 공격력 상승 : 150"
                 ]
             },
             {
@@ -16915,11 +16915,11 @@ window.details = {
             {
                 "Name": "피격 시 공격력 상승",
                 "description": [
-                    "Level 1: Boosts base ATK by 50",
-                    "Level 2: Boosts base ATK by 75",
-                    "Level 3: Boosts base ATK by 100",
-                    "Level 4: Boosts base ATK by 150",
-                    "Level 5: Boosts base ATK by 200"
+                    "Level 1: 공격력 상승 : 50",
+                    "Level 2: 공격력 상승 : 75",
+                    "Level 3: 공격력 상승 : 100",
+                    "Level 4: 공격력 상승 : 150",
+                    "Level 5: 공격력 상승 : 200"
                 ]
             },
             {
@@ -17041,11 +17041,11 @@ window.details = {
             {
                "Name": "피격 시 공격력 상승",
                 "description": [
-                    "Level 1: Boosts base ATK by 50",
-                    "Level 2: Boosts base ATK by 75",
-                    "Level 3: Boosts base ATK by 100",
-                    "Level 4: Boosts base ATK by 150",
-                    "Level 5: Boosts base ATK by 200"
+                    "Level 1: 공격력 상승 : 50",
+                    "Level 2: 공격력 상승 : 75",
+                    "Level 3: 공격력 상승 : 100",
+                    "Level 4: 공격력 상승 : 150",
+                    "Level 5: 공격력 상승 : 200"
                 ]
             },
             {
@@ -17284,6 +17284,76 @@ window.details = {
         captain: "격투형 캐릭터의 공격력을 3배, 체력을 1.5배로 만들며, 받는 데미지를 7% 감소시킨다",
         specialName: "상어 기와 정권 「대지의 물결」",
         special: "적 전체에게 [INT] 특대 데미지를 주고, 격투형 캐릭터의 슬롯을 속성 일치 슬롯으로 바꾸고, 적 전체에게 걸려 있는 방어력 상승 및 데미지 감소 상태([DAMAGE CUT]는 제외)를 5턴 줄인다",
+        sailor: {
+            "base": "None",
+            "level1": "[RCV][TND] 슬롯도 [유리] 슬롯으로 만든다",
+            "level2": "Restores his own special cooldown completely when it is rewinded",
+        },
+        sailorNotes: "#{beneficial}<br>#{rewind : all}",
+        limit: [
+            { "description": "공격력 상승 : 5" },
+            { "description": "공격력 상승 : 10" },
+            { "description": "회복력 상승 : 5" },
+            { "description": "잠재능력 습득 1: [PSY] 데미지 피해 감소" },
+            { "description": "공격력 상승 : 10" },
+            { "description": "공격력 상승 : 10" },
+            { "description": "체력 상승 : 20" },
+            { "description": "체력 상승 : 10" },//Change this if it's wrong
+            { "description": "공격력 상승 : 15" },
+            { "description": "회복력 상승 : 15" },
+            { "description": "체력 상승 : 20" },
+            { "description": "체력 상승 : 20" },
+            { "description": "체력 상승 : 20" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "잠재능력 습득 2: [INT] 데미지 피해 감소" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "회복력 상승 : 30" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "선원 효과 추가 1: Makes [RCV] and [TND] orbs \"beneficial\" for this character" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "체력 상승 : 30" },
+            { "description": "체력 상승 : 30" },
+            { "description": "체력 상승 : 40" },
+            { "description": "체력 상승 : 60" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "선원 효과 추가 2: Restores his own special cooldown completely when it is rewinded" },
+            { "description": "체력 상승 : 70" },
+            { "description": "체력 상승 : 80" },
+            { "description": "잠재능력 습득 3: Slot Bind Self-reduction" },
+        ],
+        potential: [
+            {
+                "Name": "[PSY] 데미지 피해 감소",
+                "description": [
+                    "Level 1: Reduce damage taken from [PSY] characters by 1%",
+                    "Level 2: Reduce damage taken from [PSY] characters by ?%",
+                    "Level 3: Reduce damage taken from [PSY] characters by ?%",
+                    "Level 4: Reduce damage taken from [PSY] characters by ?%",
+                    "Level 5: Reduce damage taken from [PSY] characters by 5%"
+                ]
+            },
+            {
+                "Name": "[INT] 데미지 피해 감소",
+                "description": [
+                    "Level 1: Reduce damage taken from [INT] characters by 1%",
+                    "Level 2: Reduce damage taken from [INT] characters by ?%",
+                    "Level 3: Reduce damage taken from [INT] characters by ?%",
+                    "Level 4: Reduce damage taken from [INT] characters by ?%",
+                    "Level 5: Reduce damage taken from [INT] characters by 5%"
+                ]
+            },
+            {
+                "Name": "Slot Bind Self-reduction",
+                "description": [
+                    "Level 1: Reduces Slot Bind duration by 3 turns on this character",
+                    "Level 2: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 3: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 4: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 5: Reduces Slot Bind completely on this character"
+                ]
+            },
+        ]
     },
     2067: {//Tashigi
         captain: "Boosts ATK of Slasher characters by 2x at the start of the chain, by 2.5x after scoring 3 PERFECTs in a row and recovers 1.25x character's RCV in HP at the end of each turn",
@@ -17658,11 +17728,11 @@ window.details = {
             {
                "Name": "피격 시 공격력 상승",
                 "description": [
-                    "Level 1: Boosts base ATK by 30",
-                    "Level 2: Boosts base ATK by 60",
-                    "Level 3: Boosts base ATK by 90",
-                    "Level 4: Boosts base ATK by 100",
-                    "Level 5: Boosts base ATK by 150"
+                    "Level 1: 공격력 상승 : 30",
+                    "Level 2: 공격력 상승 : 60",
+                    "Level 3: 공격력 상승 : 90",
+                    "Level 4: 공격력 상승 : 100",
+                    "Level 5: 공격력 상승 : 150"
                 ]
             },
             {
@@ -17835,11 +17905,11 @@ window.details = {
             {
                "Name": "피격 시 공격력 상승",
                 "description": [
-                    "Level 1: Boosts base ATK by 30",
-                    "Level 2: Boosts base ATK by 60",
-                    "Level 3: Boosts base ATK by 90",
-                    "Level 4: Boosts base ATK by 100",
-                    "Level 5: Boosts base ATK by 150"
+                    "Level 1: 공격력 상승 : 30",
+                    "Level 2: 공격력 상승 : 60",
+                    "Level 3: 공격력 상승 : 90",
+                    "Level 4: 공격력 상승 : 100",
+                    "Level 5: 공격력 상승 : 150"
                 ]
             },
             {
@@ -17984,11 +18054,11 @@ window.details = {
             {
                "Name": "피격 시 공격력 상승",
                 "description": [
-                    "Level 1: Boosts base ATK by 50",
-                    "Level 2: Boosts base ATK by 75",
-                    "Level 3: Boosts base ATK by 100",
-                    "Level 4: Boosts base ATK by 150",
-                    "Level 5: Boosts base ATK by 200"
+                    "Level 1: 공격력 상승 : 50",
+                    "Level 2: 공격력 상승 : 75",
+                    "Level 3: 공격력 상승 : 100",
+                    "Level 4: 공격력 상승 : 150",
+                    "Level 5: 공격력 상승 : 200"
                 ]
             },
         
@@ -18228,11 +18298,11 @@ window.details = {
             {
                "Name": "피격 시 공격력 상승",
                 "description": [
-                    "Level 1: Boosts base ATK by 50",
-                    "Level 2: Boosts base ATK by 75",
-                    "Level 3: Boosts base ATK by 100",
-                    "Level 4: Boosts base ATK by 150",
-                    "Level 5: Boosts base ATK by 200"
+                    "Level 1: 공격력 상승 : 50",
+                    "Level 2: 공격력 상승 : 75",
+                    "Level 3: 공격력 상승 : 100",
+                    "Level 4: 공격력 상승 : 150",
+                    "Level 5: 공격력 상승 : 200"
                 ]
             },
             {
@@ -18285,11 +18355,11 @@ window.details = {
             {
                "Name": "피격 시 공격력 상승",
                 "description": [
-                    "Level 1: Boosts base ATK by 50",
-                    "Level 2: Boosts base ATK by 75",
-                    "Level 3: Boosts base ATK by 100",
-                    "Level 4: Boosts base ATK by 150",
-                    "Level 5: Boosts base ATK by 200"
+                    "Level 1: 공격력 상승 : 50",
+                    "Level 2: 공격력 상승 : 75",
+                    "Level 3: 공격력 상승 : 100",
+                    "Level 4: 공격력 상승 : 150",
+                    "Level 5: 공격력 상승 : 200"
                 ]
             },
             {
@@ -18527,11 +18597,11 @@ window.details = {
             {
                "Name": "피격 시 공격력 상승",
                 "description": [
-                    "Level 1: Boosts base ATK by 50",
-                    "Level 2: Boosts base ATK by 75",
-                    "Level 3: Boosts base ATK by 100",
-                    "Level 4: Boosts base ATK by 150",
-                    "Level 5: Boosts base ATK by 200"
+                    "Level 1: 공격력 상승 : 50",
+                    "Level 2: 공격력 상승 : 75",
+                    "Level 3: 공격력 상승 : 100",
+                    "Level 4: 공격력 상승 : 150",
+                    "Level 5: 공격력 상승 : 200"
                 ]
             },
         ],
@@ -18779,55 +18849,55 @@ window.details = {
         sailorNotes: "#{beneficial}",
         limit: [
             { "description": "Acquire 1 additional Socket slot" },
-            { "description": "Boosts base RCV by 10" },
-            { "description": "Boosts base RCV by 20" },
-            { "description": "Boosts base RCV by 20" },
-            { "description": "Acquire Potential 1: Enrage" },
+            { "description": "회복력 상승 : 10" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "잠재능력 습득 1: Enrage" },
             { "description": "Acquire new Captain Ability: " },
-            { "description": "Acquire Sailor Ability 1: Makes [PSY] orbs \"beneficial\" for this character" },
-            { "description": "Boosts base RCV by 20" },
-            { "description": "Boosts base RCV by 20" },
-            { "description": "Boosts base RCV by 20" },
+            { "description": "선원 효과 추가 1: Makes [PSY] orbs \"beneficial\" for this character" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "회복력 상승 : 20" },
             { "description": "Acquire new Captain Ability: " },
             { "description": "Acquire 1 additional Socket slot" },
             { "description": "Reduce base Special Cooldown by 1 turn" },
-            { "description": "Boosts base HP by 20" },
-            { "description": "Boosts base HP by 30" },
-            { "description": "Boosts base HP by 30" },
+            { "description": "체력 상승 : 20" },
+            { "description": "체력 상승 : 30" },
+            { "description": "체력 상승 : 30" },
             { "description": "Acquire new Captain Ability: " },
             { "description": "Reduce base Special Cooldown by 2 turns" },
-            { "description": "Boosts base HP by 30" },
-            { "description": "Boosts base HP by 30" },
-            { "description": "Boosts base HP by 30" },
+            { "description": "체력 상승 : 30" },
+            { "description": "체력 상승 : 30" },
+            { "description": "체력 상승 : 30" },
             { "description": "Reduce base Special Cooldown by 3 turns" },
             { "description": "Acquire 1 additional Socket slot" },
-            { "description": "Boosts base HP by 40" },
-            { "description": "Boosts base HP by 50" },
+            { "description": "체력 상승 : 40" },
+            { "description": "체력 상승 : 50" },
             { "description": "Reduce base Special Cooldown by 4 turns" },
             { "description": "Acquire new Captain Ability: " },
-            { "description": "Boosts base HP by 60" },
-            { "description": "Boosts base HP by 70" },
-            { "description": "Acquire Sailor Ability 2: Makes [TND] orbs \"beneficial\" for this character" },
-            { "description": "Boosts base ATK by 40" },
-            { "description": "Boosts base ATK by 40" },
-            { "description": "Boosts base ATK by 40" },
+            { "description": "체력 상승 : 60" },
+            { "description": "체력 상승 : 70" },
+            { "description": "선원 효과 추가 2: Makes [TND] orbs \"beneficial\" for this character" },
+            { "description": "공격력 상승 : 40" },
+            { "description": "공격력 상승 : 40" },
+            { "description": "공격력 상승 : 40" },
             { "description": "Reduce base Special Cooldown by 5 turns" },
             { "description": "Acquire 1 additional Socket slot" },
             { "description": "Acquire new Captain Ability: " },
-            { "description": "Boosts base ATK by 40" },
-            { "description": "Boosts base ATK by 50" },
+            { "description": "공격력 상승 : 40" },
+            { "description": "공격력 상승 : 50" },
             { "description": "Acquire new Captain Ability: " },
-            { "description": "Acquire Potential 2: Critical Hit" },
+            { "description": "잠재능력 습득 2: Critical Hit" },
         ],
         potential: [
             {
                "Name": "Enrage",
                 "description": [
-                    "Level 1: Boosts base ATK by 50",
-                    "Level 2: Boosts base ATK by 75",
-                    "Level 3: Boosts base ATK by 100",
-                    "Level 4: Boosts base ATK by 150",
-                    "Level 5: Boosts base ATK by 200"
+                    "Level 1: 공격력 상승 : 50",
+                    "Level 2: 공격력 상승 : 75",
+                    "Level 3: 공격력 상승 : 100",
+                    "Level 4: 공격력 상승 : 150",
+                    "Level 5: 공격력 상승 : 200"
                 ]
             },
             {
@@ -18853,40 +18923,40 @@ window.details = {
             "level2": "Completely resists Paralysis on this character",
         },
         limit: [
-            { "description": "Boosts base ATK by 5" },
-            { "description": "Boosts base HP by 5" },
-            { "description": "Boosts base RCV by 10" },
-            { "description": "Acquire Potential 1: [INT] Damage Reduction" },
-            { "description": "Boosts base RCV by 15" },
-            { "description": "Boosts base HP by 20" },
-            { "description": "Boosts base ATK by 25" },
-            { "description": "Acquire Sailor Ability 1: Boosts base ATK and HP of Powerhouse characters by 60" },
-            { "description": "Boosts base ATK by 10" },
-            { "description": "Boosts base HP by 15" },
-            { "description": "Boosts base ATK by 20" },
-            { "description": "Boosts base HP by 30" },
-            { "description": "Boosts base HP by 35" },
-            { "description": "Boosts base HP by 40" },
-            { "description": "Acquire Potential 2: Critical Hit" },
-            { "description": "Boosts base RCV by 20" },
-            { "description": "Boosts base ATK by 20" },
-            { "description": "Boosts base HP by 45" },
-            { "description": "Boosts base HP by 55" },
-            { "description": "Boosts base HP by 65" },
-            { "description": "Boosts base ATK by 25" },
-            { "description": "Boosts base HP by 40" },
-            { "description": "Boosts base HP by 70" },
-            { "description": "Boosts base HP by 80" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Boosts base RCV by 40" },
-            { "description": "Acquire Sailor Ability 2: Completely resists Paralysis on this character" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Boosts base ATK by 50" },
-            { "description": "Acquire Potential 3: Slot Bind Self-reduction" },
+            { "description": "공격력 상승 : 5" },
+            { "description": "체력 상승 : 5" },
+            { "description": "회복력 상승 : 10" },
+            { "description": "잠재능력 습득 1: [INT] 데미지 피해 감소" },
+            { "description": "회복력 상승 : 15" },
+            { "description": "체력 상승 : 20" },
+            { "description": "공격력 상승 : 25" },
+            { "description": "선원 효과 추가 1: Boosts base ATK and HP of Powerhouse characters by 60" },
+            { "description": "공격력 상승 : 10" },
+            { "description": "체력 상승 : 15" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "체력 상승 : 30" },
+            { "description": "체력 상승 : 35" },
+            { "description": "체력 상승 : 40" },
+            { "description": "잠재능력 습득 2: Critical Hit" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "체력 상승 : 45" },
+            { "description": "체력 상승 : 55" },
+            { "description": "체력 상승 : 65" },
+            { "description": "공격력 상승 : 25" },
+            { "description": "체력 상승 : 40" },
+            { "description": "체력 상승 : 70" },
+            { "description": "체력 상승 : 80" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "회복력 상승 : 40" },
+            { "description": "선원 효과 추가 2: Completely resists Paralysis on this character" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "공격력 상승 : 50" },
+            { "description": "잠재능력 습득 3: Slot Bind Self-reduction" },
         ],
         potential: [
             {
-                "Name": "[INT] Damage Reduction",
+                "Name": "[INT] 데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
@@ -18929,21 +18999,21 @@ window.details = {
         },
         sailorNotes: "#{beneficial}",
         limit: [
-            { "description": "Boosts base RCV by 10" },
-            { "description": "Boosts base RCV by 20" },
-            { "description": "Boosts base HP by 50" },
-            { "description": "Acquire Potential 1: Reduce No Healing duration" },
-            { "description": "Boosts base ATK by 20" },
-            { "description": "Boosts base HP by 50" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Boosts base RCV by 30" },
+            { "description": "회복력 상승 : 10" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "체력 상승 : 50" },
+            { "description": "잠재능력 습득 1: Reduce No Healing duration" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "체력 상승 : 50" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "회복력 상승 : 30" },
             { "description": "Reduce base Special Cooldown by 1 turn" },
-            { "description": "Boosts base HP by 50" },
+            { "description": "체력 상승 : 50" },
             { "description": "Acquire 1 additional Socket slot" },
-            { "description": "Boosts base ATK by 40" },
-            { "description": "Boosts base HP by 50" },
-            { "description": "Acquire Sailor Ability 1: Reduces Silence duration on this character by 3 turns" },
-            { "description": "Acquire Potential 2: Slot Bind Self-reduction" },
+            { "description": "공격력 상승 : 40" },
+            { "description": "체력 상승 : 50" },
+            { "description": "선원 효과 추가 1: Reduces Silence duration on this character by 3 turns" },
+            { "description": "잠재능력 습득 2: Slot Bind Self-reduction" },
         ],
         potential: [
             {
@@ -18979,31 +19049,31 @@ window.details = {
         },
         sailorNotes: "#{beneficial}",
         limit: [
-            { "description": "Boosts base ATK by 20" },
-            { "description": "Boosts base HP by 30" },
-            { "description": "Boosts base RCV by 10" },
-            { "description": "Acquire Potential 1: Enrage" },
-            { "description": "Boosts base RCV by 15" },
-            { "description": "Boosts base HP by 40" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Boosts base HP by 50" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "체력 상승 : 30" },
+            { "description": "회복력 상승 : 10" },
+            { "description": "잠재능력 습득 1: Enrage" },
+            { "description": "회복력 상승 : 15" },
+            { "description": "체력 상승 : 40" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "체력 상승 : 50" },
             { "description": "Reduce base Special Cooldown by 1 turn" },
-            { "description": "Boosts base RCV by 25" },
+            { "description": "회복력 상승 : 25" },
             { "description": "Acquire 1 additional Socket slot" },
-            { "description": "Boosts base HP by 60" },
-            { "description": "Boosts base ATK by 60" },
-            { "description": "Acquire Sailor Ability 1: Boosts base ATK of all characters by 50" },
-            { "description": "Acquire Potential 2: Slot Bind Self-reduction" },
+            { "description": "체력 상승 : 60" },
+            { "description": "공격력 상승 : 60" },
+            { "description": "선원 효과 추가 1: Boosts base ATK of all characters by 50" },
+            { "description": "잠재능력 습득 2: Slot Bind Self-reduction" },
         ],
         potential: [
             {
                 "Name": "Enrage",
                 "description": [
-                    "Level 1: Boosts base ATK by 20",
-                    "Level 2: Boosts base ATK by 40",
-                    "Level 3: Boosts base ATK by 60",
-                    "Level 4: Boosts base ATK by 80",
-                    "Level 5: Boosts base ATK by 100"
+                    "Level 1: 공격력 상승 : 20",
+                    "Level 2: 공격력 상승 : 40",
+                    "Level 3: 공격력 상승 : 60",
+                    "Level 4: 공격력 상승 : 80",
+                    "Level 5: 공격력 상승 : 100"
                 ]
             },
             {
@@ -19030,21 +19100,21 @@ window.details = {
         },
         sailorNotes: "#{beneficial}",
         limit: [
-            { "description": "Boosts base HP by 35" },
-            { "description": "Boosts base HP by 45" },
-            { "description": "Boosts base HP by 60" },
-            { "description": "Acquire Potential 1: Critical Hit" },
-            { "description": "Boosts base RCV by 10" },
-            { "description": "Boosts base RCV by 15" },
-            { "description": "Boosts base RCV by 25" },
-            { "description": "Boosts base ATK by 20" },
+            { "description": "체력 상승 : 35" },
+            { "description": "체력 상승 : 45" },
+            { "description": "체력 상승 : 60" },
+            { "description": "잠재능력 습득 1: Critical Hit" },
+            { "description": "회복력 상승 : 10" },
+            { "description": "회복력 상승 : 15" },
+            { "description": "회복력 상승 : 25" },
+            { "description": "공격력 상승 : 20" },
             { "description": "Reduce base Special Cooldown by 1 turn" },
-            { "description": "Boosts base ATK by 30" },
+            { "description": "공격력 상승 : 30" },
             { "description": "Acquire 1 additional Socket slot" },
-            { "description": "Boosts base ATK by 40" },
-            { "description": "Boosts base HP by 90" },
-            { "description": "Acquire Sailor Ability 1: Boosts base ATK, HP and RCV of all characters by 20" },
-            { "description": "Acquire Potential 2: Slot Bind Self-reduction" },
+            { "description": "공격력 상승 : 40" },
+            { "description": "체력 상승 : 90" },
+            { "description": "선원 효과 추가 1: Boosts base ATK, HP and RCV of all characters by 20" },
+            { "description": "잠재능력 습득 2: Slot Bind Self-reduction" },
         ],
         potential: [
             {
@@ -19081,25 +19151,25 @@ window.details = {
         },
         sailorNotes: "#{beneficial}",
         limit: [
-            { "description": "Boosts base RCV by 10" },
-            { "description": "Boosts base HP by 30" },
-            { "description": "Boosts base ATK by 20" },
-            { "description": "Acquire Potential 1: [QCK] Damage Reduction" },
-            { "description": "Boosts base RCV by 15" },
-            { "description": "Boosts base HP by 40" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Boosts base RCV by 25" },
+            { "description": "회복력 상승 : 10" },
+            { "description": "체력 상승 : 30" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "잠재능력 습득 1: [QCK] 데미지 피해 감소" },
+            { "description": "회복력 상승 : 15" },
+            { "description": "체력 상승 : 40" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "회복력 상승 : 25" },
             { "description": "Reduce base Special Cooldown by 1 turn" },
-            { "description": "Boosts base HP by 60" },
+            { "description": "체력 상승 : 60" },
             { "description": "Acquire 1 additional Socket slot" },
-            { "description": "Boosts base ATK by 50" },
-            { "description": "Boosts base HP by 70" },
-            { "description": "Acquire Sailor Ability 1: Boosts base HP of all characters by 100" },
-            { "description": "Acquire Potential 2: Slot Bind Self-reduction" },
+            { "description": "공격력 상승 : 50" },
+            { "description": "체력 상승 : 70" },
+            { "description": "선원 효과 추가 1: Boosts base HP of all characters by 100" },
+            { "description": "잠재능력 습득 2: Slot Bind Self-reduction" },
         ],
         potential: [
             {
-                "Name": "[QCK] Damage Reduction",
+                "Name": "[QCK] 데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [QCK] characters by 1%",
                     "Level 2: Reduce damage taken from [QCK] characters by 2%",
@@ -19157,40 +19227,40 @@ window.details = {
             "level2": "Makes [PSY] orbs \"beneficial\" for Fighter characters",
         },
         limit: [
-            { "description": "Boosts base ATK by 5" },
-            { "description": "Boosts base ATK by 10" },
-            { "description": "Boosts base RCV by 5" },
-            { "description": "Acquire Potential 1: [INT] Damage Reduction" },
-            { "description": "Boosts base ATK by 10" },
-            { "description": "Boosts base ATK by 10" },
-            { "description": "Boosts base HP by 20" },
-            { "description": "Boosts base RCV by 10" },
-            { "description": "Boosts base ATK by 10" },
-            { "description": "Boosts base RCV by 15" },
-            { "description": "Boosts base HP by 20" },
-            { "description": "Boosts base RCV by 20" },
-            { "description": "Boosts base RCV by 20" },
-            { "description": "Boosts base ATK by 20" },
-            { "description": "Acquire Potential 2: Slot Bind Self-reduction" },
-            { "description": "Boosts base ATK by 20" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Boosts base RCV by 30" },
-            { "description": "Boosts base ATK by 40" },
-            { "description": "Acquire Sailor Ability 1: Boosts this character's attack against [INT] characters by 1.2x" },
-            { "description": "Boosts base ATK by 50" },
-            { "description": "Boosts base HP by 30" },
-            { "description": "Boosts base HP by 30" },
-            { "description": "Boosts base HP by 40" },
-            { "description": "Boosts base HP by 60" },
-            { "description": "Boosts base ATK by 50" },
-            { "description": "Acquire Sailor Ability 2: Makes [PSY] orbs \"beneficial\" for Fighter characters" },
-            { "description": "Boosts base HP by 70" },
-            { "description": "Boosts base HP by 80" },
-            { "description": "Acquire Potential 3: Reduce No Healing duration" },
+            { "description": "공격력 상승 : 5" },
+            { "description": "공격력 상승 : 10" },
+            { "description": "회복력 상승 : 5" },
+            { "description": "잠재능력 습득 1: [INT] 데미지 피해 감소" },
+            { "description": "공격력 상승 : 10" },
+            { "description": "공격력 상승 : 10" },
+            { "description": "체력 상승 : 20" },
+            { "description": "회복력 상승 : 10" },
+            { "description": "공격력 상승 : 10" },
+            { "description": "회복력 상승 : 15" },
+            { "description": "체력 상승 : 20" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "잠재능력 습득 2: Slot Bind Self-reduction" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "회복력 상승 : 30" },
+            { "description": "공격력 상승 : 40" },
+            { "description": "선원 효과 추가 1: Boosts this character's attack against [INT] characters by 1.2x" },
+            { "description": "공격력 상승 : 50" },
+            { "description": "체력 상승 : 30" },
+            { "description": "체력 상승 : 30" },
+            { "description": "체력 상승 : 40" },
+            { "description": "체력 상승 : 60" },
+            { "description": "공격력 상승 : 50" },
+            { "description": "선원 효과 추가 2: Makes [PSY] orbs \"beneficial\" for Fighter characters" },
+            { "description": "체력 상승 : 70" },
+            { "description": "체력 상승 : 80" },
+            { "description": "잠재능력 습득 3: Reduce No Healing duration" },
         ],
         potential: [
             {
-                "Name": "[INT] Damage Reduction",
+                "Name": "[INT] 데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
@@ -19238,31 +19308,31 @@ window.details = {
             "level1": "Boosts this character's attack against [DEX] characters by 1.2x",
         },
         limit: [
-            { "description": "Boosts base RCV by 10" },
-            { "description": "Boosts base ATK by 10" },
-            { "description": "Boosts base HP by 20" },
-            { "description": "Acquire Potential 1: Enrage" },
-            { "description": "Boosts base HP by 40" },
-            { "description": "Boosts base HP by 60" },
-            { "description": "Boosts base ATK by 10" },
-            { "description": "Boosts base ATK by 20" },
-            { "description": "Boosts base HP by 80" },
+            { "description": "회복력 상승 : 10" },
+            { "description": "공격력 상승 : 10" },
+            { "description": "체력 상승 : 20" },
+            { "description": "잠재능력 습득 1: Enrage" },
+            { "description": "체력 상승 : 40" },
+            { "description": "체력 상승 : 60" },
+            { "description": "공격력 상승 : 10" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "체력 상승 : 80" },
             { "description": "Acquire 1 additional Socket slot" },
-            { "description": "Boosts base RCV by 40" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Acquire Sailor Ability 1: Boosts this character's attack against [DEX] characters by 1.2x" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Acquire Potential 2: Cooldown Reduction" },
+            { "description": "회복력 상승 : 40" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "선원 효과 추가 1: Boosts this character's attack against [DEX] characters by 1.2x" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "잠재능력 습득 2: Cooldown Reduction" },
         ],
         potential: [
             {
                "Name": "Enrage",
                 "description": [
-                    "Level 1: Boosts base ATK by 50",
-                    "Level 2: Boosts base ATK by 75",
-                    "Level 3: Boosts base ATK by 100",
-                    "Level 4: Boosts base ATK by 150",
-                    "Level 5: Boosts base ATK by 200"
+                    "Level 1: 공격력 상승 : 50",
+                    "Level 2: 공격력 상승 : 75",
+                    "Level 3: 공격력 상승 : 100",
+                    "Level 4: 공격력 상승 : 150",
+                    "Level 5: 공격력 상승 : 200"
                 ]
             },
             {
@@ -19293,25 +19363,25 @@ window.details = {
             "level1": "If this character has an [QCK] orb and you hit a PERFECT with her, keep her [QCK] orb for the next turn",
         },
         limit: [
-            { "description": "Boosts base RCV by 20" },
-            { "description": "Boosts base ATK by 20" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Acquire Potential 1: [STR] Damage Reduction" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Boosts base HP by 20" },
-            { "description": "Boosts base HP by 30" },
-            { "description": "Boosts base HP by 30" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "잠재능력 습득 1: [STR] 데미지 피해 감소" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "체력 상승 : 20" },
+            { "description": "체력 상승 : 30" },
+            { "description": "체력 상승 : 30" },
             { "description": "Acquire 1 additional Socket slot" },
-            { "description": "Boosts base RCV by 30" },
-            { "description": "Boosts base HP by 60" },
-            { "description": "Acquire Sailor Ability 1: If this character has an [QCK] orb and you hit a PERFECT with her, keep her [QCK] orb for the next turn" },
-            { "description": "Boosts base HP by 60" },
-            { "description": "Acquire Potential 2: Barrier Penetration" },
+            { "description": "회복력 상승 : 30" },
+            { "description": "체력 상승 : 60" },
+            { "description": "선원 효과 추가 1: If this character has an [QCK] orb and you hit a PERFECT with her, keep her [QCK] orb for the next turn" },
+            { "description": "체력 상승 : 60" },
+            { "description": "잠재능력 습득 2: Barrier Penetration" },
         ],
         potential: [
             {
-                "Name": "[STR] Damage Reduction",
+                "Name": "[STR] 데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
@@ -19349,31 +19419,31 @@ window.details = {
             "level1": "Makes [DEX] orbs \"beneficial\" for Fighter characters",
         },
         limit: [
-            { "description": "Boosts base ATK by 10" },
-            { "description": "Boosts base HP by 20" },
-            { "description": "Boosts base RCV by 10" },
-            { "description": "Acquire Potential 1: Enrage" },
-            { "description": "Boosts base HP by 30" },
-            { "description": "Boosts base RCV by 10" },
-            { "description": "Boosts base HP by 30" },
-            { "description": "Boosts base HP by 40" },
-            { "description": "Boosts base ATK by 40" },
+            { "description": "공격력 상승 : 10" },
+            { "description": "체력 상승 : 20" },
+            { "description": "회복력 상승 : 10" },
+            { "description": "잠재능력 습득 1: Enrage" },
+            { "description": "체력 상승 : 30" },
+            { "description": "회복력 상승 : 10" },
+            { "description": "체력 상승 : 30" },
+            { "description": "체력 상승 : 40" },
+            { "description": "공격력 상승 : 40" },
             { "description": "Acquire 1 additional Socket slot" },
-            { "description": "Boosts base HP by 40" },
-            { "description": "Boosts base ATK by 50" },
-            { "description": "Boosts base HP by 50" },
-            { "description": "Acquire Sailor Ability 1: Makes [DEX] orbs \"beneficial\" for Fighter characters" },
-            { "description": "Acquire Potential 2: Pinch Healing" },
+            { "description": "체력 상승 : 40" },
+            { "description": "공격력 상승 : 50" },
+            { "description": "체력 상승 : 50" },
+            { "description": "선원 효과 추가 1: Makes [DEX] orbs \"beneficial\" for Fighter characters" },
+            { "description": "잠재능력 습득 2: Pinch Healing" },
         ],
         potential: [
             {
                 "Name": "Enrage",
                 "description": [
-                    "Level 1: Boosts base ATK by 20",
-                    "Level 2: Boosts base ATK by 40",
-                    "Level 3: Boosts base ATK by 60",
-                    "Level 4: Boosts base ATK by 80",
-                    "Level 5: Boosts base ATK by 120"
+                    "Level 1: 공격력 상승 : 20",
+                    "Level 2: 공격력 상승 : 40",
+                    "Level 3: 공격력 상승 : 60",
+                    "Level 4: 공격력 상승 : 80",
+                    "Level 5: 공격력 상승 : 120"
                 ]
             },
             {
@@ -19405,25 +19475,25 @@ window.details = {
             "level1": "Makes [INT] orbs \"beneficial\" for Fighter characters",
         },
         limit: [
-            { "description": "Boosts base RCV by 10" },
-            { "description": "Boosts base ATK by 20" },
-            { "description": "Boosts base RCV by 15" },
-            { "description": "Acquire Potential 1: [PSY] Damage Reduction" },
-            { "description": "Boosts base ATK by 20" },
-            { "description": "Boosts base HP by 30" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Boosts base HP by 30" },
-            { "description": "Boosts base HP by 30" },
+            { "description": "회복력 상승 : 10" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "회복력 상승 : 15" },
+            { "description": "잠재능력 습득 1: [PSY] 데미지 피해 감소" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "체력 상승 : 30" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "체력 상승 : 30" },
+            { "description": "체력 상승 : 30" },
             { "description": "Acquire 1 additional Socket slot" },
-            { "description": "Boosts base HP by 40" },
-            { "description": "Boosts base HP by 60" },
-            { "description": "Acquire Sailor Ability 1: Makes [INT] orbs \"beneficial\" for Fighter characters" },
-            { "description": "Boosts base ATK by 50" },
-            { "description": "Acquire Potential 2: Reduce No Healing duration" },
+            { "description": "체력 상승 : 40" },
+            { "description": "체력 상승 : 60" },
+            { "description": "선원 효과 추가 1: Makes [INT] orbs \"beneficial\" for Fighter characters" },
+            { "description": "공격력 상승 : 50" },
+            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
         ],
         potential: [
             {
-                "Name": "[PSY] Damage Reduction",
+                "Name": "[PSY] 데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
@@ -19479,25 +19549,25 @@ window.details = {
             "level2": "Boosts base HP of [DEX] characters by 75",
         },
         limit: [
-            { "description": "Boosts base ATK by 20" },
-            { "description": "Boosts base ATK by 20" },
-            { "description": "Boosts base HP by 20" },
-            { "description": "Acquire Potential 1: [QCK] Damage Reduction" },
-            { "description": "Boosts base HP by 30" },
-            { "description": "Boosts base RCV by 25" },
-            { "description": "Acquire Sailor Ability 1: Boosts base ATK of Cerebral characters by 75" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Boosts base HP by 40" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "체력 상승 : 20" },
+            { "description": "잠재능력 습득 1: [QCK] 데미지 피해 감소" },
+            { "description": "체력 상승 : 30" },
+            { "description": "회복력 상승 : 25" },
+            { "description": "선원 효과 추가 1: Boosts base ATK of Cerebral characters by 75" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "체력 상승 : 40" },
             { "description": "Reduce base Special Cooldown by 1 turn" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Boosts base RCV by 35" },
-            { "description": "Boosts base ATK by 50" },
-            { "description": "Acquire Sailor Ability 2: Boosts base HP of [DEX] characters by 75" },
-            { "description": "Acquire Potential 2: Critical Hit" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "회복력 상승 : 35" },
+            { "description": "공격력 상승 : 50" },
+            { "description": "선원 효과 추가 2: Boosts base HP of [DEX] characters by 75" },
+            { "description": "잠재능력 습득 2: Critical Hit" },
         ],
         potential: [
             {
-                "Name": "[QCK] Damage Reduction",
+                "Name": "[QCK] 데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [QCK] characters by 1%",
                     "Level 2: Reduce damage taken from [QCK] characters by 2%",
@@ -19529,36 +19599,36 @@ window.details = {
             "level1": "Cannot be blown away",
         },
         limit: [
-            { "description": "Boosts base ATK by 15" },
-            { "description": "Boosts base HP by 20" },
-            { "description": "Boosts base RCV by 10" },
-            { "description": "Acquire Potential 1: Pinch Healing" },
-            { "description": "Boosts base RCV by 10" },
-            { "description": "Boosts base HP by 30" },
-            { "description": "Boosts base ATK by 15" },
-            { "description": "Acquire Sailor Ability 1: Cannot be blown away" },
-            { "description": "Boosts base ATK by 15" },
-            { "description": "Boosts base HP by 30" },
-            { "description": "Boosts base RCV by 10" },
-            { "description": "Boosts base RCV by 10" },
-            { "description": "Boosts base HP by 40" },
-            { "description": "Boosts base ATK by 20" },
-            { "description": "Acquire Potential 2: Barrier Penetration" },
-            { "description": "Boosts base RCV by 10" },
-            { "description": "Boosts base ATK by 20" },
-            { "description": "Boosts base HP by 40" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Boosts base HP by 60" },
-            { "description": "Boosts base RCV by 15" },
+            { "description": "공격력 상승 : 15" },
+            { "description": "체력 상승 : 20" },
+            { "description": "회복력 상승 : 10" },
+            { "description": "잠재능력 습득 1: Pinch Healing" },
+            { "description": "회복력 상승 : 10" },
+            { "description": "체력 상승 : 30" },
+            { "description": "공격력 상승 : 15" },
+            { "description": "선원 효과 추가 1: Cannot be blown away" },
+            { "description": "공격력 상승 : 15" },
+            { "description": "체력 상승 : 30" },
+            { "description": "회복력 상승 : 10" },
+            { "description": "회복력 상승 : 10" },
+            { "description": "체력 상승 : 40" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "잠재능력 습득 2: Barrier Penetration" },
+            { "description": "회복력 상승 : 10" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "체력 상승 : 40" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "체력 상승 : 60" },
+            { "description": "회복력 상승 : 15" },
             { "description": "Reduce base Special Cooldown by 1 turn" },
-            { "description": "Boosts base RCV by 15" },
-            { "description": "Boosts base HP by 90" },
-            { "description": "Boosts base ATK by 40" },
-            { "description": "Boosts base ATK by 45" },
-            { "description": "Boosts base HP by 90" },
-            { "description": "Boosts base RCV by 20" },
-            { "description": "Boosts base HP by 100" },
-            { "description": "Acquire Potential 3: Reduce No Healing duration" },
+            { "description": "회복력 상승 : 15" },
+            { "description": "체력 상승 : 90" },
+            { "description": "공격력 상승 : 40" },
+            { "description": "공격력 상승 : 45" },
+            { "description": "체력 상승 : 90" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "체력 상승 : 100" },
+            { "description": "잠재능력 습득 3: Reduce No Healing duration" },
         ],
         potential: [
             {
@@ -19608,25 +19678,25 @@ window.details = {
             "level1": "Makes [QCK] orbs \"beneficial\" for Shooter characters",
         },
         limit: [
-            { "description": "Boosts base HP by 20" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Boosts base HP by 20" },
-            { "description": "Acquire Potential 1: [STR] Damage Reduction" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Boosts base RCV by 20" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Acquire Sailor Ability 1: Makes [QCK] orbs \"beneficial\" for Shooter characters" },
-            { "description": "Boosts base RCV by 20" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Boosts base RCV by 30" },
-            { "description": "Boosts base HP by 50" },
+            { "description": "체력 상승 : 20" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "체력 상승 : 20" },
+            { "description": "잠재능력 습득 1: [STR] 데미지 피해 감소" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "선원 효과 추가 1: Makes [QCK] orbs \"beneficial\" for Shooter characters" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "회복력 상승 : 30" },
+            { "description": "체력 상승 : 50" },
             { "description": "Reduce base Special Cooldown by 1 turn" },
-            { "description": "Boosts base HP by 60" },
-            { "description": "Acquire Potential 2: Barrier Penetration" },
+            { "description": "체력 상승 : 60" },
+            { "description": "잠재능력 습득 2: Barrier Penetration" },
         ],
         potential: [
             {
-                "Name": "[STR] Damage Reduction",
+                "Name": "[STR] 데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
@@ -19662,25 +19732,25 @@ window.details = {
             "level1": "Reduces Silence duration on this character by 3 turns",
         },
         limit: [
-            { "description": "Boosts base HP by 10" },
-            { "description": "Boosts base HP by 20" },
-            { "description": "Boosts base ATK by 20" },
-            { "description": "Acquire Potential 1: [DEX] Damage Reduction" },
+            { "description": "체력 상승 : 10" },
+            { "description": "체력 상승 : 20" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "잠재능력 습득 1: [DEX] 데미지 피해 감소" },
             { "description": "Acquire 1 additional Socket slot" },
             { "description": "Reduce base Special Cooldown by 1 turn" },
-            { "description": "Boosts base HP by 40" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Boosts base HP by 40" },
+            { "description": "체력 상승 : 40" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "체력 상승 : 40" },
             { "description": "Reduce base Special Cooldown by 1 turn" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Boosts base RCV by 60" },
-            { "description": "Boosts base ATK by 50" },
-            { "description": "Acquire Sailor Ability 1: Reduces Silence duration on this character by 3 turns" },
-            { "description": "Acquire Potential 2: Reduce No Healing duration" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "회복력 상승 : 60" },
+            { "description": "공격력 상승 : 50" },
+            { "description": "선원 효과 추가 1: Reduces Silence duration on this character by 3 turns" },
+            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
         ],
         potential: [
             {
-                "Name": "[DEX] Damage Reduction",
+                "Name": "[DEX] 데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [DEX] characters by 1%",
                     "Level 2: Reduce damage taken from [DEX] characters by 2%",
@@ -19788,55 +19858,55 @@ window.details = {
         sailorNotes: "#{beneficial}",
         limit: [
             { "description": "Acquire 1 additional Socket slot" },
-            { "description": "Boosts base RCV by 10" },
-            { "description": "Boosts base RCV by 20" },
-            { "description": "Boosts base RCV by 20" },
-            { "description": "Acquire Potential 1: Enrage" },
+            { "description": "회복력 상승 : 10" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "잠재능력 습득 1: Enrage" },
             { "description": "Acquire new Captain Ability: Boosts ATK of Powerhouse characters by 2.25x and reduces damage received by 5%" },
-            { "description": "Acquire Sailor Ability 1: Boosts base HP of all characters by 75" },
-            { "description": "Boosts base RCV by 20" },
-            { "description": "Boosts base RCV by 20" },
-            { "description": "Boosts base RCV by 20" },
+            { "description": "선원 효과 추가 1: Boosts base HP of all characters by 75" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "회복력 상승 : 20" },
             { "description": "Acquire new Captain Ability: Boosts ATK of Powerhouse characters by 2.25x and reduces damage received by 7%" },
             { "description": "Acquire 1 additional Socket slot" },
             { "description": "Reduce base Special Cooldown by 1 turn" },
-            { "description": "Boosts base HP by 20" },
-            { "description": "Boosts base HP by 30" },
-            { "description": "Boosts base HP by 30" },
+            { "description": "체력 상승 : 20" },
+            { "description": "체력 상승 : 30" },
+            { "description": "체력 상승 : 30" },
             { "description": "Acquire new Captain Ability: Boosts ATK of Powerhouse characters by 2.25x and reduces damage received by 10%" },
             { "description": "Reduce base Special Cooldown by 2 turns" },
-            { "description": "Boosts base HP by 30" },
-            { "description": "Boosts base HP by 30" },
-            { "description": "Boosts base HP by 30" },
+            { "description": "체력 상승 : 30" },
+            { "description": "체력 상승 : 30" },
+            { "description": "체력 상승 : 30" },
             { "description": "Reduce base Special Cooldown by 3 turns" },
             { "description": "Acquire 1 additional Socket slot" },
-            { "description": "Boosts base HP by 40" },
-            { "description": "Boosts base HP by 50" },
+            { "description": "체력 상승 : 40" },
+            { "description": "체력 상승 : 50" },
             { "description": "Reduce base Special Cooldown by 4 turns" },
             { "description": "Acquire new Captain Ability: Boosts ATK of Powerhouse characters by 2.5x and reduces damage received by 15%" },
-            { "description": "Boosts base HP by 60" },
-            { "description": "Boosts base HP by 70" },
-            { "description": "Acquire Sailor Ability 2: Completely resists Paralysis on this character" },
-            { "description": "Boosts base ATK by 40" },
-            { "description": "Boosts base ATK by 40" },
-            { "description": "Boosts base ATK by 40" },
+            { "description": "체력 상승 : 60" },
+            { "description": "체력 상승 : 70" },
+            { "description": "선원 효과 추가 2: Completely resists Paralysis on this character" },
+            { "description": "공격력 상승 : 40" },
+            { "description": "공격력 상승 : 40" },
+            { "description": "공격력 상승 : 40" },
             { "description": "Reduce base Special Cooldown by 5 turns" },
             { "description": "Acquire 1 additional Socket slot" },
             { "description": "Acquire new Captain Ability: Boosts ATK of Powerhouse characters by 2.5x and reduces damage received by 15%" },
-            { "description": "Boosts base ATK by 40" },
-            { "description": "Boosts base ATK by 50" },
+            { "description": "공격력 상승 : 40" },
+            { "description": "공격력 상승 : 50" },
             { "description": "Acquire new Captain Ability: Boosts ATK of Powerhouse characters by 2.75x and reduces damage received by 20%" },
-            { "description": "Acquire Potential 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
         ],
         potential: [
             {
                 "Name": "Enrage",
                 "description": [
-                    "Level 1: Boosts base ATK by 50",
-                    "Level 2: Boosts base ATK by 75",
-                    "Level 3: Boosts base ATK by 100",
-                    "Level 4: Boosts base ATK by 150",
-                    "Level 5: Boosts base ATK by 200"
+                    "Level 1: 공격력 상승 : 50",
+                    "Level 2: 공격력 상승 : 75",
+                    "Level 3: 공격력 상승 : 100",
+                    "Level 4: 공격력 상승 : 150",
+                    "Level 5: 공격력 상승 : 200"
                 ]
             },
             {
@@ -19904,7 +19974,7 @@ window.details = {
         },
         potential: [
             {
-                "Name": "[PSY] Damage Reduction",
+                "Name": "[PSY] 데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
                     "Level 2: Reduce damage taken from [PSY] characters by 2%",
@@ -19914,7 +19984,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "[INT] Damage Reduction",
+                "Name": "[INT] 데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
@@ -19990,11 +20060,11 @@ window.details = {
             {
                 "Name": "Enrage",
                 "description": [
-                    "Level 1: Boosts base ATK by 30",
-                    "Level 2: Boosts base ATK by 60",
-                    "Level 3: Boosts base ATK by 90",
-                    "Level 4: Boosts base ATK by 120",
-                    "Level 5: Boosts base ATK by 150"
+                    "Level 1: 공격력 상승 : 30",
+                    "Level 2: 공격력 상승 : 60",
+                    "Level 3: 공격력 상승 : 90",
+                    "Level 4: 공격력 상승 : 120",
+                    "Level 5: 공격력 상승 : 150"
                 ]
             },
             {
@@ -20026,7 +20096,7 @@ window.details = {
         },
         potential: [
             {
-                "Name": "[INT] Damage Reduction",
+                "Name": "[INT] 데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [INT] characters by 1%",
                     "Level 2: Reduce damage taken from [INT] characters by 2%",
@@ -20295,40 +20365,40 @@ window.details = {
         },
         sailorNotes: "#{beneficial}",
         limit: [
-            { "description": "Boosts base ATK by 10" },
-            { "description": "Boosts base ATK by 10" },
-            { "description": "Boosts base ATK by 10" },
-            { "description": "Acquire Potential 1: [STR] Damage Reduction" },
-            { "description": "Boosts base HP by 20" },
-            { "description": "Boosts base HP by 30" },
-            { "description": "Boosts base ATK by 25" },
-            { "description": "Boosts base HP by 30" },
-            { "description": "Boosts base HP by 25" },
-            { "description": "Boosts base ATK by 20" },
-            { "description": "Boosts base ATK by 20" },
-            { "description": "Boosts base HP by 40" },
-            { "description": "Boosts base HP by 30" },
-            { "description": "Boosts base HP by 45" },
-            { "description": "Acquire Potential 2: [DEX] Damage Reduction" },
-            { "description": "Boosts base HP by 45" },
-            { "description": "Boosts base RCV by 20" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Boosts base HP by 20" },
-            { "description": "Boosts base ATK by 35" },
-            { "description": "Boosts base RCV by 20" },
-            { "description": "Boosts base HP by 50" },
+            { "description": "공격력 상승 : 10" },
+            { "description": "공격력 상승 : 10" },
+            { "description": "공격력 상승 : 10" },
+            { "description": "잠재능력 습득 1: [STR] 데미지 피해 감소" },
+            { "description": "체력 상승 : 20" },
+            { "description": "체력 상승 : 30" },
+            { "description": "공격력 상승 : 25" },
+            { "description": "체력 상승 : 30" },
+            { "description": "체력 상승 : 25" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "체력 상승 : 40" },
+            { "description": "체력 상승 : 30" },
+            { "description": "체력 상승 : 45" },
+            { "description": "잠재능력 습득 2: [DEX] 데미지 피해 감소" },
+            { "description": "체력 상승 : 45" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "체력 상승 : 20" },
+            { "description": "공격력 상승 : 35" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "체력 상승 : 50" },
             { "description": "Reduce base Special Cooldown by 1 turn" },
-            { "description": "Boosts base HP by 65" },
-            { "description": "Boosts base RCV by 20" },
-            { "description": "Boosts base HP by 65" },
-            { "description": "Acquire Sailor Ability 1: Makes [TND] and [RCV] orbs \"beneficial\" for Free Spirit characters" },
-            { "description": "Boosts base HP by 85" },
-            { "description": "Boosts base ATK by 40" },
-            { "description": "Acquire Potential 3: Pinch Healing" },
+            { "description": "체력 상승 : 65" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "체력 상승 : 65" },
+            { "description": "선원 효과 추가 1: Makes [TND] and [RCV] orbs \"beneficial\" for Free Spirit characters" },
+            { "description": "체력 상승 : 85" },
+            { "description": "공격력 상승 : 40" },
+            { "description": "잠재능력 습득 3: Pinch Healing" },
         ],
         potential: [
             {
-                "Name": "[STR] Damage Reduction",
+                "Name": "[STR] 데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
@@ -20338,7 +20408,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "[DEX] Damage Reduction",
+                "Name": "[DEX] 데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [DEX] characters by 1%",
                     "Level 2: Reduce damage taken from [DEX] characters by 2%",
@@ -20397,40 +20467,40 @@ window.details = {
         },
         sailorNotes: "#{beneficial}",
         limit: [
-            { "description": "Boosts base ATK by 10" },
-            { "description": "Boosts base ATK by 10" },
-            { "description": "Boosts base ATK by 10" },
-            { "description": "Acquire Potential 1: [STR] Damage Reduction" },
-            { "description": "Boosts base HP by 20" },
-            { "description": "Boosts base HP by 30" },
-            { "description": "Boosts base ATK by 25" },
-            { "description": "Boosts base HP by 30" },
-            { "description": "Boosts base HP by 25" },
-            { "description": "Boosts base ATK by 20" },
-            { "description": "Boosts base ATK by 20" },
-            { "description": "Boosts base HP by 40" },
-            { "description": "Boosts base HP by 30" },
-            { "description": "Boosts base HP by 45" },
-            { "description": "Acquire Potential 2: [DEX] Damage Reduction" },
-            { "description": "Boosts base HP by 45" },
-            { "description": "Boosts base RCV by 20" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Boosts base HP by 20" },
-            { "description": "Boosts base ATK by 35" },
-            { "description": "Boosts base RCV by 20" },
-            { "description": "Boosts base HP by 50" },
+            { "description": "공격력 상승 : 10" },
+            { "description": "공격력 상승 : 10" },
+            { "description": "공격력 상승 : 10" },
+            { "description": "잠재능력 습득 1: [STR] 데미지 피해 감소" },
+            { "description": "체력 상승 : 20" },
+            { "description": "체력 상승 : 30" },
+            { "description": "공격력 상승 : 25" },
+            { "description": "체력 상승 : 30" },
+            { "description": "체력 상승 : 25" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "체력 상승 : 40" },
+            { "description": "체력 상승 : 30" },
+            { "description": "체력 상승 : 45" },
+            { "description": "잠재능력 습득 2: [DEX] 데미지 피해 감소" },
+            { "description": "체력 상승 : 45" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "체력 상승 : 20" },
+            { "description": "공격력 상승 : 35" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "체력 상승 : 50" },
             { "description": "Reduce base Special Cooldown by 1 turn" },
-            { "description": "Boosts base HP by 65" },
-            { "description": "Boosts base RCV by 20" },
-            { "description": "Boosts base HP by 65" },
-            { "description": "Acquire Sailor Ability 1: Makes [TND] and [RCV] orbs \"beneficial\" for Free Spirit characters" },
-            { "description": "Boosts base HP by 85" },
-            { "description": "Boosts base ATK by 40" },
-            { "description": "Acquire Potential 3: Pinch Healing" },
+            { "description": "체력 상승 : 65" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "체력 상승 : 65" },
+            { "description": "선원 효과 추가 1: Makes [TND] and [RCV] orbs \"beneficial\" for Free Spirit characters" },
+            { "description": "체력 상승 : 85" },
+            { "description": "공격력 상승 : 40" },
+            { "description": "잠재능력 습득 3: Pinch Healing" },
         ],
         potential: [
             {
-                "Name": "[STR] Damage Reduction",
+                "Name": "[STR] 데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
                     "Level 2: Reduce damage taken from [STR] characters by 2%",
@@ -20440,7 +20510,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "[DEX] Damage Reduction",
+                "Name": "[DEX] 데미지 피해 감소",
                 "description": [
                     "Level 1: Reduce damage taken from [DEX] characters by 1%",
                     "Level 2: Reduce damage taken from [DEX] characters by 2%",
