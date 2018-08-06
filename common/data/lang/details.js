@@ -24074,20 +24074,20 @@ window.details = {
         ]
     },
     1880: {//Hody Jones 6+
-        captain: "Reduces cooldown of all specials by 2 turns at the start of the fight, reduces crew's current HP by 10% at the end of each turn, boosts ATK of Powerhouse characters by 3.25x if there are 6 Powerhouse characters in your crew and boosts HP of Powerhouse characters by up to 2x depending on how many Powerhouse characters are in your crew.",
+        captain: "모험 시작 시 필살기 턴을 2턴 단축하고, 턴 종료 시에 체력이 감소하지만 강인형의 수에 따라 강인형의 체력이 최대 2배, 강인형 6명으로 편성 시 일당의 공격력이 3.25배가 된다",
         captainNotes: "Hody's HP boost is dependent on how many Powerhouse characters are in your crew. With 6 Powerhouse characters, the boost is 2x, with 5 the boost is 1.5x, with 4 the boost is 1.4x, with 3 the boost is 1.3x, with 2 the boost is 1.2x and with 1 the boost is 1.1x. [BASED ON 6*]",
         special: [
             {
-                "description": "Deals 10x character's ATK in [INT] damage to all enemies that will ignore damage negating abilities and barriers, reduces Special Cooldown of Powerhouse characters by 1 turn, reduces damage received by 60% for 1 turn",
+                "description": "적 전체에게 모든 방어 효과를 무시하고 [INT] 데미지를 주며, 강인형의 필살기 턴을 1턴 단축하고 1턴 동안 받는 데미지를 60% 줄인다",
                 "cooldown": [ 12, 7 ],
             },
             {
-                "description": "Deals 60x character's ATK in [INT] damage to all enemies that will ignore damage negating abilities and barriers, reduces Special Cooldown of Powerhouse characters by 2 turns, reduces damage received by 90% for 1 turn",
+                "description": "적 전체에게 모든 방어 효과를 무시하고 [INT] 데미지를 주며, 강인형의 필살기 턴을 2턴 단축하고 1턴 동안 받는 데미지를 90% 줄인다",
                 "cooldown": [ 21, 16 ],
             },
         ],
         specialNotes: "#{ignoreBarrier}<br>#{stages}",
-        specialName: "Swarm of Sharks",
+        specialName: "군교",
         sailor: {
             "base": "None",
             "level1": "Boosts base ATK and HP of Powerhouse characters by 60",
@@ -31254,40 +31254,71 @@ window.details = {
         special: "캐릭터의 공격력x120배의 무 속성 데미지를 주고, 인접한 슬롯을 속성 일치 슬롯으로 바꾸며, 2턴 동안 일당의 공격력을 1.75배로 만들고, 적 각각에 대하여 5,656을 넘는 부분의 데미지를 초대폭 줄이며, PERFECT 타이밍이 상당히 쉬워진다",
         sailor: "GOOD, GREAT, PERFECT 타이밍 보너스에 캐릭터의 공격력x3배의 데미지가 가산된다",
         specialName: "고무고무 거인의 라이플: 쿵후",
+        limit: [
+            { "description": "Boosts base ATK by 10" },
+            { "description": "Boosts base ATK by 10" },
+            { "description": "Boosts base ATK by 10" },
+            { "description": "Acquire Potential 1: Critical Hit" },
+            { "description": "Boosts base ATK by 10" },
+            { "description": "Boosts base ATK by 15" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Boosts base ATK by 15" },
+            { "description": "Boosts base HP by 30" },
+            { "description": "Boosts base HP by 30" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base HP by 35" },
+            { "description": "Boosts base HP by 35" },
+            { "description": "Acquire Potential 2: Slot Bind Self-reduction" },
+            { "description": "Boosts base HP by 45" },
+            { "description": "Boosts base HP by 45" },
+            { "description": "Boosts base ATK by 25" },
+            { "description": "Boosts base ATK by 25" },
+            { "description": "Boosts base HP by 55" },
+            { "description": "Boosts base HP by 55" },
+            { "description": "Boosts base RCV by 15" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Boosts base HP by 70" },
+            { "description": "Boosts base RCV by 20" },
+            { "description": "Boosts base RCV by 25" },
+            { "description": "Acquire Sailor Ability 1: Makes [DEX] orbs \"beneficial\" for all characters" },
+            { "description": "Boosts base HP by 100" },
+            { "description": "Boosts base ATK by 40" },
+            { "description": "Acquire Potential 3: Pinch Healing" },
+        ],
         potential: [
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, ?% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ?% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ?% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ?% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, ?% 확률로 공격력의 ?% 추가 데미지를 입힌다."
+                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
+                    "Level 2: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 3: PERFECT 적중 시, 30% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 4: PERFECT 적중 시, 40% 확률로 공격력의 7% 추가 데미지를 입힌다.",
+                    "Level 5: PERFECT 적중 시, 50% 확률로 공격력의 7% 추가 데미지를 입힌다."
                 ]
             },
             {
                 "Name": "슬롯 봉쇄 내성",
                 "description": [
 	                
-                    "Level 1: 캐릭터의 봉인상태를 ?턴 감소시킨다.",
-                    "Level 2: 캐릭터의 봉인상태를 ?턴 감소시킨다.",
-                    "Level 3: 캐릭터의 봉인상태를 ?턴 감소시킨다.",
-                    "Level 4: 캐릭터의 봉인상태를 ?턴 감소시킨다.",
-                    "Level 5: 캐릭터의 봉인상태를 ?턴 감소시킨다."
+                    "Level 1: 캐릭터의 봉인상태를 1턴 감소시킨다.",
+                    "Level 2: 캐릭터의 봉인상태를 2턴 감소시킨다.",
+                    "Level 3: 캐릭터의 봉인상태를 3턴 감소시킨다.",
+                    "Level 4: 캐릭터의 봉인상태를 5턴 감소시킨다.",
+                    "Level 5: 캐릭터의 봉인상태를 7턴 감소시킨다."
                 ]
             },
             {
                 "Name": "긴급 회복",
                 "description": [
 	                		
-                    "Level 1: 전투 시작 시 체력이 ?% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 ?배 만큼 체력을 회복한다.",
-                    "Level 2: 전투 시작 시 체력이 ?% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 ?배 만큼 체력을 회복한다.",
-                    "Level 3: 전투 시작 시 체력이 ?% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 ?배 만큼 체력을 회복한다.",
-                    "Level 4: 전투 시작 시 체력이 ?% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 ?배 만큼 체력을 회복한다.",
-                    "Level 5: 전투 시작 시 체력이 ?% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 ?배 만큼 체력을 회복한다."
+                    "Level 1: 전투 시작 시 체력이 40% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 0.75배 만큼 체력을 회복한다.",
+                    "Level 2: 전투 시작 시 체력이 40% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 1배 만큼 체력을 회복한다.",
+                    "Level 3: 전투 시작 시 체력이 40% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 1.25배 만큼 체력을 회복한다.",
+                    "Level 4: 전투 시작 시 체력이 50% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 1.5배 만큼 체력을 회복한다.",
+                    "Level 5: 전투 시작 시 체력이 50% 미만이면, 턴 종료시 PERFECT 적중 할때마다 캐릭터 회복력의 2배 만큼 체력을 회복한다."
                 ]
             },
         ],
-        limit:""
     },
 };
