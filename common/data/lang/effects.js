@@ -402,5 +402,338 @@ window.effects = {
         id: 42, // don't change this
         chainLimiter: function() { return 1.5; }
     },
+
+    'Treasure Map [Global]': {
+        description: 'Boost stats of characters, check in-game news for lists.',
+        thumb: 1972,
+        id: 43, // don't change this
+        atk: function(p) {
+            var boost = 1;
+            var id = p.number + 1;
+            if([ 1951, 1937, 1970, 1969, 1968, 1967, 1810, 1737, 1597, 1582, 1581, 1426, 1242, 1137, 1049, 929 ].indexOf(id) != -1) boost = 2.5;
+            if([ 1916, 1889, 1853, 1808, 1933, 1932, 1931, 1893, 1891, 1812, 1943, 1879, 1830, 1826, 1772, 1739, 1727, 516, 1945, 1312, 1294, 1959, 1957, 1955, 1953, 1926, 1908, 1906, 1902, 1887, 1885, 1877, 1875, 1873, 1851, 1849, 1806, 1804, 1721, 1713, 1575, 1573, 1540, 1208, 1119, 995, 908, 752, 210, 1935, 1927, 1910, 1883, 1869, 1832, 1794, 1747, 1941, 1972, 1939 ].indexOf(id) != -1) boost = 1.2;
+            return boost;
+        },
+        hp: function(p) {
+            var boost = 1;
+            var id = p.number + 1;
+            if([ 1951, 1937, 1970, 1969, 1968, 1967, 1810, 1737, 1597, 1582, 1581, 1426, 1242, 1137, 1049, 929 ].indexOf(id) != -1) boost = 2.5;
+            if([ 1916, 1889, 1853, 1808, 1933, 1932, 1931, 1893, 1891, 1812, 1943, 1879, 1830, 1826, 1772, 1739, 1727, 516, 1945, 1312, 1294, 1959, 1957, 1955, 1953, 1926, 1908, 1906, 1902, 1887, 1885, 1877, 1875, 1873, 1851, 1849, 1806, 1804, 1721, 1713, 1575, 1573, 1540, 1208, 1119, 995, 908, 752, 210, 1935, 1927, 1910, 1883, 1869, 1832, 1794, 1747, 1941, 1972, 1939 ].indexOf(id) != -1) boost = 1.2;
+            return boost;
+        },
+        rcv: function(p) {
+            var boost = 1;
+            var id = p.number + 1;
+            if([ 1951, 1937, 1970, 1969, 1968, 1967, 1810, 1737, 1597, 1582, 1581, 1426, 1242, 1137, 1049, 929 ].indexOf(id) != -1) boost = 2.5;
+            if([ 1916, 1889, 1853, 1808, 1933, 1932, 1931, 1893, 1891, 1812, 1943, 1879, 1830, 1826, 1772, 1739, 1727, 516, 1945, 1312, 1294, 1959, 1957, 1955, 1953, 1926, 1908, 1906, 1902, 1887, 1885, 1877, 1875, 1873, 1851, 1849, 1806, 1804, 1721, 1713, 1575, 1573, 1540, 1208, 1119, 995, 908, 752, 210, 1935, 1927, 1910, 1883, 1869, 1832, 1794, 1747, 1941, 1972, 1939 ].indexOf(id) != -1) boost = 1.2;
+            return boost;
+        },
+	},
+
+    'Treasure Map [Japan]': {
+        description: 'Boost stats of characters, check in-game news for lists.',
+        thumb: 2175,
+        id: 44, // don't change this
+        atk: function(p) {
+            var boost = 1;
+            var id = p.number + 1;
+            if([ 2173, 2171, 2169 ].indexOf(id) != -1) boost = 2.5;
+            if([ 2148, 2113, 2099, 2156, 2154, 2152, 2150, 2137 ].indexOf(id) != -1) boost = 1.25;
+            if([ 2159, 2138, 2066, 1121, 578, 1652, 1571, 2142, 2141, 2140, 2139, 2109, 1941, 1089, 1401, 1553, 2017, 2123, 2163, 516, 836, 1432, 1595, 1623, 1727, 1780, 1830, 2070, 2158, 797, 929, 1095, 1112, 1287, 1357, 1608, 1671, 1690, 1865, 1867, 1893, 1933, 2046, 2144, 2146, 2165, 2167, 681, 683, 685, 1715 ].indexOf(id) != -1) boost = 1.2;
+            return boost;
+        },
+        hp: function(p) {
+            var boost = 1;
+            var id = p.number + 1;
+            if([ 2173, 2171, 2169 ].indexOf(id) != -1) boost = 2.5;
+            if([ 2148, 2113, 2099, 2156, 2154, 2152, 2150, 2137 ].indexOf(id) != -1) boost = 1.25;
+            if([ 2159, 2138, 2066, 1121, 578, 1652, 1571, 2142, 2141, 2140, 2139, 2109, 1941, 1089, 1401, 1553, 2017, 2123, 2163, 516, 836, 1432, 1595, 1623, 1727, 1780, 1830, 2070, 2158, 797, 929, 1095, 1112, 1287, 1357, 1608, 1671, 1690, 1865, 1867, 1893, 1933, 2046, 2144, 2146, 2165, 2167, 681, 683, 685, 1715 ].indexOf(id) != -1) boost = 1.2;
+            return boost;
+        },
+        rcv: function(p) {
+            var boost = 1;
+            var id = p.number + 1;
+            if([ 2173, 2171, 2169 ].indexOf(id) != -1) boost = 2.5;
+            if([ 2148, 2113, 2099, 2156, 2154, 2152, 2150, 2137 ].indexOf(id) != -1) boost = 1.25;
+            if([ 2159, 2138, 2066, 1121, 578, 1652, 1571, 2142, 2141, 2140, 2139, 2109, 1941, 1089, 1401, 1553, 2017, 2123, 2163, 516, 836, 1432, 1595, 1623, 1727, 1780, 1830, 2070, 2158, 797, 929, 1095, 1112, 1287, 1357, 1608, 1671, 1690, 1865, 1867, 1893, 1933, 2046, 2144, 2146, 2165, 2167, 681, 683, 685, 1715 ].indexOf(id) != -1) boost = 1.2;
+            return boost;
+        },
+    },
     
+    '3 Ranking Missions - Shanks, Tony Tony Chopper and Jinbe': {
+        description: 'Stats of certain units boosted',
+        thumb: 1700,
+        id: 45, // don't change this
+        atk: function(p) {
+            var character = window.families[p.number];
+            matching = [ "Gecko Moria", "Leo", "Trafalgar Law", "Carina", "Brannew", "Carrot", "Roronoa Zoro", "Brook", "Marguerite", "Machvise", "Dosun", "King Neptune" ].indexOf(character) != -1;
+            return !matching ? 1 : 1.25;
+        },    
+        hp: function(p) {
+            var character = window.families[p.number];
+            matching = [ "Gecko Moria", "Leo", "Trafalgar Law", "Carina", "Brannew", "Carrot", "Roronoa Zoro", "Brook", "Marguerite", "Machvise", "Dosun", "King Neptune" ].indexOf(character) != -1;
+            return !matching ? 1 : 1.25;
+        },    
+        rcv: function(p) {
+            var character = window.families[p.number];
+            matching = [ "Gecko Moria", "Leo", "Trafalgar Law", "Carina", "Brannew", "Carrot", "Roronoa Zoro", "Brook", "Marguerite", "Machvise", "Dosun", "King Neptune" ].indexOf(character) != -1;
+            return !matching ? 1 : 1.25;
+        },    
+    },
+	
+	'X-Drake Neo': {//Remove this eventually
+        description: 'Certain units boosted',
+        thumb: 1976,
+        id: 46, // don't change this
+        atk: function(p) {
+            var id = p.number + 1,
+                matching = ([ 1974, 1972, 1945, 1926, 1895, 1770, 1721, 1688, 1684, 1678, 1665, 1632, 1577, 1481, 1047 ].indexOf(id) != -1);
+            return !matching ? 1 : 1.75;
+        },
+        hp: function(p) {
+            var id = p.number + 1,
+                matching = ([ 1974, 1972, 1945, 1926, 1895, 1770, 1721, 1688, 1684, 1678, 1665, 1632, 1577, 1481, 1047 ].indexOf(id) != -1);
+            return !matching ? 1 : 1.75;
+        },
+        rcv: function(p) {
+            var id = p.number + 1,
+                matching = ([ 1974, 1972, 1945, 1926, 1895, 1770, 1721, 1688, 1684, 1678, 1665, 1632, 1577, 1481, 1047 ].indexOf(id) != -1);
+            return !matching ? 1 : 1.75;
+        }, 
+	},
+    
+    'Blitz Battle! The Three Admirals': {
+        description: 'Lot of units boosted',
+        thumb: 1314,
+        id: 47, // don't change this
+        atk: function(p) {
+            var character = window.families[p.number];
+            matching = [ "Monkey D. Luffy", "Buggy", "Portgas D. Ace", "Marco", "Jozu", "Vista", "Whitebeard", "Crocodile", "Emporio Ivankov", "Jimbe", "Boa Hancock", "Namule", "Rakuyo", "Fossa", "Curiel", "Doma", "Decalvan Brothers", "Squard", "Whitey Bay", "Little Oars Jr.", "Inazuma", "Blenheim", "Kingdew", "Atmos", "Speed Jiru", "Blackbeard", "Rob Lucci", "Thatch", "Silvers Rayleigh", "Eneru", "Dracule Mihawk", "Perona", "Kinemon", "Kanjuro", "Inuarashi", "Wanda", "Sicilian", "Momonosuke", "Nekomamushi", "Pedro", "Carrot", "Raizo" ].indexOf(character) != -1;
+            return !matching ? 1 : 1.5;
+        },
+        hp: function(p) {
+            var character = window.families[p.number];
+            matching = [ "Monkey D. Luffy", "Buggy", "Portgas D. Ace", "Marco", "Jozu", "Vista", "Whitebeard", "Crocodile", "Emporio Ivankov", "Jimbe", "Boa Hancock", "Namule", "Rakuyo", "Fossa", "Curiel", "Doma", "Decalvan Brothers", "Squard", "Whitey Bay", "Little Oars Jr.", "Inazuma", "Blenheim", "Kingdew", "Atmos", "Speed Jiru", "Blackbeard", "Rob Lucci", "Thatch", "Silvers Rayleigh", "Eneru", "Dracule Mihawk", "Perona", "Kinemon", "Kanjuro", "Inuarashi", "Wanda", "Sicilian", "Momonosuke", "Nekomamushi", "Pedro", "Carrot", "Raizo" ].indexOf(character) != -1;
+            return !matching ? 1 : 1.5;
+        },  
+        rcv: function(p) {
+            var character = window.families[p.number];
+            matching = [ "Monkey D. Luffy", "Buggy", "Portgas D. Ace", "Marco", "Jozu", "Vista", "Whitebeard", "Crocodile", "Emporio Ivankov", "Jimbe", "Boa Hancock", "Namule", "Rakuyo", "Fossa", "Curiel", "Doma", "Decalvan Brothers", "Squard", "Whitey Bay", "Little Oars Jr.", "Inazuma", "Blenheim", "Kingdew", "Atmos", "Speed Jiru", "Blackbeard", "Rob Lucci", "Thatch", "Silvers Rayleigh", "Eneru", "Dracule Mihawk", "Perona", "Kinemon", "Kanjuro", "Inuarashi", "Wanda", "Sicilian", "Momonosuke", "Nekomamushi", "Pedro", "Carrot", "Raizo" ].indexOf(character) != -1;
+            return !matching ? 1 : 1.5;
+        }, 
+    },
+    
+    'Blitz Battle! Straw Hat Pirates': {
+        description: 'Lot of units boosted',
+        thumb: 1404,
+        id: 48, // don't change this
+        atk: function(p) {
+            var character = window.families[p.number];
+            matching = ["Akainu", "Eneru", "Cavendish", "Fujitora", "Hody Jones", "Dracule Mihawk", "Rob Lucci", "Sengoku", "Magellan", "Blackbeard", "Donquixote Doflamingo", "Aokiji", "Kizaru", "Crocodile", "Boa Hancock", "Buggy", "Nefertari Vivi", "Emporio Ivankov", "Gecko Moria", "Bartholomew Kuma", "Vander Decken IX", "Caribou", "Hyouzou", "Don Chinjao", "Hajrudin", "Hannyabal", "Bentham", "Kinemon", "Duval", "Elizabeth", "Monkey D. Garp", "Smoker", "Tashigi", "Coby", "Momonga", "Sentomaru", "Monet", "Caesar Clown", "Kaku", "Blueno", "Jabra", "Kumadori"].indexOf(character) != -1;
+            return !matching ? 1 : 1.5;
+        },
+        hp: function(p) {
+            var character = window.families[p.number];
+            matching = ["Akainu", "Eneru", "Cavendish", "Fujitora", "Hody Jones", "Dracule Mihawk", "Rob Lucci", "Sengoku", "Magellan", "Blackbeard", "Donquixote Doflamingo", "Aokiji", "Kizaru", "Crocodile", "Boa Hancock", "Buggy", "Nefertari Vivi", "Emporio Ivankov", "Gecko Moria", "Bartholomew Kuma", "Vander Decken IX", "Caribou", "Hyouzou", "Don Chinjao", "Hajrudin", "Hannyabal", "Bentham", "Kinemon", "Duval", "Elizabeth", "Monkey D. Garp", "Smoker", "Tashigi", "Coby", "Momonga", "Sentomaru", "Monet", "Caesar Clown", "Kaku", "Blueno", "Jabra", "Kumadori"].indexOf(character) != -1;
+            return !matching ? 1 : 1.5;
+        },  
+        rcv: function(p) {
+            var character = window.families[p.number];
+            matching = ["Akainu", "Eneru", "Cavendish", "Fujitora", "Hody Jones", "Dracule Mihawk", "Rob Lucci", "Sengoku", "Magellan", "Blackbeard", "Donquixote Doflamingo", "Aokiji", "Kizaru", "Crocodile", "Boa Hancock", "Buggy", "Nefertari Vivi", "Emporio Ivankov", "Gecko Moria", "Bartholomew Kuma", "Vander Decken IX", "Caribou", "Hyouzou", "Don Chinjao", "Hajrudin", "Hannyabal", "Bentham", "Kinemon", "Duval", "Elizabeth", "Monkey D. Garp", "Smoker", "Tashigi", "Coby", "Momonga", "Sentomaru", "Monet", "Caesar Clown", "Kaku", "Blueno", "Jabra", "Kumadori"].indexOf(character) != -1;
+            return !matching ? 1 : 1.5;
+        },  
+    },
+    
+    'Kizaru Neo [GLOBAL] - Free Spirit/Striker': {
+        description: 'Chain multiplier reduced.',
+        thumb: 1780,
+        id: 49,
+        chainModifier: function(p) { return 0.5 ; }//Chain by half
+    },
+    
+    'Kizaru Neo [GLOBAL] - Striker': {
+        description: 'Chain multiplier halved.',
+        thumb: 1780,
+        id: 50,
+        chainModifier: function(p) { return 0.5 ; }//Chain by half
+    },
+    
+    'Kizaru Neo [GLOBAL] - Powerhouse': {
+        description: 'Chain multiplier locked at 1.1x after revive.',
+        thumb: 1780,
+        id: 51,
+        chainLimiter: function() { return 1.1; } //Chain locked at 1.1x
+    },
+    
+    'Strawhats 20th Anniversary Mission': {
+        description: 'Stats of Strawhats boosted, 1.75x ATK, 1.75x HP, 1.5x RCV and Cooldown reduced by 7 turns at the start of the island.',
+        thumb: 1753,
+        id: 52,
+        atk: function(p) {
+            var character = window.families[p.number];
+            matching = ["Monkey D. Luffy", "Roronoa Zoro", "Usopp", "Sanji", "Nami", "Tony Tony Chopper", "Franky", "Nico Robin", "Brook"].indexOf(character) != -1;
+            return !matching ? 1 : 1.75;
+        },
+        hp: function(p) {
+            var character = window.families[p.number];
+            matching = ["Monkey D. Luffy", "Roronoa Zoro", "Usopp", "Sanji", "Nami", "Tony Tony Chopper", "Franky", "Nico Robin", "Brook"].indexOf(character) != -1;
+            return !matching ? 1 : 1.75;
+        },
+        rcv: function(p) {
+            var character = window.families[p.number];
+            matching = ["Monkey D. Luffy", "Roronoa Zoro", "Usopp", "Sanji", "Nami", "Tony Tony Chopper", "Franky", "Nico Robin", "Brook"].indexOf(character) != -1;
+            return !matching ? 1 : 1.5;
+        },
+    },
+    
+    'Rainbow Orbs': {
+        description: 'Activates [RAINBOW] orb support even when Shirahoshi is not in the team',
+        thumb: 1472,
+        id: 53, // don't change this
+        rainbowOrbsEnabled: true
+    },
+    
+    'Blitz Battle! Doflamingo Family': {
+        description: 'Lot of units boosted',
+        thumb: 870,
+        id: 54, // don't change this
+        atk: function(p) {
+            var character = window.families[p.number];
+            var boost = 1;
+            matching = [ "Monkey D. Luffy", "Roronoa Zoro", "Franky", "Nico Robin", "Usopp", "Trafalgar Law", "Bartolomeo", "Cavendish", "Rob Lucci", "Sabo", "Boa Sandersonia", "Boa Marigold", "Boa Hancock", "Marguerite", "Leo", "Don Sai", "Don Chinjao", "Ideo", "Blue Gilly", "Suleiman", "Mansherry", "Ricky", "Kyros", "Funk Brothers", "Hajrudin", "Abdullah and Jeet", "Orlumbus", "Elizabello", "Bepo", ].indexOf(character) != -1;
+            if (p.class.has("Slasher")) boost *= 1.5;
+            if (p.class.has("Powerhouse")) boost *= 1.5;
+            if (p.class.has("Striker")) boost *= 1.5;
+            if (p.class.has("Shooter")) boost *= 1.5;
+            if (matching) boost *= 1.5;
+            return matching ? boost : 1;
+        },
+        hp: function(p) {
+            var character = window.families[p.number];
+            var boost = 1;
+            matching = [ "Monkey D. Luffy", "Roronoa Zoro", "Franky", "Nico Robin", "Usopp", "Trafalgar Law", "Bartolomeo", "Cavendish", "Rob Lucci", "Sabo", "Boa Sandersonia", "Boa Marigold", "Boa Hancock", "Marguerite", "Leo", "Don Sai", "Don Chinjao", "Ideo", "Blue Gilly", "Suleiman", "Mansherry", "Ricky", "Kyros", "Funk Brothers", "Hajrudin", "Abdullah and Jeet", "Orlumbus", "Elizabello", "Bepo", ].indexOf(character) != -1;
+            /*if (p.class.has("Slasher")) boost *= 1.5;
+            if (p.class.has("Powerhouse")) boost *= 1.5;
+            if (p.class.has("Striker")) boost *= 1.5;
+            if (p.class.has("Shooter")) boost *= 1.5;*/
+            if (matching) boost *= 1.5;
+            return boost;
+        },  
+        rcv: function(p) {
+            var character = window.families[p.number];
+            var boost = 1;
+            matching = [ "Monkey D. Luffy", "Roronoa Zoro", "Franky", "Nico Robin", "Usopp", "Trafalgar Law", "Bartolomeo", "Cavendish", "Rob Lucci", "Sabo", "Boa Sandersonia", "Boa Marigold", "Boa Hancock", "Marguerite", "Leo", "Don Sai", "Don Chinjao", "Ideo", "Blue Gilly", "Suleiman", "Mansherry", "Ricky", "Kyros", "Funk Brothers", "Hajrudin", "Abdullah and Jeet", "Orlumbus", "Elizabello", "Bepo", ].indexOf(character) != -1;
+            /*if (p.class.has("Slasher")) boost *= 1.5;
+            if (p.class.has("Powerhouse")) boost *= 1.5;
+            if (p.class.has("Striker")) boost *= 1.5;
+            if (p.class.has("Shooter")) boost *= 1.5;*/
+            if (matching) boost *= 1.5;
+            return boost;
+        }, 
+    },
+
+    'Orb amplification (1.75x)': {
+        description: 'Orb effects amplified by 1.75x',
+        thumb: 1961,
+        id: 55, // don't change this
+        orb: function(p) { return p.orb == 2.0 ? 1.75 : (p.orb == 0.5 ? 4/7 : 1); }
+    },
+
+    '0.5x Chain Boost - Zoro Sanji Change Action': {
+        description: 'Chain Boosted by 0.5x',
+        thumb: 2000,
+        id: 56, // don't change this
+        chainAddition: function(p) { return 0.5 }
+    },
+    
+    'Encourage the Soul': {
+        description: 'Stats of Strawhats boosted, 1.5x ATK, 1.5x HP, 1.5x RCV and Cooldown reduced by 9 turns at the start of the island.',
+        thumb: 1547,
+        id: 57, // don't change this
+        atk: function(p) {
+            var character = window.families[p.number];
+            matching = ["Monkey D. Luffy", "Roronoa Zoro", "Usopp", "Sanji", "Nami", "Tony Tony Chopper", "Franky", "Nico Robin", "Brook"].indexOf(character) != -1;
+            return !matching ? 1 : 1.5;
+        },
+        hp: function(p) {
+            var character = window.families[p.number];
+            matching = ["Monkey D. Luffy", "Roronoa Zoro", "Usopp", "Sanji", "Nami", "Tony Tony Chopper", "Franky", "Nico Robin", "Brook"].indexOf(character) != -1;
+            return !matching ? 1 : 1.5;
+        },
+        rcv: function(p) {
+            var character = window.families[p.number];
+            matching = ["Monkey D. Luffy", "Roronoa Zoro", "Usopp", "Sanji", "Nami", "Tony Tony Chopper", "Franky", "Nico Robin", "Brook"].indexOf(character) != -1;
+            return !matching ? 1 : 1.5;
+        },
+    },
+    
+    '3 Ranking Missions - Ganfor, Mihawk and Blackbeard': {
+        description: 'Stats of certain characters boosted.',
+        thumb: 447,
+        id: 58, // don't change this
+        atk: function(p) {
+            var character = window.families[p.number];
+            matching = ["Koala", "Leo", "Elizabello", "Yasopp", "Curiel", "Hina", "Coby", "Monkey D. Garp", "Vinsmoke Reiju", "Nami", "Lucky Roo", "Kizaru"].indexOf(character) != -1;
+            return !matching ? 1 : 1.25;
+        },
+        hp: function(p) {
+            var character = window.families[p.number];
+            matching = ["Koala", "Leo", "Elizabello", "Yasopp", "Curiel", "Hina", "Coby", "Monkey D. Garp", "Vinsmoke Reiju", "Nami", "Lucky Roo", "Kizaru"].indexOf(character) != -1;
+            return !matching ? 1 : 1.25;
+        },
+        rcv: function(p) {
+            var character = window.families[p.number];
+            matching = ["Koala", "Leo", "Elizabello", "Yasopp", "Curiel", "Hina", "Coby", "Monkey D. Garp", "Vinsmoke Reiju", "Nami", "Lucky Roo", "Kizaru"].indexOf(character) != -1;
+            return !matching ? 1 : 1.25;
+        },
+    },
+    
+    'STR Orbs Beneficial': {
+        description: 'Activates [STR] orb beneficial effects for all characters',
+        thumb: 1313,
+        id: 59, // don't change this
+        strOrbsEnabled: true
+    },
+    
+    '3 Ranking Missions - Wanda, Ivankov and Kyros': {
+        description: 'Stats of certain characters boosted.',
+        thumb: 1873,
+        id: 60, // don't change this
+        atk: function(p) {
+            var character = window.families[p.number];
+            matching = ["Usopp", "Dracule Mihawk", "Jinbe", "Donquixote Doflamingo", "Koala", "Kizaru", "Diamante", "Tanaka", "Byrnndi World", "Caribou", "Charlotte Pudding", "Charlotte Amande"].indexOf(character) != -1;
+            return !matching ? 1 : 1.25;
+        },
+        hp: function(p) {
+            var character = window.families[p.number];
+            matching = ["Usopp", "Dracule Mihawk", "Jinbe", "Donquixote Doflamingo", "Koala", "Kizaru", "Diamante", "Tanaka", "Byrnndi World", "Caribou", "Charlotte Pudding", "Charlotte Amande"].indexOf(character) != -1;
+            return !matching ? 1 : 1.25;
+        },
+        rcv: function(p) {
+            var character = window.families[p.number];
+            matching = ["Usopp", "Dracule Mihawk", "Jinbe", "Donquixote Doflamingo", "Koala", "Kizaru", "Diamante", "Tanaka", "Byrnndi World", "Caribou", "Charlotte Pudding", "Charlotte Amande"].indexOf(character) != -1;
+            return !matching ? 1 : 1.25;
+        },
+    },
+    
+    'High Seas Pirate': {
+        description: 'Stats of certain characters boosted.',
+        thumb: 1984,
+        id: 61, // don't change this
+        atk: function(p) {
+            var character = window.families[p.number];
+            matching = [ "Monkey D. Luffy", "Portgas D. Ace", "Jinbe", "Marco", "Crocodile", "Buggy", "Daz Bones", "Sabo", "Franky", "Monkey D. Garp", "Coby", "Little Oars Jr.", "Jozu", "Vista", "Izo", "Blamenco", "Namule", "Rakuyo", "Fossa", "Curiel", "Squard", "Whitey Bay", "Blenheim", "Kingdew", "Haruta", "Atmos", "Speed Jiru", "Doma", "Tashigi", "Smoker",].indexOf(character) != -1;
+            return !matching ? 1 : 1.5;
+        },
+        hp: function(p) {
+            var character = window.families[p.number];
+            matching = [ "Monkey D. Luffy", "Portgas D. Ace", "Jinbe", "Marco", "Crocodile", "Buggy", "Daz Bones", "Sabo", "Franky", "Monkey D. Garp", "Coby", "Little Oars Jr.", "Jozu", "Vista", "Izo", "Blamenco", "Namule", "Rakuyo", "Fossa", "Curiel", "Squard", "Whitey Bay", "Blenheim", "Kingdew", "Haruta", "Atmos", "Speed Jiru", "Doma", "Tashigi", "Smoker",].indexOf(character) != -1;
+            return !matching ? 1 : 1.5;
+        },
+        rcv: function(p) {
+            var character = window.families[p.number];
+            matching = [ "Monkey D. Luffy", "Portgas D. Ace", "Jinbe", "Marco", "Crocodile", "Buggy", "Daz Bones", "Sabo", "Franky", "Monkey D. Garp", "Coby", "Little Oars Jr.", "Jozu", "Vista", "Izo", "Blamenco", "Namule", "Rakuyo", "Fossa", "Curiel", "Squard", "Whitey Bay", "Blenheim", "Kingdew", "Haruta", "Atmos", "Speed Jiru", "Doma", "Tashigi", "Smoker",].indexOf(character) != -1;
+            return !matching ? 1 : 1.5;
+        },
+    },
 };

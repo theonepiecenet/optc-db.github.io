@@ -28,7 +28,26 @@ app.controller('ImageGeneratorCtrl', function($scope, $filter, $timeout) {
             context.fillRect(440, 10 + n * 70, 150, 60);
             // text
             var overall = $filter('number')(numbers[which].overall);
-            type(context, { text: 'Damage against ' + which, style: '10.5px "Open Sans"', x: 515, y: 30 + n * 70, align: 'center' });
+            var which_kr = "";
+            switch(which)
+            {
+                case "STR":
+                    which_kr = "[힘]";
+                    break;
+                case "QCK":
+                    which_kr = "[속]";
+                    break;
+                case "DEX":
+                    which_kr = "[기]";
+                    break;
+                case "PSY":
+                    which_kr = "[심]";
+                    break;
+                case "INT":
+                    which_kr = "[지]";
+                    break;
+            }
+            type(context, { text: which_kr + '속성에 주는 데미지', style: '10.5px "Open Sans"', x: 515, y: 30 + n * 70, align: 'center' });
             type(context, { text: overall, style: 'bold 21px "Open Sans"', x: 515, y: 58 + n * 70, align: 'center' });
         });
         // indicators
@@ -42,17 +61,17 @@ app.controller('ImageGeneratorCtrl', function($scope, $filter, $timeout) {
 			var healPerTurn = $filter('number')($scope.numbers.healPerTurn);
 			//HP
             awesome(context, { text: 'f21e', x: baseX + 8, y: baseY, align: 'center' });
-            type(context, { text: currentHP + ' HP (' + percHP + '%)', x: baseX + 25, y: baseY });
+            type(context, { text: currentHP + ' 체력 (' + percHP + '%)', x: baseX + 25, y: baseY });
             //RCV
 			awesome(context, { text: 'f0f5', x: baseX + 8, y: baseY + 25, align: 'center' });
-            type(context, { text: rcv + ' RCV', x: baseX + 25, y: baseY + 25 });
+            type(context, { text:  rcv + ' 회복력' , x: baseX + 25, y: baseY + 25 });
             //Cost
 			awesome(context, { text: 'f039', x: baseX + 8, y: baseY + 50, align: 'center' });
-            type(context, { text: cost + ' cost', x: baseX + 25, y: baseY + 50 });
+            type(context, { text: cost + ' 코스트' , x: baseX + 25, y: baseY + 50 });
 			//Heal per Turn
 			if(healPerTurn){
 			awesome(context, { text: 'f0fa', x: baseX + 8, y: baseY + 75, align: 'center' });
-            type(context, { text: healPerTurn + ' Heal per turn', x: baseX + 25, y: baseY + 75 });
+            type(context, { text: ' 매 턴 회복' + healPerTurn , x: baseX + 25, y: baseY + 75 });
 			}
         }
     },true);
@@ -153,12 +172,12 @@ app.controller('ImageGeneratorCtrl', function($scope, $filter, $timeout) {
     // ship
     awesome(context, { text: 'f21a', x: baseX + 8, y: baseY + 20, align: 'center' });
     type(context, { text: window.ships[$scope.data.ship[0]].name, x: baseX + 25, y: baseY + 20 });
-    type(context, { text: 'Level ' + $scope.data.ship[1], x: baseX + 25, y: baseY + 37 });
+    type(context, { text: $scope.data.ship[1] + ' 레벨', x: baseX + 25, y: baseY + 37 });
     baseY += 42;
 
     // defense
     awesome(context, { text: 'f132', x: baseX + 8, y: baseY + 20, align: 'center' });
-    type(context, { text: $filter('number')($scope.data.defense) + ' DEF', x: baseX + 25, y: baseY + 20 });
+    type(context, { text: $filter('number')($scope.data.defense) + ' 적 방어력' , x: baseX + 25, y: baseY + 20 });
     baseY += 25;
 
     // turn counter
@@ -179,7 +198,8 @@ app.controller('ImageGeneratorCtrl', function($scope, $filter, $timeout) {
 
     // specials
     awesome(context, { text: 'f0e7', x: baseX + 8, y: baseY + 20, align: 'center' });
-    type(context, { text: 'Active specials:', x: baseX + 25, y: baseY + 20 });
+    type(context, { text: '사용한 필살기:', x: baseX + 25, y: baseY + 20 });
+    type(context, { text: 'http://www.theonepiece.net', x: baseX, y: baseY +196});
     var none = true;
     for (var i=0;i<6;++i) {
         if (!$scope.tdata.team[i] || !$scope.tdata.team[i].special) continue;

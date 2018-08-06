@@ -70,6 +70,8 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
     var mapEffect = { };
     var team = [ ];
     var initDone = false;
+    
+    var gearLevel = [ 0, 0 ];
 
     /* * * * * Events * * * * */
 
@@ -156,7 +158,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
         var damage = getBaseDamageForType(type,false);
         // compute best overall damage
         var noSorting = $scope.tdata.orderOverride.hasOwnProperty(type);
-        var overallDamage = optimizeDamage(damage,noSorting);
+        var overallDamage = optimizeDamage(damage,noSorting,type);
         // apply damage sorters to base damage, recalculate the new damage and update overallDamage if necessary
         // only done if the user hasn't already specified a custom order of their own
         if (!noSorting) {
@@ -166,10 +168,11 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
                     baseDamage[j].multipliers = baseDamage[j].multipliers
                         .filter(function(x) { return x[1] != 'chain' && x[1] != 'captain effect'; });
                 }
+                baseDamage.gear = [ $scope.data.gearLevelLeft, $scope.data.gearLevelRight ]
                 var newDamages = cptsWith.damageSorters[i].damageSorter(baseDamage);
                 if (newDamages === null) continue;
                 for (var k=0;k<newDamages.length;++k) {
-                    var newOverallDamage = optimizeDamage(newDamages[k],true);
+                    var newOverallDamage = optimizeDamage(newDamages[k],true,type);
                     if (newOverallDamage.overall > overallDamage.overall) overallDamage = newOverallDamage;
                 }
             }
@@ -228,19 +231,27 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
             if (orb =='meat'){
                 for (temp = 0; temp < 2; temp++){
                     if (team[temp].unit != null){
-                        if ([ 1610, 1609, 1532, 1531 ].includes(team[temp].unit.number)){
+                        if ([ 1610, 1609, 1532, 1531 ].includes(team[temp].unit.number + 1)){
                             orb = 2;
                         }
-                        if ([ 2012, 2013 ].includes(team[temp].unit.number) && x.unit.class.has("Free Spirit")){
+                        if ([ 2012, 2013 ].includes(team[temp].unit.number + 1) && x.unit.class.has("Free Spirit")){
                             orb = 2;
                         }
                     }
                 }
             }
-            if (orb == 'str'){
-                for (temp = 0; temp < 2; temp++){
-                    if (team[temp].unit != null){
-                        if ([ 2022, 2023 ].includes(team[temp].unit.number)){
+            for (temp = 0; temp < 2; temp++){
+                if (team[temp].unit != null){
+                    if (orb == 'str'){
+                        if ([ 2137 ].includes(team[temp].unit.number + 1)){
+                            orb = 2;
+                        }
+                        if ([ 2022, 2023 ].includes(team[temp].unit.number + 1) && x.unit.type == 'INT'){
+                            orb = 2;
+                        }
+                    }
+                    if (orb == 0.5){
+                        if ([ 5026, 5027 ].includes(team[temp].unit.number + 1) && x.unit.type == 'DEX'){
                             orb = 2;
                         }
                     }
@@ -303,12 +314,12 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
      * Returns an object detailing the updated damage including the two new multipliers mentioned
      * above, the overall damage and the hit modifiers used to compute said damage.
      */
-    var getOverallDamage = function(damage,hitModifiers,noSorting) {
+    var getOverallDamage = function(damage,hitModifiers,noSorting,type) {
         if (mapEffect.comboShield) mapEffect.shieldLeft = mapEffect.comboShield;
         else mapEffect.shieldLeft = 0;
         var result = applySpecialMultipliersAndCaptainEffects(damage,hitModifiers,noSorting);
         // apply chain and bonus multipliers
-        result = applyChainAndBonusMultipliers(result,hitModifiers);
+        result = applyChainAndBonusMultipliers(result,hitModifiers,type);
         if (mapEffect.damage) result.result = applyEffectDamage(result.result, mapEffect.damage);        
         
         var overallDamage = result.result.reduce(function(prev,x) { return prev + x.damage; },0);
@@ -318,14 +329,14 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
     };
 
     /* Calculates the highest overall damage for an array of hit modifiers. */
-    var optimizeDamage = function(damage,noSorting) {
+    var optimizeDamage = function(damage,noSorting,type) {
         // check damage from default order (or custom order) first, we'll use it as a base for comparison
         var temp = JSON.parse(JSON.stringify(damage));
-        var currentResult = getOverallDamage(temp,hitModifiers[0],noSorting);
+        var currentResult = getOverallDamage(temp,hitModifiers[0],noSorting,type);
         
         for (var i=1;i<hitModifiers.length;++i) {
             var newDamage = JSON.parse(JSON.stringify(damage));
-            var newResult = getOverallDamage(newDamage,hitModifiers[i],noSorting);
+            var newResult = getOverallDamage(newDamage,hitModifiers[i],noSorting,type);
             if (newResult.overall > currentResult.overall) currentResult = newResult;
         }
         
@@ -365,7 +376,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
      * - BONUS_DAMAGE_GREAT   = max(0,floor(STARTING_DAMAGE * (0.9 * 0.66 + 1/CMB)) - DEFENSE)
      * - BONUS_DAMAGE_PERFECT = max(0,floor(STARTING_DAMAGE * (0.9 + 1/CMB)) - DEFENSE)
      */
-    var computeDamageOfUnit = function(unit, unitAtk, hitModifier, currentHitCount) {
+    var computeDamageOfUnit = function(unit, unitAtk, hitModifier, currentHitCount, type) {
         var baseDamage = Math.floor(Math.max(1,unitAtk / unit.combo - currentDefense));
         var result = { hits: currentHitCount, result: 0 }, bonusDamageBase = 0, combo = 0, lastAtk = 0, lastHit = 0;
         if (hitModifier == 'Below Good') {
@@ -416,7 +427,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
         }
         
         //Apply Static Bonus Damage From Specials
-        var staticBonusDamage = computeFlatBonusDamage(hitModifier);
+        var staticBonusDamage = computeFlatBonusDamage(hitModifier, unit, type);
         if ((staticBonusDamage > 0) && ((staticBonusDamage - currentDefense)>0) && (result.result > 0)) {
             result.result += (staticBonusDamage - currentDefense);
         }
@@ -441,7 +452,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
             currentDefense = Math.min(currentDefense,baseDefense * x.def(getParameters(x.sourceSlot)));
             if (x.def(getParameters(x.sourceSlot)) < 1) defreduced = true;
         });
-        if(shipName=="Flying Dutchman - Special ACTIVATED"){
+        if(shipName=="플라잉 더치맨 - 필살기 활성화"){
             currentDefense = Math.min(currentDefense,baseDefense * .75);
             defreduced = true;
         }
@@ -583,7 +594,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
         return final;
     };
 
-    var applyChainAndBonusMultipliers = function(damage,modifiers) {
+    var applyChainAndBonusMultipliers = function(damage,modifiers,type) {
         
         var currentMax = -1, currentResult = null, addition = 0.0;
         if(shipBonus.bonus.name=="Doflamingo Ship - Special ACTIVATED"){
@@ -643,7 +654,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
                 if (i == x.multipliers.length) x.multipliers.push([ chainMultiplier, 'chain' ]);
                 // compute damage
                 var unitAtk = Math.floor(x.base * totalMultiplier(x.multipliers));
-                var temp = computeDamageOfUnit(x.unit.unit, unitAtk, modifiers[n], currentHits);
+                var temp = computeDamageOfUnit(x.unit.unit, unitAtk, modifiers[n], currentHits, type);
                 currentHits = temp.hits;
                 overall += temp.result;
                 multipliersUsed.push(chainMultiplier);
@@ -687,7 +698,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
             });
             // apply non-static captain effects
             for (var i=0;i<cptsWith.hitModifiers.length;++i)
-                temp = applyCaptainEffectsToDamage(temp,cptsWith.hitModifiers[i].hitAtk,hitModifiers);
+                temp = applyCaptainEffectsToDamage(temp,cptsWith.hitModifiers[i].hitAtk,hitModifiers,false,cptsWith.hitModifiers[i].sourceSlot);
             // calculate the new overall damage
             var total = temp.reduce(function(prev,next) { return prev + next.base * totalMultiplier(next.multipliers); },0);
             if (total < current) return;
@@ -766,7 +777,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
             if (data.hasOwnProperty('chainAddition'))
                 chainAddition.push({ sourceSlot: data.sourceSlot, chainAddition: data.chainAddition || function(){ return 0.0; } });
             if (data.hasOwnProperty('staticMult'))
-                staticMultiplier.push({staticMultiplier: "Yes" });
+                staticMultiplier.push({staticMultiplier: data.staticMult, sourceSlot: data.sourceSlot});
             if (data.hasOwnProperty('affinity'))
                 affinityMultiplier.push({affinityMultiplier: data.affinity || function(){ return 1.0; }});
         });
@@ -777,15 +788,21 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
         });
     };
     
-    var computeFlatBonusDamage = function(hitModifier) {
-        
+    var computeFlatBonusDamage = function(hitModifier, unit, type) {
+        for (var y=0;y<enabledEffects.length;++y) {
+            if (enabledEffects[y].hasOwnProperty('staticMult')){
+                var sailor = true;
+            }
+        }
         var resultDamage = 0;
         //Specials that add multiplier damage
         //Very Specific for Raid Sabo for now
         var conditionalMultiplier = 1.0;
-        if(staticMultiplier.length == 1){
+        var affinityMultiplier = 1.0;
+        if(staticMultiplier.length >= 1 || sailor){
             //Since we need this for defense down, and defense down gets saved for all slots we just go with slot 0
             var params = getParameters(0);
+            params['unit'] = unit;
             //Check if conditional Boosts are activated since they raise 
             for (var x=0;x<enabledSpecials.length;++x) {
                 if  (enabledSpecials[x].type=='condition'){
@@ -794,15 +811,50 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
                         conditionalMultiplier = thisMult;
                     }
                 }
+                if  (enabledSpecials[x].hasOwnProperty('affinity')){
+                    var thisMult = enabledSpecials[x]['affinity'](params);
+                    if(thisMult>affinityMultiplier){
+                        affinityMultiplier = thisMult;
+                    }
+                }
             }
+            if(unit.type != type){
+                if (unit.type == "STR" && type == "QCK") affinityMultiplier = Math.pow(affinityMultiplier, -1);
+                else if (unit.type == "DEX" && type == "STR") affinityMultiplier = Math.pow(affinityMultiplier, -1);
+                else if (unit.type == "QCK" && type == "DEX") affinityMultiplier = Math.pow(affinityMultiplier, -1);
+                else affinityMultiplier = 1;
+            }
+            else affinityMultiplier = 1;
             //Add the static extra Damage to each attacking member
+            var multSpecial = 0;
+            var baseDamage = 0;
             for (var y=0;y<enabledSpecials.length;++y) {
                 if (enabledSpecials[y].hasOwnProperty('staticMult')){
                     var slot = enabledSpecials[y].sourceSlot;
-                    var baseDamage = getStatOfUnit(team[slot],'atk');
-                    //var atkCandies = team[slot].candies.atk * 0;
-                    var mult = enabledSpecials[y].staticMult(params);
-                    var staticDamage = Math.ceil((baseDamage)*mult*conditionalMultiplier);
+                    if (enabledSpecials[y].staticMult(params) >= multSpecial){
+                        multSpecial = enabledSpecials[y].staticMult(params);
+                        baseDamage = getStatOfUnit(team[slot],'atk');
+                        enabledEffects.forEach(function(x) {
+                            if (x.hasOwnProperty('atkStatic'))
+                                baseDamage += x.atkStatic(getParameters(slot));
+                        });
+                    }
+                }
+            }
+            var staticDamage = Math.ceil((baseDamage)*multSpecial*conditionalMultiplier*affinityMultiplier);
+            if((hitModifier == 'Great')||(hitModifier == 'Good')||(hitModifier == 'Perfect')){
+                resultDamage += staticDamage;
+            }
+            for (var y=0;y<enabledEffects.length;++y) {
+                if (enabledEffects[y].hasOwnProperty('staticMult')){
+                    var slot = enabledEffects[y].sourceSlot;
+                    var baseDamage2 = getStatOfUnit(team[slot],'atk');
+                    var mult = enabledEffects[y].staticMult(params);
+                    enabledEffects.forEach(function(x) {
+                        if (x.hasOwnProperty('atkStatic'))
+                            baseDamage2 += x.atkStatic(getParameters(slot));
+                    });
+                    var staticDamage = Math.ceil((baseDamage2)*mult*conditionalMultiplier*affinityMultiplier);
                     if((hitModifier == 'Great')||(hitModifier == 'Good')||(hitModifier == 'Perfect')){
                         resultDamage += staticDamage;
                     } 
@@ -868,7 +920,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
                     enabledSpecials.push(jQuery.extend({ sourceSlot: n },specials[id]));
             }
             // activate turn counter if necessary
-            if (n < 2 && (id == 794 || id == 795 || id == 1124 || id == 1125 || id == 1191 || id == 1192 || id == 1219 || id == 1220 || id == 1288 || id == 1289 || id == 1361 || id == 1362 || id == 1525 || id == 1557 || id == 1558 || id == 1559 || id == 1560 || id == 1561 || id == 1562 || id == 1712 || id == 1713 || id == 1716 || id == 1764 || id == 1907 || id == 1908 || id == 2015 || id == 2049 || id == 2050))
+            if (n < 2 && (id == 794 || id == 795 || id == 1124 || id == 1125 || id == 1191 || id == 1192 || id == 1219 || id == 1220 || id == 1288 || id == 1289 || id == 1361 || id == 1362 || id == 1525 || id == 1557 || id == 1558 || id == 1559 || id == 1560 || id == 1561 || id == 1562 || id == 1712 || id == 1713 || id == 1716 || id == 1764 || id == 1907 || id == 1908 || id == 2015 || id == 2049 || id == 2050 || id == 2198 || id ==2199 || id == 2214 || id == 2215))
                 $scope.tdata.turnCounter.enabled = true;
             if (n < 2 && (id == 1609 || id == 1610))
                 $scope.tdata.healCounter.enabled = true;
@@ -1058,6 +1110,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
             captain: team[1].unit,
             friendCaptain: team[0].unit,
             actions: [ $scope.data.actionleft, $scope.data.actionright ],
+            gear: [ $scope.data.gearLevelLeft, $scope.data.gearLevelRight ],
             hitcombo: hitModifiers,
             effectName: $scope.data.effect,
         };
@@ -1095,10 +1148,16 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
                     healAmount += zombie.amount;
                 else{
                     enabledEffects.forEach(function(x) {
-                    if (x.hasOwnProperty('rcvStatic'))
-                        rcvtemp += x.rcvStatic(getParameters(i));
+                        if (x.hasOwnProperty('rcvStatic'))
+                            rcvtemp += x.rcvStatic(getParameters(i));
                     });
-                    healAmount += Math.floor((data.team[i].rcv + rcvtemp) * zombie.multiplier);
+                    if ([1250, 1251].has(id)){
+                        healAmount += id == 1250 ? Math.floor(([0, .5, .75, 1, 1.5, 2, 2.5][classCounter().Powerhouse]) * (data.team[i].rcv + rcvtemp)) : 0;
+                        healAmount += id == 1251 ? Math.floor(([0, .5, .75, 1, 1.5, 2, 3.5][classCounter().Powerhouse]) * (data.team[i].rcv + rcvtemp)) : 0;
+                        //console.log(hitModifiers); DO THIS FOR CORAZON
+                    }
+                    else
+                        healAmount += Math.floor((data.team[i].rcv + rcvtemp) * zombie.multiplier);
                 }
             } else if (zombie.type == 'reducer')
                 tankReducer = [ zombie.multiplier, zombie.threshold ];

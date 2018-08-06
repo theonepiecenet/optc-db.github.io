@@ -1,15 +1,15 @@
 window.matchers = [
 
     /* * * * * Captain abilities * * * * */
-
+    
     {
-        name: '속성 강화',
+        name: 'Type-boosting captains',
         target: 'captain',
         matcher: /Boosts (ATK|HP|RCV|ATK and HP|ATK and RCV|HP and RCV|ATK, HP and RCV) of[^,]+(STR|DEX|QCK|PSY|INT)\b/i
     },
 
     {
-        name: '타입 강화',
+        name: 'Class-boosting captains',
         target: 'captain',
         matcher: /Boosts (ATK|HP|RCV|ATK and HP|ATK and RCV|HP and RCV|ATK, HP and RCV) of[^,]+(Slasher|Striker|Fighter|Shooter|Free Spirit|Cerebral|Powerhouse|Driven)/i
     },
@@ -21,37 +21,37 @@ window.matchers = [
     },
 
     {
-        name: '공격력 강화',
+        name: 'ATK boosting captains',
         target: 'captain',
-        matcher: /(Boosts ATK|공격력이)/i
+        matcher: /Boosts ATK/i
     },
 
     {
-        name: '체력 강화',
+        name: 'HP boosting captains',
         target: 'captain',
         matcher: /Boosts (HP|ATK and HP|ATK, HP)|Boosts.+and their HP/i
     },
 
     {
-        name: '회복력 강화',
+        name: 'RCV boosting captains',
         target: 'captain',
         matcher: /Boosts (RCV|ATK and RCV|HP and RCV|ATK, HP and RCV)|Boosts.+and their RCV/i
     },
 
     {
-        name: '필살기 강화',
+        name: 'Special boosting captains',
         target: 'captain',
         matcher: /Boosts damage.+specials/i
     },
 
     {
-        name: '공격력과 체력 2배 강화',
+        name: '2x ATK and HP captains',
         target: 'captain',
         matcher: /Boosts (ATK and HP|ATK, HP).+by 2x/i
     },
 
     {
-        name: '공격력과 회복력 2배 강화',
+        name: '2x ATK and RCV captains',
         target: 'captain',
         matcher: /Boosts ATK and RCV.+by 2x/i
     },
@@ -75,7 +75,7 @@ window.matchers = [
     },*/
 
     {
-        name: '공격력 2배 강화',
+        name: '2x ATK captains',
         target: 'captain',
         matcher: /Boosts (their )?ATK\D*by 2x/i
     },
@@ -87,50 +87,50 @@ window.matchers = [
     },*/
 
     {
-        name: '공격력 2.5배 강화',
+        name: '2.5x ATK captains',
         target: 'captain',
         matcher: /Boosts (their )?ATK\D*by 2.5x/i
     },
 
     {
-        name: '공격력 2.75배 강화',
+        name: '2.75x ATK captains',
         target: 'captain',
         matcher: /Boosts (their )?ATK\D*by 2.75x/i,
         include: [ 529, 530, 668, 669 ]
     },
 
     {
-        name: '공격력 3배 강화',
+        name: '3x ATK captains',
         target: 'captain',
         matcher: /Boosts (their )?ATK\D*by 3x/i
     },
 
     {
-        name: '공격력 3.25배 강화',
+        name: '3.25x ATK captains',
         target: 'captain',
         matcher: /Boosts (their )?ATK\D*by 3.25x/i
     },
 
     {
-        name: '공격력 3.5배 강화',
+        name: '3.5x ATK captains',
         target: 'captain',
         matcher: /Boosts (their )?ATK\D*by 3.5x/i
     },
 
     {
-        name: '공격력 3.75배 강화',
+        name: '3.75x ATK captains',
         target: 'captain',
         matcher: /Boosts (their )?ATK\D*by 3.75x/i
     },
 
     {
-        name: '공격력 4배 강화',
+        name: '4x ATK captains',
         target: 'captain',
         matcher: /Boosts (their )?ATK\D*by 4x/i
     },
 
     {
-        name: '공격력 4.25배 강화',
+        name: '4.25x ATK captains',
         target: 'captain',
         matcher: /Boosts (their )?ATK\D*by 4.25x/i
     },
@@ -155,43 +155,43 @@ window.matchers = [
     },
 
     {
-        name: '체인 계수',
+        name: 'Chain multipliers',
         target: 'captain',
         matcher: /Boosts.+chain multiplier/i
     },
     
     {
-        name: '콤보 강화',
+        name: 'Combo Boost Captains',
         target: 'captain',
         matcher: /Boosts.+hit in the chain/i
     },
 
     {
-        name: '쿨다운 감소',
+        name: 'Cooldown reducers',
         target: 'captain',
         matcher: /Reduces cooldown.+by/i
     },
 
     {
-        name: '데미지 감소',
+        name: 'Damage reducers',
         target: 'captain',
         matcher: /Reduces (any )?damage received/i
     },
 
     {
-        name: '회복',
+        name: 'Healers',
         target: 'captain',
         matcher: /Recovers/i
     },
 
     {
-        name: '탱커',
+        name: 'Tankers',
         target: 'captain',
         matcher: /Reduces (any )?damage.+if HP.+99/i
     },
 
     {
-        name: '좀비',
+        name: 'Zombies',
         target: 'captain',
         matcher: /Protects from defeat/i
     },
@@ -203,19 +203,19 @@ window.matchers = [
     },
     
     {
-        name: '베리 획득',
+        name: 'Beli Boosters',
         target: 'captain',
         matcher: /boosts.+Beli/i
     },
     
     {
-        name: '경험치 강화',
+        name: 'EXP Boosters',
         target: 'captain',
         matcher: /boosts.+EXP/i
     },
     
     {
-        name: '두 배 드롭',
+        name: 'Drop Doublers',
         target: 'captain',
         matcher: /duplicating a drop/i
     },
@@ -223,19 +223,19 @@ window.matchers = [
     /* * * * * Specials * * * * */
 
     {
-        name: '속성 강화',
+        name: 'Type-boosting specials',
         target: 'special',
         matcher: /Boosts (ATK|HP|RCV|ATK and HP|ATK and RCV|HP and RCV|ATK, HP and RCV) of[^,]+(STR|DEX|QCK|PSY|INT)\b/i
     },
 
     {
-        name: '타입 강화',
+        name: 'Class-boosting specials',
         target: 'special',
         matcher: /Boosts (ATK|HP|RCV|ATK and HP|ATK and RCV|HP and RCV|ATK, HP and RCV) of[^,]+(Slasher|Striker|Fighter|Shooter|Free Spirit|Cerebral|Powerhouse|Driven)/i
     },
     
     {
-        name: '스테이지',
+        name: 'Multiple Stage specials',
         target: 'special',
         matcher: /description/i
     },
@@ -246,32 +246,26 @@ window.matchers = [
         matcher: /Boosts ATK[^,]+(all characters)/i
     },
     
-    /*{
-        name: '1.25x ATK specials',
-        target: 'special',
-        matcher: /Boosts ATK\D*by 1.25x/i
-    },*/
-    
     {
-        name: '공격력 1.5배 강화',
+        name: '1.5x ATK specials',
         target: 'special',
         matcher: /Boosts ATK\D*by 1.5x/i
     },
 
     {
-        name: '공격력 1.75배 강화',
+        name: '1.75x ATK specials',
         target: 'special',
         matcher: /Boosts ATK\D*by 1.75x/i
     },
 
     {
-        name: '공격력 2배 강화',
+        name: '2x ATK specials',
         target: 'special',
         matcher: /Boosts ATK\D*by 2x/i
     },
     
     {
-        name: '공격력 2.25배 강화',
+        name: '2.25x ATK specials',
         target: 'special',
         matcher: /Boosts ATK\D*by 2.25x/i
     },
@@ -295,13 +289,13 @@ window.matchers = [
     },
     
     {
-        name: '콤보 강화',
+        name: 'Combo Boost Specials',
         target: 'special',
         matcher: /Boost.+hit in the chain/i
     },
     
     {
-        name: '회복력 강화',
+        name: 'RCV boosters',
         target: 'special',
         matcher: /Boosts.+RCV/i
     },
@@ -316,6 +310,30 @@ window.matchers = [
         name: 'Orb boosters',
         target: 'special',
         matcher: /amplifies.+orb/i
+    },
+    
+    {
+        name: '1.5x Orb boost specials',
+        target: 'special',
+        matcher: /amplifies.+orb\D*by 1.5x/i
+    },
+
+    {
+        name: '1.75x Orb boost specials',
+        target: 'special',
+        matcher: /amplifies.+orb\D*by 1.75x/i
+    },
+
+    {
+        name: '2x Orb boost specials',
+        target: 'special',
+        matcher: /amplifies.+orb\D*by 2x/i
+    },
+    
+    {
+        name: '2.25x Orb boost specials',
+        target: 'special',
+        matcher: /amplifies.+orb\D*by 2.25x/i
     },
 
     {
@@ -441,9 +459,39 @@ window.matchers = [
     },
     
     {
-        name: 'Defence and Barrier Buff Ignoring damage dealer',
+        name: 'Instant Defeat special',
+        target: 'special',
+        matcher: /instantly defeat/i
+    },
+    
+    {
+        name: 'Defense and Barrier Buff Ignoring damage dealer',
         target: 'special',
         matcher: /Deals.+ignore damage negating abilities and barriers/i
+    },
+
+    {
+        name: 'Healers',
+        target: 'special',
+        matcher: /Recovers/i
+    },
+
+    {
+        name: 'Health reducers',
+        target: 'special',
+        matcher: /Reduces crew's (current )?HP/i
+    },
+
+    {
+        name: 'Poisoners',
+        target: 'special',
+        matcher: /(poisons|Inflicts Toxic)/i
+    },
+
+    {
+        name: 'Poison removers',
+        target: 'special',
+        matcher: /removes.+poison/i 
     },
 
     {
@@ -526,99 +574,81 @@ window.matchers = [
     },
 
     {
-        name: 'Blindness removers',
+        name: 'Blindness reducers',
         target: 'special',
         matcher: /(reduces|removes).+blindness/i
     },
 
     {
-        name: 'Healers',
-        target: 'special',
-        matcher: /Recovers/i
-    },
-
-    {
-        name: 'Health reducers',
-        target: 'special',
-        matcher: /Reduces crew's (current )?HP/i
-    },
-
-    {
-        name: 'Poisoners',
-        target: 'special',
-        matcher: /(poisons|Inflicts Toxic)/i
-    },
-
-    {
-        name: 'Poison removers',
-        target: 'special',
-        matcher: /removes.+poison/i 
-    },
-
-    {
-        name: 'Crew ATK DOWN remover',
+        name: 'Crew ATK DOWN reducer',
         target: 'special',
         matcher: /(removes|reduces).+ATK DOWN/i 
     },
 
     {
-        name: 'Crew Increase Damage Taken remover',
+        name: 'Crew Increase Damage Taken reducer',
         target: 'special',
         matcher: /(removes|reduces).+Increase Damage Taken/i 
     },
 
     {
-        name: 'Crew positive buff remover',
+        name: 'Crew positive buff reducer',
         target: 'special',
         matcher: /removes.+positive buffs/i 
     },
 
     {
-        name: 'Enemy End of Turn buff remover',
+        name: 'Enemy End of Turn buff reducer',
         target: 'special',
         matcher: /(removes|reduces).+End of Turn/i 
     },
 
     {
-        name: 'Enemy Enrage buff remover',
+        name: 'Enemy Enrage buff reducer',
         target: 'special',
         matcher: /(removes|reduces).+Enrage/i 
     },
 
     {
-        name: 'Enemy ATK UP buff remover',
+        name: 'Enemy ATK UP buff reducer',
         target: 'special',
         matcher: /(removes|reduces).+ATK UP/i 
     },
 
     {
-        name: 'Enemy Threshold Damage Reduction remover',
-        target: 'special',
-        matcher: /(removes|reduces).+Threshold Damage Reduction/i 
-    },
-
-    {
-        name: 'Enemy Resilience remover',
-        target: 'special',
-        matcher: /(removes|reduces).+Resilience/i 
-    },
-
-    {
-        name: 'Enemy Percent Damage Reduction remover',
-        target: 'special',
-        matcher: /(removes|reduces).+Percent Damage Reduction/i 
-    },
-
-    {
-        name: 'Enemy Increased Defense removers',
+        name: 'Enemy Increased Defense reducer',
         target: 'special',
         matcher: /(removes|reduces).+Increased Defense/i 
     },
 
     {
-        name: 'Enemy Barrier removers',
+        name: 'Enemy Percent Damage Reduction reducer',
+        target: 'special',
+        matcher: /(removes|reduces).+Percent Damage Reduction/i 
+    },
+
+    {
+        name: 'Enemy Damage Nullification reducer',
+        target: 'special',
+        matcher: /(removes|reduces).+Damage Nullification/i 
+    },
+
+    {
+        name: 'Enemy Threshold Damage Reduction reducer',
+        target: 'special',
+        matcher: /(removes|reduces).+Threshold Damage Reduction/i 
+    },
+
+    {
+        name: 'Enemy Barrier reducer',
         target: 'special',
         matcher: /(removes|reduces).+enemy Barrier/i 
+    },
+
+    {
+        name: 'Enemy Resilience reducer',
+        target: 'special',
+        matcher: /(removes|reduces).+Resilience/i 
     },
 
     {
@@ -652,13 +682,13 @@ window.matchers = [
     },
     
     {
-        name: 'Chain Multiplier Limit Removers',
+        name: 'Chain Multiplier Limit reducer',
         target: 'special',
         matcher: /(removes|reduces).+Chain Multiplier Limit/i 
     },
     
     {
-        name: 'Chain Coefficient Reduction Removers',
+        name: 'Chain Coefficient Reduction reducer',
         target: 'special',
         matcher: /(removes|reduces).+Chain Coefficient Reduction/i 
     },
@@ -708,19 +738,13 @@ window.matchers = [
     },
     
     {
-        name: '"Beneficial" Orb sailors',
-        target: 'sailor',
-        matcher: /"beneficial/i
-    },
-    
-    {
         name: 'Paralysis reducers',
         target: 'sailor',
         matcher: /(reduces|removes|resists).+Paralysis/i 
     },
 
     {
-        name: 'Blindness removers',
+        name: 'Blindness reducers',
         target: 'sailor',
         matcher: /(reduces|removes|resists).+blindness/i
     },
@@ -735,6 +759,12 @@ window.matchers = [
         name: 'Special Rewind Restorers',
         target: 'sailor',
         matcher: /Restores (his|her) own special/i
+    },
+    
+    {
+        name: 'Special Cooldown Reducer on Special Activation',
+        target: 'sailor',
+        matcher: /When any.+character uses a special, reduces own cooldown/i
     },
     
     {
@@ -753,6 +783,54 @@ window.matchers = [
         name: 'Additional Damage dealer',
         target: 'sailor',
         matcher: /Additional.+Damage/i
+    },
+    
+    {
+        name: '"Beneficial" Orb sailors',
+        target: 'sailor',
+        matcher: /"beneficial/i
+    },
+    
+    {
+        name: 'STR Orb Team "Beneficial" Orb sailors',
+        target: 'sailor',
+        matcher: /Makes.+\[STR\][^\"\d]+orbs \\"beneficial\\"[^\"\d]+characters/i
+    },
+    
+    {
+        name: 'DEX Orb Team "Beneficial" Orb sailors',
+        target: 'sailor',
+        matcher: /Makes.+\[DEX\][^\"\d]+orbs \\"beneficial\\"[^\"\d]+characters/i
+    },
+    
+    {
+        name: 'QCK Orb Team "Beneficial" Orb sailors',
+        target: 'sailor',
+        matcher: /Makes.+\[QCK\][^\"\d]+orbs \\"beneficial\\"[^\"\d]+characters/i
+    },
+    
+    {
+        name: 'PSY Orb Team "Beneficial" Orb sailors',
+        target: 'sailor',
+        matcher: /Makes.+\[PSY\][^\"\d]+orbs \\"beneficial\\"[^\"\d]+characters/i
+    },
+    
+    {
+        name: 'INT Orb Team "Beneficial" Orb sailors',
+        target: 'sailor',
+        matcher: /Makes.+\[INT\][^\"\d]+orbs \\"beneficial\\"[^\"\d]+characters/i
+    },
+    
+    {
+        name: 'TND Orb Team "Beneficial" Orb sailors',
+        target: 'sailor',
+        matcher: /Makes.+\[TND\][^\"\d]+orbs \\"beneficial\\"[^\"\d]+characters/i
+    },
+    
+    {
+        name: 'RCV Orb Team "Beneficial" Orb sailors',
+        target: 'sailor',
+        matcher: /Makes.+\[RCV\][^\"\d]+orbs \\"beneficial\\"[^\"\d]+characters/i
     },
     
     /* * * * * Limit Break * * * * */
@@ -800,19 +878,45 @@ window.matchers = [
     },
     
     {
+        name: 'Cooldown Reduction Potential Ability',
+        target: 'limit',
+        matcher: /Cooldown Reduction/i
+    },
+    
+    {
         name: 'Damage Reduction Potential Ability',
         target: 'limit',
         matcher: /Damage Reduction/i
     },
     
     {
-        name: 'Cooldown Reduction Potential Ability',
+        name: 'STR Damage Reduction Potential Ability',
         target: 'limit',
-        matcher: /Cooldown Reduction/i
+        matcher: /\[STR\] Damage Reduction/i
     },
+    
     {
-        name: '슬롯 추가',
+        name: 'DEX Damage Reduction Potential Ability',
         target: 'limit',
-        matcher: /Additional Socket Slot/i
+        matcher: /\[DEX\] Damage Reduction/i
     },
+    
+    {
+        name: 'QCK Damage Reduction Potential Ability',
+        target: 'limit',
+        matcher: /\[QCK\] Damage Reduction/i
+    },
+    
+    {
+        name: 'PSY Damage Reduction Potential Ability',
+        target: 'limit',
+        matcher: /\[PSY\] Damage Reduction/i
+    },
+    
+    {
+        name: 'INT Damage Reduction Potential Ability',
+        target: 'limit',
+        matcher: /\[INT\] Damage Reduction/i
+    },
+
 ];

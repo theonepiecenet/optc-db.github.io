@@ -42,6 +42,9 @@ controllers.PickerCtrl = function($scope, $state, $stateParams, $storage) {
     /* * * * * Scope functions * * * * */
 
     $scope.pickUnit = function(unitNumber) {
+        var uN = parseInt(unitNumber) + 1;
+        ga('send', 'pageview', '/damage/' + uN); 
+        console.log(parseInt(unitNumber) + 1);
         $scope.resetSlot($stateParams.slot);
         $scope.data.team[$stateParams.slot].unit = units[unitNumber];
         $scope.data.team[$stateParams.slot].level = $scope.data.team[$stateParams.slot].unit.maxLevel;

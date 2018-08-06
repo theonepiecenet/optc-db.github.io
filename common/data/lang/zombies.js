@@ -175,7 +175,7 @@ window.zombies = {
         type: 'healer',
         multiplier: 2
     },
-    808: { // Wedding 나미
+    808: { // Wedding Nami
         type: 'healer',
         multiplier: 2
     },
@@ -195,7 +195,7 @@ window.zombies = {
         type: 'healer',
         multiplier: 5
     },
-    863: { // Christmas 나미
+    863: { // Christmas Nami
         type: 'healer',
         multiplier: 2
     },
@@ -273,11 +273,9 @@ window.zombies = {
     },
     1250: {//Colo Marco
         type: 'healer',
-        multiplier: 2.5
     },
     1251: {//Colo Marco
         type: 'healer',
-        multiplier: 2.5
     },
     1269: {//Laffitte
         type: 'healer',
@@ -427,11 +425,11 @@ window.zombies = {
         type: 'healer',
         multiplier: 2
     },
-    1708: { // 나미
+    1708: { // Nami
         type: 'healer',
         multiplier: 3
     },
-    1709: { // 나미
+    1709: { // Nami
         type: 'healer',
         multiplier: 4
     },
@@ -463,11 +461,11 @@ window.zombies = {
         type: 'healer',
         amount: 1000
     },
-    1756: { // 나미
+    1756: { // Nami
         type: 'healer',
         multiplier: 2
     },
-    1757: { // 나미
+    1757: { // Nami
         type: 'healer',
         multiplier: 5
     },
@@ -541,7 +539,7 @@ window.zombies = {
     },
     2054: { // Headcracker
         type: 'zombie',
-        threshold: 0.5//CHANGE THIS
+        threshold: 0.5
     },
     5001: { // Smoker/Tashigi
         type: 'healer',
@@ -555,12 +553,28 @@ window.zombies = {
         type: 'healer',
         amount: 1000
     },
-    2122: { // Neptune
-        type: 'healer',
-        multiplier: 5//CHANGE THIS
-    },
     2123: { // Neptune
         type: 'healer',
         multiplier: 5
+    },
+    2156: { // Pekoms
+        type: 'zombie',
+        threshold: 0.5//CHANGE THIS
+    },
+    2172: { // Shirahoshi
+        type: 'healer',
+        multiplier: 1
+    },
+    2173: { // Shirahoshi
+        type: 'healer',
+        multiplier: 2
+    },
+    2192: { // Kuma
+        type: 'healer',
+        multiplier: 1.5
+    },
+    2193: { // Kuma
+        type: 'healer',
+        multiplier: 2
     },
 };

@@ -123,6 +123,42 @@ window.CrunchUtils.typeSort = function(array, typeMultiplier, types) {
     result.push(beginning.concat(end));
     return result;
 };
+    
+window.CrunchUtils.gearSort = function(array, typeMultiplier) {
+    var result = [ ];
+    var gears = array.gear;
+    delete array.gear;
+    function isUnitAMatch(unit, slot) {
+        if (slot < 2) {
+            if (gears[slot] == 3){
+                return true;
+            }
+            else{
+                return false;
+            }
+        }
+        else {
+            return false;
+        }
+    }
+    var temp = array.map(function(x) {
+        var multiplier = x.multipliers.reduce(function(prev,next) { return prev * next[0]; },1);
+        return [ x.base * multiplier * (isUnitAMatch(x.unit.unit, x.position) ? typeMultiplier : 1), x ];
+    });
+    temp.sort(function(x,y) { return x[0] - y[0]; });
+    result.push(temp.map(function(x) { return x[1]; }));
+    // class-based
+    var beginning = [ ], end = [ ];
+    array.forEach(function(x) {
+        if (isUnitAMatch(x.unit.unit)) {
+            end.push(x);
+        } else {
+            beginning.push(x);
+        }
+    });
+    result.push(beginning.concat(end));
+    return result;
+};
 
 window.CrunchUtils.getOrbMultiplier = function(orb, type, uclass, baseMultiplier, boostedMultiplier, captains, effectName) {
     if(effectName == 'STR Orbs Beneficial'){
@@ -219,8 +255,18 @@ window.CrunchUtils.getOrbMultiplier = function(orb, type, uclass, baseMultiplier
                     return boostedMultiplier;
                 }
             }
-            if([2022, 2023].includes(captains[temp].number)){
+            if([2022, 2023].includes(captains[temp].number) && type == 'INT'){
                 if (orb == 'str'){
+                    return boostedMultiplier;
+                }
+            }
+            if([2137].includes(captains[temp].number)){
+                if (orb == 'str'){
+                    return boostedMultiplier;
+                }
+            }
+            if([5026, 5027].includes(captains[temp].number) && type == 'DEX'){
+                if (orb == 0.5){
                     return boostedMultiplier;
                 }
             }
