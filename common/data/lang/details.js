@@ -86,7 +86,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "Restores his own special cooldown by 1 turn when it is rewinded",
-            "level2": "Boosts base ATK of [DEX] characters by 40"
+            "level2": "[DEX] 속성의 기본 공격력이 40 상승한다"
         },
         sailorNotes: "#{rewind : 1}",
         limit: [
@@ -101,7 +101,7 @@ window.details = {
             { "description": "공격력 상승 : 30" },
             { "description": "체력 상승 : 50" },
             { "description": "공격력 상승 : 40" },
-            { "description": "선원 효과 추가 2: Boosts base ATK of [DEX] characters by 40" },
+            { "description": "선원 효과 추가 2: [DEX] 속성의 기본 공격력이 40 상승한다" },
             { "description": "체력 상승 : 70" },
             { "description": "잠재능력 소켓슬롯 추가 : 1" },
             { "description": "잠재능력 습득 2: 크리티컬 공격" },
@@ -120,11 +120,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 40% 확률로 공격력의 7% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 15% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 7%의 추가 데미지가 가산된다"
                 ]
             },
         ]
@@ -175,11 +175,11 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 10% at the start of the turn, recovers .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below 15% at the start of the turn, recovers .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below 20% at the start of the turn, recovers .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below 30% at the start of the turn, recovers .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below 50% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 10% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.5배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 15% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.5배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 20% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.5배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 30% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.5배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 50% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다"
                 ]
             },
             {
@@ -221,7 +221,7 @@ window.details = {
             { "description": "회복력 상승 : 10" },
             { "description": "회복력 상승 : 20" },
             { "description": "회복력 상승 : 30" },
-            { "description": "잠재능력 습득 1: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 1: 회복 무효 내성" },
             { "description": "체력 상승 : 30" },
             { "description": "체력 상승 : 40" },
             { "description": "공격력 상승 : 20" },
@@ -232,25 +232,25 @@ window.details = {
             { "description": "체력 상승 : 60" },
             { "description": "체력 상승 : 80" },
             { "description": "선원 효과 추가 1: Boosts base ATK, HP and RCV of Shooter characters by 20" },
-            { "description": "잠재능력 습득 2: Barrier Penetration" },
+            { "description": "잠재능력 습득 2: 배리어 관통" },
         ],
         potential: [
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
-                    "Level 1: If there are 6 Shooter characters in your crew, reduces No Healing duration by 1 turn",
-                    "Level 2: If there are 5 Shooter characters in your crew, reduces No Healing duration by 1 turn",
-                    "Level 3: If there are 4 Shooter characters in your crew, reduces No Healing duration by 1 turn",
-                    "Level 4: If there are 4 Shooter characters in your crew, reduces No Healing duration by 2 turns",
-                    "Level 5: If there are 4 Shooter characters in your crew, reduces No Healing duration by 3 turns"
+                    "Level 1: 일당에 사격형이 6명 있을 때 회복 무효 상태를 1턴 회복한다",
+                    "Level 2: 일당에 사격형이 5명 있을 때 회복 무효 상태를 1턴 회복한다",
+                    "Level 3: 일당에 사격형이 4명 있을 때 회복 무효 상태를 1턴 회복한다",
+                    "Level 4: 일당에 사격형이 4명 있을 때 회복 무효 상태를 2턴 회복한다",
+                    "Level 5: 일당에 사격형이 4명 있을 때 회복 무효 상태를 3턴 회복한다"
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
-                    "Level 2: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
-                    "Level 3: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 1: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
+                    "Level 2: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
+                    "Level 3: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
                     "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
                     "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
@@ -279,7 +279,7 @@ window.details = {
         specialNotes: "#{fixed}",
         sailor: {
             "base": "None",
-            "level1": "Makes [RCV] orbs “beneficial” for all characters",
+            "level1": "일당은 [RCV] 슬롯도 [유리] 슬롯으로 취급한다",
             "level2": "일당의 기본 능력치가 40 상승한다",
         },
         sailorNotes: "#{beneficial}",
@@ -292,7 +292,7 @@ window.details = {
             { "description": "회복력 상승 : 20" },
             { "description": "필살기 턴 수 단축: 1" },
             { "description": "공격력 상승 : 60" },
-            { "description": "선원 효과 추가 1: Makes [RCV] orbs “beneficial” for all characters" },
+            { "description": "선원 효과 추가 1: 일당은 [RCV] 슬롯도 [유리] 슬롯으로 취급한다" },
             { "description": "회복력 상승 : 20" },
             { "description": "필살기 턴 수 단축: 1" },
             { "description": "회복력 상승 : 30" },
@@ -314,11 +314,11 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 5% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below 5% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below 5% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below 10% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below 20% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 5% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 5% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1.5배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 5% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1.5배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 10% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1.5배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 20% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1.5배의 체력을 회복한다"
                 ]
             },
         ]
@@ -369,11 +369,11 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 20% at the start of the turn, recovers .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 20% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.5배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다"
                 ]
             },
         ]
@@ -680,7 +680,7 @@ window.details = {
         },
         sailor: {
             "base": "None",
-            "level1": "Boosts base ATK of [QCK] characters by 50",
+            "level1": "[QCK] 속성의 기본 공격력이 50 상승한다",
             "level2": "Makes [DEX] orbs “beneficial” for [QCK] characters",
         },
         sailorNotes: "#{beneficial}",
@@ -692,7 +692,7 @@ window.details = {
             { "description": "체력 상승 : 100" },
             { "description": "필살기 턴 수 단축: 4" },
             { "description": "공격력 상승 : 100" },
-            { "description": "선원 효과 추가 1: Boosts base ATK of [QCK] characters by 50" },
+            { "description": "선원 효과 추가 1: [QCK] 속성의 기본 공격력이 50 상승한다" },
             { "description": "필살기 턴 수 단축: 5" },
             { "description": "잠재능력 소켓슬롯 추가 : 1" },
             { "description": "체력 상승 : 100" },
@@ -715,11 +715,11 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 20% at the start of the turn, recovers .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 20% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.5배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다"
                 ]
             },
         ]
@@ -762,21 +762,21 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 5% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below 5% at the start of the turn, recovers 1.25x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below 5% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below 10% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below 20% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 5% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 5% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1.25배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 5% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1.5배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 10% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1.5배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 20% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1.5배의 체력을 회복한다"
                 ]
             },
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 40% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 50% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 60% 확률로 공격력의 6% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 70% 확률로 공격력의 7% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 80% 확률로 공격력의 8% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 60% 확률로 자신의 최종 히트 데미지에 6%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 70% 확률로 자신의 최종 히트 데미지에 7%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 80% 확률로 자신의 최종 히트 데미지에 8%의 추가 데미지가 가산된다"
                 ]
             },
         ]
@@ -1246,21 +1246,21 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 40% 확률로 공격력의 7% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 15% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 7%의 추가 데미지가 가산된다"
                 ]
             },
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 20% at the start of the turn, recovers .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below 25% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below 40% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 20% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.5배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 25% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 30% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 40% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 40% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1.5배의 체력을 회복한다"
                 ]
             },
         ]
@@ -1314,11 +1314,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 40% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다"
                 ]
             },
         ],
@@ -1442,11 +1442,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [ 
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 15% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 10%의 추가 데미지가 가산된다"
                 ]
             },
             {
@@ -1594,11 +1594,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 20% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다"
                 ]
             },
         ],
@@ -1759,11 +1759,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 40% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 80% 확률로 공격력의 7% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 80% 확률로 자신의 최종 히트 데미지에 7%의 추가 데미지가 가산된다"
                 ]
             },
         ]
@@ -1804,11 +1804,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [ 
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 15% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 10%의 추가 데미지가 가산된다"
                 ]
             },
             {
@@ -1890,7 +1890,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "Boosts base ATK of Striker and 강인형 characters by 60",
-            "level2": "Completely resists Paralysis on this character",
+            "level2": "자신의 마비 상태를 완전히 회복한다",
         },
         limit: [
             { "description": "공격력 상승 : 5" },
@@ -1919,7 +1919,7 @@ window.details = {
             { "description": "체력 상승 : 80" },
             { "description": "공격력 상승 : 30" },
             { "description": "회복력 상승 : 40" },
-            { "description": "선원 효과 추가 2: Completely resists Paralysis on this character" },
+            { "description": "선원 효과 추가 2: 자신의 마비 상태를 완전히 회복한다" },
             { "description": "공격력 상승 : 30" },
             { "description": "공격력 상승 : 50" },
             { "description": "잠재능력 습득 3: 피격 시 공격력 상승" },
@@ -1938,11 +1938,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 20% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 30% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 30% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 50% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 50% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 10%의 추가 데미지가 가산된다"
                 ]
             },
             {
@@ -2131,7 +2131,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "Makes [RCV] orbs “beneficial” for this character",
-            "level2": "Boosts base ATK of [PSY] characters by 65",
+            "level2": "[PSY] 속성의 기본 공격력이 65 상승한다",
         },
         sailorNotes: "#{beneficial}",
         limit: [
@@ -2148,7 +2148,7 @@ window.details = {
             { "description": "잠재능력 소켓슬롯 추가 : 1" },
             { "description": "잠재능력 소켓슬롯 추가 : 1" },
             { "description": "공격력 상승 : 70" },
-            { "description": "선원 효과 추가 2: Boosts base ATK of [PSY] characters by 65" },
+            { "description": "선원 효과 추가 2: [PSY] 속성의 기본 공격력이 65 상승한다" },
             { "description": "잠재능력 습득 2: 슬롯 봉쇄 내성" },
         ],
         potential: [
@@ -2211,21 +2211,21 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 5% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ??% at the start of the turn, recovers ??x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ??% at the start of the turn, recovers ??x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ??% at the start of the turn, recovers ??x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ??% at the start of the turn, recovers ??x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 5% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x??배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x??배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x??배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x??배의 체력을 회복한다"
                 ]
             },
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 40% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다"
                 ]
             },
         ]
@@ -2361,7 +2361,7 @@ window.details = {
         },
         sailor: {
             "base": "None",
-            "level1": "Boosts base ATK, HP and RCV of Striker characters by 30",
+            "level1": "타격형 캐릭터의 기본 능력치가 30 상승한다",
         },
         limit: [
             { "description": "공격력 상승 : 40" },
@@ -2372,7 +2372,7 @@ window.details = {
             { "description": "새로운 선장 효과 습득: Boosts ATK of all Striker characters proportionally to the crew's current HP, by 3x at 1 HP and their HP by 1.5x" },
             { "description": "필살기 턴 수 단축: 3" },
             { "description": "체력 상승 : 70" },
-            { "description": "선원 효과 추가 1: Boosts base ATK, HP and RCV of Striker characters by 30" },
+            { "description": "선원 효과 추가 1: 타격형 캐릭터의 기본 능력치가 30 상승한다" },
             { "description": "공격력 상승 : 60" },
             { "description": "회복력 상승 : 25" },
             { "description": "필살기 턴 수 단축: 3" },
@@ -2435,7 +2435,7 @@ window.details = {
             { "description": "필살기 턴 수 단축: 2" },
             { "description": "체력 상승 : 70" },
             { "description": "선원 효과 추가 1: Makes [QCK] orbs “beneficial” for this character" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -2449,7 +2449,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
@@ -2944,11 +2944,11 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 10% at the start of the turn, recovers .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 10% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.5배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다"
                 ]
             },
             {
@@ -3105,11 +3105,11 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 10% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다"
                 ]
             },
         ]
@@ -3193,7 +3193,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "Boosts base ATK, HP and RCV of [QCK] and [PSY] characters by 30",
-            "level2": "Boosts base ATK of [QCK] and [PSY] characters by 75",
+            "level2": "[QCK] and [PSY] 속성의 기본 공격력이 75 상승한다",
         },
         limit: [
             { "description": "공격력 상승 : 10" },
@@ -3222,7 +3222,7 @@ window.details = {
             { "description": "체력 상승 : 90" },
             { "description": "회복력 상승 : 10" },
             { "description": "회복력 상승 : 20" },
-            { "description": "선원 효과 추가 2: Boosts base ATK of [QCK] and [PSY] characters by 75" },
+            { "description": "선원 효과 추가 2: [QCK] and [PSY] 속성의 기본 공격력이 75 상승한다" },
             { "description": "회복력 상승 : 20" },
             { "description": "회복력 상승 : 20" },
             { "description": "잠재능력 습득 3: Cooldown Reduction" },
@@ -3273,29 +3273,29 @@ window.details = {
 		captain: "참격형 캐릭터의 공격력과 체력이 2배가 된다.",
         sailor: {
             "base": "None",
-            "level1": "Boosts base ATK of 참격형 characters by 30",
-            "level2": "Boosts base HP of 참격형 characters by 60",
+            "level1": "참격형 캐릭터의 기본 공격력이 30 상승한다",
+            "level2": "참격형 캐릭터의 기본 체력이 60 상승한다",
         },
         limit: [
             { "description": "체력 상승 : 20" },
             { "description": "체력 상승 : 30" },
             { "description": "회복력 상승 : 20" },
-            { "description": "잠재능력 습득 1: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 1: 회복 무효 내성" },
             { "description": "공격력 상승 : 20" },
             { "description": "체력 상승 : 40" },
             { "description": "회복력 상승 : 30" },
-            { "description": "선원 효과 추가 1: Boosts base ATK of 참격형 characters by 30" },
+            { "description": "선원 효과 추가 1: 참격형 캐릭터의 기본 공격력이 30 상승한다" },
             { "description": "공격력 상승 : 30" },
             { "description": "체력 상승 : 50" },
             { "description": "회복력 상승 : 40" },
             { "description": "공격력 상승 : 40" },
             { "description": "체력 상승 : 60" },
-            { "description": "선원 효과 추가 2: Boosts base HP of 참격형 characters by 60" },
+            { "description": "선원 효과 추가 2: 참격형 캐릭터의 기본 체력이 60 상승한다" },
             { "description": "잠재능력 습득 2: 크리티컬 공격" },
         ],
         potential: [
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 1 turn",
@@ -3307,11 +3307,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 40% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 50% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 60% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 70% 확률로 공격력의 6% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 80% 확률로 공격력의 7% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 60% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 70% 확률로 자신의 최종 히트 데미지에 6%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 80% 확률로 자신의 최종 히트 데미지에 7%의 추가 데미지가 가산된다"
                 ]
             },
         ]
@@ -3475,11 +3475,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [ 
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 15% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 10%의 추가 데미지가 가산된다"
                 ]
             },
             {
@@ -3585,11 +3585,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 30% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다"
                 ]
             },
             {
@@ -3677,7 +3677,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "When any other [STR] character uses a special, reduces own cooldown by 1 turn",
-            "level2": "Boosts base ATK of [STR] characters by 50",
+            "level2": "[STR] 속성의 기본 공격력이 50 상승한다",
         },
         limit: [
             { "description": "회복력 상승 : 20" },
@@ -3693,7 +3693,7 @@ window.details = {
             { "description": "새로운 선장 효과 습득: Boosts ATK of [STR] characters by 2.25x and their HP by 1.2x and boosts damage of [STR] specials by 2x" },
             { "description": "체력 상승 : 140" },
             { "description": "필살기 턴 수 단축: 3" },
-            { "description": "선원 효과 추가 2: Boosts base ATK of [STR] characters by 50" },
+            { "description": "선원 효과 추가 2: [STR] 속성의 기본 공격력이 50 상승한다" },
             { "description": "잠재능력 습득 2: 크리티컬 공격" },
         ],
         potential: [
@@ -3710,11 +3710,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 30% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다"
                 ]
             },
         ],
@@ -4045,7 +4045,7 @@ window.details = {
             { "description": "공격력 상승 : 80" },
             { "description": "필살기 턴 수 단축: 1" },
             { "description": "선원 효과 추가 2: If your Captain is a Shooter chracter, makes [STR], [QCK], [DEX], [PSY] and [INT] orbs “beneficial” for this character" },
-            { "description": "잠재능력 습득 2: Barrier Penetration" },
+            { "description": "잠재능력 습득 2: 배리어 관통" },
         ],
         potential: [
             {
@@ -4059,9 +4059,9 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 1: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
                     "Level 2: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
                     "Level 3: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
                     "Level 4: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
@@ -4088,7 +4088,7 @@ window.details = {
             { "description": "공격력 상승 : 10" },
             { "description": "체력 상승 : 10" },
             { "description": "공격력 상승 : 10" },
-            { "description": "잠재능력 습득 1: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 1: 회복 무효 내성" },
             { "description": "체력 상승 : 20" },
             { "description": "체력 상승 : 30" },
             { "description": "선원 효과 추가 1: Cannot be Blown Away" },
@@ -4099,11 +4099,11 @@ window.details = {
             { "description": "체력 상승 : 80" },
             { "description": "공격력 상승 : 30" },
             { "description": "선원 효과 추가 2: If you use \"Overeat! Energy Change\" in this turn, boosts own base ATK by 2x" },
-            { "description": "잠재능력 습득 2: Barrier Penetration" },
+            { "description": "잠재능력 습득 2: 배리어 관통" },
         ],
         potential: [
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
@@ -4113,9 +4113,9 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 1: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
                     "Level 2: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
                     "Level 3: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
                     "Level 4: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
@@ -4172,11 +4172,11 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 20% at the start of the turn, recovers .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below 25% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below 40% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 20% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.5배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 25% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 30% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 40% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 40% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1.5배의 체력을 회복한다"
                 ]
             },
         ]
@@ -4317,11 +4317,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 40% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 80% 확률로 공격력의 7% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 80% 확률로 자신의 최종 히트 데미지에 7%의 추가 데미지가 가산된다"
                 ]
             },
         ]
@@ -4370,7 +4370,7 @@ window.details = {
             { "description": "체력 상승 : 50" },
             { "description": "체력 상승 : 55" },
             { "description": "체력 상승 : 60" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
             { "description": "공격력 상승 : 15" },
             { "description": "공격력 상승 : 20" },
             { "description": "공격력 상승 : 25" },
@@ -4399,7 +4399,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -4411,11 +4411,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 40% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 50% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 70% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 80% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 90% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 70% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 80% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 90% 확률로 자신의 최종 히트 데미지에 10%의 추가 데미지가 가산된다"
                 ]
             },
         ]
@@ -4537,7 +4537,7 @@ window.details = {
         specialName: "Ashura Ugui",
         specialNotes: "#{fixed}",
         captain: "Boosts ATK of DEX characters by 2.75x 전투 시작 시 체력이 30% 미만이면",
-        sailor: "Boosts base ATK of 참격형 characters by 20"
+        sailor: "참격형 캐릭터의 기본 공격력이 20 상승한다"
     },
     554: {
         special: "Changes adjacent orbs into [DEX], deals 1,000 fixed damage to all enemies",
@@ -4548,7 +4548,7 @@ window.details = {
             "level1": "Boosts ATK of [DEX] characters by 3x if HP is below 30% at the start of the turn, by 2x otherwise",
         },
         sailor: {
-            "base": "Boosts base ATK of 참격형 characters by 20",
+            "base": "참격형 캐릭터의 기본 공격력이 20 상승한다",
             "level1": "When any other character uses a special, reduces own cooldown by 1 turn",
         },
         limit: [
@@ -4582,11 +4582,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 40% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 80% 확률로 공격력의 7% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 80% 확률로 자신의 최종 히트 데미지에 7%의 추가 데미지가 가산된다"
                 ]
             },
         ],
@@ -4624,21 +4624,21 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [ 
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 15% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 10%의 추가 데미지가 가산된다"
                 ]
             },
             {
                 "Name": "회복 무효 내성",
                 "description": [ 
-                    "Level 1: If there are 6 Shooter characters in your crew, 회복 무효 상태 회복 : 1 턴",
-                    "Level 2: If there are 5 Shooter characters in your crew, 회복 무효 상태 회복 : 1 턴",
-                    "Level 3: If there are 4 Shooter characters in your crew, 회복 무효 상태 회복 : 1 턴",
-                    "Level 4: If there are 4 Shooter characters in your crew, 회복 무효 상태 회복 : 2 턴",
-                    "Level 5: If there are 4 Shooter characters in your crew, 회복 무효 상태 회복 : 3 턴"
+                    "Level 1: 일당에 사격형이 6명 있을 때 회복 무효 상태를 1턴 회복한다",
+                    "Level 2: 일당에 사격형이 5명 있을 때 회복 무효 상태를 1턴 회복한다",
+                    "Level 3: 일당에 사격형이 4명 있을 때 회복 무효 상태를 1턴 회복한다",
+                    "Level 4: 일당에 사격형이 4명 있을 때 회복 무효 상태를 2턴 회복한다",
+                    "Level 5: 일당에 사격형이 4명 있을 때 회복 무효 상태를 3턴 회복한다"
                 ]
             },
         ]
@@ -4728,8 +4728,8 @@ window.details = {
             { "description": "공격력 상승 : 30" },
             { "description": "체력 상승 : 50" },
             { "description": "필살기 턴 수 단축: 1" },
-            { "description": "선원 효과 추가 1: Reduces Blindness duration by 5 turns" },
-            { "description": "잠재능력 습득 2: Barrier Penetration" },
+            { "description": "선원 효과 추가 1: 의성어 은폐 상태를 5턴 회복한다" },
+            { "description": "잠재능력 습득 2: 배리어 관통" },
         ],
         potential: [
             {
@@ -4743,9 +4743,9 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 1: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
                     "Level 2: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
                     "Level 3: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
                     "Level 4: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
@@ -4828,7 +4828,7 @@ window.details = {
         captain: "타격형 캐릭터의 공격력과 체력이 2배가 된다",
         sailor: {
             "base": "None",
-            "level1": "Boosts base ATK, HP and RCV of Striker characters by 50",
+            "level1": "타격형 캐릭터의 기본 능력치가 50 상승한다",
         },
         limit: [
             { "description": "공격력 상승 : 20" },
@@ -4842,7 +4842,7 @@ window.details = {
             { "description": "체력 상승 : 30" },
             { "description": "필살기 턴 수 단축: 1" },
             { "description": "체력 상승 : 60" },
-            { "description": "선원 효과 추가 1: Boosts base ATK, HP and RCV of Striker characters by 50" },
+            { "description": "선원 효과 추가 1: 타격형 캐릭터의 기본 능력치가 50 상승한다" },
             { "description": "체력 상승 : 70" },
             { "description": "잠재능력 소켓슬롯 추가 : 1" },
             { "description": "잠재능력 습득 2: [PSY] 데미지 피해 감소" },
@@ -4888,8 +4888,8 @@ window.details = {
         captain: "Boosts ATK by 4x following a chain of GOOD→GREAT→PERFECT hits",
         sailor: {
             "base": "None",
-            "level1": "Makes [RCV] orbs “beneficial” for all characters",
-            "level2": "Makes [TND] orbs “beneficial” for all characters",
+            "level1": "일당은 [RCV] 슬롯도 [유리] 슬롯으로 취급한다",
+            "level2": "일당은 [TND] 슬롯도 [유리] 슬롯으로 취급한다",
         },
         sailorNotes: "#{beneficial}",
         limit: [
@@ -4900,14 +4900,14 @@ window.details = {
             { "description": "공격력 상승 : 5" },
             { "description": "공격력 상승 : 5" },
             { "description": "공격력 상승 : 10" },
-            { "description": "선원 효과 추가 1: Makes [RCV] orbs “beneficial” for all characters" },
+            { "description": "선원 효과 추가 1: 일당은 [RCV] 슬롯도 [유리] 슬롯으로 취급한다" },
             { "description": "체력 상승 : 20" },
             { "description": "체력 상승 : 30" },
             { "description": "잠재능력 소켓슬롯 추가 : 1" },
             { "description": "필살기 턴 수 단축: 2" },
             { "description": "공격력 상승 : 20" },
             { "description": "공격력 상승 : 20" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
             { "description": "체력 상승 : 30" },
             { "description": "체력 상승 : 30" },
             { "description": "필살기 턴 수 단축: 2" },
@@ -4919,7 +4919,7 @@ window.details = {
             { "description": "체력 상승 : 30" },
             { "description": "공격력 상승 : 30" },
             { "description": "공격력 상승 : 30" },
-            { "description": "선원 효과 추가 2: Makes [TND] orbs “beneficial” for all characters" },
+            { "description": "선원 효과 추가 2: 일당은 [TND] 슬롯도 [유리] 슬롯으로 취급한다" },
             { "description": "회복력 상승 : 20" },
             { "description": "체력 상승 : 30" },
             { "description": "잠재능력 습득 3: 크리티컬 공격" },
@@ -4928,15 +4928,15 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 10% at the start of the turn, recovers 2x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ?% at the start of the turn, recovers 2x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ?% at the start of the turn, recovers 2x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ?% at the start of the turn, recovers 2x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below 50% at the start of the turn, recovers 2x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 10% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x2배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x2배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x2배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x2배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 50% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x2배의 체력을 회복한다"
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
@@ -4948,11 +4948,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 40% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ?% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ?% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ?% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 100% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 100% 확률로 자신의 최종 히트 데미지에 10%의 추가 데미지가 가산된다"
                 ]
             },
         ]
@@ -5050,8 +5050,8 @@ window.details = {
         captain: "[QCK] 캐릭터의 공격력이 2.25배가 되고, 턴 종료 시 캐릭터 회복력x5배의 체력이 회복된다",
         sailor: {
             "base": "None",
-            "level1": "Boosts base ATK of [QCK] characters by 60",
-            "level2": "If this character has an [QCK] orb and you hit a PERFECT with him, keep his [QCK] orb for the next turn",
+            "level1": "[QCK] 속성의 기본 공격력이 60 상승한다",
+            "level2": "자신이 PERFECT 공격을 성공하면 자신의 [QCK] 슬롯이 다음 턴에도 출현한다",
         },
         limit: [
             { "description": "공격력 상승 : 10" },
@@ -5061,14 +5061,14 @@ window.details = {
             { "description": "체력 상승 : 25" },
             { "description": "체력 상승 : 35" },
             { "description": "체력 상승 : 40" },
-            { "description": "선원 효과 추가 1: Boosts base ATK of [QCK] characters by 60" },
+            { "description": "선원 효과 추가 1: [QCK] 속성의 기본 공격력이 60 상승한다" },
             { "description": "공격력 상승 : 40" },
             { "description": "체력 상승 : 40" },
             { "description": "필살기 턴 수 단축: 1" },
             { "description": "체력 상승 : 50" },
             { "description": "회복력 상승 : 50" },
-            { "description": "선원 효과 추가 2: If this character has an [QCK] orb and you hit a PERFECT with him, keep his [QCK] orb for the next turn" },
-            { "description": "잠재능력 습득 2: Barrier Penetration" },
+            { "description": "선원 효과 추가 2: 자신이 PERFECT 공격을 성공하면 자신의 [QCK] 슬롯이 다음 턴에도 출현한다" },
+            { "description": "잠재능력 습득 2: 배리어 관통" },
         ],
         potential: [
             {
@@ -5082,11 +5082,11 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
-                    "Level 2: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
-                    "Level 3: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 1: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
+                    "Level 2: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
+                    "Level 3: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
                     "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
                     "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
@@ -5346,7 +5346,7 @@ window.details = {
             { "description": "체력 상승 : 40" },
             { "description": "필살기 턴 수 단축: 2" },
             { "description": "체력 상승 : 60" },
-            { "description": "선원 효과 추가 1: Reduces Blindness duration by 2 turns" },
+            { "description": "선원 효과 추가 1: 의성어 은폐 상태를 2턴 회복한다" },
             { "description": "공격력 상승 : 60" },
             { "description": "회복력 상승 : 40" },
             { "description": "필살기 턴 수 단축: 2" },
@@ -5448,7 +5448,7 @@ window.details = {
             { "description": "선원 효과 추가 2: Makes [QCK], [PSY] and [TND] orbs “beneficial” for [QCK] and [PSY] characters" },
             { "description": "공격력 상승 : 50" },
             { "description": "공격력 상승 : 55" },
-            { "description": "잠재능력 습득 3: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 3: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -5472,7 +5472,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
@@ -5653,11 +5653,11 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 40% at the start of the turn, recovers .75x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below 40% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below 40% at the start of the turn, recovers 1.25x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below 50% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below 50% at the start of the turn, recovers 2x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 40% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.75배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 40% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 40% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1.25배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 50% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1.5배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 50% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x2배의 체력을 회복한다"
                 ]
             },
         ]
@@ -5707,11 +5707,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 30% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 70% 확률로 공격력의 8% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 70% 확률로 자신의 최종 히트 데미지에 8%의 추가 데미지가 가산된다"
                 ]
             },
         ],
@@ -5728,29 +5728,29 @@ window.details = {
         captain: "Reduces cooldown of all specials by 3 턴 at the start of the fight, boosts ATK of Fighter characters by 2x",
         sailor: {
             "base": "None",
-            "level1": "Boosts this character's attack against [DEX] characters by 1.1x",
-            "level2": "Boosts this character's attack against [QCK] characters by 2x",
+            "level1": "자신이 [DEX] 속성에게 주는 일반 공격에 의한 데미지가 1.1배가 된다",
+            "level2": "자신이 [QCK] 속성에게 주는 일반 공격에 의한 데미지가 2배가 된다",
         },
         limit: [
             { "description": "회복력 상승 : 10" },
             { "description": "회복력 상승 : 20" },
             { "description": "회복력 상승 : 20" },
-            { "description": "잠재능력 습득 1: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 1: 회복 무효 내성" },
             { "description": "체력 상승 : 30" },
             { "description": "체력 상승 : 40" },
             { "description": "체력 상승 : 50" },
             { "description": "공격력 상승 : 50" },
             { "description": "잠재능력 소켓슬롯 추가 : 1" },
-            { "description": "선원 효과 추가 1: Boosts this character's attack against [DEX] characters by 1.1x" },
+            { "description": "선원 효과 추가 1: 자신이 [DEX] 속성에게 주는 일반 공격에 의한 데미지가 1.1배가 된다" },
             { "description": "체력 상승 : 70" },
             { "description": "공격력 상승 : 50" },
             { "description": "필살기 턴 수 단축: 1" },
-            { "description": "선원 효과 추가 2: Boosts this character's attack against [QCK] characters by 2x" },
+            { "description": "선원 효과 추가 2: 자신이 [QCK] 속성에게 주는 일반 공격에 의한 데미지가 2배가 된다" },
             { "description": "잠재능력 습득 2: Cooldown Reduction" },
         ],
         potential: [
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turns",
@@ -6041,8 +6041,8 @@ window.details = {
         captainNotes: "A hit below Good or a Miss will boost the ATK of the next unit by 2x, a Good hit by 2.25x, a Great hit by 2.5x and a PERFECT hit by 2.75x. This bonus is applied only to 참격형 characters.",
         sailor: {
             "base": "None",
-            "level1": "Boosts base HP of 참격형 characters by 120",
-            "level2": "Boosts base ATK of 참격형 characters by 50",
+            "level1": "참격형 캐릭터의 기본 체력이 120 상승한다",
+            "level2": "참격형 캐릭터의 기본 공격력이 50 상승한다",
         },
         limit: [
             { "description": "체력 상승 : 5" },
@@ -6052,7 +6052,7 @@ window.details = {
             { "description": "체력 상승 : 20" },
             { "description": "체력 상승 : 25" },
             { "description": "체력 상승 : 30" },
-            { "description": "선원 효과 추가 1: Boosts base HP of 참격형 characters by 120" },
+            { "description": "선원 효과 추가 1: 참격형 캐릭터의 기본 체력이 120 상승한다" },
             { "description": "체력 상승 : 35" },
             { "description": "체력 상승 : 40" },
             { "description": "회복력 상승 : 10" },
@@ -6071,7 +6071,7 @@ window.details = {
             { "description": "공격력 상승 : 20" },
             { "description": "공격력 상승 : 30" },
             { "description": "공격력 상승 : 40" },
-            { "description": "선원 효과 추가 2: Boosts base ATK of 참격형 characters by 50" },
+            { "description": "선원 효과 추가 2: 참격형 캐릭터의 기본 공격력이 50 상승한다" },
             { "description": "공격력 상승 : 50" },
             { "description": "공격력 상승 : 60" },
             { "description": "잠재능력 습득 3: 크리티컬 공격" },
@@ -6100,11 +6100,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 40% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 50% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 70% 확률로 공격력의 6% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 80% 확률로 공격력의 8% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 90% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 70% 확률로 자신의 최종 히트 데미지에 6%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 80% 확률로 자신의 최종 히트 데미지에 8%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 90% 확률로 자신의 최종 히트 데미지에 10%의 추가 데미지가 가산된다"
                 ]
             },
         ]
@@ -6172,11 +6172,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 30% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 40% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 50% 확률로 공격력의 7% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 7%의 추가 데미지가 가산된다"
                 ]
             },
             {
@@ -6291,7 +6291,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "일당의 기본 능력치가 15 상승한다",
-            "level2": "Makes [TND] orbs “beneficial” for all characters",
+            "level2": "일당은 [TND] 슬롯도 [유리] 슬롯으로 취급한다",
         },
         sailorNotes: "#{beneficial}",
         limit: [
@@ -6308,7 +6308,7 @@ window.details = {
             { "description": "공격력 상승 : 20" },
             { "description": "공격력 상승 : 40" },
             { "description": "필살기 턴 수 단축: 1" },
-            { "description": "선원 효과 추가 2: Makes [TND] orbs “beneficial” for all characters" },
+            { "description": "선원 효과 추가 2: 일당은 [TND] 슬롯도 [유리] 슬롯으로 취급한다" },
             { "description": "잠재능력 습득 2: 긴급 회복" },
         ],
         potential: [
@@ -6325,11 +6325,11 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 5% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 5% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다"
                 ]
             },
         ]
@@ -6384,7 +6384,7 @@ window.details = {
         captain: "Boosts ATK of 강인형 characters by 3x if they have a matching orb, by 2.5x otherwise, reduces crew's RCV to 0",
         sailor: {
             "base": "None",
-            "level1": "Boosts base ATK, HP and RCV of 강인형 characters by 30",
+            "level1": "강인형 캐릭터의 기본 능력치가 30 상승한다",
             "level2": "Makes [RCV] and [TND] orbs “beneficial” for 강인형 characters",
         },
         sailorNotes: "#{beneficial}",
@@ -6396,7 +6396,7 @@ window.details = {
             { "description": "체력 상승 : 20" },
             { "description": "체력 상승 : 30" },
             { "description": "체력 상승 : 40" },
-            { "description": "선원 효과 추가 1: Boosts base ATK, HP and RCV of 강인형 characters by 30" },
+            { "description": "선원 효과 추가 1: 강인형 캐릭터의 기본 능력치가 30 상승한다" },
             { "description": "회복력 상승 : 5" },
             { "description": "회복력 상승 : 10" },
             { "description": "회복력 상승 : 15" },
@@ -6418,7 +6418,7 @@ window.details = {
             { "description": "선원 효과 추가 2: Makes [RCV] and [TND] orbs “beneficial” for 강인형 characters" },
             { "description": "체력 상승 : 90" },
             { "description": "공격력 상승 : 50" },
-            { "description": "잠재능력 습득 3: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 3: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -6442,7 +6442,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -6490,7 +6490,7 @@ window.details = {
             { "description": "필살기 턴 수 단축: 3" },
             { "description": "필살기 턴 수 단축: 4" },
             { "description": "선원 효과 추가 2: Boosts base ATK and HP of 참격형 and 강인형 characters by 50" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -6504,7 +6504,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
@@ -6538,7 +6538,7 @@ window.details = {
             { "description": "공격력 상승 : 40" },
             { "description": "필살기 턴 수 단축: 1" },
             { "description": "체력 상승 : 70" },
-            { "description": "선원 효과 추가 1: Reduces Blindness duration by 3 turns" },
+            { "description": "선원 효과 추가 1: 의성어 은폐 상태를 3턴 회복한다" },
             { "description": "회복력 상승 : 20" },
             { "description": "잠재능력 소켓슬롯 추가 : 1" },
             { "description": "체력 상승 : 90" },
@@ -6603,7 +6603,7 @@ window.details = {
             { "description": "필살기 턴 수 단축: 3" },
             { "description": "공격력 상승 : 50" },
             { "description": "선원 효과 추가 2: Makes [RCV] and [TND] orbs “beneficial” for this character" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -6617,7 +6617,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -6658,7 +6658,7 @@ window.details = {
             { "description": "공격력 상승 : 50" },
             { "description": "공격력 상승 : 50" },
             { "description": "선원 효과 추가 2: Boosts base HP of 강인형 characters by 150" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -6672,7 +6672,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
@@ -6723,7 +6723,7 @@ window.details = {
             { "description": "필살기 턴 수 단축: 3" },
             { "description": "공격력 상승 : 70" },
             { "description": "선원 효과 추가 2: Makes [QCK] orbs “beneficial” for this character" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -6737,7 +6737,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
@@ -7332,8 +7332,8 @@ window.details = {
 		special: "적 전체를 중독시키고, 2턴 동안 야심형 캐릭터의 공격력이 1.75배가 된다",
         sailor: {
             "base": "None",
-            "level1": "Boosts base ATK, HP and RCV of 야심형 characters by 30",
-            "level2": "Completely resists Paralysis on this character",
+            "level1": "야심형 캐릭터의 기본 능력치가 30 상승한다",
+            "level2": "자신의 마비 상태를 완전히 회복한다",
         },
         limit: [
             { "description": "공격력 상승 : 30" },
@@ -7343,24 +7343,24 @@ window.details = {
             { "description": "공격력 상승 : 30" },
             { "description": "필살기 턴 수 단축: 1" },
             { "description": "공격력 상승 : 50" },
-            { "description": "선원 효과 추가 1: Boosts base ATK, HP and RCV of 야심형 characters by 30" },
+            { "description": "선원 효과 추가 1: 야심형 캐릭터의 기본 능력치가 30 상승한다" },
             { "description": "회복력 상승 : 20" },
             { "description": "잠재능력 소켓슬롯 추가 : 1" },
             { "description": "회복력 상승 : 30" },
             { "description": "공격력 상승 : 60" },
             { "description": "필살기 턴 수 단축: 2" },
-            { "description": "선원 효과 추가 2: Completely resists Paralysis on this character" },
+            { "description": "선원 효과 추가 2: 자신의 마비 상태를 완전히 회복한다" },
             { "description": "잠재능력 습득 2: 슬롯 봉쇄 내성" },
         ],
         potential: [
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다"
                 ]
             },
             {
@@ -7478,11 +7478,11 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 20% at the start of the turn, recovers .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 20% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.5배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다"
                 ]
             },
         ]
@@ -7516,7 +7516,7 @@ window.details = {
             { "description": "공격력 상승 : 50" },
             { "description": "필살기 턴 수 단축: 2" },
             { "description": "선원 효과 추가 2: Boosts base ATK of Shooter, 참격형 and Striker characters by 50" },
-            { "description": "잠재능력 습득 2: Barrier Penetration" },
+            { "description": "잠재능력 습득 2: 배리어 관통" },
         ],
         potential: [
             {
@@ -7530,9 +7530,9 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 1: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
                     "Level 2: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
                     "Level 3: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
                     "Level 4: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
@@ -7553,7 +7553,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "Boosts base ATK of all characters by 30",
-            "level2": "Boosts this character's attack against [DEX] characters by 2x",
+            "level2": "자신이 [DEX] 속성에게 주는 일반 공격에 의한 데미지가 2배가 된다",
         },
         limit: [
             { "description": "체력 상승 : 10" },
@@ -7576,11 +7576,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [ 
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 15% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 10%의 추가 데미지가 가산된다"
                 ]
             },
             {
@@ -7800,11 +7800,11 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 5% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 5% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다"
                 ]
             },
         ]
@@ -7821,12 +7821,12 @@ window.details = {
 		special: "선장의 슬롯을 자슬롯으로 변환하고, 1턴간 슬롯을 고정하고, 캐릭터의 공격 X13배 INT 데미지를 준다.",
         sailor: {
             "base": "None",
-            "level1": "Boosts base ATK, HP and RCV of 야심형 characters by 30",
+            "level1": "야심형 캐릭터의 기본 능력치가 30 상승한다",
             "level2": "Reduces Paralysis duration by 1 turn",
         },
         limit: [
             { "description": "체력 상승 : 30" },
-            { "description": "선원 효과 추가 1: Boosts base ATK, HP and RCV of 야심형 characters by 30" },
+            { "description": "선원 효과 추가 1: 야심형 캐릭터의 기본 능력치가 30 상승한다" },
             { "description": "체력 상승 : 50" },
             { "description": "잠재능력 습득 1: 피격 시 공격력 상승" },
             { "description": "공격력 상승 : 30" },
@@ -7915,11 +7915,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다"
                 ]
             },
             {
@@ -8017,7 +8017,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "Boosts base RCV of all characters by 20",
-            "level2": "Boosts this character's attack against [STR] characters by 2x",
+            "level2": "자신이 [STR] 속성에게 주는 일반 공격에 의한 데미지가 2배가 된다",
         },
         limit: [
             { "description": "공격력 상승 : 10" },
@@ -8033,28 +8033,28 @@ window.details = {
             { "description": "공격력 상승 : 30" },
             { "description": "공격력 상승 : 40" },
             { "description": "필살기 턴 수 단축: 1" },
-            { "description": "선원 효과 추가 2: Boosts this character's attack against [STR] characters by 2x" },
+            { "description": "선원 효과 추가 2: 자신이 [STR] 속성에게 주는 일반 공격에 의한 데미지가 2배가 된다" },
             { "description": "잠재능력 습득 2: 긴급 회복" },
         ],
         potential: [
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 30% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 70% 확률로 공격력의 8% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 70% 확률로 자신의 최종 히트 데미지에 8%의 추가 데미지가 가산된다"
                 ]
             },
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 5% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below 20% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 5% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 20% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1.5배의 체력을 회복한다"
                 ]
             },
         ]
@@ -8181,11 +8181,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 40% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 80% 확률로 공격력의 7% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 80% 확률로 자신의 최종 히트 데미지에 7%의 추가 데미지가 가산된다"
                 ]
             },
         ],
@@ -8196,10 +8196,10 @@ window.details = {
         special: "체력이 1이 되지만 슬롯을 1턴 고정, 적 전체를 1턴 지연시키고, 적 전체에 고정 데미지 5,000을 준다",
         captain: "남은 체력이 적을 때 박식형 캐릭터의 공격력과 회복력을 1.5배로 만든다",
     },
-    908: {
-        specialName: "Cien Fleur: Big Tree",
-        special: "Delays all enemies for 1 턴, locks all orbs for 1 턴, deals 5,000 fixed damage to all enemies, reduces crew's HP to 1",
-        captain: "Boosts ATK of Cerebral characters by 2.5x and their RCV by 1.75x 전투 시작 시 체력이 30% 미만이면",
+    908: { // modified
+        specialName: "시엔 플루르 「빅 트리」",
+        special: "체력이 1이 되지만 슬롯을 1턴 고정, 적 전체를 1턴 지연시키고, 적 전체에 고정 데미지 5,000을 준다",
+        captain: "남은 체력이 적을 때, 박식형 캐릭터의 공격력 2.5배, 회복력 1.75배로 만든다",
         sailor: {
             "base": "None",
             "level1": "When HP is below ??% at the start of the turn, boosts base ATK of Cerebral characters by 40",
@@ -8277,7 +8277,7 @@ window.details = {
             { "description": "체력 상승 : 40" },
             { "description": "공격력 상승 : 60" },
             { "description": "선원 효과 추가 2: Boosts base ATK of characters with cost 30 or less by 300" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -8291,7 +8291,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turns",
@@ -8522,7 +8522,7 @@ window.details = {
             { "description": "체력 상승 : 70" },
             { "description": "체력 상승 : 90" },
             { "description": "선원 효과 추가 1: Boosts base ATK of 강인형 and 야심형 characters by 30" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -8536,7 +8536,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -8644,7 +8644,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "일당의 기본 능력치가 30 상승한다",
-            "level2": "Completely resists Paralysis on this character",
+            "level2": "자신의 마비 상태를 완전히 회복한다",
         },
         limit: [
             { "description": "공격력 상승 : 20" },
@@ -8660,7 +8660,7 @@ window.details = {
             { "description": "체력 상승 : 90" },
             { "description": "공격력 상승 : 50" },
             { "description": "필살기 턴 수 단축: 3" },
-            { "description": "선원 효과 추가 2: Completely resists Paralysis on this character" },
+            { "description": "선원 효과 추가 2: 자신의 마비 상태를 완전히 회복한다" },
             { "description": "잠재능력 습득 2: 긴급 회복" },
         ],
         potential: [
@@ -8677,11 +8677,11 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 20% at the start of the turn, recovers .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ??% at the start of the turn, recovers ??x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ??% at the start of the turn, recovers ??x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ??% at the start of the turn, recovers ??x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ??% at the start of the turn, recovers ??x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 20% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.5배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x??배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x??배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x??배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x??배의 체력을 회복한다"
                 ]
             },
         ]
@@ -8775,7 +8775,7 @@ window.details = {
             { "description": "공격력 상승 : 70" },
             { "description": "필살기 턴 수 단축: 2" },
             { "description": "선원 효과 추가 2: Makes [STR] orbs “beneficial” for [DEX] characters" },
-            { "description": "잠재능력 습득 2: Barrier Penetration" },
+            { "description": "잠재능력 습득 2: 배리어 관통" },
         ],
         potential: [
             {
@@ -8789,9 +8789,9 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 1: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
                     "Level 2: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
                     "Level 3: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
                     "Level 4: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
@@ -8812,7 +8812,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "Makes [TND] orbs “beneficial” for this character",
-            "level2": "Completely resists Paralysis on this character",
+            "level2": "자신의 마비 상태를 완전히 회복한다",
         },
         sailorNotes: "#{beneficial}",
         limit: [
@@ -8829,7 +8829,7 @@ window.details = {
             { "description": "회복력 상승 : 30" },
             { "description": "공격력 상승 : 60" },
             { "description": "체력 상승 : 40" },
-            { "description": "선원 효과 추가 2: Completely resists Paralysis on this character" },
+            { "description": "선원 효과 추가 2: 자신의 마비 상태를 완전히 회복한다" },
             { "description": "잠재능력 습득 2: 긴급 회복" },
         ],
         potential: [
@@ -8846,11 +8846,11 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 20% at the start of the turn, recovers .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ??% at the start of the turn, recovers ??x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ??% at the start of the turn, recovers ??x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ??% at the start of the turn, recovers ??x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ??% at the start of the turn, recovers ??x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 20% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.5배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x??배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x??배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x??배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x??배의 체력을 회복한다"
                 ]
             },
         ]
@@ -8936,11 +8936,11 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 20% at the start of the turn, recovers .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below 25% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below 40% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 20% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.5배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 25% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 30% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 40% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 40% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1.5배의 체력을 회복한다"
                 ]
             },
         ]
@@ -9116,11 +9116,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [ 
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 15% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 10%의 추가 데미지가 가산된다"
                 ]
             },
             {
@@ -9164,7 +9164,7 @@ window.details = {
         special: "적 1명에게 공격력x25배의 [QCK] 데미지를 주고, 하단 슬롯을 속성 일치 슬롯으로 바꾼다",
         sailor: {
             "base": "None",
-            "level1": "Boosts base ATK of 참격형 characters by 60",
+            "level1": "참격형 캐릭터의 기본 공격력이 60 상승한다",
             "level2": "Makes [DEX] orbs “beneficial” for this character",
         },
         sailorNotes: "#{beneficial}",
@@ -9176,7 +9176,7 @@ window.details = {
             { "description": "회복력 상승 : 20" },
             { "description": "필살기 턴 수 단축: 1" },
             { "description": "회복력 상승 : 30" },
-            { "description": "선원 효과 추가 1: Boosts base ATK of 참격형 characters by 60" },
+            { "description": "선원 효과 추가 1: 참격형 캐릭터의 기본 공격력이 60 상승한다" },
             { "description": "체력 상승 : 70" },
             { "description": "체력 상승 : 80" },
             { "description": "필살기 턴 수 단축: 1" },
@@ -9199,11 +9199,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 40% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 80% 확률로 공격력의 7% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 80% 확률로 자신의 최종 히트 데미지에 7%의 추가 데미지가 가산된다"
                 ]
             },
         ]
@@ -9276,11 +9276,11 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 20% at the start of the turn, recovers .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ??% at the start of the turn, recovers ??x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ??% at the start of the turn, recovers ??x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ??% at the start of the turn, recovers ??x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ??% at the start of the turn, recovers ??x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 20% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.5배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x??배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x??배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x??배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x??배의 체력을 회복한다"
                 ]
             },
         ]
@@ -9316,25 +9316,25 @@ window.details = {
             { "description": "체력 상승 : 60" },
             { "description": "선원 효과 추가 1: Boosts HP, RCV and ATK of [QCK] characters by 30" },
             { "description": "잠재능력 소켓슬롯 추가 : 1" },
-            { "description": "잠재능력 습득 2: Barrier Penetration" },
+            { "description": "잠재능력 습득 2: 배리어 관통" },
         ],
         potential: [
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 15% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 10%의 추가 데미지가 가산된다"
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
-                    "Level 2: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
-                    "Level 3: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 1: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
+                    "Level 2: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
+                    "Level 3: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
                     "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
                     "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
@@ -9381,7 +9381,7 @@ window.details = {
             { "description": "공격력 상승 : 10" },
             { "description": "공격력 상승 : 20" },
             { "description": "공격력 상승 : 30" },
-            { "description": "잠재능력 습득 1: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 1: 회복 무효 내성" },
             { "description": "공격력 상승 : 40" },
             { "description": "체력 상승 : 80" },
             { "description": "공격력 상승 : 50" },
@@ -9396,7 +9396,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
@@ -9468,21 +9468,21 @@ window.details = {
             { "description": "공격력 상승 : 50" },
             { "description": "공격력 상승 : 50" },
             { "description": "선원 효과 추가 2: Makes [RCV] orbs “beneficial” for 강인형 characters" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
         ],
         potential: [
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 20% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ??% 확률로 공격력의 ??% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ??% 확률로 공격력의 ??% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ??% 확률로 공격력의 ??% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 50% 확률로 공격력의 7% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ??%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ??%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ??%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 7%의 추가 데미지가 가산된다"
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
@@ -9528,11 +9528,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 40% 확률로 공격력의 7% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 15% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 7%의 추가 데미지가 가산된다"
                 ]
             },
             {
@@ -9578,7 +9578,7 @@ window.details = {
             { "description": "공격력 상승 : 20" },
             { "description": "공격력 상승 : 20" },
             { "description": "공격력 상승 : 30" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
             { "description": "체력 상승 : 50" },
             { "description": "체력 상승 : 50" },
             { "description": "체력 상승 : 50" },
@@ -9607,7 +9607,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turn",
@@ -9751,11 +9751,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 40% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다"
                 ]
             },
         ]
@@ -9828,11 +9828,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [ 
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 15% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 10%의 추가 데미지가 가산된다"
                 ]
             },
             {
@@ -10015,11 +10015,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 25% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 30% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 40% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 50% 확률로 공격력의 7% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 25% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 7%의 추가 데미지가 가산된다"
                 ]
             },
         ],
@@ -10041,7 +10041,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "Boosts base ATK and HP of Striker characters by 60",
-            "level2": "Completely resists Paralysis on this character",
+            "level2": "자신의 마비 상태를 완전히 회복한다",
         },
         limit: [
             { "description": "공격력 상승 : 10" },
@@ -10070,10 +10070,10 @@ window.details = {
             { "description": "체력 상승 : 80" },
             { "description": "필살기 턴 수 단축: 1" },
             { "description": "회복력 상승 : 40" },
-            { "description": "선원 효과 추가 2: Completely resists Paralysis on this character" },
+            { "description": "선원 효과 추가 2: 자신의 마비 상태를 완전히 회복한다" },
             { "description": "공격력 상승 : 40" },
             { "description": "공격력 상승 : 45" },
-            { "description": "잠재능력 습득 3: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 3: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -10097,7 +10097,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -10197,8 +10197,8 @@ window.details = {
         specialName: "히팅 사이즈",
         sailor: {
             "base": "None",
-            "level1": "Boosts base ATK of 참격형 characters by 30",
-            "level2": "Boosts base HP of 참격형 characters by 60",
+            "level1": "참격형 캐릭터의 기본 공격력이 30 상승한다",
+            "level2": "참격형 캐릭터의 기본 체력이 60 상승한다",
         },
         limit: [
             { "description": "회복력 상승 : 10" },
@@ -10208,13 +10208,13 @@ window.details = {
             { "description": "공격력 상승 : 50" },
             { "description": "필살기 턴 수 단축: 1" },
             { "description": "회복력 상승 : 40" },
-            { "description": "선원 효과 추가 1: Boosts base ATK of 참격형 characters by 30" },
+            { "description": "선원 효과 추가 1: 참격형 캐릭터의 기본 공격력이 30 상승한다" },
             { "description": "체력 상승 : 30" },
             { "description": "체력 상승 : 40" },
             { "description": "필살기 턴 수 단축: 1" },
             { "description": "체력 상승 : 50" },
             { "description": "공격력 상승 : 60" },
-            { "description": "선원 효과 추가 2: Boosts base HP of 참격형 characters by 60" },
+            { "description": "선원 효과 추가 2: 참격형 캐릭터의 기본 체력이 60 상승한다" },
             { "description": "잠재능력 습득 2: 크리티컬 공격" },
         ],
         potential: [
@@ -10231,11 +10231,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 40% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다"
                 ]
             },
         ]
@@ -10290,7 +10290,7 @@ window.details = {
             { "description": "필살기 턴 수 단축: 1" },
             { "description": "체력 상승 : 45" },
             { "description": "체력 상승 : 55" },
-            { "description": "잠재능력 습득 2: Barrier Penetration" },
+            { "description": "잠재능력 습득 2: 배리어 관통" },
             { "description": "체력 상승 : 65" },
             { "description": "체력 상승 : 75" },
             { "description": "필살기 턴 수 단축: 1" },
@@ -10319,11 +10319,11 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
-                    "Level 2: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
-                    "Level 3: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 1: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
+                    "Level 2: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
+                    "Level 3: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
                     "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
                     "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
@@ -10331,11 +10331,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 40% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 50% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 70% 확률로 공격력의 6% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 80% 확률로 공격력의 8% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 90% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 70% 확률로 자신의 최종 히트 데미지에 6%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 80% 확률로 자신의 최종 히트 데미지에 8%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 90% 확률로 자신의 최종 히트 데미지에 10%의 추가 데미지가 가산된다"
                 ]
             },
         ]
@@ -10388,11 +10388,11 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 10% at the start of the turn, recovers .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below 15% at the start of the turn, recovers .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below 20% at the start of the turn, recovers .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below 50% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 10% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.5배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 15% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.5배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 20% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.5배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 30% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 50% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다"
                 ]
             },
         ],
@@ -10622,7 +10622,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "Boosts ATK of Striker characters by 30",
-            "level2": "Boosts this character's attack against [DEX] characters by 2x",
+            "level2": "자신이 [DEX] 속성에게 주는 일반 공격에 의한 데미지가 2배가 된다",
         },
         limit: [
             { "description": "회복력 상승 : 20" },
@@ -10721,7 +10721,7 @@ window.details = {
             { "description": "선원 효과 추가 2: Reduces Silence duration on this character by 2 turns" },
             { "description": "체력 상승 : 65" },
             { "description": "잠재능력 소켓슬롯 추가 : 1" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -10735,7 +10735,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -10775,7 +10775,7 @@ window.details = {
             { "description": "필살기 턴 수 단축: 1" },
             { "description": "공격력 상승 : 50" },
             { "description": "선원 효과 추가 2: Boosts base ATK of all characters by 50" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -10789,7 +10789,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
@@ -10923,7 +10923,7 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [ 
-                    "Level 1: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 1: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
                     "Level 2: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
                     "Level 3: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
                     "Level 4: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
@@ -11002,11 +11002,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다"
                 ]
             },
             {
@@ -11127,8 +11127,8 @@ window.details = {
         special: "적 전체의 공격을 1턴 지연시키고, 2턴 동안 체인 계수 +0.2를 추가한다. 2턴간 PERFECT 타이밍이 쉬워진다.",
         specialName: "모사모사 댄스"
     },
-    1107: {
-        captain: "야심 캐릭터의 공격력과 체력이 1.5배가 된다.",
+    1107: { // modified
+        captain: "야심형의 공격력과 체력이 1.5배가 된다",
         special: "적 전체에 캐릭터 공격력x30배 무속성 데미지를 주고, 야심 타입의 [BLOCK],[G],[BOMB] 슬롯을 각자 특성 슬롯으로 변환시켜준다. 1턴간 야심 캐릭터의 공격력이 1.75배가 된다.",
         specialName: "사자 떨어트리기 궁궐의 회오리"
     },
@@ -11206,11 +11206,11 @@ window.details = {
         special: "1턴 동안 모든 캐릭터의 공격력이 1.2배가 된다.",
         specialName: "작은 괴물의 분노 : \"전쟁이야!!!\""  
     },
-    1114: {
-        special: "일당의 남은 체력을 99% 감소시켜 적 전체에 공격력의 x25배의 고정 데미지를 주고, 1턴 동안 STR의 공격력을 2배 증가시킨다.",
+    1114: { // modified
+        special: "체력을 큰 폭으로 줄이고 적 전체에게 고정 데미지 + 1턴 동안 [STR] 캐릭터의 공격력이 2배가 된다",
         specialName: "고무고무 거인의 도끼",
         specialNotes: "#{fixed}",
-        captain: "STR 캐릭터의 공격력이 2배가 된다."
+        captain: "[STR] 캐릭터의 공격력이 2배가 된다"
     },
     1115: { // modified
         special: "체력을 큰 폭으로 줄이고 적 전체에게 고정 데미지 + 1턴 동안 [STR] 캐릭터의 공격력이 2배가 된다",
@@ -11254,11 +11254,11 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 20% at the start of the turn, recovers .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below 25% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below 40% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 20% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.5배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 25% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 30% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 40% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 40% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1.5배의 체력을 회복한다"
                 ]
             },
         ]
@@ -11321,20 +11321,20 @@ window.details = {
         ],
         potentialNotes: "#{enrage}"
     },
-    1118: {
-        special: "슬롯을 랜덤으로 교체한다, 1턴 동안 체력이 일정 이상(50%)일 때 공격을 받아도 쓰러지지 않는다.",
+    1118: { // modified
+        special: "슬롯을 무작위로 바꾸고, 1턴 동안 아군의 체력이 일정 이상이면 공격을 받아도 쓰러지지 않는다",
         specialName: "1만 캐럿의 미소",
         specialNotes: "#{zombie}",
-        captain: "타격 캐릭터의 공격력과 회복력을 1.5배 상승시킨다.",
-        sailor: "DEX 슬롯을 [유리] 슬롯으로 만든다.",
+        captain: "타격형 캐릭터의 공격력과 회복력이 1.5배가 된다",
+        sailor: "자신은 [DEX] 슬롯도 [유리] 슬롯으로 취급한다",
         sailorNotes: "#{beneficial}",
     },
     1119: {
-        special: "슬롯을 랜덤으로 교체한다, 1턴 동안 체력이 일정 이상(50%)일 때 공격을 받아도 쓰러지지 않는다.",
+        special: "슬롯을 무작위로 바꾸고, 1턴 동안 아군의 체력이 일정 이상이면 공격을 받아도 쓰러지지 않는다",
         specialName: "1만 캐럿의 미소",
         specialNotes: "#{zombie}",
-        captain: "타격 캐릭터의 공격력을 2배 상승시키고, 회복력을 1.5배 상승시킨다.",
-        sailor: "DEX 슬롯을 [유리] 슬롯으로 만든다.",
+        captain: "타격형 캐릭터의 공격력이 2배, 회복력이 1.5배가 된다",
+        sailor: "자신은 [DEX] 슬롯도 [유리] 슬롯으로 취급한다",
         sailorNotes: "#{beneficial}",
         limit: [
             { "description": "" },
@@ -11367,8 +11367,8 @@ window.details = {
         captain: "GOOD→GREAT→PERFECT 순으로 공격하면 이후 캐릭터의 공격력이 4배",
         sailor: {
             "base": "None",
-            "level1": "Makes [RCV] orbs “beneficial” for all characters",
-            "level2": "Makes [TND] orbs “beneficial” for all characters",
+            "level1": "일당은 [RCV] 슬롯도 [유리] 슬롯으로 취급한다",
+            "level2": "일당은 [TND] 슬롯도 [유리] 슬롯으로 취급한다",
         },
         sailorNotes: "#{beneficial}",
         limit: [
@@ -11379,14 +11379,14 @@ window.details = {
             { "description": "공격력 상승 : 5" },
             { "description": "공격력 상승 : 5" },
             { "description": "공격력 상승 : 10" },
-            { "description": "선원 효과 추가 1: Makes [RCV] orbs “beneficial” for all characters" },
+            { "description": "선원 효과 추가 1: 일당은 [RCV] 슬롯도 [유리] 슬롯으로 취급한다" },
             { "description": "체력 상승 : 20" },
             { "description": "체력 상승 : 30" },
             { "description": "잠재능력 소켓슬롯 추가 : 1" },
             { "description": "필살기 턴 수 단축: 2" },
             { "description": "공격력 상승 : 20" },
             { "description": "공격력 상승 : 20" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
             { "description": "체력 상승 : 30" },
             { "description": "체력 상승 : 30" },
             { "description": "필살기 턴 수 단축: 2" },
@@ -11398,7 +11398,7 @@ window.details = {
             { "description": "체력 상승 : 30" },
             { "description": "공격력 상승 : 30" },
             { "description": "공격력 상승 : 30" },
-            { "description": "선원 효과 추가 2: Makes [TND] orbs “beneficial” for all characters" },
+            { "description": "선원 효과 추가 2: 일당은 [TND] 슬롯도 [유리] 슬롯으로 취급한다" },
             { "description": "회복력 상승 : 20" },
             { "description": "체력 상승 : 30" },
             { "description": "잠재능력 습득 3: 크리티컬 공격" },
@@ -11407,15 +11407,15 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 10% at the start of the turn, recovers 2x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ?% at the start of the turn, recovers 2x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ?% at the start of the turn, recovers 2x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ?% at the start of the turn, recovers 2x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below 50% at the start of the turn, recovers 2x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 10% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x2배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x2배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x2배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x2배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 50% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x2배의 체력을 회복한다"
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
@@ -11427,11 +11427,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 40% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ?% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ?% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ?% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 100% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 100% 확률로 자신의 최종 히트 데미지에 10%의 추가 데미지가 가산된다"
                 ]
             },
         ]
@@ -11450,20 +11450,20 @@ window.details = {
         specialNotes: "Boosted ATK and Orb Effectiveness only works for the character who uses their own Special.",
         specialName: "휘몰아치는 롬멜의 칼바람"
     },
-    1124: {
-        captain: "참격 캐릭터의 공격력을 3배로 상승시키고, 턴 경과마다 공격력이 x0.1배씩 감소한다.",
+    1124: { // modified
+        captain: "참격형 캐릭터의 공격력을 3.5배로 만들고 턴이 경과할 때마다 공격력이 감소한다",
         captainNotes: "His ATK multiplier will be 3x on the first turn, 2.9x on the second, 2.8x on the third and so on. The reduction stops once the multiplier is 1.0x. The multiplier affects all 참격형 characters.",
-        special: "적 전체에게 캐릭터 공격력의 x13배의 PST데미지를 주고, 자신과 선장의 슬롯을 자신의 속성으로 변환 한다.",
-        specialName: "게으른 단죄"
+        special: "적 전체에 캐릭터의 공격력x13배의 [PSY] 데미지를 주고, 자신과 선장의 슬롯을 속성이 일치하는 슬롯으로 바꾼다",
+        specialName: "귀찮음의 단죄"
     },
     1125: {
-        captain: "참격 캐릭터의 공격력을 3.5배로 상승시키고, 턴 경과마다 공격력이 x0.1배씩 감소한다.",
+        captain: "참격형 캐릭터의 공격력을 3배로 만들고 턴이 경과할 때마다 공격력이 감소한다",
         captainNotes: "His ATK multiplier will be 3.5x on the first turn, 3.4x on the second, 3.3x on the third and so on. The reduction stops once the multiplier is 1.0x. The multiplier affects all 참격형 characters.",
-        special: "적 전체에게 캐릭터 공격력의 x13배의 PST데미지를 주고, 자신과 선장의 슬롯을 자신의 속성으로 변환 한다.",
-        specialName: "게으른 단죄",
+        special: "적 전체에 캐릭터의 공격력x13배의 [PSY] 데미지를 주고, 자신과 선장의 슬롯을 속성이 일치하는 슬롯으로 바꾼다",
+        specialName: "귀찮음의 단죄",
         sailor: {
             "base": "None",
-            "level1": "Boosts base ATK of 참격형 characters by 60",
+            "level1": "참격형 캐릭터의 기본 공격력이 60 상승한다",
             "level2": "Makes [PSY] orbs “beneficial” for 참격형 characters",
         },
         sailorNotes: "#{beneficial}",
@@ -11476,7 +11476,7 @@ window.details = {
             { "description": "공격력 상승 : 30" },
             { "description": "필살기 턴 수 단축: 2" },
             { "description": "공격력 상승 : 35" },
-            { "description": "선원 효과 추가 1: Boosts base ATK of 참격형 characters by 60" },
+            { "description": "선원 효과 추가 1: 참격형 캐릭터의 기본 공격력이 60 상승한다" },
             { "description": "공격력 상승 : 50" },
             { "description": "필살기 턴 수 단축: 2" },
             { "description": "공격력 상승 : 60" },
@@ -11498,11 +11498,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 40% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다"
                 ]
             },
         ],
@@ -11514,15 +11514,15 @@ window.details = {
         specialNotes: "[BLOCK] 슬롯 갯수에 따른 무 속성 데미지량 : 0 슬롯 - 효과 없음; 1 슬롯 - 20배 상승; 2 슬롯 - 40배 상승; 3 슬롯 - 100배 상승; 4 슬롯 - 200배 상승; 5 슬롯 - 300배 상승; 6 슬롯 - 500배 상승.",
         specialName: "제독 킬러 볼링"
     },
-    1127: {//orlumbus
-        captain: "DEX 캐릭터의 공격력을 2.25배로 상승시키고, 체력을 1.5배로 상승시킨다.",
+    1127: {//orlumbus 
+        captain: "[DEX] 캐릭터의 공격력을 2.25배, 체력을 1.5배로 만든다",
         special: "[BLOCK] 슬롯을 삭제하고, 적 전체에 삭제한 방해 슬롯의 수에 따라 커지는 무 속성 데미지를 준다. 동시에 [EMPTY]을 자신의 속성 슬롯으로 변환한다.",
         specialNotes: "[BLOCK] 슬롯 갯수에 따른 무 속성 데미지량 : 0 슬롯 - 효과 없음; 1 슬롯 - 20배 상승; 2 슬롯 - 40배 상승; 3 슬롯 - 100배 상승; 4 슬롯 - 200배 상승; 5 슬롯 - 300배 상승; 6 슬롯 - 500배 상승.",
         specialName: "제독 킬러 볼링",
         sailor: {
             "base": "None",
             "level1": "Adds 2x character's ATK as Additional Typeless Damage",
-            "level2": "Boosts base ATK, HP and RCV of Striker characters by 50",
+            "level2": "타격형 캐릭터의 기본 능력치가 50 상승한다",
         },
         sailorNotes: "#{additionalDamage : 2x}",
         limit: [
@@ -11538,7 +11538,7 @@ window.details = {
             { "description": "잠재능력 소켓슬롯 추가 : 1" },
             { "description": "회복력 상승 : 30" },
             { "description": "체력 상승 : 60" },
-            { "description": "선원 효과 추가 2: Boosts base ATK, HP and RCV of Striker characters by 50" },
+            { "description": "선원 효과 추가 2: 타격형 캐릭터의 기본 능력치가 50 상승한다" },
             { "description": "필살기 턴 수 단축: 1" },
             { "description": "잠재능력 습득 2: 슬롯 봉쇄 내성" },
         ],
@@ -11565,10 +11565,10 @@ window.details = {
             },
         ]
     },
-    1128: {
-        captain: "전투 시작시 필살기를 1턴 단축하고, 모든 캐릭터의 공격력을 1.75배로 상승시킨다.",
-        special: "저림 · 선장 효과 무효 상태를 5 차례 회복하고 적 1 기의 HP를 10 % 감소시킨다.",
-        specialName: "군사의 참격"
+    1128: { // modified
+        captain: "모험 시작 시 필살 턴을 1턴 단축하고 일당의 공격력을 1.75배로 만든다",
+        special: "마비·선장효과 무효 상태를 5턴 회복하고 적 1명의 HP를 10% 감소시킨다",
+        specialName: "군사의 베어내기"
     },
     1129: {
         captain: "전투 시작시 필살기를 2턴 단축하고, 모든 캐릭터의 공격력을 2배로 상승시킨다.",
@@ -11583,7 +11583,7 @@ window.details = {
             { "description": "공격력 상승 : 30" },
             { "description": "공격력 상승 : 40" },
             { "description": "공격력 상승 : 40" },
-            { "description": "잠재능력 습득 1: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 1: 회복 무효 내성" },
             { "description": "회복력 상승 : 20" },
             { "description": "회복력 상승 : 30" },
             { "description": "선원 효과 추가 1: 일당의 기본 능력치가 25 상승한다" },
@@ -11598,7 +11598,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
@@ -11751,7 +11751,7 @@ window.details = {
             { "description": "체력 상승 : 80" },
             { "description": "선원 효과 추가 2: Boosts own base ATK by 200 if this character is the last in the chain to attack" },
             { "description": "필살기 턴 수 단축: 3" },
-            { "description": "잠재능력 습득 2: Barrier Penetration" },
+            { "description": "잠재능력 습득 2: 배리어 관통" },
         ],
         potential: [
             {
@@ -11765,9 +11765,9 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 1: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
                     "Level 2: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
                     "Level 3: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
                     "Level 4: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
@@ -11807,8 +11807,8 @@ window.details = {
         specialName: "생명귀환 : 사자지건"
     },
     1140: {// Coliseum Moria
-        captain: "야심 캐릭터의 공격력을 2배 상승시킨다.",
-        special: "자신의 슬롯을 DEX으로 변환하고, 적 1기에 30만의 고정 데미지를 준다.",
+        captain: "야심형 캐릭터의 공격력을 2배로 만든다",
+        special: "자신의 슬롯을 [DEX]로 바꾸고, 적 1명에게 고정 데미지 300,000을 준다",
         specialName: "뿔도마뱀"
     },
     1141: {// Coliseum Moria :: modified
@@ -11828,45 +11828,45 @@ window.details = {
         specialNotes: "#{randomHits : 15}",
         specialName: "고릴라 펀치 : 골든 스트라이크"
     },
-    1144: {// Coliseum Porche
-        captain: "PSY 캐릭터의 공격력을 1.75배 상승시킨다.",
-        special: "적 전체에게 캐릭터 공격력 x5배의 PSY데미지를 주고, 캐릭터 회복력 x15배의 체력을 회복한다.",
-        specialName: "큐티 바톤: 꽃 수리검"
+    1144: {// Coliseum Porche // modified
+        captain: "[PSY] 캐릭터의 공격력을 1.75배로 만든다",
+        special: "적 전체에게 캐릭터 공격력x5배의 [PSY] 데미지를 주고, 캐릭터의 회복력x15배의 체력을 회복한다",
+        specialName: "큐티 바통 꽃 수리검"
     },
     1145: {// Coliseum Porche
-        captain: "PSY 캐릭터의 공격력을 1.75배 상승시키고, 회복력을 1.5배 상승시킨다.",
-        special: "적 전체에게 캐릭터 공격력 x5배의 PSY데미지를 주고, 캐릭터 회복력 x15배의 체력을 회복한다.",
-        specialName: "큐티 바톤: 꽃 수리검"
+        captain: "PSY 캐릭터의 공격력을 1.75배, 회복력을 1.5배로 만든다",
+        special: "적 전체에게 캐릭터 공격력x5배의 [PSY] 데미지를 주고, 캐릭터의 회복력x15배의 체력을 회복한다",
+        specialName: "큐티 바통 꽃 수리검"
     },
-    1146:{
-        specialName: "봉인 제거",
-        special: "봉인 상태 2턴 감소"
+    1146:{ // modified
+        specialName: "바인드 퍼지",
+        special: "봉쇄 상태를 2턴 회복한다"
     },
-    1147:{
-        special: "캐릭터 회복력 x7배의 체력을 회복한다.",
-        specialName: "M적당한 회복",
+    1147:{ // modified
+        special: "캐릭터의 회복력x7배의 체력 회복",
+        specialName: "미들 힐링",
     },
-    1148:{
-        specialName: "저림 회복 - Light",
-        special: "저림 상태 1턴 감소"
+    1148:{ // modified
+        specialName: "쇼크 리커버리 라이트",
+        special: "마비 상태를 1턴 회복한다"
     },
-    1149:{
-        special: "적 전체에게 캐릭터 공격력 x3배의 INT 데미지를 주고, 중독 시킨다.",
+    1149:{ // modified
+        special: "적 전체에 캐릭터의 공격력x3배의 속성 데미지를 주고, 중독 상태로 만든다",
         specialNotes: "#{poison}",
-        specialName: "독 공격",
+        specialName: "포이즌 어택",
     },
-    1150:{
-        special: "선장의 슬롯을 자기 슬롯으로 변환시킨다.",
-        specialName: "선장 슬롯 변환",
+    1150:{ // modified
+        special: "선장의 [BLOCK] 슬롯을 속성 일치 슬롯으로 바꾼다",
+        specialName: "캡틴 [방해] 슬롯 체인지 마인",
     },
     1151: {//Minotaur
         special: "Cuts the current HP of one enemy by 10%",
         specialName: "Tough Jailer Beast: Spiked Club"
     },
-    1152: {
-        special: "Deals 3 hits of 7x character's ATK in [INT] damage to random enemies.",
+    1152: { // modified
+        special: "무작위의 적에게 공격력x7배의 [INT] 데미지를 3번 준다",
         specialNotes: "#{randomHits : 3}",
-        specialName: "Shy Jailer Beast: Spiked Mace",
+        specialName: "낯가리는 옥졸수의 노킹 메이스",
     },
     1153: {
         special: "Reduces the defense of all enemies by 100% and boosts ATK of 강인형 characters by 1.25x for 1 턴",
@@ -11877,9 +11877,9 @@ window.details = {
         special: "Reduces crew's current HP by 30%. Boosts ATK of 강인형 characters by 1.5x",
         specialName: "Leader of the Jailers",
     },
-    1155: {
-        special: "Deals 7x character's ATK in QCK damage to all enemies",
-        specialName: "Monsterous Appetite"
+    1155: { // modified
+        special: "적 1명에게 공격력X7배의 [QCK] 데미지를 준다",
+        specialName: "괴물을 물어뜯는 날카로운 이빨"
     },
     1156: {
         captain: "Boosts ATK of 야심형 characters by 1.2x if HP is above 50% at the start of the 턴",
@@ -12063,24 +12063,24 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 40% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다"
                 ]
             },
         ]
     },
-    1174: {
-        special: "Changes adjacent orbs into [DEX], deals 1,000 fixed damage to all enemies",
-        specialName: "Ashura Ugui",
+    1174: { // modified
+        special: "인접한 슬롯을 [DEX]로 바꾸고, 적 전체에게 고정 데미지 1,000을 준다",
+        specialName: "아수라 마구섬",
         specialNotes: "#{fixed}",
-        captain: "Boosts ATK of [DEX] characters by 2.75x if HP is below 30% at the start of the turn",
-        sailor: "Boosts base ATK of 참격형 characters by 20"
+        captain: "남은 체력이 적을 때 [DEX] 캐릭터의 공격력이 2.75배가 된다",
+        sailor: "참격형 캐릭터의 기본 공격력이 20 상승한다"
     },
-    1175: { 
-        special: "남은 체력이 적을 때 [DEX] 캐릭터의 공격력이 3배가 된다",
+    1175: { // modified
+        special: "인접한 슬롯을 [DEX]로 바꾸고, 적 전체에게 고정 데미지 1,000을 준다",
         specialName: "아수라 마구섬",
         specialNotes: "#{fixed}",
         captain: {
@@ -12122,27 +12122,27 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 40% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 50% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 60% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 70% 확률로 공격력의 6% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 80% 확률로 공격력의 7% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 60% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 70% 확률로 자신의 최종 히트 데미지에 6%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 80% 확률로 자신의 최종 히트 데미지에 7%의 추가 데미지가 가산된다"
                 ]
             },
         ],
         potentialNotes: "#{enrage}"
     },
-    1176: {
-        special: "Removes Poison, recovers 15x character's RCV in HP",
-        specialName: "Devoted Healing - \"I'm Glad You are Safe\"",
-        captain: "Boosts ATK and RCV of DEX characters by 1.5x",
-        sailor: "When HP is below 30% at the start of the 턴, boosts own RCV by 50"
+    1176: { // modified
+        special: "모든 독 상태를 회복하고, 캐릭터의 회복력x15배의 체력을 회복한다",
+        specialName: "치유의 보상 「괜찮은 거야!?」",
+        captain: "[DEX] 캐릭터의 공격력과 회복력이 1.5배가 된다",
+        sailor: "남은 체력이 적을 때 자신의 기본 회복력이 50 상승한다"
     },
-    1177: {
-        special: "Removes Poison, recovers 15x character's RCV in HP",
-        specialName: "Devoted Healing - \"I'm Glad You are Safe\"",
-        captain: "Boosts ATK and RCV of DEX characters by 2x",
-        sailor: "When HP is below 30% at the start of the 턴, boosts own RCV by 50"
+    1177: { // modified
+        special: "모든 독 상태를 회복하고, 캐릭터의 회복력x15배의 체력을 회복한다",
+        specialName: "치유의 보상 「괜찮은 거야!?」",
+        captain: "[DEX] 캐릭터의 공격력과 회복력이 2배가 된다",
+        sailor: "남은 체력이 적을 때 자신의 기본 회복력이 50 상승한다"
     },
     1178: {
         captain: "Boosts ATK of [STR] characters by 2x if HP is above 99% at the start of the turn. Reduces damage received by 50%",
@@ -12172,12 +12172,12 @@ window.details = {
         sailor: "Makes [STR] orbs “beneficial” for this character",
         sailorNotes: "#{beneficial}",
     },
-    1183: {
-        captain: "Boosts ATK of [PSY] characters by 2.5x",
-        special: "Empties all slots with [PSY] orbs, deals several times the character's ATK in [PSY] damage to one enemy",
+    1183: { // modified
+        captain: "[PSY] 캐릭터의 공격력을 2.5배로 만든다",
+        special: "일당 모두의 [PSY] 슬롯을 소비하고, 적 1명에게 소비한 슬롯 수에 따라 증폭되는 [PSY] 데미지를 준다",
         specialNotes: "The exact multiplier used is chosen based on the number of [PSY] orbs consumed: 1 orb will give a 13x multiplier, 2 orbs 19x, 3 orbs 26x, 4 orbs 65x, 5 orbs 130x, 6 orbs 230x. It's not possible to activate the special without consuming at least one [PSY] orb.",
-        specialName: "Brass Knuckle Destruction",
-        sailor: "If HP is above 99% at the start of the turn, boosts ATK of [PSY] characters by 75"
+        specialName: "격멸의 브래스 너클",
+        sailor: "공격 시작 전에 체력이 가득 차 있으면 [PSY] 캐릭터의 기본 공격력이 75 상승한다",
     },
     1184: { // modified
         captain: "[PSY] 캐릭터의 공격력을 2.5배로 만든다",
@@ -12204,7 +12204,7 @@ window.details = {
             { "description": "공격력 상승 : 70" },
             { "description": "필살기 턴 수 단축: 3" },
             { "description": "선원 효과 추가 1: When HP is above 99% at the start of the turn, boosts own base ATK by 100" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -12218,7 +12218,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
@@ -12245,11 +12245,11 @@ window.details = {
         ],
         specialNotes : "#{stages}",
         specialName: "신속한 일검류 십자베기",
-        sailor: "Restores his own special cooldown by 1 turn when it is rewinded",
+        sailor: "자신의 피랄기 턴 되돌리기를 1턴 회복한다",
         sailorNotes: "#{rewind : 1}",
     },
     1186: {
-        captain: "Boosts ATK of 참격형 and Cerebral characters by 1.75x. Gives chance of duplicating a drop upon completion of the island.",
+        captain: "참격형과 박식형의 공격력을 1.75배로 만들고 일정 확률로 모험에서 획득한 보물이 한 개 추가된다(보물 추가 효과는 모험 도중에 선장이 되면 발동되지 않습니다)",
         captainNotes: "Does not work if he was not your captain upon starting the island. Stacks with other additional drop captains, giving you two chances of getting an extra drop.",
         special: [
             {
@@ -12257,7 +12257,7 @@ window.details = {
                 "cooldown": [ 8, 3 ],
             },
             {
-                "description": "적 전체에 공격력x15배의 [INT] 데미지를 주고, 자신의 슬롯을 [INT]로 바꾸며, 참격형과 박식형의 필살기 턴을 1턴 단축한다",
+                "description": "적 전체에 공격력x15배의 [INT] 데미지를 주고, 자신의 슬롯을 [INT]로 바꾸며 참격형과 박식형의 필살기 턴을 1턴 단축한다",
                 "cooldown": [ 17, 12 ],
             }
         ],
@@ -12299,37 +12299,37 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 40% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다"
                 ]
             },
         ],
         potentialNotes: "#{enrage}"
     },
-    1187: {
-        captain: "Boosts ATK of [STR] characters by 2.5x",
-        special: "Deals 7 hits of random Typeless damage to random enemies. Reduces Bind and Despair duration by 3 turns",
+    1187: { // modified
+        captain: "[STR] 캐릭터의 공격력을 2.5배로 만든다",
+        special: "무작위의 적에게 [STR] 데미지를 7회 주고, 봉쇄·선장효과 무효 상태를 3턴 회복한다",
         specialNotes: "#{randomHits : 7}<br>#{random : 5000 : 20000 : for each hit}",
-        specialName: "Advancing Continuous Sword Attack",
+        specialName: "진행하는 연속 검격",
         sailor: "일당의 기본 능력치가 20 상승한다"
     },
-    1188: {
-        captain: "Boosts ATK of [STR] characters by 2.5x",
-        special: "Deals 7 hits of random Typeless damage to random enemies. Reduces Bind and Despair duration by 3 turns",
+    1188: { // modified
+        captain: "[STR] 캐릭터의 공격력을 2.5배로 만든다",
+        special: "무작위의 적에게 [STR] 데미지를 7회 주고, 봉쇄·선장효과 무효 상태를 3턴 회복한다",
         specialNotes: "#{randomHits : 7}<br>#{random : 5000 : 20000 : for each hit}",
-        specialName: "Advancing Continuous Sword Attack",
+        specialName: "진행하는 연속 검격",
         sailor: "일당의 기본 능력치가 20 상승한다"
     },
-    1189: {
-        captain: "Boosts ATK of [QCK] characters by 2.25x, makes [DEX] orbs “beneficial” to [QCK] characters",
+    1189: { // modified
+        captain: "[QCK] 캐릭터의 공격력을 2.25배로 만들고, [QCK] 캐릭터는 [DEX] 슬롯도 [유리] 슬롯으로 취급한다",
         captainNotes: "#{beneficial}",
-        special: "Reduces enemy Barrier duration by 1 turn",
+        special: "적 전체의 체력 게이지에 붙어있는 배리어의 턴을 1턴 줄인다(hit 배리어 등)",
         specialNotes: "Does not affect DEF Boost or % Damage reduction buffs. Reduces timers for Barriers such as PERFECT/Great/Good Barriers, Combo Hit Barriers and Orb Hit Barriers",
-        specialName: "Break Bullet",
-        sailor: "Boosts base ATK of [QCK] characters by 40"
+        specialName: "브레이크 불릿",
+        sailor: "[QCK] 캐릭터의 기본 공격력이 40 상승한다",
     },
     1190: { // modified
         captain: "[QCK] 캐릭터의 공격력을 2.25배로 만들고, [QCK] 캐릭터는 [DEX] 슬롯도 [유리] 슬롯으로 취급한다",
@@ -12337,7 +12337,6 @@ window.details = {
         special: "적 전체의 체력 게이지에 붙어있는 배리어의 턴을 1턴 줄인다(hit 배리어 등)",
         specialNotes: "Does not affect DEF Boost or % Damage reduction buffs. Reduces timers for Barriers such as PERFECT/Great/Good Barriers, Combo Hit Barriers and Orb Hit Barriers",
         specialName: "브레이크 불릿",
-        sailor: "[QCK] 캐릭터의 기본 공격력이 40 상승한다",
         sailor: {
             "base": "[QCK] 캐릭터의 기본 공격력이 40 상승한다",
             "level1": "Makes [DEX] orbs “beneficial” for this character",
@@ -12430,7 +12429,7 @@ window.details = {
             { "description": "선원 효과 추가 2: If this character has an [QCK] orb and you hit a PERFECT with him, keep his [QCK] orb for the next turn" },
             { "description": "체력 상승 : 70" },
             { "description": "체력 상승 : 80" },
-            { "description": "잠재능력 습득 3: Barrier Penetration" },
+            { "description": "잠재능력 습득 3: 배리어 관통" },
         ],
         potential: [
             {
@@ -12446,17 +12445,17 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 30% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 40% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 50% 확률로 공격력의 7% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 7%의 추가 데미지가 가산된다"
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 1: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
                     "Level 2: This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
                     "Level 3: This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
                     "Level 4: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
@@ -12475,10 +12474,10 @@ window.details = {
         special: "Recovers 13x character's RCV in HP and locks the chain multiplier at 2.5x for 1 턴",
         specialName: "Sweet Style Petrification",
     },
-    1195: {
-        captain: "Boosts ATK of Striker characters by 1.75x. Recovers 2x character's RCV in HP at the end of each 턴",
-        special: "Reduces crew's current HP by 60%, deals 8x the amount of HP subtracted in typeless damage to all enemies. Boosts ATK of Striker characters by 1.75x for 1 턴",
-        specialName: "Split Air Hole",
+    1195: { // modified
+        captain: "타격형 캐릭터의 공격력을 1.75배로 만들고, 턴 종료 시 회복력x2배의 체력을 회복한다",
+        special: "일당의 체력을 60% 줄이고, 적 전체에 감소치x8배의 무 속성 데미지를 주며, 1턴 동안 타격형 캐릭터의 공격력을 1.75배로 만든다",
+        specialName: "터지는 바람 구멍",
     },
     1196: { // modified
         captain: "타격형 캐릭터의 공격력을 2.5배로 만들고, 받는 데미지를 10% 감소시킨다",
@@ -12486,7 +12485,7 @@ window.details = {
         specialName: "순흑의 도깨비",
         sailor: {
             "base": "None",
-            "level1": "Boosts base ATK, HP and RCV of Striker characters by 25",
+            "level1": "타격형 캐릭터의 기본 능력치가 25 상승한다",
         },
         limit: [
             { "description": "회복력 상승 : 10" },
@@ -12500,7 +12499,7 @@ window.details = {
             { "description": "체력 상승 : 60" },
             { "description": "필살기 턴 수 단축: 1" },
             { "description": "체력 상승 : 80" },
-            { "description": "선원 효과 추가 1: Boosts base ATK, HP and RCV of Striker characters by 25" },
+            { "description": "선원 효과 추가 1: 타격형 캐릭터의 기본 능력치가 25 상승한다" },
             { "description": "공격력 상승 : 40" },
             { "description": "잠재능력 소켓슬롯 추가 : 1" },
             { "description": "잠재능력 습득 2: 긴급 회복" },
@@ -12519,11 +12518,11 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 10% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다"
                 ]
             },
         ]
@@ -12592,11 +12591,11 @@ window.details = {
         sailor: "의성어 은폐 상태를 3턴 회복한다"
     },
     1208: {
-        special: "Boosts chances of getting [INT] orbs for 3 turns",
-        specialName: "Ochenta Fleur - Cuatro Manus Shock",
-        captain: "Boosts ATK and RCV of [INT] characters by 2x",
+        special: "[INT] 슬롯의 출현율이 크게 상승한다(3턴)",
+        specialName: "오첸타 플루트 콰트로 마노!! 쇼크!!",
+        captain: "[INT] 캐릭터의 공격력과 회복력이 1.5배가 된다",
         sailor: {
-            "base": "Reduces Blindness duration by 3 turns",
+            "base": "의성어 은폐 상태를 3턴 회복한다",
             "level1": "Makes [PSY] orbs “beneficial” for this character",
         },
         sailorNotes: "#{beneficial}",
@@ -12640,11 +12639,11 @@ window.details = {
             },
         ]
     },
-    1209: {
-        special: "Delays all enemies for 3 턴, cuts the current HP of each enemy by 10%",
-        specialName: "Heavenly Dragon Star",
-        captain: "Boosts ATK of Shooter characters by 2x",
-        sailor: "사격형 캐릭터의 기본 회복력이 10 상승한다"
+    1209: { // modified
+        special: "적 전체를 3턴 지연시키고, 적 전체의 HP를 10% 줄인다",
+        specialName: "수리검 유성군",
+        captain: "사격형 캐릭터의 공격력이 2배, 회복력이 1.5배가 된다",
+        sailor: "사격형 캐릭터의 기본 회복력이 10 상승한다",
     },
     1210: { // modified
         special: "적 전체를 3턴 지연시키고, 적 전체의 HP를 10% 줄인다",
@@ -12672,30 +12671,30 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [ 
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 15% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 10%의 추가 데미지가 가산된다"
                 ]
             },
             {
                 "Name": "회복 무효 내성",
                 "description": [ 
-                    "Level 1: If there are 6 Shooter characters in your crew, 회복 무효 상태 회복 : 1 턴",
-                    "Level 2: If there are 5 Shooter characters in your crew, 회복 무효 상태 회복 : 1 턴",
-                    "Level 3: If there are 4 Shooter characters in your crew, 회복 무효 상태 회복 : 1 턴",
-                    "Level 4: If there are 4 Shooter characters in your crew, 회복 무효 상태 회복 : 2 턴",
-                    "Level 5: If there are 4 Shooter characters in your crew, 회복 무효 상태 회복 : 3 턴"
+                    "Level 1: 일당에 사격형이 6명 있을 때 회복 무효 상태를 1턴 회복한다",
+                    "Level 2: 일당에 사격형이 5명 있을 때 회복 무효 상태를 1턴 회복한다",
+                    "Level 3: 일당에 사격형이 4명 있을 때 회복 무효 상태를 1턴 회복한다",
+                    "Level 4: 일당에 사격형이 4명 있을 때 회복 무효 상태를 2턴 회복한다",
+                    "Level 5: 일당에 사격형이 4명 있을 때 회복 무효 상태를 3턴 회복한다"
                 ]
             },
         ]
     },
-    1211: {
-        special: "Changes own orb into [STR], amplifies the effect of orbs by 1.5x for 2 턴",
+    1211: { // modified
+        special: "자신의 슬롯을 [STR]으로 바꾸고, 일당 모두의 슬롯의 영향을 증폭시킨다 (2턴)",
         specialNotes: "#{orb : 1.5x}",
-        specialName: "Roar! Zarley Davison",
-        captain: "Boosts ATK of STR characters by 2x, deals 2x character's ATK in STR damage to all enemies at the end of each 턴",
+        specialName: "변태의 자존심 「수퍼 스크류 댄스!!」",
+        captain: "[STR] 캐릭터의 공격력이 2.25배가 되고, 턴 종료 시 공격력 x 2배의 추가 데미지",
         sailor: "사격형 캐릭터의 기본 공격력이 20 상승한다"
     },
     1212: { // modified
@@ -12721,8 +12720,8 @@ window.details = {
             { "description": "공격력 상승 : 30" },
             { "description": "체력 상승 : 50" },
             { "description": "필살기 턴 수 단축: 1" },
-            { "description": "선원 효과 추가 1: Reduces Blindness duration by 5 turns" },
-            { "description": "잠재능력 습득 2: Barrier Penetration" },
+            { "description": "선원 효과 추가 1: 의성어 은폐 상태를 5턴 회복한다" },
+            { "description": "잠재능력 습득 2: 배리어 관통" },
         ],
         potential: [
             {
@@ -12736,9 +12735,9 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 1: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
                     "Level 2: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
                     "Level 3: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
                     "Level 4: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
@@ -12781,25 +12780,25 @@ window.details = {
         special: "Locks all orbs for 1 턴. If HP is below 30%, changes own orb and the captain's orb into matching. ",
         specialName: "Everybody Confusing Fragrance",
     },
-    1219: {//Byrnndi World Coliseum
-        captain: "Boosts ATK of Shooter characters by 1x. If you defeat an enemy, increases ATK boost slighty. Stacks up to 16 times to a maximum of 3x.",
+    1219: {//Byrnndi World Coliseum // modified
+        captain: "이전 턴에 적을 1명이라도 격파하면 사격형의 공격력 배율이 상승한다(최대 10턴으로 공격력 3배)",
         captainNotes: "If a character dies and revives, it counts as killing a character. If you did not defeat an enemy, lose all ATK boost stacks.",
         special: [
             {
-                "description": "Deals 7x character's ATK in [INT] damage to one enemy. Reduces crew's current HP by 50%. Boosts ATK of Shooter characters by 1.2x for 1 턴",
+                "description": "체력이 50% 감소하는 대신 적 1명에게 공격력x7배의 [INT] 데미지를 주고, 1턴 동안 사격형의 공격력이 1.2배가 된다",
                 "cooldown": [ 22, 6 ],
             },
             {
-                "description": "Deals 15x character's ATK in [INT] damage to one enemy. Reduces crew's current HP by 50%. Boosts ATK of Shooter characters by 1.5x for 1 턴",
+                "description": "체력이 50% 감소하는 대신 적 1명에게 공격력x15배의 [INT] 데미지를 주고, 1턴 동안 사격형의 공격력이 1.5배가 된다",
                 "cooldown": [ 28, 12 ],
             },
             {
-                "description": "Deals 25x character's ATK in [INT] damage to one enemy. Reduces crew's current HP by 50%. Boosts ATK of Shooter characters by 2x for 1 턴",
+                "description": "체력이 50% 감소하는 대신 적 1명에게 공격력x25배의 [INT] 데미지를 주고, 1턴 동안 사격형의 공격력이 2배가 된다",
                 "cooldown": [ 34, 18 ],
             },
         ],
         specialNotes: "#{stages}",
-        specialName: "More More, 10 Times \"Iron Hammer\"",
+        specialName: "모아모아 10배속 「철퇴」",
     },
     1220: {//Byrnndi World Coliseum :: modified
         captain: "이전 턴에 적을 1명이라도 격파하면 사격형의 공격력 배율이 상승한다(최대 10턴으로 공격력 3.25배)",
@@ -12865,17 +12864,17 @@ window.details = {
         ],
         potentialNotes: "Enrage is activated when your crew took damage from your enemies in the previous 턴"
     },
-    1221: {//Coliseum Oars Jr
-        captain: "Boosts ATK of 참격형 characters by 1.75x and the HP of 강인형 characters by 1.2x",
-        special: "Deals 25x character's ATK in [STR] damage to one enemy. For 1 turn, makes [STR] orbs “beneficial” for all characters",
+    1221: {//Coliseum Oars Jr // modified
+        captain: "참격형의 공격력을 1.75배, 강인형의 체력을 1.2배로 만든다",
+        special: "적 1명에게 공격력x25배의 [STR] 데미지를 주고, 1턴 동안 [STR] 슬롯을 [유리] 슬롯으로 취급한다",
         specialNotes: "#{beneficial}",
-        specialName: "Blood of the Devil Warrior",
+        specialName: "정상의 파쇄",
     },
     1222: {//Coliseum Oars Jr
-        captain: "Boosts ATK of 참격형 characters by 2x and the HP of 강인형 characters by 1.75x",
-        special: "Deals 25x character's ATK in [STR] damage to one enemy. For 1 turn, makes [STR] orbs “beneficial” for all characters",
+        captain: "참격형의 공격력을 2배, 강인형의 체력을 1.75배로 만든다",
+        special: "적 1명에게 공격력x25배의 [STR] 데미지를 주고, 1턴 동안 [STR] 슬롯을 [유리] 슬롯으로 취급한다",
         specialNotes: "#{beneficial}",
-        specialName: "Blood of the Devil Warrior",
+        specialName: "정상의 파쇄",
     },
     1223: { // Story Bastille
         captain: "Boosts ATK of [INT] characters by 2x",
@@ -12908,45 +12907,45 @@ window.details = {
         specialName: "The Cave of the Sun Goddess",
     },
     1229: {//Sentomaru
-        captain: "Boosts ATK of 강인형 characters by 2x and his OWN ATK by 2x.",
+        captain: "자신 및 강인형 캐릭터의 공격력이 2배가 된다",
         special: [
             {
-                "description": "Deals 500 fixed damage to one enemy. Reduces Special Cooldown of your top row by 1 turn",
+                "description": "적 1명에게 고정 데미지 500을 주고, 상단 캐릭터의 필살기 턴을 1턴 단축한다",
                 "cooldown": [ 11, 4 ],
             },
             {
-                "description": "Deals 5,000 fixed damage to one enemy. Reduces Special Cooldown of your top row by 1 turn",
+                "description": "적 1명에게 고정 데미지 5,000을 주고, 상단 캐릭터의 필살기 턴을 1턴 단축한다",
                 "cooldown": [ 15, 8 ],
             },
             {
-                "description": "Deals 100,000 fixed damage to one enemy. Reduces Special Cooldown of your top row by 2 turns",
+                "description": "적 1명에게 고정 데미지 100,000을 주고, 상단 캐릭터의 필살기 턴을 2턴 단축한다",
                 "cooldown": [ 22, 15 ],
             },
         ],
         specialNotes: "#{stages}",
-        sailor: "Cannot be Blown Away",
-        specialName: "Leg-Locked Heave-Ho",
+        sailor: "자신은 날아가지 않는다",
+        specialName: "족공동행",
     },
     1230: {//Sentomaru
         captain: "Boosts ATK of 강인형 characters by 2.5x, but boost his OWN ATK by 2.75x. Reduces damage received by 10%",
         special: [
             {
-                "description": "Deals 500 fixed damage to one enemy. Reduces Special Cooldown of your top row by 1 turn",
+                "description": "적 1명에게 고정 데미지 500을 주고, 상단 캐릭터의 필살기 턴을 1턴 단축한다",
                 "cooldown": [ 11, 4 ],
             },
             {
-                "description": "Deals 5,000 fixed damage to one enemy. Reduces Special Cooldown of your top row by 1 turn",
+                "description": "적 1명에게 고정 데미지 5,000을 주고, 상단 캐릭터의 필살기 턴을 1턴 단축한다",
                 "cooldown": [ 15, 8 ],
             },
             {
-                "description": "Deals 100,000 fixed damage to one enemy. Reduces Special Cooldown of your top row by 2 turns",
+                "description": "적 1명에게 고정 데미지 100,000을 주고, 상단 캐릭터의 필살기 턴을 2턴 단축한다",
                 "cooldown": [ 22, 15 ],
             },
         ],
         specialNotes: "#{stages}",
-        specialName: "Leg-Locked Heave-Ho",
+        specialName: "족공동행",
         sailor: {
-            "base": "Cannot be Blown Away",
+            "base": "자신은 날아가지 않는다",
             "level1": "Restores his own special by 2 turns when it is rewinded",
         },
         sailorNotes: "#{rewind : 2}",
@@ -12990,12 +12989,12 @@ window.details = {
             },
         ]
     },
-    1231: {//Smoker
-        captain: "Boosts ATK of Striker and 야심형 characters by 1.75x and reduces RCV of all characters by 50%. If this character becomes your captain in the middle of an island, reduces damage received by 30% and boosts ATK of Striker and 야심형 characters by 2.1875x instead",
-        special: "Deals 30x character's ATK in [DEX] damage to one enemy. Swaps this unit with your captain for 2 turns",
-        specialNotes: "This is the same type of ability as raid boss Shiki's swap.",
-        specialName: "Armed - White Launcher",
-        sailor: "Boosts base ATK of Striker characters by 50",
+    1231: {//Smoker // modified
+        captain: "타격형과 야심형 캐릭터의 공격력이 1.75배가 되고, 일당의 회복력이 50% 감소한다. 모험 중에 선장이 된 경우, 받는 데미지가 30% 줄며 같은 타입의 공격력이 추가로 1.25배가 된다",
+        special: "적 1명에게 [DEX] 특대 데미지를 주고, 자신이 선원일 때는 2턴 동안 선장과 교대한다",
+        specialNotes: "This is the same type of ability as raid boss Shiki's swap. You cannot use it if another effect swaps your captain. (Such as if Shiki swaps first)",
+        specialName: "암드 화이트 런처",
+        sailor: "타격형의 기본 공격력이 50 상승한다",
     },
 
     1232: {//Smoker :: modified
@@ -13029,11 +13028,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 40% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 15% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 10%의 추가 데미지가 가산된다"
                 ]
             },
             {
@@ -13048,22 +13047,23 @@ window.details = {
             },
         ]
     },
-    1233: {//Tashigi
-        captain: "Boosts ATK of 참격형 and Cerebral characters by 1.5x, and their RCV by 1.2x",
+    1233: {//Tashigi // modified
+        captain: "참격형과 박식형 캐릭터의 공격력이 각각 1.5배, 회복력이 각각 1.2배가 된다",
         captainNotes: "Attack boost stacks, so a 참격형 Cerebral unit has 2.25x ATK",
-        special: "Deals 15x character's ATK in [QCK] damage to all enemies. Boosts the Color Affinity of 참격형 and Cerebral characters by 1.5x for 2 턴",
+        special: "적 전체에게 캐릭터의 공격력x15배의 [QCK] 데미지를 주고, 2턴 동안 참격형과 박식형의 일반 공격에 의한 속성 상성의 영향을 증폭시킨다",
         specialNotes: "#{colorAffinity : 1.5}",
-        specialName: "Cutting Drizzle",
-        sailor: "Boosts base RCV of 참격형 characters by 30",
+        specialName: "참격맹폭",
+        sailor: "참격형의 기본 회복력이 30 상승한다",
     },
     1234: {//Tashigi
-        captain: "Boosts ATK of 참격형 and Cerebral characters by 1.6x and their RCV by 1.3x",
+        captain: "참격형과 박식형 캐릭터의 공격력이 각각 1.6배, 회복력이 각각 1.3배가 된다",
         captainNotes: "Attack boost stacks, so a Slasher/Cerebral character has a 2.56x ATK",
-        special: "Deals 15x character's ATK in [QCK] damage to all enemies. Boosts the Color Affinity of 참격형 and Cerebral characters by 1.5x for 2 turns",
+        special: "적 전체에게 캐릭터의 공격력x15배의 [QCK] 데미지를 주고, 2턴 동안 참격형과 박식형의 일반 공격에 의한 속성 상성의 영향을 증폭시킨다",
         specialNotes: "#{colorAffinity : 1.5}",
-        specialName: "Cutting Drizzle",
+        specialName: "참격맹폭",
+        sailor: "참격형의 기본 회복력이 30 상승한다",
         sailor: {
-            "base": "Boosts base RCV of 참격형 characters by 30",
+            "base": "참격형의 기본 회복력이 30 상승한다",
             "level1": "Boosts base ATK and HP of all characters by 30",
         },
         limit: [
@@ -13081,7 +13081,7 @@ window.details = {
             { "description": "체력 상승 : 80" },
             { "description": "공격력 상승 : 60" },
             { "description": "공격력 상승 : 70" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -13095,7 +13095,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -13107,31 +13107,31 @@ window.details = {
         ],
         potentialNotes: "#{enrage}"
     },
-    1235: {//Maynard
-        captain: "Boosts ATK of [PSY] characters by 1.75x, deals 3x character's ATK to all enemies at the end of each 턴",
-        special: "Deals several times the character's ATK in [PSY] damage to one enemy. Delays all enemies for 1 턴",
+    1235: {//Maynard // modified
+        captain: "[PSY] 캐릭터의 공격력이 1.75배가 되고, 턴 종료 시에 공격력x3배의 추가 데미지를 준다",
+        special: "적 1명에게 아군의 남은 체력이 많을수록 [PSY] 큰 데미지를 주고, 적 전체의 공격을 1턴 지연시킨다",
         specialNotes: "#{specialProportional : higher : 10x + (25x * (remaining HP) / (total HP)) }",
-        specialName: "Sword of Silence",
-        sailor: "Reduces Blindness duration for 3 턴",
+        specialName: "묵비의 검",
+        sailor: "의성어 은폐 상태를 3턴 회복한다",
     },
-    1236: {//Maynard
-        captain: "Boosts ATK of [PSY] characters by 2x, deals 5x character's ATK to all enemies at the end of each 턴",
-        special: "Deals several times the character's ATK in [PSY] damage to one enemy. Delays all enemies for 1 턴",
+    1236: {//Maynard // modified
+        captain: "[PSY] 캐릭터의 공격력이 2배가 되고, 턴 종료 시에 공격력53배의 추가 데미지를 준다",
+        special: "적 1명에게 아군의 남은 체력이 많을수록 [PSY] 큰 데미지를 주고, 적 전체의 공격을 1턴 지연시킨다",
         specialNotes: "#{specialProportional : higher : 10x + (25x * (remaining HP) / (total HP)) }",
-        specialName: "Sword of Silence",
-        sailor: "Reduces Blindness duration for 3 턴",
+        specialName: "묵비의 검",
+        sailor: "의성어 은폐 상태를 3턴 회복한다",
     },
-    1237: {//Bastille
-        captain: "Boosts ATK of all characters by 2x after the 15th hit in the chain",
-        special: "Deals 20x character's ATK in [STR] damage to all enemies. Boosts ATK of all characters by 2x after 30th hit in the chain for 1 turn.",
-        specialName: "Shark Cutter - Flash",
+    1237: {//Bastille // modified
+        captain: "1턴 내에 준 콤보 수가 15 이상일 때부터 공격력이 2배로 상승한다",
+        special: "적 전체에 공격력x20배의 [STR] 데미지를 주고, 1턴 동안 해당 턴 내에 준 콤보 수가 30 이상일 때부터 일당의 공격력이 2배가 된다",
+        specialName: "무장색의 상어 베기 참마도 일성",
         sailor: "자신은 [QCK] 슬롯도 [유리] 슬롯으로 취급한다",
         sailorNotes: "#{beneficial}",
     },
     1238: {//Bastille
         captain: "Boosts ATK of all characters by 2x after the 15th hit in the chain and by 3x after the 30th hit",
-        special: "Deals 20x character's ATK in [STR] damage to all enemies. Boosts ATK of all characters by 2x after 30th hit in the chain for 1 turn.",
-        specialName: "Shark Cutter - Flash",
+        special: "적 전체에 공격력x20배의 [STR] 데미지를 주고, 1턴 동안 해당 턴 내에 준 콤보 수가 30 이상일 때부터 일당의 공격력이 2배가 된다",
+        specialName: "무장색의 상어 베기 참마도 일성",
         sailor: {
             "base": "자신은 [QCK] 슬롯도 [유리] 슬롯으로 취급한다",
             "level1": "일당의 기본 능력치가 50 상승한다",
@@ -13168,11 +13168,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 40% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다"
                 ]
             },
         ]
@@ -13241,13 +13241,13 @@ window.details = {
         specialName:"Fishman karate, KO blow",
         specialNotes: "#{gOrbs}"
     },
-    1245: {// Event Luffy
+    1245: {// Event Luffy // modified
         captain: {
-            "base": "Boosts ATK of Fighter characters by 3x if HP is below 10%, by 1.75x otherwise",
-            "level1": "Boosts ATK of Fighter characters by 3.25x if HP is below 10%, by 1.75x otherwise",
+            "base": "격투형 캐릭터의 공격력을 1.75배, 남은 체력이 10% 이하일 때는 3배가 된다",
+            "level1": "격투형 캐릭터의 공격력을 1.75배, 남은 체력이 10% 이하일 때는 3.25배가 된다",
         },
-        special: "Deals random [QCK] damage to all enemies and boosts ATK of Fighter characters by 1.3x for 1 turn. If \"Firefly Light, Fiery Doll\" is used again in the same turn the special is activated in, boosts ATK of Fighter characters by 2x instead.",
-        specialName:"Gomu Gomu no Stamp Gatling",
+        special: "적 전체에 랜덤으로 [QCK] 데미지를 주고, 1턴 동안 격투형의 공격력을 1.3배로 만들며, 같은 턴 안에 이미 「반디 불덩이」를 사용했다면 2배가 된다",
+        specialName:"고무고무 스탬프 난타",
         specialNotes: "Firefly Light, Fiery Doll is Event Ace's special ability.",
         sailor: {
             "base": "None",
@@ -13268,7 +13268,7 @@ window.details = {
             { "description": "체력 상승 : 50" },
             { "description": "필살기 턴 수 단축: 3" },
             { "description": "선원 효과 추가 2: Reduces Paralysis duration by 1 turn" },
-            { "description": "새로운 선장 효과 습득: Boosts ATK of Fighter characters by 3.25x if HP is below 10%, by 1.75x otherwise" },
+            { "description": "새로운 선장 효과 습득: 격투형 캐릭터의 공격력을 1.75배, 남은 체력이 10% 이하일 때는 3.25배가 된다" },
             { "description": "잠재능력 습득 2: 피격 시 공격력 상승" },
         ],
         limitNotes: "This Limit Break is exclusive to Global ONLY",
@@ -13366,37 +13366,37 @@ window.details = {
         special: "Recovers 3,000 HP and reduces damage received by 50% for 1 턴",
         specialName:"Shining Daylight - Dayflower",
     },
-    1250: {// Coliseum Marco
-        captain: "Boosts ATK of 강인형 characters by 1.5x and Recovers a variable amount of character's RCV in HP at the end of each 턴 depending on how many 강인형 characters are on your team",
+    1250: {// Coliseum Marco // modified
+        captain: "강인형 캐릭터의 공격력을 1.5배로 만들고, 일당의 강인형 캐릭터 수에 따라 턴 종료 시 체력을 회복한다",
         captainNotes: "1x 강인형: .5x RCV | 2x 강인형: .75x RCV | 3x 강인형: 1x RCV | 4x 강인형: 1.5x RCV | 5x 강인형: 2x RCV | 6x 강인형: 3.5x RCV",
         special: [
             {
-                "description": "Randomizes all orbs, and boosts ATK of 강인형 characters by 1.5x for 1 턴",
+                "description": "슬롯을 랜덤으로 바꾸고 강인형 캐릭터의 공격력을 1턴 동안 1.5배로 만든다",
                 "cooldown": [ 21, 6 ],
             },
             {
-                "description": "Randomizes non-matching orbs, and boosts ATK of 강인형 characters by 1.5x for 1 턴",
+                "description": "속성 일치 슬롯 이외의 슬롯을 랜덤으로 바꾸고, 강인형 캐릭터의 공격력을 1턴 동안 1.5배로 만든다",
                 "cooldown": [ 24, 9 ],
             },
         ],
         specialNotes: "#{stages}",
-        specialName: "Burning Vanguard",
+        specialName: "열화의 선진",
     },
     1251: {// Coliseum Marco
-        captain: "Boosts ATK of 강인형 characters by 2x and Recovers a variable amount of character's RCV in HP at the end of each turn depending on how many 강인형 characters are on your team",
+        captain: "강인형 캐릭터의 공격력을 2배로 만들고, 일당의 강인형 캐릭터 수에 따라 턴 종료 시 체력을 회복한다",
         captainNotes: "1x 강인형: .5x RCV | 2x 강인형: .75x RCV | 3x 강인형: 1x RCV | 4x 강인형: 1.5x RCV | 5x 강인형: 2x RCV | 6x 강인형: 3.5x RCV",
         special: [
             {
-                "description": "Randomizes all orbs and boosts ATK of 강인형 characters by 1.5x for 1 turn",
+                "description": "슬롯을 랜덤으로 바꾸고 강인형 캐릭터의 공격력을 1턴 동안 1.5배로 만든다",
                 "cooldown": [ 21, 6 ],
             },
             {
-                "description": "Randomizes non-matching orbs and boosts ATK of 강인형 characters by 1.5x for 1 turn",
+                "description": "속성 일치 슬롯 이외의 슬롯을 랜덤으로 바꾸고, 강인형 캐릭터의 공격력을 1턴 동안 1.5배로 만든다",
                 "cooldown": [ 24, 9 ],
             },
         ],
         specialNotes: "#{stages}",
-        specialName: "Burning Vanguard",
+        specialName: "열화의 선진",
         sailor: {
             "base": "None",
             "level1": "Reduces Paralysis duration on this character by 3 turn",
@@ -13416,7 +13416,7 @@ window.details = {
             { "description": "공격력 상승 : 40" },
             { "description": "공격력 상승 : 50" },
             { "description": "선원 효과 추가 1: Reduces Paralysis duration on this character by 3 turn" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -13430,7 +13430,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
@@ -13453,11 +13453,11 @@ window.details = {
         special: "Makes PERFECTs harder to hit for 1 턴. If during that 턴 every unit scores a PERFECT hit, boosts ATK of [DEX] characters by 1.75x in the following 턴.",
         specialName: "Angry Instigator",
     },
-    1254: {//FN Squard
-        captain: "Boosts ATK of Striker characters by 2.5x until the first hit other than PERFECT. Reduce crew's current HP by 5% at the end of each 턴.",
-        special: "Deals 10x character's ATK in fixed damage to one enemy, reduces crews current HP by 30% and reduces enemies defense by 80% for one 턴",
-        specialName: "Sword Attack Without Hesitation",
-        sailor: "Reduces his own Numbness by 1 턴"
+    1254: {//FN Squard // modified
+        captain: "PERFECT 이외의 공격을 할 때까지 타격형 캐릭터의 공격력을 2.5배로 만들고, 턴이 경과할 때마다 체력이 조금씩 감소한다",
+        special: "일당의 체력을 30% 줄이고 적 1명에게 고정 데미지를 주며, 1턴 동안 적 전체의 방어력을 대폭 감소시킨다",
+        specialName: "망설임 없는 검격",
+        sailor: "자신은 마비 상태를 1턴 회복한다"
     },
     1255: {//FN DeCalvan :: modified
         captain: "1턴 내에 준 콤보 수가 11 이상일 때부터 약 1.5배, 16 이상일 때로부터 약 2배, 22 이상일 때부터 약 2.5배로 공격력을 상승시킨다",
@@ -13471,24 +13471,24 @@ window.details = {
         sailor: "야심형 캐릭터의 기본 공격력과 기본 회복력이 10 상승한다",
         specialName: "쇄빙선의 돌파력",
     },
-    1257: {//Young Whitebeard
-        captain: "Boosts ATK of all characters by 2x 전투 시작 시 체력이 50% 미만이면",
+    1257: {//Young Whitebeard // modified
+        captain: "남은 체력이 일정 비율 이하일 때 일당의 공격력이 2배가 된다",
         special: [
             {
-                "description": "Cuts the current HP of each enemy by 10%",
+                "description": "적 전체의 HP를 10% 감소시킨다",
                 "cooldown": [ 23, 11 ],
             },
             {
-                "description": "Cuts the current HP of each enemy by 20%",
+                "description": "적 전체의 HP를 20% 감소시킨다",
                 "cooldown": [ 28, 16 ],
             },
             {
-                "description": "Cuts the current HP of each enemy by 40%",
+                "description": "적 전체의 HP를 30% 감소시킨다",
                 "cooldown": [ 36, 24 ],
             },
         ],
         specialNotes: "#{stages}",
-        specialName: "Earth Shattering Fist",
+        specialName: "고동치는 대지의 주먹",
     },
     1258: {//Young Whitebeard Evolved :: modified
         captain: "남은 체력이 일정 비율 이하일 때 일당의 공격력이 2.5배가 된다",
@@ -13554,11 +13554,11 @@ window.details = {
         specialName: "Looking to the Full Moon",
     },
     1267: {//Legend Blackbeard
-        captain: "Boosts ATK of all characters by 2.75x and their HP by 1.5x if you have a Striker, Shooter, Fighter, and 참격형 on your crew. Attacks will ignore defensive barriers and buffs.",
+        captain: "적의 방어 효과를 무시하고 일반 공격을 할 수 있지만, 일당의 방어 효과가 모두 무효가 된다. 또한 일당에 격투형, 참격형, 타격형, 사격형이 모두 편성되어 있을 시 일당의 공격력이 2.75배, 체력은 1.5배가 된다",
         captainNotes: "Attacks are still affected by DEF value. DEF boost buffs (Blue shield) still reduce your damage, but Damage Negating (Yellow shield) and % Damage Reduction (Rainbow shield) are ignored). Multiple class characters count as a character of each class. Enemy attacks will go through YOUR defensive buffs.",
-        special: "Cuts the current HP of each enemy by 30%. If Blackbeard is a captain, this ability will ignore damage negating abilities and barriers",
+        special: "적 전체의 HP를 30% 줄인다(자신이 선장, 조력자 선장, 친구 선장일 때는 모든 방어 효과를 관통한다)",
         specialNotes: "If Blackbeard is not a captain, the effect works exactly like Whitebeard special and is affected by barriers.",
-        specialName: "World Shaking Impact",
+        specialName: "세계를 뒤흔드는 충격",
     },
     1268: {//Legend Blackbeard :: modified
         captain: "적의 방어 효과를 무시하고 일반 공격을 할 수 있지만, 일당의 방어 효과가 모두 무효가 된다. 또한 일당에 격투형, 참격형, 타격형, 사격형이 모두 편성되어 있을 시 일당의 공격력이 2.75배, 체력은 1.5배가 된다",
@@ -13569,7 +13569,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "자신이 [STR] 속성에게 주는 일반 공격에 의한 데미지가 2배가 된다",
-            "level2": "이",
+            "level2": "일당의 기본 능력치가 50 상승한다",
         },
         limit: [
             { "description": "공격력 상승 : 10" },
@@ -13617,11 +13617,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 30% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 40% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 50% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 60% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 70% 확률로 공격력의 7% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 60% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 70% 확률로 자신의 최종 히트 데미지에 7%의 추가 데미지가 가산된다"
                 ]
             },
             {
@@ -13637,22 +13637,22 @@ window.details = {
         ],
         potentialNotes: "#{enrage}"
     },
-    1269: {//Laffitte
-        captain: "Recovers 3x character's RCV in HP at the end of each 턴. Deals 3x character's ATK in [DEX] damage to all enemies at the end of each 턴.",
-        special: "Reduces Bind and Despair duration by 2 턴. Makes Badly Matching and [BLOCK] orbs not reduce damage for 4 턴",
+    1269: {//Laffitte // modified
+        captain: "턴 종료 시 회복력x3배의 체력을 회복하고, 적 전체에 공격력x3배의 데미지를 준다",
+        special: "봉쇄·선장효과 무효 상태를 2턴 회복하고, 4턴 동안 일당의 슬롯에 의한 공격력 감소를 무효화한다",
         specialNotes: "Ex. A STR character with a QCK orb will still deal regular damage",
-        sailor: "Boosts base ATK of all characters by 100 if your captain is a 야심형 character",
-        specialName: "Horrifying Suggestion",
+        sailor: "선장이 야심형일 경우, 일당의 기본 공격력이 100 상승한다",
+        specialName: "괴기한 암시",
     },
     1270: {//Laffitte
-        captain: "Recovers 3x character's RCV in HP at the end of each turn. Deals 7x character's ATK in [DEX] damage to all enemies at the end of each turn.",
-        special: "Reduces Bind and Despair duration by 2 turns. Makes Badly Matching and [BLOCK] orbs not reduce damage for 4 turns",
+        captain: "턴 종료 시 회복력x3배의 체력을 회복하고, 적 전체에 공격력x7배의 데미지를 준다",
+        special: "봉쇄·선장효과 무효 상태를 2턴 회복하고, 4턴 동안 일당의 슬롯에 의한 공격력 감소를 무효화한다",
         specialNotes: "Ex. A [STR] character with a [QCK] orb will still deal regular damage",
         sailor: {
-            "base": "Boosts base ATK of all characters by 100 if your Captain is a 야심형 character",
+            "base": "선장이 야심형일 경우, 일당의 기본 공격력이 100 상승한다",
             "level1": "Reduces Blindness duration by 3 turns",
         },
-        specialName: "Horrifying Suggestion",
+        specialName: "괴기한 암시",
         limit: [
             { "description": "체력 상승 : 10" },
             { "description": "회복력 상승 : 10" },
@@ -13667,7 +13667,7 @@ window.details = {
             { "description": "공격력 상승 : 30" },
             { "description": "회복력 상승 : 50" },
             { "description": "체력 상승 : 50" },
-            { "description": "선원 효과 추가 1: Reduces Blindness duration by 3 turns" },
+            { "description": "선원 효과 추가 1: 의성어 은폐 상태를 3턴 회복한다" },
             { "description": "잠재능력 습득 2: 슬롯 봉쇄 내성" },
         ],
         potential: [
@@ -13745,11 +13745,11 @@ window.details = {
         ]
     },
     1273: {//Jesus Burgess
-        captain: "Boosts ATK of Fighter and 강인형 characters by 1.5x and their HP by 1.2",
-        captainNotes: "Boosts stack, so a Fighter/강인형 character gets 2.25x ATK and 1.44x HP",
-        special: "Deals 20x character's ATK in [STR] damage to all enemies. Boosts ATK of Fighter characters by 1.5x for 5 턴",
-        sailor: "일당의 기본 체력이 75 상승한다",
+        captain: "격투형과 강인형의 공격력이 각각 1.5배, 체력이 각각 1.15배가 된다",
+        captainNotes: "Boosts stack, so a Fighter/강인형 character gets 2.56x ATK and 1.44x HP",
+        special: "적 전체에 [STR] 큰 데미지를 주고, 5턴 동안 격투형 캐릭터의 공격력을 1.5배로 만든다",
         specialName: "자이언트 슬로우빌딩",
+        sailor: "일당의 기본 체력이 75 상승한다",
     },
     1274: {//Jesus Burgess :: modified
         captain: "격투형과 강인형의 공격력이 각각 1.6배, 체력이 각각 1.15배가 된다",
@@ -13800,13 +13800,13 @@ window.details = {
             },
         ]
     },
-    1275: {//Shiliew
-        captain: "Boosts ATK and HP of 참격형 characters by 1.5x",
-        special: "For each enemy, has a small chance to instantly defeat that enemy.",
+    1275: {//Shiliew ㅡ/ modified
+        captain: "참격형 캐릭터의 공격력과 체력이 1.5배가 된다",
+        special: "적 전체의 각각의 대상을 일정 확률로 격파한다",
         specialNotes: "#{instantKill : 25%}",
-        sailor: "Completely resists Silence on this character",
+        sailor: "자신은 필살기 봉쇄 상태를 완전히 회피한다",
         sailorNotes: "#{silence}",
-        specialName: "Handling Hell",
+        specialName: "지옥의 심판",
     },
     1276: {//Shiliew :: modified
         captain: "참격형 캐릭터의 공격력과 체력이 2배가 된다",
@@ -13816,11 +13816,11 @@ window.details = {
         sailorNotes: "#{silence}",
         specialName: "지옥의 심판",
     },
-    1277: {//Doc Q
-        captain: "Reduces RCV of all characters by 99%. Boosts ATK of 참격형 and Striker characters by 2.25x if HP is above 99% at the start of the 턴",
-        special: "Reduces crew's current HP by 10%. Changes [BLOCK], [TND], and [RCV] orbs on 참격형 and Striker characters into Matching Orbs.",
-        sailor: "Boosts amount healed from [RCV] orbs by 150 each",
-        specialName: "Reaping of Desperate Lives",
+    1277: {//Doc Q // modified
+        captain: "일당의 회복력을 크게 감소시키고 공격 시작 전, 체력이 가득 차 있으면 참격형과 타격형 캐릭터의 공격력이 2.25배가 된다",
+        special: "일당의 체력을 10% 줄이고, 참격형과 타격형의 [BLOCK][TND][RCV] 슬롯을 속성 일치 슬롯으로 바꾼다",
+        sailor: "[RCV] 획득 시 추가로 체력을 150 회복한다",
+        specialName: "목숨을 건 목 베기",
     },
     1278: {//Doc Q :: modified
         captain: "일당의 회복력을 크게 감소시키고 공격 시작 전, 체력이 가득 차 있으면 참격형과 타격형 캐릭터의 공격력이 2.75배가 된다",
@@ -13951,34 +13951,34 @@ window.details = {
         specialName: "Lower Back Pain Stance - The Eyes of Blight Impact",
     },
     1293: {//Coliseum Sandersonia
-        captain: "Boosts ATK of Fighter characters by 1.75x, deals 2 times the damage received in the previous 턴 in [PSY] damage to all enemies at the end of each 턴",
+        captain: "격투형 캐릭터의 공격력을 1.75배로 만들고, 적에게 받는 데미지의 2배를 턴 종료 시 적 전체에게 준다",
         special: [
             {
-                "description": "Changes Captain orb into Matching, and reduces damage received from [PSY] enemies by 40%",
+                "description": "선장의 슬롯을 속성 일치 슬롯으로 바꾸고 [PSY]에게 받는 데미지를 1턴 동안 40% 줄인다",
                 "cooldown": [ 21, 11 ],
             },
             {
-                "description": "Changes Captain orb into Matching, and reduces damage received from [PSY] enemies by a variable factor.",
+                "description": "선장의 슬롯을 속성 일치 슬롯으로 바꾸고 [PSY]에게 받는 데미지를 1턴 동안 발동 시의 체력이 50% 이상일 경우 50% 감소, 50% 미만 10% 이상일 경우 80% 감소, 10% 미만일 경우 무효가 된다",
                 "cooldown": [ 26, 16 ],
             },
         ],
         specialNotes: "The exact multiplier used is chosen based on the crew's current HP at the time the special is activated: above 50% HP, the multiplier used is 50%; between 50% and 10%, it's 80%; below 10% HP, it's 100%.<br>#{stages}",
-        specialName: "Snake Dance",
+        specialName: "스네이크 댄스",
     },
-    1294: {//Coliseum Sandersonia
-        captain: "Boosts ATK of 강인형 characters by 2x, deals 4 times the damage received in the previous 턴 in [PSY] damage to all enemies at the end of each 턴",
+    1294: {//Coliseum Sandersonia // modified
+        captain: "격투형 캐릭터의 공격력을 2배로 만들고, 적에게 받는 데미지의 4배를 턴 종료 시 적 전체에게 준다",
         special: [
             {
-                "description": "Changes Captain orb into Matching, and reduces damage received from [PSY] enemies by 40%",
+                "description": "선장의 슬롯을 속성 일치 슬롯으로 바꾸고 [PSY]에게 받는 데미지를 1턴 동안 40% 줄인다",
                 "cooldown": [ 21, 11 ],
             },
             {
-                "description": "Changes Captain orb into Matching, and reduces damage received from [PSY] enemies by a variable factor.",
+                "description": "선장의 슬롯을 속성 일치 슬롯으로 바꾸고 [PSY]에게 받는 데미지를 1턴 동안 발동 시의 체력이 50% 이상일 경우 50% 감소, 50% 미만 10% 이상일 경우 80% 감소, 10% 미만일 경우 무효가 된다",
                 "cooldown": [ 26, 16 ],
             },
         ],
         specialNotes: "The exact multiplier used is chosen based on the crew's current HP at the time the special is activated: above 50% HP, the multiplier used is 50%; between 50% and 10%, it's 80%; below 10% HP, it's 100%.<br>#{stages}",
-        specialName: "Snake Dance",
+        specialName: "스네이크 댄스",
     },
     1295: {//Halloween Kalifa
         captain: "Boosts ATK and RCV of [STR] characters by 1.5x",
@@ -14004,7 +14004,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "Boosts base HP of [STR] characters by 100",
-            "level2": "Boosts base ATK of [STR] characters by 75",
+            "level2": "[STR] 속성의 기본 공격력이 75 상승한다",
         },
         limit: [
             { "description": "공격력 상승 : 10" },
@@ -14020,7 +14020,7 @@ window.details = {
             { "description": "필살기 턴 수 단축: 2" },
             { "description": "공격력 상승 : 50" },
             { "description": "필살기 턴 수 단축: 2" },
-            { "description": "선원 효과 추가 2: Boosts base ATK of [STR] characters by 75" },
+            { "description": "선원 효과 추가 2: [STR] 속성의 기본 공격력이 75 상승한다" },
             { "description": "잠재능력 습득 2: 슬롯 봉쇄 내성" },
         ],
         potential: [
@@ -14132,7 +14132,7 @@ window.details = {
         specialName: "유성화산",
         sailor: {
             "base": "None",
-            "level1": "Boosts this character's attack against [QCK] characters by 2x",
+            "level1": "자신이 [QCK] 속성에게 주는 일반 공격에 의한 데미지가 2배가 된다",
         },
         limit: [
             { "description": "공격력 상승 : 20" },
@@ -14262,7 +14262,10 @@ window.details = {
         specialName: "A Decree of the Veteran",
     },
     1320: {//Lady Tsuru :: modified
-        captain: "턴 종료 시에 PERFECT 1회마다 캐릭터의 회복력x0.1배, GOOD 1회마다 캐릭터의 회복력x1.5배의 체력을 회복한다",
+        captain: {
+            "base": "턴 종료 시에 PERFECT 1회마다 캐릭터의 회복력x0.1배, GOOD 1회마다 캐릭터의 회복력x1.5배의 체력을 회복한다",
+            "level1": "일당의 공격력이 1.2배가 되고, 턴 종료 시에 PERFECT 1회마다 캐릭터의 회복력x0.3배, GOOD 1회마다 캐릭터의 회복력x1.5배의 체력을 회복한다",
+        },
         special: "무작위의 적에게 [QCK] 큰 데미지를 10회 주고, 1턴 동안 일당의 공격력이 1.5배가 된다",
         specialNotes: "#{randomHits : 10}<br>#{random : 1,000 : 32,000 : for each hit}",
         sailor: "일당의 마비 상태를 1턴 회복한다",
@@ -14278,8 +14281,8 @@ window.details = {
             { "description": "회복력 상승 : 10" },
             { "description": "체력 상승 : 80" },
             { "description": "공격력 상승 : 60" },
-            { "description": "선원효과 추가 1: Reduces Blindness duration by 3 턴" },
-            { "description": "새로운 선장 효과 습득: Boosts ATK of all characters by 1.2x, heals for 1.5x her RCV at the end of the 턴 each time you hit a Good. Heals for .3x her RCV at the end of the 턴 each time you hit a PERFECT" },
+            { "description": "선원효과 추가 1: 의성어 은폐 상태를 3턴 회복한다" },
+            { "description": "새로운 선장 효과 습득: 일당의 공격력이 1.2배가 되고, 턴 종료 시에 PERFECT 1회마다 캐릭터의 회복력x0.3배, GOOD 1회마다 캐릭터의 회복력x1.5배의 체력을 회복한다" },
             { "description": "필살기 턴 단축 : 2턴" },
             { "description": "소켓 슬롯 1개 추가" },
             { "description": "잠재능력 습득 2: 회복 무효 내성" },
@@ -14717,7 +14720,7 @@ window.details = {
         specialName: "프랑키~~ 파이어볼",
         sailor: {
             "base": "[PSY] 캐릭터의 기본 체력이 100 상승한다",
-            "level1": "Boosts base ATK of [PSY] characters by 70",
+            "level1": "[PSY] 속성의 기본 공격력이 70 상승한다",
         },
         limit: [
             { "description": "공격력 상승 : 20" },
@@ -14733,8 +14736,8 @@ window.details = {
             { "description": "체력 상승 : 60" },
             { "description": "공격력 상승 : 50" },
             { "description": "필살기 턴 수 단축: 2" },
-            { "description": "선원 효과 추가 1: Boosts base ATK of [PSY] characters by 70" },
-            { "description": "잠재능력 습득 2: Barrier Penetration" },
+            { "description": "선원 효과 추가 1: [PSY] 속성의 기본 공격력이 70 상승한다" },
+            { "description": "잠재능력 습득 2: 배리어 관통" },
         ],
         potential: [
             {
@@ -14748,9 +14751,9 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 1: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
                     "Level 2: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
                     "Level 3: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
                     "Level 4: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
@@ -14893,7 +14896,7 @@ window.details = {
             { "description": "공격력 상승 : 30" },
             { "description": "선원 효과 추가 1: Makes [TND] and [RCV] orbs “beneficial” for Fighter characters" },
             { "description": "공격력 상승 : 30" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -14907,7 +14910,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
@@ -14952,7 +14955,7 @@ window.details = {
             { "description": "체력 상승 : 80" },
             { "description": "새로운 선장 효과 습득: Boosts ATK of [QCK] characters by 2.5x and their HP and RCV by ?x" },
             { "description": "공격력 상승 : 50" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -14966,7 +14969,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turn",
@@ -15274,11 +15277,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 40% 확률로 공격력의 7% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 15% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 7%의 추가 데미지가 가산된다"
                 ]
             },
         ]
@@ -15315,11 +15318,11 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 10% at the start of the turn, recovers .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below 15% at the start of the turn, recovers .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below 20% at the start of the turn, recovers .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below 30% at the start of the turn, recovers .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below 50% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 10% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.5배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 15% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.5배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 20% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.5배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 30% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.5배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 50% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다"
                 ]
             },
             {
@@ -15587,7 +15590,7 @@ window.details = {
         captainNotes: "#{zombie}",
         special: "Delays all enemies by 1 턴, and boosts ATK of 참격형 and Free Spirit characters by 1.75x for 1 턴",
         specialName: "Soul's Murder Soul: Soul Solid",
-        sailor: "Completely resists Paralysis on this character",
+        sailor: "자신의 마비 상태를 완전히 회복한다",
     },
     1410: {//Timeskip Brook :: modified
         captain: "체인 계수 증가량이 2.5배가 되고 체력이 일정 비율 이상인 경우, 공격을 받아도 쓰러지지 않는다",
@@ -15629,11 +15632,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 40% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 50% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 60% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 70% 확률로 공격력의 6% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 80% 확률로 공격력의 7% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 60% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 70% 확률로 자신의 최종 히트 데미지에 6%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 80% 확률로 자신의 최종 히트 데미지에 7%의 추가 데미지가 가산된다"
                 ]
             },
         ]
@@ -15669,7 +15672,7 @@ window.details = {
             { "description": "체력 상승 : 100" },
             { "description": "필살기 턴 수 단축: 1" },
             { "description": "공격력 상승 : 50" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -15683,7 +15686,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turn",
@@ -15701,7 +15704,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "Boosts base ATK of Striker and 강인형 characters by 60",
-            "level2": "Completely resists Paralysis on this character",
+            "level2": "자신의 마비 상태를 완전히 회복한다",
         },
         limit: [
             { "description": "공격력 상승 : 5" },
@@ -15730,7 +15733,7 @@ window.details = {
             { "description": "체력 상승 : 80" },
             { "description": "공격력 상승 : 30" },
             { "description": "회복력 상승 : 40" },
-            { "description": "선원 효과 추가 2: Completely resists Paralysis on this character" },
+            { "description": "선원 효과 추가 2: 자신의 마비 상태를 완전히 회복한다" },
             { "description": "공격력 상승 : 30" },
             { "description": "공격력 상승 : 50" },
             { "description": "잠재능력 습득 3: 피격 시 공격력 상승" },
@@ -15749,11 +15752,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 20% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 30% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 30% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 50% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 50% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 10%의 추가 데미지가 가산된다"
                 ]
             },
             {
@@ -15938,11 +15941,11 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 10% at the start of the turn, recovers .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ??% at the start of the turn, recovers ??x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ??% at the start of the turn, recovers ??x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ??% at the start of the turn, recovers ??x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ??% at the start of the turn, recovers ??x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 10% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.5배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x??배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x??배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x??배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x??배의 체력을 회복한다"
                 ]
             },
             {
@@ -16024,7 +16027,7 @@ window.details = {
             { "description": "선원 효과 추가 2: Restores his own special cooldown by 2 turns when it is rewinded" },
             { "description": "체력 상승 : 90" },
             { "description": "공격력 상승 : 50" },
-            { "description": "잠재능력 습득 3: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 3: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -16040,15 +16043,15 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 20% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 30% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 30% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 50% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 50% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 10%의 추가 데미지가 가산된다"
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -16090,21 +16093,21 @@ window.details = {
             { "description": "체력 상승 : 60" },
             { "description": "공격력 상승 : 40" },
             { "description": "선원 효과 추가 1: Reduces Paralysis duration on this character by 3 turns" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
         ],
         potential: [
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 20% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다"
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turns",
@@ -16130,7 +16133,7 @@ window.details = {
         specialName: "살오징어의 창",
         sailor: {
             "base": "강인형 6명으로 편성 시 자신은 모든 속성 슬롯이 [유리] 슬롯으로 취급된다",
-            "level1": "Boosts base ATK, HP and RCV of 강인형 characters by 30",
+            "level1": "강인형 캐릭터의 기본 능력치가 30 상승한다",
         },
         sailorNotes: "#{beneficial}",
         limit: [
@@ -16147,7 +16150,7 @@ window.details = {
             { "description": "필살기 턴 수 단축: 2" },
             { "description": "체력 상승 : 50" },
             { "description": "공격력 상승 : 40" },
-            { "description": "선원 효과 추가 1: Boosts base ATK, HP and RCV of 강인형 characters by 30" },
+            { "description": "선원 효과 추가 1: 강인형 캐릭터의 기본 능력치가 30 상승한다" },
             { "description": "잠재능력 습득 2: 긴급 회복" },
         ],
         potential: [
@@ -16164,11 +16167,11 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a Perfect with this character",
-                    "Level 2: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a Perfect with this character",
-                    "Level 3: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a Perfect with this character",
-                    "Level 4: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a Perfect with this character",
-                    "Level 5: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a Perfect with this character"
+                    "Level 1: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다"
                 ]
             },
         ]
@@ -16182,13 +16185,13 @@ window.details = {
         sailorNotes: "#{silence}",
     },
     1440: {//Daruma :: modified
-        captain: "모험 시작 시 필살기 턴을 4턴 단축하고, 격투형과 강인형의 공격력을 1.5배로 ㅁ나든다",
+        captain: "모험 시작 시 필살기 턴을 4턴 단축하고, 격투형과 강인형의 공격력을 1.5배로 만든다",
         special: "마비·필살기 봉쇄 상태를 2턴 회복, 적 1명의 HP를 10% 줄이고 강인형 캐릭터의 공격력을 1턴 동안 1.75배로 만든다",
         specialNotes: "#{silence}",
         specialName: "불덩어리 커터",
         sailor: {
             "base": "자신은 필살기 봉쇄 상태를 완전히 회피한다",
-            "level1": "Boosts base ATK, HP and RCV of 강인형 characters by 20",
+            "level1": "강인형 캐릭터의 기본 능력치가 20 상승한다",
         },
         sailorNotes: "#{silence}",
         limit: [
@@ -16205,22 +16208,22 @@ window.details = {
             { "description": "잠재능력 소켓슬롯 추가 : 1" },
             { "description": "회복력 상승 : 30" },
             { "description": "회복력 상승 : 40" },
-            { "description": "선원 효과 추가 1: Boosts base ATK, HP and RCV of 강인형 characters by 20" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "선원 효과 추가 1: 강인형 캐릭터의 기본 능력치가 20 상승한다" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
         ],
         potential: [
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 20% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다"
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turns",
@@ -16264,7 +16267,7 @@ window.details = {
             { "description": "체력 상승 : 50" },
             { "description": "공격력 상승 : 50" },
             { "description": "선원 효과 추가 1: Makes [TND] orbs “beneficial” for 강인형 characters" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -16278,7 +16281,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -16320,7 +16323,7 @@ window.details = {
             { "description": "체력 상승 : 90" },
             { "description": "공격력 상승 : 50" },
             { "description": "선원 효과 추가 1: 자신은 [QCK] 슬롯도 [유리] 슬롯으로 취급한다" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -16334,7 +16337,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turns",
@@ -16354,7 +16357,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "Boosts base ATK, HP and RCV of [QCK] and [PSY] characters by 30",
-            "level2": "Boosts base ATK of [QCK] and [PSY] characters by 75",
+            "level2": "[QCK] and [PSY] 속성의 기본 공격력이 75 상승한다",
         },
         limit: [
             { "description": "공격력 상승 : 10" },
@@ -16383,7 +16386,7 @@ window.details = {
             { "description": "체력 상승 : 90" },
             { "description": "회복력 상승 : 10" },
             { "description": "회복력 상승 : 20" },
-            { "description": "선원 효과 추가 2: Boosts base ATK of [QCK] and [PSY] characters by 75" },
+            { "description": "선원 효과 추가 2: [QCK] and [PSY] 속성의 기본 공격력이 75 상승한다" },
             { "description": "회복력 상승 : 20" },
             { "description": "회복력 상승 : 20" },
             { "description": "잠재능력 습득 3: Cooldown Reduction" },
@@ -16433,7 +16436,7 @@ window.details = {
             { "description": "회복력 상승 : 10" },
             { "description": "회복력 상승 : 20" },
             { "description": "회복력 상승 : 30" },
-            { "description": "잠재능력 습득 1: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 1: 회복 무효 내성" },
             { "description": "체력 상승 : 30" },
             { "description": "체력 상승 : 40" },
             { "description": "공격력 상승 : 20" },
@@ -16444,25 +16447,25 @@ window.details = {
             { "description": "체력 상승 : 60" },
             { "description": "체력 상승 : 80" },
             { "description": "선원 효과 추가 1: Boosts base ATK, HP and RCV of Shooter characters by 20" },
-            { "description": "잠재능력 습득 2: Barrier Penetration" },
+            { "description": "잠재능력 습득 2: 배리어 관통" },
         ],
         potential: [
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
-                    "Level 1: If there are 6 Shooter characters in your crew, reduces No Healing duration by 1 turn",
-                    "Level 2: If there are 5 Shooter characters in your crew, reduces No Healing duration by 1 turn",
-                    "Level 3: If there are 4 Shooter characters in your crew, reduces No Healing duration by 1 turn",
-                    "Level 4: If there are 4 Shooter characters in your crew, reduces No Healing duration by 2 turns",
-                    "Level 5: If there are 4 Shooter characters in your crew, reduces No Healing duration by 3 turns"
+                    "Level 1: 일당에 사격형이 6명 있을 때 회복 무효 상태를 1턴 회복한다",
+                    "Level 2: 일당에 사격형이 5명 있을 때 회복 무효 상태를 1턴 회복한다",
+                    "Level 3: 일당에 사격형이 4명 있을 때 회복 무효 상태를 1턴 회복한다",
+                    "Level 4: 일당에 사격형이 4명 있을 때 회복 무효 상태를 2턴 회복한다",
+                    "Level 5: 일당에 사격형이 4명 있을 때 회복 무효 상태를 3턴 회복한다"
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
-                    "Level 2: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
-                    "Level 3: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 1: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
+                    "Level 2: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
+                    "Level 3: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
                     "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
                     "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
@@ -16485,7 +16488,7 @@ window.details = {
         specialName: "그릴 샷",
         sailor: {
             "base": "None",
-            "level1": "Makes [RCV] orbs “beneficial” for all characters",
+            "level1": "일당은 [RCV] 슬롯도 [유리] 슬롯으로 취급한다",
             "level2": "일당의 기본 능력치가 40 상승한다",
         },
         sailorNotes: "#{beneficial}",
@@ -16498,7 +16501,7 @@ window.details = {
             { "description": "회복력 상승 : 20" },
             { "description": "필살기 턴 수 단축: 1" },
             { "description": "공격력 상승 : 60" },
-            { "description": "선원 효과 추가 1: Makes [RCV] orbs “beneficial” for all characters" },
+            { "description": "선원 효과 추가 1: 일당은 [RCV] 슬롯도 [유리] 슬롯으로 취급한다" },
             { "description": "회복력 상승 : 20" },
             { "description": "필살기 턴 수 단축: 1" },
             { "description": "회복력 상승 : 30" },
@@ -16520,11 +16523,11 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 5% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below 5% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below 5% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below 10% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below 20% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 5% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 5% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1.5배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 5% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1.5배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 10% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1.5배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 20% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1.5배의 체력을 회복한다"
                 ]
             },
         ]
@@ -16571,11 +16574,11 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 20% at the start of the turn, recovers .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 20% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.5배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다"
                 ]
             },
         ]
@@ -16661,7 +16664,7 @@ window.details = {
             { "description": "체력 상승 : 80" },
             { "description": "필살기 턴 수 단축: 1" },
             { "description": "선원 효과 추가 2: Adds 2x character's ATK as Additional Typeless Damage" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -16675,7 +16678,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turns",
@@ -16837,7 +16840,7 @@ window.details = {
             { "description": "선원 효과 추가 1: Boosts amount healed from [RCV] orbs by 150 each" },
             { "description": "공격력 상승 : 60" },
             { "description": "공격력 상승 : 70" },
-            { "description": "잠재능력 습득 3: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 3: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -16861,7 +16864,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -16948,7 +16951,7 @@ window.details = {
         captain: "Boosts ATK of all characters by 1.5x after the 11th hit in the chain, by 1.75x after the 22nd hit, by 2x after the 33th hit, by 3x after the 44th hit",
         special: "Deals 15 hits of 12x character's ATK in typeless damage to random enemies and boosts ATK of [QCK] and [INT] characters by 2x for 1 턴",
         specialNotes: "#{randomHits : 15}",
-        sailor: "Completely resists Paralysis on this character",
+        sailor: "자신의 마비 상태를 완전히 회복한다",
         specialName: "Swamp-Swamp Gatling Gun",
     },
     1479: {//Caribou
@@ -16956,7 +16959,7 @@ window.details = {
         special: "Deals 15 hits of 12x character's ATK in typeless damage to random enemies and boosts ATK of [QCK] and [INT] characters by 2x for 1 턴",
         specialNotes: "#{randomHits : 15}",
         sailor: {
-            "base": "Completely resists Paralysis on this character",
+            "base": "자신의 마비 상태를 완전히 회복한다",
             "level1": "자신은 [RCV] and [TND] 슬롯도 [유리] 슬롯으로 취급한다",
         },
         sailorNotes: "#{beneficial}",
@@ -17035,7 +17038,7 @@ window.details = {
             { "description": "체력 상승 : 80" },
             { "description": "필살기 턴 수 단축: 2" },
             { "description": "선원 효과 추가 1: Reduces Paralysis duration on this character by 3 turns" },
-            { "description": "잠재능력 습득 2: Barrier Penetration" },
+            { "description": "잠재능력 습득 2: 배리어 관통" },
         ],
         potential: [
             {
@@ -17049,9 +17052,9 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 1: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
                     "Level 2: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
                     "Level 3: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
                     "Level 4: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
@@ -17078,7 +17081,7 @@ window.details = {
             { "description": "공격력 상승 : 15" },
             { "description": "체력 상승 : 30" },
             { "description": "회복력 상승 : 10" },
-            { "description": "잠재능력 습득 1: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 1: 회복 무효 내성" },
             { "description": "공격력 상승 : 30" },
             { "description": "체력 상승 : 60" },
             { "description": "회복력 상승 : 50" },
@@ -17089,11 +17092,11 @@ window.details = {
             { "description": "공격력 상승 : 60" },
             { "description": "필살기 턴 수 단축: 1" },
             { "description": "선원 효과 추가 1: 일당의 기본 능력치가 50 상승한다" },
-            { "description": "잠재능력 습득 2: Barrier Penetration" },
+            { "description": "잠재능력 습득 2: 배리어 관통" },
         ],
         potential: [
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
@@ -17103,9 +17106,9 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 1: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
                     "Level 2: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
                     "Level 3: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
                     "Level 4: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
@@ -17157,7 +17160,7 @@ window.details = {
             { "description": "공격력 상승 : 50" },
             { "description": "필살기 턴 수 단축: 1" },
             { "description": "선원 효과 추가 2: 자신은 [STR] 슬롯도 [유리] 슬롯으로 취급한다" },
-            { "description": "잠재능력 습득 2: Barrier Penetration" },
+            { "description": "잠재능력 습득 2: 배리어 관통" },
         ],
         potential: [
             {
@@ -17171,9 +17174,9 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 1: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
                     "Level 2: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
                     "Level 3: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
                     "Level 4: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
@@ -17279,11 +17282,11 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 40% at the start of the turn, recovers .75x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below 40% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below 40% at the start of the turn, recovers 1.25x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below 50% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below 50% at the start of the turn, recovers 2x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 40% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.75배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 40% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 40% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1.25배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 50% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1.5배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 50% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x2배의 체력을 회복한다"
                 ]
             },
         ]
@@ -17620,7 +17623,7 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [ 
-                    "Level 1: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
+                    "Level 1: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
                     "Level 2: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
                     "Level 3: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
                     "Level 4: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
@@ -17744,11 +17747,11 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 20% at the start of the turn, recovers .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 20% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.5배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다"
                 ]
             },
         ]
@@ -17784,7 +17787,7 @@ window.details = {
             { "description": "필살기 턴 수 단축: 1" },
             { "description": "공격력 상승 : 40" },
             { "description": "선원 효과 추가 2: Makes [STR] orbs “beneficial” for Shooter characters" },
-            { "description": "잠재능력 습득 2: Barrier Penetration" },
+            { "description": "잠재능력 습득 2: 배리어 관통" },
         ],
         potential: [
             {
@@ -17798,11 +17801,11 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
-                    "Level 2: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
-                    "Level 3: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 1: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
+                    "Level 2: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
+                    "Level 3: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
                     "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
                     "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
@@ -17819,7 +17822,7 @@ window.details = {
         captain: "Boosts ATK of characters with cost 30 or less by 2.25x and their RCV by 1.5x",
         special: "Reduces damage received by 90% for 1 turn, reduces the defense of all enemies by 90% for 1 turn, reduces enemy's Threshold Damage Reduction and Percent Damage Reduction duration by 2 turns",
         sailor: {
-            "base": "Boosts base ATK of [INT] characters by 50",
+            "base": "[INT] 속성의 기본 공격력이 50 상승한다",
             "level1": "Boosts base HP of 야심형 characters by 50",
         },
         specialName: "Negative Hollow: You're All Rotten Imbeciles",
@@ -17900,21 +17903,21 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다"
                 ]
             },
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 20% at the start of the turn, recovers .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 20% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.5배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다"
                 ]
             },
         ]
@@ -18078,7 +18081,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "일당의 기본 능력치가 15 상승한다",
-            "level2": "Makes [TND] orbs “beneficial” for all characters",
+            "level2": "일당은 [TND] 슬롯도 [유리] 슬롯으로 취급한다",
         },
         sailorNotes: "#{beneficial}",
         limit: [
@@ -18095,7 +18098,7 @@ window.details = {
             { "description": "공격력 상승 : 20" },
             { "description": "공격력 상승 : 40" },
             { "description": "필살기 턴 수 단축: 1" },
-            { "description": "선원 효과 추가 2: Makes [TND] orbs “beneficial” for all characters" },
+            { "description": "선원 효과 추가 2: 일당은 [TND] 슬롯도 [유리] 슬롯으로 취급한다" },
             { "description": "잠재능력 습득 2: 긴급 회복" },
         ],
         potential: [
@@ -18112,11 +18115,11 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 5% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 5% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다"
                 ]
             },
         ]
@@ -18128,7 +18131,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "Boosts base RCV of all characters by 20",
-            "level2": "Boosts this character's attack against [STR] characters by 2x",
+            "level2": "자신이 [STR] 속성에게 주는 일반 공격에 의한 데미지가 2배가 된다",
         },
         limit: [
             { "description": "공격력 상승 : 10" },
@@ -18144,28 +18147,28 @@ window.details = {
             { "description": "공격력 상승 : 30" },
             { "description": "공격력 상승 : 40" },
             { "description": "필살기 턴 수 단축: 1" },
-            { "description": "선원 효과 추가 2: Boosts this character's attack against [STR] characters by 2x" },
+            { "description": "선원 효과 추가 2: 자신이 [STR] 속성에게 주는 일반 공격에 의한 데미지가 2배가 된다" },
             { "description": "잠재능력 습득 2: 긴급 회복" },
         ],
         potential: [
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 30% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ??% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 70% 확률로 공격력의 8% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ??% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 70% 확률로 자신의 최종 히트 데미지에 8%의 추가 데미지가 가산된다"
                 ]
             },
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 5% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below 20% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 5% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 20% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1.5배의 체력을 회복한다"
                 ]
             },
         ]
@@ -18389,11 +18392,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 30% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 40% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 50% 확률로 공격력의 7% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 7%의 추가 데미지가 가산된다"
                 ]
             },
             {
@@ -18568,11 +18571,11 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 20% at the start of the turn, recovers .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ??% at the start of the turn, recovers ??x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ??% at the start of the turn, recovers ??x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ??% at the start of the turn, recovers ??x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ??% at the start of the turn, recovers ??x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 20% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.5배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x??배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x??배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x??배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x??배의 체력을 회복한다"
                 ]
             },
         ]
@@ -18652,11 +18655,11 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 20% at the start of the turn, recovers .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 20% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.5배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 ??% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다"
                 ]
             },
         ]
@@ -18721,11 +18724,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 40% 확률로 공격력의 7% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 15% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 7%의 추가 데미지가 가산된다"
                 ]
             },
         ]
@@ -18773,7 +18776,7 @@ window.details = {
             { "description": "회복력 상승 : 20" },
             { "description": "회복력 상승 : 20" },
             { "description": "공격력 상승 : 30" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
             { "description": "공격력 상승 : 30" },
             { "description": "공격력 상승 : 40" },
             { "description": "회복력 상승 : 30" },
@@ -18802,7 +18805,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -18814,11 +18817,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 40% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 50% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 70% 확률로 공격력의 6% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 80% 확률로 공격력의 8% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 90% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 70% 확률로 자신의 최종 히트 데미지에 6%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 80% 확률로 자신의 최종 히트 데미지에 8%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 90% 확률로 자신의 최종 히트 데미지에 10%의 추가 데미지가 가산된다"
                 ]
             },
         ],
@@ -18956,7 +18959,7 @@ window.details = {
         specialName: "Heavy Thunder",
         sailor: {
             "base": "None",
-            "level1": "Makes [RCV] orbs “beneficial” for all characters",
+            "level1": "일당은 [RCV] 슬롯도 [유리] 슬롯으로 취급한다",
             "level2": "Boosts amount healed from [RCV] orbs by 300 each",
         },
         sailorNotes: "#{beneficial}",
@@ -18968,7 +18971,7 @@ window.details = {
             { "description": "공격력 상승 : 5" },
             { "description": "공격력 상승 : 5" },
             { "description": "공격력 상승 : 10" },
-            { "description": "선원 효과 추가 1: Makes [RCV] orbs “beneficial” for all characters" },
+            { "description": "선원 효과 추가 1: 일당은 [RCV] 슬롯도 [유리] 슬롯으로 취급한다" },
             { "description": "체력 상승 : 20" },
             { "description": "체력 상승 : 30" },
             { "description": "체력 상승 : 30" },
@@ -18990,7 +18993,7 @@ window.details = {
             { "description": "선원 효과 추가 2: Boosts amount healed from [RCV] orbs by 300 each" },
             { "description": "회복력 상승 : 20" },
             { "description": "회복력 상승 : 30" },
-            { "description": "잠재능력 습득 3: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 3: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -19014,7 +19017,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 3 turns",
@@ -19086,11 +19089,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 30% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ?% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ?% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ?% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, ?% 확률로 공격력의 ?% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다"
                 ]
             },
         ]
@@ -19564,7 +19567,7 @@ window.details = {
         specialName: "Daybreak Ruler's Spear",
         sailor: {
             "base": "None",
-            "level1": "Boosts base ATK, HP and RCV of Striker characters by 70",
+            "level1": "타격형 캐릭터의 기본 능력치가 70 상승한다",
             "level2": "자신은 [INT] 슬롯도 [유리] 슬롯으로 취급한다",
         },
         sailorNotes: "#{beneficial}",
@@ -19576,7 +19579,7 @@ window.details = {
             { "description": "체력 상승 : 15" },
             { "description": "체력 상승 : 20" },
             { "description": "체력 상승 : 25" },
-            { "description": "선원 효과 추가 1: Boosts base ATK, HP and RCV of Striker characters by 70" },
+            { "description": "선원 효과 추가 1: 타격형 캐릭터의 기본 능력치가 70 상승한다" },
             { "description": "공격력 상승 : 10" },
             { "description": "공격력 상승 : 15" },
             { "description": "공격력 상승 : 20" },
@@ -19680,11 +19683,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 40% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 50% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 60% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 70% 확률로 공격력의 6% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 80% 확률로 공격력의 7% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 60% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 70% 확률로 자신의 최종 히트 데미지에 6%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 80% 확률로 자신의 최종 히트 데미지에 7%의 추가 데미지가 가산된다"
                 ]
             },
         ]
@@ -19735,11 +19738,11 @@ window.details = {
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 10% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다"
                 ]
             },
         ]
@@ -19756,7 +19759,7 @@ window.details = {
         special: "봉쇄·선장효과 무효 상태를 5턴 회복하고, 선장이 타격형이면 1턴 동안 체인 계수가 2.75배로 고정된다",
         sailor: {
             "base": "선장이 타격형일 경우 타격형 캐릭터의 [DEX] 슬롯을 [유리] 슬롯으로 취급한다",
-            "level1": "Boosts base ATK, HP and RCV of Striker characters by 75",
+            "level1": "타격형 캐릭터의 기본 능력치가 75 상승한다",
         },
         sailorNotes: "#{beneficial}",
         specialName: "승룡",
@@ -19772,7 +19775,7 @@ window.details = {
             { "description": "체력 상승 : 20" },
             { "description": "잠재능력 소켓슬롯 추가 : 1" },
             { "description": "체력 상승 : 30" },
-            { "description": "선원 효과 추가 1: Boosts base ATK, HP and RCV of Striker characters by 75" },
+            { "description": "선원 효과 추가 1: 타격형 캐릭터의 기본 능력치가 75 상승한다" },
             { "description": "체력 상승 : 40" },
             { "description": "체력 상승 : 60" },
             { "description": "잠재능력 습득 2: [QCK] 데미지 피해 감소" },
@@ -19851,7 +19854,7 @@ window.details = {
         captain: "Boosts ATK of 강인형 characters by 3.5x if they have a matching orb, by 2.5x otherwise, reduces crew's RCV to 0",
         sailor: {
             "base": "None",
-            "level1": "Boosts base ATK, HP and RCV of 강인형 characters by 30",
+            "level1": "강인형 캐릭터의 기본 능력치가 30 상승한다",
             "level2": "Makes [RCV] and [TND] orbs “beneficial” for 강인형 characters",
         },
         sailorNotes: "#{beneficial}",
@@ -19863,7 +19866,7 @@ window.details = {
             { "description": "체력 상승 : 20" },
             { "description": "체력 상승 : 30" },
             { "description": "체력 상승 : 40" },
-            { "description": "선원 효과 추가 1: Boosts base ATK, HP and RCV of 강인형 characters by 30" },
+            { "description": "선원 효과 추가 1: 강인형 캐릭터의 기본 능력치가 30 상승한다" },
             { "description": "회복력 상승 : 5" },
             { "description": "회복력 상승 : 10" },
             { "description": "회복력 상승 : 15" },
@@ -19885,7 +19888,7 @@ window.details = {
             { "description": "선원 효과 추가 2: Makes [RCV] and [TND] orbs “beneficial” for 강인형 characters" },
             { "description": "체력 상승 : 90" },
             { "description": "공격력 상승 : 50" },
-            { "description": "잠재능력 습득 3: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 3: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -19909,7 +19912,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turns",
@@ -19956,11 +19959,11 @@ window.details = {
             {
                 "Name": "회복 무효 내성",
                 "description": [ 
-                    "Level 1: If there are 6 Shooter characters in your crew, 회복 무효 상태 회복 : 1 턴",
-                    "Level 2: If there are 6 Shooter characters in your crew, 회복 무효 상태 회복 : 1 턴",
-                    "Level 3: If there are 6 Shooter characters in your crew, 회복 무효 상태 회복 : 1 턴",
-                    "Level 4: If there are 6 Shooter characters in your crew, 회복 무효 상태 회복 : 2 턴",
-                    "Level 5: If there are 6 Shooter characters in your crew, 회복 무효 상태 회복 : 3 턴"
+                    "Level 1: 일당에 사격형이 6명 있을 때 회복 무효 상태를 1턴 회복한다",
+                    "Level 2: 일당에 사격형이 6명 있을 때 회복 무효 상태를 1턴 회복한다",
+                    "Level 3: 일당에 사격형이 6명 있을 때 회복 무효 상태를 1턴 회복한다",
+                    "Level 4: 일당에 사격형이 6명 있을 때 회복 무효 상태를 2턴 회복한다",
+                    "Level 5: 일당에 사격형이 6명 있을 때 회복 무효 상태를 3턴 회복한다"
                 ]
             },
             {
@@ -20112,25 +20115,25 @@ window.details = {
             { "description": "잠재능력 소켓슬롯 추가 : 1" },
             { "description": "체력 상승 : 85" },
             { "description": "선원 효과 추가 2: Reduces Paralysis duration by 1 turn" },
-            { "description": "잠재능력 습득 2: Barrier Penetration" },
+            { "description": "잠재능력 습득 2: 배리어 관통" },
         ],
         potential: [
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 15% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 10%의 추가 데미지가 가산된다"
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
-                    "Level 2: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
-                    "Level 3: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 1: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
+                    "Level 2: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
+                    "Level 3: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
                     "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
                     "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
@@ -20234,7 +20237,7 @@ window.details = {
             { "description": "체력 상승 : 60" },
             { "description": "필살기 턴 수 단축: 1" },
             { "description": "공격력 상승 : 50" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -20248,7 +20251,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turns",
@@ -20290,7 +20293,7 @@ window.details = {
             { "description": "체력 상승 : 50" },
             { "description": "공격력 상승 : 20" },
             { "description": "체력 상승 : 60" },
-            { "description": "잠재능력 습득 2: Barrier Penetration" },
+            { "description": "잠재능력 습득 2: 배리어 관통" },
         ],
         potential: [
             {
@@ -20304,9 +20307,9 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 1: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
                     "Level 2: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
                     "Level 3: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
                     "Level 4: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
@@ -20398,11 +20401,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 30% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 40% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 50% 확률로 공격력의 6% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 60% 확률로 공격력의 7% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 70% 확률로 공격력의 8% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 6%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 60% 확률로 자신의 최종 히트 데미지에 7%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 70% 확률로 자신의 최종 히트 데미지에 8%의 추가 데미지가 가산된다"
                 ]
             },
         ]
@@ -20418,7 +20421,7 @@ window.details = {
         specialName: "The Darkest Demon",
         sailor: {
             "base": "None",
-            "level1": "Boosts base ATK, HP and RCV of Striker characters by 25",
+            "level1": "타격형 캐릭터의 기본 능력치가 25 상승한다",
         },
         limit: [
             { "description": "공격력 상승 : 20" },
@@ -20432,7 +20435,7 @@ window.details = {
             { "description": "체력 상승 : 30" },
             { "description": "필살기 턴 수 단축: 1" },
             { "description": "체력 상승 : 60" },
-            { "description": "선원 효과 추가 1: Boosts base ATK, HP and RCV of Striker characters by 25" },
+            { "description": "선원 효과 추가 1: 타격형 캐릭터의 기본 능력치가 25 상승한다" },
             { "description": "체력 상승 : 70" },
             { "description": "잠재능력 소켓슬롯 추가 : 1" },
             { "description": "잠재능력 습득 2: [QCK] 데미지 피해 감소" },
@@ -20490,7 +20493,7 @@ window.details = {
             { "description": "회복력 상승 : 10" },
             { "description": "체력 상승 : 40" },
             { "description": "공격력 상승 : 20" },
-            { "description": "잠재능력 습득 2: Barrier Penetration" },
+            { "description": "잠재능력 습득 2: 배리어 관통" },
             { "description": "회복력 상승 : 10" },
             { "description": "공격력 상승 : 20" },
             { "description": "체력 상승 : 40" },
@@ -20505,23 +20508,23 @@ window.details = {
             { "description": "체력 상승 : 90" },
             { "description": "회복력 상승 : 20" },
             { "description": "체력 상승 : 100" },
-            { "description": "잠재능력 습득 3: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 3: 회복 무효 내성" },
         ],
         potential: [
             {
                 "Name": "긴급 회복",
                 "description": [
-                    "Level 1: If HP is below 10% at the start of the turn, recovers 2x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below 15% at the start of the turn, recovers 2x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below 20% at the start of the turn, recovers 2x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below 30% at the start of the turn, recovers 2x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below 30% at the start of the turn, recovers 3x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: 남은 체력이 10% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x2배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 15% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x2배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 20% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x2배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 30% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x2배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 30% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x3배의 체력을 회복한다"
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 1: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
                     "Level 2: This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
                     "Level 3: This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
                     "Level 4: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
@@ -20529,7 +20532,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -20575,11 +20578,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [ 
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 15% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 10%의 추가 데미지가 가산된다"
                 ]
             },
             {
@@ -20634,7 +20637,7 @@ window.details = {
         specialName: "잔털정리권",
         specialNotes: "#{stages}",
         sailor: {
-            "base": "Completely resists Paralysis on this character",
+            "base": "자신의 마비 상태를 완전히 회복한다",
             "level1": "When any other Free Spirit character uses a special, reduces own cooldown by 1 turn",
         },
         limit: [
@@ -20658,11 +20661,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [ 
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 30% 확률로 공격력의 7% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 15% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 7%의 추가 데미지가 가산된다"
                 ]
             },
             {
@@ -20816,7 +20819,7 @@ window.details = {
             { "description": "체력 상승 : 50" },
             { "description": "체력 상승 : 55" },
             { "description": "체력 상승 : 60" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
             { "description": "공격력 상승 : 15" },
             { "description": "공격력 상승 : 20" },
             { "description": "공격력 상승 : 25" },
@@ -20845,7 +20848,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -20857,11 +20860,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 40% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 50% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 70% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 80% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 90% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 70% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 80% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 90% 확률로 자신의 최종 히트 데미지에 10%의 추가 데미지가 가산된다"
                 ]
             },
         ]
@@ -21151,7 +21154,7 @@ window.details = {
         special: "모든 슬롯을 [DEX]로 바꾸고, 2턴 동안 적 전체의 방어력을 대폭 감소시키며, 타격형과 강인형 캐릭터의 공격력을 2턴 동안 1.75배로 만든다",
         sailor: {
             "base": "자신은 [STR] 슬롯도 [유리] 슬롯으로 취급한다",
-            "level1": "Boosts this character's attack against [STR] characters by 2x",
+            "level1": "자신이 [STR] 속성에게 주는 일반 공격에 의한 데미지가 2배가 된다",
         },
         sailorNotes: "#{beneficial}",
         specialName: "뱀머리칼 강림 팔기대사",
@@ -21166,7 +21169,7 @@ window.details = {
             { "description": "회복력 상승 : 30" },
             { "description": "체력 상승 : 70" },
             { "description": "공격력 상승 : 30" },
-            { "description": "선원효과 추가 1: 이 캐릭터의 공격력은 [STR]캐릭터를 상대로 2배 증가한다." },
+            { "description": "선원효과 추가 1: 자신이 [STR] 속성에게 주는 일반 공격에 의한 데미지가 2배가 된다" },
             { "description": "공격력 상승 : 40" },
             { "description": "체력 상승 : 90" },
             { "description": "소켓 슬롯 1개 추가" },
@@ -21275,7 +21278,7 @@ window.details = {
             { "description": "공격력 상승 : 20" },
             { "description": "공격력 상승 : 30" },
             { "description": "공격력 상승 : 50" },
-            { "description": "선원효과 추가 1: Reduces Blindness duration by 3 턴" },
+            { "description": "선원효과 추가 1: 의성어 은폐 상태를 3턴 회복한다" },
             { "description": "체력 상승 : 70" },
             { "description": "필살기 턴 단축 : 1턴" },
             { "description": "소켓 슬롯 1개 추가" },
@@ -21423,11 +21426,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [ 
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 15% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 10%의 추가 데미지가 가산된다"
                 ]
             },
             {
@@ -21626,7 +21629,7 @@ window.details = {
             { "description": "공격력 상승 : 30" },
             { "description": "필살기 턴 수 단축: 1" },
             { "description": "공격력 상승 : 50" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -21640,7 +21643,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turns",
@@ -21682,7 +21685,7 @@ window.details = {
             { "description": "체력 상승 : 40" },
             { "description": "공격력 상승 : 30" },
             { "description": "공격력 상승 : 30" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -21696,7 +21699,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
@@ -21755,11 +21758,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 30% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ?% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ?% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ?% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, ?% 확률로 공격력의 ?% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다"
                 ]
             },
         ]
@@ -21795,7 +21798,7 @@ window.details = {
             { "description": "체력 상승 : 50" },
             { "description": "필살기 턴 수 단축: 1" },
             { "description": "공격력 상승 : 50" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -21809,7 +21812,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
@@ -21832,7 +21835,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "Boosts base ATK of 강인형 characters by 50",
-            "level2": "Completely resists Paralysis on this character",
+            "level2": "자신의 마비 상태를 완전히 회복한다",
         },
         limit: [
             { "description": "공격력 상승 : 10" },
@@ -21942,7 +21945,7 @@ window.details = {
             { "description": "선원 효과 추가 2: If this character has an [QCK] orb and you hit a PERFECT with him, keep his [QCK] orb for the next turn" },
             { "description": "체력 상승 : 70" },
             { "description": "체력 상승 : 80" },
-            { "description": "잠재능력 습득 3: Barrier Penetration" },
+            { "description": "잠재능력 습득 3: 배리어 관통" },
         ],
         potential: [
             {
@@ -21958,17 +21961,17 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 30% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 40% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 50% 확률로 공격력의 7% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 7%의 추가 데미지가 가산된다"
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 1: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
                     "Level 2: This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
                     "Level 3: This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
                     "Level 4: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
@@ -22032,11 +22035,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [ 
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 15% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 10%의 추가 데미지가 가산된다"
                 ]
             },
             {
@@ -22124,11 +22127,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [ 
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 20% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 15% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 10%의 추가 데미지가 가산된다"
                 ]
             },
             {
@@ -22258,7 +22261,7 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [ 
-                    "Level 1: 이 캐릭터가 PERFECT 적중 시, 20% 확률로 캐릭터 데미지의 3%만큼 추가데미지를 입힌다.",
+                    "Level 1: 이 캐릭터가 자신의 공격이 PERFECT일 경우 20% 확률로 캐릭터 데미지의 3%만큼 추가데미지를 입힌다.",
                     "Level 2: 이 캐릭터가 PERFECT 적중 시, 30% 확률로 캐릭터 데미지의 5%만큼 추가데미지를 입힌다.",
                     "Level 3: 이 캐릭터가 PERFECT 적중 시, 30% 확률로 캐릭터 데미지의 5%만큼 추가데미지를 입힌다.",
                     "Level 4: 이 캐릭터가 PERFECT 적중 시, 50% 확률로 캐릭터 데미지의 5%만큼 추가데미지를 입힌다.",
@@ -22478,11 +22481,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [ 
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 40% 확률로 공격력의 7% 추가 데미지를 입힌다."
+                    "Level 1: PERFECT 적중 시, 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 15% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 7%의 추가 데미지가 가산된다"
                 ]
             },
             {
@@ -22908,7 +22911,7 @@ window.details = {
             { "description": "필살기 턴 수 단축: 1" },
             { "description": "공격력 상승 : 50" },
             { "description": "선원 효과 추가 2: 사격형 캐릭터의 기본 공격력이 75 상승한다" },
-            { "description": "잠재능력 습득 2: Barrier Penetration" },
+            { "description": "잠재능력 습득 2: 배리어 관통" },
         ],
         potential: [
             {
@@ -22922,7 +22925,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
                     "Level 1: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
                     "Level 2: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
@@ -22957,12 +22960,12 @@ window.details = {
         specialName: "스트라이크 스트럭처",
         sailor: {
             "base": "None",
-            "level1": "Boosts base ATK of 참격형 characters by 40",
+            "level1": "참격형 캐릭터의 기본 공격력이 40 상승한다",
         },
         limit: [
             { "description": "체력 상승 : 30" },
             { "description": "회복력 상승 : 10" },
-            { "description": "선원 효과 추가 1: Boosts base ATK of 참격형 characters by 40" },
+            { "description": "선원 효과 추가 1: 참격형 캐릭터의 기본 공격력이 40 상승한다" },
             { "description": "공격력 상승 : 20" },
             { "description": "체력 상승 : 40" },
             { "description": "회복력 상승 : 20" },
@@ -23034,11 +23037,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 30% 확률로 공격력의 9% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 15% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 9%의 추가 데미지가 가산된다"
                 ]
             },
             {
@@ -23065,7 +23068,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "Boosts base ATK and HP of 강인형 characters by 60",
-            "level2": "Completely resists Paralysis on this character",
+            "level2": "자신의 마비 상태를 완전히 회복한다",
         },
         limit: [
             { "description": "공격력 상승 : 5" },
@@ -23094,7 +23097,7 @@ window.details = {
             { "description": "체력 상승 : 80" },
             { "description": "공격력 상승 : 30" },
             { "description": "회복력 상승 : 40" },
-            { "description": "선원 효과 추가 2: Completely resists Paralysis on this character" },
+            { "description": "선원 효과 추가 2: 자신의 마비 상태를 완전히 회복한다" },
             { "description": "공격력 상승 : 30" },
             { "description": "공격력 상승 : 50" },
             { "description": "잠재능력 습득 3: 슬롯 봉쇄 내성" },
@@ -23113,11 +23116,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 20% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 30% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 30% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 50% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 50% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 10%의 추가 데미지가 가산된다"
                 ]
             },
             {
@@ -23154,7 +23157,7 @@ window.details = {
             { "description": "회복력 상승 : 10" },
             { "description": "회복력 상승 : 20" },
             { "description": "체력 상승 : 50" },
-            { "description": "잠재능력 습득 1: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 1: 회복 무효 내성" },
             { "description": "공격력 상승 : 20" },
             { "description": "체력 상승 : 50" },
             { "description": "공격력 상승 : 30" },
@@ -23169,7 +23172,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 1 turn",
@@ -23288,11 +23291,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 30% 확률로 공격력의 9% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 15% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 9%의 추가 데미지가 가산된다"
                 ]
             },
             {
@@ -23792,7 +23795,7 @@ window.details = {
         captain: "Boosts ATK of 야심형 characters by 2.25x",
         special: "Reduces crew's current HP by 50%, deals 10x the amount of HP subtracted in typeless damage to one enemy, reduces enemy's Threshold Damage Reduction, Increased Defense and ATK UP duration by 3 turns and changes own orb into [PSY]",
         specialName: "Spring Death Knock",
-        sailor: "Boosts this character's attack against [INT] characters by 1.1x"
+        sailor: "자신이 [INT] 속성에게 주는 일반 공격에 의한 데미지가 1.1배가 된다"
     },
     1871: {//Bellamy :: modified
         captain: "야심형 캐릭터의 공격력을 2.75배로 만든다",
@@ -23959,7 +23962,7 @@ window.details = {
         captain: "Boosts ATK of Striker characters by 2x and reduces damage received by 10%",
         special: "Deals 50,000 fixed damage to one enemy, reduces Chain Multiplier Limit and Chain Coefficient Reduction duration by 5 turns and changes adjacent orbs into matching orbs",
         specialName: "Strike of Determination",
-        sailor: "Makes [STR] orbs “beneficial” for this unit",
+        sailor: "자신은 [STR] 슬롯도 [유리] 슬롯으로 취급한다",
         sailorNotes: "#{beneficial}",
     },
     1877: {//Rebecca
@@ -23967,7 +23970,7 @@ window.details = {
         special: "Deals 50,000 fixed damage to one enemy, reduces Chain Multiplier Limit and Chain Coefficient Reduction duration by 5 turns and changes adjacent orbs into matching orbs",
         specialName: "Strike of Determination",
         sailor: {
-            "base": "Makes [STR] orbs “beneficial” for this unit",
+            "base": "자신은 [STR] 슬롯도 [유리] 슬롯으로 취급한다",
             "level1": "Boosts base ATK, HP and RCV of Striker and 참격형 characters by 50",
         },
         sailorNotes: "#{beneficial}",
@@ -24185,8 +24188,8 @@ window.details = {
         specialName: "Flash of [Yoru]",
         sailor: {
             "base": "None",
-            "level1": "Boosts base HP of 참격형 characters by 120",
-            "level2": "Boosts base ATK of 참격형 characters by 50",
+            "level1": "참격형 캐릭터의 기본 체력이 120 상승한다",
+            "level2": "참격형 캐릭터의 기본 공격력이 50 상승한다",
         },
         limit: [
             { "description": "체력 상승 : 5" },
@@ -24196,7 +24199,7 @@ window.details = {
             { "description": "체력 상승 : 20" },
             { "description": "체력 상승 : 25" },
             { "description": "체력 상승 : 30" },
-            { "description": "선원 효과 추가 1: Boosts base HP of 참격형 characters by 120" },
+            { "description": "선원 효과 추가 1: 참격형 캐릭터의 기본 체력이 120 상승한다" },
             { "description": "체력 상승 : 35" },
             { "description": "체력 상승 : 40" },
             { "description": "회복력 상승 : 10" },
@@ -24215,7 +24218,7 @@ window.details = {
             { "description": "공격력 상승 : 20" },
             { "description": "공격력 상승 : 30" },
             { "description": "공격력 상승 : 40" },
-            { "description": "선원 효과 추가 2: Boosts base ATK of 참격형 characters by 50" },
+            { "description": "선원 효과 추가 2: 참격형 캐릭터의 기본 공격력이 50 상승한다" },
             { "description": "공격력 상승 : 50" },
             { "description": "공격력 상승 : 60" },
             { "description": "잠재능력 습득 3: 크리티컬 공격" },
@@ -24376,7 +24379,7 @@ window.details = {
         specialName: "별이 떨어지는 밤의 반짝임",
         sailor: {
             "base": "None",
-            "level1": "Boosts base ATK, HP and RCV of 야심형 characters by 50",
+            "level1": "야심형 캐릭터의 기본 능력치가 50 상승한다",
             "level2": "Makes [PSY] orbs “beneficial” for 야심형 characters",
         },
         sailorNotes: "#{beneficial}",
@@ -24387,7 +24390,7 @@ window.details = {
             { "description": "회복력 상승 : 5" },
             { "description": "잠재능력 습득 1: [INT] 데미지 피해 감소" },
             { "description": "새로운 선장 효과 습득: Boosts ATK of 야심형 characters by 1.5x, recovers 1.6x character's RCV in HP at the end of each turn. Boosts ATK of 야심형 characters by 1.95x following a chain of same type attacks no lower than Good" },
-            { "description": "선원 효과 추가 1: Boosts base ATK, HP and RCV of 야심형 characters by 50" },
+            { "description": "선원 효과 추가 1: 야심형 캐릭터의 기본 능력치가 50 상승한다" },
             { "description": "공격력 상승 : 15" },
             { "description": "체력 상승 : 40" },
             { "description": "회복력 상승 : 10" },
@@ -24705,7 +24708,7 @@ window.details = {
         captain: "Boosts ATK of Free Spirit characters by 2.25x",
         special: "Reduces enemy Barrier duration by 1 turn, Reduces enemies Damage Nullification duration by 1 turn and deals 30x character's ATK in [QCK] damage to all enemies",
         specialName: "Diaper Bomb",
-        sailor: "Makes [DEX] orbs “beneficial” for this unit",
+        sailor: "자신은 [DEX] 슬롯도 [유리] 슬롯으로 취급한다",
         sailorNotes: "#{beneficial}",
     },
     1904:{//Senor Pink :: modified
@@ -24878,7 +24881,7 @@ window.details = {
         specialName: "천 발의 화살 플랩 스레드",
         sailor: {
             "base": "None",
-            "level1": "Makes [QCK] orbs “beneficial” for this unit",
+            "level1": "자신은 [QCK] 슬롯도 [유리] 슬롯으로 취급한다",
             "level2": "Makes [DEX] orbs “beneficial” for 야심형 characters",
         },
         sailorNotes: "#{beneficial}",
@@ -25011,7 +25014,7 @@ window.details = {
             { "description": "새로운 선장 효과 습득: Boosts ATK of 강인형 and Free Spirit characters by 2x after scoring 2 PERFECTs in a row, boosts by 3.25x after scoring 4 PERFECTs in a row and reduce damage received by 4%" },
             { "description": "공격력 상승 : 30" },
             { "description": "체력 상승 : 70" },
-            { "description": "선원 효과 추가 2: Boosts base ATK, HP and RCV of 강인형 characters by 30" },
+            { "description": "선원 효과 추가 2: 강인형 캐릭터의 기본 능력치가 30 상승한다" },
             { "description": "공격력 상승 : 35" },
             { "description": "체력 상승 : 85" },
             { "description": "회복력 상승 : 30" },
@@ -25050,14 +25053,14 @@ window.details = {
         captain: "Boosts ATK of [STR] characters by 2x and reduces damage received by 10%",
         special: "Reduces Bind duration by 2 turns, boosts ATK of [STR] characters by 1.75x for 1 turn",
         specialName: "Brute Force Rescue",
-        sailor: "Makes [PSY] orbs “beneficial” for this unit",
+        sailor: "자신은 [PSY] 슬롯도 [유리] 슬롯으로 취급한다",
         sailorNotes: "#{beneficial}",
     },
     1918: {//Reiju
         captain: "Boosts ATK of [STR] characters by 2.25x and reduce damage received by 15%",
         special: "Reduces Bind duration by 2 turns, boosts ATK of [STR] characters by 1.75x for 1 turn",
         specialName: "Brute Force Rescue",
-        sailor: "Makes [PSY] orbs “beneficial” for this unit",
+        sailor: "자신은 [PSY] 슬롯도 [유리] 슬롯으로 취급한다",
         sailorNotes: "#{beneficial}",
     },
     1919: {//Sanji
@@ -25082,7 +25085,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "Boosts base ATK of Striker characters by 50",
-            "level2": "Makes [RCV] and [TND] orbs “beneficial” for this unit",
+            "level2": "자신은 [RCV] and [TND] 슬롯도 [유리] 슬롯으로 취급한다",
         },
         sailorNotes: "#{beneficial}",
         limit: [
@@ -25301,7 +25304,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "Striker 캐릭터의 기본 공격력과 체력이 60 상승한다",
-            "level2": "Completely resists Paralysis on this character",
+            "level2": "자신의 마비 상태를 완전히 회복한다",
         },
         limit: [
             { "description": "공격력 상승 : 10" },
@@ -25330,7 +25333,7 @@ window.details = {
             { "description": "체력 상승 : 80" },
             { "description": "필살기 턴 단축 : 1턴" },
             { "description": "회복력 상승 : 40" },
-            { "description": "선원 효과 추가 2: Completely resists Paralysis on this character" },
+            { "description": "선원 효과 추가 2: 자신의 마비 상태를 완전히 회복한다" },
             { "description": "공격력 상승 : 40" },
             { "description": "공격력 상승 : 45" },
             { "description": "잠재능력 습득 3: 회복 무효 내성" },
@@ -25529,7 +25532,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "Boosts base ATK, HP and RCV of Free Spirit characters by 30",
-            "level2": "Makes [PSY] orbs “beneficial” for this unit",
+            "level2": "자신은 [PSY] 슬롯도 [유리] 슬롯으로 취급한다",
         },
         sailorNotes: "#{beneficial}",
         limit: [
@@ -25929,7 +25932,7 @@ window.details = {
         captain: "Boosts ATK of [STR] characters by 2x and their RCV by 1.2x",
         special: "Reduces Chain Multiplier Limit and Chain Coefficient Reduction duration by 3 turns and locks the chain multiplier at 2.75x for 1 turn",
         specialName: "Hopping Crash",
-        sailor: "Makes [RCV] orbs “beneficial” for all characters",
+        sailor: "일당은 [RCV] 슬롯도 [유리] 슬롯으로 취급한다",
         sailorNotes: "#{beneficial}",
     },
     1957: {//Carrot
@@ -25937,7 +25940,7 @@ window.details = {
         special: "Reduces Chain Multiplier Limit and Chain Coefficient Reduction duration by 3 turns and locks the chain multiplier at 2.75x for 1 turn",
         specialName: "Hopping Crash",
         sailor: {
-            "base": "Makes [RCV] orbs “beneficial” for all characters",
+            "base": "일당은 [RCV] 슬롯도 [유리] 슬롯으로 취급한다",
             "level1": "Adds 2.5x character's ATK as Additional Typeless Damage",
         },
         sailorNotes: "#{beneficial}",
@@ -26387,7 +26390,7 @@ window.details = {
         specialNotes: "Change Action: When Change is activated, Recovers 2x character's RCV",
         specialName: "White Slash",
         sailor: {
-            "character1": "Boosts base ATK of [INT] and [PSY] characters by 50",
+            "character1": "[INT] and [PSY] 속성의 기본 공격력이 50 상승한다",
             "character2": "Boosts base RCV of [INT] and [PSY] characters by 30",
             "combined": "Boosts base ATK, HP and RCV of [INT] and [PSY] characters by 75"
         },
@@ -26780,8 +26783,8 @@ window.details = {
         specialNotes: "Change Action: When Change is activated, randomizes all non-matching orbs on [PSY] and [DEX] characters and adds .5x to Chain multiplier for 1 turn<br>#{ignoreBarrier}",
         specialName: "Armée de L'Air Power Shoot",
         sailor: {
-            "character1": "Boosts base ATK of [PSY] characters by 30",
-            "character2": "Boosts base ATK of [DEX] characters by 30",
+            "character1": "[PSY] 속성의 기본 공격력이 30 상승한다",
+            "character2": "[DEX] 속성의 기본 공격력이 30 상승한다",
             "combined": "Boosts base ATK, HP and RCV of [DEX] and [PSY] characters by 50",
             "level1": "Makes [TND] orbs “beneficial” for [DEX] and [PSY] characters",
         },
@@ -27085,7 +27088,7 @@ window.details = {
         specialName: "A Small Dine and Dash",
         sailor: {
             "base": "Reduces Silence duration on this character by 3 turns",
-            "level1": "Makes [RCV] orbs “beneficial” for all characters",
+            "level1": "일당은 [RCV] 슬롯도 [유리] 슬롯으로 취급한다",
         },
         sailorNotes: "#{silence}<br>#{beneficial}",
         limit: [
@@ -27102,7 +27105,7 @@ window.details = {
             { "description": "체력 상승 : 80" },
             { "description": "필살기 턴 단축 : 1턴" },
             { "description": "공격력 상승 : 50" },
-            { "description": "선원 효과 추가 1: Makes [RCV] orbs “beneficial” for all characters" },
+            { "description": "선원 효과 추가 1: 일당은 [RCV] 슬롯도 [유리] 슬롯으로 취급한다" },
             { "description": "잠재능력 습득 2: 긴급 회복" },
         ],
         potential: [
@@ -27308,7 +27311,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "Boosts base HP and ATK of [QCK] and [PSY] characters by 100",
-            "level2": "Makes [STR] and [INT] orbs “beneficial” for this unit",
+            "level2": "자신은 [STR] and [INT] 슬롯도 [유리] 슬롯으로 취급한다",
         },
         sailorNotes: "#{beneficial}",
         limit: [
@@ -27381,7 +27384,7 @@ window.details = {
         special: "Delays all enemies for 1 turn. If your Captain is a [QCK] or [PSY] character, boosts the Color Affinity of [QCK] and [PSY] by 2x for 1 turn",
         specialNotes: "#{colorAffinity : 2}",
         specialName: "Kimino Sleeve Cage: Lock",
-        sailor: "Boosts base ATK of [PSY] and [QCK] characters by 50",
+        sailor: "[PSY] and [QCK] 속성의 기본 공격력이 50 상승한다",
     },
     2027: {//Hina
         captain: "Boosts ATK of [QCK] and [PSY] characters by 2.25x and their RCV by 1.2x",
@@ -27389,7 +27392,7 @@ window.details = {
         specialNotes: "#{colorAffinity : 2}",
         specialName: "Kimino Sleeve Cage: Lock",
         sailor: {
-            "base": "Boosts base ATK of [PSY] and [QCK] characters by 50",
+            "base": "[PSY] and [QCK] 속성의 기본 공격력이 50 상승한다",
             "level1": "If this character has a [PSY] orb and you hit a PERFECT with her, keep her [PSY] orb for the next turn",
         },
         limit: [
@@ -27504,7 +27507,7 @@ window.details = {
         specialName: "Reporting on a Bizarre Incident",
         sailor: {
             "base": "Boosts base ATK, HP and RCV for [INT] characters by 50",
-            "level1": "Boosts base ATK of 참격형 characters by 30",
+            "level1": "참격형 캐릭터의 기본 공격력이 30 상승한다",
         },
         limit: [
             { "description": "공격력 상승 : 25" },
@@ -27855,14 +27858,14 @@ window.details = {
         captain: "Boosts ATK of Fighter characters by 1.75x and their HP by 1.2x",
         special: "Deals 15x character's ATK in [DEX] damage to one enemy, changes the orbs in the middle row into [PSY] orbs and boosts ATK of characters with 15 cost or less by 1.75x for 1 turn.",
         specialName: "Scornful Gang Up (Second Son)",
-        sailor: "Makes [PSY] orbs “beneficial” for this unit",
+        sailor: "자신은 [PSY] 슬롯도 [유리] 슬롯으로 취급한다",
         sailorNotes: "#{beneficial}",
     },
     2058: {//Yonji
         captain: "Boosts ATK of Fighter characters by 1.25x and their HP by 1.5x",
         special: "Deals 15x character's ATK in [QCK] damage to one enemy, changes the orbs in the bottom row into [PSY] orbs and Amplifies the effect of orbs for characters with 15 cost or less by 1.75x for 1 turn.",
         specialName: "Scornful Gang Up (Fourth Son)",
-        sailor: "Makes [PSY] orbs “beneficial” for this unit",
+        sailor: "자신은 [PSY] 슬롯도 [유리] 슬롯으로 취급한다",
         sailorNotes: "#{beneficial}",
     },
     2059: {//Beckman
@@ -28191,7 +28194,7 @@ window.details = {
         specialName: "Gomu Gomu no Kong Organ",
         sailor: {
             "base": "None",
-            "level1": "Completely resists Paralysis on this character",
+            "level1": "자신의 마비 상태를 완전히 회복한다",
             "level2": "Boosts base ATK, HP and RCV for this character by 50",
         },
         limit: [
@@ -28214,7 +28217,7 @@ window.details = {
             { "description": "공격력 상승 : 40" },
             { "description": "회복력 상승 : 15" },
             { "description": "체력 상승 : 50" },
-            { "description": "선원 효과 추가 1: Completely resists Paralysis on this character" },
+            { "description": "선원 효과 추가 1: 자신의 마비 상태를 완전히 회복한다" },
             { "description": "공격력 상승 : 60" },
             { "description": "체력 상승 : 60" },
             { "description": "체력 상승 : 60" },
@@ -28343,14 +28346,14 @@ window.details = {
         captain: "Boosts ATK of Fighter characters by 2x",
         special: "Reduces Paralysis and Despair duration by 4 turns, delays all enemies for 1 turn, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs into [PSY] orbs and boosts ATK against enemies with reduced defense by 1.75x for ? turns",
         specialName: "Eleclaw",
-        sailor: "Completely resists Paralysis on this character",
+        sailor: "자신의 마비 상태를 완전히 회복한다",
     },
     2078: {//Carrot
         captain: "Boosts ATK of Fighter characters by 2.5x and boosts HP of Free Spirit characters by 1.2x",
         special: "Reduces Paralysis and Despair duration by 4 turns, delays all enemies for 1 turn, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs into [PSY] orbs and boosts ATK against enemies with reduced defense by 1.75x for 1 turn",
         specialName: "Eleclaw",
         sailor: {
-            "base": "Completely resists Paralysis on this character",
+            "base": "자신의 마비 상태를 완전히 회복한다",
             "level1": "Fighter 캐릭터의 기본 공격력과 체력이 40 상승한다",
         },
         limit: [
@@ -28454,14 +28457,14 @@ window.details = {
         captain: "Boosts ATK of 참격형 characters by 2.25x",
         special: "Cuts the current HP of one enemy by 10%. If enemies have All Debuff Protection or Delay Debuff Protection at the time the special was activated, amplifies the effect of orbs by 1.75x for 1 turn and boosts ATK of all characters by 1.75x for 1 turn",
         specialName: "Risky Diversion",
-        sailor: "Boosts base ATK of 참격형 characters by 40",
+        sailor: "참격형 캐릭터의 기본 공격력이 40 상승한다",
     },
     2082: {//Pedro
         captain: "Boosts ATK of 참격형 characters by 2.5x and reduces damage received by 7%",
         special: "Cuts the current HP of one enemy by 10%. If enemies have All Debuff Protection or Delay Debuff Protection at the time the special was activated, amplifies the effect of orbs by 1.75x for 1 turn and boosts ATK of all characters by 1.75x for 1 turn",
         specialName: "Risky Diversion",
         sailor: {
-            "base": "Boosts base ATK of 참격형 characters by 40",
+            "base": "참격형 캐릭터의 기본 공격력이 40 상승한다",
             "level1": "Makes [DEX] orbs “beneficial” for himself",
         },
         sailorNotes: "#{beneficial}",
@@ -28640,7 +28643,7 @@ window.details = {
         specialName: "Gon Inferno",
         sailor: {
             "base": "None",
-            "level1": "Makes [STR], [DEX], [RCV], [TND] orbs “beneficial” for this unit",
+            "level1": "자신은 [STR], [DEX], [RCV], [TND] 슬롯도 [유리] 슬롯으로 취급한다",
             "level2": "야심형 and Striker 캐릭터의 기본 공격력과 체력이 50 상승한다",
         },
         sailorNotes: "#{beneficial}",
@@ -28952,7 +28955,7 @@ window.details = {
         specialName: "The Harmony that Interweaves the Souls",
         sailor: {
             "base": "None",
-            "level1": "Makes [RCV] orbs “beneficial” for this unit",
+            "level1": "자신은 [RCV] 슬롯도 [유리] 슬롯으로 취급한다",
             "level2": "Cannot be Blown Away",
         },
         sailorNotes: "#{beneficial}",
@@ -29093,7 +29096,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "Boosts base ATK of Fighter, Striker, Shooter, Cerebral and 강인형 characters by 50",
-            "level2": "Boosts this character's attack against [QCK] characters by 2x",
+            "level2": "자신이 [QCK] 속성에게 주는 일반 공격에 의한 데미지가 2배가 된다",
         },
         limit: [
             { "description": "공격력 상승 : 10" },
@@ -29122,7 +29125,7 @@ window.details = {
             { "description": "공격력 상승 : 40" },
             { "description": "공격력 상승 : 40" },
             { "description": "필살기 턴 단축 : 1턴" },
-            { "description": "선원 효과 추가 2: Boosts this character's attack against [QCK] characters by 2x" },
+            { "description": "선원 효과 추가 2: 자신이 [QCK] 속성에게 주는 일반 공격에 의한 데미지가 2배가 된다" },
             { "description": "공격력 상승 : 50" },
             { "description": "체력 상승 : 80" },
             { "description": "잠재능력 습득 3: 크리티컬 공격" },
@@ -29370,7 +29373,7 @@ window.details = {
         captainNotes: "The bonus is cumulative. 강인형 + Fighter characters get a 2.25x bonus",
         special: "If enemies are delayed at the time the special was activated, boost ATK of Fighter, Striker, Shooter, Cerebral and 강인형 characters by 2x for 1 turn, boosts Fighter and 강인형 characters by 1.75x for 3 turns otherwise.",
         specialName: "Grilled Scorch Blow",
-        sailor: "Boosts this character's attack against [STR] characters by 2x",
+        sailor: "자신이 [STR] 속성에게 주는 일반 공격에 의한 데미지가 2배가 된다",
     },
     2121: {//Oven
         captain: "Boosts ATK of 강인형 and Fighter characters by 1.65x and reduces damage received by 7%",
@@ -29378,7 +29381,7 @@ window.details = {
         special: "If enemies are delayed at the time the special was activated, boost ATK of Fighter, Striker, Shooter, Cerebral and 강인형 characters by 2x for 1 turn, boosts Fighter and 강인형 characters by 1.75x for 3 turns otherwise.",
         specialName: "Grilled Scorch Blow",
         sailor: {
-            "base": "Boosts this character's attack against [STR] characters by 2x",
+            "base": "자신이 [STR] 속성에게 주는 일반 공격에 의한 데미지가 2배가 된다",
             "level1": "Reduces Silence duration by 1 turn",
         },
         limit: [
@@ -29606,11 +29609,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 30% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 40% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 50% 확률로 공격력의 6% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 60% 확률로 공격력의 7% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 70% 확률로 공격력의 8% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 6%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 60% 확률로 자신의 최종 히트 데미지에 7%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 70% 확률로 자신의 최종 히트 데미지에 8%의 추가 데미지가 가산된다"
                 ]
             },
         ],
@@ -29623,7 +29626,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "강인형 캐릭터의 기본 공격력과 체력이 60 상승한다",
-            "level2": "Completely resists Paralysis on this character",
+            "level2": "자신의 마비 상태를 완전히 회복한다",
         },
         limit: [
             { "description": "공격력 상승 : 5" },
@@ -29652,7 +29655,7 @@ window.details = {
             { "description": "체력 상승 : 80" },
             { "description": "공격력 상승 : 30" },
             { "description": "회복력 상승 : 40" },
-            { "description": "선원 효과 추가 2: Completely resists Paralysis on this character" },
+            { "description": "선원 효과 추가 2: 자신의 마비 상태를 완전히 회복한다" },
             { "description": "공격력 상승 : 30" },
             { "description": "공격력 상승 : 50" },
             { "description": "잠재능력 습득 3: 슬롯 봉쇄 내성" },
@@ -29671,11 +29674,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 20% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 30% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 30% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 50% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 50% 확률로 공격력의 10% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 10%의 추가 데미지가 가산된다"
                 ]
             },
             {
@@ -29705,7 +29708,7 @@ window.details = {
             { "description": "회복력 상승 : 10" },
             { "description": "회복력 상승 : 20" },
             { "description": "체력 상승 : 50" },
-            { "description": "잠재능력 습득 1: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 1: 회복 무효 내성" },
             { "description": "공격력 상승 : 20" },
             { "description": "체력 상승 : 50" },
             { "description": "공격력 상승 : 30" },
@@ -29720,7 +29723,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 1 turn",
@@ -29823,11 +29826,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 10% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 15% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 30% 확률로 공격력의 9% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 15% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 9%의 추가 데미지가 가산된다"
                 ]
             },
             {
@@ -29926,7 +29929,7 @@ window.details = {
         specialName: "Full Course of Hell",
         sailor: {
             "base": "None",
-            "level1": "Boosts this character's attack against [INT] characters by 1.2x",
+            "level1": "자신이 [INT] 속성에게 주는 일반 공격에 의한 데미지가 1.2배가 된다",
             "level2": "Makes [PSY] orbs “beneficial” for Fighter characters",
         },
         limit: [
@@ -29949,7 +29952,7 @@ window.details = {
             { "description": "공격력 상승 : 30" },
             { "description": "회복력 상승 : 30" },
             { "description": "공격력 상승 : 40" },
-            { "description": "선원 효과 추가 1: Boosts this character's attack against [INT] characters by 1.2x" },
+            { "description": "선원 효과 추가 1: 자신이 [INT] 속성에게 주는 일반 공격에 의한 데미지가 1.2배가 된다" },
             { "description": "공격력 상승 : 50" },
             { "description": "체력 상승 : 30" },
             { "description": "체력 상승 : 30" },
@@ -29959,7 +29962,7 @@ window.details = {
             { "description": "선원 효과 추가 2: Makes [PSY] orbs “beneficial” for Fighter characters" },
             { "description": "체력 상승 : 70" },
             { "description": "체력 상승 : 80" },
-            { "description": "잠재능력 습득 3: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 3: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -29983,7 +29986,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 3 turns",
@@ -30008,7 +30011,7 @@ window.details = {
         specialName: "Chef's Long Kick",
         sailor: {
             "base": "When any other character uses a special, reduces own cooldown by 3 turns",
-            "level1": "Boosts this character's attack against [DEX] characters by 1.2x",
+            "level1": "자신이 [DEX] 속성에게 주는 일반 공격에 의한 데미지가 1.2배가 된다",
         },
         limit: [
             { "description": "회복력 상승 : 10" },
@@ -30023,7 +30026,7 @@ window.details = {
             { "description": "잠재능력 소켓슬롯 추가 : 1" },
             { "description": "회복력 상승 : 40" },
             { "description": "공격력 상승 : 30" },
-            { "description": "선원 효과 추가 1: Boosts this character's attack against [DEX] characters by 1.2x" },
+            { "description": "선원 효과 추가 1: 자신이 [DEX] 속성에게 주는 일반 공격에 의한 데미지가 1.2배가 된다" },
             { "description": "공격력 상승 : 30" },
             { "description": "잠재능력 습득 2: Cooldown Reduction" },
         ],
@@ -30080,7 +30083,7 @@ window.details = {
             { "description": "체력 상승 : 60" },
             { "description": "선원 효과 추가 1: If this character has an [QCK] orb and you hit a PERFECT with her, keep her [QCK] orb for the next turn" },
             { "description": "체력 상승 : 60" },
-            { "description": "잠재능력 습득 2: Barrier Penetration" },
+            { "description": "잠재능력 습득 2: 배리어 관통" },
         ],
         potential: [
             {
@@ -30094,11 +30097,11 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
-                    "Level 2: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
-                    "Level 3: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 1: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
+                    "Level 2: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
+                    "Level 3: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
                     "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
                     "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
@@ -30192,7 +30195,7 @@ window.details = {
             { "description": "체력 상승 : 60" },
             { "description": "선원 효과 추가 1: Makes [INT] orbs “beneficial” for Fighter characters" },
             { "description": "공격력 상승 : 50" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -30206,7 +30209,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -30282,11 +30285,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 20% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 30% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 30% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 50% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 50% 확률로 공격력의 8% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 8%의 추가 데미지가 가산된다"
                 ]
             },
         ]
@@ -30316,7 +30319,7 @@ window.details = {
             { "description": "회복력 상승 : 10" },
             { "description": "체력 상승 : 40" },
             { "description": "공격력 상승 : 20" },
-            { "description": "잠재능력 습득 2: Barrier Penetration" },
+            { "description": "잠재능력 습득 2: 배리어 관통" },
             { "description": "회복력 상승 : 10" },
             { "description": "공격력 상승 : 20" },
             { "description": "체력 상승 : 40" },
@@ -30331,7 +30334,7 @@ window.details = {
             { "description": "체력 상승 : 90" },
             { "description": "회복력 상승 : 20" },
             { "description": "체력 상승 : 100" },
-            { "description": "잠재능력 습득 3: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 3: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -30345,9 +30348,9 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 1: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
                     "Level 2: This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
                     "Level 3: This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
                     "Level 4: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
@@ -30355,7 +30358,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -30395,7 +30398,7 @@ window.details = {
             { "description": "체력 상승 : 50" },
             { "description": "필살기 턴 수 단축: 1" },
             { "description": "체력 상승 : 60" },
-            { "description": "잠재능력 습득 2: Barrier Penetration" },
+            { "description": "잠재능력 습득 2: 배리어 관통" },
         ],
         potential: [
             {
@@ -30409,11 +30412,11 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
-                    "Level 2: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
-                    "Level 3: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 1: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
+                    "Level 2: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
+                    "Level 3: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
                     "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
                     "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
@@ -30449,7 +30452,7 @@ window.details = {
             { "description": "회복력 상승 : 60" },
             { "description": "공격력 상승 : 50" },
             { "description": "선원 효과 추가 1: Reduces Silence duration on this character by 3 turns" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -30463,7 +30466,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turn",
@@ -30556,7 +30559,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "일당의 기본 체력이 75 상승한다",
-            "level2": "Completely resists Paralysis on this character",
+            "level2": "자신의 마비 상태를 완전히 회복한다",
         },
         sailorNotes: "#{beneficial}",
         limit: [
@@ -30589,7 +30592,7 @@ window.details = {
             { "description": "새로운 선장 효과 습득: Boosts ATK of 강인형 characters by 2.5x and reduces damage received by 15%" },
             { "description": "체력 상승 : 60" },
             { "description": "체력 상승 : 70" },
-            { "description": "선원 효과 추가 2: Completely resists Paralysis on this character" },
+            { "description": "선원 효과 추가 2: 자신의 마비 상태를 완전히 회복한다" },
             { "description": "공격력 상승 : 40" },
             { "description": "공격력 상승 : 40" },
             { "description": "공격력 상승 : 40" },
@@ -30599,7 +30602,7 @@ window.details = {
             { "description": "공격력 상승 : 40" },
             { "description": "공격력 상승 : 50" },
             { "description": "새로운 선장 효과 습득: Boosts ATK of 강인형 characters by 2.75x and reduces damage received by 20%" },
-            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+            { "description": "잠재능력 습득 2: 회복 무효 내성" },
         ],
         potential: [
             {
@@ -30613,7 +30616,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -30655,7 +30658,7 @@ window.details = {
         specialNotes: "Change Action: When Change is activated, reduces Paralysis and Silence duration by 1 turn, makes [RCV] orbs “beneficial” for all characters for 1 turn and changes their own orb into a [RCV] orb<br>#{beneficial}",
         specialName: "Immortal Blue Flame Shockwave",
         sailor: {
-            "character1": "Boosts base ATK of [PSY] and [INT] characters by 75",
+            "character1": "[PSY] and [INT] 속성의 기본 공격력이 75 상승한다",
             "character2": "Boosts base HP and RCV of [PSY] and [INT] characters by 75",
             "combined": "Boosts base ATK, HP and RCV of [PSY] and [INT] characters by 100"
         },
@@ -30670,7 +30673,7 @@ window.details = {
         specialNotes: "Change Action: When Change is activated, reduces Paralysis and Silence duration by 1 turn, makes [RCV] orbs “beneficial” for all characters for 1 turn and changes their own orb into a [RCV] orb<br>#{beneficial}",
         specialName: "Immortal Blue Flame Shockwave",
         sailor: {
-            "character1": "Boosts base ATK of [PSY] and [INT] characters by 75",
+            "character1": "[PSY] and [INT] 속성의 기본 공격력이 75 상승한다",
             "character2": "Boosts base HP and RCV of [PSY] and [INT] characters by 75",
             "combined": "Boosts base ATK, HP and RCV of [PSY] and [INT] characters by 100",
             "level1": "Completely resists Paralysis and Silence on this character"
@@ -30757,7 +30760,7 @@ window.details = {
         specialName: "Hawk Eyes' Instantaneous Killing",
         sailor: {
             "base": "Boosts base ATK and HP of [PSY] and [INT] characters by 50",
-            "level1": "Boosts this character's attack against [INT] characters by 1.1x",
+            "level1": "자신이 [INT] 속성에게 주는 일반 공격에 의한 데미지가 1.1배가 된다",
         },
         potential: [
             {
@@ -30773,11 +30776,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 30% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 40% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 50% 확률로 공격력의 6% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 60% 확률로 공격력의 7% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 70% 확률로 공격력의 8% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 6%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 60% 확률로 자신의 최종 히트 데미지에 7%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 70% 확률로 자신의 최종 히트 데미지에 8%의 추가 데미지가 가산된다"
                 ]
             },
         ],
@@ -30809,11 +30812,11 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
-                    "Level 2: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
-                    "Level 3: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 1: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
+                    "Level 2: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
+                    "Level 3: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
                     "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
                     "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
@@ -30838,15 +30841,15 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 20% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 30% 확률로 공격력의 4% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 40% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 50% 확률로 공격력의 6% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 60% 확률로 공격력의 7% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 6%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 60% 확률로 자신의 최종 히트 데미지에 7%의 추가 데미지가 가산된다"
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turn",
@@ -30882,7 +30885,7 @@ window.details = {
         sailor: "사격형 캐릭터의 기본 체력이 75 상승한다",
         potential: [
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by ? turn",
                     "Level 2: Reduces No Healing duration by ? turn",
@@ -30892,7 +30895,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
                     "Level 1: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
                     "Level 2: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
@@ -30929,9 +30932,9 @@ window.details = {
                 ]
             },
             {
-                "Name": "Barrier Penetration",
+                "Name": "배리어 관통",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 1: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
                     "Level 2: This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
                     "Level 3: This character's normal attack will ignore barriers if HP is above 75% at the start of the turn",
                     "Level 4: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
@@ -30955,7 +30958,7 @@ window.details = {
         specialName: "Soaring Massacre Blades",
         sailor: {
             "base": "Boosts own base ATK by 200 if this character is the last in the chain to attack",
-            "level2": "Boosts this character's attack against [PSY] characters by 1.2x"
+            "level2": "자신이 [PSY] 속성에게 주는 일반 공격에 의한 데미지가 1.2배가 된다"
         },
         potential: [
             {
@@ -30969,7 +30972,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Reduce No Healing duration",
+                "Name": "회복 무효 내성",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turn",
@@ -31118,11 +31121,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, ?% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, ?% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, ?% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, ?% 확률로 공격력의 ?% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, ?% 확률로 공격력의 ?% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다"
                 ]
             },
             {
@@ -31170,7 +31173,7 @@ window.details = {
         special: "Deals 5,000 fixed damage to one enemy, changes own orb into a Matching orb, reduces damage received by 50% for 1 turn, boosts ATK of [PSY] and [INT] characters by 1.5x for 1 turn and becomes Smoker & Tashigi for 2 turns",
         specialNotes: "Change Action: When Change is activated, Recovers 2x character's RCV",
         specialName: "White Slash",
-        sailor: "Boosts base ATK of [INT] and [PSY] characters by 50",
+        sailor: "[INT] and [PSY] 속성의 기본 공격력이 50 상승한다",
     },
     5001: {//Smoker&Tashigi
         captain: "Boosts ATK of [INT] and [PSY] characters by 2.5x and recovers 300 HP at end of each turn",
@@ -31449,11 +31452,11 @@ window.details = {
             {
                 "Name": "크리티컬 공격",
                 "description": [
-                    "Level 1: PERFECT 적중 시, 10% 확률로 공격력의 3% 추가 데미지를 입힌다.",
-                    "Level 2: PERFECT 적중 시, 20% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 3: PERFECT 적중 시, 30% 확률로 공격력의 5% 추가 데미지를 입힌다.",
-                    "Level 4: PERFECT 적중 시, 40% 확률로 공격력의 7% 추가 데미지를 입힌다.",
-                    "Level 5: PERFECT 적중 시, 50% 확률로 공격력의 7% 추가 데미지를 입힌다."
+                    "Level 1: 자신의 공격이 PERFECT일 경우 10% 확률로 자신의 최종 히트 데미지에 3%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 20% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 5%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 7%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 50% 확률로 자신의 최종 히트 데미지에 7%의 추가 데미지가 가산된다"
                 ]
             },
             {
