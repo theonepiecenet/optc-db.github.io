@@ -21481,7 +21481,7 @@ window.details = {
         },
         sailorNotes: "#{beneficial}",
         limit: [
-            { "description": "선원효과 개방 10" },
+            { "description": "공격력 상승 : 10" },
             { "description": "공격력 상승 : 20" },
             { "description": "공격력 상승 : 20" },
             { "description": "잠재능력 개방 1: 긴급 회복" },
@@ -25162,7 +25162,22 @@ window.details = {
         captain: "박식형과 참격형 캐릭터의 공격력이 2.5배가 되고, 턴 종료 시에 캐릭터의 회복력x2배의 체력을 회복한다",
         special: "일당의 속성 일치 슬롯 이외의 슬롯을 랜덤으로 바꾸고, 1턴 동안 일당의 공격력을 1.75배로 만든다",
         specialName: "격동의 대해전",
-        limit: "This character has a Limit Break Tree"
+        limit: [
+            { "description": "" },
+            { "description": "" },
+            { "description": "" },
+            { "description": "" },
+            { "description": "" },
+            { "description": "" },
+            { "description": "" },
+            { "description": "" },
+            { "description": "" },
+            { "description": "" },
+            { "description": "" },
+            { "description": "" },
+            { "description": "" },
+            { "description": "" },
+            { "description": "Acquire Potential 2: " },
     },
     1925: {//Coby
         captain: "Boosts ATK of 야심형 characters by 2.5x",
@@ -25412,7 +25427,7 @@ window.details = {
 		"special": "적 전체의 HP를 10% 줄이고, 속성 일치 슬롯 이외의 모든 슬롯을 랜덤하게 바꾸며([방해] 슬롯도 변환 가능), 1턴 동안 격투형, 참격형, 타격형, 사격형 캐릭터의 공격력이 2배가 된다",
 		"specialName": "프랑키 대포"
     },
-    1935: {//Legend Franky
+    1935: {//Legend Franky // modified	
 		"captain": "격투형, 참격형, 타격형, 사격형을 포함한 캐릭터 6명으로 일당을 편성하면 선장 효과가 발동한다. 일당의 공격력을 3배, 체력을 1.3배로 만든다. [선장 액션: 합체] 1턴 동안 선장 효과가 다음과 같이 변경된다. 일당의 공격력을 약 4배, 체력을 1.3배로 만들고, 받는 데미지가 38% 감소하며, 날아가지 않는다. 공격하는 캐릭터의 타입에 따라 공격 방법이 변화한다(선장 교체의 효과를 받지 않으며, 선장 교체 중에는 발동할 수 없습니다. 자세한 내용은 모험 내의 MENU에서 확인할 수 있습니다)",
         captainNotes: "All characters on your crew must have one of the 4 classes listed, but you do not need one of each. Franky Captain Action lasts one turn and can be reactivated after a 4 turn cooldown. Only 1 Franky Captain Action can be activated at once. <br\> During transformation:<br\>If you attack with a Fighter character, deal 1.25x damage to targeted enemy<br\>If you attack with a 참격형 character, deal full damage to targeted enemy, but partial damage (??%) to all enemies in the same row<br\>If you attack with a Striker character, deal 0.5x damage to all enemies on the stage<br\>If you attack with a Shooter character, deal .75x damage to targeted enemy but deal 0.3x damage to all other enemies on the stage",
 		"special": "적 전체의 HP를 10% 줄이고, 속성 일치 슬롯 이외의 모든 슬롯을 랜덤하게 바꾸며([방해] 슬롯도 변환 가능), 1턴 동안 격투형, 참격형, 타격형, 사격형 캐릭터의 공격력이 2배가 된다",
