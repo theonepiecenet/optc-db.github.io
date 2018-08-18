@@ -4466,9 +4466,9 @@ window.details = {
         special: "자기 슬롯을 [STR]으로 바꾸고, 적 1명에게 공격력X25배의 [STR] 데미지를 준다.",
         specialName: "내성적인 옥졸수의 쇠방망이"
     },
-    540: {
-        special: "Boosts chances of getting [DEX] orbs for 2 turn",
-        specialName: "Deadly Glare"
+    540: { // modified
+		"special": "2턴 동안 [DEX] 슬롯의 출현율이 상승한다",
+		"specialName": "죽음을 부르는 눈빛"
     },
     541: {
         special: "Greatly reduces chances of getting [PSY], [INT], [TND] and [RCV] slots for 5 turn",
@@ -4524,9 +4524,9 @@ window.details = {
         specialName: "Arousal Manifesto - Red Demon Whip",
         captain: "Boosts ATK by 2.5x after scoring 3 PERFECTs in a row"
     },
-    551: {
-        special: "Reduces damage received by 50% for 1 turn, deals 15x character's ATK in [STR] damage to one enemy",
-        specialName: "Uncompromising Prison Beast's Morning Star"
+    551: { // modified
+		"special": "1턴 동안 받는 데미지가 50% 감소하고, 적 1명에게 15배의 [STR] 데미지를 준다",
+		"specialName": "무투파 옥졸수의 너클더스크"
     },
     552: { // modified
         special: "적 전체의 방어력이 1턴 동안 0이 된다",
@@ -4785,10 +4785,10 @@ window.details = {
         special: "Reduces Bind and Despair duration by 1 턴, deals 15x the character's ATK as [STR] damage to all enemies",
         specialName: "Mudfish Coaster"
     },
-    568: {
-        special: "Delays all enemies for 2 turn, reduces the defense of all enemies by 50% for 2 turn, switches orbs between slots twice",
-        specialName: "Slow Slow Beam",
-        captain: "일당의 능력치를 1.25배 상승한다"
+    568: { // modified
+		"special": "적 전체를 2턴 지연, 방어 반감, 슬롯을 2회 자유롭게 이동",
+		"specialName": "느릿느릿 빔",
+		"captain": "일당의 능력치를 1.25배로 만든다"
     },
 	569: { // modified
         special: "적 전체를 2턴 지연, 방어 반감, 슬롯을 2회 자유롭게 이동",
@@ -4807,10 +4807,10 @@ window.details = {
         captain: "모험을 시작할 때 필살 턴이 1턴 단축되고, 격투형과 [STR] 캐릭터의 공격력이 각각 1.5배가 된다",
         captainNotes: "The bonus is cumulative. [STR] Fighter characters get a 2.25x bonus."
     },
-    572: {
-        special: "Boosts ATK of Fighter characters by 2x for 1 turn, binds himself for 15 turn",
-        specialName: "Roar of Mettle",
-        captain: "Boosts ATK of Fighter characters by 2.5x if HP is above 99% at the start of the turn"
+    572: { // modified
+		"special": "1턴 동안 격투형 캐릭터의 공격력이 2배가 되고, 자신은 15턴 동안 ‘봉쇄’ 상태가 된다",
+		"specialName": "끈기있는 응원",
+		"captain": "공격 시작 전에 체력이 가득 차 있으면 격투형 캐릭터의 공격력이 2.5배가 된다"
     },
     573: {
         special: "Reduces Despair duration by 2 턴, recovers 10x character's RCV in HP",
@@ -4992,10 +4992,10 @@ window.details = {
         specialName: "벨메일이 맡긴 인연",
         captain: "[PSY] 캐릭터의 회복력이 1.5배가 된다"
     },
-    586: {
-        special: "Changes the captain's orb into [PSY], recovers 9x character's RCV in HP",
-        specialName: "The Bond Bellmere Left Us",
-        captain: "Boosts HP and RCV of [PSY] characters by 1.5x"
+    586: { // modified
+		"special": "선장의 슬롯을 [PSY]으로 바꾸고, 캐릭터의 회복력x9배의 체력을 회복한다",
+		"specialName": "벨메일이 맡긴 인연",
+		"captain": "[PSY] 캐릭터의 체력과 회복력이 1.5배가 된다"
     },
     587: { // modified
         special: "모든 독 상태를 회복하고, 봉쇄·선장효과 무효 상태를 2턴 회복한다",
@@ -5027,25 +5027,25 @@ window.details = {
         specialName: "Rozeo Michelli",
         captain: "Boosts ATK of [STR] characters by 1.75x, recovers 750 HP at the end of each turn"
     },
-    598: {
-        special: "Changes own orb into [INT], switches orbs between slots once",
-        specialName: "Split Split Cannon",
-        captain: "Boosts ATK of characters with fewer than 3 stars by 2.5x"
+    598: { // modified
+		"special": "자신의 슬롯을 INT]로 바꾸고, 슬롯을 1회 자유롭게 이동 가능",
+		"specialName": "동강동강 포",
+		"captain": "☆1과 ☆2 캐릭터의 공격력이 2.5배가 된다"
     },
-    599: {
-        special: "Changes own orb into [INT], switches orbs between slots once",
-        specialName: "Split Split Cannon",
-        captain: "Boosts ATK of characters with fewer than 3 stars by 3x"
+    599: { // modified
+		"special": "자신의 슬롯을 [INT]로 바꾸고, 슬롯을 1회 자유롭게 이동 가능",
+		"specialName": "동강동강 포",
+		"captain": "☆1과 ☆2 캐릭터의 공격력이 3배가 된다"
     },
-    600: {
-        special: "Deals 15x character's ATK in [PSY] damage to one enemy, boosts ATK of [PSY] characters by 1.3x for 2 turn",
-        specialName: "Sword Draw - Single Flash",
-        captain: "Boosts ATK of [PSY] characters by 1.5x"
+    600: { // modified
+		"special": "적 1명에게 공격력x15배의 [PSY] 데미지를 주고, 2턴 동안 [PSY] 캐릭터의 공격력이 1.3배가 된다",
+		"specialName": "발도 일섬",
+		"captain": "[PSY] 캐릭터의 공격력이 1.5배가 된다"
     },
-    601: {
-        special: "Deals 15x character's ATK in [PSY] damage to one enemy, boosts ATK of [PSY] characters by 1.3x for 2 turn",
-        specialName: "Sword Draw - Single Flash",
-        captain: "Boosts ATK of [PSY] characters by 2x"
+    601: { // modified
+		"special": "적 1명에게 공격력x15배의 [PSY] 데미지를 주고, 2턴 동안 [PSY] 캐릭터의 공격력이 1.3배가 된다",
+		"specialName": "발도 일섬",
+		"captain": "[PSY] 캐릭터의 공격력이 2배가 된다"
     },
     602: { // modified
         special: "체력을 대폭 줄이고 적 전체에게 고정 데미지 20,000+[QCK] 캐릭터의 공격력이 1턴 동안 2배가 된다",
@@ -5158,21 +5158,21 @@ window.details = {
         special: "Deals random [STR] damage to one enemy",
         specialName: "Demolisher Axe"
     },
-    616: {
-        special: "Changes the captain's orb into STR",
-        specialName: "Demolisher Spear"
+    616: { // modified
+		"special": "선장의 슬롯을 [STR]으로 바꾼다",
+		"specialName": "디스트로이 스피어"
     },
     617: {
         special: "Boosts ATK of Shooter characters by 1.2x for 1 turn",
         specialName: "Demolisher Cannon"
     },
-    618: {
-        special: "Deals 20x character's ATK in [STR] damage to one enemy",
-        specialName: "Mach Punch"
+    618: { // modified
+		"special": "적 1명에게 공격력x20배의 캐릭터 속성 데미지",
+		"specialName": "마하 펀치"
     },
-    619: {
-        special: "Cuts the current HP of each enemy by 5%",
-        specialName: "Slight Break"
+    619: { // modified
+		"special": "적 1명의 HP를 5% 줄인다",
+		"specialName": "라이트 브레이크"
     },
     620: {
         special: "[INT]슬롯을 [QCK]슬롯으로 바꾼다",
@@ -5182,29 +5182,29 @@ window.details = {
         special: "[INT]슬롯을 [STR]슬롯으로 바꾼다",
         specialName: "[INT]슬롯 체인지·[STR]"
     },
-    622: { 
-        special: "Boosts RCV of all characters by 100 for 3 turn",
-        specialName: "Patch Job"
+    622: { // modified
+		"special": "3턴 동안 일당 전체의 회복력을 +100 한다",
+		"specialName": "힐링 업"
     },
-    623: {
-        special: "Recovers 3x character's RCV in HP at the end of each 턴 for 5 turn",
-        specialName: "Auto Repair"
+    623: { // modified
+		"special": "5턴 동안 턴 종료 시에 체력을 캐릭터의 회복력x3배 회복한다",
+		"specialName": "자동 회복"
     },
-    624: {
-        special: "Slightly boosts chances of getting [PSY] orbs for 3 turn",
-        specialName: "Slot Rate Up [PSY]"
+    624: { // modified
+		"special": "3턴 동안 [PSY]슬롯 출현율을 조금 높인다",
+		"specialName": "슬롯 확률 업 라이트 [PSY]"
     },
-    625: {
-        special: "Slightly boosts chances of getting [INT] orbs for 3 turn",
-        specialName: "Slot Rate Up [INT]"
+    625: { // modified
+		"special": "3턴 동안 [INT]슬롯 출현율을 조금 높인다",
+		"specialName": "슬롯 확률 업 라이트 [INT]"
     },
-    626: {
-        special: "Deals 13x character's ATK in character's type damage to all enemies",
-        specialName: "Hyper Burst"
+    626: { // modified
+		"special": "적 전체에게 공격력x13배의 캐릭터 속성 데미지",
+		"specialName": "하이퍼 버스트"
     },
-    627: {
-        special: "Randomizes all orbs",
-        specialName: "Slot Shuffle"
+    627: { // modified
+		"special": "랜덤으로 슬롯을 바꾼다",
+		"specialName": "슬롯 셔플"
     },
     628: {
         special: "Deals 15,000 fixed damage to one enemy",
@@ -5267,12 +5267,12 @@ window.details = {
         sailor: "자신의 필살기 턴 되돌리기를 1턴 회복한다",
         sailorNotes: "#{rewind : 1}",
     },
-    639: {
-        special: "[PSY] and [INT]슬롯을 [QCK] orbs, reduces Bind duration by 1 turn",
-        specialName: "Bohemian Reverse Slash",
-        captain: "Reduces cooldown of all specials by 3 턴 at the start of the fight, boosts ATK of Slasher characters by 2x",
-        sailor: "Restores his own special by 1 턴 when it is rewinded",
-        sailorNotes: "#{rewind : 1}",
+    639: { // modified
+		"special": "[PSY], [INT]슬롯을 [QCK] 으로 바꾸고, 봉쇄 상태를 줄인다 (1턴)",
+		"specialName": "유격의 역수검",
+		"captain": "모험을 시작할 때 필살 턴을 단축하고 (3턴), 참격형 캐릭터의 공격력이 2배가 된다",
+		"sailor": "자신의 필살기 턴 되돌리기를 1턴 회복한다",
+		"sailorNotes": "#{rewind : 1}"
     },
     640: { // modified
         special: "자신의 슬롯을 [DEX]로 바꾸고, 자기편의 체력이 적을수록 적 1명에게 큰 [DEX] 데미지를 준다",
@@ -5515,10 +5515,10 @@ window.details = {
         specialName: "Heart-Smashing Horn",
         captain: "Reduces cooldown of all specials by 2 턴 at the start of the fight, boosts ATK of [DEX] characters by 2.25x if they have matching orbs"
     },
-    654: {
-        special: "Cuts the current HP of each enemy by 20%, reduces damage received by 50% for 1 turn",
-        specialName: "Heart-Smashing Horn",
-        captain: "Reduces cooldown of all specials by 3 턴 at the start of the fight, boosts ATK of [DEX] characters by 2.75x if they have matching orbs"
+    654: { // modified
+		"special": "적 전체의 HP를 20% 줄이고, 1턴 동안 받는 데미지를 반감",
+		"specialName": "심장을 찢는 뿔",
+		"captain": "모험 시작 시 필살 턴을 3턴 단축, [DEX] 캐릭터의 공격력이 슬롯 일치 시 2.75배가 된다"
     },
     655: {
         special: "Changes [EMPTY] and [TND] orbs into [STR] orbs, deals 10x character's ATK in [STR] damage to one enemy, amplifies the effect of orbs by 1.25x for 2 turn",
@@ -5542,10 +5542,10 @@ window.details = {
         specialName: "Lipowertzer",
         captain: "Boosts ATK of Shooter characters by 1.5x"
     },
-    659: {
-        special: "Reduces Bind and Despair duration by 2 턴, reduces damage received by 50% for 2 turn",
-        specialName: "Gum-Gum Balloon Swim",
-        captain: "Boosts ATK by 2.5x after scoring 3 PERFECTs in a row"
+    659: { // modified
+		"special": "봉쇄·선장효과 무효 상태를 2턴 회복하고, 2턴 동안 받는 데미지를 50% 줄인다",
+		"specialName": "고무고무 풍선 스윔",
+		"captain": "3연속 PERFECT 시, 이후의 캐릭터 공격력이 2.5배가 된다"
     },
     660: {
         special: "Delays all enemies for 2 turn, reduces the defense of all enemies by 50% for 2 turn",
