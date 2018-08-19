@@ -3391,7 +3391,7 @@ window.details = {
         specialName: "빅 춉"
     },
     433: { // modified
-		"special": " ‘봉쇄’ 상태, 선장효과 무효 상태를 회복한다 (1턴)",
+		"special": "‘봉쇄’ 상태, 선장효과 무효 상태를 회복한다 (1턴)",
 		"specialName": "뉴커머의 유혹",
 		"captain": "[QCK]→[STR]→[DEX] 속성 캐릭터 순서로 GOOD 이상의 공격을 하면 이후 캐릭터의 공격력이 2배가 된다"
   	},
@@ -3839,7 +3839,7 @@ window.details = {
         specialName: "[INT] 슬롯 체인지·[DEX]"
     },
     480: {
-        special: " [TND]을 [PSY] 슬롯으로 바꾼다",
+        special: "[TND]을 [PSY] 슬롯으로 바꾼다",
         specialName: "[TND] 슬롯 체인지·[STR]"
     },
     481: {
@@ -5813,14 +5813,14 @@ window.details = {
         specialName: "Cien Fleur Spider Net",
         captain: "Boosts ATK and RCV of [PSY] characters by 1.5x, boosts chances of getting [PSY] orbs"
     },
-    680: {
-        special: "Recovers 5x character's RCV in HP, boosts ATK and RCV of [DEX] characters by 1.25x for 2 turn",
-        specialName: "Midsummer Relax Time"
+    680: { // modified
+		"special": "체력을 회복력x5배 회복하고, 2턴 동안 [DEX] 캐릭터의 공격력과 회복력을 1.25배로 만든다",
+		"specialName": "한여름의 휴식 시간"
     },
-    681: {
-        special: "Recovers 5x character's RCV in HP, boosts ATK and RCV of [DEX] characters by 1.25x for 2 turn",
-        specialName: "Midsummer Relax Time",
-        captain: "Boosts ATK and RCV of Striker characters by 1.5x"
+    681: { // modified
+		"special": "체력을 회복력x5배 회복하고, 2턴 동안 [DEX] 캐릭터의 공격력과 회복력을 1.25배로 만든다",
+		"specialName": "한여름의 휴식 시간",
+		"captain": "타격형 캐릭터의 공격력과 회복력이 1.5배가 된다"
     },
     682: {
         special: "Recovers a random amount of HP, reduces damage received by 50% for 2 turn",
@@ -5831,14 +5831,14 @@ window.details = {
         specialName: "Transcendental Serenity Healing",
         captain: "Boosts ATK and RCV of Fighter characters by 1.5x"
     },
-    684: {
-        special: "Recovers 3x character's RCV in HP, reduces damage received by 80% for 1 turn",
-        specialName: "Romantic Ghost"
+    684: { // modified
+		"special": "체력을 회복력x3배 회복하고, 1턴 동안 받는 데미지를 80% 줄인다",
+		"specialName": "로맨틱 고스트"
     },
-    685: {
-        special: "Recovers 3x character's RCV in HP, reduces damage received by 80% for 1 turn",
-        specialName: "Romantic Ghost",
-        captain: "Boosts ATK and RCV of Shooter characters by 1.5x"
+    685: { // modified
+		"special": "체력을 회복력x3배 회복하고, 1턴 동안 받는 데미지를 80% 줄인다",
+		"specialName": "로맨틱 고스트",
+		"captain": "사격형 캐릭터의 공격력과 회복력이 1.5배가 된다"
     },
     686: {
         special: "Delays all enemies for 1 turn, recovers 3x character's RCV in HP at the end of each 턴 for 3 turns",
@@ -5850,22 +5850,22 @@ window.details = {
         specialName: "First Spear of the Battle",
         captain: "Boosts ATK of Free Spirit characters by 1.5x"
     },
-    688: {
-        special: "Deals 13x character's ATK in [STR] damage to all enemies, boosts ATK of Free Spirit characters by 1.3x for 1 turn",
-        specialName: "First Spear of the Battle",
-        captain: "Reduces cooldown of all specials by 1 턴 at the start of the fight, boosts ATK of Free Spirit characters by 2x"
+    688: { // modified
+		"special": "적 전체에 캐릭터의 공격력x13배의 [STR] 데미지, 1턴 동안 자유형 캐릭터의 공격력이 1.3배",
+		"specialName": "선봉에 선 대전사",
+		"captain": "모험 시작 시 필살 턴이 1턴 단축되고, 자유형 캐릭터의 공격력이 2배가 된다"
     },
-    689: {
-        special: "Amplifies the effect of orbs by 1.5x for 2 turn",
-        specialNotes: "#{orb : 1.5x}",
-        specialName: "Botanist's Great Discovery",
-        captain: "Boosts ATK and RCV of Slasher characters by 1.2x"
+    689: { // modified
+		"special": "2턴 동안 일당 전원의 슬롯 영향 증폭",
+		"specialNotes": "#{orb : 1.5x}",
+		"specialName": "식물학자의 대발견",
+		"captain": "참격형 캐릭터의 공격력과 회복력을 1.2배로 만든다"
     },
-    690: {
-        special: "Amplifies the effect of orbs by 1.5x for 2 turn",
-        specialNotes: "#{orb : 1.5x}",
-        specialName: "Botanist's Great Discovery",
-        captain: "Boosts ATK and RCV of Slasher characters by 1.5x"
+    690: { // modified
+		"special": "2턴 동안 일당 전원의 슬롯 영향 증폭",
+		"specialNotes": "#{orb : 1.5x}",
+		"specialName": "식물학자의 대발견",
+		"captain": "참격형 캐릭터의 공격력과 회복력을 1.5배로 만든다"
     },
     691: { // modified
 	  "special": "[PSY]슬롯 체인지·[DEX]",
@@ -5879,9 +5879,9 @@ window.details = {
 	  "special": "[DEX]슬롯 체인지·[PSY]",
 	  "specialName": "[DEX]슬롯을 [PSY]슬롯으로 바꾼다"
 	},
-    694: {
-        special: "Deals 13x character's ATK in character's type damage to all enemies",
-        specialName: "Hyper Burst"
+    694: { // modified
+		"special": "적 전체에게 공격력x13배의 캐릭터 속성 데미지",
+		"specialName": "하이퍼 버스트"
     },
     695: { // modified
 	  "special": "적 1명의 HP를 5% 줄인다",
@@ -5917,10 +5917,10 @@ window.details = {
         specialName: "Oimo Press",
         captain: "Boosts HP of [PSY] characters by 2.25x"
     },
-    702: {
-        special: "Seals himself for 5 turns, reduces damage received by 30% for 5 turns",
-        specialName: "Kashi Swing",
-        captain: "Boosts HP of [INT] characters by 2.25x"
+    702: { // modified
+		"special": "자신이 5턴 동안 봉쇄 상태가 되는 대신 그동안 받는 데미지가 30% 줄어든다",
+		"specialName": "카아시 스윙",
+		"captain": "[INT] 캐릭터의 체력이 2.25배가 된다"
     },
     703: {
         special: "Deals 5x character's ATK in [QCK] damage to all enemies",
@@ -6202,10 +6202,10 @@ window.details = {
         ],
         potentialNotes: "#{enrage}"
     },
-    721: {
-        special: "Randomizes all orbs, including [BLOCK] orbs",
-        specialName: "Screw Drop Kick",
-        captain: "Boosts ATK of Fighter characters by 1.5x if HP is is above 99% at the start of the 턴"
+    721: { // modified
+		"special": "모든 슬롯을 랜덤하게 바꾼다([BLOCK] 슬롯도 바꿀 수 있음)",
+		"specialName": "스크류 드롭킥",
+		"captain": "공격 시작 전에 체력이 가득 찬 상태면 격투형 캐릭터의 공격력이 1.5배가 된다"
     },
     722: {
         special: "Randomizes all orbs, including [BLOCK] orbs",
@@ -6388,15 +6388,15 @@ window.details = {
         specialName: "Rokuougan",
         captain: "Boosts ATK of Powerhouse characters by 3x if they have a matching orb, by 2.5x otherwise, reduces crew's RCV to 0"
     },
-    748: {
-        special: "Deals 35x character's ATK in [STR] damage to one enemy, boosts chances of getting matching orbs for 3 turns",
-        specialName: "Rokuougan",
-        captain: "Boosts ATK of Powerhouse characters by 3x if they have a matching orb, by 2.5x otherwise, reduces crew's RCV to 0",
-        sailor: {
-            "base": "None",
-            "level1": "강인형 캐릭터의 기본 능력치가 30 상승한다",
-            "level2": "Makes [RCV] and [TND] orbs “beneficial” for Powerhouse characters",
-        },
+    748: { // modified
+		"special": "적 1명에게 캐릭터의 공격력x35배의 [STR]  데미지를 주고, 3턴 동안 일당의 속성이 일치하는 슬롯의 출현율이 크게 상승",
+		"specialName": "육왕건",
+		"captain": "슬롯 일치 시에는 강인형 캐릭터의 공격력이 3배, 보통 때는 2.5배가 되고, 일당의 회복력이 0이 된다",
+		"sailor": {
+		"base": "None",
+			"level1": "강인형 캐릭터의 기본 능력치가 30 상승한다",
+			"level2": "강인형 캐릭터는 [RCV] [TND] 슬롯도 [유리] 슬롯으로 취급한다"
+		},
         sailorNotes: "#{beneficial}",
         limit: [
             { "description": "공격력 상승 : 5" },
@@ -6425,7 +6425,7 @@ window.details = {
             { "description": "공격력 상승 : 35" },
             { "description": "체력 상승 : 70" },
             { "description": "체력 상승 : 80" },
-            { "description": "선원 효과 추가 2: Makes [RCV] and [TND] orbs “beneficial” for Powerhouse characters" },
+            { "description": "선원 효과 추가 2: 강인형 캐릭터는 [RCV] [TND] 슬롯도 [유리] 슬롯으로 취급한다" },
             { "description": "체력 상승 : 90" },
             { "description": "공격력 상승 : 50" },
             { "description": "잠재능력 습득 3: 회복 무효 내성" },
@@ -7666,17 +7666,17 @@ window.details = {
 		specialName: "보니의 진수성찬 타임",
 		special: "인접한 슬롯을 [RCV]슬롯으로 변환하고, 1턴간 [PSY] 캐릭터의 회복을 1.5배 상승"
 	},
-	859: {
-		captain: "야심형 캐릭터의 공격이 1.5배가 되고, 체력이 적을때 받는 데미지를 최대 10%감소한다.",
-		specialName: "목숨을 건 중재",
-		special: "인접한 슬롯을 [RCV]슬롯으로 변환하고 필살기 발동시 체력이 50% 이상일때 일정 이상 공격을 받아도 죽지 않는다.",
-        specialNotes: "#{zombie}"
+	859: { // modified	
+		"captain": "야심형 캐릭터의 공격력이 1.5배가 되고, 남은 체력이 적을수록 받는 데미지를 최대 10%감소시킨다",
+		"specialName": "목숨을 건 중재",
+		"special": "인접한 슬롯을 [RCV]로 바꾸고, 필살기 발동 시의 체력이 50% 이상이면 1턴 동안 공격을 받아도 쓰러지지 않는다",
+		"specialNotes": "#{zombie}"
 	},
-	860: {
-		captain: "야심형 캐릭터의 공격이 2배가 되고, 체력이 적을때 받는 데미지를 최대 30%감소한다.",
-		specialName: "목숨을 건 중재",
-		special: "인접한 슬롯을 [RCV]슬롯으로 변환하고 필살기 발동시 체력이 50% 이상일때 일정 이상 공격을 받아도 죽지 않는다.",
-        specialNotes: "#{zombie}"
+	860: { // modified
+		"captain": "야심형 캐릭터의 공격력이 2배가 되고, 남은 체력이 적을수록 받는 데미지를 최대 30%감소시킨다",
+		"specialName": "목숨을 건 중재",
+		"special": "인접한 슬롯을 [RCV]로 바꾸고, 필살기 발동 시의 체력이 50% 이상이면 1턴 동안 공격을 받아도 쓰러지지 않는다",
+		"specialNotes": "#{zombie}"
 	},
 	861: { // modified
 		specialName: "매혹의 아름다운 쇠몽둥이",
@@ -8564,10 +8564,10 @@ window.details = {
         special: "Makes PERFECTs harder to hit for 1 turn. Deals 20x character's ATK in [INT] damage to all enemies. Changes all Fighter Character orbs into Matching",
         specialNotes: "Decreases timing window to hit a PERFECT. (Animation remains the same)"
     },
-    935: {
-        captain: "Boosts ATK of Fighter characters by 2x, and their HP by 1.5x. If HP is above 70% or below 30%, boosts ATK of Fighter characters by 2.75 instead",
-        specialName: "Fishman Karate!! Shark Fist Tile Breaker",
-        special: "Makes PERFECTs harder to hit for 1 turn. Deals 20x character's ATK in [INT] damage to all enemies. Changes all Fighter Character orbs into matching",
+    935: { // modified
+		"captain": "격투형 캐릭터의 공격력을 2배, 체력을 1.5배로 만들고, 체력이 일정 수준 이상일 때와 적을 때 공격력이 2.75배가 된다",
+		"specialName": "「어인공수도」!! 상어 기와 정권",
+		"special": "1턴 동안 PERFECT 타이밍이 약간 어려워지지만, 적 전체에게 [INT] 큰 데미지를 주고, 격투형 슬롯을 속성이 일치하는 슬롯으로 바꾼다",
         specialNotes: "Decreases timing window to hit a PERFECT. (Animation remains the same)",
         sailor: {
             "base": "None",
@@ -9644,10 +9644,10 @@ window.details = {
         special: "Reduces Paralysis duration by 3 턴 and deals 7x ATK as [STR] damage to one enemy",
         specialName: "Bepo's Ultimate Fist!!",
     },
-    1003: {
-        captain: "Boosts ATK of Fighter characters by 2x",
-        special: "Reduces Paralysis duration by 3 턴 and deals 7x ATK as [STR] damage to one enemy",
-        specialName: "Bepo's Ultimate Fist!!",
+    1003: { // modified
+		"captain": "격투형 캐릭터의 공격력을 2배로 만든다",
+		"special": "마비 상태를 3턴 회복하고, 적 1명에게 공격력x7배의 [STR] 데미지를 준다",
+		"specialName": "베포의 궁극권!!"
     },
     1004: {
         captain: "Boosts RCV of all characters by 1.5x",
@@ -15447,7 +15447,7 @@ window.details = {
             { "description": "회복력 상승 : 30" },
             { "description": "체력 상승 : 40" },
             { "description": "회복력 상승 : 40" },
-            { "description": "선원효과 추가 1: " },
+            { "description": "선원효과 추가 1: Reduces Silence duration on this character by 2 turns" },
             { "description": "체력 상승 : 50" },
             { "description": "체력 상승 : 70" },
             { "description": "소켓 슬롯 1개 추가" },
@@ -16970,7 +16970,7 @@ window.details = {
         specialNotes: "#{randomHits : 15}",
         sailor: {
             "base": "자신의 마비 상태를 완전히 회복한다",
-            "level1": "자신은 [RCV] and [TND] 슬롯도 [유리] 슬롯으로 취급한다",
+            "level1": "자신은 [RCV] [TND] 슬롯도 [유리] 슬롯으로 취급한다",
         },
         sailorNotes: "#{beneficial}",
         specialName: "Swamp-Swamp Gatling Gun",
@@ -16981,8 +16981,8 @@ window.details = {
             { "description": "잠재능력 습득 1: 피격 시 공격력 상승" },
             { "description": "회복력 상승 : 20" },
             { "description": "체력 상승 : 50" },
-            { "description": "공격력 상승 : " },
-            { "description": "선원효과 추가 #: " },
+            { "description": "공격력 상승 : 30" },
+            { "description": "선원효과 추가 1: 자신은 [RCV] [TND] 슬롯도 [유리] 슬롯으로 취급한다" },
             { "description": "체력 상승 : 70" },
             { "description": "체력 상승 : 90" },
             { "description": "회복력 상승 : 40" },
@@ -18754,7 +18754,7 @@ window.details = {
         specialName: "Firey Morale",
     },
     1587: {//Legend Sanji :: modified
-        captain: " 일당의 공격력을 2.5배, 체력을 1.3배로 만든다[선장 액션:스카이 워크] 스카이 워크 발동 직후에 공격할 수 없지만, 자신을 대상으로 하는 일부 효과를 막을 수 있으며, 다음 턴에 자신의 공격력이 2.5배(일당 중에 공격하는 캐릭터가 없을 때는 발동 불가) 더 상승한다",
+        captain: "일당의 공격력을 2.5배, 체력을 1.3배로 만든다[선장 액션:스카이 워크] 스카이 워크 발동 직후에 공격할 수 없지만, 자신을 대상으로 하는 일부 효과를 막을 수 있으며, 다음 턴에 자신의 공격력이 2.5배(일당 중에 공격하는 캐릭터가 없을 때는 발동 불가) 더 상승한다",
         captainNotes: "Multiple Sanjis can Sky Walk at the same time. Even while Sky Walking, will still boost all characters by 2.5x. Sky Walk is not a type boost, and will stack with other boosts",
         special: "적 전체에게 고정 데미지 100,000을 주고, 일당의 [BLOCK][TND] 슬롯, 자신의 슬롯 및 자신과 인접한 슬롯을 속성 일치 슬롯으로 변환하며, 1턴 동안 자신의 공격력을 2배로 만든다",
         sailor: "일당은 [RCV] 슬롯도 [유리](“beneficial”) 슬롯으로 취급한다",
@@ -18762,7 +18762,7 @@ window.details = {
         specialName: "헬 메모리즈",
     },
     1588: {//Legend Sanji :: modified
-        captain: " 일당의 공격력을 2.5배, 체력을 1.3배로 만든다[선장 액션:스카이 워크] 스카이 워크 발동 직후에 공격할 수 없지만, 자신을 대상으로 하는 일부 효과를 막을 수 있으며, 다음 턴에 자신의 공격력이 2.5배(일당 중에 공격하는 캐릭터가 없을 때는 발동 불가) 더 상승한다",
+        captain: "일당의 공격력을 2.5배, 체력을 1.3배로 만든다[선장 액션:스카이 워크] 스카이 워크 발동 직후에 공격할 수 없지만, 자신을 대상으로 하는 일부 효과를 막을 수 있으며, 다음 턴에 자신의 공격력이 2.5배(일당 중에 공격하는 캐릭터가 없을 때는 발동 불가) 더 상승한다",
         captainNotes: "Multiple Sanjis can Sky Walk at the same time. Even while Sky Walking, will still boost all characters by 2.5x. Sky Walk is not a type boost, and will stack with other boosts",
         special: "적 전체에게 고정 데미지 100,000을 주고, 일당의 [BLOCK][TND] 슬롯, 자신의 슬롯 및 자신과 인접한 슬롯을 속성 일치 슬롯으로 변환하며, 1턴 동안 자신의 공격력을 2배로 만든다",
         sailor: {
@@ -19424,7 +19424,7 @@ window.details = {
             { "description": "체력 상승 : 40" },
             { "description": "회복력 상승 : 30" },
             { "description": "공격력 상승 : 20" },
-            { "description": "선원효과 추가 #: " },
+            { "description": "선원효과 추가 1: Boosts base ATK of Powerhouse characters by 50" },
             { "description": "공격력 상승 : 30" },
             { "description": "체력 상승 : 60" },
             { "description": "소켓 슬롯 1개 추가" },
@@ -19988,15 +19988,15 @@ window.details = {
             },
         ]
     },
-    1666: {//Kyros
-        captain: "Boosts ATK of Striker characters by 2x",
-        special: "Changes adjacent orbs into Matching Orbs and if HP is above 70%, amplifies the effect of orbs for Striker and Powerhouse characters by 1.5x for 1 turn",
-        specialName: "Trueno Bastardo",
+    1666: {//Kyros // modified
+        captain: "타격형 캐릭터의 공격력을 2배로 만든다",
+		"special": "인접한 캐릭터의 슬롯을 속성 일치 슬롯으로 바꾸고, 남은 체력이 70% 이상일 때 1턴 동안 타격형과 강인형 캐릭터의 슬롯의 영향을 증폭시킨다",
+		"specialName": "신의의 파괴검",
     },
-    1667: {//Kyros
-        captain: "Boosts HP of Striker characters by 1.2x and boosts ATK of Striker characters by 2.75x if HP is below 30% at the start of the turn, 2.25x otherwise",
-        special: "Changes adjacent orbs into Matching Orbs and if HP is above 70%, amplifies the effect of orbs for Striker and Powerhouse characters by 1.5x for 1 turn",
-        specialName: "Trueno Bastardo",
+    1667: {//Kyros // modified
+		"captain": "타격형 캐릭터의 공격력을 2.25배, 체력을 1.2배로 만들고, 남은 체력이 적을 때는 타격형의 공격력이 2.75배가 된다",
+		"special": "인접한 캐릭터의 슬롯을 속성 일치 슬롯으로 바꾸고, 남은 체력이 70% 이상일 때 1턴 동안 타격형과 강인형 캐릭터의 슬롯의 영향을 증폭시킨다",
+		"specialName": "신의의 파괴검",
         sailor: {
             "base": "None",
             "level1": "Adds 2x character's ATK as Additional Typeless Damage",
@@ -20580,7 +20580,7 @@ window.details = {
             { "description": "체력 상승 : 70" },
             { "description": "회복력 상승 : 20" },
             { "description": "소켓 슬롯 1개 추가" },
-            { "description": "선원효과 추가 #: " },
+            { "description": "선원효과 추가 1: Boost HP of all characters by 40 if your Captain is a Fighter character" },
             { "description": "체력 상승 : 90" },
             { "description": "잠재능력 습득 2: 피격 시 공격력 상승" },
         ],
@@ -20930,12 +20930,12 @@ window.details = {
             { "description": "체력 상승 : 80" },
             { "description": "공격력 상승 : 10" },
             { "description": "공격력 상승 : 10" },
-            { "description": "선원효과 추가 1: " },
+            { "description": "선원효과 추가 1: 자신은 [STR] 슬롯도 [유리] 슬롯으로 취급한다" },
             { "description": "공격력 상승 : 10" },
             { "description": "소켓 슬롯 1개 추가" },
             { "description": "체력 상승 : 100" },
             { "description": "공격력 상승 : 20" },
-            { "description": "선원효과 추가 2: " },
+            { "description": "선원효과 추가 2: Makes [INT] orbs “beneficial” for Driven characters" },
             { "description": "잠재능력 습득 #: 슬롯 봉쇄 내성" },
         ],
         potential: [
@@ -22292,13 +22292,13 @@ window.details = {
         potentialNotes: "#{enrage}"
     },
     1793:{//Lucy Sabo
-        captain: " 일당에 [STR][DEX][QCK]이 있을 때 [STR][DEX][QCK]은 공격력이 2.75배, 체력이 1.3배, [DEX][QCK]슬롯도 유리한 슬롯 취급, [STR]슬롯 출현률 격감, 일당에 [PSY][INT]이 없을 때는 [STR][DEX][QCK]의 공격력이 1.35배 증가 (공격력이 2.75 배가되는 효과와 중복 가능)",
+        captain: "일당에 [STR][DEX][QCK]이 있을 때 [STR][DEX][QCK]은 공격력이 2.75배, 체력이 1.3배, [DEX][QCK]슬롯도 유리한 슬롯 취급, [STR]슬롯 출현률 격감, 일당에 [PSY][INT]이 없을 때는 [STR][DEX][QCK]의 공격력이 1.35배 증가 (공격력이 2.75 배가되는 효과와 중복 가능)",
         captainNotes: "Sabo boosts ATK by 3.7125x if you have [STR], [DEX] and [QCK] type characters and no [PSY] or [INT] characters at all.<br>#{beneficial}",
         special: "1 턴 동안 [STR][DEX][QCK]의 공격력이 1.75 배가 된다. 같은 턴에 PERFECT 공격 4 회 성공으로 다음 턴에[STR][DEX][QCK]의 공격력이 2배가된다.",
         specialName: "용의 발톱 : 파동 상쇄",
     },
     1794:{//Lucy Sabo :: modified
-        captain: " 일당에게 [STR][DEX][QCK]이 있을 때, [STR][DEX][QCK]은 공격력이 2.75배, 체력이 1.3배, [DEX][QCK]슬롯도 유리한 슬롯 취급, [STR]슬롯 출현률 격감, 일당에 [PSY][INT]이 없을 때는 [STR][DEX][QCK]의 공격력이 1.35배 증가 (공격력이 2.75 배가되는 효과와 중복 가능)",
+        captain: "일당에게 [STR][DEX][QCK]이 있을 때, [STR][DEX][QCK]은 공격력이 2.75배, 체력이 1.3배, [DEX][QCK]슬롯도 유리한 슬롯 취급, [STR]슬롯 출현률 격감, 일당에 [PSY][INT]이 없을 때는 [STR][DEX][QCK]의 공격력이 1.35배 증가 (공격력이 2.75 배가되는 효과와 중복 가능)",
         captainNotes: "Sabo boosts ATK by 3.7125x if you have [STR], [DEX] and [QCK] type characters and no [PSY] or [INT] characters at all.<br>#{beneficial}",
         special: "1턴 동안 [STR][DEX][QCK]의 공격력이 1.75배, 그 턴 동안 PERFECT 공격 4번 이상 성공하면 다음 턴에 [STR][DEX][QCK]의 공격력이 2배가 된다",
         specialName: "용의 발톱·파동 상쇄",
@@ -22648,6 +22648,15 @@ window.details = {
     },
     1808: {//Mihawk :: modified
         captain: "참격형 캐릭터의 공격력이 1.2배, 체력이 1.1배, 「흑도·극한의 일도」'를 사용한 턴은 참격형 캐릭터의 공격력이 1.35배 더 상승한다",
+        captain: {
+	        "base": "참격형 캐릭터의 공격력이 1.2배, 체력이 1.1배, 「흑도·극한의 일도」'를 사용한 턴은 참격형 캐릭터의 공격력이 1.35배 더 상승한다",
+            "level1": "참격형 캐릭터의 공격력이 1.35배, 체력이 1.1배, 「흑도·극한의 일도」'를 사용한 턴은 참격형 캐릭터의 공격력이 1.8225배 더 상승한다",
+            "level2": "참격형 캐릭터의 공격력이 1.6배, 체력이 1.1배, 「흑도·극한의 일도」'를 사용한 턴은 참격형 캐릭터의 공격력이 2.16배 더 상승한다",
+            "level3": "참격형 캐릭터의 공격력이 1.8배, 체력이 1.2배, 「흑도·극한의 일도」'를 사용한 턴은 참격형 캐릭터의 공격력이 2.43배 더 상승한다",
+            "level4": "참격형 캐릭터의 공격력이 2배, 체력이 1.2배, 「흑도·극한의 일도」'를 사용한 턴은 참격형 캐릭터의 공격력이 2.7배 더 상승한다",
+            "level5": "참격형 캐릭터의 공격력이 2배, 체력이 1.3배, 「흑도·극한의 일도」'를 사용한 턴은 참격형 캐릭터의 공격력이 2.7배 더 상승한다",
+            "level6": "참격형 캐릭터의 공격력이 2.5배, 체력이 1.3배, 「흑도·극한의 일도」'를 사용한 턴은 참격형 캐릭터의 공격력이 3.5배 더 상승한다",
+        },
         special: "적 전체에게 캐릭터의 공격력x100배의 무 속성 데미지를 주고, 선장이 참격형 캐릭터라면 1턴 동안 일당의 체인 계수가 2.75배로 고정되고 참격형 캐릭터의 슬롯의 영향을 2배로 증폭시킨다",
         specialName: "흑도·극한의 일도",
         sailor: {
@@ -25551,28 +25560,28 @@ window.details = {
         special: "적 1명에게 캐릭터의 공격력x13배의 [DEX] 데미지를 주고, 인접한 슬롯을 속성 일치 슬롯으로 바꾸며, 필살기 발동 시 적의 수가 4명 이상일 때, 1턴 동안 일당의 슬롯 영향을 상당히 증폭시킨다",
         specialName: "활동하는 쌍태도",
     },
-    1940: {//Ace
-        captain: "If there is a [STR], [QCK] and [PSY] character in your crew, boosts ATK of [STR], [QCK] and [PSY] characters by 1.75x and their HP and RCV by 1.05x",
-        special: "Changes all orbs, including [BLOCK] orbs, to [STR] orbs, boosts ATK of [STR], [QCK] and [PSY] characters by 1.75x for 1 turn and makes [STR] orbs “beneficial” for [STR], [QCK] and [PSY] characters if your Captain is a Free Spirit character",
+    1940: {//Ace // modified
+        captain: "일당에 [STR], [QCK], [PSY] 속성이 있을 때, [STR], [QCK], [PSY] 속성의 공격력을 1.75배, 체력과 회복력을 1.0배로 만든다",
+		"special": "[BLOCK] 슬롯을 포함한 모든 슬롯을 [STR] 슬롯으로 바꾸고, 1턴 동안 [STR], [QCK], [PSY] 속성의 공격력을 1.75배, 선장이 자유형일 경우 [STR], [QCK], [PSY] 속성은 1턴 동안 [STR] 슬롯도 [유리] 슬롯으로 취급한다",
         specialNotes: "#{beneficial}",
-        specialName: "Sacred Flames: Unknown Fire",
+        specialName: "신화 신기루",
     },
-    1941: {//Ace
+    1941: {//Ace // modified
         captain: {
-            "base": "If there is a [STR], [QCK] and [PSY] character in your crew, boosts ATK of [STR], [QCK] and [PSY] characters by 2x and their HP and RCV by 1.1x",
-            "level1": "Not Translated",
-            "level2": "Not Translated",
-            "level3": "Not Translated",
-            "level4": "Not Translated",
-            "level5": "Not Translated",
-            "level6": "If there is a [STR], [QCK] and [PSY] character in your crew, boosts ATK of [STR], [QCK] and [PSY] characters by 3.44x if they have a [STR] orb, by 2.75x otherwise and their HP and RCV by 1.2x",
+		    "base": "일당에 [STR], [QCK], [PSY] 속성이 있을 때, [STR], [QCK], [PSY] 속성의 공격력을 2배, 체력과 회복력을 1.1배로 만든다",
+		    "level1": "일당에 [STR], [QCK], [PSY] 속성이 있을 때, [STR], [QCK], [PSY] 속성의 공격력을 2.1배, 체력과 회복력을 1.1배로 만든다",
+		    "level2": "일당에 [STR], [QCK], [PSY] 속성이 있을 때, [STR], [QCK], [PSY] 속성의 공격력을 2.2배, 체력과 회복력을 1.1배로 만든다",
+		    "level3": "일당에 [STR], [QCK], [PSY] 속성이 있을 때, [STR], [QCK], [PSY] 속성의 공격력을 2.4배, 체력과 회복력을 1.1배로 만든다",
+		    "level4": "일당에 [STR], [QCK], [PSY] 속성이 있을 때, [STR], [QCK], [PSY] 속성의 공격력을 2.5배, 체력과 회복력을 1.2배로 만든다",
+		    "level5": "일당에 [STR], [QCK], [PSY] 속성이 있을 때, [STR], [QCK], [PSY] 속성의 공격력을 2.75배, 체력과 회복력을 1.2배로 만든다",
+		    "level6": "일당에 [STR], [QCK], [PSY] 속성이 있을 때, [STR], [QCK], [PSY] 속성의 체력과 회복력을 1.2배, 기본 공격력을 2.75배, [STR] 슬롯이 나온 캐릭터는 공격력을 약 3.44배로 만든다"
         },
-        special: "Changes all orbs, including [BLOCK] orbs, to [STR] orbs, boosts ATK of [STR], [QCK] and [PSY] characters by 1.75x for 1 turn and makes [STR] orbs “beneficial” for [STR], [QCK] and [PSY] characters if your Captain is a Free Spirit character",
+		"special": "[BLOCK] 슬롯을 포함한 모든 슬롯을 [STR] 슬롯으로 바꾸고, 1턴 동안 [STR], [QCK], [PSY] 속성의 공격력을 1.75배, 선장이 자유형일 경우 [STR], [QCK], [PSY] 속성은 1턴 동안 [STR] 슬롯도 [유리] 슬롯으로 취급한다",
         specialNotes: "#{beneficial}",
-        specialName: "Sacred Flames: Unknown Fire",
+        specialName: "신화 신기루",
         sailor: {
             "base": "None",
-            "level1": "Boosts base ATK, HP and RCV of Free Spirit characters by 30",
+            "level1": "자유형 캐릭터의 기본 능력치가 30 상승한다",
             "level2": "자신은 [PSY] 슬롯도 [유리] 슬롯으로 취급한다",
         },
         sailorNotes: "#{beneficial}",
@@ -25582,18 +25591,18 @@ window.details = {
             { "description": "체력 상승 : 30" },
             { "description": "회복력 상승 : 5" },
             { "description": "잠재능력 습득 1: [DEX] 데미지 피해 감소" },
-            { "description": "새로운 선장 효과 습득: " },
-            { "description": "선원 효과 추가 1: Boosts base ATK, HP and RCV of Free Spirit characters by 30" },
+            { "description": "새로운 선장 효과 습득: If there is a [STR], [QCK] and [PSY] character in your crew, boosts ATK of [STR], [QCK] and [PSY] characters by 2.1x and their HP and RCV by 1.1x" },
+            { "description": "선원 효과 추가 1: 자유형 캐릭터의 능력치를 50 상승한다" },
             { "description": "공격력 상승 : 15" },
             { "description": "체력 상승 : 40" },
             { "description": "회복력 상승 : 10" },
-            { "description": "새로운 선장 효과 습득: " },
+            { "description": "새로운 선장 효과 습득: If there is a [STR], [QCK] and [PSY] character in your crew, boosts ATK of [STR], [QCK] and [PSY] characters by 2.2x and their HP and RCV by 1.1x" },
             { "description": "소켓 슬롯 1개 추가" },
             { "description": "필살기 턴 단축 : 1턴" },
             { "description": "공격력 상승 : 20" },
             { "description": "체력 상승 : 50" },
             { "description": "회복력 상승 : 15" },
-            { "description": "새로운 선장 효과 습득: " },
+            { "description": "새로운 선장 효과 습득: If there is a [STR], [QCK] and [PSY] character in your crew, boosts ATK of [STR], [QCK] and [PSY] characters by 2.4x and their HP and RCV by 1.1x" },
             { "description": "필살기 턴 단축 : 2턴" },
             { "description": "공격력 상승 : 25" },
             { "description": "체력 상승 : 60" },
@@ -25603,7 +25612,7 @@ window.details = {
             { "description": "공격력 상승 : 30" },
             { "description": "체력 상승 : 55" },
             { "description": "필살기 턴 단축 : 4턴" },
-            { "description": "새로운 선장 효과 습득: " },
+            { "description": "새로운 선장 효과 습득: If there is a [STR], [QCK] and [PSY] character in your crew, boosts ATK of [STR], [QCK] and [PSY] characters by 2.5x and their HP and RCV by 1.2x" },
             { "description": "공격력 상승 : 30" },
             { "description": "체력 상승 : 50" },
             { "description": "선원 효과 추가 2: Makes [PSY] orbs “beneficial” for this unit" },
@@ -25612,10 +25621,10 @@ window.details = {
             { "description": "회복력 상승 : 50" },
             { "description": "필살기 턴 단축 : 5턴" },
             { "description": "소켓 슬롯 1개 추가" },
-            { "description": "새로운 선장 효과 습득: " },
+            { "description": "새로운 선장 효과 습득: If there is a [STR], [QCK] and [PSY] character in your crew, boosts ATK of [STR], [QCK] and [PSY] characters by 2.75x and their HP and RCV by 1.2x" },
             { "description": "공격력 상승 : 60" },
             { "description": "체력 상승 : 60" },
-            { "description": "새로운 선장 효과 습득: " },
+            { "description": "새로운 선장 효과 습득: If there is a [STR], [QCK] and [PSY] character in your crew, boosts ATK of [STR], [QCK] and [PSY] characters by 3.44x if they have a [STR] orb, by 2.75x otherwise and their HP and RCV by 1.2x" },
             { "description": "잠재능력 습득 2: 슬롯 봉쇄 내성" },
         ],
         potential: [
@@ -26162,11 +26171,11 @@ window.details = {
     1972: {//Sabo
         captain: {
             "base": "Boosts ATK of Cerebral characters by 1.5x and their HP and RCV by 1.05x and boosts chain by 1.2x if HP is above 70% or below 30% at the start of the turn",
-            "level1": "Not Translated",
-            "level2": "Not Translated",
-            "level3": "Not Translated",
-            "level4": "Not Translated",
-            "level5": "Not Translated",
+            "level1": "Boosts ATK of Cerebral characters by 1.5x and their HP and RCV by 1.1x and boosts chain by 1.2x if HP is above 70% or below 30% at the start of the turn",
+            "level2": "Boosts ATK of Cerebral characters by 1.75x and their HP and RCV by 1.1x and boosts chain by 1.2x if HP is above 70% or below 30% at the start of the turn",
+            "level3": "Boosts ATK of Cerebral characters by 1.75x and their HP and RCV by 1.1x and boosts chain by 1.3x if HP is above 70% or below 30% at the start of the turn",
+            "level4": "Boosts ATK of Cerebral characters by 2x and their HP and RCV by 1.1x and boosts chain by 1.3x if HP is above 70% or below 30% at the start of the turn",
+            "level5": "Boosts ATK of Cerebral characters by 2x and their HP and RCV by 1.2x and boosts chain by 1.4x if HP is above 70% or below 30% at the start of the turn",
             "level6": "Boosts ATK of Cerebral characters by 2.25x and their HP and RCV by 1.2x and boosts chain by 1.5x if HP is above 70% or below 30% at the start of the turn",
         },
         special: "If your Captain is a Cerebral character, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs on Cerebral characters into Matching orbs, reduces the defense of all enemies by 80% and boosts ATK against enemies with reduced defense by 1.75x for 1 turn",
@@ -29521,6 +29530,23 @@ window.details = {
             },
         ],
     },
+    2124: {//Trebol
+        captain: "Boosts ATK of Striker characters by 2.5x and boosts HP of Driven characters by 1.5x",
+        special: "Reduces crew's current HP by 60%, deals 8x the amount of HP subtracted in typeless damage to all enemies and amplifies the effect of orbs for Striker characters by 1.5x for 1 turn",
+        specialName: "Beta Betton Mucous Launcher",
+    },
+    2125: {//Jesus Burgess
+        captain: "Boosts ATK of Powerhouse characters by 2.5x and reduces damage received by 10%",
+        special: "Cuts the current HP of one enemy by 25% that will ignore damage negating abilities and barriers",
+        specialName: "The Mouth that Induces Hatred",
+        specialNotes: "#{ignoreBarrier}",
+    },
+    2126: {//Doffy
+        captain: "Boosts ATK of Striker characters by 2.5x and their HP by 1.3x. If you use \"Fullbright\" THIS DOFLAMINGO boosts ATK of Striker characters by 3x instead for 3 turns",
+        captainNotes: "Using Doflamingo's special will change his own captain boost to 3x. If both Doflamingo's specials are used, the total ATK boost will be 9x",
+        special: "Cuts the current HP of each enemy by 20%, changes own orb into [STR] and at the end of the turn, cuts the current HP of each enemy by 10% for 2 turns. If HP is below 50% at the time the special is activated, boosts ATK of Striker and Driven characters by 1.75x for 1 turn",
+        specialName: "Fullbright",
+    },
     2127: {//Brulee
         captain: "Boosts RCV of Cerebral characters by 1.2x and boosts ATK of Cerebral characters by 2.75x if they have a matching orb, by 1.75x otherwise",
         special: "Reduces Bind duration by 2 turns and amplifies the effect of orbs for Cerebral characters by 1.5x and boosts ATK of Cerebral characters by 1.5x for 1 turn.",
@@ -30947,6 +30973,12 @@ window.details = {
             },
         ]
     },
+    2194: {//EXP Reiju
+        captain: "Boosts ATK of all characters by 2.25x and boosts EXP and amount of Beli received by 1.2x",
+        captainNotes: "EXP and Beli boost does not take effect if she becomes your captain in the middle of the adventure.",
+        special: "Changes [TND] and Badly Matching orbs into Matching orbs and switches orbs between slots once",
+        specialName: "Royal Treatment",
+    },
     2196: {//Blackbeard
         captain: "Boosts ATK of Driven characters by 3.75x when HP is 10% or below, 2x otherwise and boosts HP of Driven characters by 1.2x",
         special: "Reduces enemy's Threshold Damage Reduction, Percent Damage Reduction, End of Turn Damage/Percent Cut, End of Turn Heal, Increased Defense, Damage Nullification, Barrier, ATK Up, Enrage and Resilience Buffs duration by 1 turn. Boosts ATK of all characters by 2x if HP is below 10% at the time the special is activated.",
@@ -31082,6 +31114,52 @@ window.details = {
         special: "Reduces crew's ATK DOWN and Bind duration by 3 turns and changes bottom row orbs into matching orbs",
         specialName: "Heavenly Charge",
     },
+    2210: {//Enel TM
+        captain: "Boosts ATK of all characters by ?x, deals ? in [PSY] damage to all enemies at the end of each turn and recovers ? HP at end of each turn",
+        special: "Deals 565,600 fixed damage to all enemies and locks all orbs for 1 turn.",
+        specialName: "God's Judgement: El Thor",
+    },
+    2211: {//Enel TM
+        captain: {
+            "base": "Boosts ATK of all characters by 2x, deals 5656 in [PSY] damage to all enemies at the end of each turn and recovers 51 HP at end of each turn",
+            "level1": "Boosts ATK of all characters by ?x, deals ? in [PSY] damage to all enemies at the end of each turn and recovers ? HP at end of each turn",
+            "level2": "Boosts ATK of all characters by ?x, deals ? in [PSY] damage to all enemies at the end of each turn and recovers ? HP at end of each turn",
+            "level3": "Boosts ATK of all characters by ?x, deals ? in [PSY] damage to all enemies at the end of each turn and recovers ? HP at end of each turn",
+            "level4": "Boosts ATK of all characters by ?x, deals ? in [PSY] damage to all enemies at the end of each turn and recovers ? HP at end of each turn",
+            "level5": "Boosts ATK of all characters by ?x, deals ? in [PSY] damage to all enemies at the end of each turn and recovers ? HP at end of each turn",
+            "level6": "Boosts ATK of all characters by 2.5x, deals 56560 in [PSY] damage to all enemies at the end of each turn and recovers 510 HP at end of each turn",
+        },
+        special: "Deals 565,600 fixed damage to all enemies and locks all orbs for 1 turn.",
+        specialName: "God's Judgement: El Thor",
+        sailor: {
+            "base": "None",
+            "level1": "When any other character uses a special, reduces own cooldown by 5 turns",
+            "level2": "Makes [RCV] orbs \"beneficial\" for this character",
+        },
+        sailorNotes: "#{beneficial}",
+        potential: [
+            {
+                "Name": "Critical Hit",
+                "description": [
+                    "Level 1: If you hit a perfect with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
+                    "Level 2: If you hit a perfect with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a perfect with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
+                    "Level 4: If you hit a perfect with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
+                    "Level 5: If you hit a perfect with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
+                ]
+            },
+            {
+                "Name": "Reduce No Healing duration",
+                "description": [
+                    "Level 1: Reduces No Healing duration by 1 turn",
+                    "Level 2: Reduces No Healing duration by 2 turns",
+                    "Level 3: Reduces No Healing duration by 3 turns",
+                    "Level 4: Reduces No Healing duration by 5 turns",
+                    "Level 5: Reduces No Healing duration by 7 turns"
+                ]
+            },
+        ],
+    },
     2212: {//Pudding
         captain: "Boosts ATK of Cerebral characters by ?x and their RCV by ?x",
         special: "Recovers 7,000 HP, Reduces crew's ATK DOWN and enemy's Resilience Buffs duration by 1 turn and changes adjacent orbs into Matching Orbs",
@@ -31135,6 +31213,36 @@ window.details = {
         specialName: "Tropical Country Flowers",
         specialNotes: "#{stages}",
         sailor: "Reduces Silence duration on this character by 3 turns",
+    },
+    2216: {//Conis
+        captain: "Boosts ATK, HP and RCV of all characters by ?x",
+        special: "Removes Poison, reduces RCV DOWN duration by 10 turns, boosts RCV of all characters by 1.5x for 1 turn and reduces Special Cooldown of your top row by 1 turn.",
+        specialName: "Angel Cruising",
+    },
+    2217: {//Conis
+        captain: "Boosts ATK, HP and RCV of all characters by 1.75x",
+        special: "Removes Poison, reduces RCV DOWN duration by 10 turns, boosts RCV of all characters by 1.5x for 1 turn and reduces Special Cooldown of your top row by 1 turn.",
+        specialName: "Angel Cruising",
+    },
+    2218: {//Inuarashi
+        captain: "Boosts ATK of Cerebral characters by ?x and their HP by ?x",
+        special: "Reduces enemies Increased Defense duration by 2 turns and changes own orb into [STR]. If your Captain is a Cerebral character, Locks the chain multiplier at 2.5x for 1 turn.",
+        specialName: "Dog Treat",
+    },
+    2219: {//Inuarashi
+        captain: "Boosts ATK of Cerebral characters by 2.25x and their HP by 1.2x",
+        special: "Reduces enemies Increased Defense duration by 2 turns and changes own orb into [STR]. If your Captain is a Cerebral character, Locks the chain multiplier at 2.5x for 1 turn.",
+        specialName: "Dog Treat",
+    },
+    2220: {//Miyagi
+        captain: "Boosts RCV of Cerebral characters by 1.5x",
+        special: "Removes Blindness duration completely.",
+        specialName: "Positive Therapy",
+    },
+    2221: {//Tristan
+        captain: "Boosts chain multiplier by 1.5x",
+        special: "Recovers 2,000 HP and reduces Despair duration by 2 turns.",
+        specialName: "Loving Family Care",
     },
     2500: {//Doflamingo Raid v2
         captain: "Boosts ATK of 야심형 and Cerebral characters by 2.5x when HP is 50% or below, 1.5x otherwise",
