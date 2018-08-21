@@ -27625,11 +27625,11 @@ window.details = {
         specialNotes: "#{randomHits : 20}<br>#{random : ??? : ??? : for each hit on Stage 1}<br>#{random : ??? : ??? : for each hit on Stage 2}<br>#{stages}",
         specialName: "Yasakani no Magatama: Divine Light",
     },
-    2035: {//Buggy 6+
-        captain: "Boosts ATK of characters with cost 40 or less by 1.75x and reduces the HP and ATK of characters with cost 41 and greater by 0.5x. Guarantees duplicating a drop upon completion of the island.",
+    2035: {//Buggy 6+ // modified
+        captain: "코스트 40 이하인 캐릭터의 공격력을 1.75배, 코스트 41 이상인 캐릭터의 공격력과 체력을 50% 감소시키고, 모험에서 획득한 보물이 한 가지 추가된다(모험 도중에 선장이 된 경우에는 보물 추가 효과가 적용되지 않습니다)",
         captainNotes: "Does not work if he was not your captain upon starting the island. Stacks with other additional drop captains, giving you two chances of getting an extra drop.",
-        special: "Boosts ATK of characters with cost 40 or less by 2x for 2 turns",
-        specialName: "The Greatest Villain's Bluff",
+        special: "2턴 동안 코스트 40 이하 캐릭터의 공격력을 2배로 만든다",
+        specialName: "대악당의 허세",
     },
     2036: {//Jesus Burgess
         captain: "Boosts ATK of Fighter characters by 2.25x",
