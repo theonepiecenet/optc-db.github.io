@@ -5680,7 +5680,7 @@ window.details = {
     671: {
 		"special": "1턴 동안 격투형 캐릭터의 공격력이 1.75배가 된다",
 		"specialName": "어인공수도! 혁명의 정권 찌르기",
-		"captain": "격투형 캐릭터의 공격력이 2.25배, 회복력이 1.5배가 된다"
+		"captain": "격투형 캐릭터의 공격력이 2.25배, 회복력이 1.5배가 된다",
         sailor: {
             "base": "None",
             "level1": "Boosts base ATK, HP and RCV of Fighter characters by 30",
