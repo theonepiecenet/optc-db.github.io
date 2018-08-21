@@ -4781,9 +4781,9 @@ window.details = {
         special: "[BLOCK] 슬롯을 [공백]으로 바꾼다",
         specialName: "청소 태클"
     },
-    567: {
-        special: "Reduces Bind and Despair duration by 1 턴, deals 15x the character's ATK as [STR] damage to all enemies",
-        specialName: "Mudfish Coaster"
+    567: { // modified
+		"special": "봉쇄.. 선장효과 무효 상태를 1턴 회복, 적 전체에 [STR] 데미지를 준다",
+		"specialName": "미꾸라지 코스터"
     },
     568: { // modified
 		"special": "적 전체를 2턴 지연, 방어 반감, 슬롯을 2회 자유롭게 이동",
@@ -5505,32 +5505,32 @@ window.details = {
         specialName: "Thunder Lance Tempo",
         captain: "Boosts ATK of [INT] characters by 2x and their RCV by 1.5x"
     },
-    652: {
-        special: "Cuts the current HP of each enemy by 20%, reduces damage received by 50% for 1 turn",
-        specialName: "Heart-Smashing Horn",
-        captain: "Reduces cooldown of all specials by 1 턴 at the start of the fight, boosts ATK of [DEX] characters by 2x if they have matching orbs"
+    652: { // modified
+		"special": "적 전체의 HP를 20% 줄이고, 1턴 동안 받는 데미지를 반감",
+		"specialName": "심장을 찢는 뿔",
+		"captain": "모험 시작 시 필살 턴을 1턴 단축,[DEX] 캐릭터의 공격력이 슬롯 일치 시 2배가 된다"
     },
-    653: {
-        special: "Cuts the current HP of each enemy by 20%, reduces damage received by 50% for 1 turn",
-        specialName: "Heart-Smashing Horn",
-        captain: "Reduces cooldown of all specials by 2 턴 at the start of the fight, boosts ATK of [DEX] characters by 2.25x if they have matching orbs"
+    653: { // modified
+		"special": "적 전체의 HP를 20% 줄이고, 1턴 동안 받는 데미지를 반감",
+		"specialName": "심장을 찢는 뿔",
+		"captain": "모험 시작 시 필살 턴을 2턴 단축, [DEX] 캐릭터의 공격력이 슬롯 일치 시 2.25배가 된다"
     },
     654: { // modified
 		"special": "적 전체의 HP를 20% 줄이고, 1턴 동안 받는 데미지를 반감",
 		"specialName": "심장을 찢는 뿔",
 		"captain": "모험 시작 시 필살 턴을 3턴 단축, [DEX] 캐릭터의 공격력이 슬롯 일치 시 2.75배가 된다"
     },
-    655: {
-        special: "Changes [EMPTY] and [TND] orbs into [STR] orbs, deals 10x character's ATK in [STR] damage to one enemy, amplifies the effect of orbs by 1.25x for 2 turn",
-        specialNotes: "#{orb : 1.25x}",
-        specialName: "Tooth Gum",
-        captain: "Boosts ATK of [STR] characters by 1.5x"
+    655: { // modified
+		"special": "[EMPTY][TND] 슬롯을 [STR] 으로 바꾸고, 적 1명에게 [STR] 데미지, 2턴 동안 슬롯의 영향이 조금 증폭된다",
+		"specialNotes": "#{orb : 1.25x}",
+		"specialName": "이빨 검",
+		"captain": "[STR] 캐릭터의 공격력이 1.5배가 된다"
     },
-    656: {
-        special: "Changes [EMPTY] and [TND] orbs into [STR] orbs, deals 10x character's ATK in [STR] damage to one enemy, amplifies the effect of orbs by 1.25x for 2 turn",
-        specialNotes: "#{orb : 1.25x}",
-        specialName: "Tooth Gum",
-        captain: "Reduces cooldown of all specials by 1 턴 at the start of the fight, boosts ATK of [STR] characters by 2x"
+    656: { // modified
+		"special": "[EMPTY][TND] 슬롯을 [STR] 으로 바꾸고, 적 1명에게 [STR] 데미지, 2턴 동안 슬롯의 영향이 조금 증폭된다",
+		"specialNotes": "#{orb : 1.25x}",
+		"specialName": "이빨 검",
+		"captain": "모험 시작 시 필살 턴을 1턴 단축, [STR] 캐릭터의 공격력이 2배가 된다"
     },
     657: {
         special: "Randomly changes [INT] and [PSY] orbs into either [STR] or [EMPTY]슬롯으로 바꾼다",
@@ -5562,33 +5562,33 @@ window.details = {
         specialName: "Tornado Tempo - Beach Side",
         captain: "Boosts ATK of [PSY] characters by 2x"
     },
-    663: {
-        special: "Deals [PSY] damage to one enemy according to HP, recovers 5x character's RCV in HP at the end of each  turn for 5 turn",
-        specialNotes: "The exact damage is proportional to the crew's remaining HP and is higher the lower the HP is. The formula used is 80000 * (1 - (current HP) / (total HP))",
-        specialName: "Vivi's Important Security Guard",
-        captain: "Recovers 2x character's RCV in HP at the end of each  turn"
+    663: { // modified
+		"special": "남은 체력이 적을수록 적 1명에게 큰 데미지를 주고, 5턴 동안 턴 종료 후 체력 중량 회복",
+		"specialNotes": "The exact damage is proportional to the crew's remaining HP and is higher the lower the HP is. The formula used is 80000 * (1 - (current HP) / (total HP))",
+		"specialName": "비비의 소중한 경호원!",
+		"captain": "턴 종료 후에 캐릭터의 회복력X2배의 체력 회복"
     },
-    664: {
-        special: "Deals [PSY] damage to one enemy according to HP, recovers 5x character's RCV in HP at the end of each  turn for 5  turn",
-        specialNotes: "The exact damage is proportional to the crew's remaining HP and is higher the lower the HP is. The formula used is 80000 * (1 - (current HP) / (total HP))",
-        specialName: "Vivi's Important Security Guard",
-        captain: "Recovers 3x character's RCV in HP at the end of each  turn"
+    664: { // modified
+		"special": "남은 체력이 적을수록 적 1명에게 큰 데미지를 주고, 5턴 동안 턴 종료 후 체력 중량 회복",
+		"specialNotes": "The exact damage is proportional to the crew's remaining HP and is higher the lower the HP is. The formula used is 80000 * (1 - (current HP) / (total HP))",
+		"specialName": "비비의 소중한 경호원!",
+		"captain": "턴 종료 훙 캐릭터의 회복력x3배의 체력 회복"
     },
-    665: {
-        special: "Changes own orb into [QCK], boosts ATK against enemies with reduced defense by 1.3x for 2 turns",
-        specialName: "Let's Go! Suna Suna Clan!!",
-        captain: "Boosts ATK of all characters by 1.2x, reduces HP and RCV of all characters by 80%"
+    665: { // modified
+		"special": "자신의 슬롯을 [QCK]으로 바꾸고, 2턴 동안 방어력 감소 중인 적에게 주는 데미지를 1.3배로 만든다",
+		"specialName": "덤벼라! 모래모래단!!",
+		"captain": "일당의 공격력이 1.2배가 되고, 체력과 회복력 격감"
     },
-    666: {
-        special: "Changes own orb into [QCK], boosts ATK against enemies with reduced defense by 1.3x for 2 turns",
-        specialName: "Let's Go! Suna Suna Clan!!",
-        captain: "Boosts ATK of all characters by 1.75x, reduces HP and RCV of all characters by 80%"
+    666: { // modified
+		"special": "자신의 슬롯을 [QCK]으로 바꾸고, 2턴 동안 방어력 감소 중인 적에게 주는 데미지를 1.3배로 만든다",
+		"specialName": "덤벼라! 모래모래단!!",
+		"captain": "일당의 공격력이 1.75배가 되고, 체력과 회복력 격감"
     },
-    667: {
-        special: "Protects from defeat as long as HP is above 50% for 1 turn",
-        specialName: "King's Chopper",
-        specialNotes: "#{zombie}",
-        captain: "Reduces damage received by 10%, boosts ATK of all characters by 1.5x"
+    667: { // modified
+		"special": "1턴 동안 체력이 일정량 이상이면 공격을 받아도 쓰러지지 않는다",
+		"specialName": "킹촙",
+		"specialNotes": "#{zombie}",
+		"captain": "받는 데미지 10% 감소, 일당의 공격력이 1.5배가 된다"
     },
     668: { // modified
         special: "1턴 동안 자유형 캐릭터의 공격력이 1.5배가 되고, 그 턴 내에 일당 전원이 PERFECT 공격에 성공하면 다음 턴에 자유형 캐릭터의 공격력이 2배가 된다",
@@ -5672,15 +5672,15 @@ window.details = {
             },
         ]
     },
-    670: {
-        special: "Boosts ATK of Fighter characters by 1.75x for 1 turn",
-        specialName: "Fishman Karate! True Fist Thrust of the Revolutionaries",
-        captain: "Boosts ATK of Fighter characters by 2x"
+    670: { // modified
+		"special": "1턴 동안 격투형 캐릭터의 공격력이 1.75배가 된다",
+		"specialName": "어인공수도! 혁명의 정권 찌르기",
+		"captain": "격투형 캐릭터의 공격력이 2배가 된다"
     },
     671: {
-        special: "Boosts ATK of Fighter characters by 1.75x for 1 turn",
-        specialName: "Fishman Karate! True Fist Thrust of the Revolutionaries",
-        captain: "Boosts ATK of Fighter characters by 2.25x and their RCV by 1.5x",
+		"special": "1턴 동안 격투형 캐릭터의 공격력이 1.75배가 된다",
+		"specialName": "어인공수도! 혁명의 정권 찌르기",
+		"captain": "격투형 캐릭터의 공격력이 2.25배, 회복력이 1.5배가 된다"
         sailor: {
             "base": "None",
             "level1": "Boosts base ATK, HP and RCV of Fighter characters by 30",
@@ -5794,13 +5794,13 @@ window.details = {
     676: { // modified
         special: "3턴 동안 각각의 적에게 받는 데미지 중 5,000을 넘는 부분을 대폭으로 줄인다",
         specialNotes: "The exact formula for the damage received is: 5000 + ((total damage) - 5000) * 0.03",
-        specialName: "KEEP OUT",
+        specialName: "KEEP OUT ",
         captain: "참격형 캐릭터의 공격력이 1.5배가 되고, 턴 종료 시에 공격력x3배의 추가 데미지"
     },
     677: { // modified
         special: "3턴 동안 각각의 적에게 받는 데미지 중 5,000을 넘는 부분을 대폭으로 줄인다",
         specialNotes: "The exact formula for the damage received is: 5000 + ((total damage) - 5000) * 0.03",
-        specialName: "KEEP OUT",
+        specialName: "KEEP OUT ",
         captain: "참격형 캐릭터의 공격력이 1.5배가 되고, 턴 종료 시에 공격력x5배의 추가 데미지"
     },
     678: {
@@ -5902,10 +5902,10 @@ window.details = {
 	  "specialName": "[DEX]슬롯을 [PSY]슬롯으로 바꾼다",
 	  "captain": "참격형 캐릭터의 공격력을 1.75배가 된다"
 	},
-    699: {
-        special: "Deals 13x character's ATK in character's type damage to all enemies",
-        specialName: "Hyper Burst",
-        captain: "Boosts ATK of Shooter characters by 500, reduces damage received by 10%"
+    699: { // modified
+		"special": "적 전체에게 공격력x13배의 캐릭터 속성 데미지",
+		"specialName": "하이퍼 버스트",
+		"captain": "캐릭터의 공격력을 500 증가시키며, 받는 데미지를 10% 감소싴ㄴ다"
     },
     700: { // modified
 	  "special": "적 1명의 HP를 5% 줄인다",
@@ -8085,17 +8085,17 @@ window.details = {
 		specialName: "우정의 찬가 『오카마의 길』",
 		special: "선장 효과 무효화 상태를 5턴 회복하고, 캐릭터의 회복 X10배 체력을 회복한다."
 	},
-	900: {
-		captain: "공격 시작 전에 체력이 가득 차 있으면 사격형 캐릭터의 공격이 2배가 된다.",
-		specialName: "프랑키 파괴 포",
-		special: "적 전체의 랜덤 대상에 2000 고정데미지를 6회 주고, 사격과 자유형 캐릭터의 역슬롯을 [G] 슬롯으로 변환",
-		specialNotes: "이 슬롯은 오직 사격과 자유 타입 슬롯만 변환되고, 다른 타입 슬롯에는 영향이 없다. #{gOrbs}"
+	900: { // modified
+		"captain": "공격 시작 전 체력이 가득 차 있으면 사격형 캐릭터의 공격력을 2배로 만든다",
+		"specialName": "프랑키 디스트로이 포",
+		"special": "무작위의 적에게 고정 데미지 2,000을 6회 주고, 사각형과 자유형의 [불리] 슬롯을 랜덤으로 [G] 슬롯과 속성 일치 슬롯으로 바꾼다",
+		"captain": "공격 시작 전에 체력이 가득 차 있으면 사격형 캐릭터의 공격이 2배가 된다.",
 	},
-    901: {
-        captain: "Boosts ATK of Shooter characters by 2.75x if HP is above 99% at the start of the 턴",
-        specialName: "Franky Destroy Gun",
-        special: "Deals 6 hits of 2,000 fixed damage to random enemies and for Shooter and Free Spirit characters, randomly changes Badly Matching orbs into [G] orbs or Matching orbs",
-        specialNotes: "The orb shuffle only applies to Shooter and Free Spirit characters, other classes are unaffected. #{gOrbs}"
+    901: { // modified
+		"captain": "공격 시작 전 체력이 가득 차 있으면 사격형 캐릭터의 공격력을 2.75배로 만든다",
+		"specialName": "프랑키 디스트로이 포",
+		"special": "무작위의 적에게 고정 데미지 2,000을 6회 주고, 사각형과 자유형의 [불리] 슬롯을 랜덤으로 [G] 슬롯과 속성 일치 슬롯으로 바꾼다",
+		"specialNotes": "The orb shuffle only applies to Shooter and Free Spirit characters, other classes are unaffected. #{gOrbs}"
     },
     902: {
         captain: "Boosts ATK and HP of Powerhouse characters by 1.25x",
@@ -15179,11 +15179,11 @@ window.details = {
         specialNotes: "#{silence}",
         specialName: "분노의 악충 박멸",
     },
-    1384: {//Soldier-San
-        captain: "Boosts ATK of Striker characters by 2.5x. Increases damage received by 1.5x",
-        special: "Reduces Paralysis, Bind, Despair, and Silence duration by 1 턴. Randomizes all Badly Matching, [BLOCK], or [EMPTY]슬롯으로 바꾼다",
-        specialNotes: "#{silence}",
-        specialName: "Angry Extermination of Bugs",
+    1384: {//Soldier-San // modified
+		"captain": "타격형 캐릭터의 공겨력이 2.5배가 되지만, 데미지를 1.5배로 받는다",
+		"special": "일당의 [BLOCK][불리][EMPTY] 슬롯을 랜덤으로 바꾸고, 마비·봉쇄·선장효과 무효·필살기 봉쇄 상태를 1턴 회복한다",
+		"specialNotes": "#{silence}",
+		"specialName": "분노의 악충 박멸"
     },
     1385: {//Rebecca
         captain: "Reduces damage received by 20%",
