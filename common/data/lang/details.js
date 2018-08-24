@@ -6284,7 +6284,7 @@ window.details = {
         specialName: "Fierce Smash",
         captain: "Boosts ATK of Slasher characters by 2.5x if HP is above 50% at the start of the 턴"
     },
-    737: {
+    737: { // modified
 	    "special": "[RCV] 슬롯을 [QCK]으로 바꾼 후, 인접한 슬롯을 [QCK]으로 바꾼다",
 	    "specialName": "지건 「발」",
 	    "captain": "남은 체력이 적을 때 격투형 캐릭터의 공격력이 2.75배가 된다"
@@ -6346,7 +6346,7 @@ window.details = {
     },
     740: { // modified
 	    "specialName": "람각 「선」",
-	    "special": "적 전체에게 캐릭터의 공격력x10qodml [QCK] 데미지를 주고, 2턴 동안 방어력 상승 중인 적에게 주는 데미지를 1.3배로 만든다",
+	    "special": "적 전체에게 캐릭터의 공격력x10배의 [QCK] 데미지를 주고, 2턴 동안 방어력 상승 중인 적에게 주는 데미지를 1.3배로 만든다",
 	    "captain": "모험 시작 시 필살 턴 2턴 단축"
     },
     741: {
@@ -12495,15 +12495,15 @@ window.details = {
             },
         ]
     },
-    1193: {
-        captain: "Boosts ATK of Free Spirit characters by 2x",
-        special: "Recovers 13x character's RCV in HP and locks the chain multiplier at 2.5x for 1 turn",
-        specialName: "Sweet Style Petrification",
+    1193: { // modified
+        captain: "자유형 캐릭터의 공격력을 2배로 만든다",
+        special: "회복력x13배의 체력을 회복하고, 1턴 동안 체인 계수를 2.5배로 고정한다",
+        specialName: "석화의 멜로우",
     },
-    1194: {
-        captain: "Boosts ATK of Free Spirit characters by 2.5x",
-        special: "Recovers 13x character's RCV in HP and locks the chain multiplier at 2.5x for 1 turn",
-        specialName: "Sweet Style Petrification",
+    1194: { // modified
+        captain: "자유형 캐릭터의 공격력을 2.5배로 만든다",
+        special: "회복력x13배의 체력을 회복하고, 1턴 동안 체인 계수를 2.5배로 고정한다",
+        specialName: "석화의 멜로우",
     },
     1195: { // modified
         captain: "타격형 캐릭터의 공격력을 1.75배로 만들고, 턴 종료 시 회복력x2배의 체력을 회복한다",
@@ -12777,16 +12777,16 @@ window.details = {
             },
         ]
     },
-    1213: {
-        captain: "Boosts ATK of Slasher characters by 1.5x, the HP of Striker characters by 1.2x, and the RCV of Shooter characters by 1.2x",
-        specialName: "Exciting Transfiguration",
-        special: "Recovers 10x character's RCV in HP. for 4 turns, makes [BOMB] orbs “beneficial”",
+    1213: { // modified
+        captain: "참격형의 공격력을 1.5배, 타격형의 체력을 1.2배, 사격형의 회복력을 1.2배로 만든다",
+        specialName: "자극적인 변모",
+        special: "체력을 중량 회복하여, 4턴 동안 [BOMB] 슬롯이 [유리] 슬롯으로 취급된다",
         specialNotes: "“beneficial” orbs grant the same ATK boost as matching orbs while retaining their original function."
     },
-    1214: {
-        captain: "Boosts ATK of Slasher characters by 2x, the HP of Striker characters by 1.25x, and the RCV of Shooter characters by 1.25x",
-        specialName: "Exciting Transfiguration",
-        special: "Recovers 10x character's RCV in HP. for 4 turns, makes [BOMB] orbs “beneficial”",
+    1214: { // modified
+        captain: "참격형의 공격력을 2배, 타격형의 체력을 1.25배, 사격형의 회복력을 1.25배로 만든다",
+        specialName: "자극적인 변모",
+        special: "체력을 중량 회복하여, 4턴 동안 [BOMB] 슬롯이 [유리] 슬롯으로 취급된다",
         specialNotes: "“beneficial” orbs grant the same ATK boost as matching orbs while retaining their original function."
     },
     1215: {//Gairam
@@ -20935,17 +20935,17 @@ window.details = {
 		"sailor": "자신은 [TND] 슬롯도 [유리] 슬롯으로 취급한다",
 		"sailorNotes": "#{beneficial}"
     },
-    1710: {//Summer Robin
-        captain: "박식 캐릭터의 공격력, 회복력이 1.2배 증가한다.",
-        special: "1턴 동안 박식 캐릭터의 슬롯 영향력이 1.75배 증가하고 2턴 동안 받는 데미지가 30% 감소한다.",
-        specialName: "사랑스러운 어른의 매력",
-        sailor: "블라인드 상태가 2턴 회복된다.",
+    1710: {//Summer Robin // modified
+        captain: "박식형 캐릭터의 공격력과 회복력을 1.2배로 만든다",
+        special: "2턴 동안 받는 데미지를 30% 줄이고, 1턴 동안 박식형 캐릭터의 슬롯의 영향을 상당히 증폭시킨다",
+        specialName: "넋을 잃고 보는 성숙한 귀여움",
+        sailor: "일당의 의성어 은폐 상태를 2턴 회복한다",
     },
-    1711: {//Summer Robin
-        captain: "박식 캐릭터의 회복력이 1.2배, 공격력이 1.5배 증가한다. 슬롯 일치 시 공격력이 3배 증가한다.",
-        special: "1턴 동안 박식 캐릭터의 슬롯 영향력이 1.75배 증가하고 2턴 동안 받는 데미지가 30% 감소한다.",
-        specialName: "사랑스러운 어른의 매력",
-        sailor: "블라인드 상태가 2턴 회복된다.",
+    1711: {//Summer Robin // modified
+        captain: "박식형 캐릭터의 공격력을 슬롯 일치 시 3배, 보통 시 1.5배로 만들고, 회복력을 1.2배로 만든다",
+        special: "2턴 동안 받는 데미지를 30% 줄이고, 1턴 동안 박식형 캐릭터의 슬롯의 영향을 상당히 증폭시킨다",
+        specialName: "넋을 잃고 보는 성숙한 귀여움",
+        sailor: "일당의 의성어 은폐 상태를 2턴 회복한다",
     },
     1712: {//Akainu
         captain: "야심 캐릭터의 공격력이 2.5배 증가한다.",
