@@ -31101,26 +31101,46 @@ window.details = {
         captain: "Boosts ATK of Shooter characters by 2.5x and recovers 2x character's RCV in HP at the end of each turn",
         special: "Reduces enemy's Threshold Damage Reduction and Percent Damage Reduction duration by 3 turns and changes adjacent orbs into [RCV] orbs. If there are 2 enemies or more on the stage, instantly defeats one enemy with HP equal to or below 350x character's ATK, cuts the current HP of one enemy by 20% that will ignore damage negating abilities and barriers otherwise",
         specialName: "Erasing Palm Strike",
-        sailor: "사격형 캐릭터의 기본 체력이 75 상승한다",
+        sailor: {
+            "base": "Boosts base HP of Shooter characters by 75",
+            "level1": "Makes [PSY] orbs \"beneficial\" for Shooter characters",
+        },
+        limit: [
+            { "description": "Boosts base RCV by 5" },
+            { "description": "Boosts base RCV by 5" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Acquire Potential 1: Reduce No Healing duration" },
+            { "description": "Boosts base HP by 40" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base HP by 60" },
+            { "description": "Boosts base HP by 80" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Boosts base RCV by 20" },
+            { "description": "Boosts base ATK by 40" },
+            { "description": "Acquire Sailor Ability 1: Makes [PSY] orbs \"beneficial\" for Shooter characters" },
+            { "description": "Boosts base ATK by 50" },
+            { "description": "Acquire Potential 2: Barrier Penetration" },
+        ],
         potential: [
             {
-                "Name": "회복 무효 내성",
+                "Name": "Reduce No Healing duration",
                 "description": [
-                    "Level 1: Reduces No Healing duration by ? turn",
-                    "Level 2: Reduces No Healing duration by ? turn",
-                    "Level 3: Reduces No Healing duration by ? turn",
-                    "Level 4: Reduces No Healing duration by ? turns",
-                    "Level 5: Reduces No Healing duration by ? turns"
+                    "Level 1: Reduces No Healing duration by 1 turn",
+                    "Level 2: Reduces No Healing duration by 1 turn",
+                    "Level 3: Reduces No Healing duration by 1 turn",
+                    "Level 4: Reduces No Healing duration by 2 turns",
+                    "Level 5: Reduces No Healing duration by 3 turns"
                 ]
             },
             {
-                "Name": "배리어 관통",
+                "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
-                    "Level 2: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
-                    "Level 3: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
-                    "Level 4: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
-                    "Level 5: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn"
+                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
         ]
@@ -31217,6 +31237,76 @@ window.details = {
         captain: "Boosts ATK of [DEX], [QCK] and [INT] characters by 2.75x at the start of the chain, boosts ATK by 4x following a chain of [DEX] > [INT] > [QCK] attacks no lower than Good and boosts HP by 1.35x. Makes [TND] and [RCV] orbs \"beneficial\" to all characters",
         special: "Reduces crew's current HP by 99%, deals 30x the amount of HP subtracted in typeless damage to all enemies and changes all orbs, including [BLOCK] orbs, into [RCV] orbs",
         specialName: "Lion's Threat: Earth Bind",
+        sailor: {
+            "base": "None",
+            "level1": "Makes [DEX], [RCV] and [TND] orbs \"beneficial\" for this character",
+            "level2": "Completely resists Silence on this character",
+        },
+        sailorNotes: "#{beneficial}",
+        limit: [
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Acquire Potential 1: [STR] Damage Reduction" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base ATK by 10" },
+            { "description": "Boosts base ATK by 10" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base ATK by 15" },
+            { "description": "Boosts base RCV by 15" },
+            { "description": "Boosts base RCV by 15" },
+            { "description": "Boosts base RCV by 15" },
+            { "description": "Acquire Potential 2: Slot Bind Self-reduction" },
+            { "description": "Acquire Sailor Ability 1: Makes [DEX], [RCV] and [TND] orbs \"beneficial\" for this character" },
+            { "description": "Boosts base HP by 75" },
+            { "description": "Boosts base HP by 75" },
+            { "description": "Boosts base HP by 75" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base ATK by 25" },
+            { "description": "Boosts base RCV by 25" },
+            { "description": "Boosts base HP by 125" },
+            { "description": "Boosts base ATK by 25" },
+            { "description": "Acquire Sailor Ability 2: " },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Boosts base ATK by 45" },
+            { "description": "Acquire Potential 3: Pinch Healing" },
+        ],
+        potential: [
+            {
+                "Name": "[STR] Damage Reduction",
+                "description": [
+                    "Level 1: Reduce damage taken from [STR] characters by 1%",
+                    "Level 2: Reduce damage taken from [STR] characters by 2%",
+                    "Level 3: Reduce damage taken from [STR] characters by 3%",
+                    "Level 4: Reduce damage taken from [STR] characters by 5%",
+                    "Level 5: Reduce damage taken from [STR] characters by 7%"
+                ]
+            },
+            {
+                "Name": "Slot Bind Self-reduction",
+                "description": [
+                    "Level 1: Reduces Slot Bind duration by 3 turn on this character",
+                    "Level 2: Reduces Slot Bind duration by 4 turns on this character",
+                    "Level 3: Reduces Slot Bind duration by 5 turns on this character",
+                    "Level 4: Reduces Slot Bind duration by 7 turns on this character",
+                    "Level 5: Reduces Slot Bind duration by 10 turns on this character"
+                ]
+            },
+            {
+                "Name": "Pinch Healing",
+                "description": [
+                    "Level 1: If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 2: If HP is below 15% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 3: If HP is below 20% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 4: If HP is below 25% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 5: If HP is below 30% at the start of the turn, recovers 2x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                ]
+            },
+        ]
     },
     2202: {//Indigo
         captain: "Boosts ATK of Shooter characters by ?x and their RCV by ?x",
@@ -31395,6 +31485,392 @@ window.details = {
         captain: "Boosts chain multiplier by 1.5x",
         special: "Recovers 2,000 HP and reduces Despair duration by 2 turns.",
         specialName: "Loving Family Care",
+    },
+    2222: {
+        captain: "Boosts ATK of [STR] characters by 1.5x",
+        special: "Reduces Paralysis duration by 2 turns and boosts ATK of all characters by 1.25x for 1 turn.",
+        specialName: "Mink Attack Boost",
+    },
+    2223: {
+        captain: "Boosts ATK of [DEX] characters by 1.5x",
+        special: "Reduces Paralysis duration by 2 turns and amplifies the effect of orbs by 1.25x for 1 turn.",
+        specialName: "Mink Slot Boost",
+    },
+    2224: {
+        captain: "Boosts ATK of [QCK] characters by 1.5x",
+        special: "Reduces Paralysis duration by 2 turns and adds .25x to Chain multiplier for 1 turn.",
+        specialName: "Mink Chain Plus",
+    },
+    2225: {
+        captain: "Boosts ATK of [INT] characters by 1.5x",
+        special: "Reduces Paralysis duration by 2 turns and boosts the Color Affinity of all characters by 1.25x for 1 turn.",
+        specialName: "Mink Weak Boost",
+    },
+    2226: {
+        captain: "Boosts ATK of [PSY] characters by 1.5x",
+        special: "Reduces Paralysis duration by 2 turns and adds 2.5x character's ATK as Additional Typeless Damage for 1 turn.",
+        specialName: "Mink Damage Plus",
+    },
+    2227: {//Gifters
+        captain: "Boosts ATK of Fighter characters by 1.5x",
+        special: "Makes Badly Matching and BLOCK orbs not reduce damage for 1 turn and deals 5x character's ATK as DEX damage to all enemies at the end of the turn for 2 turns.",
+        specialName: "Wolf Grip",
+    },
+    2228: {//Pleasures
+        captain: "Boosts ATK of Slasher characters by 1.5x",
+        special: "Deals 10x character's ATK in [STR] damage to all enemies that will ignore damage negating abilities and barriers and makes PERFECTs easier to hit for 2 turns.",
+        specialName: "Trembling Destruction",
+    },
+    2229: {//Capone
+        captain: "Reduces cooldown of all specials by 1 turn at the start of the fight and boosts ATK of Shooter characters by 2.25x",
+        special: "Deals 12 hits of random typeless damage to random enemies and locks all orbs for 1 turn. If HP is above ?% at the time the special is activated, boosts the Color Affinity of Shooter characters by 1.5x for 1 turn.",
+        specialName: "Leader's Orders \"Simultaneous Sweep\"",
+    },
+    2230: {//Sheepshead
+        captain: "Boosts ATK of Powerhouse characters by 2x",
+        special: "Boosts own ATK by 2x for 1 turn and adds .4x to Chain multiplier for 1 turn.",
+        specialName: "Cruel Questioning",
+    },
+    2231: {//Jack
+        captain: "Boosts ATK of Powerhouse characters by 2.5x and their HP by 1.2x and recovers ?x character's RCV in HP at the end of each turn",
+        special: "If the HP of the enemy with the highest current HP is above 50%, cuts the current HP of one enemy by 25%, otherwise, deals 120x character's ATK in typeless damage to one enemy.",
+        specialName: "The Start of Destruction",
+    },
+    2232: {//Legend Enel
+        captain: "Reduces HP of all characters by 20%, reduces damage received by 13%, boosts chances of getting [RCV] orbs, makes [RCV] orbs \"beneficial\" to all characters, boosts ATK of all characters proportionally to the amount healed in the last turn, by 3.75 at max.",
+        captainNotes: "The range of ATK boost is from 2x to 3.75x. The exact boost is calculated as 2 + <HP recovered in the previous turn> * ? and maxes at ?k HP healed. This ignores your max HP, so it doesn't stop counting if you over-heal.<br>#{beneficial}",
+        special: "Deals typeless damage to all enemies equal to 25x how much excess healing done before the special is activated.",
+        specialNotes: "The excess healing is counted from the last time the special is used and accumulates when you heal more than your maximum HP. For example, if you are at max HP and you heal 1,000 HP, you will add 25k damage to the special. The amount of damage possible caps at 5,000,000 damage.",
+        specialName: "Kingdom Come",
+        sailor: {
+            "base": "None",
+            "level1": "Makes [RCV] orbs \"beneficial\" for all characters",
+            "level2": "Boosts amount healed from [RCV] orbs by 300 each",
+        },
+        sailorNotes: "#{beneficial}",
+        limit: [
+            { "description": "Boosts base HP by 5" },
+            { "description": "Boosts base HP by 10" },
+            { "description": "Boosts base HP by 15" },
+            { "description": "Acquire Potential 1: [STR] Damage Reduction" },
+            { "description": "Boosts base ATK by 5" },
+            { "description": "Boosts base ATK by 5" },
+            { "description": "Boosts base ATK by 10" },
+            { "description": "Acquire Sailor Ability 1: Makes [RCV] orbs \"beneficial\" for all characters" },
+            { "description": "Boosts base HP by 20" },
+            { "description": "Boosts base HP by 30" },
+            { "description": "Boosts base HP by 30" },
+            { "description": "Boosts base ATK by 10" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Acquire Potential 2: Slot Bind Self-reduction" },
+            { "description": "Boosts base HP by 30" },
+            { "description": "Boosts base HP by 30" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base HP by 40" },
+            { "description": "Boosts base HP by 40" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Acquire Sailor Ability 2: Boosts amount healed from [RCV] orbs by 300 each" },
+            { "description": "Boosts base RCV by 20" },
+            { "description": "Boosts base RCV by 30" },
+            { "description": "Acquire Potential 3: Reduce No Healing duration" },
+        ],
+        potential: [
+            {
+                "Name": "[STR] Damage Reduction",
+                "description": [
+                    "Level 1: Reduce damage taken from [STR] characters by 1%",
+                    "Level 2: Reduce damage taken from [STR] characters by 2%",
+                    "Level 3: Reduce damage taken from [STR] characters by 3%",
+                    "Level 4: Reduce damage taken from [STR] characters by 4%",
+                    "Level 5: Reduce damage taken from [STR] characters by 5%"
+                ]
+            },
+            {
+                "Name": "Slot Bind Self-reduction",
+                "description": [
+                    "Level 1: Reduces Slot Bind duration by 1 turn on this character",
+                    "Level 2: Reduces Slot Bind duration by 3 turns on this character",
+                    "Level 3: Reduces Slot Bind duration by 5 turns on this character",
+                    "Level 4: Reduces Slot Bind duration by 7 turns on this character",
+                    "Level 5: Reduces Slot Bind duration by 10 turns on this character"
+                ]
+            },
+            {
+                "Name": "Reduce No Healing duration",
+                "description": [
+                    "Level 1: Reduces No Healing duration by 1 turn",
+                    "Level 2: Reduces No Healing duration by 3 turns",
+                    "Level 3: Reduces No Healing duration by 5 turns",
+                    "Level 4: Reduces No Healing duration by 7 turns",
+                    "Level 5: Reduces No Healing duration by 10 turns"
+                ]
+            },
+        ]
+    },
+    2233: {//Big Mom
+        captain: "<b>Always Active: </b>Boosts HP of [STR], [DEX] and [QCK] characters by 1.2x, makes [SEMLA] orbs \"beneficial\" to all characters.<br><b>Standard Captain: </b>Boosts ATK of [STR], [DEX] and [QCK] characters by 3.5x<br><b>Powered Up Captain: </b>Boosts ATK of [STR], [DEX] and [QCK] characters by 4x and reduce damage received by 15%<br><b>Rampage Captain: </b>Boosts own ATK by 10x and own attacks will ignore defensive barriers and buffs, boosts ATK of [STR], [DEX] and [QCK] characters by 3.75x",
+        captainNotes: "[SEMLA] orbs replace [RCV] orbs and heal at the end of the enemy turn and can not be swapped by special abilities.<br>In order to Power Up Big Mom, you must eat a [SEMLA] orb and will be powered up the following turn.<br>While in Rampage, Big Mom will always attack a random enemy on her own, even while Binded or Paralyzed, and hit a HUNGRY, which deals the same damage as a PERFECT. This attack occurs after your chain, so Big Mom's attack will not be affected by Chain Limiters, Chain Boosters, or Chain Lockers (still untested with 2 Big Mom captains). You can not activate Big Mom's special while in Rampage. To exit Rampage, you must consume a [SEMLA] orb.",
+        special: "Deals 250x character's ATK in Typeless damage to one enemy and changes own orb into [STR]. If Big Mom is your Captain or Friend/Guest Captain, boosts ATK of characters in the top row by 2x and amplifies the effects of orbs for characters in the top row by 2x for 3 turns. If she is a Sailor, boosts ATK of characters in the top row by 2x and amplifies the effects of orbs for characters in the top row by 2x for 1 turn instead",
+        specialName: "Temper Tantrum",
+    },
+    2234: {//Big Mom
+        captain: "<b>Always Active: </b>Boosts HP of [STR], [DEX] and [QCK] characters by 1.2x, makes [SEMLA] orbs \"beneficial\" to all characters.<br><b>Standard Captain: </b>Boosts ATK of [STR], [DEX] and [QCK] characters by 3.5x<br><b>Powered Up Captain: </b>Boosts ATK of [STR], [DEX] and [QCK] characters by 4x and reduce damage received by 15%<br><b>Rampage Captain: </b>Boosts own ATK by 10x and own attacks will ignore defensive barriers and buffs, boosts ATK of [STR], [DEX] and [QCK] characters by 3.75x",
+        captainNotes: "[SEMLA] orbs replace [RCV] orbs and heal at the end of the enemy turn and can not be swapped by special abilities.<br>In order to Power Up Big Mom, you must eat a [SEMLA] orb and will be powered up the following turn.<br>While in Rampage, Big Mom will always attack a random enemy on her own, even while Binded or Paralyzed, and hit a HUNGRY, which deals the same damage as a PERFECT. This attack occurs after your chain, so Big Mom's attack will not be affected by Chain Limiters, Chain Boosters, or Chain Lockers (still untested with 2 Big Mom captains). You can not activate Big Mom's special while in Rampage. To exit Rampage, you must consume a [SEMLA] orb.",
+        special: "Deals 250x character's ATK in Typeless damage to one enemy and changes own orb into [STR]. If Big Mom is your Captain or Friend/Guest Captain, boosts ATK of characters in the top row by 2x and amplifies the effects of orbs for characters in the top row by 2x for 3 turns. If she is a Sailor, boosts ATK of characters in the top row by 2x and amplifies the effects of orbs for characters in the top row by 2x for 1 turn instead",
+        specialName: "Temper Tantrum",
+        sailor: {
+            "base": "None",
+            "level1": "Boosts own base ATK by 350 if this character is the last in the chain to attack",
+            "level2": "Makes [DEX] and [QCK] orbs \"beneficial\" for this character",
+        },
+        sailorNotes: "#{beneficial}",
+        potential: [
+            {
+                "Name": "[DEX] Damage Reduction",
+                "description": [
+                    "Level 1: Reduce damage taken from [DEX] characters by ?%",
+                    "Level 2: Reduce damage taken from [DEX] characters by ?%",
+                    "Level 3: Reduce damage taken from [DEX] characters by ?%",
+                    "Level 4: Reduce damage taken from [DEX] characters by ?%",
+                    "Level 5: Reduce damage taken from [DEX] characters by ?%"
+                ]
+            },
+            {
+                "Name": "Enrage",
+                "description": [
+                    "Level 1: Boosts base ATK by ?",
+                    "Level 2: Boosts base ATK by ?",
+                    "Level 3: Boosts base ATK by ?",
+                    "Level 4: Boosts base ATK by ?",
+                    "Level 5: Boosts base ATK by ?"
+                ]
+            },
+            {
+                "Name": "Critical Hit",
+                "description": [
+                    "Level 1: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage"
+                ]
+            },
+        ],
+        potentialNotes: "#{enrage}"
+    },
+    2235: {//Brook
+        captain: "Boosts ATK of all characters by 2.75x if HP is above 99% at the start of the turn, by 2x otherwise, cuts the current HP of each enemy by 10% at the end of each turn and revives the team after a GAME OVER once per adventure.",
+        captainNotes: "This is not Resilience as you still die, but (still unconfirmed) after revive you will get full HP and your buffs and debuffs will be cleared, similarly to using a gem to revive.",
+        special: "Recovers 14,343, reduces damage received by 90% for 1 turn and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs \"beneficial\" for all characters for 2 turns. If the HP of the enemy with the highest Maximum HP is below 434,300, instantly defeats all enemies, otherwise, delays all enemies for 1 turn, cuts the current HP of each enemy by 20%.",
+        specialNotes: "#{beneficial}",
+        specialName: "Tenacious Shout of the Soul",
+    },
+    2236: {//Brook
+        captain: "Boosts ATK of all characters by 2.75x if HP is above 99% at the start of the turn, by 2x otherwise, cuts the current HP of each enemy by 10% at the end of each turn and revives the team after a GAME OVER once per adventure.",
+        captainNotes: "This is not Resilience as you still die, but (still unconfirmed) after revive you will get full HP and your buffs and debuffs will be cleared, similarly to using a gem to revive.",
+        special: "Recovers 14,343, reduces damage received by 90% for 1 turn and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs \"beneficial\" for all characters for 2 turns. If the HP of the enemy with the highest Maximum HP is below 434,300, instantly defeats all enemies, otherwise, delays all enemies for 1 turn, cuts the current HP of each enemy by 20%.",
+        specialNotes: "#{beneficial}",
+        specialName: "Tenacious Shout of the Soul",
+        sailor: {
+            "base": "None",
+            "level1": "Completely resists Paralysis on this character",
+            "level2": "Makes RCV orbs \"beneficial\" for all characters",
+        },
+        sailorNotes: "#{beneficial}",
+        potential: [
+            {
+                "Name": "[QCK] Damage Reduction",
+                "description": [
+                    "Level 1: Reduce damage taken from [QCK] characters by ?%",
+                    "Level 2: Reduce damage taken from [QCK] characters by ?%",
+                    "Level 3: Reduce damage taken from [QCK] characters by ?%",
+                    "Level 4: Reduce damage taken from [QCK] characters by ?%",
+                    "Level 5: Reduce damage taken from [QCK] characters by ?%"
+                ]
+            },
+            {
+                "Name": "[STR] Damage Reduction",
+                "description": [
+                    "Level 1: Reduce damage taken from [STR] characters by ?%",
+                    "Level 2: Reduce damage taken from [STR] characters by ?%",
+                    "Level 3: Reduce damage taken from [STR] characters by ?%",
+                    "Level 4: Reduce damage taken from [STR] characters by ?%",
+                    "Level 5: Reduce damage taken from [STR] characters by ?%"
+                ]
+            },
+            {
+                "Name": "Slot Bind Self-reduction",
+                "description": [
+                    "Level 1: Reduces Slot Bind duration by ? turn on this character",
+                    "Level 2: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 3: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 4: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 5: Reduces Slot Bind duration by ? turns on this character"
+                ]
+            },
+        ]
+    },
+    2237: {//Smoothie
+        captain: "Boosts ATK of all characters by ?x following a chain of Good > Great > PERFECT hits and recovers ? HP at end of each turn",
+        special: "Recovers 5,000, removes Poison, reduces Paralysis, Bind, Despair and Burn by 2 turns, changes adjacent orbs into Matching Orbs and switches orbs between slots three times",
+        specialNotes: "We don't know what Burn is yet.",
+        specialName: "Human Juicer",
+        sailor: "Boosts base ATK of characters in the top row by 50",
+    },
+    2238: {//Smoothie
+        captain: "Boosts ATK of all characters by 3.5x following a chain of Good > Great > PERFECT hits and recovers 500 HP at end of each turn",
+        special: "Recovers 5,000, removes Poison, reduces Paralysis, Bind, Despair and Burn by 2 turns, changes adjacent orbs into Matching Orbs and switches orbs between slots three times",
+        specialNotes: "We don't know what Burn is yet.",
+        specialName: "Human Juicer",
+        sailor: {
+            "base": "Boosts base ATK of characters in the top row by 50",
+            "level1": "Makes [STR], [QCK], [DEX], [PSY] and [INT] orbs \"beneficial\" for this character if your Captain is a [STR] character",
+        },
+        sailorNotes: "#{beneficial}",
+        potential: [
+            {
+                "Name": "Enrage",
+                "description": [
+                    "Level 1: Boosts base ATK by ?",
+                    "Level 2: Boosts base ATK by ?",
+                    "Level 3: Boosts base ATK by ?",
+                    "Level 4: Boosts base ATK by ?",
+                    "Level 5: Boosts base ATK by ?"
+                ]
+            },
+            {
+                "Name": "Double Special Activation",
+                "description": [
+                    "Level 1: Reduce own Special Cooldown by ? turn after the first time this special is used",
+                    "Level 2: Reduce own Special Cooldown by ? turns after the first time this special is used",
+                    "Level 3: Reduce own Special Cooldown by ? turns after the first time this special is used",
+                    "Level 4: Reduce own Special Cooldown by ? turns after the first time this special is used",
+                    "Level 5: Reduce own Special Cooldown by ? turns after the first time this special is used"
+                ]
+            },
+        ],
+        potentialNotes: "#{enrage}"
+    },
+    2239: {//Perospero
+        captain: "Boosts ATK of characters with cost 50 or greater by ?x and their HP and RCV by ?x",
+        special: "Locks all orbs for 1 turn, cuts the current HP of one enemy by 10%, reduces Special Cooldown of all characters by 1 turn and boosts the Color Affinity of [STR], [DEX] and [QCK] characters by 1.75x for 1 turn",
+        specialName: "Candy Maiden",
+        sailor: "Restores his own special cooldown by 2 turns when it is rewinded",
+        sailorNotes: "#{rewind : 2}",
+    },
+    2240: {//Perospero
+        captain: "Boosts ATK of characters with cost 50 or greater by 3.5x and their HP and RCV by 1.2x",
+        special: "Locks all orbs for 1 turn, cuts the current HP of one enemy by 10%, reduces Special Cooldown of all characters by 1 turn and boosts the Color Affinity of [STR], [DEX] and [QCK] characters by 1.75x for 1 turn",
+        specialName: "Candy Maiden",
+        sailor: {
+            "base": "Restores his own special cooldown by 2 turns when it is rewinded",
+            "level1": "Boosts base ATK and HP of all characters by 50 if your Captain is a [STR], [DEX] or [QCK] character",
+        },
+        sailorNotes: "#{rewind : 2}",
+        potential: [
+            {
+                "Name": "Reduce No Healing duration",
+                "description": [
+                    "Level 1: Reduces No Healing duration by ? turn",
+                    "Level 2: Reduces No Healing duration by ? turns",
+                    "Level 3: Reduces No Healing duration by ? turns",
+                    "Level 4: Reduces No Healing duration by ? turns",
+                    "Level 5: Reduces No Healing duration by ? turns"
+                ]
+            },
+            {
+                "Name": "Double Special Activation",
+                "description": [
+                    "Level 1: Reduce own Special Cooldown by ? turn after the first time this special is used",
+                    "Level 2: Reduce own Special Cooldown by ? turns after the first time this special is used",
+                    "Level 3: Reduce own Special Cooldown by ? turns after the first time this special is used",
+                    "Level 4: Reduce own Special Cooldown by ? turns after the first time this special is used",
+                    "Level 5: Reduce own Special Cooldown by ? turns after the first time this special is used"
+                ]
+            },
+        ]
+    },
+    2241: {//Cracker
+        captain: "Boosts ATK of [STR], [DEX] and [QCK] characters by ?x and their HP by ?x",
+        special: "If your Captain is a [STR], [DEX] or [QCK] character, boosts ATK of [STR], [DEX] and [QCK] characters by 1.75x for 1 turn and amplifies the effect of orbs by 1.75x for [STR], [DEX] and [QCK] characters for 1 turn and changes [BLOCK] orbs into Matching orbs. If your Captain is a [PSY] or [INT] character, boosts ATK of [STR], [DEX] and [QCK] characters by 1.75x for 3 turns and amplifies the effect of orbs by 1.75x for [STR], [DEX] and [QCK] characters for 3 turns and changes all orbs into [G] orbs.",
+        specialName: "Infinite Biscuit Soldiers",
+        sailor: "Boosts this character's attack against [DEX] characters by 2x",
+    },
+    2242: {//Cracker
+        captain: "Boosts ATK of [STR], [DEX] and [QCK] characters by 2.75x and their HP by 1.25x",
+        special: "If your Captain is a [STR], [DEX] or [QCK] character, boosts ATK of [STR], [DEX] and [QCK] characters by 1.75x for 1 turn and amplifies the effect of orbs by 1.75x for [STR], [DEX] and [QCK] characters for 1 turn and changes [BLOCK] orbs into Matching orbs. If your Captain is a [PSY] or [INT] character, boosts ATK of [STR], [DEX] and [QCK] characters by 1.75x for 3 turns and amplifies the effect of orbs by 1.75x for [STR], [DEX] and [QCK] characters for 3 turns and changes all orbs into [G] orbs.",
+        specialName: "Infinite Biscuit Soldiers",
+        sailor: {
+            "base": "Boosts this character's attack against [DEX] characters by 2x",
+            "level1": "Makes [TND] orbs \"beneficial\" for [STR], [DEX] and [QCK] characters",
+        },
+        sailorNotes: "#{beneficial}",
+        potential: [
+            {
+                "Name": "Reduce No Healing duration",
+                "description": [
+                    "Level 1: Reduces No Healing duration by ? turn",
+                    "Level 2: Reduces No Healing duration by ? turns",
+                    "Level 3: Reduces No Healing duration by ? turns",
+                    "Level 4: Reduces No Healing duration by ? turns",
+                    "Level 5: Reduces No Healing duration by ? turns"
+                ]
+            },
+            {
+                "Name": "Critical Hit",
+                "description": [
+                    "Level 1: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage"
+                ]
+            },
+        ]
+    },
+    2243: {//Daifuku
+        captain: "Boosts ATK of Powerhouse characters by ?x and reduces damage received by ?%",
+        special: "Reduces enemy's Percent Damage Reduction, End of Turn Heal, Increased Defense and Resilience Buffs duration by 2 turns, changes own orb into [QCK] and deals 30x character's ATK in [QCK] damage to all enemies",
+        specialName: "Genie-uine Rage Split",
+        sailor: "Boosts base HP of all characters by 75",
+    },
+    2244: {//Daifuku
+        captain: "Boosts ATK of Powerhouse characters by 2.5x and reduces damage received by 20%",
+        special: "Reduces enemy's Percent Damage Reduction, End of Turn Heal, Increased Defense and Resilience Buffs duration by 2 turns, changes own orb into [QCK] and deals 30x character's ATK in [QCK] damage to all enemies",
+        specialName: "Genie-uine Rage Split",
+        sailor: {
+            "base": "Boosts base HP of all characters by 75",
+            "level1": "Makes [DEX] orbs \"beneficial\" for this character",
+        },
+        sailorNotes: "#{beneficial}",
+        potential: [
+            {
+                "Name": "Slot Bind Self-reduction",
+                "description": [
+                    "Level 1: Reduces Slot Bind duration by ? turn on this character",
+                    "Level 2: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 3: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 4: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 5: Reduces Slot Bind duration by ? turns on this character"
+                ]
+            },
+            {
+                "Name": "Double Special Activation",
+                "description": [
+                    "Level 1: Reduce own Special Cooldown by ? turn after the first time this special is used",
+                    "Level 2: Reduce own Special Cooldown by ? turns after the first time this special is used",
+                    "Level 3: Reduce own Special Cooldown by ? turns after the first time this special is used",
+                    "Level 4: Reduce own Special Cooldown by ? turns after the first time this special is used",
+                    "Level 5: Reduce own Special Cooldown by ? turns after the first time this special is used"
+                ]
+            },
+        ]
     },
     2500: {//Doflamingo Raid v2 // modified
         captain: "야심형과 박식형 캐릭터의 공격력을 1.5배, 남은 체력이 50% 이하일 때는 2.5배로 만든다",
