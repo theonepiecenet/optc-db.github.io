@@ -2,7 +2,7 @@ window.effects = {
 
     // always use unique IDs, and don't ever change an ID once you've set it
     // IDs must always be greater than 0
-    // last ID used: 46
+    // last ID used: 62
     // Use p.type instead of p.unit.type here
 
     'Baroque Works (pre-v4.0)': {
@@ -404,55 +404,58 @@ window.effects = {
     },
 
     'Treasure Map [Global]': {
-        description: 'Boost stats of boosted characters',
-        thumb: 1916,
+        description: 'Boost stats of characters, check in-game news for lists.',
+        thumb: 2000,
         id: 43, // don't change this
         atk: function(p) {
             var boost = 1;
             var id = p.number + 1;
-            if([ 1912, 1914, 1885, 1910 ].indexOf(id) != -1) boost = 2.5;
-            if([ 4, 8, 12, 16, 20, 22, 709, 739, 896, 1387, 1388, 1389, 1446, 1447, 1448, 1549, 1550, 1551, 1921, 1922, 1928, 1883, 1889, 1900, 1804, 1806, 1849, 1851, 1887, 1895, 1902, 1904, 1906, 1908, 1926, 1899, 1143, 1145, 1943, 1842, 1844, 1855, 1857, 1808, 1853 ].indexOf(id) != -1) boost = 1.2;
+            if([ 1968, 2010, 2011, 2008, 2009, 918, 1387, 1388, 1389, 1446, 1447, 1448, 1549 ,1550, 1551, 1624 ].indexOf(id) != -1) boost = 2.5;
+            if([ 1970, 1972, 1985, 2000, 2007, 2503, 943, 991, 1175, 1536, 1540, 1577, 1579, 1654, 1665, 1873, 1877, 1906, 1908, 1953, 1955, 1957, 1974, 1987, 1989, 1991, 1993, 1804, 1806, 1849, 1851, 1885, 1887, 1937, 1939, 1222, 1628, 1863, 1976, 1978, 654, 1432, 2015, 1469, 1774, 1918, 1920, 1965, 1966, 1980, 1982, 1808, 1853, 1889, 1916, 1941, 1023, 1245, 1247, 1709, 1711, 1983, 2504 ].indexOf(id) != -1) boost = 1.2;
             return boost;
         },
         hp: function(p) {
             var boost = 1;
             var id = p.number + 1;
-            if([ 1912, 1914, 1885, 1910 ].indexOf(id) != -1) boost = 2.5;
-            if([ 4, 8, 12, 16, 20, 22, 709, 739, 896, 1387, 1388, 1389, 1446, 1447, 1448, 1549, 1550, 1551, 1921, 1922, 1928, 1883, 1889, 1900, 1804, 1806, 1849, 1851, 1887, 1895, 1902, 1904, 1906, 1908, 1926, 1899, 1143, 1145, 1943, 1842, 1844, 1855, 1857, 1808, 1853 ].indexOf(id) != -1) boost = 1.2;
+            if([ 1968, 2010, 2011, 2008, 2009, 918, 1387, 1388, 1389, 1446, 1447, 1448, 1549 ,1550, 1551, 1624 ].indexOf(id) != -1) boost = 2.5;
+            if([ 1970, 1972, 1985, 2000, 2007, 2503, 943, 991, 1175, 1536, 1540, 1577, 1579, 1654, 1665, 1873, 1877, 1906, 1908, 1953, 1955, 1957, 1974, 1987, 1989, 1991, 1993, 1804, 1806, 1849, 1851, 1885, 1887, 1937, 1939, 1222, 1628, 1863, 1976, 1978, 654, 1432, 2015, 1469, 1774, 1918, 1920, 1965, 1966, 1980, 1982, 1808, 1853, 1889, 1916, 1941, 1023, 1245, 1247, 1709, 1711, 1983, 2504 ].indexOf(id) != -1) boost = 1.2;
             return boost;
         },
         rcv: function(p) {
             var boost = 1;
             var id = p.number + 1;
-            if([ 1912, 1914, 1885, 1910 ].indexOf(id) != -1) boost = 2.5;
-            if([ 4, 8, 12, 16, 20, 22, 709, 739, 896, 1387, 1388, 1389, 1446, 1447, 1448, 1549, 1550, 1551, 1921, 1922, 1928, 1883, 1889, 1900, 1804, 1806, 1849, 1851, 1887, 1895, 1902, 1904, 1906, 1908, 1926, 1899, 1143, 1145, 1943, 1842, 1844, 1855, 1857, 1808, 1853 ].indexOf(id) != -1) boost = 1.2;
+            if([ 1968, 2010, 2011, 2008, 2009, 918, 1387, 1388, 1389, 1446, 1447, 1448, 1549 ,1550, 1551, 1624 ].indexOf(id) != -1) boost = 2.5;
+            if([ 1970, 1972, 1985, 2000, 2007, 2503, 943, 991, 1175, 1536, 1540, 1577, 1579, 1654, 1665, 1873, 1877, 1906, 1908, 1953, 1955, 1957, 1974, 1987, 1989, 1991, 1993, 1804, 1806, 1849, 1851, 1885, 1887, 1937, 1939, 1222, 1628, 1863, 1976, 1978, 654, 1432, 2015, 1469, 1774, 1918, 1920, 1965, 1966, 1980, 1982, 1808, 1853, 1889, 1916, 1941, 1023, 1245, 1247, 1709, 1711, 1983, 2504 ].indexOf(id) != -1) boost = 1.2;
             return boost;
         },
 	},
 
     'Treasure Map [Japan]': {
-        description: 'Boost stats of many charactersx',
-        thumb: null,
+        description: 'Boost stats of characters, check in-game news for lists.',
+        thumb: 2211,
         id: 44, // don't change this
         atk: function(p) {
             var boost = 1;
             var id = p.number + 1;
-            if([ 0 ].indexOf(id) != -1) boost = 2.5;
-            if([ 2109, 1413, 1764, 1610, 1910, 2023, 2074, 2076, 2099, 1976, 2017, 2111, 1298, 1518, 1943, 2015, 2033, 2070, 2097, 1037, 1547, 1597, 1766, 1947, 1980, 1982, 2091, 2092, 2093, 2094, 2095, 1916, 2064 ].indexOf(id) != -1) boost = 1.2;
+            if([ 2207, 2209, 2181, 2201 ].indexOf(id) != -1) boost = 2.5;
+            if([ 2191, 2203, 2205, 2213, 2148, 2175, 2177, 2183, 2185, 2187, 2189, 2193, 2197 ].indexOf(id) != -1) boost = 1.25;
+            if([ 1593, 1985, 2074, 2099, 2113, 1682, 1684, 1686, 1688, 1753, 1755, 1757, 1759, 1761, 575, 603, 1108, 1696, 1879, 2070, 2097, 1141, 1143, 1899, 2163, 713, 797, 946, 1072, 1095, 1097, 1138, 1215, 1254, 1384, 1397, 1469, 1995, 2046, 2087, 2091, 2144, 1504, 2126, 2137, 2215, 2217 ].indexOf(id) != -1) boost = 1.2;
             return boost;
         },
         hp: function(p) {
             var boost = 1;
             var id = p.number + 1;
-            if([ 0 ].indexOf(id) != -1) boost = 2.5;
-            if([ 2109, 1413, 1764, 1610, 1910, 2023, 2074, 2076, 2099, 1976, 2017, 2111, 1298, 1518, 1943, 2015, 2033, 2070, 2097, 1037, 1547, 1597, 1766, 1947, 1980, 1982, 2091, 2092, 2093, 2094, 2095, 1916, 2064 ].indexOf(id) != -1) boost = 1.2;
+            if([ 2207, 2209, 2181, 2201 ].indexOf(id) != -1) boost = 2.5;
+            if([ 2191, 2203, 2205, 2213, 2148, 2175, 2177, 2183, 2185, 2187, 2189, 2193, 2197 ].indexOf(id) != -1) boost = 1.25;
+            if([ 1593, 1985, 2074, 2099, 2113, 1682, 1684, 1686, 1688, 1753, 1755, 1757, 1759, 1761, 575, 603, 1108, 1696, 1879, 2070, 2097, 1141, 1143, 1899, 2163, 713, 797, 946, 1072, 1095, 1097, 1138, 1215, 1254, 1384, 1397, 1469, 1995, 2046, 2087, 2091, 2144, 1504, 2126, 2137, 2215, 2217 ].indexOf(id) != -1) boost = 1.2;
             return boost;
         },
         rcv: function(p) {
             var boost = 1;
             var id = p.number + 1;
-            if([ 0 ].indexOf(id) != -1) boost = 2.5;
-            if([ 2109, 1413, 1764, 1610, 1910, 2023, 2074, 2076, 2099, 1976, 2017, 2111, 1298, 1518, 1943, 2015, 2033, 2070, 2097, 1037, 1547, 1597, 1766, 1947, 1980, 1982, 2091, 2092, 2093, 2094, 2095, 1916, 2064 ].indexOf(id) != -1) boost = 1.2;
+            if([ 2207, 2209, 2181, 2201 ].indexOf(id) != -1) boost = 2.5;
+            if([ 2191, 2203, 2205, 2213, 2148, 2175, 2177, 2183, 2185, 2187, 2189, 2193, 2197 ].indexOf(id) != -1) boost = 1.25;
+            if([ 1593, 1985, 2074, 2099, 2113, 1682, 1684, 1686, 1688, 1753, 1755, 1757, 1759, 1761, 575, 603, 1108, 1696, 1879, 2070, 2097, 1141, 1143, 1899, 2163, 713, 797, 946, 1072, 1095, 1097, 1138, 1215, 1254, 1384, 1397, 1469, 1995, 2046, 2087, 2091, 2144, 1504, 2126, 2137, 2215, 2217 ].indexOf(id) != -1) boost = 1.2;
             return boost;
         },
     },
@@ -478,26 +481,23 @@ window.effects = {
         },    
     },
 	
-	'Akainu Neo': {//Remove this eventually
+	'X-Drake Neo': {//Remove this eventually
         description: 'Certain units boosted',
-        thumb: 1826,
+        thumb: 1976,
         id: 46, // don't change this
         atk: function(p) {
             var id = p.number + 1,
-                matching = ((id > 1740 && id < 1745) ||
-                    [ 1620, 1621, 1664, 1665, 1720, 1721, 1769, 1770, 1777, 1778, 1823, 1824 ].indexOf(id) != -1);
+                matching = ([ 1974, 1972, 1945, 1926, 1895, 1770, 1721, 1688, 1684, 1678, 1665, 1632, 1577, 1481, 1047 ].indexOf(id) != -1);
             return !matching ? 1 : 1.75;
         },
         hp: function(p) {
             var id = p.number + 1,
-                matching = ((id > 1740 && id < 1745) ||
-                    [ 1620, 1621, 1664, 1665, 1720, 1721, 1769, 1770, 1777, 1778, 1823, 1824 ].indexOf(id) != -1);
+                matching = ([ 1974, 1972, 1945, 1926, 1895, 1770, 1721, 1688, 1684, 1678, 1665, 1632, 1577, 1481, 1047 ].indexOf(id) != -1);
             return !matching ? 1 : 1.75;
         },
         rcv: function(p) {
             var id = p.number + 1,
-                matching = ((id > 1740 && id < 1745) ||
-                    [ 1620, 1621, 1664, 1665, 1720, 1721, 1769, 1770, 1777, 1778, 1823, 1824 ].indexOf(id) != -1);
+                matching = ([ 1974, 1972, 1945, 1926, 1895, 1770, 1721, 1688, 1684, 1678, 1665, 1632, 1577, 1481, 1047 ].indexOf(id) != -1);
             return !matching ? 1 : 1.75;
         }, 
 	},
@@ -693,5 +693,54 @@ window.effects = {
         thumb: 1313,
         id: 59, // don't change this
         strOrbsEnabled: true
+    },
+    
+    '3 Ranking Missions - Wanda, Ivankov and Kyros': {
+        description: 'Stats of certain characters boosted.',
+        thumb: 1873,
+        id: 60, // don't change this
+        atk: function(p) {
+            var character = window.families[p.number];
+            matching = ["Usopp", "Dracule Mihawk", "Jinbe", "Donquixote Doflamingo", "Koala", "Kizaru", "Diamante", "Tanaka", "Byrnndi World", "Caribou", "Charlotte Pudding", "Charlotte Amande"].indexOf(character) != -1;
+            return !matching ? 1 : 1.25;
+        },
+        hp: function(p) {
+            var character = window.families[p.number];
+            matching = ["Usopp", "Dracule Mihawk", "Jinbe", "Donquixote Doflamingo", "Koala", "Kizaru", "Diamante", "Tanaka", "Byrnndi World", "Caribou", "Charlotte Pudding", "Charlotte Amande"].indexOf(character) != -1;
+            return !matching ? 1 : 1.25;
+        },
+        rcv: function(p) {
+            var character = window.families[p.number];
+            matching = ["Usopp", "Dracule Mihawk", "Jinbe", "Donquixote Doflamingo", "Koala", "Kizaru", "Diamante", "Tanaka", "Byrnndi World", "Caribou", "Charlotte Pudding", "Charlotte Amande"].indexOf(character) != -1;
+            return !matching ? 1 : 1.25;
+        },
+    },
+    
+    'High Seas Pirate': {
+        description: 'Stats of certain characters boosted.',
+        thumb: 1984,
+        id: 61, // don't change this
+        atk: function(p) {
+            var character = window.families[p.number];
+            matching = [ "Monkey D. Luffy", "Portgas D. Ace", "Jinbe", "Marco", "Crocodile", "Buggy", "Daz Bones", "Sabo", "Franky", "Monkey D. Garp", "Coby", "Little Oars Jr.", "Jozu", "Vista", "Izo", "Blamenco", "Namule", "Rakuyo", "Fossa", "Curiel", "Squard", "Whitey Bay", "Blenheim", "Kingdew", "Haruta", "Atmos", "Speed Jiru", "Doma", "Tashigi", "Smoker",].indexOf(character) != -1;
+            return !matching ? 1 : 1.5;
+        },
+        hp: function(p) {
+            var character = window.families[p.number];
+            matching = [ "Monkey D. Luffy", "Portgas D. Ace", "Jinbe", "Marco", "Crocodile", "Buggy", "Daz Bones", "Sabo", "Franky", "Monkey D. Garp", "Coby", "Little Oars Jr.", "Jozu", "Vista", "Izo", "Blamenco", "Namule", "Rakuyo", "Fossa", "Curiel", "Squard", "Whitey Bay", "Blenheim", "Kingdew", "Haruta", "Atmos", "Speed Jiru", "Doma", "Tashigi", "Smoker",].indexOf(character) != -1;
+            return !matching ? 1 : 1.5;
+        },
+        rcv: function(p) {
+            var character = window.families[p.number];
+            matching = [ "Monkey D. Luffy", "Portgas D. Ace", "Jinbe", "Marco", "Crocodile", "Buggy", "Daz Bones", "Sabo", "Franky", "Monkey D. Garp", "Coby", "Little Oars Jr.", "Jozu", "Vista", "Izo", "Blamenco", "Namule", "Rakuyo", "Fossa", "Curiel", "Squard", "Whitey Bay", "Blenheim", "Kingdew", "Haruta", "Atmos", "Speed Jiru", "Doma", "Tashigi", "Smoker",].indexOf(character) != -1;
+            return !matching ? 1 : 1.5;
+        },
+    },
+
+    'Attack boost (1.75x)': {
+        description: 'ATK of all units boosted by 1.75x',
+        thumb: 2215,
+        id: 62, // don't change this
+        atk: function(p) { return 1.75; }
     },
 };

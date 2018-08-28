@@ -219,6 +219,12 @@ window.zombies = {
         type: 'healer',
         amount: 500 
     },
+    1000: {//Corazon
+        type: 'healer',
+    },
+    1001: {//Corazon
+        type: 'healer',
+    },
     1008: {//Sakura Monet
         type: 'healer',
         multiplier: 3
@@ -273,11 +279,9 @@ window.zombies = {
     },
     1250: {//Colo Marco
         type: 'healer',
-        multiplier: 2.5
     },
     1251: {//Colo Marco
         type: 'healer',
-        multiplier: 2.5
     },
     1269: {//Laffitte
         type: 'healer',
@@ -302,6 +306,12 @@ window.zombies = {
     1310: {//Colo Kinemon
         type: 'healer',
         multiplier: 2
+    },
+    1319: {//Tsuru
+        type: 'healer',
+    },
+    1320: {//Tsuru
+        type: 'healer',
     },
     1330: {//Gancho
         type: 'healer',
@@ -463,6 +473,12 @@ window.zombies = {
         type: 'healer',
         amount: 1000
     },
+    1750: { // Law
+        type: 'healer',
+    },
+    1751: { // Law
+        type: 'healer',
+    },
     1756: { // Nami
         type: 'healer',
         multiplier: 2
@@ -501,7 +517,6 @@ window.zombies = {
     },
     1889: { // Cavendish
         type: 'healer',
-        multiplier: 2
     },
     1919: { // Sanji
         type: 'healer',
@@ -510,6 +525,9 @@ window.zombies = {
     1920: { // Sanji
         type: 'healer',
         multiplier: 3
+    },
+    1922: { // Law
+        type: 'healer',
     },
     1924: { // Rayleigh
         type: 'healer',
@@ -541,7 +559,50 @@ window.zombies = {
     },
     2054: { // Headcracker
         type: 'zombie',
+        threshold: 0.5
+    },
+    2123: { // Neptune
+        type: 'healer',
+        multiplier: 5
+    },
+    2156: { // Pekoms
+        type: 'zombie',
         threshold: 0.5//CHANGE THIS
+    },
+    2172: { // Shirahoshi
+        type: 'healer',
+        multiplier: 1
+    },
+    2173: { // Shirahoshi
+        type: 'healer',
+        multiplier: 2
+    },
+    2192: { // Kuma
+        type: 'healer',
+        multiplier: 1.5
+    },
+    2193: { // Kuma
+        type: 'healer',
+        multiplier: 2
+    },
+    2210: { // Enel
+        type: 'healer',
+        amount: 51
+    },
+    2211: { // Enel
+        type: 'healer',
+    },
+    2231: { // Jack
+        type: 'healer',
+        multiplier: 2//Change this
+    },
+    2237: { // Smoothie
+        type: 'healer',
+        amount: 500//Change this
+    },
+    2238: { // Smoothie
+        type: 'healer',
+        amount: 500
     },
     5001: { // Smoker/Tashigi
         type: 'healer',
@@ -554,13 +615,5 @@ window.zombies = {
     5003: { // Smoker/Tashigi
         type: 'healer',
         amount: 1000
-    },
-    2122: { // Neptune
-        type: 'healer',
-        multiplier: 5//CHANGE THIS
-    },
-    2123: { // Neptune
-        type: 'healer',
-        multiplier: 5
     },
 };

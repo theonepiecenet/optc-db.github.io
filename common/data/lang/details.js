@@ -19440,7 +19440,7 @@ window.details = {
         special: "[BLOCK]를 포함한 모든 슬롯을 속성 일치 슬롯으로 랜덤으로 바꾸고, 자신의 슬롯을 [INT]로 바꾼다",
         specialName: "해산조차 꿰뚫는 창",
     },
-    1631: {//Fisher Tiger
+    1631: {//Fisher Tiger // modified
         captain: "강인형 캐릭터의 공격력이 2.25배가 된다",
         special: "3턴 동안 강인형 캐릭터의 공격력을 1.75배로 만든다",
         specialName: "「금지 사항」에 대한 반역",
@@ -22853,10 +22853,10 @@ window.details = {
         ],
         potentialNotes: "#{enrage}"
     },
-    1816: {// Ace 6+
-        special: "일당의 체력을 40% 줄이고 전체에 감소 값 × 15 배의 무 속성데미지, 1턴 동안 사격형 캐릭터의 공격력이 2배가 된다",
-        specialName: "대염계: 염제 • 화륜",
-        captain: "사격형 캐릭터의 공격력이 2.25배, 체력이 1.5배가 되고 슬롯 일치 시에는 공격력이 3.25배가 된다"
+    1816: {// Ace 6+ // modified
+	    "specialName": "대염계 염제·화륜",
+	    "special": "일당의 체력을 40% 줄이고, 적 전체에게 감소치x15배의 무 속성 데미지, 1턴 동안 사격형 캐릭터의 공격력을 2배로 만든다",
+	    "captain": "사격형 캐릭터의 공격력을 2.25배, 체력을 1.5배로 만들고, 슬롯 일치 시에는 공격력이 약 3.25배가 된다"
     },
     1817: {// Riku // modified
 		"captain": "GREAT 이상 3연속 달성 시 이후 일당의 공격력이 2배가 된다",
@@ -23253,23 +23253,23 @@ window.details = {
             },
         ]
     },
-    1835: {//Ichiji
+    1835: {//Ichiji // modified
         captain: "[STR]캐릭터의 공격력이 1.75배 증가, 강인 캐릭터의 공격력이 1.2배 증가하고 체력이 1.2배 증가한다.(효과 중복가능)",
         captainNotes: "Attack boost stacks, so a [STR] 강인형 character has a 2.1x ATK",
-        special: "선장이 [STR] 또는 [PSY] 캐릭터인 경우, 2턴 동안 체인 계수를 2.5배로 고정하고 선장이 강인 캐릭터인 경우 2턴 동안 적의 공격을 지연 시킨다.",
-        specialName: "마제스틱 임팩트",
-        sailor: "PSY슬롯도 [유리] 슬롯으로 취급한다.",
+	    "specialName": "마제스틱 임팩트",
+	    "special": "선장이 [STR] 또는 [PSY]일 때 2턴 동안 체인 계수가 2.5배로 고정되고, 선장이 강인형일 때 적 전체의 공격을 2턴 지연시킨다",
+        sailor: "자신은 [PSY] 슬롯도 [유리] 슬롯으로 취급한다",
         sailorNotes: "#{beneficial}",
     },
-    1836: {//Ichiji
-        captain: "[STR]캐릭터의 공격력이 2.25배 증가, 강인 캐릭터의 공격력이 1.3배 증가하고 체력이 1.2배 증가한다.(효과 중복가능)",
+    1836: {//Ichiji // modified
+	    "captain": "[STR]과 강인형 캐릭터의 공격력을 각각 2.25배, 1.3배로 만들고, 강인형 캐릭터의 체력을 1.2배로 만든다",
         captainNotes: "Attack boost stacks, so a [STR] 강인형 character has a 2.925x ATK",
-        special: "선장이 [STR] 또는 [PSY] 캐릭터인 경우, 2턴 동안 체인 계수를 2.5배로 고정하고 선장이 강인 캐릭터인 경우 2턴 동안 적의 공격을 지연 시킨다.",
-        specialName: "마제스틱 임팩트",
-        sailor: {
-            "base": "PSY슬롯도 [유리] 슬롯으로 취급한다.",
-            "level1": "Boosts base ATK of all characters by 50",
-        },
+	    "specialName": "마제스틱 임팩트",
+	    "special": "선장이 [STR] 또는 [PSY]일 때 2턴 동안 체인 계수가 2.5배로 고정되고, 선장이 강인형일 때 적 전체의 공격을 2턴 지연시킨다",
+	    "sailor": {
+	        "base": "자신은 [PSY] 슬롯도 [유리] 슬롯으로 취급한다",
+	        "level1": "일당의 공격력을 50 상승한다"
+	    },
         sailorNotes: "#{beneficial}",
         limit: [
             { "description": "공격력 상승 : 20" },
@@ -23312,23 +23312,23 @@ window.details = {
         ],
         potentialNotes: "#{enrage}"
     },
-    1837: {//Niji
-        captain: "[QCK]캐릭터의 공격력이 1.75배 증가, 강인 캐릭터의 공격력이 1.2배 증가하고 체력이 1.2배 증가한다.(효과 중복가능)",
+    1837: {//Niji // modified
+	    "captain": "[QCK] 캐릭터의 공격력을 1.75배로 만들고, 강인형 캐릭터의 체력과 공격력을 1.2배로 만든다",
         captainNotes: "Attack boost stacks, so a [QCK] 강인형 character has a 2.1x ATK",
-        special: "선장이 [QCK] 또는 [PSY] 캐릭터인 경우, 2턴 동안 모든 캐릭터의 공격력이 1.75배로 증가, 선장이 강인 캐릭터인 경우 1턴 동안 모든 슬롯을 고정한다.",
-        specialName: "블리츠 니들",
-        sailor: "PSY슬롯도 [유리] 슬롯으로 취급한다.",
+	    "specialName": "블리츠 니들",
+	    "special": "선장이 [QCK] 혹은 [PSY]일 때 2턴 동안 일당의 공격력을 1.75배로 만들고, 선장이 강인형일 때 1턴 동안 일당의 슬롯을 고정한다",
+        sailor: "자신은 [PSY] 슬롯도 [유리] 슬롯으로 취급한다",
         sailorNotes: "#{beneficial}",
     },
-    1838: {//Niji
-        captain: "[QCK]캐릭터의 공격력이 2.25배 증가, 강인 캐릭터의 공격력이 1.3배 증가하고 체력이 1.2배 증가한다.(효과 중복가능)",
+    1838: {//Niji // modified
+	    "captain": "[QCK]과 강인형 캐릭터의 공격력을 각각 2.25배, 1.3배로 만들고, 강인형 캐릭터의 체력을 1.2배로 만든다",
         captainNotes: "Attack boost stacks, so a [QCK] 강인형 character has a 2.925x ATK",
-        special: "선장이 [QCK] 또는 [PSY] 캐릭터인 경우, 2턴 동안 모든 캐릭터의 공격력이 1.75배로 증가, 선장이 강인 캐릭터인 경우 1턴 동안 모든 슬롯을 고정한다.",
-        specialName: "블리츠 니들",
-        sailor: {
-            "base": "[PSY] 슬롯도 [유리] 슬롯으로 취급한다.",
-            "level1": "일당의 기본 능력치가 20 상승한다",
-        },
+	    "specialName": "블리츠 니들",
+	    "special": "선장이 [QCK] 혹은 [PSY]일 때 2턴 동안 일당의 공격력을 1.75배로 만들고, 선장이 강인형일 때 1턴 동안 일당의 슬롯을 고정한다",
+	    "sailor": {
+	        "base": "자신은 [PSY] 슬롯도 [유리] 슬롯으로 취급한다",
+	        "level1": "일당의 기본 능력치가 20 상승한다"
+	    },
         sailorNotes: "#{beneficial}",
         limit: [
             { "description": "체력 상승 : 35" },
@@ -23370,19 +23370,19 @@ window.details = {
             },
         ]
     },
-    1839: {//Yonji
-        captain: "[DEX]캐릭터의 공격력이 1.75배 증가, 강인 캐릭터의 공격력이 1.2배 증가하고 체력이 1.2배 증가한다.(효과 중복가능)",
+    1839: {//Yonji // modified
+        captain: "[DEX] 캐릭터의 공격력을 1.75배로 만들고, 강인형 캐릭터의 체력과 공격력을을 각각 1.2배로 만든다",
         captainNotes: "Attack boost stacks, so a [DEX] 강인형 character has a 2.1x ATK",
-        special: "선장이 [DEX] 또는 [PSY] 캐릭터인 경우 1턴 동안 지연 중인 적에게 공격력 1.75배로 증가, 선장이 강인 캐릭터인 경우 2턴 동안 캐릭터 공격력 40배의 무속성 데미지를 추가한다.",
+        special: "선장이 [DEX] 혹은 [PSY]일 때 지연 중인 적에게 주는 데미지가 1턴 동안 1.75배가 되고, 선장이 강인형일 때 1턴 동안 GOOD, GREAT, PERFECT 타이밍 보너스에 캐릭터의 공격력x40배의 무 속성 데미지가 가산된다",
         specialName: "버스트 엔드 킥",
         specialNotes: "#{additionalDamage : 40x}",
-        sailor: "PSY슬롯도 [유리] 슬롯으로 취급한다.",
+        sailor: "자신은 [PSY] 슬롯도 [유리] 슬롯으로 취급한다",
         sailorNotes: "#{beneficial}",
     },
-    1840: {//Yonji
-        captain: "[DEX]캐릭터의 공격력이 2.25배 증가, 강인 캐릭터의 공격력이 1.3배 증가하고 체력이 1.2배 증가한다.(효과 중복가능)",
+    1840: {//Yonji // modified
+        captain: "[DEX]과 강인형 캐릭터의 공격력을 각각 2.25배, 1.3배로 만들고, 강인형 캐릭터의 체력을 1.2배로 만든다",
         captainNotes: "Attack boost stacks, so a [DEX] 강인형 character has a 2.925x ATK",
-        special: "선장이 [DEX] 또는 [PSY] 캐릭터인 경우 1턴 동안 지연 중인 적에게 공격력 1.75배로 증가, 선장이 강인 캐릭터인 경우 2턴 동안 캐릭터 공격력 40배의 무속성 데미지를 추가한다.",
+        special: "선장이 [DEX] 혹은 [PSY]일 때 지연 중인 적에게 주는 데미지가 1턴 동안 1.75배가 되고, 선장이 강인형일 때 1턴 동안 GOOD, GREAT, PERFECT 타이밍 보너스에 캐릭터의 공격력x40배의 무 속성 데미지가 가산된다",
         specialName: "버스트 엔드 킥",
         specialNotes: "#{additionalDamage : 40x}",
         sailor: {
@@ -23604,14 +23604,15 @@ window.details = {
     },
     1858: {//Leo
         captain: "Boosts ATK of Striker characters by 2x at the start of the chain. Boosts ATK of Striker characters by 2.4x after scoring 3 PERFECTs in a row.",
-        special: "Reduce 3 turns of paralysis, randomize non-matching orbs, including [BLOCK] orbs, Adds 65x character's ATK as Additional Typeless Damage for 1 turn, when the captain is a Striker Character reduces enemies Percent Damage Reduction duration by 3 turns",
+        special: "Reduce 3 turns of paralysis, randomize non-matching orbs, including [BLOCK] orbs, Adds 65x character's ATK as Additional Typeless Damage for 1 turn, when your Captain is a Striker Character reduces enemies Percent Damage Reduction duration by 3 turns",
         sailor: "If this character has an [INT] orb and you hit a PERFECT with him, keep his [INT] orb for the next turn",
     },
-    1859: {//Leo
-        captain: "Boosts ATK of Striker characters by 2.5x and their HP by 1.2x at the start of the chain. Boosts ATK of Striker characters by 3.25x after scoring 3 PERFECTs in a row.",
-        special: "Reduce 3 turns of paralysis, randomize non-matching orbs, including [BLOCK] orbs, Adds 65x character's ATK as Additional Typeless Damage for 1 turn, when the captain is a Striker Character reduces enemies Percent Damage Reduction duration by 3 turns",
+    1859: {//Leo // modified
+        captain: "일당의 마비 상태를 3턴 회복하고, 속성 일치 슬롯 이외를 랜덤으로 바꾸며([BLOCK]도 변환 가능), 1턴 동안 GOOD, GREAT, PERFECT 공격 시 필살기를 사용한 캐릭터의 공격력x65배의 무 속성 데미지를 가산하고, 선장이 타격형 캐릭터일 경우 적의 데미지 감소 상태([DAMAGE REDUCTION]는 대상 외)를 3턴 줄인다",
+        specialName: "톤타타 돌격 대작전",
+        special: "타격형 캐릭터의 공격력을 2.5배, 체력을 1.2배, PERFECT 3연속 달성 시 이후 일당의 공격력이 1.3배 더 상승한다",
         sailor: {
-            "base": "If this character has an [INT] orb and you hit a PERFECT with him, keep his [INT] orb for the next turn",
+            "base": "자신의 PERFECT 공격 성공 시 자신의 [INT] 슬롯이 다음 턴에도 출현한다",
             "level1": "Makes [PSY] orbs “beneficial” for this unit",
         },
         sailorNotes: "#{beneficial}",
@@ -25322,15 +25323,15 @@ window.details = {
         ]
     },
     1927: {//Crocodile
-        captain: "Boosts ATK of Cerebral characters proportionally to the crew's current HP, by 3.5x at max",
+	    "captain": "공격 시작 전의 체력이 적을수록 박식형 캐릭터의 공격력이 상승한다(최소 2배, 최대 3.5배)",
         captainNotes: "#{captainProportional : lower : 2 + 1.5 * (1 - (remaining HP) / (total HP)) : 2 : 3.5}",
-        special: "Cuts the current HP of each enemy by 20% and boosts ATK of Cerebral characters by 2x",
-        specialName: "Desert Girasole",
-        sailor: {
-            "base": "None",
-            "level1": "Boosts base ATK of Cerebral characters by 50",
-            "level2": "Makes [DEX] orbs “beneficial” for Cerebral characters",
-        },
+	    "specialName": "사막의 해바라기",
+	    "special": "적 전체의 HP를 20% 줄이고, 1턴 동안 박식형 캐릭터의 공격력을 2배로 만든다",
+	    "sailor": {
+	        "base": "None",
+	        "level1": "Boosts base ATK of Cerebral characters by 50",
+	        "level2": "Makes [DEX] orbs “beneficial” for Cerebral characters"
+	    },
         sailorNotes: "#{beneficial}",
         limit: [
             { "description": "공격력 상승 : 5" },

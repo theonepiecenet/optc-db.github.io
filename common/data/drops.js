@@ -639,15 +639,15 @@ window.drops = {
             '03': [  ],
             '04': [ 1344 ],
             '05': [ 1345 ],
-            '06': [ 1346, 'skullUsopp' ],
-            '07': [ 1347, 'skullChopper' ],
-            '08': [ 1348, 'skullZoro' ],
-            '09': [ 1349, 'skullNami' ],
-            '10': [ 'skullFranky' ],
-            '11': [ 1350, 'skullBrook' ],
-            '12': [ 1351, 'skullRobin' ],
-            '13': [ 1352, 'skullSanji' ],
-            '14': [ 1353, 'skullLuffy' ],
+            '06': [ 1346, 9004 ],
+            '07': [ 1347, 9006 ],
+            '08': [ 1348, 9002 ],
+            '09': [ 1349, 9003 ],
+            '10': [ 9008 ],
+            '11': [ 1350, 9009 ],
+            '12': [ 1351, 9007 ],
+            '13': [ 1352, 9005 ],
+            '14': [ 1353, 9001 ],
         },
         
         {
@@ -767,7 +767,7 @@ window.drops = {
         },
         
         {
-            name: 'Dressrosa - Port Town Acacia to Colosseum',
+            name: 'Dressrosa - Port Town Acacia to Coliseum',
             shortName: 'Dressrosa 1',
             thumb: 1782,
             global: true,
@@ -814,6 +814,7 @@ window.drops = {
             name: 'Dressrosa - Former King\'s Land to Royal Palace Top Floor',
             shortName: 'Dressrosa 3',
             thumb: 1784,
+            global: true,
             nakama: null,
             completion: '5x Rainbow Gems',
             gamewith: 99550,
@@ -831,17 +832,62 @@ window.drops = {
             '12': [ 1784 ],
         },
         
-    ],
+        {
+            name: 'Dressrosa - Royal Palace Top Floor to Town Center',
+            shortName: 'Dressrosa 4',
+            thumb: 2126,
+            nakama: null,
+            completion: '10x Rainbow Gems',
+            gamewith: 111173,
+            '01': [ 2003 ],
+            '02': [  ],
+            '03': [ 991 ],
+            '04': [ 1292 ],
+            '05': [ 1400 ],
+            '06': [  ],
+            '07': [ 1648 ],
+            '08': [ 2002 ],
+            '09': [ 1421 ],
+            '10': [ 2051 ],
+            '11': [ 2124 ],
+            '12': [ 2003 ],
+            '13': [ 2125 ],
+            '14': [  ],
+            '15': [ 2003, 9020  ],
+        },
+        
+        {
+            name: 'Mokomo Dukedom',
+            shortName: 'Zou',
+            thumb: 2231,
+            nakama: null,
+            completion: '?x Rainbow Gems',
+            gamewith: 117222,
+            '01': [ 1811 ],
+            '02': [  ],//Change This, still needs to be updated
+            '03': [  ],
+            '04': [  ],
+            '05': [  ],
+            '06': [ 2229 ],
+            '07': [  ],
+            '08': [ 2176, 2218 ],
+            '09': [  ],
+            '10': [  ],
+            '11': [ 2231 ],
+        },
+        
+    ], 
 
-    'Weekly Island': [
+    'Booster and Evolver Island': [
 
         {
-            name: 'Rush of Turtles',
+            name: 'Turtle Haven',
             day: 0,
             thumb: 193,
             global: true,
             nakama: 3019300,
-            ' ': [ 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 189, 190, 191, 192, 193 ]
+            'Japan': [ 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 189, 190, 191, 192, 193 ],
+            'Global': [ 105, 106, 107, 108, 109, 189, 190, 191, 192, 193 ]
         },
         {
             name: 'Princess Turtle\'s Dragon Palace',
@@ -875,7 +921,7 @@ window.drops = {
             thumb: 266,
             global: true,
             nakama: 3026600,
-            ' ': [ 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 266 ]
+            ' ': [ 84, 85, 86, 87, 88, 266 ]
         },
 
 
@@ -892,27 +938,28 @@ window.drops = {
             name: 'Scissor Cavern',
             day: 4,
             thumb: 95,
-            global: true,
             nakama: 3009500,
             ' ': [ 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99 ]
         },
 
         {
-            name: 'Scissor Cavern, Inner Cave',
+            name: 'Scissor Cavern, Entrance',
             day: 4,
             thumb: 304,
             global: true,
             nakama: 3030400,
-            ' ': [ 89, 90, 91, 92, 93, 95, 96, 97, 98, 99, 300, 301, 302, 303, 304 ]
+            'Japan': [ 89, 90, 91, 92, 93, 95, 96, 97, 98, 99, 300, 301, 302, 303, 304 ],
+            'Global': [ 89, 90, 91, 92, 93, 95, 96, 97, 98, 99 ]
         },
         
         {
-            name: 'Scissor Cavern, Deepest Parts',
+            name: 'Scissor Cavern, Innermost Grotto',
             day: 4,
             thumb: 1180,
             global: true,
             nakama: 3118000,
-            ' ': [ 89, 90, 91, 92, 93, 95, 96, 97, 98, 99, 300, 301, 302, 303, 304, 1180 ]
+            'Japan': [ 89, 90, 91, 92, 93, 95, 96, 97, 98, 99, 300, 301, 302, 303, 304, 1180 ],
+            'Global': [ 95, 96, 97, 98, 99, 300, 301, 302, 303, 304, 1180 ]
         },
 
         {
@@ -920,7 +967,7 @@ window.drops = {
             thumb: 347,
             global: true,
             nakama: 3034700,
-            ' ': [ 342, 343, 344, 345, 346 ]
+            ' ': [ 342, 343, 344, 345, 346, 347, 348, 349, 350, 351 ]
         },
     ],
 
@@ -954,7 +1001,7 @@ window.drops = {
             nakama: 2004600,
             condition: 'None',
             gamewith: 7784,
-            condition: 'Siam and Butchie does not drop in Rookie difficulty',			
+            condition: 'Siam and Butchie do not drop in Rookie difficulty',			
             'All Difficulties': [ 41, 42, 43, 45, -16, -14, -15, -13, -1446 ]
         },
 
@@ -965,7 +1012,7 @@ window.drops = {
             nakama: 2006600,
             condition: 'None',
             gamewith: 5852,
-            condition: 'Choo and Kuroobi does not drop in Rookie difficulty',
+            condition: 'Choo and Kuroobi do not drop in Rookie difficulty',
             'All Difficulties': [ 61, 62, 63, 65, -12, -10, -11, -66, -9, -1389 ]
         },
 
@@ -1362,7 +1409,7 @@ window.drops = {
             gamewith: 2191,
             condition: 'You can only bring Fighter and Powerhouse units',
             challenge: 'High Score calculated with Crew Cost, Turns Taken and Tap Accuracy',
-            challengeData: [['100,000','1x Purple Elder'],['400,000','1x RCV Candy, 1x Rainbow Gem'],['750,000','1x Auto-Heal Skullbook, 2x Rainbow Gem']],
+            challengeData: [['100,000','1x Purple Elder'],['400,000','1x RCV Candy, 1x Rainbow Gem'],['750,000','1x Auto-Heal Final Forbidden Tome, 2x Rainbow Gem']],
             'Japan': [ 796, 798, 799, 800, -800, -639, -628, -562, -1816, -414, -432, -380, -75 ],
             'Global': [ 796, 798, 799, 800, -800, -677, -628, -562, -1816, -414, -432, -380, -75 ]
         },
@@ -1684,7 +1731,7 @@ window.drops = {
         },
         
         {
-            name: 'Marines! Sengoku the Fleet Admiral!',
+            name: 'Full Defense! Buddha Sengoku!',
             thumb: 1416,
             global: true,
             nakama: 2141600,
@@ -1880,12 +1927,12 @@ window.drops = {
         },
         
         {
-            name: 'Crisis of the 800 Year Old Kingdom!',
+            name: 'Crisis in the 800 Year Old Kingdom!',
             thumb: 1818,
             global: true,
             nakama: 2181800,
             gamewith: 72655,
-            'All Difficulties': [ 1817, 1819, 1820, -1610, -1656, -1660, -1230, -1236, -1173, -526, -643, -1506, -964 ]
+            'All Difficulties': [ 1817, 1819, 1820, -1610, -2232, -1656, -1660, -1230, -1236, -1173, -526, -643, -1506, -964 ]
         },
         
         {
@@ -1908,33 +1955,37 @@ window.drops = {
         },
         
         {
-            name: 'Supernova! Hawkins and Urouge!',
+            name: 'Oh, Impermanence! Hawkins and Urouge!',
             thumb: 1867,
+            global: true,
             nakama: 2186700,
             gamewith: 80643,
             'All Difficulties': [ 1864, 1866, -1698, -1632, -1706, -1556, -1274, -1276 ]
         },
         
         {
-            name: 'Perona\'s Strange Communal Life!',
+            name: 'Perona\'s Peculiar Living Situation',
             thumb: 1891,
+            global: true,
             nakama: 2189100,
             gamewith: 84032,
-            condition: 'Take heavy damage at the start of the island',
+            condition: '99% health cut at the start of the adventure and an increase rate of RCV orbs until stage 4',
             'All Difficulties': [ 1890, 1892, -1314, -1316, -1322, -1741, -1743, -1559 ]
         },
         
         {
-            name: 'Final Thoughts to my Brother Sanji!',
+            name: 'Last Wish for Sanji!',
             thumb: 1918,
+            global: true,
             nakama: 2191800,
             gamewith: 85780,
             'All Difficulties': [ 1917, 1919, -1922, -1751, -1745, -1665, -1320, -1370, -1560 ]
         },
         
         {
-            name: 'Binding and Bonds!',
+            name: 'Branded in Shackles!',
             thumb: 1933,
+            global: true,
             nakama: 2193300,
             gamewith: 86343,
             condition: 'Take 7% current Health in Environmental Damage every 2 turns',
@@ -1942,27 +1993,30 @@ window.drops = {
         },
         
         {
-            name: 'My Ideal Type!',
+            name: 'I\'m Now Your Ideal Type! I Think',
             thumb: 1947,
+            global: true,
             nakama: 2194700,
             gamewith: 88584,
             'All Difficulties': [ 1946, 1948, -1763, -1796, -1800, -1364, -1678, -1562 ]
         },
         
         {
-            name: 'Devil Oars, Day of the Second Coming',
+            name: 'The Beast\'s Return',
             thumb: 1965,
+            global: true,
             nakama: 2196500,
             gamewith: 91449,
-            'All Difficulties': [ 1964, 1966, -1794, -1368, -1802, -1713, -1840, -1557 ]
+            'All Difficulties': [ 1964, 1966, -1794, -1368, -1802, -1713, -1840, -2142, -1557 ]
         },
         
         {
-            name: 'Supernova! Bonney and Capone!',
+            name: 'Volatile Meal! Bonney and Bege!',
             thumb: 1982,
+            global: true,
             nakama: 2198200,
             gamewith: 93457,
-            'All Difficulties': [ 1979, 1981, -1921, -1362, -1366, -1770, -1834, -1836, -1633 ]
+            'All Difficulties': [ 1979, 1981, -1921, -1362, -1366, -1770, -1834, -2139, -1836, -2140, -1633 ]
         },
         
         {
@@ -1970,7 +2024,7 @@ window.drops = {
             thumb: 1997,
             nakama: 2199700,
             gamewith: 94921,
-            'All Difficulties': [ 1994, 1996, -1832, -1408, -1721, -1871, -1838, -1634 ]
+            'All Difficulties': [ 1994, 1996, -1832, -2138, -1408, -1721, -1871, -1838, -2141, -1634 ]
         },
         
         {
@@ -2015,10 +2069,42 @@ window.drops = {
         
         {
             name: 'Brûlée\'s Gibier Party',
-            thumb: 2024,
+            thumb: 2127,
             nakama: null,
             gamewith: 108421,
             'All Difficulties': [ 2127, 2128, 2129, 2130, -1473, -1477, -1974, -1953, -1957, -1717 ]
+        },
+        
+        {
+            name: 'Coliseum Executioner! Diamante',
+            thumb: 2146,
+            nakama: null,
+            gamewith: 109800,
+            'All Difficulties': [ 2143, 2145, -2013, -1991, -1989, -1951, -1718, -1475 ]
+        },
+        
+        {
+            name: 'Baby 5\'s Journey to Become a Bride',
+            thumb: 2165,
+            nakama: null,
+            gamewith: 111404,
+            'All Difficulties': [ 2166, 2164, -1985, -1987, -1993, -1719, -1479, -1481 ]
+        },
+        
+        {
+            name: 'Let\'s Go See Master Nekomamushi!',
+            thumb: 2177,
+            nakama: null,
+            gamewith: 114148,
+            'All Difficulties': [ 2176, 2178, 2179, -2048, -2029, -1883, -1483, -1353, -1785 ]
+        },
+        
+        {
+            name: 'Inuarashi Fortnight',
+            thumb: 2219,
+            nakama: null,
+            gamewith: null,
+            'All Difficulties': [ 2218, 2220, 2221, -2007, -2027, -2031, -1783, -1538, -1536 ]
         },
         
     ],
@@ -2467,6 +2553,7 @@ window.drops = {
         {
             name: 'Clash!! Caesar',
             thumb: 1830,
+            global: true,
             nakama: 4183000,
             gamewith: 75007,
             condition: 'Take 10% MAX Health in Environmental Damage every 2 turns',
@@ -2498,6 +2585,7 @@ window.drops = {
         {
             name: 'Clash!! Señor Pink',
             thumb: 1943,
+            global: true,
             nakama: 4194300,
             gamewith: 88927,
             Master: [ 1942 ],
@@ -2535,13 +2623,33 @@ window.drops = {
         },
         
         {
+            name: 'Clash!! Cracker',
+            thumb: 2158,
+            nakama: null,
+            gamewith: 110184,
+            Ultimate: [ 2157 ],
+            Master: [ 2157 ],
+            Expert : [ 2157 ],
+        },
+        
+        {
+            name: 'Clash!! "Blackbeard" Teach',
+            thumb: 2197,
+            nakama: null,
+            gamewith: null,
+            Ultimate: [ 2196 ],
+            Master: [ 2196 ]
+        },
+        
+        {
             name: 'Clash!! Heavenly Demon Doflamingo',
-            thumb: 2201,
+            thumb: 2501,
             global: true,
             nakama: 4220100,
             gamewith: null,
-            Ultimate: [ 2200 ],
-            Master: [ 2200 ]
+            Ultimate: [ 2500 ],
+            Master: [ 2500 ],
+            Expert: [ 2500 ]
         },
 
     ],
@@ -2556,8 +2664,8 @@ window.drops = {
             gamewith: 17473,
             slefty: 'coliseums',
             Exhibition: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1195, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629, 1860 ],
-            Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1195, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629, 1791, 1860, 1896, 1977, 2110 ],
-            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1421, 1423, 1455, 1457, 1486, 1488, 1525, 1526, 1528, 1552, 1554, 1583, 1585, 1601, 1603, 1627, 1629, 1666, 1693, 1732, 1791, 1827, 1860, 1896, 1944, 1977, 2036, 2110, 2122 ],
+            Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1195, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629, 1791, 1860, 1896, 1977, 2110, 2162 ],
+            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1421, 1423, 1455, 1457, 1486, 1488, 1525, 1526, 1528, 1552, 1554, 1583, 1585, 1601, 1603, 1627, 1629, 1666, 1693, 1732, 1791, 1827, 1860, 1896, 1944, 1977, 2036, 2110, 2122, 2162, 2192 ],
             Neo: [ 1862, 1898, 1975, 2016 ]
         },
         
@@ -2605,17 +2713,19 @@ window.drops = {
         {
             name: 'Fire Fist Ace',
             thumb: 1941,
+            global: true,
 			nakama: 8194100,
             gamewith: 87389,
-            'Raging Sea': [ 1940 ]
+            'Primordial Sea': [ 1940 ]
         },
 
         {
             name: 'Fire Fist Sabo',
             thumb: 1972,
+            global: true,
 			nakama: 8197200,
-            gamewith: null,
-            'Raging Sea': [ 1971 ]
+            gamewith: 91382,
+            'Calm Sea': [ 1971 ]
         },
 
         {
@@ -2638,8 +2748,32 @@ window.drops = {
             name: 'Big Mom',
             thumb: 2109,
             nakama: null,
-            gamewith: null,
+            gamewith: 105881,
             'Sweet Sea': [ 2108 ]
+        },
+
+        {
+            name: 'Crocodile',
+            thumb: 2137,
+            nakama: null,
+            gamewith: 109127,
+            'Primordial Sea': [ 2136 ]
+        },
+
+        {
+            name: 'Jack',
+            thumb: 2175,
+            nakama: null,
+            gamewith: 112951,
+            'Raging Sea': [ 2174 ]
+        },
+
+        {
+            name: 'Kami Enel',
+            thumb: 2211,
+            nakama: null,
+            gamewith: 116377,
+            'Raging Sea': [ 2210 ]
         },
         
     ],
@@ -2680,7 +2814,11 @@ window.drops = {
             gamewith: 15440,
             challenge: 'Total number of hits over 30,000',
             challengeData: [['Japan Rewards', ''],['10 Times','#686 Vivi\'s Breather Unit'],['35 Times','1x HP Cotton Candy'],['72 Times','3x Rainbow Gems'], ['Global Rewards', ''],['10 Times','1x Bind Resistance Forbidden Tome, 1x Despair Resistance Forbidden Tome, 1x Auto-Heal Forbidden Tome, 1x Rainbow Gem'],['35 Times','1x Red Elder Turtle, 1x Blue Elder Turtle, 1x Green Elder Turtle, 1x Yellow Elder Turtle, 1x Black Elder Turtle, 2x Rainbow Gems'],['72 Times','5x Rainbow Gems']],
-            'All Difficulties': [ 659, 680, 682, 684, 1200, 1198, 1708, 1710 ],
+            condition: 'Part 4 drops Shaved Ice Booster Items and Heracles Beetle Items',
+            'Part 1': [ 659, 680, 682, 684 ],
+            'Part 2': [ 659, 1200, 1198 ],
+            'Part 3': [ 1708, 1710 ],
+            'Part 4': [ 2214, 2216 ],
             'Challenge Unit': [ 686 ],
         },
         
@@ -2746,7 +2884,7 @@ window.drops = {
             nakama: 6125800,
             gamewith: 38237,
             condition: 'Has a chance of appearing at the end of ANY Raid boss when available. You MUST use the same team that you just used to complete the raid boss to fight Young Whitebeard.',
-            'All Difficulties': [ 1257, 'skullSTR', 'skullDEX', 'skullQCK', 'skullPSY', 'skullINT' ]
+            'All Difficulties': [ 1257, 9010, 9011, 9012, 9013, 9014 ]
         },
         
         {
@@ -2756,7 +2894,7 @@ window.drops = {
             nakama: 6138000,
             gamewith: 46369,
             condition: 'Has a chance of appearing at the end of ANY Raid boss when available. You MUST use the same team that you just used to complete the raid boss to fight Shanks.',
-            'All Difficulties': [ 1379, 952, 776, 'skullSTR', 'skullDEX', 'skullQCK', 'skullPSY', 'skullINT' ]
+            'All Difficulties': [ 1379, 952, 776, 9010, 9011, 9012, 9013, 9014 ]
         },
         
         {
@@ -2766,7 +2904,7 @@ window.drops = {
             nakama: 6153000,
             gamewith: 53621,
             condition: 'Has a chance of appearing at the end of ANY Chaos Coliseum boss. You MUST use the same team that you just used to complete the Coliseum boss to fight Cavendish.',
-            'All Difficulties': [ 1529, 'skullSTR', 'skullDEX', 'skullQCK', 'skullPSY', 'skullINT' ]
+            'All Difficulties': [ 1529, 9010, 9011, 9012, 9013, 9014 ]
         },
         
         {
@@ -2776,7 +2914,7 @@ window.drops = {
             nakama: 6184600,
             gamewith: 75260,
             condition: 'Has a chance of appearing at the end of ANY Chaos Coliseum boss. You MUST use the same team that you just used to complete the Coliseum boss to fight Garp.',
-            'All Difficulties': [ 1845, 'skullSTR', 'skullDEX', 'skullQCK', 'skullPSY', 'skullINT' ]
+            'All Difficulties': [ 1845, 9010, 9011, 9012, 9013, 9014 ]
         },
         
         {
@@ -2928,7 +3066,7 @@ window.drops = {
             'Monkey D. Luffy': [ -416, -1404, -1445, -1532, -1543, -1593, -1747, -671, -673, -906, -910, -520, -1115, -1364, -1368, -1534, -1536, -1741, -1743, -1745 ],
             'Lucy': [ -562, -578, -669, -1121, -1492, -1794, -1816, -641, -1025, -1029, -1033, -1079, -1125, -1129, -1798, -1800, -1802, -1873, -1877 ],
             'Fujitora': [ -870, -1035, -1123, -1869, -1928, -995, -1232, -1234, -1236, -1238, -1318, -1320, -1796, -1871, -1904, -1906, -1908 ],
-            'Judge': [ -367, -1588, -1610, -1619, -1832, -410, -675, -677, -912, -937, -560, -1212, -1542, -1702, -1834, -1836, -1838, -1840 ],
+            'Judge': [ -367, -1588, -1610, -2232, -1619, -1832, -2138, -410, -675, -677, -912, -937, -560, -1212, -1542, -1702, -1834, -2139, -1836, -2140, -1838, -2141, -1840, -2142 ],
         },
         
         {
@@ -2989,9 +3127,58 @@ window.drops = {
             thumb: 1280,
             nakama: null,
             gamewith: 98232,
-            showManual: true,
             'Aokiji': [ 298, 1225, 1226, 1280, 1281 ],
             'Akainu': [ 1223, 1279, 1283, 1417, 1418 ],
+        },
+        
+        {
+            name: 'Germa Revival Plan!',
+            thumb: 2138,
+            nakama: null,
+            gamewith: 109674,
+            showManual: true,
+            'All Difficulties': [ 9015, 9016, 9017, 9018, 9019, -2142, -2141, -2140, -2139, -2138, -1839, -1838, -1836, -1834, -1832 ],
+        },
+        
+        {
+            name: 'Garp Challenge!',
+            thumb: 1318,
+            nakama: null,
+            gamewith: 108237,
+            condition: "The Gamewith Link is only for the most recent Garp Challenge (Fist)",
+        },
+        
+        {
+            name: '21st Anniversary Island',
+            thumb: 1682,
+            nakama: null,
+            gamewith: null,
+            showManual: true,
+            'All Difficulties': [ 2, 5, 9, 13, 17, 21, 629, 708, 895, -1682, -1684, -1686, -1688, -1753, -1755, -1757, -1759, -1761 ],
+        },
+        
+        {
+            name: '3 Stamina Ranking! Vs Blackbeard',
+            thumb: 447,
+            nakama: null,
+            gamewith: 99411,
+            condition: "Elite: Characters with Cost 51 cost and higher can not be used",
+        },
+        
+        {
+            name: '3 Stamina Ranking! Vs Jinbe',
+            thumb: 1700,
+            nakama: null,
+            gamewith: 107881,
+            condition: "Elite: Characters with Cost 51 cost and higher can not be used",
+        },
+        
+        {
+            name: '3 Stamina Ranking! Vs Kyros',
+            thumb: 1873,
+            nakama: null,
+            gamewith: 111278,
+            condition: "Elite: Characters with Cost 51 cost and higher can not be used",
         },
    ],
 
