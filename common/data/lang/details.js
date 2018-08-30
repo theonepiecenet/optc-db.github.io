@@ -20191,15 +20191,15 @@ window.details = {
             },
         ]
     },
-    1679: {//Kai Mihawk
-        special: "Cuts the current HP of each enemy by 30%",
-        specialName: "Black Blade Ship Cutter 「개」",
-        captain: "Boosts ATK of Slasher characters by 2x"
+    1679: {//Kai Mihawk // modified
+	    "specialName": "흑도·선박 베기 「개」",
+	    "special": "적 전체의 HP를 30% 줄인다",
+	    "captain": "참격형 캐릭터의 공격력이 2배가 된다"
     },
-    1680: {//Kai Mihawk
-        special: "Cuts the current HP of each enemy by 30%",
-        specialName: "Black Blade Ship Cutter 「개」",
-        captain: "Boosts ATK of Slasher characters by 2.5x"
+    1680: {//Kai Mihawk // modified
+	    "specialName": "흑도·선박 베기 「개」",
+	    "special": "적 전체의 HP를 30% 줄인다",
+	    "captain": "참격형 캐릭터의 공격력이 2.5배가 된다"
     },
     1681: {//20th Anni Luffy
         captain: "Boosts ATK of characters with cost 30 or less by 2.5x",
@@ -25921,20 +25921,20 @@ window.details = {
         ],
         potentialNotes: "#{enrage}"
     },
-    1952: {//Koala
+    1952: {//Koala // modified
         captain: "[INT]의 공격력을 2.5배로 만든다",
-        special: "Reduces Bind and Despair duration by 3 turns and changes own orb into [RCV]. If your Captain is a Cerebral character, adds .7x to Chain multiplier for 1 turn and changes bottom row orbs into matching orbs",
-        specialName: "Vigorous Straight Fist",
-        sailor: "If this character has a [RCV] orb and you hit a PERFECT with her, keep her [RCV] orb for the next turn",
+	    "specialName": "혈기 왕성한 정권",
+	    "special": "봉쇄, 선장효과 무효 상태를 3턴 회복하고 자신의 슬롯을 [RCV] 슬롯으로 바꾸며, 선장이 박식형일 경우 1턴동안 체인 계수가 +0.7 되고 하단의 슬롯을 속성 일치 슬롯으로 바꾼다",
+        sailor: "자신의 PERFECT 공격 성공 시 자신의 [RCV] 슬롯이 다음 턴에도 유지된다",
     },
-    1953: {//Koala
+    1953: {//Koala // modified
         captain: "[INT]의 공격력을 2.75배로 만든다",
-        special: "Reduces Bind and Despair duration by 3 turns and changes own orb into [RCV]. If your Captain is a Cerebral character, adds .7x to Chain multiplier for 1 turn and changes bottom row orbs into matching orbs",
-        specialName: "Vigorous Straight Fist",
-        sailor: {
-            "base": "If this character has a [RCV] orb and you hit a PERFECT with her, keep her [RCV] orb for the next turn",
-            "level1": "Boosts base ATK, HP and RCV of Fighter and Cerebral characters by 35",
-        },
+	    "specialName": "혈기 왕성한 정권",
+	    "special": "봉쇄, 선장효과 무효 상태를 3턴 회복하고 자신의 슬롯을 [RCV] 슬롯으로 바꾸며, 선장이 박식형일 경우 1턴동안 체인 계수가 +0.7 되고 하단의 슬롯을 속성 일치 슬롯으로 바꾼다",
+	    "sailor": {
+	        "base": "자신의 PERFECT 공격 성공 시 자신의 [RCV] 슬롯이 다음 턴에도 유지된다",
+	        "level1": "Boosts base ATK, HP and RCV of Fighter and Cerebral characters by 35"
+	    },
         limit: [
             { "description": "체력 상승 : 10" },
             { "description": "체력 상승 : 20" },
@@ -26199,22 +26199,22 @@ window.details = {
         specialName: "An Important Confession from the Snake Princess",
         specialNotes: "Level 1-10: 1.75x orb boost<br\>Level 11-20: 2x orb boost<br\>Level 21+: 2.25x orb boost",
     },
-    1968: {//Boa Hancock
-        captain: "Boosts amount of Beli received by 3x",
+    1968: {//Boa Hancock // modified
+	    "captain": "획득하는 베리가 3배가 된다(모험 도중 선장이 된 경우에는 발휘되지 않습니다)",
         captainNotes: "Beli boost does not take effect if she becomes your captain in the middle of the adventure.",
-        special: "Changes [BLOCK], [STR], [DEX], [QCK], [INT] and [PSY] orbs on Shooter and Cerebral characters into Matching orbs. If you are on a Treasure Map, amplifies the effects of orbs for Cerebral and Shooter characters depending on your Treasure Map Level for 1 turn",
-        specialName: "An Important Confession from the Snake Princess",
+	    "specialName": "뱀 여왕의 소중한 고백",
+	    "special": "사격형 및 박식형 캐릭터의 속성 슬롯과 [BLOCK] 슬롯을 속성 일치 슬롯으로 바꾸고, 1턴 동안 사격형 및 박식형 캐릭터의 슬롯 영향이 트레저 맵 Lv 1~10일 때 1.75배, Lv 11~20일 때 2배, Lv 21 이상일 때 2.25배가 된다",
         specialNotes: "Level 1-10: 1.75x orb boost<br\>Level 11-20: 2x orb boost<br\>Level 21+: 2.25x orb boost",
     },
-    1969: {//Miss Valentine
-        captain: "Boosts HP of [DEX] characters by 1.5x and their RCV by 1.2x.",
-        special: "Reduces Paralysis and Despair duration by 3 turns. Cuts the current HP of one enemy by 10%",
-        specialName: "10,000 Kilo Guillotine - Cake Slice",
+    1969: {//Miss Valentine // modified
+        captain: "[DEX]의 체력을 1.5배, 회복력을 1.2배로 만든다",
+	    "specialName": "1만 킬로 길로틴·웨딩 케이크 커팅식",
+	    "special": "적 1명의 HP를 10% 줄이고, 일당의 마비 및 선장효과 무효 상태를 3턴 회복한다",
     },
-    1970: {//Miss Valentine
-        captain: "Boosts HP of [DEX] characters by 2x and their RCV by 1.5x.",
-        special: "Reduces Paralysis and Despair duration by 3 turns. Cuts the current HP of one enemy by 10%",
-        specialName: "10,000 Kilo Guillotine - Cake Slice",
+    1970: {//Miss Valentine // modified
+	    "specialName": "1만 킬로 길로틴·웨딩 케이크 커팅식",
+	    "special": "적 1명의 HP를 10% 줄이고, 일당의 마비 및 선장효과 무효 상태를 3턴 회복한다",
+	    "captain": "[DEX]의 체력을 2배, 회복력을 1.5배로 만든다"
     },
     1971: {//Sabo
         captain: "Boosts ATK of Cerebral characters by 1.3x and their HP and RCV by 1.05x and boosts chain by 1.1x if HP is above 70% or below 30% at the start of the turn",
@@ -30946,7 +30946,6 @@ window.details = {
             { "description": "공격력 상승 : 60" },
             { "description": "Reduce base Special Cooldown by 1 turn" },
             { "description": "공격력 상승 : 60" },
-            { "description": "ㅎ" },
             { "description": "Acquire Potential 2: Barrier Penetration" },
         ],
         potential: [
