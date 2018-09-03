@@ -6376,11 +6376,11 @@ window.details = {
         specialName: "Flame Fence",
         captain: "Boosts ATK of Free Spirit characters by 2.5x"
     },
-    746: {
-        special: "Deals 10x character's ATK in [QCK] damage to all enemies, protects from defeat as long as HP is above 50% for 1 turn",
-        specialName: "Megalo Assault!",
+    746: { // modified
+	    "specialName": "메가로 돌격!",
+	    "special": "적 전체에 캐릭터의 공격x10배의 [QCK] 데미지를 주고, 1턴 동안 체력이 일정 비율 이상일 때 공격을 받아도 ㅅ러지지 않는다",
+	    "captain": "체력이 적게 남아도 일정 비율 이상일 경우 공격을 받아도 쓰러지지 않는다",
         specialNotes: "#{zombie}",
-        captain: "Protects from defeat as long as HP is above 30%",
         captainNotes: "#{zombie}"
     },
     747: { // modified
@@ -18463,11 +18463,13 @@ window.details = {
         ],
         potentialNotes: "#{enrage}"
     },
-    1572: {//Wanda
-        captain: "Boosts ATK of Cerebral characters by 2x, and their RCV by 1.2x",
-        special: "Randomly changes all orbs, including [BLOCK] orbs into [STR], [DEX], [QCK], [INT], or [PSY] orbs, boosts ATK of Cerebral characters by 1.75x for 3 turns",
-        sailor: "Reduces Paralysis duration by 1 턴",
-        specialName: "Ruler's Aide Flight",
+    1572: {//Wanda // modified
+	    "specialName": "날개치는 왕의 새",
+	    "special": "[BLOCK] 슬롯을 포함하여 모든 슬롯을 속성 슬롯으로 랜덤으로 바꾸고, 3턴 동안 박식형 캐릭터의 공격력이 1.75배가 된다",
+	    "sailor": [
+	        "일당의 마비 상태를 1턴 회복한다"
+	    ],
+	    "captain": "박식형 캐릭터의 공격력을 2배, 회복력을 1.2배로 만든다"
     },
     1573: {//Wanda
 		"captain": "박식형 캐릭터의 공격력을 2.5배, 회복력을 1.2배로 만든다",
@@ -25976,18 +25978,18 @@ window.details = {
         ]
     },
     1954: {//Nami
-        captain: "Boosts ATK of Cerebral Characters by 2x",
-        special: "Cuts the current HP of all enemies by 10% and changes own orb into [RCV]. Boosts ATK of Cerebral characters by 1.75x for 1 turn. If during that turn you score 5 PERFECT hits, boosts ATK of Cerebral characters by 2.25x in the following turn.",
-        specialName: "Thunder Trap",
-        sailor: "If this character has a [RCV] orb and you hit a PERFECT with her, keep her [RCV] orb for the next turn",
+	    "captain": "박식형 캐릭터의 공격력을 평상시 2배, 슬롯 일치 시 3배로 만든다",
+	    "specialName": "썬더 트랩",
+	    "special": "적 전체의 HP를 10% 줄이고, 자신의 슬롯을 [RCV] 슬롯으로 바꾸며, 1턴 동안 박식형 캐릭터의 공격력을 1.75배로 만들고 필살기를 쓴 턴 내에 PERFECT 공격을 5번 성공하면 다음 턴에 박식형 캐릭터의 공격력이 2.25배가 된다",
+        sailor: "자신의 PERFECT 공격 성공 시 자신의 [RCV] 슬롯이 다음 턴에도 유지된다",
     },
-    1955: {//Nami
-        captain: "Boosts ATK of Cerebral Characters by 3x if they have a matching orb, by 2x otherwise",
-        special: "Cuts the current HP of all enemies by 10% and changes own orb into [RCV]. Boosts ATK of Cerebral characters by 1.75x for 1 turn. If during that turn you score 5 PERFECT hits, boosts ATK of Cerebral characters by 2.25x in the following turn.",
-        specialName: "Thunder Trap",
+    1955: {//Nami // modified
+	    "captain": "박식형 캐릭터의 공격력을 평상시 2배, 슬롯 일치 시 3배로 만든다",
+	    "specialName": "썬더 트랩",
+	    "special": "적 전체의 HP를 10% 줄이고, 자신의 슬롯을 [RCV] 슬롯으로 바꾸며, 1턴 동안 박식형 캐릭터의 공격력을 1.75배로 만들고 필살기를 쓴 턴 내에 PERFECT 공격을 5번 성공하면 다음 턴에 박식형 캐릭터의 공격력이 2.25배가 된다",
         sailor: {
-            "base": "If this character has a [RCV] orb and you hit a PERFECT with her, keep her [RCV] orb for the next turn",
-            "level1": "Makes [QCK] orbs “beneficial” for Cerebral characters",
+            "base": "자신의 PERFECT 공격 성공 시 자신의 [RCV] 슬롯이 다음 턴에도 유지된다",
+            "level1": "박식형 캐릭터는 [QCK] 슬롯도 [유리] 슬롯으로 취급한다",
         },
         sailorNotes: "#{beneficial}",
         limit: [
@@ -26087,22 +26089,22 @@ window.details = {
             },
         ],
     },
-    1958: {//Shirahoshi
-        captain: "Reduce damage received by 15%.",
-        special: "Reduces Paralysis and Silence  and ATK DOWN duration by 5 turns, recovers 7,000 HP at the end of the turn for 3 turns and changes orbs in the top row into Matching orbs",
-        specialName: "An Important Confession from the Mermaid Princess",
-        sailor: "Completely resists Silence on this character",
-        sailorNotes: "#{silence}",
+    1958: {//Shirahoshi // modified
+	    "specialName": "인어공주의 소중한 고백",
+	    "special": "마비, 필살기 봉쇄, 공격력 감소 상태를 5턴 회복하고, 3턴동안 턴 종료 시 체력을 7000 회복하며, 상단 슬롯을 속성 일치 슬롯으로 바꾼다",
+	    "sailor": "자신은 필살기 봉쇄 상태를 완전히 회피한다",
+	    "captain": "받는 데미지를 15% 감소시킨다",
+	    sailorNotes: "#{silence}",
     },
-    1959: {//Shirahoshi
-        captain: "Boosts ATK of all characters by 2.25x and reduce damage received by 15%.",
-        special: "Reduces Paralysis and Silence  and ATK DOWN duration by 5 turns, recovers 7,000 HP at the end of the turn for 3 turns and changes orbs in the top row into Matching orbs",
-        specialName: "An Important Confession from the Mermaid Princess",
-        sailor: {
-            "base": "Completely resists Silence on this character",
-            "level1": "Changes all orbs into [RCV] orbs at the start of the fight",
-        },
-        sailorNotes: "#{silence}",
+    1959: {//Shirahoshi // modified
+	    "specialName": "인어공주의 소중한 고백",
+	    "special": "마비, 필살기 봉쇄, 공격력 감소 상태를 5턴 회복하고, 3턴동안 턴 종료 시 체력을 7000 회복하며, 상단 슬롯을 속성 일치 슬롯으로 바꾼다",
+	    "sailor": {
+	        "base" : "자신은 필살기 봉쇄 상태를 완전히 회피한다",
+	        "level1" : "모험 시작 시 모든 슬롯을 [RCV] 슬롯으로 바꾼다(같은 효과 중복 시엔 하나만 효과 발동)",
+	    },
+	    "captain": "일당의 공격력을 2.25배로 만들고 받는 데미지를 15% 감소시킨다",
+	        sailorNotes: "#{silence}",
         limit: [
             { "description": "공격력 상승 : 10" },
             { "description": "공격력 상승 : 20" },
@@ -26216,14 +26218,14 @@ window.details = {
 	    "special": "적 1명의 HP를 10% 줄이고, 일당의 마비 및 선장효과 무효 상태를 3턴 회복한다",
 	    "captain": "[DEX]의 체력을 2배, 회복력을 1.5배로 만든다"
     },
-    1971: {//Sabo
-        captain: "Boosts ATK of Cerebral characters by 1.3x and their HP and RCV by 1.05x and boosts chain by 1.1x if HP is above 70% or below 30% at the start of the turn",
-        special: "If your Captain is a Cerebral character, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs on Cerebral characters into Matching orbs, reduces the defense of all enemies by 80% and boosts ATK against enemies with reduced defense by 1.75x for 1 turn",
-        specialName: "Blissful Selection",
+    1971: {//Sabo // modified
+	    "specialName": "행복의 선별",
+	    "special": "선장이 박식형 캐릭터일 경우 박식형 캐릭터의 속성 슬롯을 속성 일치 슬롯으로 바꾸고, 1턴 동안 적 전체의 방어력을 대폭 감소시키며, 1턴 동안 방어력 감소 중인 적에게 주는 데미지가 1.75배가 된다",
+	    "captain": "박식형 캐릭터의 공격력을 1.3배, 체력과 회복력을 1.05배로 만들며, 공격 시작 전 체력이 70% 이상일 때와 30% 이하일 때는 체인 계수 증가량이 1.1배가 된다"
     },
     1972: {//Sabo
         captain: {
-            "base": "Boosts ATK of Cerebral characters by 1.5x and their HP and RCV by 1.05x and boosts chain by 1.2x if HP is above 70% or below 30% at the start of the turn",
+            "base": "박식형 캐릭터의 공격력을 1.3배, 체력과 회복력을 1.05배로 만들며, 공격 시작 전 체력이 70% 이상일 때와 30% 이하일 때는 체인 계수 증가량이 1.1배가 된다",
             "level1": "Boosts ATK of Cerebral characters by 1.5x and their HP and RCV by 1.1x and boosts chain by 1.2x if HP is above 70% or below 30% at the start of the turn",
             "level2": "Boosts ATK of Cerebral characters by 1.75x and their HP and RCV by 1.1x and boosts chain by 1.2x if HP is above 70% or below 30% at the start of the turn",
             "level3": "Boosts ATK of Cerebral characters by 1.75x and their HP and RCV by 1.1x and boosts chain by 1.3x if HP is above 70% or below 30% at the start of the turn",
@@ -26231,13 +26233,13 @@ window.details = {
             "level5": "Boosts ATK of Cerebral characters by 2x and their HP and RCV by 1.2x and boosts chain by 1.4x if HP is above 70% or below 30% at the start of the turn",
             "level6": "Boosts ATK of Cerebral characters by 2.25x and their HP and RCV by 1.2x and boosts chain by 1.5x if HP is above 70% or below 30% at the start of the turn",
         },
-        special: "If your Captain is a Cerebral character, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs on Cerebral characters into Matching orbs, reduces the defense of all enemies by 80% and boosts ATK against enemies with reduced defense by 1.75x for 1 turn",
-        specialName: "Blissful Selection",
-        sailor: {
-            "base": "None",
-            "level1": "Boosts base ATK, HP and RCV of Cerebral characters by 30",
-            "level2": "Makes [DEX] orbs “beneficial” for Cerebral characters",
-        },
+	    "specialName": "행복의 선별",
+	    "special": "선장이 박식형 캐릭터일 경우 박식형 캐릭터의 속성 슬롯을 속성 일치 슬롯으로 바꾸고, 1턴 동안 적 전체의 방어력을 대폭 감소시키며, 1턴 동안 방어력 감소 중인 적에게 주는 데미지가 1.75배가 된다",
+	    "sailor": [
+	        "None",
+	        "박식형 캐릭터의 기본 능력치가 30 상승한다",
+	        "박식형 캐릭터는 [DEX] 슬롯도 [유리] 슬롯으로 취급한다"
+	    ],
         sailorNotes: "#{beneficial}",
         limit: [
             { "description": "소켓 슬롯 1개 추가" },
