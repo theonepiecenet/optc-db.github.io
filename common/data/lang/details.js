@@ -23608,9 +23608,9 @@ window.details = {
         sailor: "If this character has an [INT] orb and you hit a PERFECT with him, keep his [INT] orb for the next turn",
     },
     1859: {//Leo // modified
-        captain: "일당의 마비 상태를 3턴 회복하고, 속성 일치 슬롯 이외를 랜덤으로 바꾸며([BLOCK]도 변환 가능), 1턴 동안 GOOD, GREAT, PERFECT 공격 시 필살기를 사용한 캐릭터의 공격력x65배의 무 속성 데미지를 가산하고, 선장이 타격형 캐릭터일 경우 적의 데미지 감소 상태([DAMAGE REDUCTION]는 대상 외)를 3턴 줄인다",
+        special: "일당의 마비 상태를 3턴 회복하고, 속성 일치 슬롯 이외를 랜덤으로 바꾸며([BLOCK]도 변환 가능), 1턴 동안 GOOD, GREAT, PERFECT 공격 시 필살기를 사용한 캐릭터의 공격력x65배의 무 속성 데미지를 가산하고, 선장이 타격형 캐릭터일 경우 적의 데미지 감소 상태([DAMAGE REDUCTION]는 대상 외)를 3턴 줄인다",
         specialName: "톤타타 돌격 대작전",
-        special: "타격형 캐릭터의 공격력을 2.5배, 체력을 1.2배, PERFECT 3연속 달성 시 이후 일당의 공격력이 1.3배 더 상승한다",
+        captain: "타격형 캐릭터의 공격력을 2.5배, 체력을 1.2배, PERFECT 3연속 달성 시 이후 일당의 공격력이 1.3배 더 상승한다",
         sailor: {
             "base": "자신의 PERFECT 공격 성공 시 자신의 [INT] 슬롯이 다음 턴에도 출현한다",
             "level1": "Makes [PSY] orbs “beneficial” for this unit",
@@ -30971,6 +30971,60 @@ window.details = {
             },
         ]
     },
+    2186: {//Kizaru
+        captain: "Reduces cooldown of all specials by 1 turn at the start of the fight, boosts ATK of Shooter and Fighter characters by 1.75x",
+        special: "Reduces Special Cooldown of [PSY] and [INT] characters by 1 turn and changes adjacent orbs into Matching Orbs. If your Captain is a [PSY] or [INT] character, locks the chain multiplier at 3x for 1 turn.",
+        specialName: "Amaterasu Descent",
+        sailor: "Boosts base ATK, HP and RCV of [PSY] and [INT] characters by 30",
+    },
+    2187: {//Kizaru
+        captain: "Reduces cooldown of all specials by 1 turn at the start of the fight, boosts ATK of Shooter and Fighter characters by 2.25x and their HP by 1.25x",
+        special: "Reduces Special Cooldown of [PSY] and [INT] characters by 1 turn and changes adjacent orbs into Matching Orbs. If your Captain is a [PSY] or [INT] character, locks the chain multiplier at 3x for 1 turn.",
+        specialName: "Amaterasu Descent",
+        sailor: {
+            "base": "Boosts base ATK, HP and RCV of [PSY] and [INT] characters by 30",
+            "level1": "Makes [INT] orbs \"beneficial\" for this character",
+        },
+        limit: [
+            { "description": "공격력 상승 : 15" },
+            { "description": "회복력 상승 : 10" },
+            { "description": "체력 상승 : 50" },
+            { "description": "Acquire Potential 1: [INT] Damage Reduction" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "체력 상승 : 70" },
+            { "description": "공격력 상승 : 25" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "체력 상승 : 90" },
+            { "description": "Acquire Sailor Ability 1: Makes [INT] orbs \"beneficial\" for this character" },
+            { "description": "공격력 상승 : 40" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Acquire Potential 2: Barrier Penetration" },
+        ],
+        potential: [
+            {
+                "Name": "[INT] Damage Reduction",
+                "description": [
+                    "Level 1: Reduce damage taken from [INT] characters by 1%",
+                    "Level 2: Reduce damage taken from [INT] characters by 2%",
+                    "Level 3: Reduce damage taken from [INT] characters by 3%",
+                    "Level 4: Reduce damage taken from [INT] characters by 4%",
+                    "Level 5: Reduce damage taken from [INT] characters by 5%"
+                ]
+            },
+            {
+                "Name": "Barrier Penetration",
+                "description": [
+                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
+                ]
+            },
+        ]
+    },
     2188: {//Strawberry
         captain: "Boosts ATK of 참격형 and Cerebral characters by ?x and reduce damage received by ?%",
         special: "Reduces Bind, Despair, ATK DOWN and Chain Multiplier Limit duration by 2 turns, reduces enemy Barrier duration by 1 turn and deals 50,000 fixed damage to one enemy",
@@ -31096,6 +31150,82 @@ window.details = {
         captainNotes: "EXP and Beli boost does not take effect if she becomes your captain in the middle of the adventure.",
         special: "Changes [TND] and Badly Matching orbs into Matching orbs and switches orbs between slots once",
         specialName: "Royal Treatment",
+    },
+    2195: {//Corazon +
+        captain: "Boosts ATK of all characters proportionally to the crew's current HP, by 3x at max. Recovers 1.5x his RCV at the end of the turn each time you hit a Good. Recovers .5x his RCV at the end of the turn each time you hit a Great",
+        captainNotes: "#{captainProportional : higher : ? + ? * (remaining HP) / (total HP) : 3 : ? }",
+        special: "Recovers 50x character's RCV in HP and reduces Bind, Despair, Paralysis, ATK DOWN, Chain Multiplier Limit and Chain Coefficient Reduction duration by 3 turns. If Corazon is your Captain or Friend/Guest Captain, reduces Despair duration by 20 turns.",
+        specialName: "Grateful Love",
+        sailor: {
+            "base": "None",
+            "level1": "Reduces Paralysis duration by 1 turn",
+            "level2": "Reduces Silence duration by 1 turn",
+        },
+        limit: [
+            { "description": "체력 상승 : 5" },
+            { "description": "체력 상승 : 10" },
+            { "description": "체력 상승 : 15" },
+            { "description": "Acquire Potential 1: Enrage" },
+            { "description": "공격력 상승 : 5" },
+            { "description": "공격력 상승 : 10" },
+            { "description": "공격력 상승 : 15" },
+            { "description": "Acquire Sailor Ability 1: Reduces Paralysis duration by 1 turn" },
+            { "description": "체력 상승 : 20" },
+            { "description": "체력 상승 : 30" },
+            { "description": "체력 상승 : 40" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "Acquire Potential 2: Reduce No Healing duration" },
+            { "description": "체력 상승 : 50" },
+            { "description": "체력 상승 : 50" },
+            { "description": "체력 상승 : 50" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "체력 상승 : 60" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "체력 상승 : 60" },
+            { "description": "공격력 상승 : 35" },
+            { "description": "공격력 상승 : 35" },
+            { "description": "Acquire Sailor Ability 2: Reduces Silence duration by 1 turn" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "회복력 상승 : 30" },
+            { "description": "Acquire Potential 3: Cooldown Reduction" },
+        ],
+        potential: [
+            {
+                "Name": "Enrage",
+                "description": [
+                    "Level 1: 공격력 상승 : 50",
+                    "Level 2: 공격력 상승 : 75",
+                    "Level 3: 공격력 상승 : 100",
+                    "Level 4: 공격력 상승 : 150",
+                    "Level 5: 공격력 상승 : 200"
+                ]
+            },
+            {
+                "Name": "Reduce No Healing duration",
+                "description": [
+                    "Level 1: Reduces No Healing duration by 1 turn",
+                    "Level 2: Reduces No Healing duration by 2 turn",
+                    "Level 3: Reduces No Healing duration by 3 turn",
+                    "Level 4: Reduces No Healing duration by 5 turns",
+                    "Level 5: Reduces No Healing duration by 7 turns"
+                ]
+            },
+            {
+                "Name": "Cooldown Reduction",
+                "description": [
+                    "Level 1: Reduce own Special Cooldown by 1 turn at the start of the fight",
+                    "Level 2: Reduce own Special Cooldown by ? turn at the start of the fight",
+                    "Level 3: Reduce own Special Cooldown by ? turn at the start of the fight",
+                    "Level 4: Reduce own Special Cooldown by ? turn at the start of the fight",
+                    "Level 5: Reduce own Special Cooldown by ? turn at the start of the fight"
+                ]
+            },
+        ],
+        potentialNotes: "#{enrage}"
     },
     2196: {//Blackbeard
         captain: "Boosts ATK of Driven characters by 3.75x when HP is 10% or below, 2x otherwise and boosts HP of Driven characters by 1.2x",
@@ -31265,8 +31395,50 @@ window.details = {
         captain: "Boosts ATK of Shooter characters by 2.5x and their RCV by 1.25x",
         special: "If HP is below 10%, recovers all missing HP. If your Captain is a Driven character, removes Poison and Blindness duration completely and reduces damage received by 50% for 3 turns.",
         specialName: "Chemical Juggling",
-        sailor: "Reduces Silence duration on this character by 3 turns",
+        sailor: {
+            "base": "Reduces Silence duration on this character by 3 turns",
+            "level1": "If your Captain is a Driven character, reduces Paralysis duration by 1 turn"
+        },
         sailorNotes: "#{silence}",
+        limit: [
+            { "description": "회복력 상승 : 10" },
+            { "description": "회복력 상승 : 10" },
+            { "description": "체력 상승 : 20" },
+            { "description": "Acquire Potential 1: Slot Bind Self-reduction" },
+            { "description": "체력 상승 : 40" },
+            { "description": "공격력 상승 : 25" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "공격력 상승 : 25" },
+            { "description": "Acquire Sailor Ability 1: If your Captain is a Driven character, reduces Paralysis duration by 1 turn" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "회복력 상승 : 30" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "체력 상승 : 60" },
+            { "description": "공격력 상승 : 45" },
+            { "description": "Acquire Potential 2: Barrier Penetration" },
+        ],
+        potential: [
+            {
+                "Name": "Slot Bind Self-reduction",
+                "description": [
+                    "Level 1: Reduces Slot Bind duration by 1 turn on this character",
+                    "Level 2: Reduces Slot Bind duration by 2 turns on this character",
+                    "Level 3: Reduces Slot Bind duration by 3 turns on this character",
+                    "Level 4: Reduces Slot Bind duration by 4 turns on this character",
+                    "Level 5: Reduces Slot Bind duration by 5 turns on this character"
+                ]
+            },
+            {
+                "Name": "Barrier Penetration",
+                "description": [
+                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
+                ]
+            },
+        ]
     },
     2204: {//Scarlet
         captain: "Boosts ATK of Fighter and Powerhouse characters by ?x following a chain of Good > Great > PERFECT hits",
@@ -31278,7 +31450,50 @@ window.details = {
         captain: "Boosts ATK of Fighter and Powerhouse characters by 3.25x following a chain of Good > Great > PERFECT hits",
         special: "If HP is below 10%, amplifies the effect of orbs by 2x for 1 turn. If your Captain is a Driven character, reduces enemies' ATK Up, Enrage and End of Turn Damage/Percent Cut duration by 5 turns.",
         specialName: "Chemical Juggling",
-        sailor: "If your Captain is a Driven character, boosts own base ATK by 100",
+        sailor: {
+            "base": "If your Captain is a Driven character, boosts own base ATK by 100",
+            "level1": "Boosts base ATK of all characters by 50"
+        },
+        limit: [
+            { "description": "회복력 상승 : 10" },
+            { "description": "회복력 상승 : 10" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "Acquire Potential 1: Enrage" },
+            { "description": "공격력 상승 : 40" },
+            { "description": "체력 상승 : 30" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "체력 상승 : 50" },
+            { "description": "Acquire Sailor Ability 1: Boosts base ATK of all characters by 50" },
+            { "description": "회복력 상승 : 10" },
+            { "description": "체력 상승 : 70" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "공격력 상승 : 60" },
+            { "description": "체력 상승 : 100" },
+            { "description": "Acquire Potential 2: Critical Hit" },
+        ],
+        potential: [
+            {
+                "Name": "Enrage",
+                "description": [
+                    "Level 1: 공격력 상승 : 30",
+                    "Level 2: 공격력 상승 : 60",
+                    "Level 3: 공격력 상승 : 90",
+                    "Level 4: 공격력 상승 : 120",
+                    "Level 5: 공격력 상승 : 150"
+                ]
+            },
+            {
+                "Name": "Critical Hit",
+                "description": [
+                    "Level 1: If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
+                ]
+            },
+        ],
+        potentialNotes: "#{enrage}"
     },
     2206: {//Luffy
         captain: "Boosts ATK of Striker characters by ?x",
@@ -31818,6 +32033,40 @@ window.details = {
                 ]
             },
         ]
+    },
+    2248: {//Daifuku
+        captain: "Boosts ATK of Slasher and Powerhouse characters by 2.5x at the start of the chain and their HP by 1.25x, by 2.85x after scoring 3 PERFECTs in a row.",
+        special: [
+            {
+                "description": "Deals ?x character's ATK in [DEX] damage to all enemies that will ignore damage negating abilities and barriers. If your crew has 4 or more characters with [STR] or [DEX] orbs, Delays all enemies for ? turns and adds .?x to Chain multiplier for ? turns. If your crew has 4 or more characters with [PSY] or [INT] orbs, boosts the Color Affinity of all characters by ?x for ? turns and makes [PSY] and [INT] orbs \"beneficial\" to all characters for ? turns.",
+                "cooldown": [ null, null ],
+            },
+            {
+                "description": "Deals 75x character's ATK in [DEX] damage to all enemies that will ignore damage negating abilities and barriers. If your crew has 4 or more characters with [STR] or [DEX] orbs, Delays all enemies for 2 turns and adds .8x to Chain multiplier for 2 turns. If your crew has 4 or more characters with [PSY] or [INT] orbs, boosts the Color Affinity of all characters by 1.75x for 2 turns and makes [PSY] and [INT] orbs \"beneficial\" to all characters for 2 turns.",
+                "cooldown": [ null, null ],
+            },
+        ],
+        specialName: "The Genie's Flashy Strike",
+        sailor: "If this character has a [DEX] orb and you hit a PERFECT with him, keep his [DEX] orb for the next turn",
+    },
+    2249: {//Daifuku
+        captain: "Boosts ATK of Slasher and Powerhouse characters by 2.5x at the start of the chain and their HP by 1.25x, by 2.85x after scoring 3 PERFECTs in a row.",
+        special: [
+            {
+                "description": "Deals ?x character's ATK in [DEX] damage to all enemies that will ignore damage negating abilities and barriers. If your crew has 4 or more characters with [STR] or [DEX] orbs, Delays all enemies for ? turns and adds .?x to Chain multiplier for ? turns. If your crew has 4 or more characters with [PSY] or [INT] orbs, boosts the Color Affinity of all characters by ?x for ? turns and makes [PSY] and [INT] orbs \"beneficial\" to all characters for ? turns.",
+                "cooldown": [ null, null ],
+            },
+            {
+                "description": "Deals 75x character's ATK in [DEX] damage to all enemies that will ignore damage negating abilities and barriers. If your crew has 4 or more characters with [STR] or [DEX] orbs, Delays all enemies for 2 turns and adds .8x to Chain multiplier for 2 turns. If your crew has 4 or more characters with [PSY] or [INT] orbs, boosts the Color Affinity of all characters by 1.75x for 2 turns and makes [PSY] and [INT] orbs \"beneficial\" to all characters for 2 turns.",
+                "cooldown": [ null, null ],
+            },
+        ],
+        specialName: "The Genie's Flashy Strike",
+        sailor: {
+            "base": "If this character has a [DEX] orb and you hit a PERFECT with him, keep his [DEX] orb for the next turn",
+            "level1": "Makes [DEX] orbs \"beneficial\" for Slasher characters",
+        },
+        sailorNotes: "#{beneficial}",
     },
     2500: {//Doflamingo Raid v2 // modified
         captain: "야심형과 박식형 캐릭터의 공격력을 1.5배, 남은 체력이 50% 이하일 때는 2.5배로 만든다",
