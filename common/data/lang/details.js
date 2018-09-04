@@ -25840,7 +25840,7 @@ window.details = {
 		"special": "2턴 동안 받는 데미지가 2배가 되는 대신 격투형 및 강인형 캐릭터의 필살기 턴을 2턴 단축한다",
 		"specialName": "부풀어 오르는 괴력"
     },
-    1950:{//Robin ㅡ/ modified
+    1950:{//Robin // modified
         captainNotes: "#{beneficial}",
 	    "specialName": "호접란",
 	    "special": "1턴 동안 모든 공격을 무효화하고 선장이 박식형일 경우 인접한 슬롯을 [RCV] 슬롯으로 바꾼다",
