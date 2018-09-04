@@ -14247,8 +14247,8 @@ window.details = {
             },
         ],
         specialNotes: "No Healing debuff completely stops healing abilities. This is the debuff used in Akainu raid<br>#{stages}",
-        sailor: "Reduces Blindness duration by 5 턴",
-        specialName: "Echoing Cry of the Soul",
+        sailor: "의성어 은폐 상태를 5턴 회복한다",
+	    "specialName": "메아리치는 영혼의 외침",
     },
     1316: {//Coby :: modified
         captain: "PERFECT 타이밍을 2연속, 5연속 성공 시에 이후 캐릭터의 공격력이 각각 2.5배, 3.5배가 된다",
@@ -21119,10 +21119,10 @@ window.details = {
         special: "적 전체에게 무속성 랜덤 데미지를 주고 2턴 동안 캐릭터의 공격력 55배의 무속성 추가 데미지를 준다.",
         specialNotes: "#{random : 10,000 : 30,000} <br> #{additionalDamage : 55x}"
     },
-    1727: {//Sabo
-        captain: "GOOD→GREAT→PERFECT 순으로 적중시 자유 캐릭터의 공격력이 3.5배 증가한다.",
-        specialName: "용조권: 용의 숨결 「개」",
-        special: "적 전체에게 무속성 랜덤 데미지를 주고 2턴 동안 캐릭터의 공격력 55배의 무속성 추가 데미지를 준다.",
+    1727: {//Sabo // modified
+	    "specialName": "용조권: 용의 숨결 「개」",
+	    "special": "적 전체에게 무속성 랜덤 데미지를 주고 2턴 동안 캐릭터의 공격력 55배의 무속성 추가 데미지를 준다.",
+	    "captain": "GOOD→GREAT→PERFECT 순으로 적중시 자유 캐릭터의 공격력이 3.5배 증가한다.",
         specialNotes: "#{random : 10,000 : 30,000} <br> #{additionalDamage : 55x}"
     },
     1728: {//Tashigi // modified
@@ -25840,11 +25840,11 @@ window.details = {
 		"special": "2턴 동안 받는 데미지가 2배가 되는 대신 격투형 및 강인형 캐릭터의 필살기 턴을 2턴 단축한다",
 		"specialName": "부풀어 오르는 괴력"
     },
-    1950:{//Robin
-        captain: "Boosts ATK of Cerebral characters by 3.25x and their RCV by 1.5x, makes [RCV] orbs “beneficial” to Cerebral characters and reduce damage received by 20%",
+    1950:{//Robin ㅡ/ modified
         captainNotes: "#{beneficial}",
-        special: "Reduces damage received by 100% for 1 turn. If your Captain is a Cerebral character, changes adjacent orbs into [RCV]슬롯으로 바꾼다",
-        specialName: "Moth Orchid",
+	    "specialName": "호접란",
+	    "special": "1턴 동안 모든 공격을 무효화하고 선장이 박식형일 경우 인접한 슬롯을 [RCV] 슬롯으로 바꾼다",
+	    "captain": "박식형 캐릭터의 공격력을 3.25배, 회복력을 1.5배로 만들고, 박식형 캐릭터는 [RCV] 슬롯을 [유리] 슬롯으로 취급하며, 받는 데미지를 20% 감소시킨다"
     },
     1951:{//Robin
         captain: "Boosts ATK of Cerebral characters by 3.25x and their RCV by 1.5x, makes [RCV] orbs “beneficial” to Cerebral characters and reduce damage received by 20%",
@@ -26033,17 +26033,17 @@ window.details = {
         ],
         potentialNotes: "#{enrage}"
     },
-    1956: {//Carrot
-        captain: "Boosts ATK of [STR] characters by 2x and their RCV by 1.2x",
-        special: "Reduces Chain Multiplier Limit and Chain Coefficient Reduction duration by 3 turns and locks the chain multiplier at 2.75x for 1 turn",
-        specialName: "Hopping Crash",
+    1956: {//Carrot // modified
+	    "captain": "[STR]의 공격력을 2배, 회복력을 1.2배로 만든다",
+	    "specialName": "호핑 크래시",
+	    "special": "체인 계수 증가량 감소 상태와 체인 계수 고정 상태를 2턴 회복하고, 1턴 동안 체인 계수를 2.75배로 고정한다",
         sailor: "일당은 [RCV] 슬롯도 [유리] 슬롯으로 취급한다",
         sailorNotes: "#{beneficial}",
     },
-    1957: {//Carrot
-        captain: "Boosts ATK of [STR] characters by 2.5x and their RCV by 1.25x",
-        special: "Reduces Chain Multiplier Limit and Chain Coefficient Reduction duration by 3 turns and locks the chain multiplier at 2.75x for 1 turn",
-        specialName: "Hopping Crash",
+    1957: {//Carrot // modified
+	    "captain": "[STR]의 공격력을 2.5배, 회복력을 1.25배로 만든다",
+	    "specialName": "호핑 크래시",
+	    "special": "체인 계수 증가량 감소 상태와 체인 계수 고정 상태를 2턴 회복하고, 1턴 동안 체인 계수를 2.75배로 고정한다",
         sailor: {
             "base": "일당은 [RCV] 슬롯도 [유리] 슬롯으로 취급한다",
             "level1": "Adds 2.5x character's ATK as Additional Typeless Damage",
