@@ -6933,10 +6933,10 @@ window.details = {
 		special: "선장효과 무효 상태를 2턴 줄이고, 의성어 은폐 상태를 완전히 회복한다",
 		specialName: "단정치 못한 딸에게 쓴소리"
 	},
-	785: {
-		special: "선장 효과 무효화 상태를 2턴 회복, 블라인드를 완전히 회복",
-		specialName: "칠칠맞은 딸을 꾸짖다",
-		captain: "받는 데미지를 20% 감소한다."
+	785: { // modified
+	    "specialName": "단정치 못한 딸에게 쓴소리",
+	    "special": "선장효과 무효 상태를 2턴 줄이고, 의성어 은폐 상태를 완전히 회복한다",
+	    "captain": "받는 데미지를 20% 줄인다"
 	},
 	786: { // modified
 		special: "자신을 10턴 동안 봉쇄 상태로 만들고, 적 전체를 1턴 지연시키며, 4턴 동안 받는 데미지를 반으로 줄인다",
@@ -13247,15 +13247,15 @@ window.details = {
     },
     1241: {//Fortnight Koala
         captain: "Boosts chain multiplier by 1.5x. Recovers 1x character's RCV in HP at the end of each 턴",
-        special: "Deals 11x character's ATK in [STR] damage to one enemy. Adds 15x character's ATK as Additional Typeless Damage for 1 turn",
+	    "special": "적 1명에게 캐릭터의 공격력x11배의 [STR] 데미지를 주고, 1턴 동안 GOOD, GREAT, PERFECT공격 시 필살기를 사용한 캐릭터의 공격력x15배의 무 속성 데미지를 가산한다",
         specialNotes: "#{additionalDamage : 15x}",
-        specialName: "Fishman Karate, Midair Upwards Kick",
+	    "specialName": "어인 공수도 허공 회전 상단 돌려차기",
     },
     1242: {//Fortnight Koala // modified
 	    "specialName": "공수도 허공 회전 상단 돌려차기",
 	    "special": "적 1명에게 캐릭터의 공격력x11배의 [STR] 데미지를 주고, 1턴 동안 GOOD, GREAT, PERFECT공격 시 필살기를 사용한 캐릭터의 공격력x15배의 무 속성 데미지를 가산한다",
 	    "captain": "체인 계수 증가량을 2배로 만들고, 턴 종료 시 캐릭터의 회복력x2배의 체력을 회복한다",
-        specialName: "Fishman Karate, Midair Upwards Kick",
+	    "specialName": "어인 공수도 허공 회전 상단 돌려차기",
     },
     1243: {// Fortnight Hack
         captain: "Boosts ATK of Fighter and Powerhouse characters by 1.3x",
@@ -16746,33 +16746,33 @@ window.details = {
         special: "Deals 11x character's ATK in [QCK] damage to one enemy, boosts ATK of [QCK] characters by 1.5x for 1 turn",
         specialName: "Demoltion: Ice Crush",
     },
-    1462: {//White Day Luffy
-        captain: "Boosts chain multiplier by 2x",
-        special: "Reduces crew's current HP by 50%, cuts the current HP of each enemy by 20% and makes [PSY] and [STR] orbs “beneficial” to Fighter characters for 1 turn",
+    1462: {//White Day Luffy // modified
+	    "specialName": "고무고무 거인의 도끼 스위트",
+	    "special": "체력이 50% 줄어들지만 적 전체의 HP를 20% 감소시키고, 1턴 동안 격투형 캐릭터는 [STR][PSY] 슬롯을 [유리] 슬롯으로 취급한다",
+	    "sailor": "자신의 마비 상태를 2턴 회복한다",
+	    "captain": "체인 계수 증가량이 2배가 된다",
         specialNotes: "#{beneficial}",
-        sailor: "Reduces Paralysis duration on this character by 2 turns",
-        specialName: "Gum-Gum Gigant Axe - Sweets",
     },
-    1463: {//White Day Luffy
-        captain: "Boosts chain multiplier by 2.5x, recovers 1.5x character's RCV in HP at the end of each turn",
-        special: "Reduces crew's current HP by 50%, cuts the current HP of each enemy by 20% and makes [PSY] and [STR] orbs “beneficial” to Fighter characters for 1 turn",
+    1463: {//White Day Luffy // modified
+	    "specialName": "고무고무 거인의 도끼 스위트",
+	    "special": "체력이 50% 줄어들지만 적 전체의 HP를 20% 감소시키고, 1턴 동안 격투형 캐릭터는 [STR][PSY] 슬롯을 [유리] 슬롯으로 취급한다",
+	    "sailor": "자신의 마비 상태를 2턴 회복한다",
+	    "captain": "체인 계수 증가량이 2.5배가 되고, 턴 종료 시 캐릭터의 회복력x1.5배의 체력을 회복한다",
         specialNotes: "#{beneficial}",
-        sailor: "Reduces Paralysis duration on this character by 2 turns",
-        specialName: "Gum-Gum Gigant Axe - Sweets",
     },
-    1464: {//White Day Chopper
-        captain: "Protects from defeat as long as HP is above 50%",
+    1464: {//White Day Chopper // modified
+	    "specialName": "헌신적인 치유 「곧 나을 거야」",
+	    "special": "캐릭터의 회복력x6배의 체력을 회복하고, 마비 상태를 2턴 회복한다",
+	    "sailor": "[RCV] 획득 시 체력을 추가로 100 회복한다",
+	    "captain": "체력이 일정 비율 이상일 때 공격을 받아도 쓰러지지 않는다",    
         captainNotes: "#{zombie}",
-        special: "Recovers 6x character's RCV in HP and reduces Paralysis duration by 2 턴",
-        sailor: "Boosts amount healed from [RCV] orbs by 100 each",
-        specialName: "Devoted Healing - \"Instant Recovery\"",
     },
     1465: {//White Day Chopper
-        captain: "Boosts ATK and RCV of all characters by 1.25x, protects from defeat as long as HP is above 50%",
         captainNotes: "#{zombie}",
-        special: "Recovers 6x character's RCV in HP and reduces Paralysis duration by 2 턴",
-        sailor: "Boosts amount healed from [RCV] orbs by 100 each",
-        specialName: "Devoted Healing - \"Instant Recovery\"",
+	    "specialName": "헌신적인 치유 「곧 나을 거야」",
+	    "special": "캐릭터의 회복력x6배의 체력을 회복하고, 마비 상태를 2턴 회복한다",
+	    "sailor": "[RCV] 획득 시 체력을 추가로 100 회복한다",
+	    "captain": "일당의 공격력과 회복력을 1.25배로 만들고, 체력이 일정 비율 이상일 때 공격을 받아도 쓰러지지 않는다"
     },
     1466: {//White Day Cavendish
         captain: "Boosts ATK of [QCK] and [PSY] characters by 2x",
@@ -19004,12 +19004,12 @@ window.details = {
         specialNotes: "The excess healing is counted from the last time the special is used and accumulates when you heal more than your maximum HP. For example, if you are at max HP, and you heal 1,000 HP, you will add 10k damage to the special. The amount of damage possible caps at 2,000,000 damage.",
         specialName: "만 개의 번개",
     },
-    1610: {//Legend Enel
-        captain: "일당의 최대 체력이 20% 줄어드는 대신 [RCV] 슬롯 출현율이 상승, 일당의 [RCV] 슬롯을 [유리](“beneficial”) 슬롯으로 취급하고, 이전 턴의 회복량에 따라 일당의 공격력이 2배~3.25배가 된다",
+    1610: {//Legend Enel // modified
+	    "specialName": "만 개의 번개",
+	    "special": "필살기 발동 시까지 최대 체력을 넘어 회복한 값x10배의 무 속성 데미지를 적 전체에 준다(최대 2000000 데미지)",
+	    "captain": "일당의 최대 체력이 20% 줄어드는 대신 [RCV] 슬롯 출현율이 상승, 일당의 [RCV] 슬롯을 [유리] 슬롯으로 취급하고, 이전 턴의 회복량에 따라 일당의 공격력이 2배~3.25배가 된다",
         captainNotes: "The range of ATK boost is from 2x to 3.25x. The exact boost is calculated as 2 + <HP recovered in the previous 턴> * 0.000125 and maxes at 10k HP healed. This ignores your max HP, so it doesn't stop counting if you over-heal.",
-        special: "Deals typeless damage to all enemies equal to 10x how much excess healing done before the special is activated.",
         specialNotes: "The excess healing is counted from the last time the special is used and accumulates when you heal more than your maximum HP. For example, if you are at max HP, and you heal 1,000 HP, you will add 10k damage to the special. The amount of damage possible caps at 2,000,000 damage.",
-        specialName: "Heavy Thunder",
         sailor: {
             "base": "None",
             "level1": "일당은 [RCV] 슬롯도 [유리] 슬롯으로 취급한다",
@@ -23484,12 +23484,11 @@ window.details = {
         sailor: "Makes [PSY] and [INT] orbs “beneficial” for this unit",
         sailorNotes: "#{beneficial}",
     },
-    1850: {//Treasure Map Squard
-        captain: "Boosts ATK of Driven characters by 2x",
-        special: "Deals 40x character's ATK in [DEX] damage to one enemy that will ignore damage negating abilities and barriers, makes PERFECTs easier to hit for 1 turn and adds .5x to Chain multiplier for 1 turn",
-        specialNotes: "#{ignoreBarrier}",
-        specialName: "Piercing Hatred",
-        sailor: "Makes [PSY] and [INT] orbs “beneficial” for this unit",
+    1850: {//Treasure Map Squard // modified
+	    "specialName": "꿰뚫은 증오",
+	    "special": "적 1명에게 모든 방어 효과를 무시하고 캐릭터의 공격력x40배의 [DEX] 데미지를 주고, 1턴 동안 PERFECT 타이밍이 상당히 쉬워지며, 1턴 동안 체인 계수가 +0.5가 된다",
+	    "sailor": "자신은 [PSY][INT] 슬롯도 [유리] 슬롯으로 취급한다",
+	    "captain": "야심형 캐릭터의 공격력을 2배로 만든다",
         sailorNotes: "#{beneficial}",
     },
     1851: {//Treasure Map Squard // modified
@@ -26179,20 +26178,20 @@ window.details = {
 		"sailor": "자신의 필살기 봉쇄 상태를 3턴 회복한다",
 		"sailorNotes": "#{silence}"
     },
-    1964: {//Oars
-        captain: "Boosts ATK of Powerhouse characters by 2.25x if HP is above ??% at the start of the turn",
-        special: "Deals ??x character's ATK in Typeless damage to all enemies, delays all enemies for 1 turn and changes adjacent orbs into [RCV] orbs",
-        specialName: "Gomu Gomu no Butt Stomp",
+    1964: {//Oars // modified
+	    "specialName": "고무고무 엉덩방아",
+	    "special": "적 전체에게 무 속성의 큰 데미지를 주고, 적 전체의 공격을 1턴 지연시키며, 인접한 슬롯을 [RCV] 슬롯으로 바꾼다",
+	    "captain": "공격 시작 전 체력이 일정 비율 이상이면 강인형 캐릭터의 공격력을 2.25배로 만든다"
     },
-    1965: {//Oars
-        captain: "Boosts ATK of Powerhouse characters by 2.75x if HP is above 70% at the start of the turn",
-        special: "Deals ??x character's ATK in Typeless damage to all enemies, delays all enemies for 1 turn and changes adjacent orbs into [RCV] orbs",
-        specialName: "Gomu Gomu no Butt Stomp",
+    1965: {//Oars // modified
+	    "specialName": "고무고무 엉덩방아",
+	    "special": "적 전체에게 무 속성의 큰 데미지를 주고, 적 전체의 공격을 1턴 지연시키며, 인접한 슬롯을 [RCV] 슬롯으로 바꾼다",
+	    "captain": "공격 시작 전 체력이 일정 비율 이상이면 강인형 캐릭터의 공격력을 2.75배로 만든다"
     },
-    1966: {//Hogback
-        captain: "Boosts ATK of Cerebral characters by 2.25x and boosts chances of getting [RCV] orbs",
-        special: "Boosts ATK against delayed enemies by 1.5x for 1 turn",
-        specialName: "Affirmative Miracle",
+    1966: {//Hogback // modified
+	    "specialName": "기적의 긍정",
+	    "special": "1턴 동안 지연 상태의 적에게 주는 데미지가 1.5배가 된다",
+	    "captain": "박식형 캐릭터의 공격력을 2.25배로 만들며, [RCV] 슬롯의 출현율을 약간 상승시킨다"
     },
     1967: {//Boa Hancock
         captain: "Boosts amount of Beli received by 2x",
