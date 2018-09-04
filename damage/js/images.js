@@ -191,15 +191,23 @@ app.controller('ImageGeneratorCtrl', function($scope, $filter, $timeout) {
     // heal counter
     if ($scope.tdata.healCounter.enabled) {
         awesome(context, { text: 'f162', x: baseX + 8, y: baseY + 20, align: 'center' });
-        var turns = $scope.tdata.healCounter.value;
-        type(context, { text: turns + (turns == 1 ? ' Health Point' : ' Health Points') + ' recovered in the last turn', x: baseX + 25, y: baseY + 20 });
+        var heals = $scope.tdata.healCounter.value;
+        type(context, { text: heals + (heals == 1 ? ' Health Point' : ' Health Points') + ' recovered in the last turn', x: baseX + 25, y: baseY + 20 });
+        baseY += 25;
+    }
+
+    // semla counter
+    if ($scope.tdata.semlaCounter.enabled) {
+        awesome(context, { text: 'f162', x: baseX + 8, y: baseY + 20, align: 'center' });
+        var semlas = $scope.tdata.semlaCounter.value;
+        type(context, { text: semlas + (semlas == 1 ? ' turn' : ' turns') + ' since last SEMLA orb consumed', x: baseX + 25, y: baseY + 20 });
         baseY += 25;
     }
 
     // specials
     awesome(context, { text: 'f0e7', x: baseX + 8, y: baseY + 20, align: 'center' });
     type(context, { text: '사용한 필살기:', x: baseX + 25, y: baseY + 20 });
-    type(context, { text: 'http://www.theonepiece.net', x: baseX, y: baseY +196});
+    type(context, { text: 'https://www.theonepiece.net', x: baseX, y: baseY +196});
     var none = true;
     for (var i=0;i<6;++i) {
         if (!$scope.tdata.team[i] || !$scope.tdata.team[i].special) continue;

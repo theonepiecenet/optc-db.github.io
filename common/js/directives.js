@@ -11,7 +11,8 @@ var notes = {
         "affected by this captain ability",
     orb: "Orb amplification only affects matching and opposite orbs and works both ways: " +
         "matching orbs will deal #1 more damage and opposite orbs will deal #1 less damage.",
-    poison: "Poison deals 0.5x character's ATK in fixed damage at the end of each turn.",
+    poison: "Poison deals #1 character's ATK in fixed damage that bypasses defensive buffs at the end of each turn.",
+    toxic: "Toxic starts at #1 character's attack and increases by #2 at the end of every turn until #3 damage per turn.",
     random: "Estimated random damage range: between #1 HP and #2 HP #3.",
     randomHeal: "Estimated random recovery range: between #1 HP and #2 HP.",
     randomHits: "The target of each of the #1 hits is chosen randomly.",
@@ -19,7 +20,7 @@ var notes = {
         "crew's remaining HP and is higher the #1 the HP is. The multiplier is calculated as: #2.",
     stages: "The special can be used as soon as the first stage is reached.",
     silence: "This is called 'Special Bind' in-game and refers to effects that prevent you from activating Special Abilities.",
-    rewind: "Some enemies can increase your cooldown by 1/2 turns, this Sailor Ability decreases that by #1 turn.",
+    rewind: "Some enemies can increase your cooldown by 1/2 turns, this Sailor Ability decreases that by #1 turn(s).",
     ignoreBarrier: "Damage that ignores damage negating abilities and barriers is similar to 6* Law's special, but only for this character.",
     zombie: "The protection only works when attacked by one single enemy and will leave the team with at least 1 HP; " +
         "the effect will not work when attacked by multiples enemies at once.",
@@ -87,6 +88,7 @@ filters.decorate = function() {
             .replace(/\[BLOCK\]/g,'<span class="badge BLOCK"><i class="block-icon"></i> BLOCK</span>')
             .replace(/\[BOMB\]/g,'<span class="badge BOMB"><i class="fa fa-bomb"></i> BOMB</span>')
             .replace(/\[RAINBOW\]/g,'<span class="badge RAINBOW"></i> RAINBOW</span>')
+            .replace(/\[SEMLA\]/g,'<span class="badge SEMLA"></i> SEMLA</span>')
             .replace(/\[G\]/g,'<span class="badge G">G</span>');
     };
 };

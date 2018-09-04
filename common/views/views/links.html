@@ -1,0 +1,82 @@
+<div class="menu" id="links-button">
+
+    <div class="btn trigger">
+        <i class="fa fa-star fa-spin"></i>
+    </div>
+
+    <div class="icons">
+        
+        <div class="rotater" id="link-home" title="Home">
+            <a class="btn btn-icon" href="/">
+                <i class="fa fa-home"></i>
+            </a>
+            <a class="tip">Front Page</a>
+        </div>
+
+        <div class="rotater" id="link-report" title="Bug report">
+            <a class="btn btn-icon" target="_blank"
+                    href="https://discord.gg/MRhRrbF">
+                <i class="fa fa-flag"></i>
+            </a>
+            <a class="tip">Bug report</a>
+        </div>
+        
+        <div class="rotater" id="link-prob" title="Probability" ng-if="exclude != 'prob'">
+            <a class="btn btn-icon" href="../probability">
+                <i class="fa fa-arrow-up"></i>
+            </a>
+            <a class="tip">Probabilities</a>
+        </div>
+
+        <div class="rotater" id="link-drops" title="Drop table" ng-if="exclude != 'drops'">
+            <a class="btn btn-icon" target="_blank" href="../drops">
+                <i class="fa fa-arrow-down"></i>
+            </a>
+            <a class="tip">Drop table</a>
+        </div>
+
+        <div class="rotater" id="link-characters" title="Character Table" ng-if="exclude != 'characters'">
+            <a class="btn btn-icon" target="_blank" href="../characters">
+                <i class="fa fa-book"></i>
+                <a class="tip">Character table</a>
+            </a>
+        </div>
+
+        <div class="rotater" id="link-damage" title="Damage Calculator" ng-if="exclude != 'calculator'">
+            <a class="btn btn-icon" target="_blank" href="../damage">
+                <i class="fa fa-calculator"></i>
+            </a>
+            <a class="tip">Damage calculator</a>
+        </div>
+
+        <div class="rotater" id="link-tally" title="Materials Tally" ng-if="exclude != 'tally'">
+            <a class="btn btn-icon" target="_blank" href="../mats">
+                <i class="fa fa-list-ul"></i>
+            </a>
+            <a class="tip">Materials Tally</a>
+        </div>
+
+        <div class="rotater" id="link-slots" title="Slot Planner" ng-if="exclude != 'slots'">
+            <a class="btn btn-icon" target="_blank" href="../slots">
+                <i class="fa fa-dot-circle-o"></i>
+            </a>
+            <a class="tip">Ability Slot Planner</a>
+        </div>
+        
+        <div class="rotater" id="link-turtles" title="Turtle Times" ng-if="exclude != 'turtles'">
+            <a class="btn btn-icon" target="_blank" href="../turtles">
+                <i class="fa fa-clock-o"></i>
+            </a>
+            <a class="tip">Turtle Times</a>
+        </div>
+        
+        <div class="rotater" id="link-es" title="Spanish DB" ng-if="exclude != 'turtles'">
+            <a class="btn btn-icon" target="_blank" href="https://optces.github.io/">
+                <i class="fa fa-database"></i>
+            </a>
+            <a class="tip top">Spanish DB</a>
+        </div>
+
+    </div>
+
+</div>

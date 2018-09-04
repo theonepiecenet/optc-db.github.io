@@ -1,3 +1,6 @@
+<?php include "./characters/modules.php";
+log_file("ROOT", "OPTCKR connect");
+?>
 <html>
 <!--
                            ____   _   __ ______   ____   ____ ______ ______ ______                 
@@ -31,44 +34,52 @@
         <meta name="author" content="Solaris, Zeenigami, and Mondfischer">
         <meta name="keywords" content="OPTC, One Piece Treasure Cruise, Database, Calculator, Guides, Help, Walkthroughs, Tutorials">
         <meta name="description" content="Fan run database for One Piece Treasure Cruise. Includes a character database with all unit captain abilities, descriptions, sailor abilities, and special abilities. Also includes a damage calculator that accurately helps you find out how much damage your team will deal.">
-        <script>
-	  var GA_ID = "UA-120726319-1";
-
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })
-          (window,document,'script','//www.google-analytics.com/analytics.js','ga');
-          ga('create', GA_ID, 'auto');
-          ga('send', 'pageview');
-        </script>
-
+    <script>
+        var GA_ID = "UA-120726319-1";(
+        function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })
+        (window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', GA_ID, 'auto');ga('set', 'page', '/');</script>
+    <style>
+        .button:first-child, .button:last-child { border-radius: 0; }
+    </style>
     </head>
 
     <body>
 <a href="https://github.com/theonepiecenet/optc-db.github.io" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
         <div id="container">
+            <a class="animated zoomInRight button red" href="characters/treasuremap.php">트레저 맵 VS 사보</a>
             <a class="animated zoomInLeft button blue" href="damage">데미지 계산기</a>
+<!--
             <a class="animated zoomInRight button green" href="characters">캐릭터 테이블</a>
-            <a class="animated zoomInLeft button yellow" href="drops">Drop 테이블</a>
-            <a class="animated zoomInRight button red" href="mats">진화 도우미</a>
-            <a class="animated zoomInLeft button purple" href="slots">슬롯 플래너</a>
-	        <a class="animated zoomInRight button pink" href="probability">확률 계산기</a>
+-->
+            <a class="animated zoomInRight button green" href="characters">캐릭터 정보<small> beta</small></a>
+            <a class="animated zoomInRight button " style="background-color:gray" href="optckrcharacters">OPTC 캐릭터 테이블</a>
+            <a class="animated zoomInLeft button blue" href="characters/sugofest.php">스고페스 캐릭터</a>
+            <a class="animated zoomInLeft button yellow" style="margin-top:0;margin-bottom:0;margin-right:3px;width:122px;display:inline-block;"  href="drops">Drop 테이블</a>
+            <a class="animated zoomInRight button red" style="margin-top:0;margin-bottom:0;width:122px;display:inline-block;" href="mats">진화 도우미</a><br>
+            <a class="animated zoomInLeft button purple" style="margin-right:3px;width:122px;display:inline-block;" href="slots">슬롯 플래너</a>
+	        <a class="animated zoomInRight button pink" style="width:122px;display:inline-block;" href="probability">확률 계산기</a>
 <!--
             <a class="animated zoomInLeft button brown" href="turtles">Turtle Times</a>
 -->
         </div> 
         <div id="empty">
         </div>
-        <div class="animated zoomIn yellow" style="position: fixed;padding: 35px; float: right; bottom: 10; left: 10;">
+        <div class="animated zoomIn yellow" id="changelogkr">
             <p>Korean Updates</p>
             <p>한글 버전은 침착맨 DB(기존 한글 버전)를 바탕으로 <br>앱 번역 정보를 추가하고 있습니다</p>
+            <p><a href="/characters/treasuremap.php">트레저 맵 VS 사보</a> 정보를 추가했습니다.</p>
+            <p><a href="/characters/sugofest.php">스고페스(초진화) 캐릭터 목록</a>을 추가했습니다.</p>
+            <p><a href="/damage/">데미지 계산기</a>에 선장 액션(기어)를 추가했습니다</p>
+            <p><a href="/characters/">새로운 캐릭터 정보 검색</a>을 beta 오픈했습니다.</p>
         </div>
         <div class="animated zoomIn blue" id="changelog">
             <p id="update">Updates</p>
 
 
-            <p>2/6/2018</p>
+            <p>7 August, 2018</p>
             <br>
             <ul>
                 <li>We always add stuff<br>To stay up to date, join the Discord server</li>

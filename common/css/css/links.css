@@ -6,8 +6,7 @@
 
 #links-button {
     position: fixed;
-    /*bottom: 20px;*/
-    bottom: 50px;
+    bottom: 20px;
     right: 5px;
     transform: translateX(-50%) translateY(-50%);
     width: 2em;

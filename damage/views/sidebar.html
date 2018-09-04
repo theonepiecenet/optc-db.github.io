@@ -5,7 +5,7 @@
         <li ui-sref=".effects">
             <div id="profileContainer" ng-class="{ profiled: data.effect }">
                 <i class="fa fa-book"></i>
-                <a>{{data.effect || 'No active map effect'}}</a>
+                <a>{{data.effect || '맵 효과 없음'}}</a>
             </div>
         </li>
 
@@ -21,7 +21,7 @@
         <li>
             <div id="heal">
                 <i class="fa fa-heart"></i>
-                Heal Socket Level: <input type="number" min="0" max="5" id="healLevel" to-int ng-model="data.healLevel"></input>
+                매 턴 회복 레벨: <input type="number" min="0" max="5" id="healLevel" to-int ng-model="data.healLevel"></input>
             </div>
         </li>
 
@@ -29,14 +29,14 @@
             <div id="defenseContainer" title="Middle-click or CTRL-click for details" defense-on-click>
                 <i class="fa fa-level-up comodity" ui-sref="main.defense"></i>
                 <i class="fa fa-shield"></i>
-                Enemy Defense: <input type="number" id="defense" min = 0 to-int ng-model="data.defense"></input>
+                적 방어력: <input type="number" id="defense" min = 0 to-int ng-model="data.defense"></input>
             </div>
         </li>
 
         <li>
             <div id="shieldContainer">
                 <i class="fa fa-shield"></i>
-                Barrier: <input min="0" style="color: black; width:40px" type="number" id="comboShield" to-int ng-model="data.comboShield">
+                배리어: <input min="0" style="color: black; width:40px" type="number" id="comboShield" to-int ng-model="data.comboShield">
                                                                       <select style="color: black" id="comboType" ng-model="data.comboType">
                                                                         <option value="" selected>Hits</option>
                                                                         <option value="Good">Good</option>
@@ -49,14 +49,26 @@
         <li ui-sref=".candy">
             <div id="candyContainer">
                 <i class="fa fa-sliders"></i>
-                <a>Cotton Candies</a>
+                <a>솜사탕</a>
             </div>
         </li>
         
         <li>
             <div id="action">
                 <i class="fa fa-check-square"></i>
-                Captain Actions: <br><input type="checkbox" name="friend" value="left" ng-model="data.actionleft">Friend/Guest Captain<br><input type="checkbox" name="captain" value="right" ng-model="data.actionright">Captain 
+                선장액션: <br><input type="checkbox" name="friend" value="left" ng-model="data.actionleft">친구/조력자 선장<br><input type="checkbox" name="captain" value="right" ng-model="data.actionright">선장
+                <br>기어 레벨: <br>친구/조력자 선장: <select style="color: black" id="gearLevelLeft" ng-model="data.gearLevelLeft">
+                                                                        <option value=0 selected>기어 2</option>
+                                                                        <option value=1>기어 3</option>
+                                                                        <option value=2>기어 4: 바운드맨</option>
+                                                                        <option value=3>기어 4: 탱크맨</option>
+                                                                      </select>
+                                <br> 선장: <select style="color: black" id="gearLevelRight" ng-model="data.gearLevelRight">
+                                                                        <option value=0 selected>기어 2</option>
+                                                                        <option value=1>기어 3</option>
+                                                                        <option value=2>기어 4: 바운드맨</option>
+                                                                        <option value=3>기어 4: 탱크맨</option>
+                                                                      </select> 
             </div>
         </li>
 
@@ -75,7 +87,7 @@
         </li>
 
         <li>
-            <div id="specialDivider">Specials:</div>
+            <div id="specialDivider">필살기:</div>
         </li>
 
         <special slot="0"></special>
