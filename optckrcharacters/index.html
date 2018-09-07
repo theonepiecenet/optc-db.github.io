@@ -1,0 +1,103 @@
+<?php include "../characters/modules.php";
+log_file("OPTCCHARACTER", "OPTCKR connect");
+ ?>
+<!DOCTYPE html>
+<html lang="en" ng-app="optc">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="description" itemprop="description" content="One Piece Treasure Cruise Character Table">
+        <meta name="author" content="Solaris, Zeenigami, and Mondfischer">
+        <meta name="keywords" content="OPTC, One Piece Treasure Cruise, Database, Calculator, Guides, Help, Walkthroughs, Tutorials">
+
+        <title>One Piece Treasure Cruise Character Table</title>
+
+        <link href='//fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+        <link rel="search" href="//optc.github.io/characters/opensearch.xml"
+            type="application/opensearchdescription+xml" title="OPTC Character Table">
+
+        <link rel="stylesheet" type="text/css" href="../common/libs/css/animate.css" />
+        <link rel="stylesheet" type="text/css" href="../common/libs/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="../common/libs/css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="../common/libs/css/datatables.min.css" />
+        <link rel="stylesheet" type="text/css" href="../common/libs/css/angular-chart.min.css" />
+        <link rel="stylesheet" type="text/css" href="../common/libs/css/ion.rangeSlider.min.css" />
+        <link rel="stylesheet" type="text/css" href="../common/libs/css/ngDialog.min.css" />
+        <link rel="stylesheet" type="text/css" href="../common/libs/css/ngDialog-theme-default.min.css" />
+
+        <link rel="stylesheet" type="text/css" href="../common/css/links.css" />
+
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/edgy.css" ng-if="nightMode" />
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+
+        <script src="../common/libs/js/es5-shim.min.js"></script>
+        <script src="../common/libs/js/jquery.min.js"></script>
+        <script src="../common/libs/js/angular.min.js"></script>
+        <script src="../common/libs/js/angular-ui-router.min.js"></script>
+        <script src="../common/libs/js/bootstrap.min.js"></script>
+        <script src="../common/libs/js/jquery.noty.packaged.min.js"></script>
+        <script src="../common/libs/js/ui-bootstrap-tpls.min.js"></script>
+
+        <script src="../common/libs/js/angular-sanitize.min.js"></script>
+        <script src="../common/libs/js/datatables.min.js"></script>
+        <script src="../common/libs/js/typeahead.bundle.min.js"></script>
+        <script src="../common/libs/js/fuse.min.js"></script>
+        <script src="../common/libs/js/angular-chart.min.js"></script>
+        <script src="../common/libs/js/ion.rangeSlider.min.js"></script>
+        <script src="../common/libs/js/ngDialog.min.js"></script>
+
+        <script src="../common/data/lang/units.js"></script>
+        <script src="../common/data/lang/aliases.js"></script>
+        <script src="../common/data/lang/details.js"></script>
+        <script>var detailskr = details;</script>
+        <script src="../common/data/details.js"></script>
+        <script src="../common/data/cooldowns.js"></script>
+        <script src="../common/data/evolutions.js"></script>
+        <script src="../common/data/flags.js"></script>
+        <script src="../common/data/drops.js"></script>
+        <script src="../common/data/lang/tandems.js"></script>
+        <script src="../common/data/lang/families.js"></script>
+        <script src="../common/data/lang/matchers.js"></script>
+        <script src="../common/data/gw.js"></script>
+        <script src="../common/data/version.js"></script>
+
+        <script src="../common/js/utils.js"></script>
+
+        <script src="js/index.js"></script>
+        <script src="js/states.js"></script>
+        <script src="js/controllers.js"></script>
+        <script src="js/directives.js"></script>
+        <script src="js/table.js"></script>
+        <script src="js/utils.js"></script>
+	<script src="../common/data/lang/kr.js"></script>
+
+        <script src="../common/js/directives.js"></script>
+        <script src="../common/js/services.js"></script>
+        <!--<script src="../common/js/error.js"></script>-->
+        <script src="../common/js/dismissal.js"></script>
+        <?=analysis("optckrcharacters")?>
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-7598105286542949",
+            enable_page_level_ads: true
+          });
+        </script>
+
+    </head>
+
+    <body>
+        <div class="popup" ui-view="popup" ng-class="{ visible: currentState != 'main.search' }"></div>
+
+        <div id="mainContainer" ui-view></div>
+
+
+        <error-report></error-report>
+        <link-button exclude="characters"></link-button>
+        <?=footer("optckrcharacters")?>
+    </body>
+
+</html>
