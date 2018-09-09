@@ -1512,8 +1512,8 @@ window.details = {
 		specialName: "[TND]슬롯 체인지·[DEX]"
 	},
 	239: { // modified
-		special: "[TND] 슬롯을 [QCK]슬롯으로 바꾼다",
-		specialName: "[TND]슬롯 체인지·[QCK]"
+	    "specialName": "[TND]슬롯 체인지·[QCK]",
+	    "special": "[TND] 슬롯을 [QCK]으로 바꾼다",
 	},
 	240: { // modified
 		special: "[STR] 슬롯을 [PSY]슬롯으로 바꾼다",
@@ -1531,9 +1531,9 @@ window.details = {
 		special: "TND 슬롯을 DEX슬롯으로 바꾼다.",
 		specialName: "[TND]슬롯 체인지·[DEX]"
 	},
-	244: {
-		special: "TND 슬롯을 QCK슬롯으로 바꾼다.",
-		specialName: "[TND]슬롯 체인지·[QCK]"
+	244: { // modified
+	    "specialName": "[TND]슬롯 체인지·[QCK]",
+	    "special": "[TND]슬롯을 [QCK]으로 바꾼다",
 	},
 	245: {
 		special: "STR 슬롯을 PSY슬롯으로 바꾼다.",
@@ -2533,11 +2533,11 @@ window.details = {
 		specialName: "눈 가르기 풀",
 		captain: "타격형 캐릭터의 체력, 회복력, 공격력이 1.2배가 된다."
 	},
-	333: {
-		special: "체력을 랜덤량 회복한다.",
-		specialName: "닥터 스톱",
+	333: { // modified
+	    "specialName": "닥터 스톱",
+	    "special": "체력이 일정량(랜덤) 회복된다",
+	    "captain": "[PSY]과 [INT] 속성 캐릭터의 공격력과 회복력이 1.5배가 된다.",
         specialNotes: "#{randomHeal : 2,000 : 5,000}",
-		captain: "[PSY] 캐릭터의 회복력과 공격력이 1.5배가 된다."
 	},
 	334: { // modified
 		special: "캐릭터의 회복×5배의 체력을 회복한다",
@@ -10498,10 +10498,10 @@ window.details = {
         specialNotes: "#{orb : 1.5x}",
         specialName: "Strong Bow of Rejection"
     },
-    1061: {
-        captain: "Boosts ATK of Shooter characters by 2x",
-        special: "Locks the chain multiplier at 2x for 2 turn",
-        specialName: "Instructions to the Warriors"
+    1061: { // modified
+	    "specialName": "전사들을 향한 훈시",
+	    "special": "2턴 동안 체인 계수를 2.0배로 고정시킨다",
+	    "captain": "사격형 캐릭터의 공격력을 2배로 만든다"
     },
     1062: {
         captain: "Boosts ATK of Cerebral characters by 2x and Recovers 2x character's RCV in HP at the end of each 턴",
@@ -21036,14 +21036,14 @@ window.details = {
         special: "인접한 슬롯이 [G]슬롯으로 변환",
         specialName: "환영 같은 \"무기변이\"",
     },
-    1720: {//Secret Jinbe
-        captain: "격투 캐릭터의 공격력이 2.5배 증가한다.",
-        special: "선장이 타격 캐릭터면 인접한 슬롯을 자속성 슬롯으로 변환하고 1턴 동안 체인 계수가 2.5배로 고정된다.",
+    1720: {//Secret Jinbe // modified
+	    "captain": "격투형 캐릭터의 공격력을 2.5배로 만든다",
+	    "special": "선장이 격투형일 때 인접한 슬롯을 속성 일치 슬롯으로 바꾸고, 1턴 동안 체인 계수가 2.5배로 고정된다",
         specialName: "두목의 조용한 분노",
     },
-    1721: {//Secret Jinbe
-        captain: "격투 캐릭터의 체력을 1.4배 공격력을 2.5배 증가한다. 슬롯 일치시 공격력이 2.75배 증가한다.",
-        special: "선장이 타격 캐릭터면 인접한 슬롯을 자속성 슬롯으로 변환하고 1턴 동안 체인 계수가 2.5배로 고정된다.",
+    1721: {//Secret Jinbe // modified
+	    "captain": "격투형 캐릭터의 공격력을 슬롯 일치 시 2.75배, 평상시 2.5배로 만들고, 체력을 1.4배로 만든다",
+	    "special": "선장이 격투형일 때 인접한 슬롯을 속성 일치 슬롯으로 바꾸고, 1턴 동안 체인 계수가 2.5배로 고정된다",
         specialName: "두목의 조용한 분노",
         sailor: {
             "base": "None",
@@ -22053,15 +22053,15 @@ window.details = {
         special: "2턴 동안 턴 종료시에 적 전체의 체력을 10% 감소한다",
         specialName: "지독한 추격",
     },
-    1769: {//Ben Beckman
-        captain: "박식형 캐릭터의 공격력이 2.5배가 된다.",
-        special: "적 전체의 공격을 1턴 지연시키고 선장이 박식 타입일 경우 1턴 동안 지연 중의 적에게 주는 데미지가 1.5배가 되며, 인접 슬롯이 자속성 슬롯을 변환한다",
-        specialName: "억제의 총구",
+    1769: {//Ben Beckman // modified
+	    "captain": "박식형 캐릭터의 공격력을 2.5배로 만든다",
+	    "special": "적 전체의 공격을 1턴 지연시키고, 선장이 박식형이면 1턴 동안 지연 중인 적에게 주는 데미지가 1.5배가 되며, 인접한 슬롯을 속성 일치 슬롯으로 바꾼다",
+        specialName: "억제된 총구",
     },
-    1770: {//Ben Beckman
-        captain: "박식형 캐릭터의 공격력이 2.5배, 체력이 1.2배가 되며, GOOD→GREAT→PERFECT  판정 이후 같은형 캐릭터의 공격력이 3.25배가 된다",
-        special: "적 전체의 공격을 1턴 지연시키고 선장이 박식 타입일 경우 1턴 동안 지연 중의 적에게 주는 데미지가 1.5배가 되며, 인접 슬롯이 자속성 슬롯을 변환한다",
-        specialName: "억제의 총구",
+    1770: {//Ben Beckman // modified
+	    "captain": "박식형 캐릭터의 공격력을 2.5배, 체력을 1.2배로 만들고, GOOD→GREAT→PERFECT의 순서로 공격하면 이후 박식형의 공격력이 1.3배 더 상승한다",
+	    "special": "적 전체의 공격을 1턴 지연시키고, 선장이 박식형이면 1턴 동안 지연 중인 적에게 주는 데미지가 1.5배가 되며, 인접한 슬롯을 속성 일치 슬롯으로 바꾼다",
+        specialName: "억제된 총구",
         sailor: {
             "base": "None",
             "level1": "Reduces Blindness duration by 3 turns",
@@ -22148,9 +22148,9 @@ window.details = {
         specialName: "파마의 빛 화살",
         specialNotes: "#{ignoreBarrier}"
     },
-    1778:{//Kizaru
-        captain: "자유형 캐릭터의 공격력이 2.5배, 체력이 1.2배가 되며, 턴 종료시에 캐릭터 회복력 1.5배의 체력을 회복한다",
-        special: "모든 방어 효과를 무시하고 적 1기에 캐릭터 공격력 50배의 무속성 데미지를 주며, 자유형 캐릭터의 [BLOCK], STR, INT슬롯을 자속성 슬롯으로 변환, 3턴 동안 체인 계수가 +0.2",
+    1778:{//Kizaru // modified
+	    "captain": "자유형 캐릭터의 공격력이 2.5배, 체력이 1.2배가 되고, 턴 종료 시 캐릭터 회복력x1.5배의 체력을 회복한다",
+	    "special": "모든 방어 효과를 무시하고 적 1명에게 캐릭터의 공격력x50배의 무 속성 데미지를 주며, 자유형 캐릭터의 [BLOCK][STR][INT] 슬롯을 속성 일치 슬롯으로 바꾸고, 3턴 동안 체인 계수가 +0.2 된다",
         specialName: "파마의 빛 화살",
         specialNotes: "#{ignoreBarrier}",
         sailor: {
@@ -24590,15 +24590,16 @@ window.details = {
         specialNotes: "#{stages}",
         sailor: "남은 체력이 일정 비율 이하일 때, 자신의 기본 공격력이 1.25배가 된다"
     },
-    1894: {//Urouge
+    1894: {//Urouge // modified
         captain: "Boosts ATK of Fighter characters by 2x and their HP by 1.2x",
-        special: "If HP is below 50% at the time the special is activated, deal 75x character's ATK in [QCK] damage to one enemy, boosts ATK of Fighter characters by 2x for 1 turn",
-        specialName: "The Collapsing Arhat",
+	    "captain": "격투형 캐릭터의 공격력을 2배, 체력을 1.2배로 만든다",
+	    "specialName": "아라한 붕괴",
+	    "special": "남은 체력이 일정 비율 이하일 때 적 1명에게 캐릭터의 공격력x75배의 [QCK] 데미지를 주고, 1턴 동안 격투형 캐릭터의 공격력이 2배가 된다",
     },
-    1895: {//Urouge
-        captain: "Boosts ATK of Fighter characters by 3.0375x if HP is below 50% at the start of the turn, 2.25x otherwise and boosts the HP of Fighter characters by 1.25x",
-        special: "If HP is below 50% at the time the special is activated, deal 75x character's ATK in [QCK] damage to one enemy, boosts ATK of Fighter characters by 2x for 1 turn",
-        specialName: "The Collapsing Arhat",
+    1895: {//Urouge // modified
+	    "captain": "격투형 캐릭터의 공격력을 2.25배, 체력을 1.25배로 만들고, 남은 체력이 일정 비율 이하일 때는 격투형 캐릭터의 공격력이 1.35배 더 상승한다",
+	    "specialName": "아라한 붕괴",
+	    "special": "남은 체력이 일정 비율 이하일 때 적 1명에게 캐릭터의 공격력x75배의 [QCK] 데미지를 주고, 1턴 동안 격투형 캐릭터의 공격력이 2배가 된다",
         sailor: {
             "base": "None",
             "level1": "Boosts base HP of Fighter characters by 50",
@@ -26483,51 +26484,51 @@ window.details = {
         special: "Changes [RCV] orbs into matching orbs and recovers 15x character's RCV in HP at the end of the turn for 2 turns",
         specialName: "Glutonous Meal",
     },
-    1983: {//Smoker&Tashigi
+    1983: {//Smoker&Tashigi // modified
         captain: {
-            "character1": "Boosts ATK of [INT] and [PSY] characters by 2.5x, reduce damage received by 7% and makes [INT] and [PSY] orbs “beneficial” to [INT] and [PSY] characters",
-            "character2": "Boosts ATK of [INT] and [PSY] characters by 2.5x and recovers 300 HP at end of each turn",
-            "combined": "Boosts ATK of [INT] and [PSY] characters by 2.75x, reduce damage received by 7%, recovers 1,000 HP at end of each turn and makes [TND], [INT] and [PSY] orbs “beneficial” to [INT] and [PSY] characters"
+            "character1": "[PSY]과 [INT]의 공격력을 2.5배로 만들고, 받는 데미지를 7% 감소시키며, 같은 속성은 [TND] 슬롯도 [유리] 슬롯으로 취급한다",
+            "character2": "[PSY]과 [INT]의 공격력을 2.5배로 만들고, 턴 종료 시 체력을 300 회복한다",
+            "combined": "[PSY]과 [INT]의 공격력을 2.75배로 만들고, 받는 데미지를 10% 감소시키며, 턴 종료 시 체력을 1000 회복하고, 같은 속성은 [PSY][INT][TND] 슬롯도 [유리] 슬롯으로 취급한다"
         },
         captainNotes: "#{beneficial}",
-        special: "Deals 5,000 fixed damage to one enemy, changes own orb into a Matching orb, reduces damage received by 50% for 1 turn, boosts ATK of [PSY] and [INT] characters by 1.5x for 1 turn and becomes Smoker & Tashigi for 2 turns",
+	    "specialName": "화이트 슬래시",
+	    "special": "적 1명에게 고정 데미지 5000을 주고, 자신의 슬롯을 속성 일치 슬롯으로 바꾼다. 1턴 동안 받는 데미지를 50% 감소시키고, [PSY]과 [INT]의 공격력을 1.5배로 만들며, 2턴 동안 ‘스모커&타시기’가 된다",
         specialNotes: "Change Action: When Change is activated, Recovers 2x character's RCV",
-        specialName: "White Slash",
         sailor: {
-            "character1": "[INT] and [PSY] 속성의 기본 공격력이 50 상승한다",
-            "character2": "Boosts base RCV of [INT] and [PSY] characters by 30",
-            "combined": "Boosts base ATK, HP and RCV of [INT] and [PSY] characters by 75"
+            "character1": "[PSY]과 [INT]의 기본 공격력이 50 상승한다",
+            "character2": "[PSY]과 [INT]의 기본 회복력이 30 상승한다",
+            "combined": "[PSY]과 [INT]의 기본 능력치가 75 상승한다"
         },
     },
-    1984: {//Luffy&Ace
+    1984: {//Luffy&Ace // modified
         captain: {
-            "character1": "Boosts ATK of Free Spirit characters by 3x and their HP by 1.2x and reduce damage received by 15%",
-            "character2": "Boosts HP of Free Spirit characters by 1.2x and boosts ATK of Free Spirit characters by 3.5x if they have a matching orb, by 2.25x otherwise",
-            "combined": "Boosts HP of Free Spirit characters by 1.2x and boosts ATK of Free Spirit characters by 4.25x if they have a matching orb, by 3x otherwise and reduce damage received by 20%"
+            "character1": "자유형 캐릭터의 공격력을 3배, 체력을 1.2배로 만들고, 받는 데미지를 15% 감소시킨다",
+            "character2": "자유형 캐릭터의 체력을 1.2배, 공격력을 평상시 2.25배, 슬롯 일치 시 약 3.5배로 민든다",
+            "combined": "자유형 캐릭터의 체력을 1.2배, 공격력을 평상시 3배, 슬롯 일치 시 약 4.25배로 만들고, 받는 데미지를 20% 감소시킨다"
         },
-        special: "Deals 75x character's ATK in typeless damage to all enemies, changes [STR], [DEX], [QCK], [INT], and [PSY] orbs on Free Spirit characters into Matching orbs, amplifies the effect of orbs by 2x for 1 turn and becomes Luffy & Ace for 3 turns",
+	    "special": "적 전체에 캐릭터의 공격력x75배의 무 속성 데미지를 주며, 1턴 동안 일당의 슬롯의 영향을 2배로 만들고, 자유형 캐릭터의 속성 슬롯을 속성 일치 슬롯으로 바꾸며, 3턴 동안 ‘루피&에이스’가 된다",
         specialNotes: "Change Action: When Change is activated, this character removes all Despair, Paralysis, and Slot Bind on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb",
-        specialName: "Brotherly Bond",
+	    "specialName": "의형제의 연",
         sailor: {
-            "character1": "Makes [QCK] orbs “beneficial” for Free Spirit characters",
-            "character2": "Makes [STR] orbs “beneficial” for Free Spirit characters",
-            "combined": "Boosts base ATK, HP and RCV of Free Spirit characters by 150"
+            "character1": "자유형 캐릭터는 [QCK] 슬롯도 [유리] 슬롯으로 취급한다",
+            "character2": "자유형 캐릭터는 [STR] 슬롯도 [유리] 슬롯으로 취급한다",
+            "combined": "자유형 캐릭터의 기본 능력치가 150 상승한다"
         },
         sailorNotes: "#{beneficial}",
     },
-    1985: {//Luffy&Ace
+    1985: {//Luffy&Ace // modified
         captain: {
-            "character1": "Boosts ATK of Free Spirit characters by 3x and their HP by 1.2x and reduce damage received by 15%",
-            "character2": "Boosts HP of Free Spirit characters by 1.2x and boosts ATK of Free Spirit characters by 3.5x if they have a matching orb, by 2.25x otherwise",
-            "combined": "Boosts HP of Free Spirit characters by 1.2x and boosts ATK of Free Spirit characters by 4.25x if they have a matching orb, by 3x otherwise and reduce damage received by 20%"
+            "character1": "자유형 캐릭터의 공격력을 3배, 체력을 1.2배로 만들고, 받는 데미지를 15% 감소시킨다",
+            "character2": "자유형 캐릭터의 체력을 1.2배, 공격력을 평상시 2.25배, 슬롯 일치 시 약 3.5배로 민든다",
+            "combined": "자유형 캐릭터의 체력을 1.2배, 공격력을 평상시 3배, 슬롯 일치 시 약 4.25배로 만들고, 받는 데미지를 20% 감소시킨다"
         },
-        special: "Deals 75x character's ATK in typeless damage to all enemies, changes [STR], [DEX], [QCK], [INT], and [PSY] orbs on Free Spirit characters into Matching orbs, amplifies the effect of orbs by 2x for 1 turn and becomes Luffy & Ace for 3 turns",
+	    "special": "적 전체에 캐릭터의 공격력x75배의 무 속성 데미지를 주며, 1턴 동안 일당의 슬롯의 영향을 2배로 만들고, 자유형 캐릭터의 속성 슬롯을 속성 일치 슬롯으로 바꾸며, 3턴 동안 ‘루피&에이스’가 된다",
         specialNotes: "Change Action: When Change is activated, this character removes all Despair, Paralysis, and Slot Bind on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb",
-        specialName: "Brotherly Bond",
+	    "specialName": "의형제의 연",
         sailor: {
-            "character1": "Makes [QCK] orbs “beneficial” for Free Spirit characters",
-            "character2": "Makes [STR] orbs “beneficial” for Free Spirit characters",
-            "combined": "Boosts base ATK, HP and RCV of Free Spirit characters by 150",
+            "character1": "자유형 캐릭터는 [QCK] 슬롯도 [유리] 슬롯으로 취급한다",
+            "character2": "자유형 캐릭터는 [STR] 슬롯도 [유리] 슬롯으로 취급한다",
+            "combined": "자유형 캐릭터의 기본 능력치가 150 상승한다",
             "level1": "Makes [TND] and [RCV] orbs “beneficial” for Free Spirit characters"
         },
         sailorNotes: "#{beneficial}",
@@ -26611,21 +26612,21 @@ window.details = {
         specialName: "Establishing an Oath of Immortality",
         sailor: "Boosts amount healed from [RCV] orbs by 150 each",
     },
-    1987: {//Marco
-        captain: "Boosts ATK of Fighter characters by 2.5x and their RCV by 1.3x. Recovers 3x character's RCV in HP at the end of each turn.",
+    1987: {//Marco // modified
+        "captain": "격투형 캐릭터의 공격력을 2.5배, 회복력을 1.3배로 만들고, 턴 종료 시에 캐릭터의 회복력x3배의 체력을 회복한다",
         special: [
             {
-                "description": "Reduces Bind and Chain Coefficient Reduction and ATK DOWN duration by 3 turns, reduces damage received by 50% for 1 turn. If your crew has 3 or more [STR] characters, adds .5x to Chain multiplier for 1 turn",
+                "description": "봉쇄, 공격력 감소, 체인 계수 증가량 감소 상태를 3턴 회복하고, 1턴 동안 받는 데미지를 50% 줄이며, 일당에 [STR]이 3명 이상 있을 경우 1턴 동안 체인 계수가 +0.5 된다",
                 "cooldown": [ 16, 10 ],
             },
             {
-                "description": "Reduces Bind and Chain Coefficient Reduction and ATK DOWN duration by 5 turns, reduces damage received by 90% for 1 turn. If your crew has 3 or more [STR] characters, adds .75x to Chain multiplier for 1 turn",
+                "description": "봉쇄, 공격력 감소, 체인 계수 증가량 감소 상태를 5턴 회복하고, 1턴 동안 받는 데미지를 90% 줄이며, 일당에 [STR]이 3명 이상 있을 경우 1턴 동안 체인 계수가 +0.75 된다",
                 "cooldown": [ 20, 14 ],
             },
         ],
-        specialName: "Establishing an Oath of Immortality",
+	    "specialName": "「불사」를 이룬 서약",
         sailor: {
-            "base": "Boosts amount healed from [RCV] orbs by 150 each",
+            "base": "[RCV] 획득 시 추가로 체력을 150 회복한다",
             "level1": "Makes [TND] and [RCV] orbs “beneficial” for Free Spirit characters",
         },
         sailorNotes: "#{beneficial}",
@@ -26669,18 +26670,18 @@ window.details = {
             },
         ],
     },
-    1988: {//Oars
-        captain: "Boosts ATK of Slasher characters by 2.25x and their RCV by 1.2x",
-        special: "Cuts the current HP of one enemy by 10% and reduces Paralysis and Silence duration by 3 turns. If your captain is a 참격형 Character, boosts ATK against delayed enemies by 1.75x for 2 turns",
-        specialName: "Unfaltering Trump Card",
-        sailor: "Reduces Paralysis duration by 1 turn",
+    1988: {//Oars // modified
+	    "captain": "참격형 캐릭터의 공격력을 2.25배, 체력을 1.2배로 만든다",
+	    "specialName": "불석신명의 와일드 카드",
+	    "special": "적 1명의 HP를 10% 줄이고, 마비, 필살기 봉쇄 상태를 3턴 회복하며, 선장이 참격형일 경우 2턴 동안 지연 중인 적에게 주는 데미지가 1.75배가 된다",
+        sailor: "일당의 마비 상태를 1턴 회복한다",
     },
-    1989: {//Oars
-        captain: "Boosts ATK of Slasher characters by 2.5x and their RCV by 1.5x",
-        special: "Cuts the current HP of one enemy by 10% and reduces Paralysis and Silence duration by 3 turns. If your captain is a 참격형 Character, boosts ATK against delayed enemies by 1.75x for 2 turns",
-        specialName: "Unfaltering Trump Card",
+    1989: {//Oars // modified
+	    "captain": "참격형 캐릭터의 공격력을 2.5배, 체력을 1.5배로 만든다",
+	    "specialName": "불석신명의 와일드 카드",
+	    "special": "적 1명의 HP를 10% 줄이고, 마비, 필살기 봉쇄 상태를 3턴 회복하며, 선장이 참격형일 경우 2턴 동안 지연 중인 적에게 주는 데미지가 1.75배가 된다",
         sailor: {
-            "base": "Reduces Paralysis duration by 1 turn",
+            "base": "일당의 마비 상태를 1턴 회복한다",
             "level1": "Boosts base ATK of 참격형 and Powerhouse characters by 75",
         },
         limit: [
@@ -26723,19 +26724,19 @@ window.details = {
             },
         ],
     },
-    1990: {//Garp
-        captain: "Boosts ATK of Free Spirit characters by 2.5x until the first hit other than PERFECT",
-        special: "Delays all enemies for 2 turns. If your Captain is a [STR] or [QCK] character, adds 55x character's ATK as Additional Typeless Damage for 1 turn",
-        specialName: "An Outcry of Bitterness",
-        sailor: "Makes [STR] orbs “beneficial” for Free Spirit characters",
+    1990: {//Garp // modified
+	    "captain": "PERFECT 이외의 공격을 할 때까지 자유형 캐릭터의 공격력을 2.5배로 만든다",
+	    "special": "적 전체의 공격을 2턴 지연시키고, 선장이 [STR] 또는 [QCK]일 경우, 1턴 동안 GOOD, GREAT, PERFECT 공격 시 필살기를 사용한 캐릭터의 공격력x55배의 무 속성 데미지를 가산한다",
+	    "specialName": "고심 끝의 외침",
+        sailor: "자유형 캐릭터는 [STR] 슬롯도 [유리] 슬롯으로 취급한다",
         sailorNotes: "#{beneficial}",
     },
-    1991: {//Garp
-        captain: "Boosts ATK of Free Spirit characters by 2.75x until the first hit other than PERFECT",
-        special: "Delays all enemies for 2 turns. If your Captain is a [STR] or [QCK] character, adds 55x character's ATK as Additional Typeless Damage for 1 turn",
-        specialName: "An Outcry of Bitterness",
+    1991: {//Garp // modified
+	    "captain": "PERFECT 이외의 공격을 할 때까지 자유형 캐릭터의 공격력을 2.75배로 만든다",
+	    "special": "적 전체의 공격을 2턴 지연시키고, 선장이 [STR] 또는 [QCK]일 경우, 1턴 동안 GOOD, GREAT, PERFECT 공격 시 필살기를 사용한 캐릭터의 공격력x55배의 무 속성 데미지를 가산한다",
+	    "specialName": "고심 끝의 외침",
         sailor: {
-            "base": "Makes [STR] orbs “beneficial” for Free Spirit characters",
+            "base": "자유형 캐릭터는 [STR] 슬롯도 [유리] 슬롯으로 취급한다",
             "level1": "Boosts base ATK of Free Spirit characters by 75",
         },
         sailorNotes: "#{beneficial}",
@@ -26780,35 +26781,35 @@ window.details = {
         ],
     },
     1992: {//Coby
-        captain: "Boosts ATK of Free Spirit and Fighter characters by 2.25x and reduce damage received by 10%",
+        captain: "자유형과 격투형 캐릭터의 공격력을 2.25배로 만들고, 받는 데미지를 10% 감소시킨다",
         special: [
             {
-                "description": "Deals 30x character's ATK in [QCK] damage to one enemy and randomizes all orbs, including [BLOCK] orbs, into either [STR], [DEX], [QCK], [PSY] or [INT] orbs. If your crew has 3 or more [QCK] characters, boosts ATK of Free Spirit characters by 1.75x for 1 turn",
+                "description": "적 1명에게 캐릭터의 공격력x30배의 [QCK] 데미지를 주고, [BLOCK] 슬롯을 포함한 모든 슬롯을 속성 슬롯으로 랜덤하게 바꾸며, 일당에 [QCK]이 3명 이상 있을 경우 1턴 동안 자유형 캐릭터의 공격력이 1.75배가 된다",
                 "cooldown": [ 16, 10 ],
             },
             {
-                "description": "Deals 50x character's ATK in [QCK] damage to one enemy and randomizes all orbs, including [BLOCK] orbs, into either [STR], [DEX], [QCK], [PSY] or [INT] orbs. If your crew has 3 or more [QCK] characters, boosts ATK of Free Spirit characters by 2x for 1 turn",
+                "description": "적 1명에게 캐릭터의 공격력x50배의 [QCK] 데미지를 주고, [BLOCK] 슬롯을 포함한 모든 슬롯을 속성 슬롯으로 랜덤하게 바꾸며, 일당에 [QCK]이 3명 이상 있을 경우 1턴 동안 자유형 캐릭터의 공격력이 2배가 된다",
                 "cooldown": [ 19, 13 ],
             },
         ],
-        specialName: "Determined Counterattack",
-        sailor: "Boosts base ATK of Free Spirit characters by 50",
+        specialName: "결심의 배반",
+        sailor: "자유형 캐릭터의 기본 공격력이 50 상승한다",
     },
-    1993: {//Coby
-        captain: "Boosts ATK of Free Spirit and Fighter characters by 2.5x and reduce damage received by 15%",
+    1993: {//Coby // modified
+        captain: "자유형과 격투형 캐릭터의 공격력을 2.5배로 만들고, 받는 데미지를 15% 감소시킨다",
         special: [
             {
-                "description": "Deals 30x character's ATK in [QCK] damage to one enemy and randomizes all orbs, including [BLOCK] orbs, into either [STR], [DEX], [QCK], [PSY] or [INT] orbs. If your crew has 3 or more [QCK] characters, boosts ATK of Free Spirit characters by 1.75x for 1 turn",
+                "description": "적 1명에게 캐릭터의 공격력x30배의 [QCK] 데미지를 주고, [BLOCK] 슬롯을 포함한 모든 슬롯을 속성 슬롯으로 랜덤하게 바꾸며, 일당에 [QCK]이 3명 이상 있을 경우 1턴 동안 자유형 캐릭터의 공격력이 1.75배가 된다",
                 "cooldown": [ 16, 10 ],
             },
             {
-                "description": "Deals 50x character's ATK in [QCK] damage to one enemy and randomizes all orbs, including [BLOCK] orbs, into either [STR], [DEX], [QCK], [PSY] or [INT] orbs. If your crew has 3 or more [QCK] characters, boosts ATK of Free Spirit characters by 2x for 1 turn",
+                "description": "적 1명에게 캐릭터의 공격력x50배의 [QCK] 데미지를 주고, [BLOCK] 슬롯을 포함한 모든 슬롯을 속성 슬롯으로 랜덤하게 바꾸며, 일당에 [QCK]이 3명 이상 있을 경우 1턴 동안 자유형 캐릭터의 공격력이 2배가 된다",
                 "cooldown": [ 19, 13 ],
             },
         ],
-        specialName: "Determined Counterattack",
+        specialName: "결심의 배반",
         sailor: {
-            "base": "Boosts base ATK of Free Spirit characters by 50",
+            "base": "자유형 캐릭터의 기본 공격력이 50 상승한다",
             "level1": "Makes [QCK] orbs “beneficial” for Free Spirit characters",
         },
         sailorNotes: "#{beneficial}",
