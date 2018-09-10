@@ -1018,7 +1018,7 @@ window.details = {
 		specialName: "하이퍼 스파이럴"
 	},
 	178: { // modified
-		special: "적 1명에게 공격×5배의 캐릭터 속성 데미지",
+	    "special": "적 전체에 공격×5배의 캐릭터 속성 데미지",
 		specialName: "하이퍼 샷"
 	},
 	179: { // modified
@@ -1076,10 +1076,10 @@ window.details = {
 		specialName: "[STR]슬롯 체인지·[QCK]",
 		captain: "QCK 캐릭터의 공격력이 1.5배가 된다"
 	},
-	197: {
-		special: "캐릭터의 회복×5배의 체력을 회복한다",
-		specialName: "라이트 힐링",
-		captain: "PSY 캐릭터가 주는 데미지를 20％ 감소시킨다"
+	197: { // modified
+	    "specialName": "라이트 힐링",
+	    "special": "캐릭터의 회복×5배의 체력을 회복한다",
+	    "captain": "[PSY] 캐릭터가 주는 데미지를 20％ 감소시킨다"
 	},
 	198: {
 	  "special": "[RCV]슬롯을 [INT]슬롯으로 바꾼다",
@@ -1488,12 +1488,12 @@ window.details = {
 		captain: "[QCK] 캐릭터의 공격력이 2배가 된다"
 	},
 	233: { // modified
-		captain: "[PSY] 캐릭터의 체력을 1.5배가 된다"
+	    "captain": "[PSY] 캐릭터의 체력이 1.5배가 된다"
 	},
 	234: { // modified
-		"special": "적 전체에 캐릭터의 공격력x5배의 [PSY] 데미지",
-		"specialName": "이가나파알",
-		"captain": "[PSY] 캐릭터의 체력이 2배가 된다"
+	    "specialName": "이가나파알",
+	    "special": "적 전체에 캐릭터의 공격력x5배의 [PSY] 데미지",
+	    "captain": "[PSY] 캐릭터의 체력이 2배가 된다"
 	},
 	235: {
 		captain: "격투형 캐릭터의 공격력이 1.2배가 된다."
@@ -1516,8 +1516,8 @@ window.details = {
 	    "special": "[TND] 슬롯을 [QCK]으로 바꾼다",
 	},
 	240: { // modified
-		special: "[STR] 슬롯을 [PSY]슬롯으로 바꾼다",
-		specialName: "[STR]슬롯 체인지·[PSY]"
+	    "specialName": "[STR]슬롯 체인지·[PSY]",
+	    "special": "[STR]슬롯을 [PSY]슬롯으로 바꾼다",
 	},
 	241: { // modified
 		special: "[QCK]슬롯을 [INT]슬롯으로 바꾼다",
@@ -1535,9 +1535,9 @@ window.details = {
 	    "specialName": "[TND]슬롯 체인지·[QCK]",
 	    "special": "[TND]슬롯을 [QCK]으로 바꾼다",
 	},
-	245: {
-		special: "STR 슬롯을 PSY슬롯으로 바꾼다.",
-		specialName: "[STR]슬롯 체인지·[PSY]"
+	245: { // modified
+	    "specialName": "[STR]슬롯 체인지·[PSY]",
+	    "special": "[STR]슬롯을 [PSY]슬롯으로 바꾼다",
 	},
 	246: {
 		special: "QCK슬롯을 INT슬롯으로 바꾼다",
@@ -2843,10 +2843,10 @@ window.details = {
 		specialName: "크리스탈 실드 [QCK]",
 		captain: "타격형 캐릭터의 공격력이 1.5배가 된다."
 	},
-	376: {
-		special: "1턴 동안 [INT] 캐릭터에게 받는 데미지를 50% 감소시킨다.",
-		specialName: "크리스탈 실드 [INT]",
-		captain: "격투형 캐릭터의 공격력이 1.5배가 된다."
+	376: { // modified
+	    "specialName": "크리스탈 실드 [INT]",
+	    "special": "[INT]의 공격을 반으로 줄인다(1턴)",
+	    "captain": "격투형 캐릭터의 공격력이 1.5배가 된다"
 	},
 	377: {
 		special: "1턴 동안 [PSY] 캐릭터에게 받는 데미지를 50% 감소시킨다.",
@@ -3788,18 +3788,18 @@ window.details = {
         specialName: "스토막 마운틴",
         captain: "[STR] 캐릭터의 공격력과 체력이 1.5배가 된다"
     },
-    468: {
-        special: "1 턴 동안 일당의 회복력을 1.5 배로 한다",
-        specialName: "힐링 파워"
+    468: { // modified
+	    "specialName": "힐링 파워",
+	    "special": "1턴 동안 일당의 회복력이 1.5배가 된다",
     },
     469: {
         special: "슬롯을 1 회 자유롭게 이동",
         specialName: "퀵 체인지"
     },
-    470: {
-        special: "PSY캐릭터의 회복력이 1.5 배가 된다",
-        specialName: "힐링파워",
-        captain: "1 턴 동안 일당의 회복력을 1.5 배로 한다"
+    470: { // modified
+	    "specialName": "힐링 파워",
+	    "special": "1턴 동안 일당의 회복력이 1.5배가 된다",
+	    "captain": "[PSY] 캐릭터의 회복력이 1.5배가 된다"
     },
     471: {
         special: "슬롯을 1 회 자유롭게 이동",
@@ -5876,8 +5876,8 @@ window.details = {
 		"specialName": "[PSY]슬롯 체인지·[QCK]"
 	},
     693: { // modified
-	  "special": "[DEX]슬롯 체인지·[PSY]",
-	  "specialName": "[DEX]슬롯을 [PSY]슬롯으로 바꾼다"
+	    "specialName": "[DEX]슬롯 체인지·[PSY]",
+	    "special": "[DEX]슬롯을 [PSY]슬롯으로 바꾼다",
 	},
     694: { // modified
 		"special": "적 전체에게 공격력x13배의 캐릭터 속성 데미지",
@@ -5898,9 +5898,9 @@ window.details = {
 		"captain": "사격형 캐릭터의 공격력이 1.75배가 된다"
     },
     698: { // modified
-	  "special": "[DEX]슬롯 체인지·[PSY]",
-	  "specialName": "[DEX]슬롯을 [PSY]슬롯으로 바꾼다",
-	  "captain": "참격형 캐릭터의 공격력을 1.75배가 된다"
+	    "specialName": "[DEX]슬롯 체인지·[PSY]",
+	    "special": "[DEX]슬롯을 [PSY]슬롯으로 바꾼다",
+	    "captain": "참격형 캐릭터의 공격력을 1.75배가 된다"
 	},
     699: { // modified
 		"special": "적 전체에게 공격력x13배의 캐릭터 속성 데미지",
@@ -8896,27 +8896,27 @@ window.details = {
         specialName: "Spiritual Bouquet",
         special: "Boosts ATK and RCV of Driven characters by 1.5x for 1 turn"
     },
-    946: {
-        specialName: "Lock-on Iron Ball",
-        captain: "Reduces cooldown of all specials by 1 턴 at the start of the fight, boosts ATK of Striker characters by 1.75x",
-        special: "Change Friend Captain and changes own orb into [INT]"
+    946: { // modified
+	    "specialName": "추종하는 철구",
+	    "special": "친구 선장의 슬롯과 자신의 슬롯을 [INT]로 바꾼다",
+	    "captain": "타격형 캐릭터의 공격력을 1.75배로 만들고, 모험 시작 시 필살기 턴을 1턴 단축한다"
     },
-    947: {
-        captain: "Boosts ATK of [INT] characters by 1.5x, Boosts damage of [INT] specials by 1.5x",
-        specialName: "Flame Flash",
-        special: "[STR] and [INT] characters gain 1.3x ATK for 1 turn. Deals 10x character's ATK in [INT] damage to all enemies",
+    947: { // modified
+	    "specialName": "화염일섬",
+	    "special": "[STR]과 [INT] 캐릭터의 공격력을 1턴 동안 1.3배+적 전체에 [INT] 데미지를 준다",
+	    "captain": "[INT] 캐릭터의 공격력을 1.5배로 만들고, 필살기로 주는 [INT] 데미지를 1.5배로 만든다",
         captainNotes: "#{noFixedPerc}"
     },
-    948: {
-        captain: "Boosts ATK of Shooter characters by 1.5x and their RCV by 1.2x",
-        specialName: "Twin Cannons",
-        special: "Randomly changes all orbs to either [STR] or [INT]. Deals random [STR] damage",
+    948: { // modified
+	    "specialName": "연속 캐논",
+	    "special": "모든 슬롯을 [STR][INT]로 바꾸고, 적 전체에게 랜덤으로 [STR] 데미지를 준다",
+	    "captain": "사격형 캐릭터의 공격력을 1.5배, 회복력을 1.2배로 만든다",
         specialNotes: "#{random : 7,000 : 18,000}",
     },
     949: { // modified
-	    "captain": "참격형 캐릭터의 공격력을 2배로 만들고, 턴 종료 시 캐릭터의 회복력x2배의 체력을 회복한다",
 	    "specialName": "에이스와의 인연",
-	    "special": "필살기 봉쇄 상태를 3턴 회복하고 체력을 4,000 회복한다",
+	    "special": "필살기 봉쇄 상태를 3턴 회복하고 체력을 4000 회복한다",
+	    "captain": "참격형 캐릭터의 공격력을 2배로 만들고, 턴 종료 시 캐릭터의 회복력x2배의 체력을 회복한다",
         specialNotes: "#{silence}",
     },
     950: { // modified
@@ -8977,14 +8977,14 @@ window.details = {
         ]
     },
     952: { // modified
-        captain: "사격형과 타격형 캐릭터의 공격력과 체력을 1.2배로 만든다",
-        specialName: "활인의 총상격",
-        special: "적 1명에게 캐릭터의 공격력x13배의 [DEX] 데미지를 주고, 선장의 슬롯을 속성 일치 슬롯으로 바꾼다"
+	    "specialName": "활인의 총상격",
+	    "special": "적 1명에게 캐릭터의 공격력x13배의 [DEX] 데미지를 주고, 선장의 슬롯을 속성 일치 슬롯으로 바꾼다",
+	    "captain": "사격형과 타격형 캐릭터의 공격력과 체력을 1.2배로 만든다"
     },
-    953: {
-        captain: "사격형과 타격형 캐릭터의 공격력과 체력을 1.5배로 만든다",
-        specialName: "활인의 총상격",
-        special: "적 1명에게 캐릭터의 공격력x13배의 [DEX] 데미지를 주고, 선장의 슬롯을 속성 일치 슬롯으로 바꾼다"
+    953: { // modified
+	    "specialName": "활인의 총상격",
+	    "special": "적 1명에게 캐릭터의 공격력x13배의 [DEX] 데미지를 주고, 선장의 슬롯을 속성 일치 슬롯으로 바꾼다",
+	    "captain": "사격형과 타격형 캐릭터의 공격력과 체력을 1.5배로 만든다"
     },
     954:{
         captain: "Boosts ATK and HP of [QCK] characters by 1.5x",
@@ -9021,9 +9021,9 @@ window.details = {
 	    "specialName": "슬롯 파워 라이트",
 	    "special": "1턴 동안 일당 전원의 슬롯의 영향을 조금 증폭시킨다",
     },
-    962:{
-        specialName: "Captain슬롯 체인지·RCV",
-        special: "Changes captain's orb into [RCV]"
+    962:{ // modified
+	    "specialName": "캡틴 슬롯 체인지 [RCV]",
+	    "special": "선장 슬롯을 [RCV]로 바꾼다",
     },
     963:{ // modified
         captain: "코스트 50~55의 캐릭터의 공격력을 2배로 만든다",
@@ -9094,7 +9094,7 @@ window.details = {
         specialNotes: "#{zombie}"
     },
     977:{ // modified
-        captain: "사격형 캐릭터의 필살기 턴을 3턴 단축하고, 공격력 2.35배, 체력을 1.5배로 만든다",
+	    "captain": "사격형 캐릭터의 공격력을 2배로 만든다",
         specialName: "팔지경",
         special: [
             {
@@ -9109,7 +9109,7 @@ window.details = {
         specialNotes: "#{stages}"
     },
     978:{ // modified
-        captain: "사격형 캐릭터의 필살기 턴을 2턴 단축하고, 공격력 2.25배, 체력 1.5배로 만든다",
+	    "captain": "사격형 캐릭터의 공격력을 2배로 만든다",
         specialName: "팔지경",
         special: [
             {
@@ -9188,8 +9188,8 @@ window.details = {
         specialName: "화검 일문자베기",
         special: "적 1명에게 공격력x25배의 [QCK] 데미지를 주고, 하단 슬롯을 속성 일치 슬롯으로 바꾼다"
     },
-    983: {
-        captain: "Boosts ATK of Slasher characters by 2.25x, makes [RCV] and [TND] orbs “beneficial” to Slasher characters",
+    983: { // modified
+	    "captain": "참격형 캐릭터의 공격력을 2.25배로 만들고, 참격형 캐릭터는 [TND][RCV] 슬롯도 [유리] 슬롯으로 취급한다",
         captainNotes: "#{beneficial}",
         specialName: "화검 일문자베기",
         special: "적 1명에게 공격력x25배의 [QCK] 데미지를 주고, 하단 슬롯을 속성 일치 슬롯으로 바꾼다",
@@ -9266,10 +9266,10 @@ window.details = {
         specialName: "지옥의 만 톤 바이스",
         special: "[RCV] 슬롯을 속성이 일치하는 슬롯으로 바꾼다"
     },
-    991: {
-        captain: "Boosts ATK of Free Spirit characters by 2.75x if HP is above 99% at the start of the turn",
-        specialName: "10,000 Ton Vise of Hell",
-        special: "[RCV] orbs into matching orbs",
+    991: { // modified
+	    "captain": "공격 시작 전 체력이 가득 차 있으면 자유형 캐릭터의 공격력을 2.75배로 만든다",
+	    "specialName": "지옥의 만 톤 바이스",
+	    "special": "[RCV] 슬롯을 속성이 일치하는 슬롯으로 바꾼다",
         sailor: {
             "base": "None",
             "level1": "Makes [TND] orbs “beneficial” for this character",
@@ -9321,16 +9321,16 @@ window.details = {
         special: "적 전체의 HP를 20% 줄이고, 자신의 슬롯을 [QCK]으로 바꾼다",
         specialName: "펑크 록 「페스티벌」"
     },
-    993: {
+    993: { // modified
         captain: {
-            "base": "Boosts ATK of [QCK] characters by 2.5x",
-            "level1": "Boosts ATK of [QCK] characters by 2.75x",
+            "base": "[QCK] 캐릭터의 공격력을 2.5배로 만든다",
+            "level1": "[QCK] 캐릭터의 공격력을 2.75배로 만든다",
         },
-        special: "Cuts the current HP of each enemy by 20% and changes own orb into [QCK]",
-        specialName: "Punk Rock Fest",
+	    "specialName": "펑크 록 「페스티벌」",
+	    "special": "적 전체의 HP를 20% 줄이고, 자신의 슬롯을 [QCK]으로 바꾼다",
         sailor: {
             "base": "None",
-            "level1": "Boosts HP, RCV and ATK of [QCK] characters by 30",
+            "level1": "[QCK] 속성의 기본 능력치가 30 상승한다",
         },
         limit: [
             { "description": "회복력 상승 : 10" },
@@ -9405,7 +9405,7 @@ window.details = {
         specialNotes: "Status includes Enemy Attack, Defense, Combo Hits, Current / Total HP, Attack Interval, 'Specials based on 턴', and 'Effect after Death'<br>#{stages}",
         sailor: {
             "base": "자신의 필살기 턴 되돌리기를 1턴 회복한다",
-            "level1": "Reduces Silence duration on this character by 2 turns",
+            "level1": "자신의 필살기 봉쇄 상태를 2턴 회복한다",
         },
         sailorNotes: "#{rewind : 1}",
         limit: [
@@ -9448,35 +9448,35 @@ window.details = {
             },
         ]
     },
-    996: {
-        captain: "Boosts ATK of Powerhouse characters by 2x",
+    996: { // modified
+	    "captain": "강인형 캐릭터의 공격력을 2배로 만든다",
         special: [
             {
-                "description": "For Powerhouse characters, changes Badly Matching orbs into Matching orbs.",
+                "description": "강인형 캐릭터의 [불리] 슬롯을 속성이 일치하는 슬롯으로 바꾼다",
                 "cooldown": [ 11, 5 ]
             },
             {
-                "description": "For all characters, changes Badly Matching orbs into Matching orbs.",
+                "description": "일당의 [불리] 슬롯을 속성이 일치하는 슬롯으로 바꾼다.",
                 "cooldown": [ 20, 14 ]
             }
         ],
-        specialName: "Decapitation High Heel",
+	    "specialName": "단두 하이힐",
         specialNotes: "#{stages}"
     },
-    997: {
-        captain: "Boosts ATK of Powerhouse characters by 2.25x, makes [TND] and [RCV] orbs “beneficial” to Powerhouse characters",
+    997: { // modified
+	    "captain": "강인형 캐릭터의 공격력을 2.25배로 만들고, 강인형 캐릭터는 [TND][RCV] 슬롯도 [유리] 슬롯으로 취급한다",
         captainNotes: "#{beneficial}",
         special: [
             {
-                "description": "For Powerhouse characters, changes Badly Matching orbs into Matching orbs.",
+                "description": "강인형 캐릭터의 [불리] 슬롯을 속성이 일치하는 슬롯으로 바꾼다",
                 "cooldown": [ 11, 5 ]
             },
             {
-                "description": "For all characters, changes Badly Matching orbs into Matching orbs.",
+                "description": "일당의 [불리] 슬롯을 속성이 일치하는 슬롯으로 바꾼다.",
                 "cooldown": [ 20, 14 ]
             }
         ],
-        specialName: "Decapitation High Heel",
+	    "specialName": "단두 하이힐",
         specialNotes: "#{stages}",
         sailor: {
             "base": "None",
@@ -9666,24 +9666,24 @@ window.details = {
 		"specialName": "베포의 궁극권!!"
     },
     1003: { // modified
-		"captain": "격투형 캐릭터의 공격력을 2배로 만든다",
-		"special": "마비 상태를 3턴 회복하고, 적 1명에게 공격력x7배의 [STR] 데미지를 준다",
-		"specialName": "베포의 궁극권!!"
+	    "specialName": "베포의 궁극권!!",
+	    "special": "마비 상태를 3턴 회복하고, 적 1명에게 공격력x7배의 [STR] 데미지를 준다",
+	    "captain": "격투형 캐릭터의 공격력을 2배로 만든다"
     },
     1004: { // modified
-    "captain": "일당의 회복력을 1.5배로 만든다",
-    "specialName": "명랑한 콤비네이션",
-    "special": "좌열 슬롯을 [RCV]로 바꾼다",
+	    "captain": "일당의 회복력을 1.5배로 만든다",
+	    "specialName": "명랑한 콤비네이션",
+	    "special": "좌열 슬롯을 [RCV]로 바꾼다",
     },
-    1005: {
-        captain: "Boosts ATK of Powerhouse characters by 1.5x",
-        specialName: "Rush to Freedom",
-        special: "Boosts own ATK by 1.75x for 1 turn"
+    1005: { // modified
+	    "specialName": "자유를 향한 돌진",
+	    "special": "1턴 동안 자신의 공격력을 1.75배로 만든다",
+	    "captain": "강인형 캐릭터의 공격력을 1.5배로 만든다"
     },
-    1006: {
-        captain: "Boosts ATK and HP of Powerhouse characters by 1.5x",
-        specialName: "Rush to Freedom",
-        special: "Boosts own ATK by 1.75x for 1 turn"
+    1006: { // modified
+	    "specialName": "자유를 향한 돌진",
+	    "special": "Boosts own ATK by 1.75x for 1 turn",
+	    "captain": "Boosts ATK and HP of Powerhouse characters by 1.5x"
     },
     1007: {
         captain: "Boosts ATK of Cerebral and Free Spirit characters by 1.5x",
@@ -10486,17 +10486,17 @@ window.details = {
         specialNotes: "Strong Poison deals 5x character's ATK in fixed damage at the end of each turn",
         specialName: "Deadly Poisonous Corrosive Liquid"
     },
-    1059: {
-        captain: "Boosts ATK and RCV of Shooter characters by 1.2x",
-        special: "Deals 5,000 fixed damage to one enemy. Amplifies the effect of orbs by 1.5x for 1 turn",
+    1059: { // modified
+	    "specialName": "배척의 강궁",
+	    "special": "적 1명에게 고정 데미지 5000을 주고, 1턴 동안 슬롯의 영향을 증폭시킨다",
+	    "captain": "사격형 캐릭터의 공격력과 회복력을 1.2배로 만든다",
         specialNotes: "#{orb : 1.5x}",
-        specialName: "Strong Bow of Rejection"
     },
-    1060: {
-        captain: "Boosts ATK and RCV of Shooter characters by 1.5x",
-        special: "Deals 5,000 fixed damage to one enemy. Amplifies the effect of orbs by 1.5x for 1 turn",
+    1060: { // modified
+	    "specialName": "배척의 강궁",
+	    "special": "적 1명에게 고정 데미지 5000을 주고, 1턴 동안 슬롯의 영향을 증폭시킨다",
+	    "captain": "사격형 캐릭터의 공격력과 회복력을 1.5배로 만든다",
         specialNotes: "#{orb : 1.5x}",
-        specialName: "Strong Bow of Rejection"
     },
     1061: { // modified
 	    "specialName": "전사들을 향한 훈시",
@@ -16767,7 +16767,7 @@ window.details = {
 	    "captain": "체력이 일정 비율 이상일 때 공격을 받아도 쓰러지지 않는다",    
         captainNotes: "#{zombie}",
     },
-    1465: {//White Day Chopper
+    1465: {//White Day Chopper // modified
         captainNotes: "#{zombie}",
 	    "specialName": "헌신적인 치유 「곧 나을 거야」",
 	    "special": "캐릭터의 회복력x6배의 체력을 회복하고, 마비 상태를 2턴 회복한다",
