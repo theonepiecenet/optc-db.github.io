@@ -2003,7 +2003,7 @@ window.details = {
 	},
 	273: {
 		special: "적 1명에게 공격×10배의 캐릭터 속성 데미지",
-		specialName: "하이퍼 스트레이트"
+		specialNameㄹ: "하이퍼 스트레이트"
 	},
 	274: {
 		special: "적 1명에게 공격×10배의 캐릭터 속성 데미지",
@@ -26959,16 +26959,16 @@ window.details = {
             },
         ],
     },
-    2001: {//6+ [PSY] Law
-        captain: "Boosts 참격형 and Free Spirit character's ATK by 2.5x, by 3.5x after 3 consecutive PERFECTs, by 4x after 5 consecutive PERFECTs. Recover 1,000 HP at the end of each turn",
-        specialName: "Sterben",
+    2001: {//6+ [PSY] Law // modified
+	    "captain": "참격형과 자유형 캐릭터의 공격력을 2.5배로 만들며, PERFECT를 3연속, 5연속 달성 시 이후 같은 타입의 공격력이 각각 3.5배, 약 4배로 상승하고, 턴 종료 시 체력을 1000 회복한다",
+	    "specialName": "스테르벤",
+	    "spceial": "1턴 동안 필살기 데미지 및 적 HP 감소 필살기가 모든 방어 효과를 무시하며, 적 1명에게 [PSY] 슈퍼 데미지를 주고, 일당의 필살기 턴을 1턴 단축한다",
         sailor: {
             "base": "None",
             "level1": "When HP is below 10% at the start of the turn, boosts base RCV of 참격형 and Free Spirit characters by 300",
             "level2": "Makes [INT], [RCV] and [TND] orbs “beneficial” for this unit"
         },
         sailorNotes: "#{beneficial}",
-        special: "Makes Damage and Health Cutting Specials of all characters bypass all defensive Buffs, deals 100x character's ATK in [PSY] damage to one enemy, reduces Special Cooldown of all characters by 1 turn",
         limit: [
             { "description": "회복력 상승 : 5" },
             { "description": "회복력 상승 : 10" },
@@ -32268,20 +32268,20 @@ window.details = {
             },
         ]
     },
-    2504: {//Crocodile&Daz
+    2504: {//Crocodile&Daz // modified
         captain: {
-            "character1": "Boosts ATK of [STR] and [DEX] characters by 2.75x if they have a matching orb, by 2x otherwise and makes [TND] and [DEX] orbs “beneficial” to [STR] and [DEX] characters",
-            "character2": "Boosts ATK of [STR] and [DEX] characters by 2.5x and reduce damage received by 10%",
-            "combined": "Boosts ATK of [STR] and [DEX] characters by 2.75x if they have a matching orb, by 2.5x otherwise, reduce damage received by 20%, and makes [TND], [RCV], [STR] and [DEX] orbs “beneficial” to [STR] and [DEX] characters"
+            "character1": "[STR]과 [DEX]의 공격력을 평상시 2배, 슬롯 일치 시엔 2.75배로 만들고, [STR]과 [DEX]은 [DEX][TND] 슬롯도 [유리] 슬롯으로 취급한다",
+            "character2": "[STR]과 [DEX]의 공격력을 평상시 2.5배로 만들고, 받는 데미지를 10% 줄인다",
+            "combined": "[STR]과 [DEX]의 공격력을 평상시 2.5배, 슬롯 일치 시엔 2.75배로 만들고, [STR]과 [DEX]은 [STR][DEX][RCV][TND] 슬롯도 [유리] 슬롯으로 취급하며 받는 데미지를 20% 줄인다"
         },
         captainNotes: "#{beneficial}",
-        special: "Cuts the current HP of one enemy by 10%, reduces damage received by 50% for 1 turn, changes own orb into a Matching orb, boosts ATK of [STR] and [DEX] characters by 1.5x for 1 turn and becomes Crocodile & Daz for 2 turns",
+	    "specialName": "초연격의 모래와 칼",
+	    "spceial": "적 1명의 HP를 10% 줄이며, 1턴 동안 받는 데미지를 50% 감소시키고, 자신의 슬롯을 속성 일치 슬롯으로 바꾸며, 1턴 동안 [STR]과 [DEX]의 공격력을 1.5배로 만들고, 2턴 동안 ‘크로커다일&다즈’가 된다",
         specialNotes: "Change Action: When Change is activated, randomizes all non-matching orbs, including [BLOCK] orbs, reduces Bind duration by 1 turn",
-        specialName: "Neverending Sand and Blades",
         sailor: {
-            "character1": "Boosts base ATK, HP and RCV of [DEX] characters by 30",
-            "character2": "Boosts base ATK, HP and RCV of [STR] characters by 30",
-            "combined": "Boosts base ATK, HP and RCV of [STR] and [DEX] characters by 50"
+            "character1": "[DEX]의 기본 능력치가 30 상승한다",
+            "character2": "[STR]의 기본 능력치가 30 상승한다",
+            "combined": "[STR]과 [DEX]의 기본 능력치가 50 상승한다"
         },
     },
     5000: {//Smoker&Tashigi
