@@ -26962,7 +26962,7 @@ window.details = {
     2001: {//6+ [PSY] Law // modified
 	    "captain": "참격형과 자유형 캐릭터의 공격력을 2.5배로 만들며, PERFECT를 3연속, 5연속 달성 시 이후 같은 타입의 공격력이 각각 3.5배, 약 4배로 상승하고, 턴 종료 시 체력을 1000 회복한다",
 	    "specialName": "스테르벤",
-	    "spceial": "1턴 동안 필살기 데미지 및 적 HP 감소 필살기가 모든 방어 효과를 무시하며, 적 1명에게 [PSY] 슈퍼 데미지를 주고, 일당의 필살기 턴을 1턴 단축한다",
+	    "special": "1턴 동안 필살기 데미지 및 적 HP 감소 필살기가 모든 방어 효과를 무시하며, 적 1명에게 [PSY] 슈퍼 데미지를 주고, 일당의 필살기 턴을 1턴 단축한다",
         sailor: {
             "base": "None",
             "level1": "When HP is below 10% at the start of the turn, boosts base RCV of 참격형 and Free Spirit characters by 300",
@@ -32276,7 +32276,7 @@ window.details = {
         },
         captainNotes: "#{beneficial}",
 	    "specialName": "초연격의 모래와 칼",
-	    "spceial": "적 1명의 HP를 10% 줄이며, 1턴 동안 받는 데미지를 50% 감소시키고, 자신의 슬롯을 속성 일치 슬롯으로 바꾸며, 1턴 동안 [STR]과 [DEX]의 공격력을 1.5배로 만들고, 2턴 동안 ‘크로커다일&다즈’가 된다",
+	    "special": "적 1명의 HP를 10% 줄이며, 1턴 동안 받는 데미지를 50% 감소시키고, 자신의 슬롯을 속성 일치 슬롯으로 바꾸며, 1턴 동안 [STR]과 [DEX]의 공격력을 1.5배로 만들고, 2턴 동안 ‘크로커다일&다즈’가 된다",
         specialNotes: "Change Action: When Change is activated, randomizes all non-matching orbs, including [BLOCK] orbs, reduces Bind duration by 1 turn",
         sailor: {
             "character1": "[DEX]의 기본 능력치가 30 상승한다",
