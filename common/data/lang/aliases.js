@@ -1,4 +1,4 @@
-{
+window.aliases = {
   "1": [ "モンキー・D・ルフィ", "Monkey D. Luffy", "Monkey D. Luffy", "몽키 D. 루피"],
   "2": [ "モンキー・D・ルフィ ゴムゴムの銃(ピストル)", "Monkey D. Luffy Gum-Gum Carabine", "Monkey D. Luffy Gum-Gum Pistol", "몽키 D. 루피 고무 고무 총"],
   "3": [ "モンキー・D・ルフィ ゴムゴムのバズーカ", "Monkey D. Luffy Gum-Gum Bazooka", "Monkey D. Luffy Gum-Gum Bazooka", "몽키 D. 루피 고무 고무 바주카"],

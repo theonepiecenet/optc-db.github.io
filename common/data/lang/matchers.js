@@ -1018,7 +1018,12 @@ window.matchers = [
         target: 'limit',
         matcher: /Cooldown Reduction/i
     },
-    
+    {
+        name: 'Double Special Activation Potential Ability',
+        name_kr: "Double Special Activation Potential Ability",
+        target: 'limit',
+        matcher: /Double Special Activation/i
+    },
     {
         name: 'Damage Reduction Potential Ability',
         name_kr: "데미지 피해 감소",

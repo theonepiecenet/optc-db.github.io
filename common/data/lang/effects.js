@@ -736,4 +736,11 @@ window.effects = {
             return !matching ? 1 : 1.5;
         },
     },
+
+    'Attack boost (1.75x)': {
+        description: 'ATK of all units boosted by 1.75x',
+        thumb: 2215,
+        id: 62, // don't change this
+        atk: function(p) { return 1.75; }
+    },
 };
