@@ -7691,7 +7691,7 @@ window.captains = {
     },
     2232: {//Enel
         hp: function(p) { return 0.8 },
-        atk: function(p) { return Math.max(2.0, 2.0 + 0.000175 * p.healCounter); },//Change this
+        atk: function(p) { return Math.max(2.0, 2.0 + 0.000175 * p.healCounter); },
     },
     2233: {
         hp: function(p) { return (p.unit.type == "STR" || p.unit.type == "DEX" || p.unit.type == "QCK") ? 1.2 : 1; },
@@ -7780,7 +7780,7 @@ window.captains = {
         hp: function(p){ return 1.5; },
     },
     2252: {
-        atk: function(p){ return p.unit.class.has("Free Spirit") ? 1 : 1; },//Change This
+        atk: function(p){ return p.unit.class.has("Free Spirit") ? 2 : 1; },
     },
     2253: {
         atk: function(p){
@@ -7798,6 +7798,26 @@ window.captains = {
     },
     2255: {
         atk: function(p){ return p.unit.type == "PSY" ? 1.5 : 1; },
+    },
+    2256: {
+        atk: function(p){ return p.unit.class.has("Slasher") ? 1.75 : 1; },
+        hp: function(p){ return p.unit.class.has("Slasher") ? 1.75 : 1; },
+    },
+    2257: {
+        atk: function(p){ return p.unit.class.has("Free Spirit") ? 1.75 : 1; },
+        hp: function(p){ return p.unit.class.has("Free Spirit") ? 1.75 : 1; },
+    },
+    2258: {
+        atk: function(p){ return p.unit.type == "STR" ? 1.75 : 1; },
+    },
+    2259: {
+        atk: function(p){ return p.unit.type == "STR" || p.unit.type == "DEX" || p.unit.type == "QCK" ? 2 : 1; },
+    },
+    2260: {
+        atk: function(p) { return (p.unit.class.has("Free Spirit") || p.unit.class.has("Cerebral")) ? p.percHP >= 99.0 ? 1 : 1 : 1; }//Change this
+    },
+    2261: {
+        atk: function(p) { return (p.unit.class.has("Free Spirit") || p.unit.class.has("Cerebral")) ? p.percHP >= 99.0 ? 3 : 2.5 : 1; }
     },
     2500: {
         atk: function(p) { return (p.unit.class.has("Driven") || p.unit.class.has("Cerebral")) ? p.percHP <= 50.0 ? 2.5 : 1.5 : 1; }
