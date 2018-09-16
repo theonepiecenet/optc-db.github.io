@@ -1718,11 +1718,11 @@ window.details = {
 		specialNotes: "#{fixed}",
 		captain: "[INT] 캐릭터의 공격력과 체력이 2배가 된다"
 	},
-	255: {
-		special: "적 전체에게 고정 데미지 5000",
-		specialName: "로즈 론도",
+	255: { // modified
+		special: "적 전체에게 고정 데미지 5,000",
+	    "specialName": "로즈론도",
 		specialNotes: "#{fixed}",
-		captain: "INT 캐릭터의 공격력과 체력이 2배가 된다",
+	    "captain": "[INT] 캐릭터의 공격력과 체력이 2배가 된다",
         sailor: {
             "base": "None",
             "level1": "Boosts base ATK, HP and RCV of [INT] characters by 30",
@@ -19901,14 +19901,14 @@ window.details = {
         ],
         specialName: "비구름에 숨은 태양",
     },
-    1663: {//6+ Rob Lucci
-        special: "Deals 75x character's ATK in typeless damage to one enemy, greatly boosts chances of getting matching orbs for 3 turns",
-        specialName: "Six Powers Supreme: Six King Gun",
-        captain: "Boosts ATK of Powerhouse characters by 3.5x if they have a matching orb, by 2.5x otherwise, reduces crew's RCV to 0",
+    1663: {//6+ Rob Lucci // modified
+	    "spceial": "적 1명에게 캐릭터의 공격력x75배의 무 속성 데미지를 주고, 3턴 동안 일당의 속성 일치 슬롯의 출현율이 상당하게 상승",
+	    "specialName": "「육식」 비기 「육왕건」",
+	    "captain": "강인형 캐릭터의 공격력을 슬롯 일치 시 3.5배, 평상시 2.5배로 만들고, 일당의 회복력이 0이 된다",
         sailor: {
             "base": "None",
             "level1": "강인형 캐릭터의 기본 능력치가 30 상승한다",
-            "level2": "Makes [RCV] and [TND] orbs “beneficial” for Powerhouse characters",
+            "level2": "강인형 캐릭터는 [RCV][TND] 슬롯도 [유리] 슬롯으로 취급한다",
         },
         sailorNotes: "#{beneficial}",
         limit: [
@@ -25269,15 +25269,15 @@ window.details = {
             { "description": "Acquire Potential 2: " },
 		],
 	},	
-    1925: {//Coby
-        captain: "Boosts ATK of Driven characters by 2.5x",
-        special: "Reduces Bind duration for one character completely, locks all orbs for 1 turn and boosts ATK of Driven characters by 1.75x for 3 turns",
-        specialName: "Unshameful Fist of Justice",
+    1925: {//Coby // modified
+        captain: "야심형 캐릭터의 공격력을 2.5배로 만든다",
+	    "specialName": "정의에 부끄럽지 않은 주먹",
+	    "spceial": "1명의 봉쇄 상태를 완전히 해제하고, 일당의 슬롯을 1턴 고정하며 3턴 동안 야심형 캐릭터의 공격력을 1.75배로 만든다",
     },
-    1926: {//Coby
-        captain: "Boosts ATK of Driven characters by 2.5x, recovers 2x character's RCV in HP at the end of each turn and reduce damage received by 7%",
-        special: "Reduces Bind duration for one character completely, locks all orbs for 1 turn and boosts ATK of Driven characters by 1.75x for 3 turns",
-        specialName: "Unshameful Fist of Justice",
+    1926: {//Coby // modified
+	    "captain": "야심형 캐릭터의 공격력을 2.5배로 만들고, 턴 종료 시에 캐릭터의 회복력x2배의 체력을 회복하고 받는 데미지를 7% 감소시킨다",
+	    "specialName": "정의에 부끄럽지 않은 주먹",
+	    "spceial": "1명의 봉쇄 상태를 완전히 해제하고, 일당의 슬롯을 1턴 고정하며 3턴 동안 야심형 캐릭터의 공격력을 1.75배로 만든다",
         sailor: {
             "base": "None",
             "level1": "Boosts base HP of Driven characters by 75",
@@ -26330,27 +26330,27 @@ window.details = {
         specialNotes: "#{stages}",
         sailor: "Boosts base ATK of Cerebral characters by 75",
     },
-    1974: {//Hawkins
-        captain: "Boosts ATK of Cerebral characters by 3.25x if they have a matching orb, by 2.5x otherwise and makes [STR] orbs “beneficial” to Cerebral characters",
+    1974: {//Hawkins // modified
+	    "captain": "박식형 캐릭터의 공격력을 슬롯 일치 시 3.25배, 평상시 2.5배로 만들고, 박식형 캐릭터는 [STR] 슬롯도 [유리] 슬롯으로 취급한다",
         captainNotes: "#{beneficial}",
         special: [
             {
-                "description": "Cuts the current HP of one enemy by 10% and changes [TND], [EMPTY] and Badly Matching orbs into Matching orbs and if your Captain is a Cerebral character, reduces Paralysis duration by 2 turns",
+                "description": "적 1명의 HP를 10% 줄이고, [TND][EMPTY][불리] 슬롯을 속성 일치 슬롯으로 바꾸며, 선장이 박식형 캐릭터라면 일당의 마비 상태를 2턴 회복한다",
                 "cooldown": [ 14, 9 ],
             },
             {
-                "description": "Cuts the current HP of one enemy by 15% and changes [TND], [EMPTY] and Badly Matching orbs into Matching orbs and if your Captain is a Cerebral character, reduces Paralysis duration by 5 turns",
+                "description": "적 1명의 HP를 15% 줄이고, [TND][EMPTY][불리] 슬롯을 속성 일치 슬롯으로 바꾸며, 선장이 박식형 캐릭터라면 일당의 마비 상태를 5턴 회복한다",
                 "cooldown": [ 17, 12 ],
             },
             {
-                "description": "Cuts the current HP of one enemy by 20% and changes [TND], [EMPTY] and Badly Matching orbs into Matching orbs and if your Captain is a Cerebral character, reduces Paralysis duration completely",
+                "description": "적 1명의 HP를 20% 줄이고, [TND][EMPTY][불리] 슬롯을 속성 일치 슬롯으로 바꾸며, 선장이 박식형 캐릭터라면 일당의 마비 상태를 완전히 회복한다",
                 "cooldown": [ 20, 15 ],
             },
         ],
-        specialName: "Raging Strike",
+	    "specialName": "울화통의 구타",
         specialNotes: "#{stages}",
         sailor: {
-            "base": "Boosts base ATK of Cerebral characters by 75",
+            "base": "박식형 캐릭터의 기본 공격력이 75 상승한다",
             "level1": "Adds 2x character's ATK as Additional Typeless Damage",
         },
         limit: [
@@ -26406,21 +26406,21 @@ window.details = {
         specialName: "Double Edge of Revolt 「개」",
         sailor: "When HP is below 30% at the start of the turn, boosts base ATK of all characters by 40",
     },
-    1977: {//Rayleigh
-        captain: "Boosts chances of getting Matching orbs, boosts ATK of Free Spirit and Slasher characters by 2x",
-        special: "Cuts the current HP of one enemy by 20%, reduces Bind and Silence duration by 3 turns, boosts chances of getting [DEX], [PSY] and [INT] orbs for 3 turns and makes [DEX], [PSY] and [INT] orbs “beneficial” to Free Spirit characters for 3 turns",
+    1977: {//Rayleigh // modified
+	    "captain": "자유형과 참격형 캐릭터의 공격력을 2배로 만들고, 같은 타입 캐릭터의 속성 일치 슬롯 출현율이 상승한다",
+	    "specialName": "쇠할 줄 모르는 약동",
+	    "spceial": "적 1명의 HP를 20% 줄이고, 필살기 봉쇄 및 봉쇄 상태를 3턴 회복하며, 3턴 동안 [DEX][PSY][INT] 슬롯의 출현율을 조금 상승시키고, 자유형 캐릭터는 [DEX][PSY][INT] 슬롯도 [유리] 슬롯으로 취급한다",
+	    "sailor": "자신의 필살기 봉쇄 상태를 3턴 회복한다",
         specialNotes: "#{beneficial}",
-        specialName: "Unabated Surge",
-        sailor: "Reduces Silence duration on this character by 3 turns",
         sailorNotes: "#{silence}",
     },
-    1978: {//Rayleigh
-        captain: "Boosts chances of getting Matching orbs, boosts ATK of Free Spirit and Slasher characters by 2.5x",
-        special: "Cuts the current HP of one enemy by 20%, reduces Bind and Silence duration by 3 turns, boosts chances of getting [DEX], [PSY] and [INT] orbs for 3 turns and makes [DEX], [PSY] and [INT] orbs “beneficial” to Free Spirit characters for 3 turns",
+    1978: {//Rayleigh // modified
+	    "captain": "자유형과 참격형 캐릭터의 공격력을 2.5배로 만들고, 같은 타입 캐릭터의 속성 일치 슬롯 출현율이 상승한다",
+	    "spceial": "적 1명의 HP를 20% 줄이고, 필살기 봉쇄 및 봉쇄 상태를 3턴 회복하며, 3턴 동안 [DEX][PSY][INT] 슬롯의 출현율을 조금 상승시키고, 자유형 캐릭터는 [DEX][PSY][INT] 슬롯도 [유리] 슬롯으로 취급한다",
         specialNotes: "#{beneficial}",
-        specialName: "Unabated Surge",
+	    "specialName": "쇠할 줄 모르는 약동",
         sailor: {
-            "base": "Reduces Silence duration on this character by 3 turns",
+            "base": "자신의 필살기 봉쇄 상태를 3턴 회복한다",
             "level1": "Boosts base ATK of Free Spirit characters by 35",
         },
         sailorNotes: "#{silence}",
@@ -26503,7 +26503,7 @@ window.details = {
     1984: {//Luffy&Ace // modified
         captain: {
             "character1": "자유형 캐릭터의 공격력을 3배, 체력을 1.2배로 만들고, 받는 데미지를 15% 감소시킨다",
-            "character2": "자유형 캐릭터의 체력을 1.2배, 공격력을 평상시 2.25배, 슬롯 일치 시 약 3.5배로 민든다",
+            "character2": "자유형 캐릭터의 체력을 1.2배, 공격력을 평상시 2.25배, 슬롯 일치 시 약 3.5배로 만든다",
             "combined": "자유형 캐릭터의 체력을 1.2배, 공격력을 평상시 3배, 슬롯 일치 시 약 4.25배로 만들고, 받는 데미지를 20% 감소시킨다"
         },
 	    "special": "적 전체에 캐릭터의 공격력x75배의 무 속성 데미지를 주며, 1턴 동안 일당의 슬롯의 영향을 2배로 만들고, 자유형 캐릭터의 속성 슬롯을 속성 일치 슬롯으로 바꾸며, 3턴 동안 ‘루피&에이스’가 된다",
@@ -26519,7 +26519,7 @@ window.details = {
     1985: {//Luffy&Ace // modified
         captain: {
             "character1": "자유형 캐릭터의 공격력을 3배, 체력을 1.2배로 만들고, 받는 데미지를 15% 감소시킨다",
-            "character2": "자유형 캐릭터의 체력을 1.2배, 공격력을 평상시 2.25배, 슬롯 일치 시 약 3.5배로 민든다",
+            "character2": "자유형 캐릭터의 체력을 1.2배, 공격력을 평상시 2.25배, 슬롯 일치 시 약 3.5배로 만든다",
             "combined": "자유형 캐릭터의 체력을 1.2배, 공격력을 평상시 3배, 슬롯 일치 시 약 4.25배로 만들고, 받는 데미지를 20% 감소시킨다"
         },
 	    "special": "적 전체에 캐릭터의 공격력x75배의 무 속성 데미지를 주며, 1턴 동안 일당의 슬롯의 영향을 2배로 만들고, 자유형 캐릭터의 속성 슬롯을 속성 일치 슬롯으로 바꾸며, 3턴 동안 ‘루피&에이스’가 된다",
@@ -32213,6 +32213,75 @@ window.details = {
         captain: "Boosts ATK of [PSY] characters by 1.5x",
         special: "Boosts chances of getting [RCV] orbs for 2 turns",
         specialName: "Deceiving Mimicry",
+    },
+    2256: {//Mihawk
+        captain: "Boosts ATK of Slasher characters by 1.75x and their HP by 1.5x",
+        special: "Reduces Paralysis duration by 3 turns, locks all orbs for 2 turns. If you are on a Treasure Map, boosts ATK of Slasher and Free Spirit characters depending on your Treasure Map Level for 1 turn",
+        specialName: "The World's Strongest Slash",
+        specialNotes: "Level 1-10: 1.75x ATK boost<br\>Level 11-20: 2x ATK boost<br\>Level 21+: 2.25x ATK boost",
+    },
+    2257: {//Ace
+        captain: "Boosts ATK of Free Spirit characters by 1.75x and their HP by 1.5x",
+        special: "Reduces Chain Multiplier Limit and ATK DOWN duration by 4 turns. Reduces Special Cooldown of your top row by 2 turns.",
+        specialName: "The Pirate King's Ambition",
+    },
+    2258: {//Higuma
+        captain: "Boosts ATK of [STR] characters by 1.75x",
+        special: "Deals 500 fixed damage to one enemy, reduces Despair duration by 3 turns and reduces enemies' Resilience Buff duration by 3 turns.",
+        specialName: "Higuma Special",
+    },
+    2259: {//Higuma
+        captain: "Boosts ATK of [STR], [DEX] and [QCK] characters by 2x and recovers 800 HP at end of each turn",
+        special: "Deals 500 fixed damage to all enemies that will ignore damage negating abilities and barriers, reduces Despair duration by 5 turns and reduces enemies' Resilience and Enrage Buffs duration by 5 turns.",
+        specialName: "Baptism of Evil",
+    },
+    2260: {//Shanks
+        captain: "Not Translated",
+        special: "Reduces enemy Barrier duration by 1 turn, reduces Burn duration by 1 turn, boosts chances of getting matching orbs for 1 turn, randomizes all orbs, including [BLOCK] orbs, Adds 60x character's ATK as Additional Typeless Damage for 1 turn.",
+        specialName: "Shanks Special",
+        specialNotes: "#{additionalDamage : 55x}",
+    },
+    2261: {//Shanks
+        captain: {
+            "base": "Not Translated",
+            "level1": "Not Translated",
+            "level2": "Not Translated",
+            "level3": "Not Translated",
+            "level4": "Not Translated",
+            "level5": "Not Translated",
+            "level6": "Boosts ATK of Cerebral and Free Spirit characters by 3x if HP is above 99%, by 2.5x otherwise, recovers 1.75x character's RCV in HP at the end of each turn and boosts chances of getting Matching orbs for Cerebral and Free Spirit Characters",
+        },
+        special: "Reduces enemy Barrier duration by 1 turn, reduces Burn duration by 1 turn, boosts chances of getting matching orbs for 1 turn, randomizes all orbs, including [BLOCK] orbs, Adds 60x character's ATK as Additional Typeless Damage for 1 turn.",
+        specialName: "Shanks Special",
+        specialNotes: "#{additionalDamage : 55x}",
+        sailor: {
+            "base": "None",
+            "level1": "Makes [DEX] orbs \"beneficial\" for all characters",
+            "level2": "Makes [STR] orbs \"beneficial\" for this character",
+        },
+        sailorNotes: "#{beneficial}",
+        potential: [
+            {
+                "Name": "Critical Hit",
+                "description": [
+                    "Level 1: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage"
+                ]
+            },
+            {
+                "Name": "Double Special Activation",
+                "description": [
+                    "Level 1: Once per an adventure, reduce own Special Cooldown by 1 turn after the first time this special is used",
+                    "Level 2: Once per an adventure, reduce own Special Cooldown by 2 turns after the first time this special is used",
+                    "Level 3: Once per an adventure, reduce own Special Cooldown by 3 turns after the first time this special is used",
+                    "Level 4: Once per an adventure, reduce own Special Cooldown by 5 turns after the first time this special is used",
+                    "Level 5: Once per an adventure, sets your Special Gauge to MAX after the first time this special is used"
+                ]
+            },
+        ]
     },
     2500: {//Doflamingo Raid v2 // modified
         captain: "야심형과 박식형 캐릭터의 공격력을 1.5배, 남은 체력이 50% 이하일 때는 2.5배로 만든다",
