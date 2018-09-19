@@ -3449,7 +3449,7 @@ window.details = {
     447: { // modified
 	    "captain": "받는 데미지가 2배가 되는 반면, [STR] 캐릭터의 공격력이 2.5배, 체력이 2.25배가 된다",
 	    "specialName": "블랙홀",
-	    "spceial": "적 전체에 이전 턴에 받은 데미지x10배의 무속성 데미지",
+	    "special": "적 전체에 이전 턴에 받은 데미지x10배의 무속성 데미지",
 	    "sailor": [
 	        "None",
 	        "[STR] 속성의 기본 체력이 120 상승한다"
@@ -17228,12 +17228,12 @@ window.details = {
     1490: {//Coliseum Mr. 5 // modified
 	    "captain": "GOOD→GOOD→GREAT 순으로 공격한 후부터 캐릭터의 공격력을 1.75배로 만든다",
 	    "specialName": "도망칠 수 없는 폭풍",
-	    "spceial": "봉쇄 상태를 2턴 회복하고 슬롯 상단을 [BOMB]으로 바꾸고, 1턴 동안 적 전체의 방어력을 50% 감소시킨다",
+	    "special": "봉쇄 상태를 2턴 회복하고 슬롯 상단을 [BOMB]으로 바꾸고, 1턴 동안 적 전체의 방어력을 50% 감소시킨다",
     },
     1491: {//Coliseum Mr. 5 // modified
 	    "captain": "GOOD→GOOD→GREAT 순으로 공격한 후부터 캐릭터의 공격력을 2배로 만든다",
 	    "specialName": "도망칠 수 없는 폭풍",
-	    "spceial": "봉쇄 상태를 2턴 회복하고 슬롯 상단을 [BOMB]으로 바꾸고, 1턴 동안 적 전체의 방어력을 50% 감소시킨다",
+	    "special": "봉쇄 상태를 2턴 회복하고 슬롯 상단을 [BOMB]으로 바꾸고, 1턴 동안 적 전체의 방어력을 50% 감소시킨다",
     },
     1492: {//6+ Sabo :: modified
         captain: "자유형 캐릭터의 공격력이 2.75배가 되고, 체력과 회복력이 조금 상승한다",
@@ -17400,14 +17400,14 @@ window.details = {
         captainNotes: "Boosts stack, so a Fighter/강인형 character gets 1.69x ATK",
 	    "captain": "격투형과 강인형의 공격력을 각각 1.3배로 만든다",
 	    "specialName": "디아블 잠브 다지기·베이크드",
-	    "spceial": "적 1명에게 공격력x15배의 [QCK] 데미지를 주고, 1턴 동안 격투형 캐릭터의 공격력을 1.75배로 만든다",
+	    "special": "적 1명에게 공격력x15배의 [QCK] 데미지를 주고, 1턴 동안 격투형 캐릭터의 공격력을 1.75배로 만든다",
 	    "sailor": "일당의 기본 공격력이 15 상승한다",
     },
     1508: {//White Day Sanji // modified
         captainNotes: "Boosts stack, so a Fighter/강인형 character gets 2.25x ATK",
 	    "captain": "격투형과 강인형의 공격력을 각각 1.5배로 만들고, 턴 종료 시 캐릭터의 회복력x2배의 체력을 회복한다",
 	    "specialName": "디아블 잠브 다지기·베이크드",
-	    "spceial": "적 1명에게 공격력x15배의 [QCK] 데미지를 주고, 1턴 동안 격투형 캐릭터의 공격력을 1.75배로 만든다",
+	    "special": "적 1명에게 공격력x15배의 [QCK] 데미지를 주고, 1턴 동안 격투형 캐릭터의 공격력을 1.75배로 만든다",
 	    "sailor": "일당의 기본 공격력이 15 상승한다",
     },
     1509: {//Haruta // modified
@@ -17449,7 +17449,7 @@ window.details = {
     1515: {//White Day Brook // modified
 	    "captain": "[STR], [QCK] 속성의 공격력이 1.5배가 된다",
 	    "specialName": "콧노래 삼백보 오늬 가르기·싸라기",
-	    "spceial": "적 전체의 HP를 10% 줄이고, 1턴 동안 일당의 [RCV] 슬롯을 [유리] 슬롯으로 취급한다",
+	    "special": "적 전체의 HP를 10% 줄이고, 1턴 동안 일당의 [RCV] 슬롯을 [유리] 슬롯으로 취급한다",
         specialNotes: "#{beneficial}",
         sailor: "자신은 [RCV] 슬롯도 [유리] 슬롯으로 취급한다",
         sailorNotes: "#{beneficial}",
@@ -17457,7 +17457,7 @@ window.details = {
     1516: {//White Day Brook // modified
 	    "captain": "[STR], [QCK] 속성의 공격력이 2배가 되고, 턴 종료 시 캐릭터의 회복력x2배의 체력을 회복한다",
 	    "specialName": "콧노래 삼백보 오늬 가르기·싸라기",
-	    "spceial": "적 전체의 HP를 10% 줄이고, 1턴 동안 일당의 [RCV] 슬롯을 [유리] 슬롯으로 취급한다",
+	    "special": "적 전체의 HP를 10% 줄이고, 1턴 동안 일당의 [RCV] 슬롯을 [유리] 슬롯으로 취급한다",
         specialNotes: "#{beneficial}",
         sailor: "자신은 [RCV] 슬롯도 [유리] 슬롯으로 취급한다",
         sailorNotes: "#{beneficial}",
@@ -17556,13 +17556,13 @@ window.details = {
     1529: {//Cavendish // modified
 	    "captain": "일당의 공격력을 1.5배로 만들고 자신의 공격력은 3배가 된다",
 	    "specialName": "미검 블루 버드",
-	    "spceial": "1턴 동안 일당의 체력이 일정 비율 이상일 때, 참격형 캐릭터의 슬롯의 영향을 2.25배, 그 이외일 때는 2배로 증폭시킨다",
+	    "special": "1턴 동안 일당의 체력이 일정 비율 이상일 때, 참격형 캐릭터의 슬롯의 영향을 2.25배, 그 이외일 때는 2배로 증폭시킨다",
 	    "sailor": "선장이 [STR]이거나 [QCK]일 때 일당의 기본 공격력을 50% 감소시킨다",
     },
     1530: {//Cavendish // modified
 	    "captain": "일당의 공격력을 1.75배로 만들고 자신의 공격력은 3.5배가 된다",
 	    "specialName": "미검 블루 버드",
-	    "spceial": "1턴 동안 일당의 체력이 일정 비율 이상일 때, 참격형 캐릭터의 슬롯의 영향을 2.25배, 그 이외일 때는 2배로 증폭시킨다",
+	    "special": "1턴 동안 일당의 체력이 일정 비율 이상일 때, 참격형 캐릭터의 슬롯의 영향을 2.25배, 그 이외일 때는 2배로 증폭시킨다",
 	    "sailor": "선장이 [STR]이거나 [QCK]일 때 일당의 기본 공격력을 50% 감소시킨다",
     },
     1531: {//Legend Usopp // modified
@@ -17866,13 +17866,13 @@ window.details = {
     1539: {//Perona
         captain: "Boosts ATK and RCV of characters with cost 20 or less by 1.5x",
 	    "specialName": "네거티브 홀로우 「거기서 썩어버려라 얼빠진 놈들」",
-	    "spceial": "1턴 동안, 받은 데미지를 90% 줄이고 적 전체의 방어력을 대폭 감소, 적에게 걸린 [Threshold Damage Reduction] 상태와 데미지 감소 상태를 2턴 줄인다",
+	    "special": "1턴 동안, 받은 데미지를 90% 줄이고 적 전체의 방어력을 대폭 감소, 적에게 걸린 [Threshold Damage Reduction] 상태와 데미지 감소 상태를 2턴 줄인다",
 	    "sailor": "[INT] 속성의 기본 공격력이 50 상승한다"
     },
     1540: {//Perona // modified
 	    "captain": "코스트 30 이하 캐릭터의 공격력을 2.25배, 회복력을 1.5배로 만든다",
 	    "specialName": "네거티브 홀로우 「거기서 썩어버려라 얼빠진 놈들」",
-	    "spceial": "1턴 동안, 받은 데미지를 90% 줄이고 적 전체의 방어력을 대폭 감소, 적에게 걸린 [Threshold Damage Reduction] 상태와 데미지 감소 상태를 2턴 줄인다",
+	    "special": "1턴 동안, 받은 데미지를 90% 줄이고 적 전체의 방어력을 대폭 감소, 적에게 걸린 [Threshold Damage Reduction] 상태와 데미지 감소 상태를 2턴 줄인다",
         sailor: {
             "base": "[INT] 속성의 기본 공격력이 50 상승한다",
             "level1": "야심형 캐릭터의 기본 체력이 50 상승한다",
@@ -18360,12 +18360,12 @@ window.details = {
     1565: {//Dagama // modified
 	    "captain": "모험 시작 시 필살기 턴을 2턴 단축하고, 일당의 공격력을 2배로 만든다",
 	    "specialName": "혼전에 숨겨진 질서",
-	    "spceial": "일당의 체력을 10% 줄이고, 필살기 턴을 1턴 단축한다",
+	    "special": "일당의 체력을 10% 줄이고, 필살기 턴을 1턴 단축한다",
     },
     1566: {//Dagama // modified
 	    "captain": "모험 시작 시 필살기 턴을 2턴 단축하고, 일당의 공격력을 2배로 만든다",
 	    "specialName": "혼전에 숨겨진 질서",
-	    "spceial": "일당의 체력을 10% 줄이고, 필살기 턴을 1턴 단축한다",
+	    "special": "일당의 체력을 10% 줄이고, 필살기 턴을 1턴 단축한다",
     },
     1567: {//Kid Boa
         captain: "Boosts ATK and RCV of [QCK] characters by 1.5x",
@@ -18933,12 +18933,12 @@ window.details = {
     1596: {//Shirahoshi
         captain: "Boosts ATK and RCV of [INT] characters by 1.5x",
 	    "specialName": "저녁 식사 때까지의 대모험",
-	    "spceial": "1턴 동안 받는 데미지가 70% 줄어들고 봉쇄, 선장효과 무효, 마비 상태를 2턴 회복한다",
+	    "special": "1턴 동안 받는 데미지가 70% 줄어들고 봉쇄, 선장효과 무효, 마비 상태를 2턴 회복한다",
     },
     1597: {//Shirahoshi
 	    "captain": "[INT]의 공격력과 회복력을 1.75배로 만든다",
 	    "specialName": "저녁 식사 때까지의 대모험",
-	    "spceial": "1턴 동안 받는 데미지가 70% 줄어들고 봉쇄, 선장효과 무효, 마비 상태를 2턴 회복한다",
+	    "special": "1턴 동안 받는 데미지가 70% 줄어들고 봉쇄, 선장효과 무효, 마비 상태를 2턴 회복한다",
     },
     1598: {//Ryuboshi
         captain: "Boosts HP of Powerhouse characters by 1.5x",
@@ -19903,7 +19903,7 @@ window.details = {
         specialName: "비구름에 숨은 태양",
     },
     1663: {//6+ Rob Lucci // modified
-	    "spceial": "적 1명에게 캐릭터의 공격력x75배의 무 속성 데미지를 주고, 3턴 동안 일당의 속성 일치 슬롯의 출현율이 상당하게 상승",
+	    "special": "적 1명에게 캐릭터의 공격력x75배의 무 속성 데미지를 주고, 3턴 동안 일당의 속성 일치 슬롯의 출현율이 상당하게 상승",
 	    "specialName": "「육식」 비기 「육왕건」",
 	    "captain": "강인형 캐릭터의 공격력을 슬롯 일치 시 3.5배, 평상시 2.5배로 만들고, 일당의 회복력이 0이 된다",
         sailor: {
@@ -25273,12 +25273,12 @@ window.details = {
     1925: {//Coby // modified
         captain: "야심형 캐릭터의 공격력을 2.5배로 만든다",
 	    "specialName": "정의에 부끄럽지 않은 주먹",
-	    "spceial": "1명의 봉쇄 상태를 완전히 해제하고, 일당의 슬롯을 1턴 고정하며 3턴 동안 야심형 캐릭터의 공격력을 1.75배로 만든다",
+	    "special": "1명의 봉쇄 상태를 완전히 해제하고, 일당의 슬롯을 1턴 고정하며 3턴 동안 야심형 캐릭터의 공격력을 1.75배로 만든다",
     },
     1926: {//Coby // modified
 	    "captain": "야심형 캐릭터의 공격력을 2.5배로 만들고, 턴 종료 시에 캐릭터의 회복력x2배의 체력을 회복하고 받는 데미지를 7% 감소시킨다",
 	    "specialName": "정의에 부끄럽지 않은 주먹",
-	    "spceial": "1명의 봉쇄 상태를 완전히 해제하고, 일당의 슬롯을 1턴 고정하며 3턴 동안 야심형 캐릭터의 공격력을 1.75배로 만든다",
+	    "special": "1명의 봉쇄 상태를 완전히 해제하고, 일당의 슬롯을 1턴 고정하며 3턴 동안 야심형 캐릭터의 공격력을 1.75배로 만든다",
         sailor: {
             "base": "None",
             "level1": "Boosts base HP of Driven characters by 75",
@@ -26398,26 +26398,26 @@ window.details = {
     1975: {//X Drake // modified
 	    "captain": "남은 체력이 적을 때, 일당의 공격력을 2배로 만든다",
 	    "specialName": "반기의 듀얼 엣지 「개」",
-	    "spceial": "적 1명에게 [QCK] 특대 데미지를 주고, 1턴 동안 일당의 슬롯을 고정시키며, 자신의 슬롯을 [QCK]으로 바꾸고, 필살기 발동 시의 체력이 많을 때 [RCV][TND][EMPTY][BLOCK][BOMB] 슬롯을 속성 일치 슬롯으로, 체력이 적을 때는 인접한 슬롯을 속성 일치 슬롯으로 바꾼다",
+	    "special": "적 1명에게 [QCK] 특대 데미지를 주고, 1턴 동안 일당의 슬롯을 고정시키며, 자신의 슬롯을 [QCK]으로 바꾸고, 필살기 발동 시의 체력이 많을 때 [RCV][TND][EMPTY][BLOCK][BOMB] 슬롯을 속성 일치 슬롯으로, 체력이 적을 때는 인접한 슬롯을 속성 일치 슬롯으로 바꾼다",
 	    "sailor": "남은 체력이 적을 때, 일당의 기본 공격력이 40 상승한다",
     },
     1976: {//X Drake // modified
 	    "captain": "남은 체력이 적을 때, 일당의 공격력을 2.5배로 만든다",
 	    "specialName": "반기의 듀얼 엣지 「개」",
-	    "spceial": "적 1명에게 [QCK] 특대 데미지를 주고, 1턴 동안 일당의 슬롯을 고정시키며, 자신의 슬롯을 [QCK]으로 바꾸고, 필살기 발동 시의 체력이 많을 때 [RCV][TND][EMPTY][BLOCK][BOMB] 슬롯을 속성 일치 슬롯으로, 체력이 적을 때는 인접한 슬롯을 속성 일치 슬롯으로 바꾼다",
+	    "special": "적 1명에게 [QCK] 특대 데미지를 주고, 1턴 동안 일당의 슬롯을 고정시키며, 자신의 슬롯을 [QCK]으로 바꾸고, 필살기 발동 시의 체력이 많을 때 [RCV][TND][EMPTY][BLOCK][BOMB] 슬롯을 속성 일치 슬롯으로, 체력이 적을 때는 인접한 슬롯을 속성 일치 슬롯으로 바꾼다",
 	    "sailor": "남은 체력이 적을 때, 일당의 기본 공격력이 40 상승한다",
     },
     1977: {//Rayleigh // modified
 	    "captain": "자유형과 참격형 캐릭터의 공격력을 2배로 만들고, 같은 타입 캐릭터의 속성 일치 슬롯 출현율이 상승한다",
 	    "specialName": "쇠할 줄 모르는 약동",
-	    "spceial": "적 1명의 HP를 20% 줄이고, 필살기 봉쇄 및 봉쇄 상태를 3턴 회복하며, 3턴 동안 [DEX][PSY][INT] 슬롯의 출현율을 조금 상승시키고, 자유형 캐릭터는 [DEX][PSY][INT] 슬롯도 [유리] 슬롯으로 취급한다",
+	    "special": "적 1명의 HP를 20% 줄이고, 필살기 봉쇄 및 봉쇄 상태를 3턴 회복하며, 3턴 동안 [DEX][PSY][INT] 슬롯의 출현율을 조금 상승시키고, 자유형 캐릭터는 [DEX][PSY][INT] 슬롯도 [유리] 슬롯으로 취급한다",
 	    "sailor": "자신의 필살기 봉쇄 상태를 3턴 회복한다",
         specialNotes: "#{beneficial}",
         sailorNotes: "#{silence}",
     },
     1978: {//Rayleigh // modified
 	    "captain": "자유형과 참격형 캐릭터의 공격력을 2.5배로 만들고, 같은 타입 캐릭터의 속성 일치 슬롯 출현율이 상승한다",
-	    "spceial": "적 1명의 HP를 20% 줄이고, 필살기 봉쇄 및 봉쇄 상태를 3턴 회복하며, 3턴 동안 [DEX][PSY][INT] 슬롯의 출현율을 조금 상승시키고, 자유형 캐릭터는 [DEX][PSY][INT] 슬롯도 [유리] 슬롯으로 취급한다",
+	    "special": "적 1명의 HP를 20% 줄이고, 필살기 봉쇄 및 봉쇄 상태를 3턴 회복하며, 3턴 동안 [DEX][PSY][INT] 슬롯의 출현율을 조금 상승시키고, 자유형 캐릭터는 [DEX][PSY][INT] 슬롯도 [유리] 슬롯으로 취급한다",
         specialNotes: "#{beneficial}",
 	    "specialName": "쇠할 줄 모르는 약동",
         sailor: {
@@ -26468,22 +26468,22 @@ window.details = {
     1979: {//Capone // modified
 	    "captain": "사격형 캐릭터의 공격력을 1.75배로 만든다",
 	    "specialName": "버릇없는 말소 명령",
-	    "spceial": "사격형 캐릭터의 필살기 턴을 1턴 단축하고, 상단 캐릭터의 슬롯을 속성 일치 슬롯으로 바꾼다",
+	    "special": "사격형 캐릭터의 필살기 턴을 1턴 단축하고, 상단 캐릭터의 슬롯을 속성 일치 슬롯으로 바꾼다",
     },
     1980: {//Capone // modified
 	    "captain": "사격형 캐릭터의 체력을 1.2배, 공격력을 슬롯 일치 시 2.5배, 평상시 2배로 만든다",
 	    "specialName": "버릇없는 말소 명령",
-	    "spceial": "사격형 캐릭터의 필살기 턴을 1턴 단축하고, 상단 캐릭터의 슬롯을 속성 일치 슬롯으로 바꾼다",
+	    "special": "사격형 캐릭터의 필살기 턴을 1턴 단축하고, 상단 캐릭터의 슬롯을 속성 일치 슬롯으로 바꾼다",
     },
     1981: {//Bonney // modified
 	    "captain": "격투형 캐릭터의 공격력을 1.75배로 만든다",
 	    "specialName": "아랑곳하지 않는 폭식",
-	    "spceial": "일당의 [RCV] 슬롯을 속성 일치 슬롯으로 바꾸고, 2턴 동안 턴 종료 시 체력을 중간량 회복한다",
+	    "special": "일당의 [RCV] 슬롯을 속성 일치 슬롯으로 바꾸고, 2턴 동안 턴 종료 시 체력을 중간량 회복한다",
     },
     1982: {//Bonney // modified
 	    "captain": "격투형 캐릭터의 회복력을 1.5배, 공격력을 체력이 일정 비율 이상이면 2.25배, 그 외의 경우 2배로 만든다",
 	    "specialName": "아랑곳하지 않는 폭식",
-	    "spceial": "일당의 [RCV] 슬롯을 속성 일치 슬롯으로 바꾸고, 2턴 동안 턴 종료 시 체력을 중간량 회복한다",
+	    "special": "일당의 [RCV] 슬롯을 속성 일치 슬롯으로 바꾸고, 2턴 동안 턴 종료 시 체력을 중간량 회복한다",
     },
     1983: {//Smoker&Tashigi // modified
         captain: {
@@ -27147,7 +27147,7 @@ window.details = {
     2009: {//Kuma // modified
 	    "captain": "[INT]과 [STR]의 공격력을 1.5배, 체력을 1.2배로 만든다",
 	    "specialName": "인간 병기의 증거",
-	    "spceial": "적 전체의 HP를 10% 줄이고, 상단 캐릭터의 필살기 턴을 2턴 단축시키며, 1턴 동안 [INT]과 [STR]의 일반 공격에 의한 속성 상성의 영향이 트레저 맵 Lv 1~10일 때 1.5배, Lv 11~20일 때 1.75배, Lv 21 이상일 때는 2배가 된다",
+	    "special": "적 전체의 HP를 10% 줄이고, 상단 캐릭터의 필살기 턴을 2턴 단축시키며, 1턴 동안 [INT]과 [STR]의 일반 공격에 의한 속성 상성의 영향이 트레저 맵 Lv 1~10일 때 1.5배, Lv 11~20일 때 1.75배, Lv 21 이상일 때는 2배가 된다",
         specialNotes: "Level 1-10: 1.5x affinity boost<br\>Level 11-20: 1.75x affinity boost<br\>Level 21+: 2x affinity boost",
     },
     2010: {//Monet
@@ -32296,13 +32296,13 @@ window.details = {
     },
     2502: {//Kung Fu Luffy // modified
         captain: "일당의 체력을 약간 상승시키고, PERFECT를 2연속, 5연속 달성 시 이후 캐릭터의 공격력이 3.5배, 약 4배로 상승한다",
-	    "spceial": "적 전체에게 캐릭터의 공격력x120배의 무 속성 데미지를 주고, 인접한 슬롯을 속성 일치 슬롯으로 바꾸며, 2턴 동안 일당의 공격력을 1.75배로 만들고, 적 각각에 대하여 5656을 넘는 부분의 데미지를 초대폭 줄이며, PERFECT 타이밍이 상당히 쉬워진다",
+	    "special": "적 전체에게 캐릭터의 공격력x120배의 무 속성 데미지를 주고, 인접한 슬롯을 속성 일치 슬롯으로 바꾸며, 2턴 동안 일당의 공격력을 1.75배로 만들고, 적 각각에 대하여 5656을 넘는 부분의 데미지를 초대폭 줄이며, PERFECT 타이밍이 상당히 쉬워진다",
 	    "sailor": "GOOD, GREAT, PERFECT 타이밍 보너스에 캐릭터의 공격력x3배의 데미지가 가산된다",
         specialName: "고무고무 거인의 라이플 「쿵후」",
     },
     2503: {//Kung Fu Luffy // modified
         captain: "일당의 체력을 약간 상승시키고, PERFECT를 2연속, 5연속 달성 시 이후 캐릭터의 공격력이 3.5배, 약 4배로 상승한다",
-	    "spceial": "적 전체에게 캐릭터의 공격력x120배의 무 속성 데미지를 주고, 인접한 슬롯을 속성 일치 슬롯으로 바꾸며, 2턴 동안 일당의 공격력을 1.75배로 만들고, 적 각각에 대하여 5656을 넘는 부분의 데미지를 초대폭 줄이며, PERFECT 타이밍이 상당히 쉬워진다",
+	    "special": "적 전체에게 캐릭터의 공격력x120배의 무 속성 데미지를 주고, 인접한 슬롯을 속성 일치 슬롯으로 바꾸며, 2턴 동안 일당의 공격력을 1.75배로 만들고, 적 각각에 대하여 5656을 넘는 부분의 데미지를 초대폭 줄이며, PERFECT 타이밍이 상당히 쉬워진다",
 	    "sailor": "GOOD, GREAT, PERFECT 타이밍 보너스에 캐릭터의 공격력x3배의 데미지가 가산된다",
         specialName: "고무고무 거인의 라이플 「쿵후」",
         potential: [
