@@ -17396,19 +17396,19 @@ window.details = {
         specialNotes: "#{ignoreBarrier}",
         specialName: "수시교",
     },
-    1507: {//White Day Sanji
-        captain: "Boosts ATK of Fighter and Powerhouse characters by 1.3x",
+    1507: {//White Day Sanji // modified
         captainNotes: "Boosts stack, so a Fighter/강인형 character gets 1.69x ATK",
-        special: "Deals 15x character's ATK in [QCK] damage to one enemy, boosts ATK of Fighter characters by 1.75x for 1 turn",
-        sailor: "Boosts base ATK of all characters by 15",
-        specialName: "Diable Jambe - Concassé Baked",
+	    "captain": "격투형과 강인형의 공격력을 각각 1.3배로 만든다",
+	    "specialName": "디아블 잠브 다지기·베이크드",
+	    "spceial": "적 1명에게 공격력x15배의 [QCK] 데미지를 주고, 1턴 동안 격투형 캐릭터의 공격력을 1.75배로 만든다",
+	    "sailor": "일당의 기본 공격력이 15 상승한다",
     },
-    1508: {//White Day Sanji
-        captain: "Boosts ATK of Fighter and Powerhouse characters by 1.5x. Recovers 2x character's RCV in HP at the end of each 턴",
+    1508: {//White Day Sanji // modified
         captainNotes: "Boosts stack, so a Fighter/강인형 character gets 2.25x ATK",
-        special: "Deals 15x character's ATK in [QCK] damage to one enemy, boosts ATK of Fighter characters by 1.75x for 1 turn",
-        sailor: "Boosts base ATK of all characters by 15",
-        specialName: "Diable Jambe - Concassé Baked",
+	    "captain": "격투형과 강인형의 공격력을 각각 1.5배로 만들고, 턴 종료 시 캐릭터의 회복력x2배의 체력을 회복한다",
+	    "specialName": "디아블 잠브 다지기·베이크드",
+	    "spceial": "적 1명에게 공격력x15배의 [QCK] 데미지를 주고, 1턴 동안 격투형 캐릭터의 공격력을 1.75배로 만든다",
+	    "sailor": "일당의 기본 공격력이 15 상승한다",
     },
     1509: {//Haruta // modified
 		"captain": "모험 시작 시 참격형과 박식형 캐릭터의 필살기 턴을 1턴 단축하고 [INT]의 공격력을 2배로 만든다",
@@ -17446,19 +17446,19 @@ window.details = {
         special: "Randomizes all orbs, including [BLOCK] orbs, reduces Special Cooldown of 1 character by 1 턴",
         specialName: "Unfamiliar Escort",
     },
-    1515: {//White Day Brook
-        captain: "Boosts ATK of [STR] and [QCK] characters by 1.5x",
-        special: "Cuts the current HP of each enemy by 10% and makes [RCV] orbs “beneficial” for all characters for 1 turn",
+    1515: {//White Day Brook // modified
+	    "captain": "[STR], [QCK] 속성의 공격력이 1.5배가 된다",
+	    "specialName": "콧노래 삼백보 오늬 가르기·싸라기",
+	    "spceial": "적 전체의 HP를 10% 줄이고, 1턴 동안 일당의 [RCV] 슬롯을 [유리] 슬롯으로 취급한다",
         specialNotes: "#{beneficial}",
-        specialName: "Three-Verse Humming: Arrow-Notch Slash - Hail",
         sailor: "자신은 [RCV] 슬롯도 [유리] 슬롯으로 취급한다",
         sailorNotes: "#{beneficial}",
     },
-    1516: {//White Day Brook
-        captain: "Boosts ATK of [STR] and [QCK] characters by 2x, recovers 2x character's RCV in HP at the end of each turn",
-        special: "Cuts the current HP of each enemy by 10% and makes [RCV] orbs “beneficial” for all characters for 1 turn",
+    1516: {//White Day Brook // modified
+	    "captain": "[STR], [QCK] 속성의 공격력이 2배가 되고, 턴 종료 시 캐릭터의 회복력x2배의 체력을 회복한다",
+	    "specialName": "콧노래 삼백보 오늬 가르기·싸라기",
+	    "spceial": "적 전체의 HP를 10% 줄이고, 1턴 동안 일당의 [RCV] 슬롯을 [유리] 슬롯으로 취급한다",
         specialNotes: "#{beneficial}",
-        specialName: "Three-Verse Humming: Arrow-Notch Slash - Hail",
         sailor: "자신은 [RCV] 슬롯도 [유리] 슬롯으로 취급한다",
         sailorNotes: "#{beneficial}",
     },
@@ -18932,13 +18932,13 @@ window.details = {
     },
     1596: {//Shirahoshi
         captain: "Boosts ATK and RCV of [INT] characters by 1.5x",
-        special: "Reduces Bind, Despair and Paralysis duration by 2 턴, reduces damage received by 70% for 1 turn",
-        specialName: "Great Dinner Buffet",
+	    "specialName": "저녁 식사 때까지의 대모험",
+	    "spceial": "1턴 동안 받는 데미지가 70% 줄어들고 봉쇄, 선장효과 무효, 마비 상태를 2턴 회복한다",
     },
     1597: {//Shirahoshi
-        captain: "Boosts ATK and RCV of [INT] characters by 1.75x",
-        special: "Reduces Bind, Despair and Paralysis duration by 2 턴, reduces damage received by 70% for 1 turn",
-        specialName: "Great Dinner Buffet",
+	    "captain": "[INT]의 공격력과 회복력을 1.75배로 만든다",
+	    "specialName": "저녁 식사 때까지의 대모험",
+	    "spceial": "1턴 동안 받는 데미지가 70% 줄어들고 봉쇄, 선장효과 무효, 마비 상태를 2턴 회복한다",
     },
     1598: {//Ryuboshi
         captain: "Boosts HP of Powerhouse characters by 1.5x",
@@ -26465,25 +26465,25 @@ window.details = {
             },
         ],
     },
-    1979: {//Capone
-        captain: "Boosts ATK of Shooter characters by 1.75x",
-        special: "Reduces Special Cooldown of Shooter specials by 1 turn and changes orbs in the top row into Matching orbs",
-        specialName: "Angry Threatening Command",
+    1979: {//Capone // modified
+	    "captain": "사격형 캐릭터의 공격력을 1.75배로 만든다",
+	    "specialName": "버릇없는 말소 명령",
+	    "spceial": "사격형 캐릭터의 필살기 턴을 1턴 단축하고, 상단 캐릭터의 슬롯을 속성 일치 슬롯으로 바꾼다",
     },
-    1980: {//Capone
-        captain: "Boosts HP of Shooter characters by 1.2x and boosts ATK of Shooter characters by 2.5x if they have a matching orb, by 2x otherwise",
-        special: "Reduces Special Cooldown of Shooter specials by 1 turn and changes orbs in the top row into Matching orbs",
-        specialName: "Angry Threatening Command",
+    1980: {//Capone // modified
+	    "captain": "사격형 캐릭터의 체력을 1.2배, 공격력을 슬롯 일치 시 2.5배, 평상시 2배로 만든다",
+	    "specialName": "버릇없는 말소 명령",
+	    "spceial": "사격형 캐릭터의 필살기 턴을 1턴 단축하고, 상단 캐릭터의 슬롯을 속성 일치 슬롯으로 바꾼다",
     },
-    1981: {//Bonney
-        captain: "Boosts ATK of Fighter characters by 1.75x",
-        special: "Changes [RCV] orbs into matching orbs and recovers 15x character's RCV in HP at the end of the turn for 2 turns",
-        specialName: "Glutonous Meal",
+    1981: {//Bonney // modified
+	    "captain": "격투형 캐릭터의 공격력을 1.75배로 만든다",
+	    "specialName": "아랑곳하지 않는 폭식",
+	    "spceial": "일당의 [RCV] 슬롯을 속성 일치 슬롯으로 바꾸고, 2턴 동안 턴 종료 시 체력을 중간량 회복한다",
     },
-    1982: {//Bonney
-        captain: "Boosts RCV of Fighter characters by 1.2x and boosts ATK of Fighter characters by 2.25x if HP is above ??% at the start of the turn, by 2x otherwise",
-        special: "Changes [RCV] orbs into matching orbs and recovers 15x character's RCV in HP at the end of the turn for 2 turns",
-        specialName: "Glutonous Meal",
+    1982: {//Bonney // modified
+	    "captain": "격투형 캐릭터의 회복력을 1.5배, 공격력을 체력이 일정 비율 이상이면 2.25배, 그 외의 경우 2배로 만든다",
+	    "specialName": "아랑곳하지 않는 폭식",
+	    "spceial": "일당의 [RCV] 슬롯을 속성 일치 슬롯으로 바꾸고, 2턴 동안 턴 종료 시 체력을 중간량 회복한다",
     },
     1983: {//Smoker&Tashigi // modified
         captain: {
@@ -27144,10 +27144,10 @@ window.details = {
         specialName: "Proof of a Human Weapon",
         specialNotes: "Level 1-10: 1.5x affinity boost<br\>Level 11-20: 1.75x affinity boost<br\>Level 21+: 2x affinity boost",
     },
-    2009: {//Kuma
-        captain: "Boosts ATK of [STR] and [INT] characters by 1.5x and their HP by 1.2x",
-        special: "Cuts the current HP of each enemy by 10%, reduces Special Cooldown of your top row by 2 turns and boosts the Color Affinity of [STR] and [INT] characters depending on your Treasure Map Level for 1 turn",
-        specialName: "Proof of a Human Weapon",
+    2009: {//Kuma // modified
+	    "captain": "[INT]과 [STR]의 공격력을 1.5배, 체력을 1.2배로 만든다",
+	    "specialName": "인간 병기의 증거",
+	    "spceial": "적 전체의 HP를 10% 줄이고, 상단 캐릭터의 필살기 턴을 2턴 단축시키며, 1턴 동안 [INT]과 [STR]의 일반 공격에 의한 속성 상성의 영향이 트레저 맵 Lv 1~10일 때 1.5배, Lv 11~20일 때 1.75배, Lv 21 이상일 때는 2배가 된다",
         specialNotes: "Level 1-10: 1.5x affinity boost<br\>Level 11-20: 1.75x affinity boost<br\>Level 21+: 2x affinity boost",
     },
     2010: {//Monet
@@ -32296,15 +32296,15 @@ window.details = {
     },
     2502: {//Kung Fu Luffy // modified
         captain: "일당의 체력을 약간 상승시키고, PERFECT를 2연속, 5연속 달성 시 이후 캐릭터의 공격력이 3.5배, 약 4배로 상승한다",
-        special: "캐릭터의 공격력x120배의 무 속성 데미지를 주고, 인접한 슬롯을 속성 일치 슬롯으로 바꾸며, 2턴 동안 일당의 공격력을 1.75배로 만들고, 적 각각에 대하여 5,656을 넘는 부분의 데미지를 초대폭 줄이며, PERFECT 타이밍이 상당히 쉬워진다",
-        sailor: "GOOD, GREAT, PERFECT 타이밍 보너스에 캐릭터의 공격력 x3배의 데미지가 가산된다",
-        specialName: "고무고무 거인의 라이플: 쿵후",
+	    "spceial": "적 전체에게 캐릭터의 공격력x120배의 무 속성 데미지를 주고, 인접한 슬롯을 속성 일치 슬롯으로 바꾸며, 2턴 동안 일당의 공격력을 1.75배로 만들고, 적 각각에 대하여 5656을 넘는 부분의 데미지를 초대폭 줄이며, PERFECT 타이밍이 상당히 쉬워진다",
+	    "sailor": "GOOD, GREAT, PERFECT 타이밍 보너스에 캐릭터의 공격력x3배의 데미지가 가산된다",
+        specialName: "고무고무 거인의 라이플 「쿵후」",
     },
     2503: {//Kung Fu Luffy // modified
         captain: "일당의 체력을 약간 상승시키고, PERFECT를 2연속, 5연속 달성 시 이후 캐릭터의 공격력이 3.5배, 약 4배로 상승한다",
-        special: "캐릭터의 공격력x120배의 무 속성 데미지를 주고, 인접한 슬롯을 속성 일치 슬롯으로 바꾸며, 2턴 동안 일당의 공격력을 1.75배로 만들고, 적 각각에 대하여 5,656을 넘는 부분의 데미지를 초대폭 줄이며, PERFECT 타이밍이 상당히 쉬워진다",
-        sailor: "GOOD, GREAT, PERFECT 타이밍 보너스에 캐릭터의 공격력 x3배의 데미지가 가산된다",
-        specialName: "고무고무 거인의 라이플: 쿵후",
+	    "spceial": "적 전체에게 캐릭터의 공격력x120배의 무 속성 데미지를 주고, 인접한 슬롯을 속성 일치 슬롯으로 바꾸며, 2턴 동안 일당의 공격력을 1.75배로 만들고, 적 각각에 대하여 5656을 넘는 부분의 데미지를 초대폭 줄이며, PERFECT 타이밍이 상당히 쉬워진다",
+	    "sailor": "GOOD, GREAT, PERFECT 타이밍 보너스에 캐릭터의 공격력x3배의 데미지가 가산된다",
+        specialName: "고무고무 거인의 라이플 「쿵후」",
         potential: [
             {
                 "Name": "크리티컬 공격",
