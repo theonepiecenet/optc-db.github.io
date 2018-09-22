@@ -6701,7 +6701,52 @@ window.details = {
 	758: {
 		special: "[DEX][QCK] 슬롯을 [PSY] 슬롯으로 변환",
 		specialName: "「수엄」오의 후쿠로강타 ",
-		captain: "PSY 캐릭터의 공격을 2배로하고, 턴 종료시 이 캐릭터의 회복력 X3배의 체력을 회복한다."
+		captain: "PSY 캐릭터의 공격을 2배로하고, 턴 종료시 이 캐릭터의 회복력 X3배의 체력을 회복한다.",
+        sailor: {
+            "base": "None",
+            "level1": "Makes [STR] orbs \"beneficial\" for this character",
+            "level2": "Makes [TND] orbs \"beneficial\" for all characters",
+        },
+        specialNotes: "#{beneficial}",
+        limit: [
+            { "description": "체력 상승 : 20" },
+            { "description": "체력 상승 : 30" },
+            { "description": "선원 효과 추가 1: Makes [STR] orbs \"beneficial\" for this character" },
+            { "description": "잠재능력 습득 1: [INT] 데미지 피해 감소" },
+            { "description": "공격력 상승 : 40" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "공격력 상승 : 60" },
+            { "description": "체력 상승 : 30" },
+            { "description": "잠재능력 소켓슬롯 추가 : 1" },
+            { "description": "체력 상승 : 70" },
+            { "description": "선원 효과 추가 2: Makes [TND] orbs \"beneficial\" for all characters" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "공격력 상승 : 100" },
+            { "description": "잠재능력 습득 2: " },
+        ],
+        potential: [
+            {
+                "Name": "[INT] 데미지 피해 감소",
+                "description": [
+                    "Level 1: [INT] 속성에게 받는 데미지를 1% 감소시킨다",
+                    "Level 2: [INT] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 3: [INT] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 4: [INT] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 5: [INT] 속성에게 받는 데미지를 ?% 감소시킨다"
+                ]
+            },
+            {
+                "Name": "Reduce No Healing duration",
+                "description": [
+                    "Level 1: Reduces No Healing duration by 1 turn",
+                    "Level 2: Reduces No Healing duration by ? turns",
+                    "Level 3: Reduces No Healing duration by ? turns",
+                    "Level 4: Reduces No Healing duration by ? turns",
+                    "Level 5: Reduces No Healing duration by ? turns"
+                ]
+            },
+        ]
 	},
 	759: {
 		special: "슬롯을 3회 자유롭게 움직이고, 일당 전원의 슬롯을 1턴 동안 고정한다",
@@ -7688,7 +7733,52 @@ window.details = {
 		special: "적 한 명에게 캐릭터의 공격력x13배의 [QCK] 데미지를 주고, 1턴 동안 받는 데미지를 75% 감소+슬롯 영향을 증폭시킨다",
 		specialName: "매혹의 아름다운 쇠몽둥이",
 		captain: "[QCK] 캐릭터의 공격력이 2배가 되고, 받는 데미지를 10% 감소시킨다",
-        specialNotes: "#{orb : 1.5x}"
+        specialNotes: "#{orb : 1.5x}",
+        sailor: {
+            "base": "None",
+            "level1": "Boosts base ATK, HP and RCV of all characters by 20",
+            "level2": "Makes [STR] orbs \"beneficial\" for this character",
+        },
+        specialNotes: "#{beneficial}",
+        limit: [
+            { "description": "회복력 상승 : 10" },
+            { "description": "체력 상승 : 30" },
+            { "description": "선원 효과 추가 1: Boosts base ATK, HP and RCV of all characters by 20" },
+            { "description": "잠재능력 습득 1: [STR] 데미지 피해 감소" },
+            { "description": "공격력 상승 : 10" },
+            { "description": "체력 상승 : 50" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "회복력 상승 : 40" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "잠재능력 소켓슬롯 추가 : 1" },
+            { "description": "공격력 상승 : 60" },
+            { "description": "선원 효과 추가 2: Makes [STR] orbs \"beneficial\" for this character" },
+            { "description": "Reduce base Special Cooldown by 3 turns" },
+            { "description": "체력 상승 : 70" },
+            { "description": "잠재능력 습득 2: Slot Bind Self-reduction" },
+        ],
+        potential: [
+            {
+                "Name": "[STR] 데미지 피해 감소",
+                "description": [
+                    "Level 1: [STR] 속성에게 받는 데미지를 1% 감소시킨다",
+                    "Level 2: [STR] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 3: [STR] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 4: [STR] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 5: [STR] 속성에게 받는 데미지를 ?% 감소시킨다"
+                ]
+            },
+            {
+                "Name": "Slot Bind Self-reduction",
+                "description": [
+                    "Level 1: Reduces Slot Bind duration by 1 turn on this character",
+                    "Level 2: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 3: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 4: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 5: Reduces Slot Bind duration by ? turns on this character"
+                ]
+            },
+        ]
 	},
 	863: { // modified
 		captain: "[QCK] 캐릭터의 공격력이 1.75배가 되고, 턴 종료 시 회복력x2배의 체력이 회복된다",
@@ -7885,7 +7975,52 @@ window.details = {
 		captain: "일당의 공격력이 1.5배가 되고, 획득하는 베리가 2배가 된다(획득 베리 증가 효과는 모험 도중에 선장이 되었을 경우에는 발휘되지 않습니다)",
 		specialName: "헤븐즈 도어 아트",
 		special: "2턴 동안 각각의 적에게 받는 데미지 중 2,000을 넘는 부분을 예술적으로 줄인다",
-		specialNotes: "정확한 데미지 공식: 2000 + ((총 데미지) - 2000) * 0.12"
+		specialNotes: "정확한 데미지 공식: 2000 + ((총 데미지) - 2000) * 0.12",
+        sailor: {
+            "base": "None",
+            "level1": "Makes [STR] and [QCK] orbs beneficial for this character",
+            "level2": "Boost base HP of all characters by 100",
+        },
+        specialNotes: "#{beneficial}",
+        limit: [
+            { "description": "체력 상승 : 20" },
+            { "description": "체력 상승 : 30" },
+            { "description": "선원 효과 추가 1: Makes [STR] and [QCK] orbs beneficial for this character" },
+            { "description": "잠재능력 습득 1: [QCK] 데미지 피해 감소" },
+            { "description": "체력 상승 : 30" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "회복력 상승 : 30" },
+            { "description": "잠재능력 소켓슬롯 추가 : 1" },
+            { "description": "체력 상승 : 50" },
+            { "description": "선원 효과 추가 2: Boost base HP of all characters by 100" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "공격력 상승 : 50" },
+            { "description": "잠재능력 습득 2: 긴급 회복" },
+        ],
+        potential: [
+            {
+                "Name": "[QCK] 데미지 피해 감소",
+                "description": [
+                    "Level 1: [QCK] 속성에게 받는 데미지를 1% 감소시킨다",
+                    "Level 2: [QCK] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 3: [QCK] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 4: [QCK] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 5: [QCK] 속성에게 받는 데미지를 ?% 감소시킨다"
+                ]
+            },
+            {
+                "Name": "긴급 회복",
+                "description": [
+                    "Level 1: If HP is below 10% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 2: If HP is below ?% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 3: If HP is below ?% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 4: If HP is below ?% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 5: If HP is below ?% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                ]
+            },
+        ]
 	},
 	879: { // modified
 		captain: "모험을 시작할 때 필살 턴을 2턴 단축하고, 격투형 캐릭터의 공격력이 1.75배가 된다",
@@ -8221,8 +8356,8 @@ window.details = {
         captain: "남은 체력이 적을 때, 박식형 캐릭터의 공격력 2.5배, 회복력 1.75배로 만든다",
         sailor: {
             "base": "None",
-            "level1": "When HP is below ??% at the start of the turn, boosts base ATK of Cerebral characters by 40",
-            "level2": "Makes RCV and [PSY] orbs “beneficial” for this character",
+            "level1": "남은 체력이 적을 때 박식형 캐릭터의 기본 공격력이 40 상승한다",
+            "level2": "자신은 [PSY][RCV] 슬롯도 [유리] 슬롯으로 취급한다",
         },
         sailorNotes: "#{beneficial}",
         limit: [
@@ -8361,7 +8496,52 @@ window.details = {
 	        }
 	    ],
 	    "captain": "강인형 캐릭터의 공격력을 2.25배, 체력 1.5배로 만들고, 턴 종료 시 체력을 소량 회복한다",
-        specialNotes: "#{stages}"
+        specialNotes: "#{stages}",
+        sailor: {
+            "base": "None",
+            "level1": "Boost base ATK of Powerhouse characters by 75",
+            "level2": "Makes [DEX] orbs beneficial for Powerhouse characters",
+        },
+        specialNotes: "#{beneficial}",
+        limit: [
+            { "description": "체력 상승 : 30" },
+            { "description": "체력 상승 : 40" },
+            { "description": "선원 효과 추가 1: Boost base ATK of Powerhouse characters by 75" },
+            { "description": "잠재능력 습득 1: [QCK] 데미지 피해 감소" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "회복력 상승 : 30" },
+            { "description": "잠재능력 소켓슬롯 추가 : 1" },
+            { "description": "체력 상승 : 80" },
+            { "description": "선원 효과 추가 2: Makes [DEX] orbs beneficial for Powerhouse characters" },
+            { "description": "Reduce base Special Cooldown by 3 turns" },
+            { "description": "공격력 상승 : 50" },
+            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+        ],
+        potential: [
+            {
+                "Name": "[QCK] 데미지 피해 감소",
+                "description": [
+                    "Level 1: [QCK] 속성에게 받는 데미지를 1% 감소시킨다",
+                    "Level 2: [QCK] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 3: [QCK] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 4: [QCK] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 5: [QCK] 속성에게 받는 데미지를 ?% 감소시킨다"
+                ]
+            },
+            {
+                "Name": "Reduce No Healing duration",
+                "description": [
+                    "Level 1: Reduces No Healing duration by 1 turn",
+                    "Level 2: Reduces No Healing duration by ? turns",
+                    "Level 3: Reduces No Healing duration by ? turns",
+                    "Level 4: Reduces No Healing duration by ? turns",
+                    "Level 5: Reduces No Healing duration by ? turns"
+                ]
+            },
+        ]
     },
     913: { // modified
         captain: "[QCK] 캐릭터의 공격력을 슬롯 일치 시 2.5배로 만든다",
@@ -10838,15 +11018,15 @@ window.details = {
         specialNotes: "Below 30% -> 1.75 boost, between 30% and 70% -> 1.5, above 70% -> 1.2",
         specialName: "추룡 송곳못"
     },
-    1083: {
-        captain: "Boosts ATK of Striker and Fighter characters by 1.5x at the start of the chain, and by 3x after the 3rd PERFECT in a row",
+    1083: { // modified
+	    "captain": "타격형과 격투형의 공격력을 1.5배로 만들고 PERFECT 3연속 달성 시, 이후 같은 타입의 공격력이 3배가 된다",
         special: "적 전체에 [STR] 큰 데미지를 주고, 필살기 발동 시 2턴 동안 체력에 따라 3단계로 나눠, 타격형과 격투형 캐릭터의 공격력을 크게 상승시킨다",
         specialNotes: "Below 30% -> 1.75 boost, between 30% and 70% -> 1.5, above 70% -> 1.2",
         specialName: "추룡 송곳못",
         sailor: {
             "base": "None",
-            "level1": "Restores his own special cooldown by 2 turns when it is rewinded",
-            "level2": "Makes [QCK] orbs “beneficial” for this character",
+            "level1": "자신의 필살기 턴 되돌리기를 2턴 회복한다",
+            "level2": "자신은 [QCK] 슬롯도 [유리] 슬롯으로 취급한다",
         },
         sailorNotes: "#{beneficial}<br>#{rewind : 2}",
         limit: [
@@ -11108,7 +11288,51 @@ window.details = {
     1102: {
         captain: "PERFECT 외의 공격을 할때까지 모든 캐릭터의 공격력을 2.25배로 만들고, 턴이 경과 할때마다 체력이(10%씩) 감소된다.",
         special: "일당의 남은 체력을 80% 감소시키며 적 1기에 감소한 값의 10배에 해당하는 무속성 데미지를 주고, STR, INT의 공격력을 1턴 동안 1.75배로 한다.",
-        specialName: "검은팔의 마지막 충격"
+        specialName: "검은팔의 마지막 충격",
+        sailor: {
+            "base": "None",
+            "level1": "When HP is below ?% at the start of the turn, boosts own base ATK by 200",
+            "level2": "When HP is below ?% at the start of the turn, boosts base ATK of all characters by 100",
+        },
+        limit: [
+            { "description": "공격력 상승 : 10" },
+            { "description": "체력 상승 : 20" },
+            { "description": "선원 효과 추가 1: When HP is below ?% at the start of the turn, boosts own base ATK by 200" },
+            { "description": "잠재능력 습득 1: [DEX] 데미지 피해 감소" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "잠재능력 소켓슬롯 추가 : 1" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "체력 상승 : 40" },
+            { "description": "체력 상승 : 40" },
+            { "description": "잠재능력 소켓슬롯 추가 : 1" },
+            { "description": "체력 상승 : 50" },
+            { "description": "선원 효과 추가 2: When HP is below ?% at the start of the turn, boosts base ATK of all characters by 100" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "공격력 상승 : 60" },
+            { "description": "잠재능력 습득 2: 크리티컬 공격" },
+        ],
+        potential: [
+            {
+                "Name": "[DEX] 데미지 피해 감소",
+                "description": [
+                    "Level 1: [DEX] 속성에게 받는 데미지를 1% 감소시킨다",
+                    "Level 2: [DEX] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 3: [DEX] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 4: [DEX] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 5: [DEX] 속성에게 받는 데미지를 ?% 감소시킨다"
+                ]
+            },
+            {
+                "Name": "크리티컬 공격",
+                "description": [
+                    "Level 1: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다"
+                ]
+            },
+        ]
     },
     1103: {
         captain: "박식 캐릭터의 공격력과 회복력이 1.5배가 된다.",
@@ -11156,7 +11380,52 @@ window.details = {
     1106: {
         captain: "타격, 자유 캐릭터의 공격력을 2배로 하고, 턴 종료시 캐릭터 공격력x2배의 추가 데미지를 입힌다.",
         special: "적 전체의 공격을 1턴 지연시키고, 2턴 동안 체인 계수 +0.2를 추가한다. 2턴간 PERFECT 타이밍이 쉬워진다.",
-        specialName: "모사모사 댄스"
+        specialName: "모사모사 댄스",
+        sailor: {
+            "base": "None",
+            "level1": "Adds 2x character's ATK as Additional Typeless Damage",
+            "level2": "Makes [DEX] orbs \"beneficial\" for Shooter characters",
+        },
+        sailorNotes: "#{additionalDamage : 2x}<br>#{beneficial}",
+        limit: [
+            { "description": "회복력 상승 : 10" },
+            { "description": "체력 상승 : 20" },
+            { "description": "선원 효과 추가 1: Adds 2x character's ATK as Additional Typeless Damage" },
+            { "description": "잠재능력 습득 1: [QCK] 데미지 피해 감소" },
+            { "description": "공격력 상승 : 10" },
+            { "description": "체력 상승 : 20" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "회복력 상승 : 40" },
+            { "description": "체력 상승 : 40" },
+            { "description": "잠재능력 소켓슬롯 추가 : 1" },
+            { "description": "체력 상승 : 70" },
+            { "description": "선원 효과 추가 2: Makes [DEX] orbs \"beneficial\" for Shooter characters" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "공격력 상승 : 60" },
+            { "description": "잠재능력 습득 2: Slot Bind Self-reduction" },
+        ],
+        potential: [
+            {
+                "Name": "[QCK] 데미지 피해 감소",
+                "description": [
+                    "Level 1: [QCK] 속성에게 받는 데미지를 1% 감소시킨다",
+                    "Level 2: [QCK] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 3: [QCK] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 4: [QCK] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 5: [QCK] 속성에게 받는 데미지를 ?% 감소시킨다"
+                ]
+            },
+            {
+                "Name": "Slot Bind Self-reduction",
+                "description": [
+                    "Level 1: Reduces Slot Bind duration by 1 turn on this character",
+                    "Level 2: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 3: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 4: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 5: Reduces Slot Bind duration by ? turns on this character"
+                ]
+            },
+        ]
     },
     1107: { // modified
         captain: "야심형의 공격력과 체력이 1.5배가 된다",
@@ -11479,7 +11748,77 @@ window.details = {
         captainNotes: "Cavendish only boosts Friend or Sub Cavendish by 2.5x for a total of 10x boost with two Cavendish captains",
         special: "적 전체에 무 속성의 큰 데미지를 주고 일당에게 걸려있는 유리한 효과를 모두 없애며, 2턴 동안 자신에게만 여러 가지 유리한 효과가 발동된다",
         specialNotes: "Boosted ATK and Orb Effectiveness only works for the character who uses their own Special.",
-        specialName: "휘몰아치는 롬멜의 칼바람"
+        specialName: "휘몰아치는 롬멜의 칼바람",
+        sailor: {
+            "base": "None",
+            "level1": "If this character has an [QCK] orb and you hit a PERFECT with him, keep his [QCK] orb for the next turn",
+            "level2": "Boosts own base ATK by 200 if this character is the last in the chain to attack",
+        },
+        limit: [
+            { "description": "공격력 상승 : 5" },
+            { "description": "공격력 상승 : 10" },
+            { "description": "회복력 상승 : 5" },
+            { "description": "잠재능력 습득 1: Enrage" },
+            { "description": "공격력 상승 : 10" },
+            { "description": "공격력 상승 : 10" },
+            { "description": "체력 상승 : 10" },
+            { "description": "체력 상승 : 20" },
+            { "description": "공격력 상승 : 15" },
+            { "description": "회복력 상승 : 10" },
+            { "description": "체력 상승 : 30" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "회복력 상승 : 15" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "잠재능력 습득 2: Slot Bind Self-reduction" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "선원 효과 추가 1: If this character has an [QCK] orb and you hit a PERFECT with him, keep his [QCK] orb for the next turn" },
+            { "description": "공격력 상승 : 60" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "체력 상승 : 40" },
+            { "description": "체력 상승 : 80" },
+            { "description": "체력 상승 : 80" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "선원 효과 추가 2: Boosts own base ATK by 200 if this character is the last in the chain to attack" },
+            { "description": "체력 상승 : 100" },
+            { "description": "체력 상승 : 120" },
+            { "description": "잠재능력 습득 3: 크리티컬 공격" },
+        ],
+        potential: [
+            {
+               "Name": "Enrage",
+                "description": [
+                    "Level 1: 공격력 상승 : 30",
+                    "Level 2: 공격력 상승 : ?",
+                    "Level 3: 공격력 상승 : ?",
+                    "Level 4: 공격력 상승 : ?",
+                    "Level 5: 공격력 상승 : ?"
+                ]
+            },
+            {
+                "Name": "Slot Bind Self-reduction",
+                "description": [
+                    "Level 1: Reduces Slot Bind duration by 1 turn on this character",
+                    "Level 2: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 3: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 4: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 5: Reduces Slot Bind duration by ? turns on this character"
+                ]
+            },
+            {
+                "Name": "크리티컬 공격",
+                "description": [
+                    "Level 1: 자신의 공격이 PERFECT일 경우 40% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다"
+                ]
+            },
+        ],
+        potentialNotes: "#{enrage}"
     },
     1124: { // modified
         captain: "참격형 캐릭터의 공격력을 3.5배로 만들고 턴이 경과할 때마다 공격력이 감소한다",
@@ -11845,7 +12184,52 @@ window.details = {
     1141: {// Coliseum Moria :: modified
         captain: "야심형 캐릭터의 공격력을 2.25배로 만들고 턴 종료 시 회복력x3배의 체력을 회복한다",
         special: "자신의 슬롯을 [DEX]로 바꾸고, 적 1명에게 고정 데미지 300,000을 준다",
-        specialName: "뿔도마뱀"
+        specialName: "뿔도마뱀",
+        sailor: {
+            "base": "None",
+            "level1": "If your Captain is a Driven character, boosts own base ATK by 100",
+            "level2": "Makes [STR] orbs \"beneficial\" for this character",
+        },
+        specialNotes: "#{beneficial}",
+        limit: [
+            { "description": "공격력 상승 : 10" },
+            { "description": "체력 상승 : 30" },
+            { "description": "선원 효과 추가 1: If your Captain is a Driven character, boosts own base ATK by 100" },
+            { "description": "잠재능력 습득 1: [QCK] 데미지 피해 감소" },
+            { "description": "잠재능력 소켓슬롯 추가 : 1" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "체력 상승 : 50" },
+            { "description": "회복력 상승 : 30" },
+            { "description": "잠재능력 소켓슬롯 추가 : 1" },
+            { "description": "체력 상승 : 70" },
+            { "description": "선원 효과 추가 2: Makes [STR] orbs \"beneficial\" for this character" },
+            { "description": "공격력 상승 : 70" },
+            { "description": "Reduce base Special Cooldown by 7 turns" },
+            { "description": "잠재능력 습득 2: Double Special Activation" },
+        ],
+        potential: [
+            {
+                "Name": "[QCK] 데미지 피해 감소",
+                "description": [
+                    "Level 1: [QCK] 속성에게 받는 데미지를 1% 감소시킨다",
+                    "Level 2: [QCK] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 3: [QCK] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 4: [QCK] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 5: [QCK] 속성에게 받는 데미지를 ?% 감소시킨다"
+                ]
+            },
+            {
+                "Name": "Double Special Activation",
+                "description": [
+                    "Level 1: Once per an adventure, reduce own Special Cooldown by 1 turn after the first time this special is used",
+                    "Level 2: Once per an adventure, reduce own Special Cooldown by ? turns after the first time this special is used",
+                    "Level 3: Once per an adventure, reduce own Special Cooldown by ? turns after the first time this special is used",
+                    "Level 4: Once per an adventure, reduce own Special Cooldown by ? turns after the first time this special is used",
+                    "Level 5: Once per an adventure, reduce own Special Cooldown by ? turns after the first time this special is used"
+                ]
+            },
+        ],
     },
     1142: {// Coliseum Foxy
         captain: "자유 캐릭터의 공격력을 1.5배 상승시킨다.",
@@ -12200,8 +12584,50 @@ window.details = {
         special: "Deals 15x character's ATK in [DEX] damage to all enemies. Makes [RCV] and [TND] orbs “beneficial” to Slasher characters for 3 turns",
         specialNotes: "#{beneficial}",
         specialName: "Anger of the Ki Sword",
-        sailor: "Makes [STR] orbs “beneficial” for this character",
+        sailor: {
+            "base": "Makes [STR] orbs \"beneficial\" for this character",
+            "level1": "Makes [TND] orbs \"beneficial\" for this character",
+        },
         sailorNotes: "#{beneficial}",
+        limit: [
+            { "description": "공격력 상승 : 10" },
+            { "description": "체력 상승 : 10" },
+            { "description": "체력 상승 : 20" },
+            { "description": "잠재능력 습득 1: Slot Bind Self-reduction" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "체력 상승 : 50" },
+            { "description": "회복력 상승 : 30" },
+            { "description": "잠재능력 소켓슬롯 추가 : 1" },
+            { "description": "체력 상승 : 70" },
+            { "description": "선원 효과 추가 1: Makes [TND] orbs \"beneficial\" for this character" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "공격력 상승 : 40" },
+            { "description": "잠재능력 습득 2: 크리티컬 공격" },
+        ],
+        potential: [
+            {
+                "Name": "Slot Bind Self-reduction",
+                "description": [
+                    "Level 1: Reduces Slot Bind duration by 1 turn on this character",
+                    "Level 2: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 3: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 4: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 5: Reduces Slot Bind duration by ? turns on this character"
+                ]
+            },
+            {
+                "Name": "크리티컬 공격",
+                "description": [
+                    "Level 1: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다"
+                ]
+            },
+        ]
     },
     1183: { // modified
         captain: "[PSY] 캐릭터의 공격력을 2.5배로 만든다",
@@ -13149,7 +13575,49 @@ window.details = {
         special: "적 1명에게 아군의 남은 체력이 많을수록 [PSY] 큰 데미지를 주고, 적 전체의 공격을 1턴 지연시킨다",
         specialNotes: "#{specialProportional : higher : 10x + (25x * (remaining HP) / (total HP)) }",
         specialName: "묵비의 검",
-        sailor: "의성어 은폐 상태를 3턴 회복한다",
+        sailor: {
+            "base": "의성어 은폐 상태를 3턴 회복한다",
+            "level1": "Completely resists Blindness",
+        },
+        limit: [
+            { "description": "회복력 상승 : 20" },
+            { "description": "체력 상승 : 10" },
+            { "description": "공격력 상승 : 10" },
+            { "description": "잠재능력 습득 1: 긴급 회복" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "공격력 상승 : 40" },
+            { "description": "체력 상승 : 20" },
+            { "description": "공격력 상승 : 50" },
+            { "description": "체력 상승 : 30" },
+            { "description": "잠재능력 소켓슬롯 추가 : 1" },
+            { "description": "체력 상승 : 40" },
+            { "description": "선원 효과 추가 1: Completely resists Blindness" },
+            { "description": "Reduce base Special Cooldown by 5 turns" },
+            { "description": "체력 상승 : 50" },
+            { "description": "잠재능력 습득 2: Reduce No Healing duration" },
+        ],
+        potential: [
+            {
+                "Name": "긴급 회복",
+                "description": [
+                    "Level 1: 남은 체력이 10% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x.5배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다"
+                ]
+            },
+            {
+                "Name": "Reduce No Healing duration",
+                "description": [
+                    "Level 1: Reduces No Healing duration by 1 turn",
+                    "Level 2: Reduces No Healing duration by ? turn",
+                    "Level 3: Reduces No Healing duration by ? turn",
+                    "Level 4: Reduces No Healing duration by ? turns",
+                    "Level 5: Reduces No Healing duration by ? turns"
+                ]
+            },
+        ]
     },
     1237: {//Bastille // modified
         captain: "1턴 내에 준 콤보 수가 15 이상일 때부터 공격력이 2배로 상승한다",
@@ -13842,9 +14310,51 @@ window.details = {
         captain: "참격형 캐릭터의 공격력과 체력이 2배가 된다",
         special: "적 전체의 각각의 대상을 일정 확률로 격파한다",
         specialNotes: "#{instantKill : 25%}",
-        sailor: "자신은 필살기 봉쇄 상태를 완전히 회피한다",
+        sailor: {
+            "base": "자신은 필살기 봉쇄 상태를 완전히 회피한다",
+            "level1": "Boosts base ATK, HP and RCV of all characters by 50",
+        },
         sailorNotes: "#{silence}",
         specialName: "지옥의 심판",
+        limit: [
+            { "description": "회복력 상승 : 10" },
+            { "description": "체력 상승 : 30" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "잠재능력 습득 1: [PSY] 데미지 피해 감소" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "공격력 상승 : 50" },
+            { "description": "체력 상승 : 30" },
+            { "description": "잠재능력 소켓슬롯 추가 : 1" },
+            { "description": "체력 상승 : 40" },
+            { "description": "선원 효과 추가 1: Boosts base ATK, HP and RCV of all characters by 50" },
+            { "description": "회복력 상승 : 40" },
+            { "description": "체력 상승 : 50" },
+            { "description": "잠재능력 습득 2: 크리티컬 공격" },
+        ],
+        potential: [
+            {
+                "Name": "[PSY] 데미지 피해 감소",
+                "description": [
+                    "Level 1: [PSY] 속성에게 받는 데미지를 1% 감소시킨다",
+                    "Level 2: [PSY] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 3: [PSY] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 4: [PSY] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 5: [PSY] 속성에게 받는 데미지를 ?% 감소시킨다"
+                ]
+            },
+            {
+                "Name": "크리티컬 공격",
+                "description": [
+                    "Level 1: 자신의 공격이 PERFECT일 경우 30% 확률로 자신의 최종 히트 데미지에 4%의 추가 데미지가 가산된다",
+                    "Level 2: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 3: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 4: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다",
+                    "Level 5: 자신의 공격이 PERFECT일 경우 ?% 확률로 자신의 최종 히트 데미지에 ?%의 추가 데미지가 가산된다"
+                ]
+            },
+        ]
     },
     1277: {//Doc Q // modified
         captain: "일당의 회복력을 크게 감소시키고 공격 시작 전, 체력이 가득 차 있으면 참격형과 타격형 캐릭터의 공격력이 2.25배가 된다",
@@ -14136,6 +14646,51 @@ window.details = {
         captain: "자유형 캐릭터의 공격력을 2.5배로 만들고, 턴 종료 시 회복력x2배의 체력을 회복한다",
         special: "참격형과 자유형의 필살기 턴을 1턴 단축하고, 남은 체력이 70% 이상일 때 인접한 슬롯을 속성 일치 슬롯으로 바꾼다",
         specialName: "도롱",
+        sailor: {
+            "base": "None",
+            "level1": "Boosts base ATK, HP and RCV of Slasher and Free Spirit characters by 30",
+            "level2": "Makes [DEX] orbs \"beneficial\" for this character",
+        },
+        specialNotes: "#{beneficial}",
+        limit: [
+            { "description": "공격력 상승 : 10" },
+            { "description": "체력 상승 : 10" },
+            { "description": "선원 효과 추가 1: Boosts base ATK, HP and RCV of Slasher and Free Spirit characters by 30" },
+            { "description": "잠재능력 습득 1: [DEX] 데미지 피해 감소" },
+            { "description": "체력 상승 : 20" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "체력 상승 : 20" },
+            { "description": "회복력 상승 : 30" },
+            { "description": "체력 상승 : 50" },
+            { "description": "체력 상승 : 50" },
+            { "description": "선원 효과 추가 2: Makes [DEX] orbs \"beneficial\" for this character" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "공격력 상승 : 40" },
+            { "description": "잠재능력 습득 2: Double Special Activation" },
+        ],
+        potential: [
+            {
+                "Name": "[DEX] 데미지 피해 감소",
+                "description": [
+                    "Level 1: [DEX] 속성에게 받는 데미지를 1% 감소시킨다",
+                    "Level 2: [DEX] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 3: [DEX] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 4: [DEX] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 5: [DEX] 속성에게 받는 데미지를 ?% 감소시킨다"
+                ]
+            },
+            {
+                "Name": "Double Special Activation",
+                "description": [
+                    "Level 1: Once per an adventure, reduce own Special Cooldown by 1 turn after the first time this special is used",
+                    "Level 2: Once per an adventure, reduce own Special Cooldown by ? turns after the first time this special is used",
+                    "Level 3: Once per an adventure, reduce own Special Cooldown by ? turns after the first time this special is used",
+                    "Level 4: Once per an adventure, reduce own Special Cooldown by ? turns after the first time this special is used",
+                    "Level 4: Once per an adventure, reduce own Special Cooldown by ? turns after the first time this special is used"
+                ]
+            },
+        ]
     },
     1311: {//Coliseum Marigold // modified
 		"captain": "강인형 캐릭터의 공격력과 체력을 1.5배로 만든다",
@@ -14625,7 +15180,52 @@ window.details = {
     1341: {//Getdatsu
         captain: "Boosts ATK of [QCK] characters by 1.75x. After scoring 3 hits below Good in a row, boosts ATK of [QCK] characters by 2.625x instead.",
 		"special": "적 전체를 1턴 지연시키고, 적 전체의 HP를 10% 감소시키다",
-		"specialName": "늪구름 버거"
+		"specialName": "늪구름 버거",
+        sailor: {
+            "base": "None",
+            "level1": "Restores his own special cooldown by 3 turns when it is rewinded",
+            "level2": "Reduces Silence duration on this character by 3 turns",
+        },
+        sailorNotes: "#{rewind : 3}<br>#{silence}",
+        limit: [
+            { "description": "회복력 상승 : 10" },
+            { "description": "체력 상승 : 20" },
+            { "description": "선원 효과 추가 1: Restores his own special cooldown by 3 turns when it is rewinded" },
+            { "description": "잠재능력 습득 1: [STR] 데미지 피해 감소" },
+            { "description": "공격력 상승 : 10" },
+            { "description": "체력 상승 : 20" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "회복력 상승 : 40" },
+            { "description": "체력 상승 : 40" },
+            { "description": "잠재능력 소켓슬롯 추가 : 1" },
+            { "description": "공격력 상승 : " },
+            { "description": "선원 효과 추가 2: Reduces Silence duration on this character by 3 turns" },
+            { "description": "체력 상승 : 50" },
+            { "description": "체력 상승 : 50" },
+            { "description": "잠재능력 습득 2: 긴급 회복" },
+        ],
+        potential: [
+            {
+                "Name": "[STR] 데미지 피해 감소",
+                "description": [
+                    "Level 1: [STR] 속성에게 받는 데미지를 1% 감소시킨다",
+                    "Level 2: [STR] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 3: [STR] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 4: [STR] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 5: [STR] 속성에게 받는 데미지를 ?% 감소시킨다"
+                ]
+            },
+            {
+                "Name": "긴급 회복",
+                "description": [
+                    "Level 1: 남은 체력이 5% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x1배의 체력을 회복한다",
+                    "Level 2: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 3: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 4: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다",
+                    "Level 5: 남은 체력이 ?% 이하일 때 자신의 공격이 PERFECT일 경우 캐릭터의 회복력x?배의 체력을 회복한다"
+                ]
+            },
+        ]
     },
     1342: {//Dadan // modified
 	    "specialName": "무뢰한의 위협",
@@ -14831,7 +15431,7 @@ window.details = {
         specialNotes: "#{silence}<br>#{stages}",
         specialName: "뇌운 로드",
         sailor: {
-            "base": "Completely resists Silence on this character",
+            "base": "자신은 필살기 봉쇄 상태를 완전히 회피한다",
             "level1": "Reduces Paralysis duration by 1 turn",
         },
         sailorNotes: "#{silence}",
@@ -16917,9 +17517,51 @@ window.details = {
         captain: "일당의 공격력을 2.25배로 만들고, 획득하는 해적 EXP가 1.5배가 된다(획득 해적 EXP 증가 효과는 모험 도중 선장이 된 경우에는 발휘 되지 않음)",
         captainNotes: "EXP boost does not take effect if he becomes your captain in the middle of the adventure.",
         special: "일당의 슬롯을 1턴 고정하여, 최대 HP가 가장 높은 적의 HP가 50% 이상일 때는 적 전체의 HP를 20% 줄이고, HP가 50% 미만일 때는 적 전체에 공격력x140배의 무 속성 데미지를 준다",
-        sailor: "자신은 [PSY][INT][TND] 슬롯도 [유리] 슬롯으로 취급한다",
-        sailorNotes: "#{beneficial}",
         specialName: "머맨 컴배트 울트라 마린",
+        sailor: {
+            "base": "자신은 [PSY][INT][TND] 슬롯도 [유리] 슬롯으로 취급한다",
+            "level1": "Boosts base ATK, HP and RCV of all characters by 30",
+        },
+        sailorNotes: "#{beneficial}",
+        limit: [
+            { "description": "회복력 상승 : 10" },
+            { "description": "체력 상승 : 30" },
+            { "description": "회복력 상승 : 20" },
+            { "description": "잠재능력 습득 1: [DEX] 데미지 피해 감소" },
+            { "description": "공격력 상승 : 20" },
+            { "description": "공격력 상승 : 30" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "공격력 상승 : 50" },
+            { "description": "체력 상승 : 30" },
+            { "description": "잠재능력 소켓슬롯 추가 : 1" },
+            { "description": "체력 상승 : 30" },
+            { "description": "선원 효과 추가 1: Boosts base ATK, HP and RCV of all characters by 30" },
+            { "description": "회복력 상승 : 45" },
+            { "description": "체력 상승 : 40" },
+            { "description": "잠재능력 습득 2: 긴급 회복" },
+        ],
+        potential: [
+            {
+                "Name": "[DEX] 데미지 피해 감소",
+                "description": [
+                    "Level 1: [DEX] 속성에게 받는 데미지를 1% 감소시킨다",
+                    "Level 2: [DEX] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 3: [DEX] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 4: [DEX] 속성에게 받는 데미지를 ?% 감소시킨다",
+                    "Level 5: [DEX] 속성에게 받는 데미지를 ?% 감소시킨다"
+                ]
+            },
+            {
+                "Name": "긴급 회복",
+                "description": [
+                    "Level 1: If HP is below 10% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 2: If HP is below ?% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 3: If HP is below ?% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 4: If HP is below ?% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 5: If HP is below ?% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                ]
+            },
+        ]
     },
     1476: {//Fukaboshi // modified
         captain: "타격형 캐릭터의 공격력을 2배로 만든다",
@@ -18651,7 +19293,7 @@ window.details = {
             },
         ],
         specialNotes: "#{stages}",
-        sailor: "자신은 [STR][QCK][DEX][INT] 슬롯도 [유리](“beneficial”) 슬롯으로 취급한다",
+        sailor: "자신은 [STR][QCK][DEX][INT] 슬롯도 [유리] 슬롯으로 취급한다",
         sailorNotes: "#{beneficial}",
         specialName: "승천하는 기적의 용",
     },
@@ -18801,7 +19443,7 @@ window.details = {
         captain: "일당의 공격력을 2.5배, 체력을 1.3배로 만든다[선장 액션:스카이 워크] 스카이 워크 발동 직후에 공격할 수 없지만, 자신을 대상으로 하는 일부 효과를 막을 수 있으며, 다음 턴에 자신의 공격력이 2.5배(일당 중에 공격하는 캐릭터가 없을 때는 발동 불가) 더 상승한다",
         captainNotes: "Multiple Sanjis can Sky Walk at the same time. Even while Sky Walking, will still boost all characters by 2.5x. Sky Walk is not a type boost, and will stack with other boosts",
         special: "적 전체에게 고정 데미지 100,000을 주고, 일당의 [BLOCK][TND] 슬롯, 자신의 슬롯 및 자신과 인접한 슬롯을 속성 일치 슬롯으로 변환하며, 1턴 동안 자신의 공격력을 2배로 만든다",
-        sailor: "일당은 [RCV] 슬롯도 [유리](“beneficial”) 슬롯으로 취급한다",
+	    "sailor": "일당은 [RCV] 슬롯도 [유리] 슬롯으로 취급한다",
         sailorNotes: "#{beneficial}",
         specialName: "헬 메모리즈",
     },
@@ -18810,7 +19452,7 @@ window.details = {
         captainNotes: "Multiple Sanjis can Sky Walk at the same time. Even while Sky Walking, will still boost all characters by 2.5x. Sky Walk is not a type boost, and will stack with other boosts",
         special: "적 전체에게 고정 데미지 100,000을 주고, 일당의 [BLOCK][TND] 슬롯, 자신의 슬롯 및 자신과 인접한 슬롯을 속성 일치 슬롯으로 변환하며, 1턴 동안 자신의 공격력을 2배로 만든다",
         sailor: {
-            "base": "일당은 [RCV] 슬롯도 [유리](“beneficial”) 슬롯으로 취급한다",
+            "base": "일당은 [RCV] 슬롯도 [유리] 슬롯으로 취급한다",
             "level1": "Boosts amount healed from [RCV] orbs by 300 each",
         },
         sailorNotes: "#{beneficial}",
@@ -18999,7 +19641,7 @@ window.details = {
         specialName: "Vile Fruit",
     },
     1609: {//Legend Enel :: modified
-        captain: "일당의 최대 체력이 20% 줄어드는 대신 [RCV] 슬롯 출현율이 상승, 일당의 [RCV] 슬롯을 [유리](“beneficial”) 슬롯으로 취급하고, 이전 턴의 회복량에 따라 일당의 공격력이 2배~3.25배가 된다",
+        captain: "일당의 최대 체력이 20% 줄어드는 대신 [RCV] 슬롯 출현율이 상승, 일당의 [RCV] 슬롯을 [유리] 슬롯으로 취급하고, 이전 턴의 회복량에 따라 일당의 공격력이 2배~3.25배가 된다",
         captainNotes: "The range of ATK boost is from 2x to 3.25x. The exact boost is calculated as 2 + <HP recovered in the previous 턴> * 0.000125 and maxes at 10k HP healed. This ignores your max HP, so it doesn't stop counting if you over-heal.",
         special: "필살기 발동 시까지 최대 체력을 넘어 회복한 값x10배의 무 속성 데미지를 적 전체에게 준다(최대 2,000,000 데미지)",
         specialNotes: "The excess healing is counted from the last time the special is used and accumulates when you heal more than your maximum HP. For example, if you are at max HP, and you heal 1,000 HP, you will add 10k damage to the special. The amount of damage possible caps at 2,000,000 damage.",
@@ -19861,7 +20503,7 @@ window.details = {
         captain: "Boosts ATK of Shooter characters by 2x",
         special: "Reduces Paralysis and Silence duration by 3 턴, switches orbs between slots 3 times",
         sailorNotes: "#{silence}",
-        sailor: "Completely resists Silence on this character",
+        sailor: "자신은 필살기 봉쇄 상태를 완전히 회피한다",
         specialNotes: "#{silence}",
         specialName: "Ninja Arts - Bunshin no Jutsu",
     },
@@ -20151,7 +20793,7 @@ window.details = {
         specialName: "ROOM: Kikoku",
         sailor: {
             "base": "None",
-            "level1": "Completely resists Silence on this character",
+            "level1": "자신은 필살기 봉쇄 상태를 완전히 회피한다",
             "level2": "Reduces Paralysis duration by 1 turn",
         },
         limit: [
@@ -25706,18 +26348,18 @@ window.details = {
             },
         ]
     },
-    1942: {//Senor Pink
-        captain: "Boosts ATK of Free Spirit characters by 2x",
-        special: "Changes own orb into [STR], reduces Chain Multiplier Limit and Chain Coefficient Reduction by 3 turns. If your captain is a Free Spirit Character, boosts ATK against delayed enemies by 1.75x for 1 turn",
-        specialName: "Manly Synchronized Swimming",
+    1942: {//Senor Pink // modified
+	    "captain": "자유형 캐릭터의 공격력을 2배로 만든다",
+	    "specialName": "멋진 무도 유영",
+	    "special": "자신의 슬롯을 [STR]으로 바꾸고, 체인 계수 상한 고정 및 체인 계수 증가량 감소 상태를 3턴 회복하며, 선장이 자유형 캐릭터라면 1턴 동안 지연 상태의 적에게 주는 데미지가 1.75배가 된다",
     },
     1943: {//Senor Pink // modified
 	    "specialName": "멋진 무도 유영",
 	    "special": "자신의 슬롯을 [STR]으로 바꾸고, 체인 계수 상한 고정 및 체인 계수 증가량 감소 상태를 3턴 회복하며, 선장이 자유형 캐릭터라면 1턴 동안 지연 상태의 적에게 주는 데미지가 1.75배가 된다",
 	    "sailor": {
 	        "base": "None",
-	        "level1": "Boosts base HP of Free Spirit characters by 50",
-	        "level2": "Boosts base RCV of Free Spirit characters by 50"
+	        "level1": "자유형 캐릭터의 기본 체력이 50 상승한다",
+	        "level2": "자유형 캐릭터의 기본 회복력이 50 상승한다"
 	    },
 	    "captain": "자유형 캐릭터의 공격력을 2.5배로 만들고, 턴 종료 시 캐릭터의 회복력x1.5배의 체력을 회복한다",
         limit: [
@@ -25728,9 +26370,9 @@ window.details = {
             { "description": "체력 상승 : 70" },
             { "description": "체력 상승 : 80" },
             { "description": "체력 상승 : 95" },
-            { "description": "선원 효과 추가 1: Boosts base HP of Free Spirit characters by 50" },
+            { "description": "선원 효과 추가 1: 자유형 캐릭터의 기본 체력이 50 상승한다" },
             { "description": "공격력 상승 : 20" },
-            { "description": "선원 효과 추가 2: Boosts base RCV of Free Spirit characters by 50" },
+            { "description": "선원 효과 추가 2: 자유형 캐릭터의 기본 회복력이 50 상승한다" },
             { "description": "공격력 상승 : 20" },
             { "description": "필살기 턴 단축 : 1턴" },
             { "description": "공격력 상승 : 40" },
@@ -26598,20 +27240,20 @@ window.details = {
             },
         ],
     },
-    1986: {//Marco
-        captain: "Boosts ATK of Fighter characters by 2.25x and their RCV by 1.2x. Recovers 2x character's RCV in HP at the end of each turn.",
+    1986: {//Marco // modified
+	    "captain": "격투형 캐릭터의 공격력을 2.25배, 회복력을 1.2배로 만들고, 턴 종료 시에 캐릭터의 회복력x2배의 체력을 회복한다",
         special: [
             {
-                "description": "Reduces Bind and Chain Coefficient Reduction and ATK DOWN duration by 3 turns, reduces damage received by 50% for 1 turn. If your crew has 3 or more [STR] characters, adds .5x to Chain multiplier for 1 turn",
+                "description": "봉쇄, 공격력 감소, 체인 계수 증가량 감소 상태를 3턴 회복하고, 1턴 동안 받는 데미지를 50% 줄이며, 일당에 [STR]이 3명 이상 있을 경우 1턴 동안 체인 계수가 +0.5 된다",
                 "cooldown": [ 16, 10 ],
             },
             {
-                "description": "Reduces Bind and Chain Coefficient Reduction and ATK DOWN duration by 5 turns, reduces damage received by 90% for 1 turn. If your crew has 3 or more [STR] characters, adds .75x to Chain multiplier for 1 turn",
+                "description": "봉쇄, 공격력 감소, 체인 계수 증가량 감소 상태를 5턴 회복하고, 1턴 동안 받는 데미지를 90% 줄이며, 일당에 [STR]이 3명 이상 있을 경우 1턴 동안 체인 계수가 +0.75 된다",
                 "cooldown": [ 20, 14 ],
             },
         ],
-        specialName: "Establishing an Oath of Immortality",
-        sailor: "Boosts amount healed from [RCV] orbs by 150 each",
+	    "specialName": "「불사」를 이룬 서약",
+        sailor: "[RCV] 획득 시 추가로 체력을 150 회복한다",
     },
     1987: {//Marco // modified
         "captain": "격투형 캐릭터의 공격력을 2.5배, 회복력을 1.3배로 만들고, 턴 종료 시에 캐릭터의 회복력x3배의 체력을 회복한다",
@@ -27064,10 +27706,11 @@ window.details = {
 	    "sailor": "일당에 같은 속성이 4명 이상 있으면 해당 속성의 기본 공격력이 125 상승한다",
     },
     2007: {//V2 Shanks
-        captain: "If your crew has 4 or more characters of the same Type, boosts ATK all characters by 3.5x, by 2.75x otherwise and boosts HP of all characters by 1.3x.",
-        special: "Adds .9x to Chain multiplier for 1 turn. If your crew has 4 or more characters of the same Type, boosts ATK of the Dominant Type characters by 2.25x and changes all orbs, including [BLOCK] orbs, to Dominant Type orbs",
+	    "captain": "일당의 공격력을 2.75배, 체력을 1.3배로 만들며, 일당에 같은 속성이 4명 이상 있으면 일당의 공격력이 약 3.5배가 된다",
+	    "specialName": "끝으로 향하는 설파",
+	    "special": "1턴 동안 체인 계수가 +0.9 되며, 일당에 같은 속성이 4명 이상 있을 때, [BLOCK] 슬롯을 포함한 모든 슬롯을 해당 속성의 슬롯으로 바꾸고, 1턴 동안 해당 속성의 공격력이 2.25배가 된다",
         sailor: {
-            "base": "If your crew has 4 or more characters of the same Type, boosts base ATK of the Dominant Type by 125",
+            "base": "일당에 같은 속성이 4명 이상 있으면 해당 속성의 기본 공격력이 125 상승한다",
             "level1": "Makes [PSY] orbs “beneficial” all characters",
         },
         sailorNotes: "#{beneficial}",
@@ -31354,7 +31997,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "Makes [DEX], [RCV] and [TND] orbs \"beneficial\" for this character",
-            "level2": "Completely resists Silence on this character",
+            "level2": "자신은 필살기 봉쇄 상태를 완전히 회피한다",
         },
         sailorNotes: "#{beneficial}",
         limit: [
@@ -31507,7 +32150,7 @@ window.details = {
             { "description": "잠재능력 소켓슬롯 추가 : 1" },
             { "description": "공격력 상승 : 60" },
             { "description": "체력 상승 : 100" },
-            { "description": "잠재능력 습득 2: Critical Hit" },
+            { "description": "잠재능력 습득 2: 크리티컬 공격" },
         ],
         potential: [
             {
@@ -31583,19 +32226,19 @@ window.details = {
             { "description": "회복력 상승 : 10" },
             { "description": "회복력 상승 : 20" },
             { "description": "회복력 상승 : 20" },
-            { "description": "잠재능력 습득 1: Critical Hit" },
-            { "description": "Acquire new Captain Ability: " },
+            { "description": "잠재능력 습득 1: 크리티컬 공격" },
+            { "description": "새로운 선장 효과 습득: " },
             { "description": "선원 효과 추가 1: When any other character uses a special, reduces own cooldown by 5 turns" },
             { "description": "회복력 상승 : 20" },
             { "description": "회복력 상승 : 20" },
             { "description": "회복력 상승 : 20" },
-            { "description": "Acquire new Captain Ability: " },
+            { "description": "새로운 선장 효과 습득: " },
             { "description": "잠재능력 소켓슬롯 추가 : 1" },
             { "description": "Reduce base Special Cooldown by 1 turn" },
             { "description": "체력 상승 : 20" },
             { "description": "체력 상승 : 30" },
             { "description": "체력 상승 : 30" },
-            { "description": "Acquire new Captain Ability: " },
+            { "description": "새로운 선장 효과 습득: " },
             { "description": "Reduce base Special Cooldown by 2 turns" },
             { "description": "체력 상승 : 30" },
             { "description": "체력 상승 : 30" },
@@ -31605,7 +32248,7 @@ window.details = {
             { "description": "체력 상승 : 40" },
             { "description": "체력 상승 : 50" },
             { "description": "Reduce base Special Cooldown by 4 turns" },
-            { "description": "Acquire new Captain Ability: " },
+            { "description": "새로운 선장 효과 습득: " },
             { "description": "체력 상승 : 60" },
             { "description": "체력 상승 : 70" },
             { "description": "선원 효과 추가 2: Makes [RCV] orbs \"beneficial\" for this character" },
@@ -31614,10 +32257,10 @@ window.details = {
             { "description": "공격력 상승 : 40" },
             { "description": "Reduce base Special Cooldown by 5 turns" },
             { "description": "잠재능력 소켓슬롯 추가 : 1" },
-            { "description": "Acquire new Captain Ability: " },
+            { "description": "새로운 선장 효과 습득: " },
             { "description": "공격력 상승 : 40" },
             { "description": "공격력 상승 : 50" },
-            { "description": "Acquire new Captain Ability: " },
+            { "description": "새로운 선장 효과 습득: " },
             { "description": "잠재능력 습득 2: Reduce No Healing duration" },
         ],
         potential: [
