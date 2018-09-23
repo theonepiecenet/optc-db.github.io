@@ -31585,34 +31585,34 @@ window.details = {
             { "description": "체력 상승 : 40" },
             { "description": "체력 상승 : 40" },
             { "description": "체력 상승 : 40" },
-            { "description": "선원 효과 추가 1: Boosts this character's attack against [INT] characters by 1.1x" },
+            { "description": "선원 효과 추가 1: 자신이 [INT] 속성에게 주는 일반 공격에 의한 데미지가 1.1배가 된다" },
             { "description": "체력 상승 : 55" },
             { "description": "잠재능력 소켓슬롯 추가 : 1" },
             { "description": "체력 상승 : 65" },
             { "description": "공격력 상승 : 60" },
             { "description": "Reduce base Special Cooldown by 1 turn" },
             { "description": "공격력 상승 : 60" },
-            { "description": "잠재능력 습득 2: Barrier Penetration" },
+            { "description": "잠재능력 습득 2: 크리티컬 히트" },
         ],
         potential: [
             {
-                "Name": "[INT] 데미지 피해 감소",
+                "Name": "격분",
                 "description": [
-                    "Level 1: [INT] 속성에게 받는 데미지를 1% 감소시킨다",
-                    "Level 2: [INT] 속성에게 받는 데미지를 2% 감소시킨다",
-                    "Level 3: [INT] 속성에게 받는 데미지를 3% 감소시킨다",
-                    "Level 4: [INT] 속성에게 받는 데미지를 4% 감소시킨다",
-                    "Level 5: [INT] 속성에게 받는 데미지를 5% 감소시킨다"
+                    "Level 1: Boosts base ATK by 30",
+                    "Level 2: Boosts base ATK by 60",
+                    "Level 3: Boosts base ATK by 90",
+                    "Level 4: Boosts base ATK by 120",
+                    "Level 5: Boosts base ATK by 150"
                 ]
             },
             {
-                "Name": "배리어 관통",
+                "Name": "크리티컬 히트",
                 "description": [
-                    "Level 1: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
-                    "Level 2: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
-                    "Level 3: 공격 시작 시 체력이 가득 차 있으면 자신의 일반 공격은 모든 배리어를 무시한다",
-                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
-                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
+                    "Level 1: If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
                 ]
             },
         ]
