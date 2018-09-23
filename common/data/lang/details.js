@@ -32927,15 +32927,76 @@ window.details = {
             },
         ]
     },
-    2500: {//Doflamingo Raid v2 // modified
+    2262: {//Doflamingo Raid v2 // modified
         captain: "야심형과 박식형 캐릭터의 공격력을 1.5배, 남은 체력이 50% 이하일 때는 2.5배로 만든다",
         special: "일당의 속성 일치 슬롯 이외의 슬롯을 랜덤으로 바꾸고([BLOCK] 슬롯도 포함), 슬롯을 1턴 고정시키며, 선장이 박식형 또는 야심형일 경우, 필살기 발동 시 일당에 걸려 있는 공격력 상승 및 슬롯 영향 증폭 효과를 2턴 연장한다",
         specialName: "애슬리트",
     },
-    2501: {//Doflamingo Raid v2 :: modified
+    2263: {//Doflamingo Raid v2 // modified
         captain: "야심형과 박식형 캐릭터의 공격력을 1.5배, 남은 체력이 50% 이하일 때는 3배로 만든다",
         special: "일당의 속성 일치 슬롯 이외의 슬롯을 랜덤으로 바꾸고([BLOCK] 슬롯도 포함), 슬롯을 1턴 고정시키며, 선장이 박식형 또는 야심형일 경우, 필살기 발동 시 일당에 걸려 있는 공격력 상승 및 슬롯 영향 증폭 효과를 2턴 연장한다",
         specialName: "애슬리트",
+    },
+    2286: {//Judge
+        captain: "Not Translated",
+        special: "Reduces any damage received above 5,000 HP by ?% for 1 turn. If your Captain is a Powerhouse or Striker character, changes [G], [BLOCK] and [EMPTY] orbs into Matching orbs and boosts ATK of [STR] characters by 1.75x for 1 turn. If \"Judge Special\" is used again in the same turn the special is activated in, boosts ATK of [STR] characters by 2.25x for 1 turn.",
+        specialName: "Judge Special",
+        sailor: {
+            "base": "None",
+            "level1": "Boosts base ATK of STR characters by 50",
+            "level2": "If this character has a [STR] orb and you hit a PERFECT with him, keep his [STR] orb for the next turn",
+        },
+        potential: [
+            {
+                "Name": "Double Special Activation",
+                "description": [
+                    "Level 1: Once per an adventure, reduce own Special Cooldown by ? turn after the first time this special is used",
+                    "Level 2: Once per an adventure, reduce own Special Cooldown by ? turns after the first time this special is used",
+                    "Level 3: Once per an adventure, reduce own Special Cooldown by ? turns after the first time this special is used",
+                    "Level 4: Once per an adventure, reduce own Special Cooldown by ? turns after the first time this special is used",
+                    "Level 5: Once per an adventure, reduce own Special Cooldown by ? turns after the first time this special is used"
+                ]
+            },
+            {
+                "Name": "Enrage",
+                "description": [
+                    "Level 1: Boosts base ATK by ?",
+                    "Level 2: Boosts base ATK by ?",
+                    "Level 3: Boosts base ATK by ?",
+                    "Level 4: Boosts base ATK by ?",
+                    "Level 5: Boosts base ATK by ?"
+                ]
+            },
+        ],
+        potentialNotes: "#{enrage}"
+    },
+    2287: {//Judge
+        captain: "Boosts ATK of [STR] characters by 3.5x and their HP by 1.2x and makes [QCK] orbs \"beneficial\" to all characters",
+        special: "Reduces any damage received above 5,000 HP by ?% for 1 turn. If your Captain is a Powerhouse or Striker character, changes [G], [BLOCK] and [EMPTY] orbs into Matching orbs and boosts ATK of [STR] characters by 1.75x for 1 turn. If \"Judge Special\" is used again in the same turn the special is activated in, boosts ATK of [STR] characters by 2.25x for 1 turn.",
+        specialName: "Judge Special",
+        potential: [
+            {
+                "Name": "Double Special Activation",
+                "description": [
+                    "Level 1: Once per an adventure, reduce own Special Cooldown by ? turn after the first time this special is used",
+                    "Level 2: Once per an adventure, reduce own Special Cooldown by ? turns after the first time this special is used",
+                    "Level 3: Once per an adventure, reduce own Special Cooldown by ? turns after the first time this special is used",
+                    "Level 4: Once per an adventure, reduce own Special Cooldown by ? turns after the first time this special is used",
+                    "Level 5: Once per an adventure, reduce own Special Cooldown by ? turns after the first time this special is used"
+                ]
+            },
+            {
+                "Name": "Enrage",
+                "description": [
+                    "Level 1: Boosts base ATK by ?",
+                    "Level 2: Boosts base ATK by ?",
+                    "Level 3: Boosts base ATK by ?",
+                    "Level 4: Boosts base ATK by ?",
+                    "Level 5: Boosts base ATK by ?"
+                ]
+            },
+        ],
+        potentialNotes: "#{enrage}"
     },
     2502: {//Kung Fu Luffy // modified
         captain: "일당의 체력을 약간 상승시키고, PERFECT를 2연속, 5연속 달성 시 이후 캐릭터의 공격력이 3.5배, 약 4배로 상승한다",
