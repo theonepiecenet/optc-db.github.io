@@ -2405,15 +2405,15 @@ window.details = {
         potentialNotes: "#{enrage}"
 	},
 	315: { // modified
-		special: "슬롯 [PSY][INT]를 [STR]으로, [DEX][QCK]을 [EMPTY]으로 변환",
+	    "special": "슬롯 [PSY][INT]를 [STR] 으로, [DEX][QCK]을 [EMPTY]으로 변환",
 		specialName: "아이 아이 캡틴",
 		captain: "격투형 캐릭터의 능력치를 1.5배로 만든다",
 		sailor: "자신은 마비 상태를 2턴 회복한다"
 	},
-	316: {
-		special: "슬롯 [PSY],[INT] 을 [STR] 으로, [DEX],[QCK]을 [EMPTY]으로 변환",
-		specialName: "아이 아이, 캡틴!",
-		captain: "격투형 캐릭터의 능력치를 1.5배로 만든다.",
+	316: { // modified
+	    "special": "슬롯 [PSY][INT]를 [STR] 으로, [DEX][QCK]을 [EMPTY]으로 변환",
+		specialName: "아이 아이 캡틴",
+		captain: "격투형 캐릭터의 능력치를 1.5배로 만든다",
 		sailor: "Reduces numbess for 2 turns for himself",
         sailor: {
             "base": "Reduces Paralysis duration on this character by 2 turns",
@@ -27705,7 +27705,7 @@ window.details = {
 	    "special": "1턴 동안 체인 계수가 +0.9 되며, 일당에 같은 속성이 4명 이상 있을 때, [BLOCK] 슬롯을 포함한 모든 슬롯을 해당 속성의 슬롯으로 바꾸고, 1턴 동안 해당 속성의 공격력이 2.25배가 된다",
 	    "sailor": "일당에 같은 속성이 4명 이상 있으면 해당 속성의 기본 공격력이 125 상승한다",
     },
-    2007: {//V2 Shanks
+    2007: {//V2 Shanks // modified
 	    "captain": "일당의 공격력을 2.75배, 체력을 1.3배로 만들며, 일당에 같은 속성이 4명 이상 있으면 일당의 공격력이 약 3.5배가 된다",
 	    "specialName": "끝으로 향하는 설파",
 	    "special": "1턴 동안 체인 계수가 +0.9 되며, 일당에 같은 속성이 4명 이상 있을 때, [BLOCK] 슬롯을 포함한 모든 슬롯을 해당 속성의 슬롯으로 바꾸고, 1턴 동안 해당 속성의 공격력이 2.25배가 된다",

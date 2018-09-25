@@ -34435,15 +34435,4 @@ window.details = {
         captainNotes: "#{beneficial}",
         special: "Cuts the current HP of one enemy by 10%, reduces damage received by 50% for 1 turn, changes own orb into a Matching orb, boosts ATK of [STR] and [DEX] characters by 1.5x for 1 turn and becomes Crocodile & Daz for 2 turns",
         specialNotes: "Change Action: When Change is activated, randomizes all non-matching orbs, including [BLOCK] orbs, reduces Bind duration by 1 turn",
-        specialName: "Neverending Sand and Blades",
-        sailor: "Boosts base ATK, HP and RCV of [STR] and [DEX] characters by 50",
-    },
-    5027: {//Crocodile&Daz
-        captain: "Boosts ATK of [STR] and [DEX] characters by 2.75x if they have a matching orb, by 2.5x otherwise, reduce damage received by 20%, and makes [TND], [RCV], [STR] and [DEX] orbs \"beneficial\" to [STR] and [DEX] characters",
-        captainNotes: "#{beneficial}",
-        special: "Cuts the current HP of one enemy by 10%, reduces damage received by 50% for 1 turn, changes own orb into a Matching orb, boosts ATK of [STR] and [DEX] characters by 1.5x for 1 turn and becomes Crocodile & Daz for 2 turns",
-        specialNotes: "Change Action: When Change is activated, randomizes all non-matching orbs, including [BLOCK] orbs, reduces Bind duration by 1 turn",
-        specialName: "Neverending Sand and Blades",
-        sailor: "Boosts base ATK, HP and RCV of [STR] and [DEX] characters by 50",
-    },
-};
+        specialName: "Nev
