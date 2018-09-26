@@ -6,12 +6,12 @@ window.details = {
     2: { // modified
         special: "적 1명에게 캐릭터의 공격x7배의 [STR] 데미지",
 		specialName: "고무고무 총",
-		captain: "일당의 공격력이 1.5배가 된다."
+		captain: "일당의 공격력이 1.5배가 된다"
     },
     3: { // modified
         special: "적 1명에게 캐릭터의 공격력x15배의 [STR] 데미지",
 		specialName: "고무고무 바주카",
-		captain: "일당의 공격력이 1.5배가 된다."
+		captain: "일당의 공격력이 1.5배가 된다"
     },
     4: { // modified
         captain: "[STR] 캐릭터의 공격력이 2배가 되고, 다른 속성 캐릭터의 공격력이 1.5배가 된다",
@@ -19,8 +19,8 @@ window.details = {
         specialName: "고무고무 트윈 JET총",
         sailor: {
             "base": "None",
-            "level1": "Boosts own base ATK by 100 if this character is the last in the chain to attack",
-            "level2": "Makes [QCK] orbs “beneficial” for this character"
+            "level1": "자신이 마지막으로 공격할 때 자신의 기본 공격력이 100 상승한다",
+            "level2": "자신은 [QCK] 슬롯도 [유리] 슬롯으로 취급한다"
         },
         sailorNotes: "#{beneficial}",
         limit: [
@@ -1221,8 +1221,8 @@ window.details = {
 		captain: "3연속 PERFECT 시 이후의 캐릭터 공격력이 3.5배",
         sailor: {
             "base": "None",
-            "level1": "Makes [RCV] and [TND] orbs “beneficial” for this character",
-            "level2": "Boosts own base ATK by 200 if this character is the last in the chain to attack",
+            "level1": "자신은 [RCV][TND] 슬롯도 [유리] 슬롯으로 취급한다",
+            "level2": "공격 가능한 캐릭터 전원이 공격하고 자신이 마지막으로 공격할 때, 자신의 기본 공격력이 200 상승한다",
         },
         sailorNotes: "#{beneficial}",
         limit: [
@@ -27522,19 +27522,19 @@ window.details = {
     },
     2000: {//TM Sanji & Zoro
         captain: {
-            "character1": "Reduces cooldown of all specials by 2 turns at the start of the fight. Boosts ATK of [PSY] characters by 2.75x and boosts ATK of [DEX] characters by 2x",
-            "character2": "Reduces cooldown of all specials by 2 turns at the start of the fight. Boosts ATK of [DEX] characters by 2.75x and boosts ATK of [PSY] characters by 2x",
-            "combined": "Boosts ATK of [DEX] and [PSY] characters by 3.75x and makes [PSY] and [DEX] orbs “beneficial” to [PSY] and [DEX] characters"
+            "character1": "모험 시작 시 [DEX]과 [PSY]의 필살기 턴을 2턴 단축하고, [DEX]의 공격력을 2배, [PSY]의 공격력을 2.75배로 만든다",
+            "character2": "모험 시작 시 [DEX]과 [PSY]의 필살기 턴을 2턴 단축하고, [DEX]의 공격력을 2.75배, [PSY]의 공격력을 2배로 만든다",
+            "combined": "[DEX]과 [PSY]의 공격력을 3.75배로 만들고, [DEX]과 [PSY]은 [DEX][PSY] 슬롯도 [유리] 슬롯으로 취급한다"
         },
         captainNotes: "#{beneficial}",
-        special: "Deals 30x character's ATK in Typeless damage to one enemy that will ignore damage negating abilities and barriers, amplifies the effect of orbs on [PSY] and [DEX] characters by 2.25x for 1 turn and becomes Sanji & Zoro for 1 turn",
+	    "special": "적 1명에게 모든 방어 효과를 무시하고 캐릭터의 공격력x30배의 속성 데미지를 주고, 1턴 동안 [DEX]과 [PSY]의 슬롯의 영향을 2.25배로 증폭시키며, 1턴 동안 ‘조로&상디’가 된다",
         specialNotes: "Change Action: When Change is activated, randomizes all non-matching orbs on [PSY] and [DEX] characters and adds .5x to Chain multiplier for 1 turn<br>#{ignoreBarrier}",
-        specialName: "Armée de L'Air Power Shoot",
+	    "specialName": "아르메 드 레르 파워 슈트",
         sailor: {
             "character1": "[PSY] 속성의 기본 공격력이 30 상승한다",
             "character2": "[DEX] 속성의 기본 공격력이 30 상승한다",
-            "combined": "Boosts base ATK, HP and RCV of [DEX] and [PSY] characters by 50",
-            "level1": "Makes [TND] orbs “beneficial” for [DEX] and [PSY] characters",
+            "combined": "[DEX]과 [PSY]의 기본 능력치가 50 상승한다",
+            "level1": "[DEX]과 [PSY]은 [TND] 슬롯도 [유리] 슬롯으로 취급한다",
         },
         sailorNotes: "#{beneficial}",
         limit: [
@@ -27711,10 +27711,10 @@ window.details = {
 	    "special": "1턴 동안 체인 계수가 +0.9 되며, 일당에 같은 속성이 4명 이상 있을 때, [BLOCK] 슬롯을 포함한 모든 슬롯을 해당 속성의 슬롯으로 바꾸고, 1턴 동안 해당 속성의 공격력이 2.25배가 된다",
         sailor: {
             "base": "일당에 같은 속성이 4명 이상 있으면 해당 속성의 기본 공격력이 125 상승한다",
-            "level1": "Makes [PSY] orbs “beneficial” all characters",
+            "level1": "일당은 [PSY] 슬롯도 [유리] 슬롯으로 취급한다",
         },
         sailorNotes: "#{beneficial}",
-        specialName: "Closing Declaration",
+	    "specialName": "끝으로 향하는 설파",
         limit: [
             { "description": "체력 상승 : 30" },
             { "description": "체력 상승 : 30" },
@@ -27742,7 +27742,7 @@ window.details = {
             { "description": "회복력 상승 : 20" },
             { "description": "체력 상승 : 75" },
             { "description": "체력 상승 : 105" },
-            { "description": "선원 효과 추가 1: Makes [PSY] orbs “beneficial” all characters" },
+            { "description": "선원 효과 추가 1: 일당은 [PSY] 슬롯도 [유리] 슬롯으로 취급한다" },
             { "description": "공격력 상승 : 30" },
             { "description": "공격력 상승 : 50" },
             { "description": "잠재능력 습득 3: 긴급 회복" },
