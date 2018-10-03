@@ -34258,13 +34258,13 @@ window.details = {
     },
     2266: {//Aladdin
         captain: "Boosts ATK of Powerhouse characters by 2.25x",
-        special: "Reduces Bind and Despair duration by 3 turns, locks all orbs for 1 turn, changes right column orbs, from top to bottom, into [RCV], [INT] and [QCK] orbs. If your friend Captain's orb is [DEX], amplifies the effect of orbs by 1.75x for 3 turn.",
+        special: "Reduces Bind and Despair duration by 3 turns, locks all orbs for 1 turn, changes right column orbs, from top to bottom, into [RCV], [INT] and [QCK] orbs. If your friend Captain's orb is [DEX], amplifies the effect of orbs for all characters by 1.75x for 3 turns.",
         specialName: "The Fishman Preparing to Strike Back",
         sailor: "Adds 2x character's ATK as Additional Typeless Damage",
     },
     2267: {//Aladdin
         captain: "Boosts ATK of Powerhouse characters by 2.5x and their HP by 1.25x",
-        special: "Reduces Bind and Despair duration by 3 turns, locks all orbs for 1 turn, changes right column orbs, from top to bottom, into [RCV], [INT] and [QCK] orbs. If your friend Captain's orb is [DEX], amplifies the effect of orbs by 1.75x for 3 turn.",
+        special: "Reduces Bind and Despair duration by 3 turns, locks all orbs for 1 turn, changes right column orbs, from top to bottom, into [RCV], [INT] and [QCK] orbs. If your friend Captain's orb is [DEX], amplifies the effect of orbs for all characters by 1.75x for 3 turns.",
         specialName: "The Fishman Preparing to Strike Back",
         sailor: {
             "base": "Adds 2x character's ATK as Additional Typeless Damage",
@@ -34605,6 +34605,84 @@ window.details = {
                 ]
             },
         ]
+    },
+    2282: {//Sengoku
+        captain: "Boosts ATK of Cerebral and Fighter characters by ?x and boosts ATK of characters with cost 30 or less by ?x.",
+        captainNotes: "The bonus is cumulative. Cerebral and Fighter characters with 30 cost or less get a ?x bonus.",
+        special: "Cuts the current HP of one enemy by 20% that will ignore damage negating abilities and barriers. If your crew has 4 or more characters with the same Type Orb, makes the Dominant Type Orbs \"beneficial\" for all characters for 1 turn and amplifies the effect of orbs for all characters by 2x for 3 turns.",
+        specialName: "Ruthless Straight Fist",
+    },
+    2283: {//Sengoku
+        captain: "Boosts ATK of Cerebral and Fighter characters by 2.75x and boosts ATK of characters with cost 30 or less by 1.1x.",
+        captainNotes: "The bonus is cumulative. Cerebral and Fighter characters with 30 cost or less get a 3.025x bonus.",
+        special: "Cuts the current HP of one enemy by 20% that will ignore damage negating abilities and barriers. If your crew has 4 or more characters with the same Type Orb, makes the Dominant Type Orbs \"beneficial\" for all characters for 1 turn and amplifies the effect of orbs for all characters by 2x for 3 turns.",
+        specialName: "Ruthless Straight Fist",
+        sailor: {
+            "base": "None",
+            "level1": "Boosts base ATK, HP and RCV of all characters by 50",
+            "level2": "Makes [TND] orbs \"beneficial\" for all characters",
+        },
+        potential: [
+            {
+                "Name": "Enrage",
+                "description": [
+                    "Level 1: Boosts base ATK by ?",
+                    "Level 2: Boosts base ATK by ?",
+                    "Level 3: Boosts base ATK by ?",
+                    "Level 4: Boosts base ATK by ?",
+                    "Level 5: Boosts base ATK by ?"
+                ]
+            },
+            {
+                "Name": "Slot Bind Self-reduction",
+                "description": [
+                    "Level 1: Reduces Slot Bind duration by ? turn on this character",
+                    "Level 2: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 3: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 4: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 5: Reduces Slot Bind duration by ? turns on this character"
+                ]
+            },
+        ],
+        potentialNotes: "#{enrage}"
+    },
+    2284: {//Hody Jones
+        captain: "Reduces cooldown of all specials by ? turn at the start of the fight, boosts ATK of Powerhouse characters by ?x and increases damage received by ?x.",
+        special: "Deals 50x character's ATK in [STR] damage to all enemies, changes the orbs in the left column into [DEX], [STR] and [PSY], the orbs in the right column into [TND], [QCK] and [INT]. If your friend Captain's orb is [STR] or [DEX], amplifies the effect of orbs for Powerhouse characters by 2.25x for 1 turn.",
+        specialName: "Hody Jones Special",
+    },
+    2285: {//Hody Jones
+        captain: "Reduces cooldown of all specials by 1 turn at the start of the fight, boosts ATK of Powerhouse characters by 3.25x and increases damage received by ?x.",
+        special: "Deals 50x character's ATK in [STR] damage to all enemies, changes the orbs in the left column into [DEX], [STR] and [PSY], the orbs in the right column into [TND], [QCK] and [INT]. If your friend Captain's orb is [STR] or [DEX], amplifies the effect of orbs for Powerhouse characters by 2.25x for 1 turn.",
+        specialName: "Hody Jones Special",
+        sailor: {
+            "base": "None",
+            "level1": "Boosts base ATK of all characters by 50",
+            "level2": "Makes [STR], [QCK], [DEX], [PSY] and [INT] orbs \"beneficial\" for this character",
+        },
+        potential: [
+            {
+                "Name": "Enrage",
+                "description": [
+                    "Level 1: Boosts base ATK by ?",
+                    "Level 2: Boosts base ATK by ?",
+                    "Level 3: Boosts base ATK by ?",
+                    "Level 4: Boosts base ATK by ?",
+                    "Level 5: Boosts base ATK by ?"
+                ]
+            },
+            {
+                "Name": "Slot Bind Self-reduction",
+                "description": [
+                    "Level 1: Reduces Slot Bind duration by ? turn on this character",
+                    "Level 2: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 3: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 4: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 5: Reduces Slot Bind duration by ? turns on this character"
+                ]
+            },
+        ],
+        potentialNotes: "#{enrage}"
     },
     2286: {//Judge
         captain: "Not Translated",
