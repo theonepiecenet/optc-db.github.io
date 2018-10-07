@@ -15531,7 +15531,7 @@ window.details = {
         specialName: "가부키 사무라이의 필치",
         sailor: {
             "base": "None",
-            "level1": "Restores his own special cooldown by 2 turns when it is rewinded",
+            "level1": "자신은 필살기 턴 되돌리기를 2턴 회복한다",
         },
         sailorNotes: "#{rewind : 2}",
         limit: [
@@ -18684,11 +18684,11 @@ window.details = {
         specialName: "The Life Risked for the 'Sakura' Miracle",
         sailor: "Boosts amount healed from [RCV] orbs by 124 each",
     },
-    1525: {//Sulieman
-        captain: "Boosts ATK of Slasher characters by 3.25x, reduces his own ATK multiplier by 0.0625x at the end of each 턴 until it is 2x",
-        special: "Deals 3 hits of random typeless damage to random enemies, delays all enemies for 1 turn, boosts ATK against delayed enemies by 1.3x for 2 turn",
+    1525: {//Sulieman // modified
+        captain: "참격형 캐릭터의 공격력을 3.25배로 만들고 턴이 경과할 때마다 공격력이 약간 감소한다",
+        special: "무작위의 적에게 무 속성의 큰 랜덤 데미지를 3회 주고, 적 전체의 공격을 1턴 지연시키며, 2턴 동안 지연 중인 적에게 주는 데미지가 1.3배가 된다",
         specialNotes: "#{randomHits : 3}<br>#{random : 50,000 : 150,000 : per hit}",
-        specialName: "Sorrowful Execution",
+        specialName: "슬픔에 찬 처형",
     },
     1526: {//Arlong :: modified
         captain: "[INT]의 공격력이 1.75배가 된다",
@@ -20256,10 +20256,10 @@ window.details = {
         specialName: "피로 물든 「철벽」",
         sailor: "공격 가능한 캐릭터 전원이 공격하고 자신이 마지막으로 공격할 때, 자신의 기본 공격력이 100 상승한다",
     },
-    1603: {//McGuy
-        captain: "Boosts ATK of [STR] characters by 2.25x and their RCV by 1.25x",
-        special: "Delays all enemies for 2 turn",
-        specialName: "Numb Crosscut",
+    1603: {//McGuy // modified
+        captain: "[STR]의 공격력을 2.25배, 회복력을 1.25배로 만든다",
+        special: "적 전체의 공격을 2턴 지연시킨다",
+        specialName: "저릿저릿한 단면",
     },
     1604: {//Training Forest Ace
         captain: "Boosts ATK of [STR] characters by 1.5x",
@@ -29113,20 +29113,14 @@ window.details = {
         special: "Boosts ATK of all characters by 1.5x for 1 turn. If your Captain is a [PSY] character, amplifies the effect of orbs by 1.5x for 1 turn, adds .3x to Chain multiplier for 1 turn, adds 20x character's ATK as Additional Typeless Damage for 1 turn and reduces damage received by 40% for 1 turn.",
         specialName: "The Heavy Tank's Critical Breakthrough",
     },
-    2034: {//Kizaru 6+
-        captain: "Reduces cooldown of all specials by 2 turns at the start of the fight, boosts ATK of all characters by 2x and boosts RCV of all characters by 1.35x. If you use \"Yasakani no Magatama: Divine Light\" boosts ATK of all characters by 3.5x instead.",
-        special: [
-            {
-                "description": "For Shooter and Slasher characters, randomizes all non-matching orbs. Recovers 6x character's RCV in HP. Deals 20 hits of random typeless damage to random enemies.",
-                "cooldown": [ 9, 6 ],
-            },
-            {
-                "description": "Changes all orbs on Shooter and Slasher characters into Matching orbs. Recovers 15x character's RCV in HP. Deals 20 hits of large random typeless damage to random enemies.",
-                "cooldown": [ 15, 12 ],
-            },
-        ],
+    2034: {//Kizaru 6+ // modified
+	    "captain": "모험 시작 시 필살기 턴을 2턴 단축하고, 일당의 공격력이 2배, 회복력이 1.35배가 된다. ‘팔척경곡옥·신광’을 사용한 턴은 일당의 공격력이 3.5배가 된다",
+	    "specialName": "팔척경곡옥·신광",
+	    "special": [
+	        "사격형과 참격형의 속성 일치 슬롯 이외의 슬롯을 랜덤으로 바꾸며, 캐릭터의 회복력x6배의 체력을 회복하고, 무작위의 적에게 무 속성의 랜덤 데미지를 20회 준다",
+	        "사격형과 참격형의 슬롯을 속성 일치 슬롯으로 바꾸며, 캐릭터의 회복력x15배의 체력을 회복하고, 무작위의 적에게 무 속성의 큰 랜덤 데미지를 20회 준다"
+	    ],
         specialNotes: "#{randomHits : 20}<br>#{random : ??? : ??? : for each hit on Stage 1}<br>#{random : ??? : ??? : for each hit on Stage 2}<br>#{stages}",
-        specialName: "Yasakani no Magatama: Divine Light",
     },
     2035: {//Buggy 6+ // modified
         captain: "코스트 40 이하인 캐릭터의 공격력을 1.75배, 코스트 41 이상인 캐릭터의 공격력과 체력을 50% 감소시키고, 모험에서 획득한 보물이 한 가지 추가된다(모험 도중에 선장이 된 경우에는 보물 추가 효과가 적용되지 않습니다)",
