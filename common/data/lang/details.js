@@ -1461,10 +1461,10 @@ window.details = {
             },
         ]
     },
-	228: {
-		special: "봉인 상태를 2턴 회복",
+	228: { // modified
+		special: "‘봉쇄’ 상태가 회복된다 (2턴)",
 		specialName: "탈옥의 도끼손",
-		captain: "참격형 캐릭터의 체력을 1.5배로 만든다."
+		captain: "참격형 캐릭터의 체력이 1.5배가 된다"
 	},
 	229: {
 		special: "[INT] 슬롯을 [PSY] 슬롯으로 변환",
@@ -2528,10 +2528,10 @@ window.details = {
 		specialName: "바이올린 돌격",
 		captain: "전투가 시작될때 체력이 30% 이하면 일당의 회복력이 5배가 된다."
 	},
-	332: {
-		special: "[STR]슬롯을 [RCV] 슬롯으로, [RCV] 슬롯을 [DEX] 슬롯으로 변환.",
-		specialName: "눈 가르기 풀",
-		captain: "타격형 캐릭터의 체력, 회복력, 공격력이 1.2배가 된다."
+	332: { // modified
+		special: "[STR]슬롯을 [RCV]로, [RCV] 슬롯을 [DEX]로 바꾼다",
+		specialName: "눈더미 베기",
+		captain: "타격형 캐릭터의 능력치가 1.2배가 된다"
 	},
 	333: { // modified
 	    "specialName": "닥터 스톱",
@@ -5496,15 +5496,15 @@ window.details = {
         captain: "Boosts ATK of [PSY] characters by 2.5x 전투 시작 시 체력이 30% 미만이면",
         sailor: "Recovers 2 턴 of Paralysis on self"
     },
-    643: {
-        special: "Reduces crew's current HP by 30%, deals 10x character's ATK in fixed damage to one enemy, amplifies the effect of orbs by 1.75x for 1 turn",
+    643: { // modified
+	    "captain": "남은 체력이 적을 때 [PSY] 캐릭터의 공격력이 3배가 된다",
+	    "specialName": "용맹한 자의 대태도",
+	    "special": "일당의 체력을 30% 줄이고 적 1명에게 고정 데미지, 슬롯의 영향을 상당히 증폭시킨다 (1턴)",
+	    "sailor": [
+	        "자신은 마비 상태를 2턴 회복한다",
+	        "의성어 은폐 상태를 2턴 회복한다"
+	    ],
         specialNotes: "#{fixed} #{orb : 1.75x}",
-        specialName: "Raging Greatsword",
-        captain: "Boosts ATK of [PSY] characters by 3x 전투 시작 시 체력이 30% 미만이면",
-        sailor: {
-            "base": "Recovers 2 turns of Paralysis on self",
-            "level1": "Reduces Blindness duration by 2 turns",
-        },
         limit: [
             { "description": "회복력 상승 : 25" },
             { "description": "체력 상승 : 40" },
@@ -12527,11 +12527,11 @@ window.details = {
         specialNotes: "#{randomHits : 15}",
         specialName: "고릴라 펀치 : 골든 스트라이크"
     },
-    1143: {// Coliseum Foxy
-        captain: "자유 캐릭터의 공격력을 2배 상승시키고, 전투 시작 시 자유 캐릭터의 필살기를 2턴 감소시킨다.",
-        special: "랜덤의 적에게 [STR] 데미지를 15회 주고, 적 전체의 공격을 1턴 지연시킨다.",
+    1143: {// Coliseum Foxy // modified
+        captain: "모험 시작 시 자유형 캐릭터의 필살기 턴을 2턴 단축하고, 자유형의 공격력을 2배로 만든다",
+        special: "무작위의 적에게 [STR] 랜덤 데미지를 15회 주고, 적 전체를 1턴 지연시킨다",
         specialNotes: "#{randomHits : 15}",
-        specialName: "고릴라 펀치 : 골든 스트라이크"
+        specialName: "고릴라 펀치 골든 히트"
     },
     1144: {// Coliseum Porche // modified
         captain: "[PSY] 캐릭터의 공격력을 1.75배로 만든다",
@@ -20552,10 +20552,10 @@ window.details = {
             },
         ]
     },
-    1619: {//6+ Raybae/Rayleigh
-        captain: "Boosts chain multiplier by 4x and boosts HP and RCV of all characters by 1.2x",
-        special: "Reduces Bind, Despair, and Paralysis duration by 7 턴, delays all enemies for 1 turn, and makes PERFECTs easier to hit for 1 turn",
-        specialName: "Netherworld Conqueror",
+    1619: {//6+ Raybae/Rayleigh // modified
+	    "captain": "체인 계수 증가량이 4배로 상승하며 일당의 체력과 회복력을 1.2배로 만든다",
+	    "specialName": "명부의 패왕",
+	    "special": "봉쇄, 선장효과 무효, 마비 상태를 7턴 회복하고, 적 전체의 공격을 1턴 지연시키고, 1턴 동안 PERFECT 타이밍이 쉬워진다",
     },
     1620: {//Log Kid :: modified
         captain: "남은 체력이 적을 때 타격형 캐릭터의 공격력을 2.5배로 만든다",
@@ -33778,6 +33778,46 @@ window.details = {
             "level1": "Makes [DEX] orbs \"beneficial\" for Slasher characters",
         },
         sailorNotes: "#{beneficial}",
+        limit: [
+            { "description": "Boosts base ATK by 10" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base HP by 20" },
+            { "description": "Acquire Potential 1: Critical Hit" },
+            { "description": "Boosts base HP by 20" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Boosts base ATK by 35" },
+            { "description": "Boosts base HP by 30" },
+            { "description": "Boosts base ATK by 45" },
+            { "description": "Boosts base HP by 30" },
+            { "description": "Boosts base ATK by 50" },
+            { "description": "Boosts base RCV by 40" },
+            { "description": "Acquire Sailor Ability 1: Makes [DEX] orbs \"beneficial\" for Slasher characters" },
+            { "description": "Acquire Potential 2: Slot Bind Self-reduction" },
+        ],
+        potential: [
+            {
+                "Name": "Critical Hit",
+                "description": [
+                    "Level 1: If you hit a PERFECT with this character, there is a 10% chance to deal 1% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 15% chance to deal 2% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 20% chance to deal 4% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 25% chance to deal 6% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 40% chance to deal 8% of this character's attack in extra damage"
+                ]
+            },
+            {
+                "Name": "Slot Bind Self-reduction",
+                "description": [
+                    "Level 1: Reduces Slot Bind duration by 1 turn on this character",
+                    "Level 2: Reduces Slot Bind duration by 2 turns on this character",
+                    "Level 3: Reduces Slot Bind duration by 3 turns on this character",
+                    "Level 4: Reduces Slot Bind duration by 5 turns on this character",
+                    "Level 5: Reduces Slot Bind duration by 7 turns on this character"
+                ]
+            },
+        ]
+
     },
     2250: {//Garp
         captain: "Boosts ATK of all characters by 2x at the start of the chain and their HP by 1.5x, boosts ATK of all characters by 4x following a chain of Good > Great > PERFECT hits, makes [PSY] and [RCV] orbs \"beneficial\" to all characters. Reduces ATK based on how many Striker, Slasher or Cerebral characters you have on your crew.",
@@ -33794,18 +33834,88 @@ window.details = {
         specialName: "Fist of Love",
     },
     2251: {//Garp
-        captain: "Boosts ATK of all characters by 2x at the start of the chain and their HP by 1.5x, boosts ATK of all characters by 4x following a chain of Good > Great > PERFECT hits, makes [PSY] and [RCV] orbs \"beneficial\" to all characters. Reduces ATK based on how many Striker, Slasher or Cerebral characters you have on your crew.",
+        captain: "Boosts ATK of all characters by 2x at the start of the chain and their HP by 1.5x, boosts ATK of all characters by 4x following a chain of Good > Great > PERFECT hits, makes [PSY] and [RCV] orbs \"beneficial\" to all characters. Reduces ATK based on how many Striker, Shooter or Cerebral characters you have on your crew.",
         special: [
             {
-                "description": "uts the current HP of one enemy by 10% that will ignore damage negating abilities and barriers, locks the chain multiplier at 3x for 1 turn and reduces Silence duration by 1 turn",
-                "cooldown": [ null, null ],
+                "description": "Cuts the current HP of one enemy by 10% that will ignore damage negating abilities and barriers, locks the chain multiplier at 3x for 1 turn and reduces Silence duration by 1 turn",
+                "cooldown": [ 15, 10 ],
             },
             {
-                "description": "uts the current HP of one enemy by 30% that will ignore damage negating abilities and barriers, locks the chain multiplier at 3x for 1 turn and reduces Silence duration by 3 turns",
-                "cooldown": [ 21, null ],
+                "description": "Cuts the current HP of one enemy by 30% that will ignore damage negating abilities and barriers, locks the chain multiplier at 3x for 1 turn and reduces Silence duration by 3 turns",
+                "cooldown": [ 21, 16 ],
             },
         ],
         specialName: "Fist of Love",
+        specialNotes:"#{silence}",
+        sailor: {
+            "base": "None",
+            "level1": "Reduces Silence duration on this character by 20 turns",
+            "level2": "Boosts own base ATK, HP and RCV by 75",
+        },
+        limit: [
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Acquire Potential 1: [INT] Damage Reduction" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base HP by 40" },
+            { "description": "Acquire Sailor Ability 1: Reduces Silence duration on this character by 20 turns" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base HP by 40" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Acquire Potential 2: Barrier Penetration" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Boosts base RCV by 20" },
+            { "description": "Boosts base RCV by 20" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base HP by 60" },
+            { "description": "Boosts base HP by 60" },
+            { "description": "Boosts base HP by 60" },
+            { "description": "Boosts base HP by 80" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Acquire Sailor Ability 2: Boosts own base ATK, HP and RCV by 75" },
+            { "description": "Boosts base ATK by 50" },
+            { "description": "Boosts base ATK by 50" },
+            { "description": "Acquire Potential 3: Critical Hit" },
+        ],
+        potential: [
+            {
+                "Name": "[INT] Damage Reduction",
+                "description": [
+                    "Level 1: Reduce damage taken from [INT] characters by 1%",
+                    "Level 2: Reduce damage taken from [INT] characters by 2%",
+                    "Level 3: Reduce damage taken from [INT] characters by 3%",
+                    "Level 4: Reduce damage taken from [INT] characters by 4%",
+                    "Level 5: Reduce damage taken from [INT] characters by 5%"
+                ]
+            },
+            {
+                "Name": "Barrier Penetration",
+                "description": [
+                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers"
+                ]
+            },
+            {
+                "Name": "Critical Hit",
+                "description": [
+                    "Level 1: If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 70% chance to deal 6% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 90% chance to deal 10% of this character's attack in extra damage"
+                ]
+            },
+        ]
     },
     2252: {//Pound
         captain: "Boosts ATK of Free Spirit characters by ?x. If you use \"A Bizzare Encounter\" in this turn boosts ATK of Free Spirit characters by ?x instead.",
@@ -34384,6 +34494,24 @@ window.details = {
         captain: "Boosts ATK and RCV of all characters by 1.75x and recovers 5x character's RCV in HP at the end of each turn",
         special: "Removes Blindness duration completely and reduces Paralysis duration by 2 turns. If your Captain is a Free Spirit or Cerebral character, reduces Special Cooldown of all characters by 1 turn and reduces enemy Barrier duration by 1 turn.",
         specialName: "Vivi Special",
+        sailor: "Restores her own special cooldown by 2 turns when it is rewinded",
+        sailorNotes: "#{rewind : 2}",
+    },
+    2295: {//Moria
+        captain: "Boosts ATK of [STR] characters by 1.75x",
+        special: "Reduces Chain Multiplier Limit and Despair duration by 3 turns and deals 50x character's ATK as typeless damage to all enemies at the end of the turn for 3 turns",
+        specialName: "Undead Dance Hall",
+    },
+    2296: {//Rayleigh
+        captain: "Boosts ATK of Cerebral characters by 1.75x",
+        special: "Removes all positive buffs on your team and adds 0.5 to Chain multiplier for 1 turn. If you are on a Treasure Map, amplifies the effects of orbs for [STR], [DEX] and [PSY] characters depending on your Treasure Map Level for 1 turn",
+        specialName: "Enjoying the Elegant Night",
+        specialNotes: "Level 1-10: 1.75x orb boost<br\>Level 11-20: 2x orb boost<br\>Level 21+: 2.25x orb boost",
+    },
+    2297: {//Perona
+        captain: "Boosts ATK of Driven characters by 1.5x and their RCV by 1.2x",
+        special: "Reduces Special Cooldown of your right column by 1 turn, reduces enemy Damage Nullification duration by 1 turn and recovers 15x character's RCV in HP.",
+        specialName: "Inject Hollow",
         sailor: "Restores her own special cooldown by 2 turns when it is rewinded",
         sailorNotes: "#{rewind : 2}",
     },
