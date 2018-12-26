@@ -2739,11 +2739,11 @@ window.drops = {
         
         {
             name: 'Clash!! Arlong',
-            thumb: 2256,
+            thumb: 2356,
             nakama: null,
             gamewith: 134190,
-            Master: [ 2255 ],
-            Expert: [ 2255 ]
+            Master: [ 2355 ],
+            Expert: [ 2355 ]
         },
 
     ],
