@@ -40628,7 +40628,7 @@ window.details = {
         ]
     },
     2363: {//6+ Gear 4 Luffy
-        captain: "Reduces cooldown of all specials by 1 turn at the start of the fight, boosts ATK of all characters by 3.25x, their HP by 1.35x, makes [DEX] and [INT] orbs beneficial for all characters. If you use 'Gomu Gomu no King Cobra' for 3 turns, boosts ATK of all characters by 4x, by 4.25x after 3 PERFECTs in a row",
+        captain: "Reduces cooldown of all specials by 1 turn at the start of the fight, boosts ATK of all characters by 3.25x, their HP by 1.35x, makes [DEX] and [INT] orbs beneficial for all characters. If you use 'Gomu Gomu no King Cobra' for 3 turns, THIS Luffy boosts ATK of all characters by 4x, by 4.25x after 3 PERFECTs in a row",
         special: [
             {
                 "description": "Deals 150x character's ATK in Typeless damage to one enemy, adds .3 to Chain multiplier for 1 turn, amplifies the effect of orbs of all characters by 1.5x for 1 turn. If Luffy is your Captain or Friend/Guest Captain, makes makes [STR], [DEX], [QCK], [PSY] and [INT] orbs 'beneficial' for all characters for 3 turns",
@@ -40724,16 +40724,16 @@ window.details = {
         ]
     },
     2364: {//Katakuri
-        captain: "Boosts ATK of Fighter, Slasher, Shooter, Driven and Powerhouse characters by 1.825x, boosts the Color Affinity of all characters by 1.4x and makes [STR], [PSY], [RCV] and [TND] orbs \"beneficial\" for all characters. Recovers 50% of damage taken in the previous stage when entering a new stage.",
+        captain: "Boosts ATK of Fighter, Slasher, Shooter, Driven and Powerhouse characters by 1.825x, boosts the Color Affinity of all characters by 1.4x and makes [STR], [PSY], [RCV] and [TND] orbs \"beneficial\" for all characters. Recovers 50% of damage taken from enemies in the previous stage when entering a new stage.",
         captainNotes: "The bonus is cumulative. Characters with 2 of the boosted classes get a 3.330625x bonus<br>#{beneficial}",
-        special: "Deals typeless damage to all enemies equal to 30x the damage taken before the special is activated and adds Additional Typeless Damage equal to 15x the damage taken before the special is activated for 1 turn.",
+        special: "Deals typeless damage to all enemies equal to 30x the damage taken from enemies before the special is activated and adds Additional Typeless Damage equal to 15x the damage taken from enemies before the special is activated for 1 turn.",
         specialNotes: "The amount of damage possible caps at 200,000 damage taken, so 6,000,000 AOE Typeless damage and 3,000,000 Additional Damage.",
         specialName: "Burning Mochi",
     },
     2365: {//Katakuri
-        captain: "Boosts ATK of Fighter, Slasher, Shooter, Driven and Powerhouse characters by 1.825x, boosts the Color Affinity of all characters by 1.4x and makes [STR], [PSY], [RCV] and [TND] orbs \"beneficial\" for all characters. Recovers 50% of damage taken in the previous stage when entering a new stage.",
+        captain: "Boosts ATK of Fighter, Slasher, Shooter, Driven and Powerhouse characters by 1.825x, boosts the Color Affinity of all characters by 1.4x and makes [STR], [PSY], [RCV] and [TND] orbs \"beneficial\" for all characters. Recovers 50% of damage taken from enemies in the previous stage when entering a new stage.",
         captainNotes: "The bonus is cumulative. Characters with 2 of the boosted classes get a 3.330625x bonus<br>#{beneficial}",
-        special: "Deals typeless damage to all enemies equal to 30x the damage taken before the special is activated and adds Additional Typeless Damage equal to 15x the damage taken before the special is activated for 1 turn.",
+        special: "Deals typeless damage to all enemies equal to 30x the damage taken from enemies before the special is activated and adds Additional Typeless Damage equal to 15x the damage taken from enemies before the special is activated for 1 turn.",
         specialNotes: "The amount of damage possible caps at 200,000 damage taken, so 6,000,000 AOE Typeless damage and 3,000,000 Additional Damage.",
         specialName: "Burning Mochi",
         sailor: {
@@ -41263,7 +41263,7 @@ window.details = {
     2386: {//TM Kaido
         captain: "Boosts own ATK by ?x and boosts ATK of Driven and Powerhouse characters by ?x and their HP by ?x",
         special: "Removes all positive buffs on your team, cuts the current HP of one enemy by 20% that will ignore damage negating abilities and barriers, amplifies the effect of orbs for all characters by 1.5x and boosts own ATK by 3.25x for a variable amount of turns",
-        special: "ATK and Orb amplification buff duration is equal to the amount of [RCV] orbs consumed prior to the time the special was activated with a maximum of 6 turns.",
+        specialNotes: "ATK and Orb amplification buff duration is equal to the amount of [RCV] orbs consumed prior to the time the special was activated with a maximum of 6 turns.",
         specialName: "Kaido Special",
     },
     2387: {//TM Kaido
@@ -41277,7 +41277,7 @@ window.details = {
             "level6": "Boosts own ATK by 3.25x and boosts ATK of Driven and Powerhouse characters by 2.75x and their HP by 1.2x",
         },
         special: "Removes all positive buffs on your team, cuts the current HP of one enemy by 20% that will ignore damage negating abilities and barriers, amplifies the effect of orbs for all characters by 1.5x and boosts own ATK by 3.25x for a variable amount of turns",
-        special: "ATK and Orb amplification buff duration is equal to the amount of [RCV] orbs consumed prior to the time the special was activated with a maximum of 6 turns.",
+        specialNotes: "ATK and Orb amplification buff duration is equal to the amount of [RCV] orbs consumed prior to the time the special was activated with a maximum of 6 turns.",
         specialName: "Kaido Special",
         sailor: {
             "base": "None",
@@ -41407,15 +41407,103 @@ window.details = {
     },
     2500: {//Knight Zoro
         captain: "Boosts ATK of [STR] and [QCK] characters by 2.75x, their HP by 1.3x, lowers chances of getting [INT] orbs, makes [STR] and [QCK] orbs \"beneficial\" for [STR] and [QCK] characters. If there is a [STR], [QCK] and [INT] character in your crew, boosts chain multiplier by 1.5x.",
+        captainNotes: "#{beneficial}",
         special: "Locks all orbs for 1 turn and changes [QCK] and [DEX] orbs into Matching orbs. If enemies have All Debuff Protection or Delay Debuff Protection at the time the special was activated, boosts ATK of [STR] and [QCK] characters by 2x for 2 turns, by 1.75x for 2 turns otherwise.",
-        sailor: "Not Translated",//CHANGE THIS
+        sailor: {
+            "base": "Makes [RCV] orbs \"beneficial\" for all characters",
+            "level1": "Boosts base ATK, HP and RCV of all characters by 50",
+        },
+        sailorNotes: "#{beneficial}",
         specialName: "Chivalrous Slash",
+        limit: [
+            { "description": "Boosts base ATK by 25" },
+            { "description": "Boosts base ATK by 25" },
+            { "description": "Boosts base HP by 30" },
+            { "description": "Acquire Potential 1: Slot Bind Self-reduction" },
+            { "description": "Boosts base HP by 40" },
+            { "description": "Boosts base RCV by 25" },
+            { "description": "Boosts base RCV by 25" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Boosts base HP by 60" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base HP by 80" },
+            { "description": "Boosts base ATK by 40" },
+            { "description": "Acquire Sailor Ability 1: Boosts base ATK, HP and RCV of all characters by 50" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Acquire Potential 2: No Healing duration" },
+        ],
+        potential: [
+            {
+                "Name": "Slot Bind Self-reduction",
+                "description": [
+                    "Level 1: Reduces Slot Bind duration by 1 turn on this character",
+                    "Level 2: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 3: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 4: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 5: Reduces Slot Bind duration by ? turns on this character"
+                ]
+            },
+            {
+                "Name": "No Healing duration",
+                "description": [
+                    "Level 1: Reduces No Healing duration by 1 turn",
+                    "Level 2: Reduces No Healing duration by ? turn",
+                    "Level 3: Reduces No Healing duration by ? turn",
+                    "Level 4: Reduces No Healing duration by ? turn",
+                    "Level 5: Reduces No Healing duration by ? turn"
+                ]
+            },
+        ]
     },
     2501: {//Knight Sanji
         captain: "Boosts ATK of [STR] and [QCK] characters by 2.75x, their HP by 1.3x, lowers chances of getting [PSY] orbs, makes [STR] and [QCK] orbs \"beneficial\" for [STR] and [QCK] characters. If there is a [STR], [QCK] and [PSY] character in your crew, boosts chain multiplier by 1.5x.",
+        captainNotes: "#{beneficial}",
         special: "Reduces any damage received above 6,000 HP by ?% for 1 turn and changes all orbs, including [BLOCK] orbs, to [QCK] orbs. If enemies have All Debuff Protection or Delay Debuff Protection at the time the special was activated, amplifies the effects of orbs for [STR] and [QCK] characters by 2x for 2 turns, by 1.75x for 2 turns otherwise.",
-        sailor: "Not Translated",//CHANGE THIS
+        sailor: {
+            "base": "Changes all orbs into [RCV] orbs at the start of the fight",
+            "level1": "Makes [TND] orbs \"beneficial\" for all characters",
+        },
+        sailorNotes: "#{beneficial}",
         specialName: "Chivalrous Kick",
+        limit: [
+            { "description": "Boosts base ATK by 25" },
+            { "description": "Boosts base ATK by 25" },
+            { "description": "Boosts base HP by 30" },
+            { "description": "Acquire Potential 1: Slot Bind Self-reduction" },
+            { "description": "Boosts base HP by 40" },
+            { "description": "Boosts base RCV by 25" },
+            { "description": "Boosts base RCV by 25" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Boosts base HP by 60" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base HP by 80" },
+            { "description": "Boosts base ATK by 40" },
+            { "description": "Acquire Sailor Ability 1: Makes [TND] orbs \"beneficial\" for all characters" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Acquire Potential 2: Pinch Healing" },
+        ],
+        potential: [
+            {
+                "Name": "Slot Bind Self-reduction",
+                "description": [
+                    "Level 1: Reduces Slot Bind duration by 1 turn on this character",
+                    "Level 2: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 3: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 4: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 5: Reduces Slot Bind duration by ? turns on this character"
+                ]
+            },
+            {
+                "Name": "Pinch Healing",
+                "description": [
+                    "Level 1: If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 2: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 3: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 4: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 5: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                ]
+            },
+        ]
     },
     2502: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
